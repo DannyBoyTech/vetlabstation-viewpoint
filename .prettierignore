@@ -1,0 +1,7 @@
+packages/app/out
+packages/app-win7/out
+dist
+vite.config.ts.timestamp-*.mjs
+
+# differential files are machine generated
+packages/ui/public/locales/*/differentials.json

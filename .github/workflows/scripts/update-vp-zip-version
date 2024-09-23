@@ -1,0 +1,45 @@
+#!/bin/bash
+set -euo pipefail
+IFS=$'\n\t'
+
+##########################################################################################
+## update-vp-zip-version <viewpoint-zip-archive> <version>
+##########################################################################################
+# Updates a viewpoint app archive version (fixes versions internally).
+# The original archive is overwritten with an updated archive upon completion.
+##########################################################################################
+
+ORIG_ARTIFACT_PATH="$1"
+VERSION="$2"
+
+ORIG_ARTIFACT_NAME="$(basename $ORIG_ARTIFACT_PATH)"
+ORIG_ARTIFACT_DIR="$(dirname $ORIG_ARTIFACT_PATH)"
+
+TEMP_ZIPDIR="$(mktemp -d)"
+TEMP_PJSON="$(mktemp)"
+TEMP_ARTIFACT="$(mktemp)"
+
+7z x -bd -y "$ORIG_ARTIFACT_PATH" -o"$TEMP_ZIPDIR" 2>&1 > /dev/null
+
+# remove the top level directory (if present)
+TOP_ENTRIES=$(find "$TEMP_ZIPDIR" -mindepth 1 -maxdepth 1)
+if [ $(wc -l <<< "$TOP_ENTRIES") -eq 1 ]; then
+    TOP_ENTRY="$TOP_ENTRIES"
+
+    if [ -d "$TOP_ENTRY" ]; then
+        (shopt -s dotglob && mv -f "$TOP_ENTRY"/* "$TEMP_ZIPDIR")
+        rmdir "$TOP_ENTRY" > /dev/null 2>&1
+    fi
+fi
+
+# replace package.json version
+jq --arg version "$VERSION" '.version = $version' "$TEMP_ZIPDIR/resources/app/package.json" > "$TEMP_PJSON"
+mv "$TEMP_PJSON" "$TEMP_ZIPDIR/resources/app/package.json"
+
+# place ClientVersion file with new version
+echo "$VERSION" > "$TEMP_ZIPDIR/ClientVersion"
+
+# zip up the updated artifact & replace original
+(cd "$TEMP_ZIPDIR" && 7z a -tzip -bd -y -so dummy 2>/dev/null > "$TEMP_ARTIFACT") && rm -rf "$TEMP_ZIPDIR"
+
+mv "$TEMP_ARTIFACT" "$ORIG_ARTIFACT_PATH"

@@ -1,0 +1,34 @@
+{
+  "name": "@viewpoint/app",
+  "productName": "@viewpoint/app",
+  "version": "1.0.147",
+  "description": "ViewPoint App",
+  "main": ".vite/build/main.js",
+  "scripts": {
+    "start": "cross-env DOTENV_CONFIG_PATH=\"../server/.env\" electron-forge start --inspect-electron",
+    "package": "electron-forge package",
+    "make:win32": "rimraf out && electron-forge make --arch=ia32 --platform=win32"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@viewpoint/server": "^1.0.0",
+    "electron-squirrel-startup": "1.0.0",
+    "source-map-support": "0.5.21",
+    "winston": "3.8.1",
+    "winston-daily-rotate-file": "4.7.1"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "7.2.0",
+    "@electron-forge/maker-squirrel": "7.2.0",
+    "@electron-forge/maker-zip": "7.2.0",
+    "@electron-forge/plugin-auto-unpack-natives": "7.2.0",
+    "@electron-forge/plugin-vite": "7.2.0",
+    "@electron-forge/tracer": "7.2.0",
+    "@manypkg/find-root": "2.2.1",
+    "@types/source-map-support": "^0.5.10",
+    "cross-env": "7.0.3",
+    "electron": "28.2.2",
+    "ts-node": "^10.9.2",
+    "typescript": "~4.5.4"
+  }
+}

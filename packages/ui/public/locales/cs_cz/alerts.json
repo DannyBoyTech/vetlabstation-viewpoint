@@ -1,0 +1,1557 @@
+{
+  "ACADIA_DX": {
+    "ALG_RUN_FLAG_FAULT": {
+      "body": "Došlo k neočekávané chybě, která přerušila zpracování. Promíchejte vzorek a nechte jej zpracovat znovu. Pokud problém trvá, obraťte se na podporu společnosti IDEXX.",
+      "title": "Neočekávaná chyba"
+    },
+    "ASP_CLOT": {
+      "body": "Zpracovávání bylo zrušeno kvůli nedostatečnému objemu vzorku a/nebo sraženinám ve vzorku. Zkontrolujte, zda má vzorek správný objem a zda se v něm neobjevily sraženiny, poté vzorek promíchejte a proveďte jeho opakované zpracování. Pokud problém trvá, obraťte se na podporu společnosti IDEXX.",
+      "title": "Problém se vzorkem"
+    },
+    "ASP_ERROR": {
+      "body": "Zpracovávání bylo zrušeno kvůli nedostatečnému objemu vzorku a/nebo sraženinám ve vzorku. Zkontrolujte, zda má vzorek správný objem a zda se v něm neobjevily sraženiny, poté vzorek promíchejte a proveďte jeho opakované zpracování. Pokud problém trvá, obraťte se na podporu společnosti IDEXX.",
+      "title": "Problém se vzorkem"
+    },
+    "ASP_NO_FLUID": {
+      "body": "Zpracovávání bylo zrušeno kvůli nedostatečnému objemu vzorku a/nebo sraženinám ve vzorku. Zkontrolujte, zda má vzorek správný objem a zda se v něm neobjevily sraženiny, poté vzorek promíchejte a proveďte jeho opakované zpracování. Pokud problém trvá, obraťte se na podporu společnosti IDEXX.",
+      "title": "Problém se vzorkem"
+    },
+    "ASP_PARTIAL": {
+      "body": "Zpracovávání bylo zrušeno kvůli nedostatečnému objemu vzorku a/nebo sraženinám ve vzorku. Zkontrolujte, zda má vzorek správný objem a zda se v něm neobjevily sraženiny, poté vzorek promíchejte a proveďte jeho opakované zpracování. Pokud problém trvá, obraťte se na podporu společnosti IDEXX.",
+      "title": "Problém se vzorkem"
+    },
+    "ASP_START_IN_AIR": {
+      "body": "Zpracovávání bylo zrušeno kvůli nedostatečnému objemu vzorku a/nebo sraženinám ve vzorku. Zkontrolujte, zda má vzorek správný objem a zda se v něm neobjevily sraženiny, poté vzorek promíchejte a proveďte jeho opakované zpracování. Pokud problém trvá, obraťte se na podporu společnosti IDEXX.",
+      "title": "Problém se vzorkem"
+    },
+    "BARCODE_READ_FAILURE_QC": {
+      "body": "Čárový kód SmartQC nelze přečíst. Zkontrolujte, zda čárový kód na štítku není poškozen nebo zakryt.",
+      "title": "Nelze načíst čárový kód SmartQC."
+    },
+    "BARCODE_READ_FAILURE_REAGENT": {
+      "body": "Sadu reagencie ProCyte One nelze identifikovat, zkontrolujte prosím čárový kód – v případě poškození kontaktujte podporu IDEXX.",
+      "title": "Sada reagencie je neplatná"
+    },
+    "BARCODE_READ_FAILURE_SHEATH": {
+      "body": "Sadu nosné kapaliny ProCyte One nelze identifikovat, zkontrolujte prosím čárový kód – v případě poškození se obraťte na podporu IDEXX.",
+      "title": "Chyba nosné kapaliny"
+    },
+    "BLEACH_CLEAN_RECOMMENDED": {
+      "body": "Od posledního čištění bělidlem uplynulo 90 dní.<linebreak/>Tento postup trvá přibližně 15 minut, odstraní kontaminanty a zajistí přesné výsledky.",
+      "title": "Připomínka 90denního čištění bělidlem"
+    },
+    "BLEACH_CLEAN_REQUIRED": {
+      "body": "Tento postup údržby provedete klepnutím na tlačítko <strong>Run Bleach Clean</strong> (Provést čištění bělidlem).<linebreak/>Tento postup trvá přibližně 15 minut, odstraní kontaminanty a zajistí přesné výsledky.",
+      "title": "90denní čištění bělidlem je nutný postup."
+    },
+    "CAMERA_INITIALIZATION_FAILURE": {
+      "body": "Došlo k neočekávané chybě. Počkejte, dokud analyzátor neobnoví činnost. Pokud problém trvá, obraťte se na podporu společnosti IDEXX.",
+      "title": "Neočekávaná chyba"
+    },
+    "DATA_PROCESSING_ERROR": {
+      "body": "Došlo k neočekávané chybě, která přerušila zpracování. Promíchejte vzorek a nechte jej zpracovat znovu. Pokud problém trvá, obraťte se na podporu společnosti IDEXX.",
+      "title": "Neočekávaná chyba"
+    },
+    "EXPIRED_REAGENT": {
+      "body": "Vaše sada reagencie je expirovaná.<linebreak/>Pokud chcete pokračovat v používání vašeho analyzátoru, vyměňte sadu reagencie za novou. Pokyny k výměně otevřete klepnutím na možnost <strong>Vyměnit reagencii</strong>.",
+      "title": "VAROVÁNÍ: Reagencie je expirovaná."
+    },
+    "EXPIRED_SHEATH": {
+      "body": "Vaše sada nosné kapaliny je expirovaná.<linebreak/>Pokud chcete pokračovat v používání vašeho analyzátoru, vyměňte sadu za novou. Pokyny k výměně otevřete klepnutím na možnost <strong>Vyměnit nosnou kapalinu</strong>.",
+      "title": "VAROVÁNÍ: Nosná kapalina je expirovaná."
+    },
+    "FILTER_LEAK": {
+      "body": "Došlo k neočekávané chybě filtru. Před pokračováním znovu vložte filtr do analyzátoru.<linebreak/>Pokud problém trvá, obraťte se na podporu společnosti IDEXX.",
+      "title": "Chyba filtru"
+    },
+    "FILTER_REPLACE": {
+      "body": "Filtr oběhové kapaliny je nutné vyměnit. Tento proces bude trvat 3–4 minuty. Vyměňte filtr v analyzátoru, nebo poklepejte na <strong>Vyměnit filtr</strong>, kde najdete další pokyny.",
+      "title": "Vyměnit filtr oběhové kapaliny"
+    },
+    "INSUFFICIENT_EVENTS": {
+      "body": "Došlo k neočekávané chybě, která přerušila zpracování. Promíchejte vzorek a nechte jej zpracovat znovu. Pokud problém trvá, obraťte se na podporu společnosti IDEXX.",
+      "title": "Neočekávaná chyba"
+    },
+    "JUNK_OVERLOAD": {
+      "body": "Nadměrné množství nelyzovaných červených krvinek narušilo počet bílých krvinek. Potvrďte pomocí krevního nátěru. Potřebujete-li pomoc, obraťte se na podporu společnosti IDEXX.",
+      "title": "Výsledky WBC zadrženy"
+    },
+    "MAINTENANCE_TUBE_ERROR": {
+      "body": "U zkumavky používané k čištění bělidlem se vyskytl problém. Zkontrolujte, že používáte zkumavku s rozměry 13 mm x 75 mm, která má sejmutý uzávěr. Poté pokračujte stisknutím tlačítka <strong>Start</strong> na analyzátoru.<linebreak/>Stisknutím tlačítka <strong>Zrušit</strong> tento proces ukončíte.",
+      "title": ""
+    },
+    "MICROCODE_WATCHDOG": {
+      "body": "Došlo k neočekávané chybě. Počkejte, dokud analyzátor neobnoví činnost. Pokud problém trvá, obraťte se na podporu společnosti IDEXX.",
+      "title": "Neočekávaná chyba"
+    },
+    "MISSING_CONTROL": {
+      "body": "Vložte lahvičku SmartQC, aby bylo možné aktivovat automatickou kontrolu kvality.",
+      "title": "Vložit lahvičku SmartQC"
+    },
+    "MISSING_REAGENT": {
+      "body": "Vložte sadu reagencie, aby se zpracování vzorku obnovilo.",
+      "title": "Chybějící reagenční sada"
+    },
+    "MISSING_SAMPLE": {
+      "body": "Zkontrolujte, že zkumavka na vzorek je podporovanou zkumavkou s EDTA, promíchejte vzorek, sejměte zátku nebo uzávěr a poté proveďte opakované zpracování vzorku.",
+      "title": "Problém se zkumavkou na vzorek"
+    },
+    "MISSING_SHEATH": {
+      "body": "Vložte sadu nosné kapaliny, aby se zpracování vzorku obnovilo.",
+      "title": "Chybějící balení nosné kapaliny"
+    },
+    "OBC_EMPTY": {
+      "body": "Lahvička SmartQC je prázdná a bude ji nutné vyměnit, aby bylo možné obnovit automatickou kontrolu kvality.",
+      "title": "SmartQC je prázdná"
+    },
+    "OBC_LOW": {
+      "body": "Hladina kapaliny v lahvičce SmartQC je nízká a bude ji nutné brzy vyměnit. Zkontrolujte, že máte v inventáři náhradní lahvičku.",
+      "title": "Nízká hladina kapaliny SmartQC"
+    },
+    "OVER_PRESSURE": {
+      "body": "Systém zjistil, že u jedné z hadiček na tekutiny došlo k ucpání. Systém se automaticky pokusí ucpání odstranit, vyčkejte prosím.",
+      "title": "Došlo k ucpání"
+    },
+    "OVER_PRESSURE_UNRECOVERABLE": {
+      "body": "Došlo k neočekávané chybě, která přerušila zpracování. Potřebujete-li pomoc, obraťte se na podporu společnosti IDEXX.",
+      "title": "Neočekávaná chyba"
+    },
+    "OVER_TEMP": {
+      "body": "Provozní teplota analyzátoru je příliš vysoká na to, aby bylo možné zahájit zpracování vzorku. Zkontrolujte, že je kolem analyzátoru dostatečný prostor.",
+      "title": "Problém s teplotou"
+    },
+    "PACK_ACCESS_OPEN": {
+      "body": "Zavřete dvířka analyzátoru, aby bylo možné pokračovat.",
+      "title": "Otevřená dvířka analyzátoru"
+    },
+    "PACK_ACCESS_OPEN_RUN": {
+      "body": "Dvířka analyzátoru byla otevřena, což přerušilo zpracování. Zavřete dvířka analyzátoru, aby se mohl automaticky resetovat. Až bude stav analyzátoru ve fázi <strong>Připraven</strong>, vzorek promíchejte a proveďte jeho opakované zpracování.",
+      "title": "Otevřená dvířka analyzátoru"
+    },
+    "QC_REMINDER": {
+      "body": "Datum spotřeby lahvičky SmartQC nastane před následujícím naplánovaným automatickým spuštěním kontroly kvality. Vyměňte lahvičku za novou.",
+      "title": "Brzy uplyne datum spotřeby vaší lahvičky SmartQC"
+    },
+    "REAGENT_EMPTY": {
+      "body": "Vaše sada reagencie je prázdná.<linebreak/>Pokud chcete analyzátor dál používat, klepněte na <strong>Vyměnit reagencii</strong> a postupujte podle pokynů na obrazovce.",
+      "title": "VAROVÁNÍ: Reagencie jsou prázdné"
+    },
+    "REAGENT_LOW": {
+      "body": "Sada reagencií je prázdná a brzy bude nutné ji vyměnit. Ujistěte se, že máte připravenou náhradní sadu.",
+      "title": "Vaše sada reagencií dochází"
+    },
+    "REAGENT_PACK_LEAK": {
+      "body": "Sada reagencie nečekaně nasála vzduch. Zkontrolujte objem náplně reagencie a znovu nainstalujte sadu. V případě potřeby vyměňte sadu reagencie."
+    },
+    "REAGENT_PACK_LEAK_RUN": {
+      "body": "Sada reagencie nečekaně nasála vzduch. Zkontrolujte objem náplně reagencie a znovu nainstalujte sadu. V případě potřeby vyměňte sadu reagencie. Zpracujte tento vzorek znovu poté, co zkumavku důkladně promícháte."
+    },
+    "SAMPLE_DRAWER_OPEN_QC": {
+      "body": "Podavač vzorků byl otevřen, což přerušilo proces automatické kontroly kvality. Funkce SmartQC se obnoví při dalším naplánovaném intervalu.",
+      "title": "Podavač vzorků je otevřený"
+    },
+    "SAMPLE_DRAWER_OPEN_RUN": {
+      "body": "Chcete-li pokračovat, zavřete podavač vzorků a poté stiskněte tlačítko <strong>Start</strong> na přední straně analyzátoru.",
+      "title": "Podavač vzorků je otevřený"
+    },
+    "SAMPLE_TUBE_RUN_END": {
+      "body": "Zpracování bylo zrušeno, protože byla použita nepodporovaná zkumavka na vzorek, nebo zkumavka se zátkou, kterou nelze propíchnout. Potřebujete-li pomoc, obraťte se na podporu společnosti IDEXX.",
+      "title": "Problém se zkumavkou na vzorek"
+    },
+    "SHEATH_EMPTY": {
+      "body": "Vaše sada nosné kapaliny je prázdná.<linebreak/><linebreak>Pokud chcete analyzátor dál používat, klepněte na <strong>Vyměnit nosnou kapalinu</strong> a postupujte podle pokynů na obrazovce.",
+      "title": "VAROVÁNÍ: Pouzdro je prázdné"
+    },
+    "SHEATH_LOW": {
+      "body": "Sada pouzdra dochází a brzy bude nutné ji vyměnit. Ujistěte se, že máte připravenou náhradní sadu.",
+      "title": "Vaše sada nosné kapaliny dochází"
+    },
+    "SHUTDOWN_SHIPPING_CLEANUP": {
+      "body": "Chcete-li tento proces dokončit, vyjměte z analyzátoru reagenční sadu, balení nosné kapaliny a filtr. Vyjměte jakékoli předměty z podavače vzorků (SmartQC, zkumavky na vzorky) a odpojte napájecí a ethernetové kabely za analyzátorem.",
+      "title": "Dokončení postupu odstavení"
+    },
+    "STOPPER_PRESENT": {
+      "body": "Zkontrolujte, že zkumavka na vzorek je podporovanou zkumavkou s EDTA, promíchejte vzorek, sejměte zátku nebo uzávěr a poté proveďte opakované zpracování vzorku.",
+      "title": "Problém se zkumavkou na vzorek"
+    },
+    "SYR_RBC_HOME_ERROR": {
+      "body": "Došlo k neočekávané chybě, která přerušila zpracování. Promíchejte vzorek a nechte jej zpracovat znovu. Pokud problém trvá, obraťte se na podporu společnosti IDEXX.",
+      "title": "Neočekávaná chyba"
+    },
+    "SYR_RBC_MOTION_ERROR": {
+      "body": "Došlo k neočekávané chybě, která přerušila zpracování. Promíchejte vzorek a nechte jej zpracovat znovu. Pokud problém trvá, obraťte se na podporu společnosti IDEXX.",
+      "title": "Neočekávaná chyba"
+    },
+    "SYR_RBC_PRESSURE_ERROR": {
+      "body": "Došlo k neočekávané chybě, která přerušila zpracování. Promíchejte vzorek a nechte jej zpracovat znovu. Pokud problém trvá, obraťte se na podporu společnosti IDEXX.",
+      "title": "Neočekávaná chyba"
+    },
+    "SYR_SAMPLE_HOME_ERROR": {
+      "body": "Došlo k neočekávané chybě, která přerušila zpracování. Promíchejte vzorek a nechte jej zpracovat znovu. Pokud problém trvá, obraťte se na podporu společnosti IDEXX.",
+      "title": "Neočekávaná chyba"
+    },
+    "SYR_SAMPLE_MOTION_ERROR": {
+      "body": "Došlo k neočekávané chybě, která přerušila zpracování. Promíchejte vzorek a nechte jej zpracovat znovu. Pokud problém trvá, obraťte se na podporu společnosti IDEXX.",
+      "title": "Neočekávaná chyba"
+    },
+    "SYR_SAMPLE_PRESSURE_ERROR": {
+      "body": "Došlo k neočekávané chybě, která přerušila zpracování. Promíchejte vzorek a nechte jej zpracovat znovu. Pokud problém trvá, obraťte se na podporu společnosti IDEXX.",
+      "title": "Neočekávaná chyba"
+    },
+    "SYR_SHEATH_HOME_ERROR": {
+      "body": "Došlo k neočekávané chybě, která přerušila zpracování. Promíchejte vzorek a nechte jej zpracovat znovu. Pokud problém trvá, obraťte se na podporu společnosti IDEXX.",
+      "title": "Neočekávaná chyba"
+    },
+    "SYR_SHEATH_MOTION_ERROR": {
+      "body": "Došlo k neočekávané chybě, která přerušila zpracování. Promíchejte vzorek a nechte jej zpracovat znovu. Pokud problém trvá, obraťte se na podporu společnosti IDEXX.",
+      "title": "Neočekávaná chyba"
+    },
+    "SYR_SHEATH_PRESSURE_ERROR": {
+      "body": "Došlo k neočekávané chybě, která přerušila zpracování. Promíchejte vzorek a nechte jej zpracovat znovu. Pokud problém trvá, obraťte se na podporu společnosti IDEXX.",
+      "title": "Neočekávaná chyba"
+    },
+    "SYR_WBC_HOME_ERROR": {
+      "body": "Došlo k neočekávané chybě, která přerušila zpracování. Promíchejte vzorek a nechte jej zpracovat znovu. Pokud problém trvá, obraťte se na podporu společnosti IDEXX.",
+      "title": "Neočekávaná chyba"
+    },
+    "SYR_WBC_MOTION_ERROR": {
+      "body": "Došlo k neočekávané chybě, která přerušila zpracování. Promíchejte vzorek a nechte jej zpracovat znovu. Pokud problém trvá, obraťte se na podporu společnosti IDEXX.",
+      "title": "Neočekávaná chyba"
+    },
+    "SYR_WBC_PRESSURE_ERROR": {
+      "body": "Došlo k neočekávané chybě, která přerušila zpracování. Promíchejte vzorek a nechte jej zpracovat znovu. Pokud problém trvá, obraťte se na podporu společnosti IDEXX.",
+      "title": "Neočekávaná chyba"
+    },
+    "TUBE_EMPTY": {
+      "body": "Zpracovávání bylo zrušeno kvůli nedostatečnému objemu vzorku a/nebo sraženinám ve vzorku. Zkontrolujte, zda má vzorek správný objem a zda se v něm neobjevily sraženiny, poté vzorek promíchejte a proveďte jeho opakované zpracování. Pokud problém trvá, obraťte se na podporu společnosti IDEXX.",
+      "title": "Problém se vzorkem"
+    },
+    "UNEXPECTED_ERROR": {
+      "body": "Došlo k neočekávané chybě, která přerušila zpracování. Promíchejte vzorek a nechte jej zpracovat znovu. Pokud problém trvá, obraťte se na podporu společnosti IDEXX.",
+      "title": "Neočekávaná chyba"
+    },
+    "UNEXPECTED_ERROR_MAINTENANCE": {
+      "body": "Stala se neočekávaná chyba. Pokud problém trvá, obraťte se na podporu společnosti IDEXX.",
+      "title": "Neočekávaná chyba"
+    },
+    "UNKNOWN_TUBE": {
+      "body": "Zkontrolujte, že zkumavka na vzorek je podporovanou zkumavkou s EDTA, promíchejte vzorek, sejměte zátku nebo uzávěr a poté proveďte opakované zpracování vzorku.",
+      "title": "Problém se zkumavkou na vzorek"
+    },
+    "UNSTABLE_REAGENT": {
+      "body": "Vaše sada reagencie je expirovaná.<linebreak/>Pokud chcete pokračovat v používání vašeho analyzátoru, vyměňte sadu reagencie za novou. Pokyny k výměně otevřete klepnutím na možnost <strong>Vyměnit reagencii</strong>.",
+      "title": "VAROVÁNÍ: Reagencie je expirovaná."
+    },
+    "UNSTABLE_SHEATH": {
+      "body": "Vaše sada nosné kapaliny je expirovaná.<linebreak/>Pokud chcete pokračovat v používání vašeho analyzátoru, vyměňte sadu za novou. Pokyny k výměně otevřete klepnutím na možnost <strong>Vyměnit nosnou kapalinu</strong>.",
+      "title": "VAROVÁNÍ: Nosná kapalina je expirovaná."
+    },
+    "UNSUPPORTED_QC_LOT": {
+      "body": "Životnost lahvičky Smart QC vypršela. Vyměňte ji za použitelnou lahvičku.",
+      "title": "Platnost SmartQC vypršela"
+    },
+    "UPDATE_PENDING": {
+      "body": "Počkejte přibližně 2 minuty, než proběhne automatická aktualizace a restartování analyzátoru ProCyte One.<linebreak/>Proces bude dokončen, když se systém ProCyte One vrátí do stavu <strong>Připraveno</strong>.",
+      "title": "Aktualizace softwaru verze {{ 0 }} je připravena k instalaci."
+    },
+    "USED_REAGENT": {
+      "body": "Sada činidel ProCyte One již byla použita. Zkuste prosím jinou sadu nebo kontaktujte podporu IDEXX.",
+      "title": "Sada reagencie je neplatná"
+    },
+    "XAXIS_MOTION_ERROR": {
+      "body": "Došlo k neočekávané chybě, která přerušila zpracování. Promíchejte vzorek a nechte jej zpracovat znovu. Pokud problém trvá, obraťte se na podporu společnosti IDEXX.",
+      "title": "Neočekávaná chyba"
+    },
+    "ZAXIS_MOTION_ERROR": {
+      "body": "Došlo k neočekávané chybě, která přerušila zpracování. Promíchejte vzorek a nechte jej zpracovat znovu. Pokud problém trvá, obraťte se na podporu společnosti IDEXX.",
+      "title": "Neočekávaná chyba"
+    }
+  },
+  "alertModal": {
+    "secondaryHeader": "Výstraha | {{ instrumentName }}",
+    "secondaryHeaderNoInstrument": "Pozor"
+  },
+  "CATONE": {
+    "ADD_PIPETTE_TIPS": {
+      "title": "Doplňte pipetovací špičky",
+      "body": "V podavači vzorků není vložen dostatek pipetovacích špiček. Abyste problém vyřešili, počkejte, až se podavač vzorků odemkne, potom přihrádku na špičky v podavači vzorků doplňte a stiskněte tlačítko Start."
+    },
+    "AIR_DETECTED_IN_SAMPLE": {
+      "title": "Ve vzorku byl zjištěn vzduch",
+      "body": "Ve vzorku pacienta byly zjištěny vzduchové bubliny. Odstraňte ze vzorku všechny vzduchové bubliny a stiskněte tlačítko Start."
+    },
+    "AIR_DETECTED_IN_SAMPLE_WARNING": {
+      "body": "Během analýzy došlo k chybě z důvodu přítomnosti vzduchu. Pro vyřešení zkontrolujte postup přípravy vzorku a poté znovu spusťte cyklus s novými vzorky a slidy. Pokud problém přetrvává, obraťte se na podporu společnosti IDEXX."
+    },
+    "ALG_ANOM_INIT_SLOPE_VS_SUB_READ": {
+      "body": "Při zpracování jednoho ze slidů došlo k chybě. Abyste získali nevykázaný výsledek, proveďte zpracování znovu s použitím nového vzorku a nového spotřebního materiálu.<linebreak/>Pokud problém přetrvává, obraťte se na podporu společnosti IDEXX."
+    },
+    "ALG_ANOM_PROG_CURVE_DEVELOPMENT": {
+      "body": "Při zpracování jednoho ze slidů došlo k chybě. Abyste získali nevykázaný výsledek, proveďte zpracování znovu s použitím nového vzorku a nového spotřebního materiálu.<linebreak />Pokud problém přetrvává, obraťte se na podporu společnosti IDEXX."
+    },
+    "ALG_BAD_DRY_READ": {
+      "body": "Při zpracování jednoho ze slidů došlo k chybě. Abyste získali nevykázaný výsledek, proveďte zpracování znovu s použitím nového vzorku a nového spotřebního materiálu.<linebreak />Pokud problém přetrvává, obraťte se na podporu společnosti IDEXX."
+    },
+    "ALG_BAD_LATE_SLOPE": {
+      "body": "Při zpracování jednoho ze slidů došlo k chybě. Abyste získali nevykázaný výsledek, proveďte zpracování znovu s použitím nového vzorku a nového spotřebního materiálu.<linebreak />Pokud problém přetrvává, obraťte se na podporu společnosti IDEXX."
+    },
+    "ALG_BAD_RESPONSE_RANGE": {
+      "body": "Při zpracování jednoho ze slidů došlo k chybě. Abyste získali nevykázaný výsledek, proveďte zpracování znovu s použitím nového vzorku a nového spotřebního materiálu.<linebreak />Pokud problém přetrvává, obraťte se na podporu společnosti IDEXX."
+    },
+    "ALG_BAD_SC_MINUS_DRY_DIFF": {
+      "body": "Při zpracování jednoho ze slidů došlo k chybě. Abyste získali nevykázaný výsledek, proveďte zpracování znovu s použitím nového vzorku a nového spotřebního materiálu.<linebreak />Pokud problém přetrvává, obraťte se na podporu společnosti IDEXX."
+    },
+    "ALG_BAD_SUB_MINUS_WASH_DIFF": {
+      "body": "Při zpracování jednoho ze slidů došlo k chybě. Abyste získali nevykázaný výsledek, proveďte zpracování znovu s použitím nového vzorku a nového spotřebního materiálu.<linebreak />Pokud problém přetrvává, obraťte se na podporu společnosti IDEXX."
+    },
+    "ALG_BAD_WASH_MINUS_SC_DIFF": {
+      "body": "Při zpracování jednoho ze slidů došlo k chybě. Abyste získali nevykázaný výsledek, proveďte zpracování znovu s použitím nového vzorku a nového spotřebního materiálu.<linebreak />Pokud problém přetrvává, obraťte se na podporu společnosti IDEXX."
+    },
+    "ALG_ELLIPSE_INTERSECTION_FAIL": {
+      "body": "Při zpracování jednoho ze slidů došlo k chybě. Abyste získali nevykázaný výsledek, proveďte zpracování znovu s použitím nového vzorku a nového spotřebního materiálu.<linebreak />Pokud problém přetrvává, obraťte se na podporu společnosti IDEXX."
+    },
+    "ALG_GREATER_THAN_EXTREME_HIGH_CONC_LIMIT": {
+      "body": "Při zpracování jednoho ze slidů došlo k chybě. Abyste získali nevykázaný výsledek, proveďte zpracování znovu s použitím nového vzorku a nového spotřebního materiálu.<linebreak />Pokud problém přetrvává, obraťte se na podporu společnosti IDEXX."
+    },
+    "ALG_GREATER_THAN_EXTREME_LOW_CONC_LIMIT": {
+      "body": "Při zpracování jednoho ze slidů došlo k chybě. Abyste získali nevykázaný výsledek, proveďte zpracování znovu s použitím nového vzorku a nového spotřebního materiálu.<linebreak />Pokud problém přetrvává, obraťte se na podporu společnosti IDEXX."
+    },
+    "ALG_INTERFERING_SUBSTANCE": {
+      "body": "Výsledky {{0}} nelze poskytnout z důvodu rušivých látek nebo vyčerpání substrátu. Abyste získali výsledek, proveďte ředění vzorku v poměru 1:4 (ruční nebo automatické) a spusťte analýzu znovu s novým slidem."
+    },
+    "ALG_ION_CALIBRATION_DRIFT": {
+      "body": "Při zpracování slidů elektrolytů došlo k chybě. Abyste problém vyřešili, spusťte analýzu znovu s novým vzorkem a slidy a dbejte na to, abyste slidy vložili ihned po otevření fóliových balení.<linebreak />Pokud problém přetrvává, obraťte se na podporu společnosti IDEXX."
+    },
+    "ALG_ION_IMPULSE_DETECTED": {
+      "body": "Při analýze elektrolytů došlo k chybě. Vyčistěte vnitřní komponenty analyzátoru a potom analýzu spusťte znovu s novým vzorkem a slidy.<linebreak />Pokud problém přetrvává, obraťte se na podporu společnosti IDEXX."
+    },
+    "ALG_ION_SAMPLE_DRIFT": {
+      "body": "Při zpracování jednoho nebo více slidů elektrolytů došlo k chybě. Abyste získali nevykázaný výsledek, spusťte analýzu znovu s novými slidy."
+    },
+    "ALG_ION_SAMPLE_ERROR": {
+      "body": "Při zpracování jednoho nebo více slidů elektrolytů došlo k chybě. Abyste získali nevykázaný výsledek, spusťte analýzu znovu s novými slidy."
+    },
+    "ALG_ION_SAMPLE_NOT_DETECTED": {
+      "body": "Při zpracování {{0}} došlo k chybě. Abyste získali nevykázaný výsledek, zkontrolujte postup přípravy vzorku a poté analýzu spusťte znovu s novým vzorkem a slidem (slidy)."
+    },
+    "ALG_ION_SHIFT_DETECTED": {
+      "body": "Při analýze elektrolytů došlo k chybě. Vyčistěte vnitřní komponenty analyzátoru a potom analýzu spusťte znovu s novým vzorkem a slidy.<linebreak />Pokud problém přetrvává, obraťte se na podporu společnosti IDEXX."
+    },
+    "ALG_NO_SAMPLE_DISPENSE": {
+      "body": "Při zpracování slidu {{0}} došlo k chybě. Abyste získali výsledek, zkontrolujte postup přípravy vzorku a poté spusťte analýzu znovu s novým vzorkem, slidem a promývacím roztokem na slidy."
+    },
+    "ALG_NO_WASH_1_DISPENSE": {
+      "body": "Při zpracování slidu {{0}} došlo k chybě. Abyste získali výsledek, zkontrolujte postup přípravy vzorku a poté spusťte analýzu znovu s novým vzorkem, slidem a promývacím roztokem na slidy."
+    },
+    "ALG_NO_WASH_2_DISPENSE": {
+      "body": "Při zpracování slidu {{0}} došlo k chybě. Abyste získali výsledek, zkontrolujte postup přípravy vzorku a poté spusťte analýzu znovu s novým vzorkem, slidem a promývacím roztokem na slidy."
+    },
+    "ALG_PHBR_BIASED_RESULT": {
+      "body": "Při zpracování {{0}} došlo k chybě. Potřebujete-li pomoc, obraťte se na podporu společnosti IDEXX."
+    },
+    "ALG_SLIDE_NOT_SPOTTED": {
+      "title": "Slide nebyl rozpoznán",
+      "body": "Při zpracování {{0}} došlo k chybě. K získání nevykázaného výsledku (výsledků) zkontrolujte postup přípravy vzorku, potom analýzu spusťte znovu s novým vzorkem a slidem (slidy)."
+    },
+    "ALG_SLOPE_NOT_CORRECTABLE_GEN": {
+      "body": "Vyskytla se chyba při zpracovávání slidu se žlučovými kyselinami. Abyste problém vyřešili, proveďte zpracování znovu s novým vzorkem. Pokud problém přetrvává, obraťte se na podporu společnosti IDEXX."
+    },
+    "ALG_SLOPE_NOT_CORRECTABLE": {
+      "body": "Při zpracovávání testu fruktosaminu se vyskytla chyba. Abyste problém vyřešili, proveďte zpracování znovu s novým vzorkem. Pokud problém přetrvává, obraťte se na podporu společnosti IDEXX."
+    },
+    "UPDATE_AVAILABLE": {
+      "title": "Aktualizace softwaru verze {{version}} je připravena k instalaci.",
+      "body": "Analyzátor můžete kdykoli aktualizovat tak, že přejdete na obrazovku nástroje Catalyst One.",
+      "autoUpdateWarning": "<shortlinebreak />Pokud analyzátor nenecháte aktualizovat do {{dateTime}}, nainstaluje se aktualizace automaticky."
+    },
+    "UPDATE_FAILED_CATASTROPHIC": {
+      "title": "Neúspěšná aktualizace softwaru",
+      "body": "Potřebujete-li pomoc, obraťte se na podporu společnosti IDEXX."
+    },
+    "ERR_ALG_ALGORITHM_INTERFERING_SUBSTANCE": {
+      "title": "Pro CREA je nutné ředění",
+      "body": "Výsledky CREA nelze poskytnout z důvodu rušivých látek nebo vyčerpání substrátu. Abyste získali výsledek, proveďte ředění vzorku v poměru 1:4 (ruční nebo automatické) a spusťte analýzu znovu s novým slidem."
+    },
+    "ALG_SUBSTRATE_DEPLETION": {
+      "title": "Vyčerpání substrátu",
+      "body": "Výsledky {{0}} nelze poskytnout z důvodu rušivých látek nebo vyčerpání substrátu. K získání výsledku proveďte ředění vzorku v poměru 1:2 (ruční nebo automatické) a proveďte analýzu znovu s novým slidem."
+    },
+    "ALG_TT4_ANOM_INIT_SLOPE_VS_SUB_READ": {
+      "body": "Při zpracování jednoho ze slidů došlo k chybě. Abyste získali nevykázaný výsledek, proveďte zpracování znovu s použitím nového vzorku a nového spotřebního materiálu.<linebreak />Pokud problém přetrvává, obraťte se na podporu společnosti IDEXX."
+    },
+    "ALG_TT4_ANOM_PROG_CURVE_DEVELOPMENT": {
+      "body": "Při zpracování jednoho ze slidů došlo k chybě. Abyste získali nevykázaný výsledek, proveďte zpracování znovu s použitím nového vzorku a nového spotřebního materiálu.<linebreak/>Pokud problém přetrvává, obraťte se na podporu společnosti IDEXX."
+    },
+    "ALG_TT4_BAD_SUB_MINUS_WASH_DIFF": {
+      "body": "Při zpracování jednoho ze slidů došlo k chybě. Abyste získali nevykázaný výsledek, proveďte zpracování znovu s použitím nového vzorku a nového spotřebního materiálu.<linebreak />Pokud problém přetrvává, obraťte se na podporu společnosti IDEXX."
+    },
+    "ALG_TT4_ELLIPSE_INTERSECTION_FAIL": {
+      "body": "Při zpracování jednoho ze slidů došlo k chybě. Abyste získali nevykázaný výsledek, proveďte zpracování znovu s použitím nového vzorku a nového spotřebního materiálu.<linebreak />Pokud problém přetrvává, obraťte se na podporu společnosti IDEXX."
+    },
+    "ASPIRATION_FAILURE": {
+      "body": "Přístroj nemohl dokončit akci. Počkejte, dokud přístroj neobnoví činnost. Pokud problém přetrvává, obraťte se na podporu společnosti IDEXX."
+    },
+    "ASPIRATION_START_IN_AIR": {
+      "body": "Přístroj nemohl dokončit akci. Počkejte, dokud přístroj neobnoví činnost. Pokud problém přetrvává, obraťte se na podporu společnosti IDEXX."
+    },
+    "ASPIRATION_START_IN_AIR_WARNING": {
+      "body": "Během aspirace vzorků došlo k chybě. Pro vyřešení zkontrolujte postup přípravy vzorku a poté znovu spusťte cyklus s novými vzorky a slidy. Pokud problém přetrvává, obraťte se na podporu společnosti IDEXX."
+    },
+    "ASSAY_NORMALIZATION_MISSING": {
+      "body": "{{0}} výsledek byl potlačen.<linebreak/>Kontaktujte prosím podporu společnosti IDEXX."
+    },
+    "BAD_OR_MISSING_CALCURVE_DATA": {
+      "body": "Nesprávná nebo chybějící data kalibrační křivky. Analyzátor nebyl úspěšně kalibrován. Potřebujete-li pomoc, obraťte se na podporu společnosti IDEXX."
+    },
+    "BARCODE_READ_ERROR": {
+      "title": "Chyba při čtení čárového kódu",
+      "body": "Nelze identifikovat vložené slidy. Zopakujte test vzorku s použitím nových slidů.<linebreak />Pokud problém přetrvává, obraťte se na podporu společnosti IDEXX."
+    },
+    "BARCODE_READ_FAILURE": {
+      "body": "Neidentifikovaný slide"
+    },
+    "CALIBRATION_SOFTWARE_ERROR": {
+      "body": "Chyba kalibračního softwaru. Analyzátor nebyl úspěšně kalibrován. Potřebujete-li pomoc, obraťte se na podporu společnosti IDEXX."
+    },
+    "CAMERA_COM_ERROR": {
+      "body": "Během spouštění se vyskytla chyba komunikace s kamerou. Abyste problém vyřešili, odpojte napájení ze zásuvky a znovu je připojte. Pokud problém přetrvává, obraťte se na podporu společnosti IDEXX."
+    },
+    "CAMERA_CONNECTION_ERROR": {
+      "body": "Během zpracování se vyskytla chyba připojení kamery. Abyste problém vyřešili, odpojte napájení a znovu je připojte, potom zopakujte zpracování s novým vzorkem a novým spotřebním materiálem. Pokud problém přetrvává, obraťte se na Podporu společnosti IDEXX."
+    },
+    "CAMERA_INITIALIZATION_FAILURE": {
+      "body": "Přístroj nemohl dokončit akci. Stiskněte tlačítko Start a počkejte na obnovu nástroje. Pokud problém přetrvává, obraťte se na podporu společnosti IDEXX."
+    },
+    "CANNOT_LOCK_SAMPLE_DRAWER": {
+      "title": "Nelze zablokovat podavač vzorků",
+      "body": "V podavači vzorků je překážka. Zkontrolujte, zda jsou v podavači vzorků všechny materiály správně usazeny a stiskněte tlačítko Start."
+    },
+    "CANNOT_UNLOCK_SAMPLE_DRAWER": {
+      "title": "Nelze odblokovat podavač vzorků",
+      "body": "Nelze odblokovat podavač vzorků.<linebreak/>Potřebujete-li pomoc, obraťte se na podporu společnosti IDEXX."
+    },
+    "CAP_DETECTED": {
+      "title": "Bylo rozpoznáno víčko",
+      "body": "Před zpracováním musí být odstraněno víčko separátoru plné krve. Abyste problém vyřešili, počkejte, až se podavač vzorků odemkne, potom sejměte zelené víčko ze separátoru plné krve a stiskněte tlačítko Start."
+    },
+    "CAROUSEL_ALIGNMENT_FAILED": {
+      "title": "Chyba vyrovnání karuselu",
+      "body": "Nebylo možné vyrovnat karusel. Abyste problém vyřešili, otevřete boční dvířka, zvedněte kryt karuselu a zkontrolujte, zda je karusel správně usazen. Zavřete kryt karuselu a boční dvířka. Po zavření bočních dvířek se analyzátor automaticky vrátí do stavu připravenosti. Pokud problém přetrvává, obraťte se na podporu společnosti IDEXX."
+    },
+    "CAROUSEL_COVER_OPEN": {
+      "title": "Otevřený kryt karuselu",
+      "body": "Kryt karuselu je otevřený. Otevřete boční dvířka a zkontrolujte, zda je kryt zavřený. Po zavření bočních dvířek se analyzátor automaticky vrátí do stavu připravenosti."
+    },
+    "CAROUSEL_ROTATION_ERROR": {
+      "body": "Karusel se neotáčí dle očekávání. Řešení:<ol><li>Vyndejte zbývající slidy z podavače vzorků.</li><li>Otevřete boční dvířka, zvedněte kryt karuselu a vyjměte karusel.</li><li>Vyjměte všechny slidy z dráhy a zlikvidujte je.</li><li>Vraťte karusel na místo a zavřete jeho kryt.</li><li>Zavřete boční dvířka. Analyzátor se automaticky vrátí do připraveného stavu.</li><li>Zpracujte vzorek znovu s použitím nových slidů.</li></ol>Pokud problém přetrvává, obraťte se na podporu společnosti IDEXX."
+    },
+    "CENTRIFUGE_ERROR": {
+      "title": "Chyba centrifugy",
+      "body": "Centrifuga nemohla provést úspěšné zpracování. Chcete-li tento problém vyřešit, zopakujte test znovu pomocí nového vzorku a nových slidů.<linebreak/>Pokud problém přetrvává, obraťte se na podporu společnosti IDEXX."
+    },
+    "CHECK_EVAP_CAP": {
+      "body": "Nelze identifikovat jeden nebo více slidů.<ol><li>Otevřete boční dvířka a odstraňte všechny volné předměty na krytu karuselu.</li><li>Zkontrolujte pohyb odpařovacího uzávěru karuselu a v případě nálezu nečistot jej vyčistěte alkoholovým přípravkem.</li><li>Vraťte karusel na místo a zavřete jeho kryt.</li><li>Zavřete boční dvířka. Analyzátor se automaticky vrátí do připraveného stavu.</li><li>Zpracujte vzorek znovu s použitím nových slidů.</li></ol>Pokud problém přetrvává, obraťte se na podporu společnosti IDEXX."
+    },
+    "ALG_DRY_READ_VARIANCE": {
+      "title": "Chyba zpracování",
+      "body": "Při zpracování testu pankreatické lipázy došlo k chybě. Abyste problém vyřešili, proveďte zpracování znovu s novým vzorkem. Pokud problém přetrvává, obraťte se na podporu společnosti IDEXX."
+    },
+    "CLEANING_REQUIRED": {
+      "title": "Požaduje se vyčištění",
+      "body": "Biochemický analyzátor Catalyst One je nutno vyčistit. Postupujte podle pokynů na obrazovce, které se nacházejí na kartě Přístroje Catalyst One. Pokud tato chyba přetrvává i po vyčištění, obraťte se na podporu společnosti IDEXX."
+    },
+    "CLOT_DETECTED_IN_SAMPLE": {
+      "title": "Ve vzorku byla detekována sraženina",
+      "body": "Ve vzorku pacienta byla zjištěna sraženina. Odstraňte ze vzorku sraženiny a stiskněte tlačítko Start."
+    },
+    "CLOT_DETECTED_IN_SAMPLE_WARNING": {
+      "body": "Během analýzy došlo k chybě z důvodu přítomnosti sraženiny. Pro vyřešení zkontrolujte postup přípravy vzorku a poté znovu spusťte cyklus s novými vzorky a slidy. Pokud problém přetrvává, obraťte se na podporu společnosti IDEXX."
+    },
+    "DILUTION_SLIDE_COUNT_EXCEEDED": {
+      "title": "Překročen počet slidů pro ředění",
+      "body": "Pro provádění ředění 1:2 můžete vložit maximálně 5 slidů a pro všechna ostatní ředění maximálně 10 slidů.<ul><li>Obnovení: Stiskněte tlačítko Start na přístroji.</li><li>Řešení: Zopakujte zpracování s novými slidy a dbejte na to, aby nebyl překročen maximální povolený počet vložených slidů.</li></ul>"
+    },
+    "DUPLICATE_REAGENT_TYPE_DETECTED": {
+      "title": "Detekován duplicitní typ reagentu",
+      "body": "Zjištěn duplicitní typ reagentu. Až se podavač vzorků odemkne, jeden vyjměte, zavřete podavač vzorků a stisknutím tlačítka Start pokračujte v analýze."
+    },
+    "FLUID_FIND_FAILURE": {
+      "body": "Přístroj nemohl najít vzorek. Pro vyřešení zkontrolujte postup přípravy vzorku a poté znovu spusťte cyklus s novými vzorky a slidy. Pokud problém přetrvává, obraťte se na podporu společnosti IDEXX."
+    },
+    "FLUID_FIND_FAILURE_DIL_CUP": {
+      "body": "Pro provedení automatického ředění není dostatečný objem ředidla. Abyste problém vyřešili, spusťte analýzu znovu s novými slidy a ředidlem."
+    },
+    "FLUID_FIND_FAILURE_MIX_CUP": {
+      "body": "Pro provedení automatického ředění není dostatečný objem ředěného vzorku. Abyste problém vyřešili, spusťte analýzu znovu s novými slidy a ředidlem."
+    },
+    "FOAM_DETECTED_IN_SAMPLE": {
+      "title": "Ve vzorku byla detekována pěna",
+      "body": "Ve vzorku pacienta byla detekována pěna. Odstraňte ze vzorku všechnu pěnu nebo bublinky a stiskněte tlačítko Start."
+    },
+    "FOAM_DETECTED_IN_SAMPLE_WARNING": {
+      "body": "Během analýzy došlo k chybě z důvodu detekce pěny. Pro vyřešení zkontrolujte postup přípravy vzorku a poté znovu spusťte cyklus s novými vzorky a slidy. Pokud problém přetrvává, obraťte se na podporu společnosti IDEXX."
+    },
+    "HEIGHT_CORRECTION_SURFACE_FIND_FAILURE": {
+      "body": "Porucha nalezení povrchu při korekci výšky"
+    },
+    "INCORRECTLY_SEATED_CAROUSEL": {
+      "title": "Karusel není správně usazen",
+      "body": "Karusel není správně usazen. Abyste problém vyřešili, otevřete boční dvířka, zvedněte kryt karuselu a zkontrolujte, zda je karusel správně usazen. Zavřete kryt karuselu a boční dvířka. Po zavření bočních dvířek se analyzátor automaticky vrátí do stavu připravenosti."
+    },
+    "INCORRECT_SLIDE_OR_REAGENT": {
+      "title": "Nesprávný slide nebo typ reagentu",
+      "body": "Pro vložený typ reagentu nebyl detekován správný typ slidu. Abyste problém vyřešili, počkejte, až se podavač vzorků odemkne, vložte správný slide nebo vyjměte reagent a stiskněte tlačítko Start."
+    },
+    "INCORRECT_SLIDE_OR_REAGENT_IGNORABLE": {
+      "title": "Nesprávný slide nebo typ reagentu. Jiné slidy ve zpracování.",
+      "body": "Pro vložený typ reagentu nebyl detekován správný typ slidu. Abyste problém vyřešili, počkejte, až se podavač vzorků odemkne, vložte správný slide nebo vyjměte reagent a stiskněte tlačítko Start.<shortlinebreak/>Nejsou-li detekovány odpovídající materiály, nebudou pro tuto chemickou analýzu vykázány výsledky."
+    },
+    "INSUFFICIENT_DILUENT_VOLUME": {
+      "title": "Nedostatečné množství ředidla",
+      "body": "Pro provedení automatického ředění není dostatečný objem ředidla. Doplňte ředidlo do nádoby na ředidlo a stiskněte tlačítko Start."
+    },
+    "INSUFFICIENT_DILUENT_VOLUME_WARNING": {
+      "title": "Nedostatečné množství ředidla",
+      "body": "Pro provedení automatického ředění není dostatečný objem ředidla. Podívejte se do příručky pro obsluhu Catalyst One a zopakujte spuštění s použitím navržených materiálů. Pokud problém přetrvává, obraťte se na podporu společnosti IDEXX."
+    },
+    "INSUFFICIENT_PIPETTE_TIPS": {
+      "title": "Nedostatek pipetovacích špiček pro provedení zpracování",
+      "body": "Pro provedení této analýzy není k dispozici dostatek pipetovacích špiček. Abyste problém vyřešili, počkejte, až se podavač vzorků odemkne, potom přihrádku na špičky v podavači vzorků doplňte a stiskněte tlačítko Start. Pokud nedoplníte špičky, bude zpracování pokračovat, ale nebudou vykazovány všechny výsledky."
+    },
+    "INSUFFICIENT_SAMPLE_FOR_DILUTION": {
+      "title": "Nedostatečný objem vzorku pro ředění",
+      "body": "Není k dispozici dostatečný objem vzorku pro provedení automatického ředění. Doplňte vzorek do nádobky vzorku a stiskněte tlačítko Start."
+    },
+    "INSUFFICIENT_SAMPLE_FOR_DILUTION_WARNING": {
+      "title": "Nedostatečný objem vzorku pro ředění",
+      "body": "Není k dispozici dostatečný objem vzorku pro provedení automatického ředění. Pro vyřešení zkontrolujte postup přípravy vzorku a poté znovu spusťte cyklus s novými vzorky a slidy. Pokud problém přetrvává, obraťte se na podporu společnosti IDEXX."
+    },
+    "INSUFFICIENT_SAMPLE_VOLUME": {
+      "title": "Nedostatečný objem vzorku pro všechny slidy",
+      "body": "Nedostatečný objem vzorku na počet vložených slidů. Doplňte vzorek do nádobky vzorku a stiskněte tlačítko Start."
+    },
+    "INSUFFICIENT_SAMPLE_VOLUME_IGNORABLE": {
+      "title": "Nedostatečný objem vzorku pro některé slidy",
+      "body": "Nedostatečný objem vzorku na počet vložených slidů. Doplňte vzorek do nádobky vzorku a stiskněte tlačítko Start.<shortlinebreak/>Pokud nebude dodáno více vzorku, nebudou zpracovány všechny slidy."
+    },
+    "INSUFFICIENT_SAMPLE_VOLUME_IGNORABLE_WARNING": {
+      "body": "Pro jeden nebo více slidů není v této analýze dostatečný objem vzorku. Cyklus se stále ještě zpracovává. Pro vyřešení zkontrolujte postup přípravy vzorku a poté znovu spusťte cyklus s novými vzorky a slidy."
+    },
+    "INSUFFICIENT_SAMPLE_VOLUME_WARNING": {
+      "body": "Pro všechny slidy není v této analýze dostatečný objem vzorku. Pro vyřešení zkontrolujte postup přípravy vzorku a poté znovu spusťte cyklus s novými vzorky a slidy. Pokud problém přetrvává, obraťte se na podporu společnosti IDEXX."
+    },
+    "INTERNAL_TIMING_ERROR": {
+      "body": "Přístroj nemohl dokončit akci. Stiskněte tlačítko Start a počkejte na obnovu nástroje. Pokud problém přetrvává, obraťte se na podporu společnosti IDEXX."
+    },
+    "LVLASP_BUBBLE": {
+      "body": "Během aspirace vzorků došlo k chybě. Abyste problém vyřešili, zkontrolujte postup přípravy vzorku a poté analýzu spusťte znovu s novým vzorkem a novým spotřebním materiálem.<linebreak/>Pokud problém přetrvává, obraťte se na podporu společnosti IDEXX."
+    },
+    "LVLASP_CLOT": {
+      "body": "Během aspirace vzorků došlo k chybě. Abyste problém vyřešili, zkontrolujte postup přípravy vzorku a poté analýzu spusťte znovu s novým vzorkem a novým spotřebním materiálem.<linebreak/>Pokud problém přetrvává, obraťte se na podporu společnosti IDEXX."
+    },
+    "LVLASP_INSUFFICIENT_SAMPLE": {
+      "body": "Pro všechny slidy není v této analýze dostatečný objem vzorku. Abyste problém vyřešili, zkontrolujte postup přípravy vzorku a poté analýzu spusťte znovu s novým vzorkem a novým spotřebním materiálem.<linebreak/>Pokud problém přetrvává, obraťte se na podporu společnosti IDEXX."
+    },
+    "LVLASP_START_IN_AIR": {
+      "body": "Během aspirace vzorků došlo k chybě. Abyste problém vyřešili, zkontrolujte postup přípravy vzorku a poté analýzu spusťte znovu s novým vzorkem a novým spotřebním materiálem.<linebreak/>Pokud problém přetrvává, obraťte se na podporu společnosti IDEXX."
+    },
+    "LYTE_PROCESSING_ERROR": {
+      "body": "Při zpracování slidů elektrolytů došlo k chybě. Pro vyřešení proveďte zpracování s novými slidy a zajistěte, aby slidy byly zavedeny okamžitě po otevření jejich foliových sáčků. Pokud problém přetrvává, obraťte se na Podporu společnosti IDEXX."
+    },
+    "MATERIALS_INCOMPATIBLE": {
+      "title": "Nekompatibilní materiály",
+      "body": "Zavedené materiály nejsou kompatibilní s požadovaným typem analýzy. Nahlédněte do návodu k použití zařízení Catalyst One™ a opakujte analýzu s využitím schválených materiálů."
+    },
+    "MATERIALS_INCOMPATIBLE_FRIENDS": {
+      "body": "Některé zavedené materiály nejsou kompatibilní s požadovaným typem analýzy. Abyste získali nevykázané výsledky, nahlédněte do návodu k použití zařízení Catalyst One a opakujte analýzu s využitím schválených materiálů."
+    },
+    "MISSING_DILUTION_MATERIALS": {
+      "title": "Chybí ředicí materiály",
+      "body": "Ředicí materiály byly nesprávně vloženy nebo chybí. Zkontrolujte, zda přední držáky kalíšků mají na pravé straně kalíšek vzorku obsahující 300 µL ředidla a na levé straně prázdný kalíšek vzorku; ověřte, zda je vzorek pacienta vložen do držáku kalíšku vzorku, a potom stiskněte tlačítko Start."
+    },
+    "MISSING_EMPTY_CUP": {
+      "body": "Analýza skončila, protože byla detekována tekutina na místě, kde měl být prázdný kalíšek. Abyste problém vyřešili, vložte prázdný kalíšek na vzorek do držáku kalíšku, který se nalézá nejvíce vlevo vepředu, a poté analýzu spusťte znovu s novými slidy."
+    },
+    "MISSING_EMPTY_DILUTION_CUP": {
+      "title": "Chybí prázdný kalíšek pro ředění",
+      "body": "Nebyl vložen prázdný kalíšek vzorku pro ředění. Vložte do předního držáku kalíšku vlevo prázdný kalíšek vzorku a stiskněte tlačítko Start."
+    },
+    "MISSING_IA_FOR_REAGENT": {
+      "body": "Pro vložený reagent nelze najít odpovídající slide. Abyste problém vyřešili, počkejte, než se zpracování dokončí, a proveďte zpracování znovu s novým reagentem a slidy."
+    },
+    "MISSING_REAGENT": {
+      "title": "Chybí reagent",
+      "body": "Pro vložený slide {{0}} nelze najít odpovídající reagent. Abyste problém vyřešili, počkejte, až se podavač vzorků odemkne, přidejte odpovídající reagent, zavřete podavač vzorků a stiskněte tlačítko Start."
+    },
+    "MISSING_REAGENT_FOR_IA": {
+      "body": "Pro vložený slide {{0}} nelze najít odpovídající reagent. Abyste problém vyřešili, počkejte, než se zpracování dokončí, a proveďte zpracování znovu s novým reagentem a slidem."
+    },
+    "MISSING_REAGENT_IGNORABLE": {
+      "title": "Chybí reagent. Jiné slidy ve zpracování.",
+      "body": "Pro vložený slide {{0}} nelze najít odpovídající reagent. Abyste problém vyřešili, počkejte, až se podavač vzorků odemkne, vyjměte reagent, vložte odpovídající reagent, zavřete podavač vzorků a stiskněte tlačítko Start.<shortlinebreak/>Není-li vložen reagent, nebudou výsledky této chemické analýzy vykázány."
+    },
+    "MISSING_UPC_MATERIALS": {
+      "title": "Chybí materiály pro UPC",
+      "body": "Materiály pro UPC byly nesprávně vloženy nebo chybí. Zkontrolujte, zda přední držáky kalíšků mají na pravé straně kalíšek vzorku obsahující 300 µL UPC ředidla a na levé straně prázdný kalíšek vzorku; ověřte, zda je vzorek pacienta vložen do držáku kalíšku vzorku, a potom stiskněte tlačítko Start."
+    },
+    "MULTIPLE_SAMPLES_DETECTED": {
+      "title": "Detekováno více vzorků",
+      "body": "Analyzátor nemůže zpracovat současně více než jeden vzorek. Abyste problém vyřešili, počkejte, až se podavač vzorků odemkne, vyjměte nadbytečný vzorek a stiskněte tlačítko Start."
+    },
+    "NO_IDENTIFIABLE_SLIDES_FOUND": {
+      "body": "Nelze identifikovat vložené slidy. Stiskněte tlačítko Start a zopakujte test vzorku s použitím nových slidů. Pokud problém přetrvává, obraťte se na podporu společnosti IDEXX."
+    },
+    "NO_SAMPLE_DETECTED": {
+      "title": "Není detekován žádný vzorek",
+      "body": "Nebyl vložen vzorek pacienta. Abyste problém vyřešili, počkejte, až se podavač vzorků odemkne, vložte vzorek do podavače vzorků a stiskněte tlačítko Start."
+    },
+    "OFFSETS_CALIBRATION_ERROR": {
+      "body": "Analyzátor nebyl úspěšný ve výpočtu kompenzace vápníku a/nebo albuminu. Potřebujete-li pomoc, obraťte se na podporu společnosti IDEXX."
+    },
+    "OFFSETS_CV_TOO_HIGH_ERROR": {
+      "body": "Analyzátoru se nepodařilo vypočítat platnou kompenzaci vápníku a/nebo albuminu, protože jeden nebo více výsledků spadá mimo přijatelný rozsah. Abyste problém vyřešili, zkontrolujte postup přípravy kompenzace, potom proveďte zpracování znovu s novou kontrolní tekutinou a slidy. Pokud problém přetrvává, obraťte se na podporu společnosti IDEXX."
+    },
+    "OFFSETS_INSUFFICIENT_SLIDES_ERROR": {
+      "body": "Byl použit nedostatečný počet slidů ze stejné šarže. Abyste problém vyřešili, zkontrolujte postup přípravy kompenzace, potom proveďte zpracování znovu s novou kontrolní tekutinou a slidy."
+    },
+    "OFFSETS_OUT_OF_RANGE_ERROR": {
+      "body": "Analyzátoru se nepodařilo vypočítat platnou kompenzaci vápníku a/nebo albuminu, protože vypočítaná kompenzace spadá mimo přijatelný rozsah. Potřebujete-li pomoc, obraťte se na podporu společnosti IDEXX."
+    },
+    "OPTICS_CALIBRATION_REQUIRED": {
+      "title": "Je nutná kalibrace",
+      "body": "Biochemický analyzátor Catalyst One je nutno vyčistit a provést kalibraci. Pokud tato chyba přetrvává i po kalibraci, obraťte se na podporu společnosti IDEXX."
+    },
+    "OPTICS_INITIALIZATION_FAILURE": {
+      "body": "Přístroj nemohl dokončit akci. Zkuste restartovat přístroj. Pokud problém přetrvává, obraťte se na podporu společnosti IDEXX."
+    },
+    "OPTICS_LED_FAILURE": {
+      "body": "Při automatické kontrole nebo provozu analyzátoru nastala chyba. Obraťte se na podporu společnosti IDEXX."
+    },
+    "OPTICS_MODULE_CONFIGURATION_ERROR": {
+      "body": "Chyba konfigurace optického modulu. Analyzátor nebyl úspěšně kalibrován. Potřebujete-li pomoc, obraťte se na podporu společnosti IDEXX."
+    },
+    "OPTICS_SENSOR_FAILURE": {
+      "body": "Při automatické kontrole nebo provozu analyzátoru nastala chyba. Obraťte se na podporu společnosti IDEXX."
+    },
+    "OPTIMIZATION_AVAILABLE": {
+      "title": "Připomínka optimalizace",
+      "body": "U zařízení Catalyst One je nutné provést optimalizaci. Tento postup bude trval přibližně <strong>{{0}} minut</strong>.<linebreak />Přístroj tento postup automaticky spustí za {{1}} hodiny."
+    },
+    "OPTIMIZATION_AVAILABLE_ALIGNMENT": {
+      "title": "Připomínka optimalizace",
+      "body": "U zařízení Catalyst One je nutné provést optimalizaci. Tento postup bude trval přibližně <strong>{{0}} minut</strong>.<linebreak />Přístroj tento postup automaticky spustí za {{1}} hodiny.",
+      "instructions": {
+        "title": "Spustit optimalizaci zařízení Catalyst One",
+        "body": "<ol><li>Zkontrolujte, že je do části podavače s pipetovacími špičkami vloženo alespoň pět (5) špiček.</li><li>Odstraňte všechny kalíšky na vzorky, separátory plné krve nebo kalíšky na reagencie.</li><li>Zavřete podavač a stiskněte tlačítko Start.</li></ol><linebreak/>Ikona Catalyst One po dokončení optimalizace zezelená a vrátí se do stavu připraveno."
+      }
+    },
+    "PHBR_LOAD_ERROR": {
+      "title": "Chyba vložení PHBR reagentu",
+      "body": "PHBR reagent byl vložen nesprávně. Přemístěte reagent do držáků kalíšků zcela vpředu a stiskněte tlačítko Start."
+    },
+    "PHBR_LOAD_ERROR_IGNORABLE": {
+      "title": "Chyba vložení PHBR reagentu. Jiné slidy ve zpracování.",
+      "body": "PHBR reagent byl vložen nesprávně. Abyste problém vyřešili, otočte reagent tak, aby měl správnou orientaci, a stiskněte tlačítko Start.<linebreak />Pokud reagent nepřemístíte, bude zpracování pokračovat se zbývajícími vloženými slidy a výsledky PHBR nebudou vykázány."
+    },
+    "PHBR_ORIENT_ERROR": {
+      "title": "Chyba orientace PHBR reagentu",
+      "body": "PHBR reagent byl vložen nesprávně. K vyřešení problému otočte reagent tak, aby měl správnou orientaci, a stiskněte tlačítko Start."
+    },
+    "PHBR_ORIENT_ERROR_IGNORABLE": {
+      "title": "Chyba orientace PHBR reagentu. Jiné slidy ve zpracování.",
+      "body": "PHBR reagent byl vložen nesprávně. K vyřešení problému otočte reagent tak, aby měl správnou orientaci, a stiskněte tlačítko Start. Pokud reagent nepřemístíte, bude zpracování pokračovat se zbývajícími vloženými slidy a výsledky PHBR nebudou vykázány."
+    },
+    "PIPETTE_TIPS_LOW": {
+      "title": "Doplňte pipetovací špičky",
+      "body": "V podavači vzorků docházejí pipetovací špičky. Zkontrolujte, že je před zpracováním dalšího vzorku doplněna přihrádka na špičky v podavači vzorků."
+    },
+    "PRESSURE_SENSOR_ERROR": {
+      "body": "Při automatické kontrole nebo provozu analyzátoru nastala chyba. Obraťte se na podporu společnosti IDEXX."
+    },
+    "REAGENT_IDENTIFICATION_ERROR": {
+      "title": "Chyba identifikace reagentu",
+      "body": "Analyzátoru se nepodařilo identifikovat jeden nebo více vložených reagentů a/nebo slidů.<linebreak/>Po dokončení zpracování zopakujte zpracování s novými slidy."
+    },
+    "RECOVERABLE_TIMEOUT": {
+      "title": "Obnovitelné vypršení časového limitu",
+      "body": "Při zpracování došlo k chybě, což vedlo k částečné nebo úplné ztrátě zpracování. Chcete-li zjistit, k jaké chybě došlo, zobrazte si protokol událostí na kartě Přístroje Catalyst One nebo volejte podporu společnosti IDEXX."
+    },
+    "RECOVERY_FAILURE": {
+      "body": "Obnovení činnosti nástroje po předchozí závadě se nezdařilo. Pokud problém přetrvává, obraťte se na podporu společnosti IDEXX."
+    },
+    "ROBOT_HOMING_FAILURE": {
+      "body": "Přístroj nemohl dokončit akci. Stiskněte tlačítko Start a počkejte na obnovu nástroje. Pokud problém přetrvává, obraťte se na podporu společnosti IDEXX."
+    },
+    "ROBOT_MOTION_ERROR": {
+      "body": "Přístroj nemohl dokončit akci. Stiskněte tlačítko Start a počkejte na obnovu nástroje. Pokud problém přetrvává, obraťte se na podporu společnosti IDEXX."
+    },
+    "RUN_COMPLETION_ERROR": {
+      "title": "Zpracování nebylo možné dokončit",
+      "body": "Došlo k chybě při zpracování slidu a nebylo možné dokončit zpracování. Chcete-li tento problém vyřešit, zopakujte test znovu pomocí nového vzorku a nových slidů.<shortlinebreak/>Pokud problém přetrvává, obraťte se na podporu společnosti IDEXX."
+    },
+    "SAMPLE_DRAWER_LOCK_ERROR": {
+      "title": "Chyba zámku podavače vzorků",
+      "body": "Problém s blokovacím mechanismem podavače vzorků.<shortlinebreak/>Obraťte se na podporu společnosti IDEXX."
+    },
+    "SAMPLE_DRAWER_OPEN": {
+      "title": "Podavač vzorků je otevřený",
+      "body": "Zavřete podavač vzorků."
+    },
+    "SAMPLE_DRAWER_OPEN_RUN": {
+      "title": "Otevřený podavač vzorků při zpracovávání",
+      "body": "Podavač vzorků je otevřený. Aby zpracování pokračovalo, zavřete podavač vzorků a stiskněte tlačítko Start."
+    },
+    "SAMPLE_TOO_LOW": {
+      "body": "Pro všechny slidy není v této analýze dostatečný objem vzorku. Abyste problém vyřešili, zkontrolujte postup přípravy vzorku a poté analýzu spusťte znovu s novým vzorkem, slidy a reagentem. Pokud problém přetrvává, obraťte se na podporu společnosti IDEXX."
+    },
+    "SHIPPING_CLIPS_DETECTED": {
+      "body": "Zjištěny svorky používané při přepravě. Řešení:<ol><li>Otevřete boční dvířka.</li><li>Vyjměte svorky používané při přepravě.</li><li>Zavřete boční dvířka.</li><li>Přístroj bude pokračovat v procesu spuštění.</li></ol>Pokud problém trvá, obraťte se na podporu společnosti IDEXX."
+    },
+    "SLIDE_CONTAMINATED": {
+      "body": "Slide {{0}} je znečištěný, výsledky byly potlačeny."
+    },
+    "SIDE_DOOR_OPEN": {
+      "title": "Otevřená boční dvířka",
+      "body": "Během zpracování došlo k otevření bočních dvířek. Zavřete boční dvířka a znovu spusťte zpracování vzorku s novými slidy."
+    },
+    "SLIDE_DATE_SOFTWARE_VERSION_MISMATCH": {
+      "title": "Datování slidů neodpovídá verzi softwaru",
+      "body": "Ověřte, zda má analyzátor nejnovější verzi softwaru (na kartě Přístroje Catalyst One), zkontrolujte, zda slidy nejsou prošlé, a proveďte zpracování znovu s použitím nových slidů."
+    },
+    "SLIDE_DETECTION_ERROR": {
+      "title": "Chyba detekce slidů",
+      "body": "Slidy byly nesprávně vloženy nebo chybí. Abyste problém vyřešili, počkejte, až se podavač vzorků odemkne, vložte slidy do podavače vzorků a stiskněte tlačítko Start."
+    },
+    "SLIDE_EJECT_ERROR": {
+      "title": "Chyba vysunutí slidů",
+      "body": "Jeden nebo více slidů nebylo možné úspěšně vysunout. Řešení:<ol><li>Vyndejte zbývající slidy z podavače vzorků.</li><li>Otevřete boční dvířka, zvedněte kryt karuselu a vyjměte karusel.</li><li>Vyjměte všechny slidy z dráhy a zlikvidujte je.</li><li>Vraťte karusel na místo a zavřete jeho kryt.</li><li>Zavřete boční dvířka. Analyzátor se automaticky vrátí do připraveného stavu.</li><li>Vyprázdněte zásuvku odpadu.</li></ol>"
+    },
+    "SLIDE_LOADING_ERROR": {
+      "title": "Chyba vložení slidů",
+      "body": "Jeden nebo více slidů nebylo možné úspěšně vložit. Řešení:<ol><li>Počkejte na odemčení podavače vzorků.</li><li>Vyndejte zbývající slidy z podavače vzorků.</li><li>Otevřete boční dvířka, zvedněte kryt karuselu a vyjměte karusel.</li><li>Vyjměte všechny slidy z dráhy a zlikvidujte je.</li><li>Vraťte karusel na místo a zavřete jeho kryt.</li><li>Zavřete boční dvířka. Analyzátor se automaticky vrátí do připraveného stavu.</li><li>Zpracujte vzorek znovu s použitím nových slidů.</li></ol>"
+    },
+    "SLIDE_REAGENT_LOT_MISMATCH": {
+      "title": "Čísla šarže slidu a reagentu se neshodují",
+      "body": "Čísla šarží na slidu a reagentu se neshodují. Vložte slide a reagent odpovídající šarže do podavače vzorků a stiskněte tlačítko Start."
+    },
+    "SLIDE_REAGENT_LOT_MISMATCH_IGNORABLE": {
+      "title": "Čísla šarže slidu a reagentu se neshodují. Jiné slidy ve zpracování.",
+      "body": "Čísla šarží na slidu a reagentu se neshodují. Vložte slide a reagent odpovídající šarže do podavače vzorků a stiskněte tlačítko Start.<linebreak/>Nejsou-li detekována shodná čísla šarže, nebudou výsledky této chemické analýzy vykazovány."
+    },
+    "SLIDE_REAGENT_MISMATCH": {
+      "body": "Pro vložený slide {{0}} nelze najít odpovídající reagent. Abyste problém vyřešili, počkejte, až se podavač vzorků odemkne, vyjměte reagent, vložte odpovídající reagent, zavřete podavač vzorků a stiskněte tlačítko Start."
+    },
+    "SLIDE_REAGENT_MISMATCH_IGNORABLE": {
+      "body": "Pro vložený slide {{0}} nelze najít odpovídající reagent. Abyste problém vyřešili, počkejte, až se podavač vzorků odemkne, vyjměte reagent, vložte odpovídající reagent, zavřete podavač vzorků a stiskněte tlačítko Start. Není-li vložen odpovídající reagent, nebudou výsledky této chemické analýzy vykázány."
+    },
+    "SLIDE_TIMEOUT_ERROR": {
+      "title": "Chyba vypršení časového limitu slidů",
+      "body": "Slidy byly v podavači vzorků před zpracováním příliš dlouho. Zpracujte vzorek znovu s novými slidy."
+    },
+    "SPURIOUS_DEVICE_EVENT": {
+      "body": "Přístroj nemohl dokončit akci. Stiskněte tlačítko Start a počkejte na obnovu nástroje. Pokud problém přetrvává, obraťte se na podporu společnosti IDEXX."
+    },
+    "SUSPECT_RESULT_COMPARISON": {
+      "body": "Při zpracování jednoho ze slidů došlo k chybě. Abyste získali nevykázaný výsledek, proveďte zpracování znovu s použitím nového vzorku a slidů. Pokud problém přetrvává, obraťte se na podporu společnosti IDEXX."
+    },
+    "THERMAL_CONTROL_ERROR": {
+      "title": "Chyba regulace teploty",
+      "body": "Při zpracování se vyskytl problém s regulací teploty, který vedl k potlačení výsledků. Zkontrolujte, zda je teplota v okolí analyzátoru ve stanovených provozních mezích a znovu proveďte zpracování vzorku s novými slidy."
+    },
+    "THERMAL_ERROR": {
+      "title": "Teplotní chyba",
+      "body": "Při automatické kontrole analyzátoru nastala chyba teploty. Otevřete boční dvířka a zkontrolujte, zda je kryt karuselu zavřený. Po zavření bočních dvířek se analyzátor automaticky inicializuje.<shortlinebreak />Pokud problém přetrvává, obraťte se na podporu společnosti IDEXX."
+    },
+    "UNSPECIFIED_ERROR": {
+      "body": "Stala se neočekávaná chyba. Pro obnovení činnosti stiskněte na analyzátoru tlačítko Start. Pokud problém přetrvává, obraťte se na podporu společnosti IDEXX."
+    },
+    "UNSUPPORTED_QC_RANGE": {
+      "body": "Výsledek {{0}} {{1}} byl potlačen, protože slide není podporován pro zvolený typ kapaliny pro kontrolu kvality. Abyste problém vyřešili, spusťte analýzu znovu s novými slidy a vyberte správnou kapalinu pro kontrolu kvality."
+    },
+    "UNSUPPORTED_SLIDE_LOT": {
+      "body": "{{0}} {{1}} výsledek byl potlačen, nepodporovaná šarže slidu nebo prošlý slide"
+    },
+    "UNSUPPORTED_WHITE_REF_SLIDE_LOT": {
+      "body": "Nepodporovaná šarže bílého referenčního slidu. Spusťte kalibraci znovu s podporovaným bílým referenčním slidem. Potřebujete-li pomoc, obraťte se na podporu společnosti IDEXX."
+    },
+    "UPDATE_FAILED": {
+      "title": "Neúspěšná aktualizace softwaru",
+      "body": "Analyzátor Catalyst One nebyl úspěšně aktualizován. Zopakujte aktualizaci nyní nebo použijte volbu Aktualizace softwaru na kartě Přístroje Catalyst One.<linebreak/>Pokud problém přetrvává, obraťte se na podporu společnosti IDEXX."
+    },
+    "UPGRADE_FAILED_DOWNLOAD": {
+      "title": "Neúspěšné stažení aktualizace softwaru"
+    },
+    "UPGRADE_FAILED_PREPARATION": {
+      "title": "Neúspěšná příprava aktualizace softwaru"
+    },
+    "USED_REAGENT_DETECTED": {
+      "title": "Detekován použitý reagent",
+      "body": "Detekovaný reagent byl již dříve použit. Vyměňte ho za nový reagent a stiskněte tlačítko Start."
+    },
+    "USED_REAGENT_DETECTED_IGNORABLE": {
+      "title": "Detekován použitý reagent. Jiné slidy ve zpracování.",
+      "body": "Detekovaný reagent byl již dříve použit. Vyměňte ho za nový reagent a stiskněte tlačítko Start.<shortlinebreak />Nebude-li reagent vyměněn, nebudou výsledky této chemické analýzy vykázány."
+    },
+    "USED_REAGENT_DETECTED_IGNORABLE_WARNING": {
+      "body": "Detekovaný reagent byl již dříve použit. Výsledky pro tyto chemické látky nebudou vykázány. Abyste problém vyřešili, počkejte, dokud se přístroj nevrátí do připraveného stavu, a proveďte zpracování znovu s použitím nového vzorku, slidů a reagentu."
+    },
+    "USED_REAGENT_DETECTED_WARNING": {
+      "body": "Detekovaný reagent byl již dříve použit. Abyste problém vyřešili, počkejte, dokud se přístroj nevrátí do připraveného stavu, a proveďte zpracování znovu s použitím nového vzorku, slidů a reagentu."
+    },
+    "USER_CALIBRATION_UNSUCCESSFUL": {
+      "title": "Uživatelská kalibrace nebyla úspěšná",
+      "body": "Analyzátor nebyl úspěšně kalibrován.<shortlinebreak/>Potřebujete-li pomoc, zavolejte na podporu společnosti IDEXX."
+    },
+    "WARMUP_THERMAL_ERROR": {
+      "title": "Teplotní chyba při zahřívání",
+      "body": "Došlo k teplotní chybě. Otevřete boční dvířka a zkontrolujte, zda je kryt karuselu zavřený. Po zavření bočních dvířek se analyzátor automaticky inicializuje.<shortlinebreak/>Pokud problém přetrvává, obraťte se na podporu společnosti IDEXX."
+    },
+    "WASTE_DRAWER_FULL": {
+      "title": "Zásuvka odpadu je plná",
+      "body": "Vyprázdněte zásuvku odpadu."
+    },
+    "WASTE_DRAWER_OPEN": {
+      "title": "Otevřená zásuvka",
+      "body": "Zavřete zásuvku odpadu."
+    },
+    "WASTE_DRAWER_OPEN_RUN": {
+      "title": "Otevřená zásuvka odpadu při zpracovávání",
+      "body": "Zásuvka odpadu je otevřená. Aby zpracování pokračovalo, zavřete zásuvku odpadu a stiskněte tlačítko Start."
+    },
+    "WBS_SAMPLE_VOLUME_HIGH": {
+      "body": "V separátoru plné krve je příliš mnoho vzorku. Abyste problém vyřešili, proveďte zpracování znovu pomocí separátoru plné krve s 0,6–0,8 cm3 vzorku a nových slidů.<shortlinebreak/>Pokud problém přetrvává, obraťte se na podporu společnosti IDEXX."
+    }
+  },
+  "CATALYST_DX": {
+    "CONNECTION_TIMEOUT": {
+      "body": "Stanice IDEXX VetLab nemůže komunikovat s analyzátorem Catalyst Dx. <linebreak /><strong>POZNÁMKA:</strong> Pro trvalé odstranění ikony analyzátoru z Úvodní Nabídky zavřete upozornění, poklepejte na Offline ikonu a pak poklepejte <strong>Vyjmout přístroj</strong>. Pro obnovení připojení následujte tyto instrukce: <ol><li>Na analyzátoru Catalyst Dx poklepejte na <strong>Tools</strong> (Nástroje) pro zjištění, zda má analyzátor přidělenou nějakou IP adresu.</li><li>Pokud je IP adresa <strong>Undetermined</strong> (Neurčena), pokračujte dle instrukcí:<ol type=\\\"a\\\"><li>Na analyzátoru Catalyst Dx, v nabídce Tools, klepněte na <strong>Shut Down</strong> (Vypnout).</li><li>Když jste vyzváni, vypněte analyzátor pomocí vypínače.</li><li>Jakmile je analyzátor vypnutý, opět ho zapněte vypínačem.</li></ol></li></ol>Pokud je IP adresa přítomna a problém přetrvává, obraťte se na technickou podporu společnosti IDEXX."
+    }
+  },
+  "CRIMSON": {
+    "ASP_UNIT_FRONTBACK_MOTOR": {
+      "body": "Pro vyřešení tohoto problému poklepejte na <strong>Reset nasávacího motoru</strong>.<shortlinebreak/>Tato procedura zabere několik sekund.",
+      "title": "Chyba Motoru Jednotky Aspirace Dopředu Dozadu"
+    },
+    "ASP_UNIT_UPDOWN_MOTOR": {
+      "body": "Restart ProCyte Dx může vyřešit tuto chybu. Pokud hlášení přetrvává, obraťte se na podporu společnosti IDEXX. <shortlinebreak/><ol><li>Vypněte ProCyte Dx.</li><li>Vypněte IPU.</li><li>Zapněte IPU.</li><li>Zapněte ProCyte Dx.</li></ol>",
+      "title": "Chyba Motoru Jednotky Aspirace Nahoru Dolu"
+    },
+    "BACKGROUND": {
+      "body": "Toto může mít za následek nepřesné výsledky. Klepnutím na <strong>Spustit Auto Proplach</strong> vyčistěte zařízení a znovu zkontrolujte naměřené základní hodnoty. Tato procedura zabere přibližně <strong>8 minut.</strong>",
+      "title": "Kontrola pozadí naměřila vysoké následující parametry.",
+      "table": {
+        "headers": {
+          "assay": "Analýza",
+          "result": "Výsledek",
+          "limit": "Limit",
+          "unit": "Jednotka"
+        },
+        "assays": {
+          "PLT-O": "PLT-O",
+          "HGB": "HGB",
+          "RBC": "RBC",
+          "WBC": "WBC",
+          "PLT-I": "PLT-I"
+        }
+      }
+    },
+    "BLOOD_ASP_SENSOR": {
+      "body": "Pokud toto hlášení přetrvává, obraťte se na podporu společnosti IDEXX.",
+      "title": "Nelze analyzovat pacienta."
+    },
+    "CHAMBER_EPK": {
+      "body": "Reagenční sada se zdá být odpojena. Ověřte, že reagenční sada je správně připojena a že trubky nejsou zalomené nebo zkroucené. Poté klepněte na <strong>Spustit proplach.</strong><shortlinebreak/>Pokud se po poklepání na Spustit Proplach opět objevila tato zpráva, kontaktujte podporu IDEXX.",
+      "title": "Zdá se, že Reagenční Sada je odpojená"
+    },
+    "CLOSE_FCM_DETECT_COVER": {
+      "body": "Pomocí vypínače ProCyte Dx vypněte analyzátor na minimálně 10 sekund. Poté analyzátor zapněte.<linebreak/>Pokud toto hlášení přetrvává, obraťte se na podporu společnosti IDEXX.",
+      "title": "Zavřete Kryt Detektoru FCM"
+    },
+    "DIFF_CH": {
+      "body": "Pokud toto hlášení přetrvává, obraťte se na podporu společnosti IDEXX.",
+      "title": "Chyba DIFF-CH"
+    },
+    "DIFF_SAMPLING": {
+      "body": "Opětovně odeberte vzorek, obraťte ho 10krát okamžitě po odběru a před analýzou. Kontaktujte podporu IDEXX, jestliže zpráva nezmizí.",
+      "title": "Jiná chyba vzorkování"
+    },
+    "ENV_TEMP_HIGH": {
+      "body": "Teplota okolního prostředí analyzátoru ProCyte Dx je příliš vysoká. Zajistěte adekvátní ventilaci okolí analyzátoru, zkontrolujte filtr větráku a snižte teplotu okolního prostředí pod 38 °C.<shortlinebreak/>Pokud toto hlášení přetrvává, obraťte se na podporu společnosti IDEXX.",
+      "title": "Env Tepl Vysoko"
+    },
+    "ENV_TEMP_LOW": {
+      "body": "Teplota okolního prostředí analyzátoru ProCyte Dx je příliš nízká. Zvyšte pokojovou teplotu nad 10 °C.<linebreak/>Pokud toto hlášení přetrvává, obraťte se na podporu společnosti IDEXX.",
+      "title": "Env Temp Low"
+    },
+    "ENV_THERM_SENS": {
+      "body": "Restart ProCyte Dx může vyřešit tuto chybu. Pokud hlášení přetrvává, obraťte se na podporu společnosti IDEXX.<shortlinebreak/><ol><li>Vypněte ProCyte Dx.</li><li>Vypněte IPU.</li><li>Zapněte IPU.</li><li>Zapněte ProCyte Dx.</li></ol>",
+      "title": "Env Tepl Sens CHYBA"
+    },
+    "EXCHANGE_AIR_PUMP": {
+      "body": "Pokud toto hlášení přetrvává, obraťte se na podporu společnosti IDEXX.",
+      "title": "Výměna Vzduchové Pumpy"
+    },
+    "EXCHANGE_WASTE_TANK": {
+      "body": "Pro vyřešení problému poklepejte na <strong>Vyprázdnit odpadní komoru</strong>.<shortlinebreak/>Tato procedura zabírá méně než 1 minutu.",
+      "title": "Výměna Odpadního Zásobníku"
+    },
+    "EXECUTE_MONTHLY_RINSE_IVLS": {
+      "body": "Uplynul jeden měsíc od posledního měsíčního proplachu.<shortlinebreak/>Tato 25 minut trvající procedura eliminuje kontaminaci a zajišťuje přesné výsledky.",
+      "title": "Připomenutí měsíčního proplachu."
+    },
+    "EXECUTE_MONTHLY_RINSE_WARNING": {
+      "body": "Poklepejte <strong>Měsíční proplach</strong> pro pokračování proplachu.<shortlinebreak/>Tato 25 minut trvající procedura eliminuje kontaminaci a zajišťuje přesné výsledky.",
+      "title": "Musí být proveden Měsíční Proplach."
+    },
+    "EXPIRED_EPK": {
+      "body": "Pro zajištění přesných výsledků, důrazně doporučujeme vyměnit reagenční sadu.",
+      "title": "Reagenční sada je expirovaná."
+    },
+    "EXPIRED_FFD": {
+      "body": "Pro zajištění přesných výsledků, důrazně doporučujeme vyměnit reagenční sadu.",
+      "title": "Reagenční sada je expirovaná."
+    },
+    "EXPIRED_FFS": {
+      "body": "Pro zajištění přesných výsledků, důrazně doporučujeme vyměnit sadu barviv.",
+      "title": "Sada barviv je expirovaná."
+    },
+    "EXPIRED_RED": {
+      "body": "Pro zajištění přesných výsledků, důrazně doporučujeme vyměnit reagenční sadu.",
+      "title": "Reagenční sada je expirovaná."
+    },
+    "EXPIRED_RES": {
+      "body": "Pro zajištění přesných výsledků, důrazně doporučujeme vyměnit sadu barviv.",
+      "title": "Sada barviv je expirovaná."
+    },
+    "EXPIRED_SLS": {
+      "body": "Pro zajištění přesných výsledků, důrazně doporučujeme vyměnit reagenční sadu.",
+      "title": "Reagenční sada je expirovaná."
+    },
+    "FCM_RU_TEMP_HIGH": {
+      "body": "Interní teplota ProCyte je příliš vysoká. Vypněte analyzátor nejméně na 30 minut a potom opět zapněte.<shortlinebreak/>Pokud toto hlášení přetrvává, obraťte se na podporu společnosti IDEXX.",
+      "title": "FCM RU Tepl Vysoko"
+    },
+    "FCM_RU_TEMP_LOW": {
+      "body": "ProCyte Dx se zahřívá. Tato procedura může trvat až 30 minut.<linebreak/>Pokud toto hlášení přetrvává, obraťte se na podporu společnosti IDEXX.",
+      "title": "FCM RU Tepl Nízko"
+    },
+    "FCM_RU_THERM_SENS": {
+      "body": "Restart ProCyte Dx může vyřešit tuto chybu. Pokud hlášení přetrvává, obraťte se na podporu společnosti IDEXX.<shortlinebreak/><ol><li>Vypněte ProCyte Dx.</li><li>Vypněte IPU.</li><li>Zapněte IPU.</li><li>Zapněte ProCyte Dx.</li></ol>",
+      "title": "FCM RU Tepl Sens CHYBA"
+    },
+    "FCM_SHEATH_SENS": {
+      "body": "Restart ProCyte Dx může vyřešit tuto chybu. Pokud hlášení přetrvává, obraťte se na podporu společnosti IDEXX.<shortlinebreak/><ol><li>Vypněte ProCyte Dx.</li><li>Vypněte IPU.</li><li>Zapněte IPU.</li><li>Zapněte ProCyte Dx.</li></ol>",
+      "title": "FCM Reag Sens CHYBA"
+    },
+    "FFS_ASP_ERROR": {
+      "body": "Sada Barviv se zdá být odpojena. Ověřte, že sada barviv je správně připojena a že trubky nejsou zalomené nebo zkroucené. Poté klepněte na <strong>Spustit proplach.</strong><shortlinebreak/>Pokud se po poklepání na Spustit Proplach opět objevila tato zpráva, kontaktujte podporu IDEXX.",
+      "title": "Sada barviv se zdá být odpojena"
+    },
+    "HGB": {
+      "body": "Pokud toto hlášení přetrvává, obraťte se na podporu společnosti IDEXX.",
+      "title": "Chyba HGB"
+    },
+    "IPU_COMMUNICATION_ERROR": {
+      "body": "Restart ProCyte Dx může vyřešit tuto chybu. Pokud hlášení přetrvává, obraťte se na podporu společnosti IDEXX.<shortlinebreak/><ol><li>Vypněte ProCyte Dx.</li><li>Vypněte IPU.</li><li>Zapněte IPU.</li><li>Zapněte ProCyte Dx.</li></ol>",
+      "title": "Stala se neočekávaná chyba."
+    },
+    "LASER_DIODE_AGED": {
+      "body": "Pokud toto hlášení přetrvává, obraťte se na podporu společnosti IDEXX.",
+      "title": "Stará Laserová Dioda"
+    },
+    "LASER_POWER": {
+      "body": "Pomocí vypínače ProCyte Dx vypněte analyzátor na minimálně 10 sekund. Poté analyzátor zapněte.<linebreak/>Pokud toto hlášení přetrvává, obraťte se na podporu společnosti IDEXX.",
+      "title": "Chyba Výkonu Laseru"
+    },
+    "MPA_06": {
+      "body": "Pro vyřešení tohoto problému poklepejte <strong>Reset vzduchové pumpy</strong>.<shortlinebreak/>Tato procedura zabere přibližně 2 minuty.",
+      "title": "Chyba 0.06MPa"
+    },
+    "MPA_NEG03": {
+      "body": "Pro vyřešení tohoto problému poklepejte <strong>Reset vzduchové pumpy</strong>.<shortlinebreak/>Tato procedura zabere přibližně 2 minuty.",
+      "title": "Chyba -0.03MPa"
+    },
+    "NEW_HARDWARE_DETECTED": {
+      "body": "Pro konfiguraci nového hardware musíte nahrát konfigurační soubor, který se shoduje se sériovým číslem ProCyte Dx.<ol><li><strong>Vypněte analyzátor</strong> pomocí vypínače.<shortlinebreak/>Poznámka: Nevypínejte napájení IPU.</li><li>Poklepejte <strong>Konfigurovat</strong> pro pokračování.</li></ol>",
+      "title": "Detekován nový hardware."
+    },
+    "PLT_CH": {
+      "body": "Pokud toto hlášení přetrvává, obraťte se na podporu společnosti IDEXX.",
+      "title": "Chyba PLT-CH"
+    },
+    "PLT_SAMPLING": {
+      "body": "Pro vyřešení tohoto problému poklepejte na <strong>Odstranit sraženinu</strong>.<shortlinebreak/>Tato procedura zabere přibližně 1 minutu.",
+      "title": "Chyba Vzorku PLT"
+    },
+    "PRESS_START_BUTTON": {
+      "body": "<strong>Pro analýzu vzorku</strong><ol><li>Obraťte zkumavku se vzorkem 10krát, aby se důkladně promíchala.</li><li>Stiskněte tlačítko <strong>Start</strong> na analyzátoru.</li></ol>",
+      "title": "Analýza vzorku nezačala."
+    },
+    "PRESS_START_BUTTON_QC": {
+      "body": "<strong>$t({{ name }})<shortlinebreak/>Šarže: {{ lot-number }}</strong><shortlinebreak/>$t({{ unit }})",
+      "title": "Na analyzátoru stiskněte tlačítko start a zahajte analýzu:"
+    },
+    "PRESSURE_LOWER": {
+      "body": "Pro vyřešení tohoto problému poklepejte <strong>Reset vzduchové pumpy</strong>.<shortlinebreak/>Tato procedura zabere přibližně 2 minuty.",
+      "title": "Chyba Nízký Tlak"
+    },
+    "RBC_BUBBLE": {
+      "body": "Pro vyřešení tohoto problému poklepejte na <strong>Odstranit sraženinu</strong>.<shortlinebreak/>Tato procedura zabere přibližně 1 minutu.",
+      "title": "Chyba RBC Bubliny"
+    },
+    "RBC_CH": {
+      "body": "Pokud toto hlášení přetrvává, obraťte se na podporu společnosti IDEXX.",
+      "title": "Chyba RBC-CH"
+    },
+    "RBC_CLOG": {
+      "body": "Pro vyřešení tohoto problému poklepejte na <strong>Odstranit sraženinu</strong>.<shortlinebreak/>Tato procedura zabere přibližně 1 minutu.",
+      "title": "Chyba RBC Sraženina"
+    },
+    "RBC_HGB_CHAMBER": {
+      "body": "Pro vyřešení problému poklepejte na <strong>Vyprázdnit odpadní komoru</strong>.<shortlinebreak/>Tato procedura zabere méně než 1 minutu.",
+      "title": "Chyba Komory RBC/HGB"
+    },
+    "RBC_SAMPLING": {
+      "body": "Pro vyřešení tohoto problému poklepejte na <strong>Odstranit sraženinu</strong>.<shortlinebreak/>Tato procedura zabere přibližně 1 minutu.",
+      "title": "Chyba Vzorku RBC"
+    },
+    "REAGENT_KIT_LOW": {
+      "body": "Hladina kapaliny ve vaší reagenční sadě je nízká. V provozu můžete pokračovat až do vyprázdnění.<linebreak/>Pro zajištění nepřetržitého provozu analyzátoru ověřte, že máte ve svém inventáři náhradní reagenční sadu.<linebreak/>Chcete-li toto hlášení deaktivovat, změňte nastavení <strong>Upozornění nízké úrovně reagentu</strong> na obrazovce Nastavení ProCyte Dx na „Vyp“.",
+      "title": "Nízký stav Reagenční sady."
+    },
+    "REPLACE_EPK": {
+      "body": "Reagenční sada se zdá být odpojena. Ověřte, že reagenční sada je správně připojena a že trubky nejsou zalomené nebo zkroucené. Poté klepněte na <strong>Spustit proplach.</strong><shortlinebreak/>Pokud se po poklepání na Spustit Proplach opět objevila tato zpráva, kontaktujte podporu IDEXX.",
+      "title": "Zdá se, že Reagenční Sada je odpojená"
+    },
+    "REPLACE_FFD": {
+      "body": "Reagenční sada se zdá být odpojena. Ověřte, že reagenční sada je správně připojena a že trubky nejsou zalomené nebo zkroucené. Poté klepněte na <strong>Spustit proplach.</strong><shortlinebreak/>Pokud se po poklepání na Spustit Proplach opět objevila tato zpráva, kontaktujte podporu IDEXX.",
+      "title": "Zdá se, že Reagenční Sada je odpojená"
+    },
+    "REPLACE_FFS": {
+      "body": "Pro pokračování poklepejte <strong>Vyměnit Barviva</strong>.",
+      "title": "Sada Barviv je prázdná."
+    },
+    "REPLACE_PIERCER": {
+      "body": "Pokud toto hlášení přetrvává, obraťte se na podporu společnosti IDEXX.",
+      "title": "Vyměňte Piercer"
+    },
+    "REPLACE_REAGENT_PACKAGE": {
+      "body": "Pro pokračování poklepejte <strong>Vyměnit Reagent</strong>.",
+      "title": "Reagenční sada je prázdná."
+    },
+    "REPLACE_RED": {
+      "body": "Reagenční sada se zdá být odpojena. Ověřte, že reagenční sada je správně připojena a že trubky nejsou zalomené nebo zkroucené. Poté klepněte na <strong>Spustit proplach.</strong><shortlinebreak/>Pokud se po poklepání na Spustit Proplach opět objevila tato zpráva, kontaktujte podporu IDEXX.",
+      "title": "Zdá se, že Reagenční Sada je odpojená"
+    },
+    "REPLACE_RES": {
+      "body": "Pro pokračování poklepejte <strong>Vyměnit Barviva</strong>.",
+      "title": "Sada Barviv je prázdná."
+    },
+    "REPLACE_SLS": {
+      "body": "Reagenční sada se zdá být odpojena. Ověřte, že reagenční sada je správně připojena a že trubky nejsou zalomené nebo zkroucené. Poté klepněte na <strong>Spustit proplach.</strong><shortlinebreak/>Pokud se po poklepání na Spustit Proplach opět objevila tato zpráva, kontaktujte podporu IDEXX.",
+      "title": "Zdá se, že Reagenční Sada je odpojená"
+    },
+    "RET": {
+      "body": "Pokud toto hlášení přetrvává, obraťte se na podporu společnosti IDEXX.",
+      "title": "Chyba RET"
+    },
+    "RET_CH": {
+      "body": "Pokud toto hlášení přetrvává, obraťte se na podporu společnosti IDEXX.",
+      "title": "Chyba RET-CH"
+    },
+    "RET_CHAMBER": {
+      "body": "Pro vyřešení problému poklepejte na <strong>Vyprázdnit odpadní komoru</strong>.<shortlinebreak/>Tato procedura zabere méně než 1 minutu.",
+      "title": "Chyba komory RET"
+    },
+    "RET_SAMPLING": {
+      "body": "Byl detekován problém s průtokovou jednotkou. Pro pokračování klepněte na <strong>Propláchnout průtokovou kyvetu</strong>.<shortlinebreak/>Tento postup zabere přibližně 6 minut.",
+      "title": "Chyba Vzorku RET"
+    },
+    "RH_TEMP_HIGH_DIFF": {
+      "body": "Interní teplota ProCyte je příliš vysoká. Vypněte analyzátor nejméně na 30 minut a potom opět zapněte.<linebreak/>Pokud toto hlášení přetrvává, obraťte se na podporu společnosti IDEXX.",
+      "title": "RH Tepl Vysoko (DIFF)"
+    },
+    "RH_TEMP_HIGH_RET": {
+      "body": "Interní teplota ProCyte je příliš vysoká. Vypněte analyzátor nejméně na 30 minut a potom opět zapněte.<shortlinebreak/>Pokud toto hlášení přetrvává, obraťte se na podporu společnosti IDEXX.",
+      "title": "RH Tepl Vysoko (RET)"
+    },
+    "RH_TEMP_LOW_DIFF": {
+      "body": "ProCyte Dx se zahřívá. Tato procedura může trvat až 30 minut.<shortlinebreak/>Pokud toto hlášení přetrvává, obraťte se na podporu společnosti IDEXX.",
+      "title": "RH Tepl Nízko (DIFF)"
+    },
+    "RH_TEMP_LOW_RET": {
+      "body": "ProCyte Dx se zahřívá. Tato procedura může trvat až 30 minut.<linebreak/>Pokud toto hlášení přetrvává, obraťte se na podporu společnosti IDEXX.",
+      "title": "RH Tepl Nízko (RET)"
+    },
+    "RH_THERM_SENS_ERR_DIFF": {
+      "body": "Restart ProCyte Dx může vyřešit tuto chybu. Pokud hlášení přetrvává, obraťte se na podporu společnosti IDEXX.<shortlinebreak/><ol><li>Vypněte ProCyte Dx.</li><li>Vypněte IPU.</li><li>Zapněte IPU.</li><li>Zapněte ProCyte Dx.</li></ol>",
+      "title": "RH Tepl Sens CHYBA (DIFF)"
+    },
+    "RH_THERM_SENS_ERR_RET": {
+      "body": "Restart ProCyte Dx může vyřešit tuto chybu. Pokud hlášení přetrvává, obraťte se na podporu společnosti IDEXX.<shortlinebreak/><ol><li>Vypněte ProCyte Dx.</li><li>Vypněte IPU.</li><li>Zapněte IPU.</li><li>Zapněte ProCyte Dx.</li></ol>",
+      "title": "RH Tepl Sens CHYBA (RET)"
+    },
+    "RIGHT_COVER_HAS_OPENED": {
+      "body": "<ol><li>Zavřete pravý boční kryt.</li><li>Pomocí vypínače ProCyte DX vypněte a pak opět zapněte.</li></ol>",
+      "title": "Pravý boční kryt byl otevřen."
+    },
+    "RIGHT_COVER_IS_OPEN": {
+      "body": "Zavřete pravý boční kryt ProCyte Dx pro odstranění této chyby.",
+      "title": "Pravý boční kryt je otevřen."
+    },
+    "RINSE_CUP_PINCH_VALVE": {
+      "body": "Pro vyřešení tohoto problému poklepejte na <strong>Vyčistit škrtící ventily</strong>.<shortlinebreak/>Tento postup zabere méně než 1 minutu.",
+      "title": "Chyba Proplachu Škrtících Ventilů"
+    },
+    "SAMPLE_NOT_ASP": {
+      "body": "Vzorek má patrně nedostatečný objem krve. Než znovu spustíte zpracování pacienta, zkontrolujte objem. Požadavky na objem vzorku naleznete v Návodu k obsluze analyzátoru ProCyte Dx.<shortlinebreak/>Pokud toto hlášení přetrvává, obraťte se na podporu společnosti IDEXX.",
+      "title": "Vzorek Není Asp Chyba"
+    },
+    "SFS_INTERRUPTED": {
+      "body": "<ol><li>Odpojte ze zadní části analyzátoru hadice, které vedou z rychlopřipojovacího uzávěru.</li><li>Vypněte analyzátor a IPU.</li><li>Odpojte od analyzátoru napájecí a datové kabely.</li><li>Pošlete analyzátor zpět společnosti IDEXX.</li></ol>",
+      "title": "Při vypínání došlo k problému u odesílací procedury."
+    },
+    "SFS_REAGENTS_DRAINED": {
+      "body": "Z analyzátoru byly vyprázdněny reagencie.<shortlinebreak/><strong>Další kroky:</strong><ol><li>Na zadní straně analyzátoru odpojte hadičku od bílého portu</li><li>Vypněte analyzátor pomocí vypínače na jeho pravé straně</li><li>Stiskněte vypínač na jednotce IPU a vypněte ji (tlačítko nedržte)</li><li>Od zadní strany analyzátoru odpojte napájecí a ethernetový kabel</li><li>Zabalte starý analyzátor do krabice na náhradní analyzátor a vraťte jej společnosti IDEXX</li></ol><linebreak/><strong>Klepněte na Dokončit</strong>",
+      "title": "Poslední kroky"
+    },
+    "SHEATH_MOTOR": {
+      "body": "Pro vyřešení tohoto problému poklepejte na <strong>Reset motoru reagentu</strong>.<shortlinebreak/>Tento postup zabere méně než 1 minutu.",
+      "title": "Chyba Motoru Sheath"
+    },
+    "SHORT_SAMPLE": {
+      "body": "Vzorek má patrně nedostatečný objem krve. Než znovu spustíte zpracování pacienta, zkontrolujte objem. Požadavky na objem vzorku naleznete v Návodu k obsluze analyzátoru ProCyte Dx.<shortlinebreak/>Pokud toto hlášení přetrvává, obraťte se na podporu společnosti IDEXX.",
+      "title": "Nedostatek Vzorku"
+    },
+    "SOFTWARE_UPGRADE_AVAILABLE": {
+      "body": "<ol><li><strong>Vypněte Analyzátor</strong> pomocí vypínače.<shortlinebreak/>Poznámka: Nevypínejte napájení IPU.</li><li>Pokračujte klepnutím na <strong>Aktualizovat nyní</ strong>.<shortlinebreak/>VAROVÁNÍ: Počítač IPU bude během tohoto procesu vypnut.</li></ol>",
+      "title": "Aktualizace software verze {{ software-version }} je připravena k instalaci."
+    },
+    "SOFTWARE_UPGRADE_FAILED": {
+      "body": "Zkuste aktualizaci znovu nebo kontaktujte podporu společnosti IDEXX.<ol><li><strong>Vypněte Analyzátor</strong> pomocí vypínače.<shortlinebreak/>Poznámka: Nevypínejte napájení IPU.</li><li>Poklepejte <strong>Aktualizovat Nyní</strong> pro pokračování.</li></ol>",
+      "title": "Aktualizace software byla neúspěšná."
+    },
+    "SOFTWARE_UPGRADE_TIMEOUT": {
+      "body": "Zajistěte, aby byl analyzátor ProCyte Dx vypnutý, a poté restartujte IPU pomocí tlačítka napájení na IPU.<shortlinebreak/>Pokud problém přetrvává, obraťte se na podporu společnosti IDEXX.",
+      "title": "Aktualizace software byla neúspěšná."
+    },
+    "STAIN_PACK_LOW": {
+      "body": "Hladina kapaliny vaší sady barviv je nízká. V provozu můžete pokračovat až do vyprázdnění.<linebreak/>Pro zajištění nepřetržitého provozu analyzátoru ověřte, že máte ve svém inventáři náhradní sadu barviv.<linebreak/>Chcete-li toto hlášení deaktivovat, změňte nastavení <strong>Upozornění nízké úrovně reagentu</strong> na obrazovce Nastavení ProCyte Dx na „Vyp“.",
+      "title": "Nízký stav Sady barviv."
+    },
+    "STARTUP_PRIME_REQUIRED": {
+      "body": "Pro tuto proceduru, je vyžadována plná reagenční sada a sada barviv. Chcete pokračovat?",
+      "title": "Je vyžadována Startovací procedura."
+    },
+    "SYSTEM_CONFIGURATION": {
+      "body": "Restart ProCyte Dx může vyřešit tuto chybu. Pokud hlášení přetrvává, obraťte se na podporu společnosti IDEXX.<shortlinebreak/><ol><li>Vypněte ProCyte Dx.</li><li>Vypněte IPU.</li><li>Zapněte IPU.</li><li>Zapněte ProCyte Dx.</li></ol>",
+      "title": "Chyba Systémové Konfigurace."
+    },
+    "TUBE_HOLDER_HAS_OPENED": {
+      "body": "Restart ProCyte Dx může vyřešit tuto chybu. Pokud hlášení přetrvává, obraťte se na podporu společnosti IDEXX.<shortlinebreak/><ol><li>Vypněte ProCyte Dx.</li><li>Vypněte ProCyte Dx.</li><li>Vypněte IPU.</li><li>Zapněte IPU.</li><li>Zapněte ProCyte Dx.</li></ol>",
+      "title": "Podavač vzorků byl otevřen."
+    },
+    "TUBE_HOLDER_MOTOR": {
+      "body": "V podavači vzorků je překážka. Pro vyřešení tohoto problému poklepejte na <strong>Reset motoru trubek</strong>.<shortlinebreak/>Tento postup zabere méně než 1 minutu.",
+      "title": "Chyba Motoru Držáku Zkumavky"
+    },
+    "TURN_ON_MAIN_UNIT": {
+      "body": "Pro zapnutí ProCyte Dx použijte vypínač na analyzátoru.",
+      "title": "ProCyte Dx nebyl detekován."
+    },
+    "UNINTENTIONAL_OFFLINE_TIMEOUT": {
+      "body": "Klepněte na tlačítko <strong>Zapnout ProCyte Dx</strong> a zapněte tak jednotku IPU. Zapnutí jednotky IPU potrvá přibližně 1 minutu.<shortlinebreak/><strong>Poznámka:</strong> Po použití tlačítka zapnutí přístroje ProCyte Dx nestlačujte vypínač jednotky IPU. Zapněte analyzátor pomocí spínače na pravé straně analyzátoru.",
+      "title": "ProCyte Dx nebyl detekován"
+    },
+    "WAKE_ON_LAN_FAILURE_TIMEOUT": {
+      "body": "Je-li jednotka IPU již zapnutá, vypněte ji, a poté se ujistěte, že je připojená síťovým kabelem ke routeru VetLab.<shortlinebreak/>Poté <strong>stiskněte tlačítko napájení</strong> na IPU, aby se zapnula.",
+      "title": "ProCyte Dx nebyl detekován"
+    },
+    "WASTE_CHAMBER_1": {
+      "body": "Pro vyřešení problému poklepejte na <strong>Vyprázdnit odpadní komoru</strong>.<shortlinebreak/>Tato procedura zabírá méně než 1 minutu.",
+      "title": "Chyba Odpadní Komory 1"
+    },
+    "WASTE_CHAMBER_1_PINCH_VALVE": {
+      "body": "Pro vyřešení tohoto problému poklepejte na <strong>Vyčistit škrtící ventily</strong>.<shortlinebreak/>Tento postup zabere méně než 1 minutu.",
+      "title": "Chyba Škrtícího Ventilu v Odpadní Komoře 1"
+    },
+    "WASTE_CHAMBER_2": {
+      "body": "Pro vyřešení problému poklepejte na <strong>Vyprázdnit odpadní komoru</strong>.<shortlinebreak/>Tato procedura zabírá méně než 1 minutu.",
+      "title": "Chyba Odpadní Komory 2"
+    },
+    "WASTE_CHAMBER_2_PINCH_VALVE": {
+      "body": "Pro vyřešení tohoto problému poklepejte na <strong>Vyčistit škrtící ventily</strong>.<shortlinebreak/>Tento postup zabere méně než 1 minutu.",
+      "title": "Chyba Škrtícího Ventilu v Odpadní Komoře 2"
+    },
+    "WB_ASP_MOTOR": {
+      "body": "Pro vyřešení tohoto problému poklepejte na <strong>Reset WB motoru</strong>.<shortlinebreak/>Tento postup zabere méně než 1 minutu.",
+      "title": "Chyba WB Asp Motoru"
+    },
+    "WBC_CH": {
+      "body": "Byl detekován problém s průtokovou jednotkou. Pro pokračování klepněte na <strong>Propláchnout průtokovou kyvetu</strong>.<shortlinebreak/>Tento postup zabere přibližně 6 minut.",
+      "title": "Chyba WBC-CH"
+    },
+    "WBC_CHAMBER": {
+      "body": "Pro vyřešení problému poklepejte na <strong>Vyprázdnit odpadní komoru</strong>.<shortlinebreak/>Tato procedura zabere méně než 1 minutu.",
+      "title": "Chyba Komory WBC"
+    },
+    "WBC_SAMPLING": {
+      "body": "Byl detekován problém s průtokovou jednotkou. Pro pokračování klepněte na <strong>Propláchnout průtokovou jednotku</strong>.<linebreak/>Tento postup zabere přibližně 6 minut.",
+      "title": "Chyba Vzorku WBC"
+    },
+    "unmapped": {
+      "body": "<strong>Kontaktujte podporu IDEXX a předejte následující informace:</strong> <shortlinebreak/>Chyba: {{ error }} <shortlinebreak/>Doporučená akce: {{ action }} <shortlinebreak/>Pokyn: {{ command }}",
+      "title": "Stala se neočekávaná chyba."
+    }
+  },
+  "Crimson": {
+    "PressStartButton": {
+      "QC": {
+        "Line3": {
+          "EN": "<ol><li>Ohřívejte kontrolní vzorky na pokojovou teplotu (18 - 25 °C) po dobu nejméně 15 minut.</li><li>Jemně otáčejte lahvičku QC, dokud nebudou buňky usazené na dně lahvičky zcela rozptýleny.<shortlinebreak/><strong>Poznámka:</strong> Nepokládejte kontrolní vzorky na mechanický mixér nebo třepačku.</li><li>Vložte zkumavku do adaptéru pro QC zkumavky v podavači vzorků.</li><li>Stiskněte tlačítko <strong>Start</strong> na analyzátoru.</li></ol>",
+          "SI": "1. Ohřívejte kontrolní vzorky na pokojovou teplotu (15–25 °C) po dobu nejméně 15 minut.<br /><br />2. Jemně otáčejte lahvičku QC, dokud nebudou buňky usazené na dně lahvičky zcela rozptýleny.<br /><br />Poznámka: Nepokládejte kontrolní vzorky na mechanický mixér nebo třepačku.<br /><br />3. Vložte zkumavku do adaptéru pro QC zkumavky v podavači vzorků.<br /><br />4. Stiskněte tlačítko <b>Start</b> na analyzátoru."
+        }
+      }
+    }
+  },
+  "URISED": {
+    "ARM_MOVEMENT": {
+      "body": "Byla zjištěna chyba ramene pohybu kazet.<linebreak/>Závadu by měla vyřešit inicializace a vyčištění. Postup spustíte klepnutím na tlačítko <strong>Zahájit</strong>.<linebreak/>Pokud chyba přetrvává, obraťte se na podporu IDEXX.",
+      "title": "Chyba ramene pohybu kazet"
+    },
+    "CAMERA_ERROR": {
+      "body": "Chyba kamery. Kontaktujte prosím podporu IDEXX.",
+      "title": "Chyba kamery"
+    },
+    "CENTRIFUGE_ARM_MISSING": {
+      "body": "Žádné rameno centrifugy. Kontaktujte prosím podporu IDEXX.",
+      "title": "Chyba centrifugy"
+    },
+    "CENTRIFUGE_ROTATION_ERROR": {
+      "body": "Chyba rotace centrifugy. Kontaktujte prosím podporu IDEXX.",
+      "title": "Chyba centrifugy"
+    },
+    "CLEANING_RECOMMENDED": {
+      "body": "Doporučujeme vyčistit analyzátor močového sedimentu SediVue Dx jednou za měsíc.<linebreak/>Chcete-li vyčistit analyzátor nyní, klepněte na <strong>Vyčistit</strong>.<linebreak/>Chcete-li obdržet připomínku za 24 hodin, klepněte na <strong>Připomenout později</strong>.<linebreak/>Pokud je váš analyzátor již vyčištěný, klepněte na <strong>Odmítnout</strong>.",
+      "title": "Doporučené čištění"
+    },
+    "CUVETTE_COUNT_LOW": {
+      "body": "Zbývající kazety: {{ 0 }}<linebreak/>Můžete pokračovat v používání analyzátoru až do vyprázdnění boxu.<linebreak/>Pro zajištění nepřetržitého provozu analyzátoru ověřte, že máte ve svém inventáři další kazety.",
+      "title": "Box kazety SediVue je téměř prázdný."
+    },
+    "CUVETTE_COUNT_ZERO": {
+      "body": "Box kazety SediVue je prázdný.<linebreak/>Box kazety SediVue je nutné vyměnit, aby bylo možné váš analyzátor dále používat.",
+      "title": "Vyměňte box kazety SediVue Dx"
+    },
+    "CUVETTE_SENSOR_EMPTY": {
+      "body": "Box kazety SediVue je prázdný nebo se kazeta správně nenačetla.<linebreak/>Otevřete dvířka přístroje SediVue Dx a zkontrolujte, zda se kazeta nachází v boxu. Je-li kazeta na místě, jemně klepněte na box a spusťte přístroj znovu. Není-li kazeta na místě, musíte do analyzátoru vložit nový box kazety.",
+      "title": "Nebyla detekována kazeta SediVue"
+    },
+    "DOOR_OPEN": {
+      "body": "Před použitím SediVue Dx je nutno zavřít dvířka.",
+      "title": "Otevřená dvířka"
+    },
+    "FEEDER_MOVEMENT": {
+      "body": "Byla zjištěna chyba ramene pohybu kazet.<linebreak/>Závadu by měla vyřešit inicializace a vyčištění. Postup spustíte klepnutím na tlačítko <strong>Zahájit</strong>.<linebreak/>Pokud chyba přetrvává, obraťte se na podporu IDEXX.",
+      "title": "Chyba ramene pohybu kazet"
+    },
+    "FOCUS_DLL_NOT_FOUND": {
+      "body": "Soubor Focus dll nebyl nalezen. Kontaktujte Technickou Podporu.",
+      "title": "Chyba zaostření"
+    },
+    "FOCUS_FUNCTION_MISSING": {
+      "body": "Jedna z funkcí zaostření chybí. Kontaktujte prosím podporu IDEXX.",
+      "title": "Chyba zaostření"
+    },
+    "FOCUS_HOME_POSITION_ERROR": {
+      "body": "Chyba výchozí pozice zaostření. Kontaktujte prosím podporu IDEXX.",
+      "title": "Chyba zaostření"
+    },
+    "GENERAL_COMMUNICATION_ERROR": {
+      "body": "Všeobecná chyba v komunikaci. Kontaktujte Technickou Podporu.",
+      "title": "Všeobecná chyba v komunikaci"
+    },
+    "HOUSE_OPEN": {
+      "body": "Před použitím SediVue Dx je třeba vrátit víko na centrifugu.",
+      "title": "Víko centrifugy bylo sundáno"
+    },
+    "INSTRUMENT_PORT_OPEN_ERROR": {
+      "body": "Chyba otevření portu nástroje. Kontaktujte Technickou Podporu.",
+      "title": "Chyba portu nástroje"
+    },
+    "MEMORY_ALLOCATION_ERROR": {
+      "body": "Chyba alokace paměti v modulu Zprávy. Kontaktujte Technickou Podporu.",
+      "title": "Chyba paměti"
+    },
+    "MICROSCOPE_CTS_TIMEOUT": {
+      "body": "Časový limit režimu CTS mikroskopu vypršel. Kontaktujte Technickou Podporu.",
+      "title": "Chyba mikroskopu."
+    },
+    "MICROSCOPE_THREAD_CREATION_ERROR": {
+      "body": "Chyba při vytváření vlákna u mikroskopu. Kontaktujte prosím podporu IDEXX.",
+      "title": "Chyba při vytváření vlákna"
+    },
+    "MOTY_MOVEMENT": {
+      "body": "Byla zjištěna chyba ramene pohybu kazet.<linebreak/>Závadu by měla vyřešit inicializace a vyčištění. Postup spustíte klepnutím na tlačítko <strong>Zahájit</strong>.<linebreak/>Pokud chyba přetrvává, obraťte se na podporu IDEXX.",
+      "title": "Chyba ramene pohybu kazet"
+    },
+    "PLATE_MISSING": {
+      "body": "Před použitím SediVue Dx je nutno vyměnit odkapávací podnos.",
+      "title": "Byl odstraněn odkapávací podnos"
+    },
+    "PORT_THREAD_NOT_STARTED": {
+      "body": "Vlákno portu nemůže být zahájeno.",
+      "title": "Chyba vlákna portu"
+    },
+    "PROTOCOL_CLASS_CREATION_ERROR": {
+      "body": "Chyba při vytváření třídy protokolu. Kontaktujte Technickou Podporu.",
+      "title": "Chyba protokolu"
+    },
+    "PROTOCOL_USAGE_UNDEFINED": {
+      "body": "Použití protokolu není definováno. Kontaktujte Technickou Podporu.",
+      "title": "Chyba protokolu"
+    },
+    "SERIAL_PORT_NOT_FOUND": {
+      "body": "Sériový port nebyl nalezen. Kontaktujte Technickou Podporu.",
+      "title": "Chyba sériového portu"
+    },
+    "SERIAL_PORT_UNAVAILABLE": {
+      "body": "PC nemá sériový port. Kontaktujte Technickou Podporu.",
+      "title": "Chyba sériového portu"
+    },
+    "SMART_SERVICE_DISCONNECTED": {
+      "body": "SmartService byl odpojen na více než 5 dní. Pro zajištění optimální funkce SediVue Dx se znovu připojte.",
+      "title": "SmartService odpojeno"
+    },
+    "SYSTEM_REBOOT_RECOMMENDED": {
+      "body": "IDEXX doporučuje restartovat analyzátor SediVue Dx jednou měsíčně, aby se zajistil optimální výkon.<linebreak/>Chcete nyní restartovat analyzátor?\n",
+      "title": "Restart doporučen"
+    },
+    "TOO_MANY_SERIAL_PORTS_DEFINED": {
+      "body": "V souboru ini je definováno příliš mnoho sériových portů. Kontaktujte Technickou Podporu.",
+      "title": "Chyba sériového portu"
+    },
+    "UPDATE_AVAILABLE": {
+      "body": "Analyzátor můžete kdykoli aktualizovat použitím možnosti Aktualizace softwaru na obrazovce přístrojů SediVue Dx.",
+      "noUpgradeWarning": "Pokud analyzátor nenecháte aktualizovat do {{ dateFormat }}, nainstaluje se aktualizace automaticky.",
+      "title": "Aktualizace software verze {{ version }} je připravena k instalaci."
+    },
+    "UPDATE_FAILED": {
+      "body": "Aktualizace analyzátoru SediVue Dx neproběhla úspěšně. Zopakujte aktualizaci nyní nebo použijte volbu Aktualizace Softwaru na kartě Nástroje SediVue Dx.<linebreak/>Pokud problém přetrvává, obraťte se na Podporu společnosti IDEXX.",
+      "title": "Neúspěšná aktualizace softwaru"
+    },
+    "UPDATE_FAILED_CATASTROPHIC": {
+      "body": "Potřebujete-li pomoc, obraťte se na podporu společnosti IDEXX.",
+      "title": "Neúspěšná aktualizace softwaru"
+    },
+    "WAKE_ON_LAN_FAILURE_TIMEOUT": {
+      "body": "Pokud je analyzátor již zapnutý, vypněte jej. Zkontrolujte, že je připojen k routeru IDEXX VetLab.<linebreak/>Poté <strong>stiskněte tlačítko napájení</strong> na analyzátoru, aby se zapnul.<linebreak/>Pokud problém přetrvává, obraťte se na podporu IDEXX.",
+      "title": "SediVue Dx nebyl detekován"
+    }
+  },
+  "URISYS_DX": {
+    "E1_REFERENCE_PAD_ERROR_MIDDLE_ERROR": {
+      "body": "Podnos na proužky je znečištěný nebo poškozený.<shortlinebreak /><ol><li>Vyjměte podnos na proužky z analyzátoru.</li><li>Vyčistěte bílou referenční plošku pomocí alkoholu a hadříku, který nepouští vlákna.</li><li>Znovu zasuňte podnos na proužky do analyzátoru a opakujte test.</li></ol>Pokud problém přetrvává, vyměňte podnos na proužky, nebo se obraťte na podporu IDEXX.",
+      "title": "Chyba referenční plošky"
+    },
+    "E2_WRONG_STRIP_ERROR": {
+      "body": "V případě kalibrace:<shortlinebreak /><ol><li>Zopakujte test pomocí kalibračního proužku IDEXX.</li><li>Zkontrolujte, zda je proužek správně umístěný na podnose na proužky.</li></ol>V případě zpracování vzorku:<shortlinebreak /><ol><li>Zopakujte test pomocí testovacího proužku IDEXX.</li><li>Ujistěte se, že na proužek bylo aplikováno dostatečné množství vzorku.</li><li>Zkontrolujte, zda je proužek správně umístěný na podnose na proužky.</li></ol>Pokud problém přetrvává, kontaktujte technickou podporu IDEXX.",
+      "title": "Chyba proužku"
+    },
+    "E3_STRIP_MEASUREMENT_ERROR": {
+      "body": "<ol><li>Zopakujte test pomocí testovacího proužku IDEXX.</li><li>Ujistěte se, že na proužek bylo aplikováno dostatečné množství vzorku.</li><li>Zkontrolujte, zda je proužek správně umístěný na podnose.</li></ol><strong>Pokud má vzorek tmavou barvu:</strong><shortlinebreak /> Odstřeďte jej a opakujte test s použitím supernatantu a nového testovacího proužku.<linebreak />Pokud chyba přetrvává, kontaktujte podporu společnosti IDEXX.",
+      "title": "Chyba měření"
+    },
+    "E4_CALIBRATION_ERROR": {
+      "body": "Analyzátor nebyl úspěšně kalibrován. Potřebujete-li pomoc, obraťte se na podporu společnosti IDEXX.",
+      "title": "Chyba kalibrace"
+    },
+    "E5_CALIBRATION_INVALID_ERROR": {
+      "body": "Analyzátor nebyl úspěšně kalibrován. Potřebujete-li pomoc, obraťte se na podporu společnosti IDEXX.",
+      "title": "Chyba kalibrace"
+    },
+    "E7_MISSING_TRAY_ERROR": {
+      "body": "Podnos na proužky chybí nebo není ve správné poloze.<shortlinebreak /><ol><li>Znovu vložte podnos na proužky.</li><li>Klepněte na <strong>Inicializovat</strong>.</li><li>Pokud problém přetrvává, vyměňte podnos na proužky za nový.</li></ol>Pokud problém přetrvává, kontaktujte technickou podporu IDEXX.",
+      "title": "Chybějící podnos na proužky"
+    },
+    "E8_TRAY_POSITION_ERROR": {
+      "body": "Podnos na proužky chybí, je znečištěný nebo není ve správné poloze.<shortlinebreak /><ol><li>Vyjměte podnos na proužky z analyzátoru.</li><li>Vyčistěte podnos na proužky pomocí alkoholu a hadříku, který nepouští vlákna.</li><li>Znovu zasuňte podnos na proužky do analyzátoru a klepněte na <strong>Inicializovat</strong>.</li><li>Klepnutím na ikonu pacienta zopakujte test.</li></ol>Pokud problém přetrvává, vyměňte podnos na proužky za nový, nebo se obraťte na podporu IDEXX.",
+      "title": "Chyba podnosu na proužky"
+    },
+    "E9_WRONG_TRAY_ERROR": {
+      "body": "<ol><li>Vyměňte podnos na proužky za nový.</li><li>Klepněte na <strong>Inicializovat</strong>.</li></ol>Pokud problém přetrvává, kontaktujte technickou podporu IDEXX.",
+      "title": "Nesprávný podnos na proužky"
+    },
+    "E10_LIGHT_BARRIER_ERROR": {
+      "body": "<ol><li>Vyjměte podnos na proužky z analyzátoru.</li><li>Vyčistěte podnos na proužky pomocí alkoholu a hadříku, který nepouští vlákna.</li><li>Znovu zasuňte podnos na proužky do analyzátoru a klepněte na <strong>Inicializovat</strong>.</li></ol>Pokud problém přetrvává, vyměňte podnos na proužky za nový, nebo se obraťte na podporu IDEXX.",
+      "title": "Chyba světelné bariéry"
+    },
+    "E11_MOTOR_STEP_ERROR": {
+      "body": "Podnos na proužky se pohybuje nesprávně.<shortlinebreak /><ol><li>Vyjměte podnos na proužky z analyzátoru.</li><li>Vyčistěte podnos na proužky pomocí alkoholu a hadříku, který nepouští vlákna.</li><li>Znovu zasuňte podnos na proužky do analyzátoru a klepněte na <strong>Inicializovat</strong>.</li></ol>Pokud problém přetrvává, vyměňte podnos na proužky za nový, nebo se obraťte na podporu IDEXX.",
+      "title": "Chyba kroku motoru"
+    },
+    "E12_OPTICS_ERROR": {
+      "body": "<ol><li>Vyjměte podnos na proužky z analyzátoru a vložte podnos nový.</li><li>Klepněte na <strong>Inicializovat</strong>.</li></ol>Pokud problém přetrvává, obraťte se na podporu společnosti IDEXX.",
+      "title": "Chyba optiky"
+    },
+    "E15_REFERENCE_PAD_BOTTOM_ERROR": {
+      "body": "Podnos na proužky je znečištěný nebo poškozený.<shortlinebreak /><ol><li>Vyjměte podnos na proužky z analyzátoru.</li><li>Vyčistěte bílou referenční plošku pomocí alkoholu a hadříku, který nepouští vlákna.</li><li>Znovu zasuňte podnos na proužky do analyzátoru a opakujte test.</li></ol>Pokud problém přetrvává, vyměňte podnos na proužky, nebo se obraťte na podporu IDEXX.",
+      "title": "Chyba referenční plošky"
+    },
+    "E16_REFERENCE_PAD_TOP_ERROR": {
+      "body": "Podnos na proužky je znečištěný nebo poškozený.<shortlinebreak /><ol><li>Vyjměte podnos na proužky z analyzátoru.</li><li>Vyčistěte bílou referenční plošku pomocí alkoholu a hadříku, který nepouští vlákna.</li><li>Znovu zasuňte podnos na proužky do analyzátoru a opakujte test.</li></ol>Pokud problém přetrvává, vyměňte podnos na proužky, nebo se obraťte na podporu IDEXX.",
+      "title": "Chyba referenční plošky"
+    },
+    "E24_COMP_PAD_REMISSIONS_OUT_OF_RANGE_ERROR": {
+      "body": "Opakujte test pomocí nového testovacího proužku a ujistěte se, že proužek obsahuje dostatečné množství vzorku a je správně umístěn v podnose na proužky.<linebreak /><strong>Pokud má vzorek tmavou barvu</strong>:<shortlinebreak /> odstřeďte jej a opakujte test s použitím supernatantu a nového testovacího proužku.<linebreak />Pokud chyba přetrvává, kontaktujte podporu společnosti IDEXX.",
+      "title": "Výsledek mimo rozsah"
+    },
+    "E25_SYSTEM_EPROM_ERROR": {
+      "body": "Restartování analyzátoru UA:<shortlinebreak /><ol><li>Analyzátor UA vypnete klepnutím na <strong>Vypnout</strong>.</li><li>Poté 60 sekundách zapněte analyzátor UA stisknutím tlačítka napájení na pravé straně analyzátoru.</li></ol>Pokud problém přetrvává, kontaktujte technickou podporu IDEXX.",
+      "title": "Je nutné provést restart"
+    },
+    "E27_USER_CALIBRATION_IS_REQUIRED_ERROR": {
+      "body": "Analyzátor UA musí být kalibrován každých 7 dní, aby byly zajištěny přesné výsledky.<shortlinebreak />Týdenní kalibraci zahájíte klepnutím na <strong>Kalibrovat</strong>.",
+      "title": "Je nutná kalibrace"
+    },
+    "E29_DATABASE_ERROR": {
+      "body": "Restartování analyzátoru UA:<shortlinebreak /><ol><li> Analyzátor UA vypnete klepnutím na <strong>Vypnout</strong>.</li><li>Poté 60 sekundách zapněte analyzátor UA stisknutím tlačítka napájení na pravé straně analyzátoru.</li></ol>Pokud problém přetrvává, kontaktujte technickou podporu IDEXX.",
+      "title": "Je nutné provést restart"
+    },
+    "E30_SYSTEM_INITIALIZATION_ERROR": {
+      "body": "Restartování analyzátoru UA:<shortlinebreak /><ol><li>Analyzátor UA vypnete klepnutím na <strong>Vypnout</strong>.</li><li>Poté 60 sekundách zapněte analyzátor UA stisknutím tlačítka napájení na pravé straně analyzátoru.</li></ol>Pokud problém přetrvává, kontaktujte technickou podporu IDEXX.",
+      "title": "Je nutné provést restart"
+    },
+    "E33_SYSTEM_ERROR": {
+      "body": "Restartování analyzátoru UA:<shortlinebreak /><ol><li>Analyzátor UA vypnete klepnutím na <strong>Vypnout</strong>.</li><li>Poté 60 sekundách zapněte analyzátor UA stisknutím tlačítka napájení na pravé straně analyzátoru.</li></ol>Pokud problém přetrvává, kontaktujte technickou podporu IDEXX.",
+      "title": "Je nutné provést restart"
+    },
+    "E100_POWERSUPPLY_ERROR": {
+      "body": "<strong>Vypněte</strong> analyzátor UA:<ol><li>Analyzátor UA vypnete klepnutím na <strong>Vypnout</strong>.</li><li>Zkontrolujte, zda je správný napájecí zdroj pevně zasunut do napájecího portu na zadní straně analyzátoru i do elektrické zásuvky.</li><li>Poté 60 sekundách zapněte analyzátor stisknutím tlačítka napájení na pravé straně analyzátoru.</li></ol>Pokud problém přetrvává, kontaktujte technickou podporu IDEXX.",
+      "title": "Je nutné provést restart a kontrolu kabelů"
+    },
+    "UPDATE_AVAILABLE": {
+      "body": "Pokud si zvolíte instalaci později, analyzátor můžete kdykoli aktualizovat tak, že přejdete na obrazovku nástroje UA Analyzer.",
+      "title": "Aktualizace software verze {{ version }} je připravena k instalaci."
+    },
+    "UPDATE_FAILED": {
+      "body": "Aktualizace nástroje UA Analyzer neproběhla úspěšně. Chcete-li problém vyřešit, zopakujte postup aktualizace nyní nebo aktualizujte později tak, že přejdete na obrazovku nástroje UA Analyzer.<linebreak/>Pokud problém přetrvává, obraťte se na podporu společnosti IDEXX.",
+      "title": "Neúspěšná aktualizace softwaru"
+    },
+    "UPDATE_FAILED_CATASTROPHIC": {
+      "body": "Potřebujete-li pomoc, obraťte se na podporu společnosti IDEXX.",
+      "title": "Neúspěšná aktualizace softwaru"
+    }
+  },
+  "THEIA": {
+    "INST_TEMP_LOW": {
+      "body": "Provozní teplota analyzátoru je příliš nízká na to, aby bylo možné zahájit zpracování vzorku. Počkejte, až se analyzátor zahřeje, nebo zkontrolujte teplotu v místnosti.<linebreak/>Pokud problém přetrvává, obraťte se na podporu společnosti IDEXX."
+    },
+    "INST_TEMP_HIGH": {
+      "body": "Provozní teplota analyzátoru je příliš vysoká na to, aby bylo možné zahájit zpracování vzorku. Zkontrolujte, že je kolem analyzátoru dostatečný prostor.<linebreak/>Pokud problém přetrvává, obraťte se na podporu společnosti IDEXX."
+    },
+    "INVALID_CONSUMABLES": {
+      "body": "Zdá se, že se nejedná o kazetu IDEXX inVue Dx. Zpracujte vzorek znovu s kazetou IDEXX."
+    },
+    "EXPIRED_CONSUMABLES": {
+      "body": "Kazeta je expirovaná. Zpracujte vzorek znovu s novou, neexpirovanou kazetou."
+    },
+    "BARCODE_READ_FAILURE": {
+      "body": "Nelze načíst čárový kód. Zkontrolujte, zda není čárový kód poškozen nebo překryt, vyčistěte čárový kód nebo zadejte čárový kód ručně."
+    },
+    "INCORRECT_TEST_TYPE_MANUAL": {
+      "body": "Čárový kód neodpovídá vybranému typu testu. Zadejte prosím správný čárový kód."
+    },
+    "INCORRECT_TEST_TYPE": {
+      "body": "Jedná se o nesprávnou kazetu pro vybraný typ testu. Zpracujte vzorek znovu se správnou kazetou."
+    },
+    "SAMPLE_OVER_TEMP": {
+      "body": "Teplota systému je v průběhu zpracování vzorku příliš vysoká. Podívejte se do příručky pro obsluhu, abyste nastavili prostředí na teplotu vhodnou pro zpracování vzorku inVue."
+    },
+    "SAMPLE_UNDER_TEMP": {
+      "body": "Teplota systému je v průběhu zpracování vzorku příliš nízká. Podívejte se do příručky pro obsluhu, abyste nastavili prostředí na teplotu vhodnou pro zpracování vzorku inVue."
+    },
+    "IMPROPER_SAMPLE_PREPARATION": {
+      "body": "Je možné, že ve vzorku chybí reagencie. Připravte nový vzorek a opakujte proces.<linebreak/>Pokud problém přetrvává, obraťte se na podporu společnosti IDEXX."
+    },
+    "SAMPLE_CELLULARITY_HIGH": {
+      "body": "Vzorek není možné analyzovat. Připravte nový vzorek a opakujte zpracování."
+    },
+    "MOTION_ERROR_CARTRIDGE": {
+      "body": "Kazeta není správně umístěna. Zkuste znovu vložit kazetu.<linebreak/>Pokud problém přetrvává, obraťte se na podporu společnosti IDEXX."
+    },
+    "MOTION_ERROR_MICROSCOPE": {
+      "body": "Mikroskop není správně umístěn. Zkuste znovu vložit kazetu.<linebreak/>Pokud problém přetrvává, obraťte se na podporu společnosti IDEXX."
+    },
+    "UNKNOWN_ERROR": {
+      "body": "Cyklus byl přerušen.<linebreak/>Pokud problém přetrvává, kontaktujte technickou podporu IDEXX."
+    }
+  },
+  "default": {
+    "message": "Analyzátor zobrazil výstrahu. Prosím podívejte se na přístroj pro vice informací."
+  },
+  "buttons": {
+    "start": "Start",
+    "powerOnProCyteDx": "Zapnutí zařízení ProCyte Dx",
+    "performClean": "Provést vyčištění"
+  },
+  "defaultActionButtons": {
+    "ASPIRATION_UNIT_MOTOR": "Reset nasávacího motoru",
+    "CALIBRATE": "Kalibrovat",
+    "CANCEL": "Zrušit",
+    "CANCEL_RUN": "Zrušit analýzu",
+    "CHANGE_REAGENT": "Vyměnit Reagent",
+    "CHANGE_STAIN": "Vyměnit Barvivo",
+    "CLEAN": "Vyčistit",
+    "CLEAR_PINCH_VALUE": "Vyčistit škrtící ventily",
+    "CLOSE": "Zavřít",
+    "CONFIGURE": "Konfigurace",
+    "CONNECT": "Připojit",
+    "CONTINUE": "Pokračovat",
+    "DISMISS": "Odmítnout",
+    "DRAIN_REACTION_CHAMBER": "Vyprázdnit Reakční Komoru",
+    "DRAIN_WASTE_CHAMBER": "Vyprázdnit Odpadní Komoru",
+    "ENTER_REAGENT_BARCODE": "Zadat ručně",
+    "ENTER_SHEATH_BARCODE": "Zadat ručně",
+    "FILTER_INSTRUCTIONS": "Instrukce k použití filtru",
+    "FINISH": "Dokončit",
+    "INITIALIZE": "Inicializovat",
+    "OK": "OK",
+    "OK_REMOVE": "OK",
+    "OPTIMIZE_LATER": "Optimalizovat později",
+    "OPTIMIZE_NOW": "Optimalizovat nyní",
+    "PINCH_VALVE": "Vyčistit škrtící ventily",
+    "POWER_DOWN": "Vypnout",
+    "REBOOT_INSTRUMENT": "Restartovat",
+    "REMIND_ME_LATER": "Připomenout později",
+    "REMIND_ME_NEXT_RUN": "Připomenout při dalším cyklu",
+    "REMIND_ME_WHEN_EMPTY": "Upozornění Prázdný Reagent",
+    "REMOVE_CLOGS": "Odstranit sraženinu",
+    "REPLACE_CUVETTES": "Vyměňte kazety",
+    "REPLACE_FILTER": "Vyměnit Filtr",
+    "REPLACE_REAGENT": "Vyměnit reagencii",
+    "REPLACE_SHEATH": "Vyměnit nosnou kapalinu",
+    "REPLACE_SMART_QC": "Nahradit SmartQC",
+    "RESET_AIR_PUMP": "Reset Vzduchové Pumpy",
+    "RESET_SHEATH_MOTOR": "Reset Motoru Reagentu",
+    "RESET_WB_MOTOR": "Reset WB Motoru",
+    "RINSE_FLOW_CELL": "Proplach průtokové jednotky",
+    "AUTO_RINSE": "Spustit Auto Proplach",
+    "RUN_BLEACH_CLEAN": "Provést čištění bělidlem",
+    "MONTHLY_RINSE": "Spustit Měsíční Proplach",
+    "START_PRIME": "Spustit Proplach",
+    "TUBE_HOLDER_MOTOR": "Reset motoru hadiček",
+    "UPGRADE": "Upgradovat",
+    "UPGRADE_LATER": "Upgradovat později",
+    "UPGRADE_SOFTWARE": "Aktualizovat nyní",
+    "PRINT": "Tisk",
+    "FORCE_RUN": "Ignorovat",
+    "ENTER_THEIA_BARCODE": "Zadat čárový kód"
+  },
+  "QualityControl": {
+    "PatientName": {
+      "Level1": "ProCyte Dx QC úroveň 1",
+      "Level2": "ProCyte Dx QC úroveň 2"
+    }
+  }
+}

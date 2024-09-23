@@ -1,0 +1,20 @@
+{
+  "dateTime": {
+    "date": "M/DD/YY",
+    "shortDate": "MMM DD, YYYY",
+    "dateTime12h": "M/DD/YY h:mm A",
+    "longDateTime12h": "MMMM D, YYYY h:mm A",
+    "mediumDateTime12h": "h:mm A MMM D YYYY",
+    "dayOfMonth": "MMM D",
+    "durationMinsSecs": "mm:ss",
+    "time12h": "h:mm A",
+    "dayAndTime12h": "ddd h:mm A"
+  },
+  "number": {
+    "percent": "{{ value }} %"
+  },
+  "qualifiers": {
+    "GREATER_THAN": ">",
+    "LESS_THAN": "<"
+  }
+}

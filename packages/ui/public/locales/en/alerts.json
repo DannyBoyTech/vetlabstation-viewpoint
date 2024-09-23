@@ -1,0 +1,1547 @@
+{
+  "ACADIA_DX": {
+    "ALG_RUN_FLAG_FAULT": {
+      "body": "An unexpected error has occurred, interrupting the run. Please mix and rerun the sample. If the problem persists, please contact IDEXX Support.",
+      "title": "Unexpected Error"
+    },
+    "ASP_CLOT": {
+      "body": "The run has been canceled due to inadequate sample volume and/or clots in the sample. Please confirm there is proper sample volume, check the sample for clots, and then mix and rerun the sample. If the problem persists, please contact IDEXX Support.",
+      "title": "Sample Issue"
+    },
+    "ASP_ERROR": {
+      "body": "The run has been canceled due to inadequate sample volume and/or clots in the sample. Please confirm there is proper sample volume, check the sample for clots, and then mix and rerun the sample. If the problem persists, please contact IDEXX Support.",
+      "title": "Sample Issue"
+    },
+    "ASP_NO_FLUID": {
+      "body": "The run has been canceled due to inadequate sample volume and/or clots in the sample. Please confirm there is proper sample volume, check the sample for clots, and then mix and rerun the sample. If the problem persists, please contact IDEXX Support.",
+      "title": "Sample Issue"
+    },
+    "ASP_PARTIAL": {
+      "body": "The run has been canceled due to inadequate sample volume and/or clots in the sample. Please confirm there is proper sample volume, check the sample for clots, and then mix and rerun the sample. If the problem persists, please contact IDEXX Support.",
+      "title": "Sample Issue"
+    },
+    "ASP_START_IN_AIR": {
+      "body": "The run has been canceled due to inadequate sample volume and/or clots in the sample. Please confirm there is proper sample volume, check the sample for clots, and then mix and rerun the sample. If the problem persists, please contact IDEXX Support.",
+      "title": "Sample Issue"
+    },
+    "BARCODE_READ_FAILURE_QC": {
+      "body": "The SmartQC barcode cannot be read. Please check the barcode on the label for damage or obstruction.",
+      "title": "SmartQC Barcode Cannot Be Read"
+    },
+    "BARCODE_READ_FAILURE_REAGENT": {
+      "body": "The ProCyte One reagent pack is unable to be identified, please check the barcode - if damaged, please contact IDEXX Support.",
+      "title": "Reagent Pack Invalid"
+    },
+    "BARCODE_READ_FAILURE_SHEATH": {
+      "body": "The ProCyte One sheath pack is unable to be identified, please check the barcode - if damaged, please contact IDEXX Support.",
+      "title": "Sheath Pack Invalid"
+    },
+    "BLEACH_CLEAN_RECOMMENDED": {
+      "body": "It has been 90 days since running the last Bleach Clean.<linebreak/>This procedure takes approximately 15 minutes and will eliminate contaminants and ensure accurate results.",
+      "title": "90-Day Bleach Clean Reminder."
+    },
+    "BLEACH_CLEAN_REQUIRED": {
+      "body": "Tap the <strong>Run Bleach Clean</strong> button to perform this maintenance procedure.<linebreak/>This procedure takes approximately 15 minutes and will eliminate contaminants to ensure accurate results.",
+      "title": "90-day Bleach Clean must be performed."
+    },
+    "CAMERA_INITIALIZATION_FAILURE": {
+      "body": "An unexpected has error occurred. Please wait while the analyzer recovers. If the problem persists, please contact IDEXX Support.",
+      "title": "Unexpected Error"
+    },
+    "DATA_PROCESSING_ERROR": {
+      "body": "An unexpected error has occurred, interrupting the run. Please mix and rerun the sample. If the problem persists, please contact IDEXX Support.",
+      "title": "Unexpected Error"
+    },
+    "EXPIRED_REAGENT": {
+      "body": "Your reagent pack is expired.<linebreak/>To continue using your analyzer, replace it with an unexpired pack. Tap <strong>Replace Reagent</strong> to access instructions.",
+      "title": "WARNING: Reagent is Expired."
+    },
+    "EXPIRED_SHEATH": {
+      "body": "Your sheath pack is expired.<linebreak/>To continue using your analyzer, replace it with an unexpired pack. Tap <strong>Replace Sheath</strong> to access instructions.",
+      "title": "WARNING: Sheath is Expired."
+    },
+    "FILTER_LEAK": {
+      "body": "An unexpected filter error has occurred. Please reseat the filter in the analyzer before proceeding.<linebreak/>If the problem persists, please contact IDEXX Support.",
+      "title": "Filter Error"
+    },
+    "FILTER_REPLACE": {
+      "body": "The fluidic filter must be replaced. This process will take 3 to 4 minutes. Please replace the filter in the analyzer, or tap <strong>Replace Filter</strong> for instructions.",
+      "title": "Replace Fluidic Filter"
+    },
+    "INSUFFICIENT_EVENTS": {
+      "body": "An unexpected error has occurred, interrupting the run. Please mix and rerun the sample. If the problem persists, please contact IDEXX Support.",
+      "title": "Unexpected Error"
+    },
+    "JUNK_OVERLOAD": {
+      "body": "Excessive unlysed RBCs have interfered with the WBC count. Please confirm with a blood smear. Contact IDEXX Support for further assistance.",
+      "title": "WBC Results Withheld"
+    },
+    "MAINTENANCE_TUBE_ERROR": {
+      "body": "There is an issue with the bleach procedure tube. Please confirm it is a 13 mm x 75 mm tube with its cap removed and then press the <strong>Start</strong> button on the analyzer to continue.<linebreak/>Tap <strong>Cancel</strong> to end this procedure.",
+      "title": ""
+    },
+    "MICROCODE_WATCHDOG": {
+      "body": "An unexpected has error occurred. Please wait while the analyzer recovers. If the problem persists, please contact IDEXX Support.",
+      "title": "Unexpected Error"
+    },
+    "MISSING_CONTROL": {
+      "body": "Please load a SmartQC vial to enable automatic quality control.",
+      "title": "Load SmartQC Vial"
+    },
+    "MISSING_REAGENT": {
+      "body": "Please load a reagent pack to resume sample processing.",
+      "title": "Reagent Pack Missing"
+    },
+    "MISSING_SAMPLE": {
+      "body": "Please confirm the sample tube is a supported EDTA-treated tube, mix the sample, remove the stopper or cap, and then rerun the sample.",
+      "title": "Sample Tube Issue"
+    },
+    "MISSING_SHEATH": {
+      "body": "Please load a sheath pack to resume sample processing.",
+      "title": "Sheath Pack Missing"
+    },
+    "OBC_EMPTY": {
+      "body": "The SmartQC vial is empty and must be replaced in order to resume automatic quality control.",
+      "title": "SmartQC Empty"
+    },
+    "OBC_LOW": {
+      "body": "The SmartQC vial is low and will need to be replaced soon. Ensure that you have a replacement vial in your inventory.",
+      "title": "SmartQC Low"
+    },
+    "OVER_PRESSURE": {
+      "body": "The system encountered a blockage in one of the fluid lines. Please wait while the system automatically attempts to clear the blockage.",
+      "title": "Blockage Encountered"
+    },
+    "OVER_PRESSURE_UNRECOVERABLE": {
+      "body": "An unexpected error has occurred, interrupting the run. Please contact IDEXX Support for assistance.",
+      "title": "Unexpected Error"
+    },
+    "OVER_TEMP": {
+      "body": "The operating temperature of the analyzer is too high to begin a sample run. Please ensure there is adequate air flow around the analyzer.",
+      "title": "Temperature Issue"
+    },
+    "PACK_ACCESS_OPEN": {
+      "body": "Please close the analyzer door to continue.",
+      "title": "Analyzer Door Open"
+    },
+    "PACK_ACCESS_OPEN_RUN": {
+      "body": "The analyzer door was opened, interrupting the run. Please close the analyzer door so that the analyzer can automatically reset. When the analyzer status is <strong>Ready</strong>, mix and rerun the sample.",
+      "title": "Analyzer Door Open"
+    },
+    "QC_REMINDER": {
+      "body": "The SmartQC vial will expire prior to your next scheduled automated QC run. Please replace it with a non-expired vial.",
+      "title": "Your SmartQC Will Expire Soon"
+    },
+    "REAGENT_EMPTY": {
+      "body": "Your reagent pack is empty.<linebreak/>To continue using your analyzer, tap <strong>Replace Reagent</strong> and follow the on-screen instructions.",
+      "title": "WARNING: Reagent is Empty"
+    },
+    "REAGENT_LOW": {
+      "body": "The reagent pack is low and will need to be replaced soon. Ensure that you have a replacement pack in your inventory.",
+      "title": "Your Reagent Pack is Low"
+    },
+    "REAGENT_PACK_LEAK": {
+      "body": "The reagent pack unexpectedly drew air.  Check the reagent fill volume and re-install the pack.  If required replace the reagent pack."
+    },
+    "REAGENT_PACK_LEAK_RUN": {
+      "body": "The reagent pack unexpectedly drew air.  Check the reagent fill volume and re-install the pack.  If required replace the reagent pack.  Please re-run this sample after thoroughly mixing the sample tube."
+    },
+    "SAMPLE_DRAWER_OPEN_QC": {
+      "body": "The sample drawer was opened, interrupting the automatic quality control process. SmartQC will resume at the next scheduled interval.",
+      "title": "Sample Drawer Open"
+    },
+    "SAMPLE_DRAWER_OPEN_RUN": {
+      "body": "To continue, please close the sample drawer and then press the <strong>Start</strong> button on the front of the analyzer.",
+      "title": "Sample Drawer Open"
+    },
+    "SAMPLE_TUBE_RUN_END": {
+      "body": "The run has been canceled due to the use of an unsupported sample tube or a tube with an unpierceable stopper. Please contact IDEXX Support for assistance.",
+      "title": "Sample Tube Issue"
+    },
+    "SHEATH_EMPTY": {
+      "body": "Your sheath pack is empty.<linebreak/><linebreak>To continue using your analyzer, tap <strong>Replace Sheath</strong> and follow the on-screen instructions.",
+      "title": "WARNING: Sheath is Empty"
+    },
+    "SHEATH_LOW": {
+      "body": "The sheath pack is low and will need to be replaced soon. Ensure that you have a replacement pack in your inventory.",
+      "title": "Your Sheath Pack is Low"
+    },
+    "SHUTDOWN_SHIPPING_CLEANUP": {
+      "body": "To complete this process, please remove the reagent pack, sheath pack, and filter from inside of the analyzer. Remove anything in the sample drawer (SmartQC, sample tubes) and disconnect the power and Ethernet cables behind the analyzer.",
+      "title": "Finalize Shutdown Procedure"
+    },
+    "STOPPER_PRESENT": {
+      "body": "Please confirm the sample tube is a supported EDTA-treated tube, mix the sample, remove the stopper or cap, and then rerun the sample.",
+      "title": "Sample Tube Issue"
+    },
+    "SYR_RBC_HOME_ERROR": {
+      "body": "An unexpected error has occurred, interrupting the run. Please mix and rerun the sample. If the problem persists, please contact IDEXX Support.",
+      "title": "Unexpected Error"
+    },
+    "SYR_RBC_MOTION_ERROR": {
+      "body": "An unexpected error has occurred, interrupting the run. Please mix and rerun the sample. If the problem persists, please contact IDEXX Support.",
+      "title": "Unexpected Error"
+    },
+    "SYR_RBC_PRESSURE_ERROR": {
+      "body": "An unexpected error has occurred, interrupting the run. Please mix and rerun the sample. If the problem persists, please contact IDEXX Support.",
+      "title": "Unexpected Error"
+    },
+    "SYR_SAMPLE_HOME_ERROR": {
+      "body": "An unexpected error has occurred, interrupting the run. Please mix and rerun the sample. If the problem persists, please contact IDEXX Support.",
+      "title": "Unexpected Error"
+    },
+    "SYR_SAMPLE_MOTION_ERROR": {
+      "body": "An unexpected error has occurred, interrupting the run. Please mix and rerun the sample. If the problem persists, please contact IDEXX Support.",
+      "title": "Unexpected Error"
+    },
+    "SYR_SAMPLE_PRESSURE_ERROR": {
+      "body": "An unexpected error has occurred, interrupting the run. Please mix and rerun the sample. If the problem persists, please contact IDEXX Support.",
+      "title": "Unexpected Error"
+    },
+    "SYR_SHEATH_HOME_ERROR": {
+      "body": "An unexpected error has occurred, interrupting the run. Please mix and rerun the sample. If the problem persists, please contact IDEXX Support.",
+      "title": "Unexpected Error"
+    },
+    "SYR_SHEATH_MOTION_ERROR": {
+      "body": "An unexpected error has occurred, interrupting the run. Please mix and rerun the sample. If the problem persists, please contact IDEXX Support.",
+      "title": "Unexpected Error"
+    },
+    "SYR_SHEATH_PRESSURE_ERROR": {
+      "body": "An unexpected error has occurred, interrupting the run. Please mix and rerun the sample. If the problem persists, please contact IDEXX Support.",
+      "title": "Unexpected Error"
+    },
+    "SYR_WBC_HOME_ERROR": {
+      "body": "An unexpected error has occurred, interrupting the run. Please mix and rerun the sample. If the problem persists, please contact IDEXX Support.",
+      "title": "Unexpected Error"
+    },
+    "SYR_WBC_MOTION_ERROR": {
+      "body": "An unexpected error has occurred, interrupting the run. Please mix and rerun the sample. If the problem persists, please contact IDEXX Support.",
+      "title": "Unexpected Error"
+    },
+    "SYR_WBC_PRESSURE_ERROR": {
+      "body": "An unexpected error has occurred, interrupting the run. Please mix and rerun the sample. If the problem persists, please contact IDEXX Support.",
+      "title": "Unexpected Error"
+    },
+    "TUBE_EMPTY": {
+      "body": "The run has been canceled due to inadequate sample volume and/or clots in the sample. Please confirm there is proper sample volume, check the sample for clots, and then mix and rerun the sample. If the problem persists, please contact IDEXX Support.",
+      "title": "Sample Issue"
+    },
+    "UNEXPECTED_ERROR": {
+      "body": "An unexpected error has occurred, interrupting the run. Please mix and rerun the sample. If the problem persists, please contact IDEXX Support.",
+      "title": "Unexpected Error"
+    },
+    "UNEXPECTED_ERROR_MAINTENANCE": {
+      "body": "An unexpected error has occurred. If the problem persists, please contact IDEXX Support.",
+      "title": "Unexpected Error"
+    },
+    "UNKNOWN_TUBE": {
+      "body": "Please confirm the sample tube is a supported EDTA-treated tube, mix the sample, remove the stopper or cap, and then rerun the sample.",
+      "title": "Sample Tube Issue"
+    },
+    "UNSTABLE_REAGENT": {
+      "body": "Your reagent pack is expired.<linebreak/>To continue using your analyzer, replace it with an unexpired pack. Tap <strong>Replace Reagent</strong> to access instructions.",
+      "title": "WARNING: Reagent is Expired."
+    },
+    "UNSTABLE_SHEATH": {
+      "body": "Your sheath pack is expired.<linebreak/>To continue using your analyzer, replace it with an unexpired pack. Tap <strong>Replace Sheath</strong> to access instructions.",
+      "title": "WARNING: Sheath is Expired."
+    },
+    "UNSUPPORTED_QC_LOT": {
+      "body": "The SmartQC vial has expired. Please replace it with an unexpired vial.",
+      "title": "SmartQC Expired"
+    },
+    "UPDATE_PENDING": {
+      "body": "Please wait approximately 2 minutes while the ProCyte One analyzer is automatically upgraded and restarted.<linebreak/>The process is complete when the ProCyte One returns to <strong>Ready</strong>.",
+      "title": "Software upgrade version {{ 0 }} is ready to be installed."
+    },
+    "USED_REAGENT": {
+      "body": "The ProCyte One reagent pack has already been used. Please try another pack or contact IDEXX Support.",
+      "title": "Reagent Pack Invalid"
+    },
+    "XAXIS_MOTION_ERROR": {
+      "body": "An unexpected error has occurred, interrupting the run. Please mix and rerun the sample. If the problem persists, please contact IDEXX Support.",
+      "title": "Unexpected Error"
+    },
+    "ZAXIS_MOTION_ERROR": {
+      "body": "An unexpected error has occurred, interrupting the run. Please mix and rerun the sample. If the problem persists, please contact IDEXX Support.",
+      "title": "Unexpected Error"
+    }
+  },
+  "alertModal": {
+    "secondaryHeader": "Alert | {{ instrumentName }}",
+    "secondaryHeaderNoInstrument": "Alert"
+  },
+  "CATONE": {
+    "ADD_PIPETTE_TIPS": {
+      "title": "Add Pipette Tips",
+      "body": "There are not enough pipette tips loaded in the sample drawer. To resolve, wait for the sample drawer to unlock then fill the tip section in the sample drawer and then press the Start button."
+    },
+    "AIR_DETECTED_IN_SAMPLE": {
+      "title": "Air Detected in Sample",
+      "body": "Air bubbles have been detected in the patient sample. To resolve, remove any air bubbles from the sample and then press the Start button."
+    },
+    "AIR_DETECTED_IN_SAMPLE_WARNING": {
+      "body": "An error occurred during analysis due to air detected. To resolve, review the sample preparation procedure and then rerun with new sample and slides. If the problem persists, call IDEXX Support."
+    },
+    "ALG_ANOM_INIT_SLOPE_VS_SUB_READ": {
+      "body": "There was an error processing one of the slides. To obtain the unreported result, rerun with new sample and with new consumables.<linebreak/>If the problem persists, please contact IDEXX Support."
+    },
+    "ALG_ANOM_PROG_CURVE_DEVELOPMENT": {
+      "body": "There was an error processing one of the slides. To obtain the unreported result, rerun with new sample and with new consumables.<linebreak />If the problem persists, please contact IDEXX Support."
+    },
+    "ALG_BAD_DRY_READ": {
+      "body": "There was an error processing one of the slides. To obtain the unreported result, rerun with new sample and with new consumables.<linebreak />If the problem persists, please contact IDEXX Support."
+    },
+    "ALG_BAD_LATE_SLOPE": {
+      "body": "There was an error processing one of the slides. To obtain the unreported result, rerun with new sample and with new consumables.<linebreak />If the problem persists, please contact IDEXX Support."
+    },
+    "ALG_BAD_RESPONSE_RANGE": {
+      "body": "There was an error processing one of the slides. To obtain the unreported result, rerun with new sample and with new consumables.<linebreak />If the problem persists, please contact IDEXX Support."
+    },
+    "ALG_BAD_SC_MINUS_DRY_DIFF": {
+      "body": "There was an error processing one of the slides. To obtain the unreported result, rerun with new sample and with new consumables.<linebreak />If the problem persists, please contact IDEXX Support."
+    },
+    "ALG_BAD_SUB_MINUS_WASH_DIFF": {
+      "body": "There was an error processing one of the slides. To obtain the unreported result, rerun with new sample and with new consumables.<linebreak />If the problem persists, please contact IDEXX Support."
+    },
+    "ALG_BAD_WASH_MINUS_SC_DIFF": {
+      "body": "There was an error processing one of the slides. To obtain the unreported result, rerun with new sample and with new consumables.<linebreak />If the problem persists, please contact IDEXX Support."
+    },
+    "ALG_ELLIPSE_INTERSECTION_FAIL": {
+      "body": "There was an error processing one of the slides. To obtain the unreported result, rerun with new sample and with new consumables.<linebreak />If the problem persists, please contact IDEXX Support."
+    },
+    "ALG_GREATER_THAN_EXTREME_HIGH_CONC_LIMIT": {
+      "body": "There was an error processing one of the slides. To obtain the unreported result, rerun with new sample and with new consumables.<linebreak />If the problem persists, please contact IDEXX Support."
+    },
+    "ALG_GREATER_THAN_EXTREME_LOW_CONC_LIMIT": {
+      "body": "There was an error processing one of the slides. To obtain the unreported result, rerun with new sample and with new consumables.<linebreak />If the problem persists, please contact IDEXX Support."
+    },
+    "ALG_INTERFERING_SUBSTANCE": {
+      "body": "{{0}} results cannot be provided due to interfering substances or substrate depletion. To obtain a result, perform a 1:4 dilution (manual or automated) on the sample and rerun using a new slide."
+    },
+    "ALG_ION_CALIBRATION_DRIFT": {
+      "body": "There was an error processing Electrolyte slides. To resolve, rerun with new sample and slides, ensuring the slides are loaded immediately after opening their foil packages.<linebreak />If the problem persists, contact IDEXX Support."
+    },
+    "ALG_ION_IMPULSE_DETECTED": {
+      "body": "An error occurred during Electrolyte analysis. To resolve, clean the internal components of the analyzer and then rerun with new sample and slides.<linebreak />If the problem persists, contact IDEXX Support."
+    },
+    "ALG_ION_SAMPLE_DRIFT": {
+      "body": "There was an error processing one or more of the Electrolyte slides. To obtain the unreported result(s), rerun with new slides."
+    },
+    "ALG_ION_SAMPLE_ERROR": {
+      "body": "There was an error processing one or more of the Electrolyte slides. To obtain the unreported result(s), rerun with new slides."
+    },
+    "ALG_ION_SAMPLE_NOT_DETECTED": {
+      "body": "There was an error processing {{0}}. To obtain the unreported result, review the sample preparation procedure and then rerun with new sample and slide(s)."
+    },
+    "ALG_ION_SHIFT_DETECTED": {
+      "body": "An error occurred during Electrolyte analysis. To resolve, clean the internal components of the analyzer and then rerun with new sample and slides.<linebreak />If the problem persists, contact IDEXX Support."
+    },
+    "ALG_NO_SAMPLE_DISPENSE": {
+      "body": "There was an error processing the {{0}} slide. To obtain the result, review the sample preparation procedure and then rerun with new sample, slide, and slide wash."
+    },
+    "ALG_NO_WASH_1_DISPENSE": {
+      "body": "There was an error processing the {{0}} slide. To obtain the result, review the sample preparation procedure and then rerun with new sample, slide, and slide wash."
+    },
+    "ALG_NO_WASH_2_DISPENSE": {
+      "body": "There was an error processing the {{0}} slide. To obtain the result, review the sample preparation procedure and then rerun with new sample, slide, and slide wash."
+    },
+    "ALG_PHBR_BIASED_RESULT": {
+      "body": "An error has occurred processing {{0}}. Please call IDEXX Support for assistance."
+    },
+    "ALG_SLIDE_NOT_SPOTTED": {
+      "title": "Slide Not Spotted",
+      "body": "There was an error processing {{0}}. To obtain the unreported result(s), review the sample preparation procedure and then rerun with new sample and slide(s)."
+    },
+    "ALG_SLOPE_NOT_CORRECTABLE_GEN": {
+      "body": "An error occurred while processing the Bile Acids slide. To resolve, rerun with a new slide. If the problem persists, call IDEXX Support."
+    },
+    "ALG_SLOPE_NOT_CORRECTABLE": {
+      "body": "An error occurred while processing the fructosamine test. To resolve, rerun with a new slide. If the problem persists, call IDEXX Support."
+    },
+    "UPDATE_AVAILABLE": {
+      "title": "Software upgrade version {{version}} is ready to be installed.",
+      "body": "You can upgrade the analyzer at any time by going to the Catalyst One instrument screen.",
+      "autoUpdateWarning": "<shortlinebreak />If you do not upgrade the analyzer by {{dateTime}}, the upgrade will be installed automatically."
+    },
+    "UPDATE_FAILED_CATASTROPHIC": {
+      "title": "Software Upgrade Unsuccessful",
+      "body": "Please call IDEXX Support for assistance."
+    },
+    "ERR_ALG_ALGORITHM_INTERFERING_SUBSTANCE": {
+      "title": "Dilution Needed for CREA",
+      "body": "CREA results cannot be provided due to interfering substances or substrate depletion. To obtain a result, perform a 1:4 dilution (manual or automated) on the sample and rerun using a new slide."
+    },
+    "ALG_SUBSTRATE_DEPLETION": {
+      "title": "Substrate Depletion",
+      "body": "{{0}} results cannot be provided due to interfering substances or substrate depletion. To obtain a result, perform a 1:2 dilution (manual or automated) on the sample and rerun using a new slide."
+    },
+    "ALG_TT4_ANOM_INIT_SLOPE_VS_SUB_READ": {
+      "body": "There was an error processing one of the slides. To obtain the unreported result, rerun with new sample and with new consumables.<linebreak />If the problem persists, please contact IDEXX Support."
+    },
+    "ALG_TT4_ANOM_PROG_CURVE_DEVELOPMENT": {
+      "body": "There was an error processing one of the slides. To obtain the unreported result, rerun with new sample and with new consumables.<linebreak/>If the problem persists, please contact IDEXX Support."
+    },
+    "ALG_TT4_BAD_SUB_MINUS_WASH_DIFF": {
+      "body": "There was an error processing one of the slides. To obtain the unreported result, rerun with new sample and with new consumables.<linebreak />If the problem persists, please contact IDEXX Support."
+    },
+    "ALG_TT4_ELLIPSE_INTERSECTION_FAIL": {
+      "body": "There was an error processing one of the slides. To obtain the unreported result, rerun with new sample and with new consumables.<linebreak />If the problem persists, please contact IDEXX Support."
+    },
+    "ASPIRATION_FAILURE": {
+      "body": "The instrument failed to complete an action. Please wait while the instrument recovers. If problem persists, please call IDEXX Support."
+    },
+    "ASPIRATION_START_IN_AIR": {
+      "body": "The instrument failed to complete an action.  Please wait while the instrument recovers.  If problem persists, please call IDEXX Support."
+    },
+    "ASPIRATION_START_IN_AIR_WARNING": {
+      "body": "An error occurred during sample aspiration. To resolve, review the sample preparation procedure and then rerun with new sample and slides. If the problem persists, call IDEXX Support."
+    },
+    "ASSAY_NORMALIZATION_MISSING": {
+      "body": "{{0}} result suppressed.<linebreak/>Please contact IDEXX Support."
+    },
+    "BAD_OR_MISSING_CALCURVE_DATA": {
+      "body": "Bad or missing Cal Curve Data. The analyzer was not calibrated successfully. Please call IDEXX Support for assistance."
+    },
+    "BARCODE_READ_ERROR": {
+      "title": "Barcode Read Error",
+      "body": "Unable to identify the slides loaded. To resolve, rerun the sample using new slides.<linebreak />If the problem persists, call IDEXX Support."
+    },
+    "BARCODE_READ_FAILURE": {
+      "body": "Unidentified Slide(s)"
+    },
+    "CALIBRATION_SOFTWARE_ERROR": {
+      "body": "Calibration Software Error. The analyzer was not calibrated successfully. Please call IDEXX Support for assistance."
+    },
+    "CAMERA_COM_ERROR": {
+      "body": "A camera communication error occurred during initialization. To resolve, disconnect the power supply from the wall and reconnect it. If the problem persists, please call IDEXX Support."
+    },
+    "CAMERA_CONNECTION_ERROR": {
+      "body": "A camera connection error occurred during your run. To resolve, disconnect the power supply from the wall and reconnect it, then rerun with new sample and new consumables. If the problem persists, contact IDEXX Support."
+    },
+    "CAMERA_INITIALIZATION_FAILURE": {
+      "body": "The instrument failed to complete an action. Please press the Start button and wait while the instrument recovers. If problem persists, please call IDEXX Support."
+    },
+    "CANNOT_LOCK_SAMPLE_DRAWER": {
+      "title": "Unable to Lock Sample Drawer",
+      "body": "There is an obstruction in the sample drawer. To resolve, ensure all materials in the sample drawer are seated properly and then press the Start button."
+    },
+    "CANNOT_UNLOCK_SAMPLE_DRAWER": {
+      "title": "Sample Drawer Cannot Unlock",
+      "body": "The sample drawer is unable to unlock.<linebreak/>Please call IDEXX Support for assistance."
+    },
+    "CAP_DETECTED": {
+      "title": "Cap Detected",
+      "body": "The whole blood separator cap must be removed before the run can be processed. To resolve, wait for the sample drawer to unlock then remove the green cap from the whole blood separator and press the Start button."
+    },
+    "CAROUSEL_ALIGNMENT_FAILED": {
+      "title": "Carousel Alignment Failed",
+      "body": "The carousel was unable to be aligned. To resolve, open the side door, lift the carousel cover and confirm the carousel is seated properly. Close the carousel cover and side door. The analyzer will automatically return to ready after the side door is closed. If the problem persists, please call IDEXX Support."
+    },
+    "CAROUSEL_COVER_OPEN": {
+      "title": "Carousel Cover Open",
+      "body": "The carousel cover is open. To resolve, open the side door and confirm the cover is closed. The analyzer will automatically return to ready after the side door is closed."
+    },
+    "CAROUSEL_ROTATION_ERROR": {
+      "body": "The carousel is not rotating as expected. To resolve:<ol><li>Remove any remaining slides in the sample drawer.</li><li>Open the side door, lift the carousel cover, and remove the carousel.</li><li>Remove all slides from the track and discard.</li><li>Replace the carousel and close the carousel cover.</li><li>Close the side door. The analyzer automatically returns to ready.</li><li>Rerun the sample using new slides.</li></ol>If the problem persists, please call IDEXX Support."
+    },
+    "CENTRIFUGE_ERROR": {
+      "title": "Centrifuge Error",
+      "body": "The centrifuge was unable to process successfully.  To resolve, rerun using new sample and slides.<linebreak/>If the problem persists, call IDEXX Support."
+    },
+    "CHECK_EVAP_CAP": {
+      "body": "Unable to identify one or more slides.<ol><li>Open side door and remove any loose objects on the carousel cover.</li><li>Check carousel evaporation cap motion and clean with alcohol prep pad if debris found.</li><li>Replace the carousel and close the carousel cover.</li><li>Close the side door. The analyzer automatically returns to ready.</li><li>Rerun the sample using new slides.</li></ol>If problem persists, contact IDEXX Support."
+    },
+    "ALG_DRY_READ_VARIANCE": {
+      "title": "Processing Error",
+      "body": "An error occurred while processing the Pancreatic Lipase test. To resolve, rerun with a new slide. If the problem persists, call IDEXX Support."
+    },
+    "CLEANING_REQUIRED": {
+      "title": "Cleaning Required",
+      "body": "The Catalyst One Chemistry Analyzer requires cleaning. Follow the on-screen instructions found in the Catalyst One Instruments tab. If you continue to receive this error after cleaning, call IDEXX Support."
+    },
+    "CLOT_DETECTED_IN_SAMPLE": {
+      "title": "Clot Detected in Sample",
+      "body": "A clot has been detected in the patient sample. To resolve, remove any clots from the sample and then press the Start button."
+    },
+    "CLOT_DETECTED_IN_SAMPLE_WARNING": {
+      "body": "An error occurred during analysis due to clot detected. To resolve, review the sample preparation procedure and then rerun with new sample and slides. If the problem persists, call IDEXX Support."
+    },
+    "DILUTION_SLIDE_COUNT_EXCEEDED": {
+      "title": "Slide Count Exceeded for Dilution",
+      "body": "You cannot load more than 5 slides when performing a 1:2 dilution, and no more than 10 slides for all other dilutions.<ul><li>To Recover: Press the start button on the instrument.</li><li>To Resolve: Rerun with new slides, ensuring that no more than the maximum number of slides are loaded.</li></ul>"
+    },
+    "DUPLICATE_REAGENT_TYPE_DETECTED": {
+      "title": "Duplicate Reagent Type Detected",
+      "body": "Duplicate reagent type detected. When the sample drawer unlocks, remove one, close the sample drawer, and press the Start button to continue the run."
+    },
+    "FLUID_FIND_FAILURE": {
+      "body": "The instrument was unable to find sample. To resolve, review the sample preparation procedure and then rerun with new sample and slides. If the problem persists, call IDEXX Support."
+    },
+    "FLUID_FIND_FAILURE_DIL_CUP": {
+      "body": "There is insufficient diluent volume to perform the automated dilution. To resolve, rerun with new slides and diluent."
+    },
+    "FLUID_FIND_FAILURE_MIX_CUP": {
+      "body": "There is insufficient diluted sample volume to perform the automated dilution. To resolve, rerun with new slides and diluent."
+    },
+    "FOAM_DETECTED_IN_SAMPLE": {
+      "title": "Foam Detected in Sample",
+      "body": "Foam has been detected in the patient sample. To resolve, remove any foam or bubbles from the sample and then press the Start button."
+    },
+    "FOAM_DETECTED_IN_SAMPLE_WARNING": {
+      "body": "An error occurred during analysis due to foam detected. To resolve, review the sample preparation procedure and then rerun with new sample and slides. If the problem persists, call IDEXX Support."
+    },
+    "HEIGHT_CORRECTION_SURFACE_FIND_FAILURE": {
+      "body": "Height correction surface find failure"
+    },
+    "INCORRECTLY_SEATED_CAROUSEL": {
+      "title": "Carousel Not Seated Correctly",
+      "body": "The carousel is not seated correctly. To resolve, open the side door, lift the carousel cover and confirm the carousel is seated properly. Close the carousel cover and side door. The analyzer will automatically return to ready after the side door is closed."
+    },
+    "INCORRECT_SLIDE_OR_REAGENT": {
+      "title": "Missing Slide for Reagent Run",
+      "body": "The correct slide type was not detected for the reagent type loaded. To resolve, wait for the sample drawer to unlock, load the correct slide or remove the reagent and then press the Start button."
+    },
+    "INCORRECT_SLIDE_OR_REAGENT_IGNORABLE": {
+      "title": "Missing Slide for Reagent Run. Other Slides in Run.",
+      "body": "The correct slide type was not detected for the reagent type loaded. To resolve, wait for the sample drawer to unlock, load the correct slide or remove the reagent and then press the Start button.<shortlinebreak/>If appropriate materials are not detected, results for that test will not be reported."
+    },
+    "INSUFFICIENT_DILUENT_VOLUME": {
+      "title": "Insufficient Diluent Volume",
+      "body": "There is insufficient diluent volume to perform the automated dilution. To resolve, add diluent to the diluent cup and then press the Start button."
+    },
+    "INSUFFICIENT_DILUENT_VOLUME_WARNING": {
+      "title": "Insufficient Diluent",
+      "body": "There is insufficient diluent volume to perform the automated dilution. Please refer to your Catalyst One Operator's Guide and rerun using suggested materials.If the problem persists, call IDEXX Support."
+    },
+    "INSUFFICIENT_PIPETTE_TIPS": {
+      "title": "Insufficient Pipette Tips for Run",
+      "body": "There are not enough pipette tips for this run. To resolve, wait for the sample drawer to unlock then fill the tip section in the sample drawer and then press the Start button. If you do not add tips, the run will proceed but not all results will be reported."
+    },
+    "INSUFFICIENT_SAMPLE_FOR_DILUTION": {
+      "title": "Insufficient Sample for Dilution",
+      "body": "There is insufficient sample volume to perform the automated dilution. To resolve, add sample to the sample container and then press the Start button."
+    },
+    "INSUFFICIENT_SAMPLE_FOR_DILUTION_WARNING": {
+      "title": "Insufficient Sample Volume for Dilution",
+      "body": "There is insufficient sample volume to perform the automated dilution. To resolve, review the sample preparation procedure and then rerun with new sample and slides. If the problem persists, call IDEXX Support."
+    },
+    "INSUFFICIENT_SAMPLE_VOLUME": {
+      "title": "Insufficient Sample Volume for all slides",
+      "body": "There is insufficient sample volume for the number of slides loaded. To resolve, add sample to the sample container and then press the Start button."
+    },
+    "INSUFFICIENT_SAMPLE_VOLUME_IGNORABLE": {
+      "title": "Insufficient Sample Volume for some slides",
+      "body": "There is insufficient sample volume for the number of slides loaded. To resolve, add sample to the sample container and then press the Start button.<shortlinebreak/>If additional sample is not added, not all slides will be processed."
+    },
+    "INSUFFICIENT_SAMPLE_VOLUME_IGNORABLE_WARNING": {
+      "body": "There is insufficient sample volume for one or more slides in this run, resulting in a partial loss of the run. The run is still in process. When the run is complete, review the sample preparation procedure and then rerun with new sample and slides."
+    },
+    "INSUFFICIENT_SAMPLE_VOLUME_WARNING": {
+      "body": "There is insufficient sample for any slides in this run. To resolve, review the sample preparation procedure and then rerun with new sample and slides. If the problem persists, call IDEXX Support."
+    },
+    "INTERNAL_TIMING_ERROR": {
+      "body": "The instrument failed to complete an action. Please press the Start button and wait while the instrument recovers. If problem persists, please call IDEXX Support."
+    },
+    "LVLASP_BUBBLE": {
+      "body": "An error occurred during sample aspiration. To resolve, review the sample preparation procedure and then rerun with new sample and with new consumables.<linebreak/>If the problem persists, please contact IDEXX Support."
+    },
+    "LVLASP_CLOT": {
+      "body": "An error occurred during sample aspiration. To resolve, review the sample preparation procedure and then rerun with new sample and with new consumables.<linebreak/>If the problem persists, please contact IDEXX Support."
+    },
+    "LVLASP_INSUFFICIENT_SAMPLE": {
+      "body": "There is insufficient sample for any slides in this run. To resolve, review the sample preparation procedure and then rerun with new sample and with new consumables.<linebreak/>If the problem persists, please contact IDEXX Support."
+    },
+    "LVLASP_START_IN_AIR": {
+      "body": "An error occurred during sample aspiration. To resolve, review the sample preparation procedure and then rerun with new sample and with new consumables.<linebreak/>If the problem persists, please contact IDEXX Support."
+    },
+    "LYTE_PROCESSING_ERROR": {
+      "body": "There was an error processing Electrolyte slides. To resolve, rerun with new slides, ensuring the slides are loaded immediately after opening their foil packages. If the problem persists, contact IDEXX Support."
+    },
+    "MATERIALS_INCOMPATIBLE": {
+      "title": "Materials Incompatible",
+      "body": "The materials loaded are not compatible with the run type requested. Please refer to your Catalyst One™ Operator's Guide and rerun using approved materials."
+    },
+    "MATERIALS_INCOMPATIBLE_FRIENDS": {
+      "body": "Some of the materials loaded are not compatible with the run type requested. To obtain unreported results, please refer to your Catalyst One Operator’s Guide and rerun using approved materials."
+    },
+    "MISSING_DILUTION_MATERIALS": {
+      "title": "Missing Dilution Materials",
+      "body": "The dilution materials were loaded incorrectly or are missing. To resolve, verify that the front-most cup holders have a sample cup containing 300 µL of diluent on the right and an empty sample cup on the left, verify that the patient sample is loaded in the sample cup holder, and then press the Start button."
+    },
+    "MISSING_EMPTY_CUP": {
+      "body": "The run ended because fluid was detected in the empty cup location. To resolve, load an empty sample cup in the left front-most cup holder and then rerun with new slides."
+    },
+    "MISSING_EMPTY_DILUTION_CUP": {
+      "title": "Missing Empty Dilution Cup",
+      "body": "An empty sample cup was not loaded for the dilution. To resolve, load an empty sample cup in the front-most cup holder on the left and then press the Start button."
+    },
+    "MISSING_IA_FOR_REAGENT": {
+      "body": "A matching slide cannot be found for the reagent loaded. To resolve, wait for the run to complete and rerun with a new reagent and slide(s)."
+    },
+    "MISSING_REAGENT": {
+      "title": "Missing Reagent",
+      "body": "A matching reagent cannot be found for the {{0}} slide loaded. To resolve, wait for the sample drawer to unlock, add the matching reagent, close the sample drawer and press the Start button."
+    },
+    "MISSING_REAGENT_FOR_IA": {
+      "body": "A matching reagent cannot be found for the {{0}} slide loaded. To resolve, wait for the run to complete and rerun with a new reagent and slide."
+    },
+    "MISSING_REAGENT_IGNORABLE": {
+      "title": "Missing Reagent. Other Slides in Run.",
+      "body": "A matching reagent cannot be found for the {{0}} slide loaded. To resolve, wait for the sample drawer to unlock, add the matching reagent, close the sample drawer and press the Start button.<shortlinebreak/>If the reagent is not loaded, results for that chemistry will not be reported."
+    },
+    "MISSING_UPC_MATERIALS": {
+      "title": "Missing UPC Materials",
+      "body": "The UPC materials were loaded incorrectly or are missing. To resolve, verify that the front-most cup holders have a sample cup containing 300 µL of UPC diluent on the right and an empty sample cup on the left, verify that the patient sample is loaded in the sample cup holder, and then press the Start button."
+    },
+    "MULTIPLE_SAMPLES_DETECTED": {
+      "title": "Multiple Samples Detected",
+      "body": "The analyzer cannot process more than one sample at a time. To resolve, wait for the sample drawer to unlock then remove the extra sample and then press the Start button."
+    },
+    "NO_IDENTIFIABLE_SLIDES_FOUND": {
+      "body": "Unable to identify the slides loaded. To resolve, press the Start button to continue and rerun the sample using new slides. If the problem persists, please call IDEXX Support."
+    },
+    "NO_SAMPLE_DETECTED": {
+      "title": "No Sample Detected",
+      "body": "The patient sample was not loaded. To resolve, wait for the sample drawer to unlock then load the sample in the sample drawer and then press the Start button."
+    },
+    "OFFSETS_CALIBRATION_ERROR": {
+      "body": "The analyzer was unsuccessful in calculating the calcium and/or albumin offset. Please call IDEXX Support for assistance."
+    },
+    "OFFSETS_CV_TOO_HIGH_ERROR": {
+      "body": "The analyzer was unsuccessful in calculating a valid calcium and/or albumin offset because one or more of the results fall out of an acceptable range. To resolve, review the offset preparation procedure and then rerun with new control fluid and slides. If the problem persists, please call IDEXX Support."
+    },
+    "OFFSETS_INSUFFICIENT_SLIDES_ERROR": {
+      "body": "An insufficient number of slides from the same lot were used. To resolve, review the offset preparation procedure and then rerun with new control fluid and slides."
+    },
+    "OFFSETS_OUT_OF_RANGE_ERROR": {
+      "body": "The analyzer was unsuccessful in calculating a valid calcium and/or albumin offset because the calculated offset falls out of an acceptable range. Please call IDEXX Support for assistance."
+    },
+    "OPTICS_CALIBRATION_REQUIRED": {
+      "title": "Calibration Required",
+      "body": "The Catalyst One Chemistry Analyzer requires cleaning and calibrating. If you continue to receive this error after calibrating, call IDEXX Support."
+    },
+    "OPTICS_INITIALIZATION_FAILURE": {
+      "body": "The instrument failed to complete an action. Try rebooting the instrument. If the problem persists, please call IDEXX Support."
+    },
+    "OPTICS_LED_FAILURE": {
+      "body": "An error occurred during the analyzer self-check or run. Please call IDEXX Support."
+    },
+    "OPTICS_MODULE_CONFIGURATION_ERROR": {
+      "body": "Optics Module Configuration Error. The analyzer was not calibrated successfully. Please call IDEXX Support for assistance."
+    },
+    "OPTICS_SENSOR_FAILURE": {
+      "body": "An error occurred during the analyzer self-check or run. Please call IDEXX Support."
+    },
+    "OPTIMIZATION_AVAILABLE": {
+      "title": "Optimization Reminder",
+      "body": "The Catalyst One requires optimization. This process takes approximately <strong>{{0}} minutes</strong> to complete.<linebreak />The instrument will start this automatically in {{1}} hours."
+    },
+    "OPTIMIZATION_AVAILABLE_ALIGNMENT": {
+      "title": "Optimization Reminder",
+      "body": "The Catalyst One requires optimization. This process takes approximately <strong>{{0}} minutes</strong> to complete.<linebreak />The instrument will start this automatically in {{1}} hours.",
+      "instructions": {
+        "title": "Run Catalyst One Optimization",
+        "body": "<ol><li>Ensure the pipette tip section of the drawer has at least five (5) tips loaded.</li><li>Remove any sample cups, Whole Blood Separators, or reagent cups.</li><li>Close the drawer and press Start.</li></ol><linebreak/>The Catalyst One icon will return to green and ready status once the optimization is complete."
+      }
+    },
+    "PHBR_LOAD_ERROR": {
+      "title": "PHBR Reagent Loading Error",
+      "body": "The PHBR reagent was loaded incorrectly. To resolve, move the reagent to the front-most cup holders and then press the Start button."
+    },
+    "PHBR_LOAD_ERROR_IGNORABLE": {
+      "title": "PHBR Reagent Loading Error. Other Slides in Run.",
+      "body": "The PHBR reagent was loaded incorrectly. To resolve, move the reagent to the front-most cup holders and then press the Start button.<linebreak />If you do not relocate the reagent, the run will proceed with the remainder of the slides loaded and PHBR results will not be reported."
+    },
+    "PHBR_ORIENT_ERROR": {
+      "title": "PHBR Reagent Orientation Error",
+      "body": "The PHBR reagent was loaded incorrectly. To resolve, rotate the reagent to correct orientation and then press the Start button."
+    },
+    "PHBR_ORIENT_ERROR_IGNORABLE": {
+      "title": "PHBR Reagent Orientation Error. Other Slides in Run.",
+      "body": "The PHBR reagent was loaded incorrectly. To resolve, rotate the reagent to correct orientation and then press the Start button. If you do not reorient the reagent, the run will proceed with the remainder of the slides loaded and PHBR results will not be reported."
+    },
+    "PIPETTE_TIPS_LOW": {
+      "title": "Add Pipette Tips",
+      "body": "The pipette tips are running low in the sample drawer. Make sure to fill the tip section in the sample drawer prior to the next sample run."
+    },
+    "PRESSURE_SENSOR_ERROR": {
+      "body": "An error occurred during the analyzer self-check or run. Please call IDEXX Support."
+    },
+    "REAGENT_IDENTIFICATION_ERROR": {
+      "title": "Reagent Identification Error",
+      "body": "The analyzer failed to identify one or more of the loaded reagent and/or slide(s).<linebreak/>To resolve, rerun with new slides when run completes."
+    },
+    "RECOVERABLE_TIMEOUT": {
+      "title": "Recoverable Timeout",
+      "body": "An error occurred during the run, resulting in a partial or total loss of the run. To verify which error occurred, view the event log under the Catalyst One Instruments side tab or call IDEXX Support for assistance."
+    },
+    "RECOVERY_FAILURE": {
+      "body": "The instrument failed to recover from a previous fault. If problem persists, please call IDEXX Support."
+    },
+    "ROBOT_HOMING_FAILURE": {
+      "body": "The instrument failed to complete an action. Please press the Start button and wait while the instrument recovers. If problem persists, please call IDEXX Support."
+    },
+    "ROBOT_MOTION_ERROR": {
+      "body": "The instrument failed to complete an action. Please press the Start button and wait while the instrument recovers. If problem persists, please call IDEXX Support."
+    },
+    "RUN_COMPLETION_ERROR": {
+      "title": "Run Could Not Be Completed",
+      "body": "An error occurred during slide processing and the run was unable to complete. To resolve, rerun with a new sample and slides.<shortlinebreak/>If the problem persists, call IDEXX Support."
+    },
+    "SAMPLE_DRAWER_LOCK_ERROR": {
+      "title": "Sample Drawer Lock Error",
+      "body": "There is an issue with the sample drawer locking mechanism.<shortlinebreak/>Please call IDEXX Support for assistance."
+    },
+    "SAMPLE_DRAWER_OPEN": {
+      "title": "Sample Drawer Open",
+      "body": "Close the sample drawer."
+    },
+    "SAMPLE_DRAWER_OPEN_RUN": {
+      "title": "Sample Drawer Open During Run",
+      "body": "The sample drawer is open. In order for the run to continue, close the sample drawer and press the Start button."
+    },
+    "SAMPLE_TOO_LOW": {
+      "body": "There is insufficient sample for any slides in this run. To resolve, review the sample preparation procedure and then rerun with new sample, slides and reagent. If the problem persists, call IDEXX Support."
+    },
+    "SHIPPING_CLIPS_DETECTED": {
+      "body": "Shipping clips detected. To resolve:<ol><li>Open side door.</li><li>Remove shipping clips.</li><li>Close side door.</li><li>Instrument will continue to power up.</li></ol>If the problem persists, please contact IDEXX Support."
+    },
+    "SLIDE_CONTAMINATED": {
+      "body": "{{0}} slide is contaminated, results have been suppressed."
+    },
+    "SIDE_DOOR_OPEN": {
+      "title": "Side Door Open",
+      "body": "The side door was opened during the run. To resolve, close the side door and then rerun the sample with new slides."
+    },
+    "SLIDE_DATE_SOFTWARE_VERSION_MISMATCH": {
+      "title": "Slides Dating Does Not Match Software Version",
+      "body": "Verify the analyzer is on the most recent software version (on the Catalyst One Instruments side tab), verify the slides have not expired, and then rerun using new slides."
+    },
+    "SLIDE_DETECTION_ERROR": {
+      "title": "Slide Detection Error",
+      "body": "The slides were loaded incorrectly or are missing. To resolve, wait for the sample drawer to unlock, then load the slides in the sample drawer and press the Start button."
+    },
+    "SLIDE_EJECT_ERROR": {
+      "title": "Slide Eject Error",
+      "body": "One or more slides could not be ejected successfully. To resolve:<ol><li>Remove any remaining slides in the sample drawer.</li><li>Open the side door, lift the carousel cover, and remove the carousel.</li><li>Remove all slides from the track and discard.</li><li>Replace the carousel and close the carousel cover.</li><li>Close the side door. The analyzer automatically returns to ready.</li><li>Empty the waste drawer.</li></ol>"
+    },
+    "SLIDE_LOADING_ERROR": {
+      "title": "Slide Loading Error",
+      "body": "One or more slides could not be loaded successfully. To resolve:<ol><li>Wait for the sample drawer to unlock.</li><li>Remove any remaining slides in the sample drawer.</li><li>Open the side door, lift the carousel cover, and remove the carousel.</li><li>Remove all slides from the track and discard.</li><li>Replace the carousel and close the carousel cover.</li><li>Close the side door. The analyzer automatically returns to ready.</li><li>Rerun the sample using new slides.</li></ol>"
+    },
+    "SLIDE_REAGENT_LOT_MISMATCH": {
+      "title": "Slide and Reagent Lot Numbers Do Not Match",
+      "body": "The lot numbers on the slide and the reagent do not match. To resolve, load matching slide and reagent lots in the sample drawer and then press the Start button."
+    },
+    "SLIDE_REAGENT_LOT_MISMATCH_IGNORABLE": {
+      "title": "Slide and Reagent Lot Numbers Do Not Match. Other Slides in Run.",
+      "body": "The lot numbers on the slide and the reagent do not match. To resolve, load matching slide and reagent lots in the sample drawer and then press the Start button.<linebreak/>If matching lot numbers are not detected, results for that chemistry will not be reported."
+    },
+    "SLIDE_REAGENT_MISMATCH": {
+      "body": "A matching reagent cannot be found for the {{0}} slide loaded. To resolve, wait for the sample drawer to unlock, remove the reagent, replace with the matching reagent, close the sample drawer and press the Start button."
+    },
+    "SLIDE_REAGENT_MISMATCH_IGNORABLE": {
+      "body": "A matching reagent cannot be found for the {{0}} slide loaded. To resolve, wait for the sample drawer to unlock, remove the reagent, replace with the matching reagent, close the sample drawer and press the Start button. If the matching reagent is not loaded, results for that chemistry will not be reported."
+    },
+    "SLIDE_TIMEOUT_ERROR": {
+      "title": "Slide Timeout Error",
+      "body": "The slides sat in the sample drawer too long before being run. To resolve, rerun the sample with new slides."
+    },
+    "SPURIOUS_DEVICE_EVENT": {
+      "body": "The instrument failed to complete an action. Please press the Start button and wait while the instrument recovers. If problem persists, please call IDEXX Support."
+    },
+    "SUSPECT_RESULT_COMPARISON": {
+      "body": "There was an error processing one of the slides. To obtain the unreported result, rerun with new sample and slides. If the problem persists, call IDEXX Support."
+    },
+    "THERMAL_CONTROL_ERROR": {
+      "title": "Thermal Control Error",
+      "body": "There was a thermal control issue during the run, which caused suppressed results. To resolve, verify the temperature around the analyzer is within the specified operating limits and then rerun the sample with new slides."
+    },
+    "THERMAL_ERROR": {
+      "title": "Thermal Error",
+      "body": "A thermal error occurred during the analyzer self-check process. To resolve, open side door and ensure the carousel cover is closed. The analyzer will initialize automatically after the side door is closed.<shortlinebreak />If the problem persists, call IDEXX Support."
+    },
+    "UNSPECIFIED_ERROR": {
+      "body": "An unexpected error has occurred. Press the start button on the instrument to recover. If problem persists, please contact IDEXX Support."
+    },
+    "UNSUPPORTED_QC_RANGE": {
+      "body": "{{0}} {{1}} result suppressed because the slide is not supported for the selected QC fluid type. To resolve, rerun with new slides selecting the appropriate QC fluid."
+    },
+    "UNSUPPORTED_SLIDE_LOT": {
+      "body": "{{0}} {{1}} result suppressed, Unsupported slide lot or expired slide"
+    },
+    "UNSUPPORTED_WHITE_REF_SLIDE_LOT": {
+      "body": "Unsupported White Reference Slide Lot. Run the calibration again with a supported white reference slide. Please call IDEXX Support for assistance."
+    },
+    "UPDATE_FAILED": {
+      "title": "Software Upgrade Unsuccessful",
+      "body": "The Catalyst One Analyzer was not upgraded successfully.  To resolve, repeat the upgrade procedure now or use the Upgrade software option on the Catalyst One Instruments side tab.<linebreak/>If the problem persists, call IDEXX Support."
+    },
+    "UPGRADE_FAILED_DOWNLOAD": {
+      "title": "Software Upgrade Download Unsuccessful"
+    },
+    "UPGRADE_FAILED_PREPARATION": {
+      "title": "Software Upgrade Preparation Unsuccessful"
+    },
+    "USED_REAGENT_DETECTED": {
+      "title": "Used Reagent Detected",
+      "body": "The reagent detected has been previously used. To resolve, replace with a new reagent and then press the Start button."
+    },
+    "USED_REAGENT_DETECTED_IGNORABLE": {
+      "title": "Used Reagent Detected. Other slides in Run.",
+      "body": "The reagent detected has been previously used. To resolve, replace with a new reagent and then press the Start button.<shortlinebreak />If the reagent is not replaced, results for that chemistry will not be reported."
+    },
+    "USED_REAGENT_DETECTED_IGNORABLE_WARNING": {
+      "body": "The reagent detected has been previously used. Results for that chemistry will not be reported. To resolve, wait for the instrument to return to ready and rerun using new sample, slides, and reagent."
+    },
+    "USED_REAGENT_DETECTED_WARNING": {
+      "body": "The reagent detected has been previously used. To resolve, wait for the instrument to return to ready and rerun using new sample, slides, and reagent."
+    },
+    "USER_CALIBRATION_UNSUCCESSFUL": {
+      "title": "User Calibration Unsuccessful",
+      "body": "The analyzer was not calibrated successfully.<shortlinebreak/>Please call IDEXX Support for assistance."
+    },
+    "WARMUP_THERMAL_ERROR": {
+      "title": "Thermal Error During Warm-up",
+      "body": "A thermal error occurred. To resolve, open side door and ensure the carousel cover is closed. The analyzer will initialize automatically after the side door is closed.<shortlinebreak/>If the problem persists, call IDEXX Support."
+    },
+    "WASTE_DRAWER_FULL": {
+      "title": "Waste Drawer Full",
+      "body": "Empty the waste drawer."
+    },
+    "WASTE_DRAWER_OPEN": {
+      "title": "Waste Drawer Open",
+      "body": "Close the waste drawer."
+    },
+    "WASTE_DRAWER_OPEN_RUN": {
+      "title": "Waste Drawer Open During Run",
+      "body": "The waste drawer is open. In order for the run to continue, close the waste drawer and press the Start button."
+    },
+    "WBS_SAMPLE_VOLUME_HIGH": {
+      "body": "There is too much sample in the whole blood separator. To resolve, rerun using a whole blood separator with 0.6 - 0.8cc of sample and new slides.<shortlinebreak/>If the problem persists, call IDEXX Support."
+    }
+  },
+  "CATALYST_DX": {
+    "CONNECTION_TIMEOUT": {
+      "body": "The IDEXX VetLab Station is unable to communicate with the Catalyst Dx analyzer. <linebreak /><strong>NOTE:</strong> To permanently remove the analyzer icon from the Home screen, close the alert, tap the Offline icon, and then tap <strong>Remove Instrument</strong>. Follow these steps to reestablish the connection: <ol><li>On the Catalyst Dx analyzer, tap <strong>Tools</strong> to ensure the analyzer has an IP address.</li><li>If the IP address is <strong>Undetermined</strong>, follow these steps:<ol type=\\\"a\\\"><li>On the Catalyst Dx analyzer Tools screen, tap <strong>Shut Down</strong>.</li><li>When prompted, use the power switch to turn off the analyzer.</li><li>Once the analyzer is off, use the power switch to restart the analyzer.</li></ol></li></ol>If the IP address is present and the problem persists, please contact IDEXX Support."
+    }
+  },
+  "CRIMSON": {
+    "ASP_UNIT_FRONTBACK_MOTOR": {
+      "body": "Tap <strong>Reset Aspiration Motor</strong> to resolve this error.<shortlinebreak/>This procedure will take a few seconds.",
+      "title": "Aspiration Unit Front Back Motor Error"
+    },
+    "ASP_UNIT_UPDOWN_MOTOR": {
+      "body": "Restarting ProCyte Dx may resolve this error. If this alert persists, call IDEXX Support.<shortlinebreak/><ol><li>Shutdown ProCyte Dx.</li><li>Shutdown IPU.</li><li>Turn on IPU.</li><li>Turn on ProCyte Dx.</li></ol>",
+      "title": "Aspiration Unit Up Down Motor Error"
+    },
+    "BACKGROUND": {
+      "body": "This may cause inaccurate results. Tap <strong>Run Auto Rinse</strong> to clean the system and recheck the background measurements. This procedure will take approximately <strong>8 minutes.</strong>",
+      "title": "The background check measured the following parameters as high.",
+      "table": {
+        "headers": {
+          "assay": "Assay",
+          "result": "Result",
+          "limit": "Limit",
+          "unit": "Unit"
+        },
+        "assays": {
+          "PLT-O": "PLT-O",
+          "HGB": "HGB",
+          "RBC": "RBC",
+          "WBC": "WBC",
+          "PLT-I": "PLT-I"
+        }
+      }
+    },
+    "BLOOD_ASP_SENSOR": {
+      "body": "If this alert persists, call IDEXX Support.",
+      "title": "Unable to analyze the patient."
+    },
+    "CHAMBER_EPK": {
+      "body": "The reagent kit appears to be disconnected. Verify the reagent kit is properly connected and that the tubing is not bent or kinked. Then, tap <strong>Start Prime.</strong><shortlinebreak/>If you receive this message again after tapping Start Prime, contact IDEXX Support for assistance.",
+      "title": "Reagent Kit appears to be disconnected"
+    },
+    "CLOSE_FCM_DETECT_COVER": {
+      "body": "Use the ProCyte Dx power switch to power off the analyzer for at least 10 seconds. Then, power on the analyzer.<linebreak/>If this alert persists, call IDEXX Support.",
+      "title": "Close FCM Detect Cover"
+    },
+    "DIFF_CH": {
+      "body": "If this alert persists, call IDEXX Support.",
+      "title": "DIFF-CH Error"
+    },
+    "DIFF_SAMPLING": {
+      "body": "Redraw sample, inverting 10 times immediately after collection and before analysis. Contact IDEXX Support if message persists.",
+      "title": "Diff Sampling Error"
+    },
+    "ENV_TEMP_HIGH": {
+      "body": "The temperature surrounding ProCyte Dx is too high. Ensure there is adequate ventilation around the analyzer, check the fan filter, and lower the temperature of the room to below 38° C (100° F).<shortlinebreak/>If this alert persists, call IDEXX Support.",
+      "title": "Env Temp High"
+    },
+    "ENV_TEMP_LOW": {
+      "body": "The temperature surrounding ProCyte Dx is too low. Raise the room temperature to above 10° C (50° F).<linebreak/>If this alert persists, call IDEXX Support.",
+      "title": "Env Temp Low"
+    },
+    "ENV_THERM_SENS": {
+      "body": "Restarting ProCyte Dx may resolve this error. If this alert persists, call IDEXX Support.<shortlinebreak/><ol><li>Shutdown ProCyte Dx.</li><li>Shutdown IPU.</li><li>Turn on IPU.</li><li>Turn on ProCyte Dx.</li></ol>",
+      "title": "Env Therm Sens ERR"
+    },
+    "EXCHANGE_AIR_PUMP": {
+      "body": "If this alert persists, call IDEXX Support.",
+      "title": "Exchange the Air pump"
+    },
+    "EXCHANGE_WASTE_TANK": {
+      "body": "Tap <strong>Drain Waste Chamber</strong> to resolve this error.<shortlinebreak/>This procedure takes less than 1 minute.",
+      "title": "Exchange Waste Tank"
+    },
+    "EXECUTE_MONTHLY_RINSE_IVLS": {
+      "body": "It has been one month since running the last Monthly Rinse.<shortlinebreak/>This 25 minute procedure eliminates contaminants and ensures accurate results.",
+      "title": "Monthly Rinse reminder."
+    },
+    "EXECUTE_MONTHLY_RINSE_WARNING": {
+      "body": "Tap <strong>Monthly Rinse</strong> to continue Rinse.<shortlinebreak/>This 25 minute procedure eliminates contaminants and ensures accurate results.",
+      "title": "Monthly Rinse must be performed."
+    },
+    "EXPIRED_EPK": {
+      "body": "To ensure accurate results, we strongly recommend changing the reagent kit.",
+      "title": "Reagent Kit expired."
+    },
+    "EXPIRED_FFD": {
+      "body": "To ensure accurate results, we strongly recommend changing the reagent kit.",
+      "title": "Reagent Kit expired."
+    },
+    "EXPIRED_FFS": {
+      "body": "To ensure accurate results, we strongly recommend changing the stain pack.",
+      "title": "Stain Pack expired."
+    },
+    "EXPIRED_RED": {
+      "body": "To ensure accurate results, we strongly recommend changing the reagent kit.",
+      "title": "Reagent Kit expired."
+    },
+    "EXPIRED_RES": {
+      "body": "To ensure accurate results, we strongly recommend changing the stain pack.",
+      "title": "Stain Pack expired."
+    },
+    "EXPIRED_SLS": {
+      "body": "To ensure accurate results, we strongly recommend changing the reagent kit.",
+      "title": "Reagent Kit expired."
+    },
+    "FCM_RU_TEMP_HIGH": {
+      "body": "The internal temperature of ProCyte Dx is too high. Power off the main unit for 30 minutes and then power it back on.<shortlinebreak/>If this alert persists, call IDEXX Support.",
+      "title": "FCM RU Temp High"
+    },
+    "FCM_RU_TEMP_LOW": {
+      "body": "ProCyte Dx is warming up. This procedure could take up to 30 minutes.<linebreak/>If this alert persists, call IDEXX Support.",
+      "title": "FCM RU Temp Low"
+    },
+    "FCM_RU_THERM_SENS": {
+      "body": "Restarting ProCyte Dx may resolve this error. If this alert persists, call IDEXX Support.<shortlinebreak/><ol><li>Shutdown ProCyte Dx.</li><li>Shutdown IPU.</li><li>Turn on IPU.</li><li>Turn on ProCyte Dx.</li></ol>",
+      "title": "FCM RU Therm Sens ERR"
+    },
+    "FCM_SHEATH_SENS": {
+      "body": "Restarting ProCyte Dx may resolve this error. If this alert persists, call IDEXX Support.<shortlinebreak/><ol><li>Shutdown ProCyte Dx.</li><li>Shutdown IPU.</li><li>Turn on IPU.</li><li>Turn on ProCyte Dx.</li></ol>",
+      "title": "FCM Sheath Sens ERR"
+    },
+    "FFS_ASP_ERROR": {
+      "body": "The stain pack appears to be disconnected. Verify the stain pack is properly connected and that the tubing is not bent or kinked. Then, tap <strong>Start Prime.</strong><shortlinebreak/>If you receive this message again after tapping Start Prime, contact IDEXX Support for assistance",
+      "title": "Stain Pack appears to be disconnected"
+    },
+    "HGB": {
+      "body": "If this alert persists, call IDEXX Support.",
+      "title": "HGB Error"
+    },
+    "IPU_COMMUNICATION_ERROR": {
+      "body": "Restarting ProCyte Dx may resolve this error. If this alert persists, call IDEXX Support.<shortlinebreak/><ol><li>Shutdown ProCyte Dx.</li><li>Shutdown IPU.</li><li>Turn on IPU.</li><li>Turn on ProCyte Dx.</li></ol>",
+      "title": "An unexpected error has occurred."
+    },
+    "LASER_DIODE_AGED": {
+      "body": "If this alert persists, call IDEXX Support.",
+      "title": "Laser Diode Aged"
+    },
+    "LASER_POWER": {
+      "body": "Use the ProCyte Dx power switch to power off the analyzer for at least 10 seconds. Then, power on the analyzer.<linebreak/>If this alert persists, call IDEXX Support.",
+      "title": "Laser Power Error"
+    },
+    "MPA_06": {
+      "body": "Tap <strong>Reset Air Pump</strong> to resolve this error.<shortlinebreak/>This procedure will take approximately 2 minutes.",
+      "title": "0.06MPa Error"
+    },
+    "MPA_NEG03": {
+      "body": "Tap <strong>Reset Air Pump</strong> to resolve this error.<shortlinebreak/>This procedure will take approximately 2 minutes.",
+      "title": "-0.03MPa Error"
+    },
+    "NEW_HARDWARE_DETECTED": {
+      "body": "To configure the new hardware, you must load configuration files that match your ProCyte Dx serial number.<ol><li>Use the power switch to <strong>power off the analyzer.</strong><shortlinebreak/>Note: Do not power off the IPU.</li><li>Tap <strong>Configure</strong> to continue.</li></ol>",
+      "title": "New hardware detected."
+    },
+    "PLT_CH": {
+      "body": "If this alert persists, call IDEXX Support.",
+      "title": "PLT-CH Error"
+    },
+    "PLT_SAMPLING": {
+      "body": "Tap <strong>Remove Clog</strong> to resolve this error.<shortlinebreak/>This procedure takes approximately 1 minute.",
+      "title": "PLT Sampling Error"
+    },
+    "PRESS_START_BUTTON": {
+      "body": "<strong>To analyze sample</strong><ol><li>Invert the sample tube 10 times to mix thoroughly.</li><li>Press the <strong>Start</strong> button on the analyzer.</li></ol>",
+      "title": "Sample analysis has not started."
+    },
+    "PRESS_START_BUTTON_QC": {
+      "body": "<strong>$t({{ name }})<shortlinebreak/>Lot: {{ lot-number }}</strong><shortlinebreak/><ol><li>Warm controls to room temperature (64°F–77°F/18°C–25°C) for at least 15 minutes.</li><li>Gently invert the QC vial until the cells settled at the bottom of the vial are completely suspended.<shortlinebreak/><strong>Note:</strong> Do not place controls on a mechanical mixer or rocker.</li><li>Load the tube into the QC tube adapter in the sample drawer.</li><li>Press the <strong>Start</strong> button on the analyzer.</li></ol>",
+      "title": "Press the start button on the analyzer to begin the analysis for:"
+    },
+    "PRESSURE_LOWER": {
+      "body": "Tap <strong>Reset Air Pump</strong> to resolve this error.<shortlinebreak/>This procedure will take approximately 2 minutes.",
+      "title": "Pressure Lower Error"
+    },
+    "RBC_BUBBLE": {
+      "body": "Tap <strong>Remove Clog</strong> to resolve this error.<shortlinebreak/>This procedure takes approximately 1 minute.",
+      "title": "RBC Bubble Error"
+    },
+    "RBC_CH": {
+      "body": "If this alert persists, call IDEXX Support.",
+      "title": "RBC-CH Error"
+    },
+    "RBC_CLOG": {
+      "body": "Tap <strong>Remove Clog</strong> to resolve this error.<shortlinebreak/>This procedure takes approximately 1 minute.",
+      "title": "RBC Clog Error"
+    },
+    "RBC_HGB_CHAMBER": {
+      "body": "Tap <strong>Drain Reaction Chamber</strong> to resolve this error.<shortlinebreak/>This procedure takes less than 1 minute.",
+      "title": "RBC/HGB Chamber Error"
+    },
+    "RBC_SAMPLING": {
+      "body": "Tap <strong>Remove Clog</strong> to resolve this error.<shortlinebreak/>This procedure takes approximately 1 minute.",
+      "title": "RBC Sampling Error"
+    },
+    "REAGENT_KIT_LOW": {
+      "body": "Your reagent kit fluid level is low. You may continue running until empty.<linebreak/>To ensure that you have uninterrupted use of your analyzer, verify that you have a replacement kit in your inventory.<linebreak/>To disable this message, change the <strong>Reagent Low Reminder</strong> setting to \"Off\" on the ProCyte Dx Settings screen.",
+      "title": "Reagent Kit low."
+    },
+    "REPLACE_EPK": {
+      "body": "The reagent kit appears to be disconnected. Verify the reagent kit is properly connected and that the tubing is not bent or kinked. Then, tap <strong>Start Prime.</strong><shortlinebreak/>If you receive this message again after tapping Start Prime, contact IDEXX Support for assistance.",
+      "title": "Reagent Kit appears to be disconnected"
+    },
+    "REPLACE_FFD": {
+      "body": "The reagent kit appears to be disconnected. Verify the reagent kit is properly connected and that the tubing is not bent or kinked. Then, tap <strong>Start Prime.</strong><shortlinebreak/>If you receive this message again after tapping Start Prime, contact IDEXX Support for assistance.",
+      "title": "Reagent Kit appears to be disconnected"
+    },
+    "REPLACE_FFS": {
+      "body": "Tap <strong>Change Stain</strong> to continue.",
+      "title": "Stain Pack empty."
+    },
+    "REPLACE_PIERCER": {
+      "body": "If this alert persists, call IDEXX Support.",
+      "title": "Replace Piercer"
+    },
+    "REPLACE_REAGENT_PACKAGE": {
+      "body": "Tap <strong>Change Reagent</strong> to continue.",
+      "title": "Reagent Kit empty."
+    },
+    "REPLACE_RED": {
+      "body": "The reagent kit appears to be disconnected. Verify the reagent kit is properly connected and that the tubing is not bent or kinked. Then, tap <strong>Start Prime.</strong><shortlinebreak/>If you receive this message again after tapping Start Prime, contact IDEXX Support for assistance.",
+      "title": "Reagent Kit appears to be disconnected"
+    },
+    "REPLACE_RES": {
+      "body": "Tap <strong>Change Stain</strong> to continue.",
+      "title": "Stain Pack empty."
+    },
+    "REPLACE_SLS": {
+      "body": "The reagent kit appears to be disconnected. Verify the reagent kit is properly connected and that the tubing is not bent or kinked. Then, tap <strong>Start Prime.</strong><shortlinebreak/>If you receive this message again after tapping Start Prime, contact IDEXX Support for assistance.",
+      "title": "Reagent Kit appears to be disconnected"
+    },
+    "RET": {
+      "body": "If this alert persists, call IDEXX Support.",
+      "title": "RET Error"
+    },
+    "RET_CH": {
+      "body": "If this alert persists, call IDEXX Support.",
+      "title": "RET-CH Error"
+    },
+    "RET_CHAMBER": {
+      "body": "Tap <strong>Drain Reaction Chamber</strong> to resolve this error.<shortlinebreak/>This procedure takes less than 1 minute.",
+      "title": "RET Chamber Error"
+    },
+    "RET_SAMPLING": {
+      "body": "An issue with the Flow Cell has been detected. Tap <strong>Rinse Flow Cell</strong> to continue.<shortlinebreak/>This procedure takes approximately 6 minutes.",
+      "title": "RET Sampling Error"
+    },
+    "RH_TEMP_HIGH_DIFF": {
+      "body": "The internal temperature of ProCyte Dx is too high. Power off the main unit for 30 minutes and then power it back on.<linebreak/>If this alert persists, call IDEXX Support.",
+      "title": "RH Temp High (DIFF)"
+    },
+    "RH_TEMP_HIGH_RET": {
+      "body": "The internal temperature of ProCyte Dx is too high. Power off the main unit for 30 minutes and then power it back on.<shortlinebreak/>If this alert persists, call IDEXX Support.",
+      "title": "RH Temp High (RET)"
+    },
+    "RH_TEMP_LOW_DIFF": {
+      "body": "ProCyte Dx is warming up. This procedure could take up to 30 minutes.<shortlinebreak/>If this alert persists, call IDEXX Support.",
+      "title": "RH Temp Low (DIFF)"
+    },
+    "RH_TEMP_LOW_RET": {
+      "body": "ProCyte Dx is warming up. This procedure could take up to 30 minutes.<linebreak/>If this alert persists, call IDEXX Support.",
+      "title": "RH Temp Low (RET)"
+    },
+    "RH_THERM_SENS_ERR_DIFF": {
+      "body": "Restarting ProCyte Dx may resolve this error. If this alert persists, call IDEXX Support.<shortlinebreak/><ol><li>Shutdown ProCyte Dx.</li><li>Shutdown IPU.</li><li>Turn on IPU.</li><li>Turn on ProCyte Dx.</li></ol>",
+      "title": "RH Therm Sens ERR (DIFF)"
+    },
+    "RH_THERM_SENS_ERR_RET": {
+      "body": "Restarting ProCyte Dx may resolve this error. If this alert persists, call IDEXX Support.<shortlinebreak/><ol><li>Shutdown ProCyte Dx.</li><li>Shutdown IPU.</li><li>Turn on IPU.</li><li>Turn on ProCyte Dx.</li></ol>",
+      "title": "RH Therm Sens ERR (RET)"
+    },
+    "RIGHT_COVER_HAS_OPENED": {
+      "body": "<ol><li>Close the right side cover.</li><li>Use the ProCyte Dx power switch to power off then power on the analyzer.</li></ol>",
+      "title": "Right side cover has opened."
+    },
+    "RIGHT_COVER_IS_OPEN": {
+      "body": "Close ProCyte Dx's right side cover to resolve this error.",
+      "title": "Right side cover is open."
+    },
+    "RINSE_CUP_PINCH_VALVE": {
+      "body": "Tap <strong>Clear Pinch Valve</strong> to resolve this error.<shortlinebreak/>This procedure will take less than 1 minute.",
+      "title": "Rinse Cup Pinch Valve Error"
+    },
+    "SAMPLE_NOT_ASP": {
+      "body": "The sample appears to have insufficient blood volume. Check the volume before running the patient again. For sample volume requirements, see the ProCyte Dx Analyzer Operator's Guide.<shortlinebreak/>If this alert persists, call IDEXX Support.",
+      "title": "Sample Not Asp Error"
+    },
+    "SFS_INTERRUPTED": {
+      "body": "<ol><li>Disconnect the tubes from the back of the analyzer that lead from the quick connect top.</li><li>Power off the analyzer and the IPU.</li><li>Disconnect the power and communication cables from the analyzer.</li><li>Return the analyzer to IDEXX.</li></ol>",
+      "title": "There was a problem during the Shut Down for Shipping Procedure."
+    },
+    "SFS_REAGENTS_DRAINED": {
+      "body": "The reagents have been drained from the analyzer.<shortlinebreak/><strong>Next steps:</strong><ol><li>On the back of the analyzer, disconnect the tube from the white port</li><li>Power off the analyzer using the switch located on the right side of the instrument</li><li>Press the power button on the IPU to power it off (do not press and hold the button)</li><li>Disconnect the power and Ethernet cables from the back of the analyzer</li><li>Pack the old analyzer in the replacement analyzer box and return it to IDEXX</li></ol><linebreak/><strong>Tap Finish</strong>",
+      "title": "Final steps"
+    },
+    "SHEATH_MOTOR": {
+      "body": "Tap <strong>Reset Sheath Motor</strong> to resolve this error.<shortlinebreak/>This procedure will take less than 1 minute.",
+      "title": "Sheath Motor Error"
+    },
+    "SHORT_SAMPLE": {
+      "body": "The sample appears to have insufficient blood volume. Check the volume before running the patient again. For sample volume requirements, see the ProCyte Dx Analyzer Operator's Guide.<shortlinebreak/>If this alert persists, call IDEXX Support.",
+      "title": "Short Sample"
+    },
+    "SOFTWARE_UPGRADE_AVAILABLE": {
+      "body": "<ol><li>Use the power switch to <strong>power off the analyzer</strong>.<shortlinebreak/>Note: Do not power off the IPU.</li><li>Tap <strong>Upgrade Now</ strong> to continue.<shortlinebreak/>WARNING: The IPU will shut down during the upgrade process.</li></ol>",
+      "title": "Software upgrade version {{ software-version }} is ready to be installed."
+    },
+    "SOFTWARE_UPGRADE_FAILED": {
+      "body": "Try upgrading again or contact IDEXX Support for assistance.<shortlinebreak/><ol><li>Use the power switch to <strong>power off the analyzer</strong>.<shortlinebreak/>Note: Do not power off the IPU.</li><li>Tap <strong>Upgrade Now</strong> to continue.</li></ol>",
+      "title": "The software upgrade was unsuccessful."
+    },
+    "SOFTWARE_UPGRADE_TIMEOUT": {
+      "body": "To resolve, ensure the ProCyte Dx analyzer is powered off and then reboot the IPU using the power button on the IPU.<shortlinebreak/>If the problem persists, call IDEXX Support.",
+      "title": "The software upgrade was unsuccessful."
+    },
+    "STAIN_PACK_LOW": {
+      "body": "Your stain pack fluid level is low. You may continue running until empty.<linebreak/>To ensure that you have uninterrupted use of your analyzer, verify that you have a replacement pack in your inventory.<linebreak/>To disable this message, change the <strong>Reagent Low Reminder</strong> setting to \"Off\" on the ProCyte Dx Settings screen.",
+      "title": "Stain Pack low."
+    },
+    "STARTUP_PRIME_REQUIRED": {
+      "body": "For this 45 minute procedure, a full reagent kit and stain pack are required. Do you want to continue?",
+      "title": "Start Up procedure required."
+    },
+    "SYSTEM_CONFIGURATION": {
+      "body": "Restarting ProCyte Dx may resolve this error. If this alert persists, call IDEXX Support.<shortlinebreak/><ol><li>Shutdown ProCyte Dx.</li><li>Shutdown IPU.</li><li>Turn on IPU.</li><li>Turn on ProCyte Dx.</li></ol>",
+      "title": "System Configuration Error."
+    },
+    "TUBE_HOLDER_HAS_OPENED": {
+      "body": "Restarting ProCyte Dx may resolve this error. If this alert persists, call IDEXX Support.<shortlinebreak/><ol><li>If possible, remove sample tube and any obstruction.</li><li>Power off ProCyte Dx.</li><li>Power off IPU.</li><li>Power on IPU.</li><li>Power on ProCyte Dx.</li></ol>",
+      "title": "The sample drawer has opened."
+    },
+    "TUBE_HOLDER_MOTOR": {
+      "body": "There is an obstruction in the sample drawer. Remove the obstruction and tap <strong>Reset Tube Motor</strong> to resolve this error.<shortlinebreak/>This procedure will take less than 1 minute.",
+      "title": "Tube Holder Motor Error"
+    },
+    "TURN_ON_MAIN_UNIT": {
+      "body": "Use the ProCyte Dx power switch to power on the analyzer.",
+      "title": "The ProCyte Dx analyzer has not been detected."
+    },
+    "UNINTENTIONAL_OFFLINE_TIMEOUT": {
+      "body": "Tap the <strong>Power On ProCyte Dx</strong> button to power on the IPU. This will take approximately 1 minute.<shortlinebreak/><strong>Note:</strong> Do not push the power button on the IPU after using the Power On ProCyte Dx button.Turn on the analyzer using the switch on the right side of the analyzer.",
+      "title": "The ProCyte Dx has not been detected"
+    },
+    "WAKE_ON_LAN_FAILURE_TIMEOUT": {
+      "body": "Turn off the IPU if it is already on, then ensure the IPU is connected to the VetLab router via a network cable.<shortlinebreak/>Next, <strong>press the power button</strong> on the IPU to turn it on.",
+      "title": "The ProCyte Dx has not been detected"
+    },
+    "WASTE_CHAMBER_1": {
+      "body": "Tap <strong>Drain Waste Chamber</strong> to resolve this error.<shortlinebreak/>This procedure takes less than 1 minute.",
+      "title": "Waste Chamber 1 Error"
+    },
+    "WASTE_CHAMBER_1_PINCH_VALVE": {
+      "body": "Tap <strong>Clear Pinch Valve</strong> to resolve this error.<shortlinebreak/>This procedure will take less than 1 minute.",
+      "title": "Waste Chamber 1 Pinch Valve Error"
+    },
+    "WASTE_CHAMBER_2": {
+      "body": "Tap <strong>Drain Waste Chamber</strong> to resolve this error.<shortlinebreak/>This procedure takes less than 1 minute.",
+      "title": "Waste Chamber 2 Error"
+    },
+    "WASTE_CHAMBER_2_PINCH_VALVE": {
+      "body": "Tap <strong>Clear Pinch Valve</strong> to resolve this error.<shortlinebreak/>This procedure will take less than 1 minute.",
+      "title": "Waste Chamber 2 Pinch Valve Error"
+    },
+    "WB_ASP_MOTOR": {
+      "body": "Tap <strong>Reset WB Motor</strong> to resolve this error.<shortlinebreak/>This procedure will take less than 1 minute.",
+      "title": "WB Asp Motor Error"
+    },
+    "WBC_CH": {
+      "body": "An issue with the Flow Cell has been detected. Tap <strong>Rinse Flow Cell</strong> to continue.<shortlinebreak/>This procedure takes approximately 6 minutes.",
+      "title": "WBC-CH Error"
+    },
+    "WBC_CHAMBER": {
+      "body": "Tap <strong>Drain Reaction Chamber</strong> to resolve this error.<shortlinebreak/>This procedure takes less than 1 minute.",
+      "title": "WBC Chamber Error"
+    },
+    "WBC_SAMPLING": {
+      "body": "An issue with the Flow Cell has been detected. Tap <strong>Rinse Flow Cell</strong> to continue.<linebreak/>This procedure takes approximately 6 minutes.",
+      "title": "WBC Sampling Error"
+    },
+    "unmapped": {
+      "body": "<strong>Contact IDEXX Support and provide the following information:</strong> <shortlinebreak/>Error: {{ error }} <shortlinebreak/>Recommended Action: {{ action }} <shortlinebreak/>Command: {{ command }}",
+      "title": "An unexpected error has occurred."
+    }
+  },
+  "URISED": {
+    "ARM_MOVEMENT": {
+      "body": "A Cartridge Movement Arm Error has been detected.<linebreak/>Initializing and cleaning should resolve the error. Tap the <strong>Initialize</strong> button to begin.<linebreak/>If Error persists, please contact IDEXX Support.",
+      "title": "Cartridge Movement Arm Error"
+    },
+    "CAMERA_ERROR": {
+      "body": "Camera error. Please contact IDEXX Support.",
+      "title": "Camera Error"
+    },
+    "CENTRIFUGE_ARM_MISSING": {
+      "body": "No centrifuge arm. Please contact IDEXX Support.",
+      "title": "Centrifuge Error"
+    },
+    "CENTRIFUGE_ROTATION_ERROR": {
+      "body": "Centrifuge rotation error. Please contact IDEXX Support.",
+      "title": "Centrifuge Error"
+    },
+    "CLEANING_RECOMMENDED": {
+      "body": "We recommend cleaning your SediVue Dx Urine Sediment Analyzer once per month.<linebreak/>To clean the analyzer now, tap <strong>Clean</strong>.<linebreak/>To be reminded in 24 hours, tap <strong>Remind me later</strong>.<linebreak/>If your analyzer is already clean, tap <strong>Dismiss</strong>.",
+      "title": "Cleaning Recommended"
+    },
+    "CUVETTE_COUNT_LOW": {
+      "body": "Cartridge(s) remaining: {{ 0 }}<linebreak/>You may continue using the analyzer until the sleeve is empty.<linebreak/>To ensure uninterrupted use of your analyzer, verify that you have additional cartridges in your inventory.",
+      "title": "The SediVue cartridge sleeve is almost empty"
+    },
+    "CUVETTE_COUNT_ZERO": {
+      "body": "The SediVue cartridge sleeve is empty.<linebreak/>The SediVue cartridge sleeve must be replaced in order to use your analyzer.",
+      "title": "Replace the SediVue Dx cartridge sleeve"
+    },
+    "CUVETTE_SENSOR_EMPTY": {
+      "body": "The SediVue cartridge sleeve is empty or the cartridge did not load properly.<linebreak/>Open the SediVue Dx door and check to see if cartridges are in the sleeve. If cartridges are present, gently tap the sleeve and rerun. If cartridges are not present, you must load a new cartridge sleeve in the analyzer.",
+      "title": "SediVue cartridge not detected"
+    },
+    "DOOR_OPEN": {
+      "body": "The door must be closed before using SediVue Dx.",
+      "title": "Door Open"
+    },
+    "FEEDER_MOVEMENT": {
+      "body": "A Cartridge Movement Arm Error has been detected.<linebreak/>Initializing and cleaning should resolve the error. Tap the <strong>Initialize</strong> button to begin.<linebreak/>If Error persists, please contact IDEXX Support.",
+      "title": "Cartridge Movement Arm Error"
+    },
+    "FOCUS_DLL_NOT_FOUND": {
+      "body": "Focus dll not found. Contact Customer Support.",
+      "title": "Focus Error"
+    },
+    "FOCUS_FUNCTION_MISSING": {
+      "body": "One of focus functions is missing. Please contact IDEXX Support.",
+      "title": "Focus Error"
+    },
+    "FOCUS_HOME_POSITION_ERROR": {
+      "body": "Focus home position error. Please contact IDEXX Support.",
+      "title": "Focus Error"
+    },
+    "GENERAL_COMMUNICATION_ERROR": {
+      "body": "General communication error. Contact Customer Support.",
+      "title": "Communication Error"
+    },
+    "HOUSE_OPEN": {
+      "body": "The centrifuge cover must be replaced before using SediVue Dx.",
+      "title": "Centrifuge Cover Removed"
+    },
+    "INSTRUMENT_PORT_OPEN_ERROR": {
+      "body": "Instrument port open error. Contact Customer Support.",
+      "title": "Instrument Port Error"
+    },
+    "MEMORY_ALLOCATION_ERROR": {
+      "body": "Memory allocation error in message module. Contact Customer Support.",
+      "title": "Memory Error"
+    },
+    "MICROSCOPE_CTS_TIMEOUT": {
+      "body": "Microscope CTS timeout. Contact Customer Support.",
+      "title": "Microscope Error"
+    },
+    "MICROSCOPE_THREAD_CREATION_ERROR": {
+      "body": "Microscope thread creation error. Please contact IDEXX Support.",
+      "title": "Thread Creation Error"
+    },
+    "MOTY_MOVEMENT": {
+      "body": "A Cartridge Movement Arm Error has been detected.<linebreak/>Initializing and cleaning should resolve the error. Tap the <strong>Initialize</strong> button to begin.<linebreak/>If Error persists, please contact IDEXX Support.",
+      "title": "Cartridge Movement Arm Error"
+    },
+    "PLATE_MISSING": {
+      "body": "The drip tray must be replaced before using SediVue Dx.",
+      "title": "Drip Tray Removed"
+    },
+    "PORT_THREAD_NOT_STARTED": {
+      "body": "Port thread can't start.",
+      "title": "Port Thread Error"
+    },
+    "PROTOCOL_CLASS_CREATION_ERROR": {
+      "body": "Protocol class creation error. Contact Customer Support.",
+      "title": "Protocol Error"
+    },
+    "PROTOCOL_USAGE_UNDEFINED": {
+      "body": "Protocol usage is not defined. Contact Customer Support.",
+      "title": "Protocol Error"
+    },
+    "SERIAL_PORT_NOT_FOUND": {
+      "body": "Serial port not found. Contact Customer Support.",
+      "title": "Serial Port Error"
+    },
+    "SERIAL_PORT_UNAVAILABLE": {
+      "body": "No serial port on PC. Contact Customer Support.",
+      "title": "Serial Port Error"
+    },
+    "SMART_SERVICE_DISCONNECTED": {
+      "body": "SmartService has been disconnected for more than 5 days. To ensure an optimal experience with your SediVue Dx please reconnect.",
+      "title": "SmartService Disconnected"
+    },
+    "SYSTEM_REBOOT_RECOMMENDED": {
+      "body": "IDEXX recommends restarting your SediVue Dx Analyzer on a monthly basis to ensure optimum performance.<linebreak/>Do you want to restart your analyzer now?\n",
+      "title": "Restart Recommended"
+    },
+    "TOO_MANY_SERIAL_PORTS_DEFINED": {
+      "body": "Too many serial ports are defined in ini. Contact Customer Support.",
+      "title": "Serial Port Error"
+    },
+    "UPDATE_AVAILABLE": {
+      "body": "If you choose to install later, you can upgrade the analyzer at any time using the Upgrade Software option on the SediVue Dx Instruments screen",
+      "noUpgradeWarning": "If you do not upgrade the analyzer by {{ dateFormat }}, the upgrade will be installed automatically.",
+      "title": "Software upgrade version {{ version }} is ready to be installed."
+    },
+    "UPDATE_FAILED": {
+      "body": "The SediVue Dx Analyzer was not upgraded successfully. To resolve, repeat the upgrade procedure now or upgrade later using the Upgrade Software option on the SediVue Dx Instrument screen.<linebreak/>If the problem persists, contact IDEXX Support.",
+      "title": "Software Upgrade Unsuccessful"
+    },
+    "UPDATE_FAILED_CATASTROPHIC": {
+      "body": "Please contact IDEXX Support for assistance.",
+      "title": "Software Upgrade Unsuccessful"
+    },
+    "WAKE_ON_LAN_FAILURE_TIMEOUT": {
+      "body": "Turn off the analyzer if it is already on. Ensure it is connected to the IDEXX VetLab router.<linebreak/>Next, <strong>press the power button</strong> on the analyzer to turn it on.<linebreak/>If the problem persists, contact IDEXX Support.",
+      "title": "The SediVue Dx has not been detected"
+    }
+  },
+  "URISYS_DX": {
+    "E1_REFERENCE_PAD_ERROR_MIDDLE_ERROR": {
+      "body": "The strip tray is dirty or damaged.<shortlinebreak /><ol><li>Remove the strip tray from the analyzer.</li><li>Clean the white reference pad with alcohol and a lint free wipe.</li><li>Reseat the strip tray into the analyzer and rerun.</li></ol>If issue persists, replace strip tray or call IDEXX Support.",
+      "title": "Reference Pad Error"
+    },
+    "E2_WRONG_STRIP_ERROR": {
+      "body": "If calibrating:<shortlinebreak /><ol><li>Rerun using an IDEXX calibration strip.</li><li>Ensure strip is properly positioned in the strip tray.</li></ol>If running a sample:<shortlinebreak /><ol><li>Rerun using an IDEXX test strip.</li><li>Ensure sufficient amount of sample has been placed on the strip.</li><li>Ensure strip is properly positioned in the strip tray.</li></ol>If issue persists, contact IDEXX Support.",
+      "title": "Strip Error"
+    },
+    "E3_STRIP_MEASUREMENT_ERROR": {
+      "body": "<ol><li>Rerun using an IDEXX test strip.</li><li>Ensure a sufficient amount of sample is applied to the strip.</li><li>Ensure the strip is properly positioned in the tray.</li></ol><strong>If the sample is dark in color:</strong><shortlinebreak />Centrifuge the sample and rerun using the supernatant and a new test strip.<linebreak />If error persists, contact IDEXX Support.",
+      "title": "Measurement Error"
+    },
+    "E4_CALIBRATION_ERROR": {
+      "body": "The analyzer was not calibrated successfully. Please contact IDEXX Support for assistance.",
+      "title": "Calibration Error"
+    },
+    "E5_CALIBRATION_INVALID_ERROR": {
+      "body": "The analyzer was not calibrated successfully. Please contact IDEXX Support for assistance.",
+      "title": "Calibration Error"
+    },
+    "E7_MISSING_TRAY_ERROR": {
+      "body": "The strip tray is missing, or out of position.<shortlinebreak /><ol><li>Reseat the strip tray.</li><li>Tap <strong>Initialize</strong>.</li><li>If issue persists, replace strip tray with a new tray.</li></ol>If issue persists, contact IDEXX Support.",
+      "title": "Strip Tray Missing"
+    },
+    "E8_TRAY_POSITION_ERROR": {
+      "body": "The strip tray is damaged, dirty, or out of position.<shortlinebreak /><ol><li>Remove the strip tray from the analyzer.</li><li>Clean the tray with alcohol and a lint free wipe.</li><li>Reseat the strip tray into the analyzer and then tap <strong>Initialize</strong>.</li><li>Tap the patient icon to rerun.</li></ol>If issue persists, replace strip tray with a new tray or contact IDEXX Support.",
+      "title": "Strip Tray Error"
+    },
+    "E9_WRONG_TRAY_ERROR": {
+      "body": "<ol><li>Replace strip tray with a new tray.</li><li>Tap <strong>Initialize</strong>.</li></ol>If issue persists, contact IDEXX Support.",
+      "title": "Strip Tray Incorrect"
+    },
+    "E10_LIGHT_BARRIER_ERROR": {
+      "body": "<ol><li>Remove the strip tray from the analyzer.</li><li>Clean the tray with alcohol and a lint free wipe.</li><li>Reseat the strip tray into the analyzer and then tap <strong>Initialize</strong>.</li></ol>If issue persists, replace strip tray with a new tray or contact IDEXX Support.",
+      "title": "Light Barrier Error"
+    },
+    "E11_MOTOR_STEP_ERROR": {
+      "body": "The strip tray is not moving correctly.<shortlinebreak /><ol><li>Remove the strip tray from the analyzer.</li><li>Clean the tray with alcohol and a lint free wipe.</li><li>Reseat the strip tray into the analyzer and then tap <strong>Initialize</strong>.</li></ol>If issue persists, replace strip tray with a new tray or contact IDEXX Support.",
+      "title": "Motor Step Error"
+    },
+    "E12_OPTICS_ERROR": {
+      "body": "<ol><li>Remove strip tray from the analyzer and insert a new strip tray.</li><li>Tap <strong>Initialize</strong>.</li></ol>If error persists, contact IDEXX Support.",
+      "title": "Optics Error"
+    },
+    "E15_REFERENCE_PAD_BOTTOM_ERROR": {
+      "body": "The strip tray is dirty or damaged.<shortlinebreak /><ol><li>Remove the strip tray from the analyzer.</li><li>Clean the white reference pad with alcohol and a lint free wipe.</li><li>Reseat the strip tray into the analyzer and rerun.</li></ol>If issue persists, replace strip tray or call IDEXX Support.",
+      "title": "Reference Pad Error"
+    },
+    "E16_REFERENCE_PAD_TOP_ERROR": {
+      "body": "The strip tray is dirty or damaged.<shortlinebreak /><ol><li>Remove the strip tray from the analyzer.</li><li>Clean the white reference pad with alcohol and a lint free wipe.</li><li>Reseat the strip tray into the analyzer and rerun.</li></ol>If issue persists, replace strip tray or call IDEXX Support.",
+      "title": "Reference Pad Error"
+    },
+    "E24_COMP_PAD_REMISSIONS_OUT_OF_RANGE_ERROR": {
+      "body": "Rerun using a new test strip, ensuring that the strip has sufficient sample and is properly positioned in the strip tray.<linebreak /><strong>If the sample is dark in color</strong>:<shortlinebreak />Centrifuge the sample and rerun using the supernatant and a new test strip.<linebreak />If error persists, contact IDEXX Support.",
+      "title": "Result Out Of Range"
+    },
+    "E25_SYSTEM_EPROM_ERROR": {
+      "body": "Reboot the UA Analyzer:<shortlinebreak /><ol><li>Tap <strong>Power Down</strong> to turn off the UA Analyzer.</li><li>After 60 seconds, turn on the UA Analyzer using the power button on the right side of the analyzer.</li></ol>If the issue persists, contact IDEXX Support.",
+      "title": "Reboot Required"
+    },
+    "E27_USER_CALIBRATION_IS_REQUIRED_ERROR": {
+      "body": "The UA Analyzer must be calibrated every 7 days to maintain accurate results.<shortlinebreak />Tap <strong>Calibrate</strong> to begin the weekly calibration.",
+      "title": "Calibration Required"
+    },
+    "E29_DATABASE_ERROR": {
+      "body": "Reboot the UA Analyzer.<shortlinebreak /><ol><li> Tap <strong>Power Down</strong> to turn off the UA Analyzer.</li><li>After 60 seconds, turn on the UA Analyzer using the power button on the right side of the analyzer.</li></ol>If the issue persists, contact IDEXX Support.",
+      "title": "Reboot Required"
+    },
+    "E30_SYSTEM_INITIALIZATION_ERROR": {
+      "body": "Reboot the UA Analyzer:<shortlinebreak /><ol><li>Tap <strong>Power Down</strong> to turn off the UA Analyzer.</li><li>After 60 seconds, turn on the UA Analyzer using the power button on the right side of the analyzer.</li></ol>If the issue persists, contact IDEXX Support.",
+      "title": "Reboot Required"
+    },
+    "E33_SYSTEM_ERROR": {
+      "body": "Reboot the UA Analyzer:<shortlinebreak /><ol><li>Tap <strong>Power Down</strong> to turn off the UA Analyzer.</li><li>After 60 seconds, turn on the UA Analyzer using the power button on the right side of the analyzer.</li></ol>If the issue persists, contact IDEXX Support.",
+      "title": "Reboot Required"
+    },
+    "E100_POWERSUPPLY_ERROR": {
+      "body": "<strong>Power Down</strong> the UA Analyzer:<ol><li>Tap <strong>Power Down</strong> to turn off the UA Analyzer.</li><li>Confirm the correct power supply is firmly seated in both the power port on the back of the analyzer and an electrical outlet.</li><li>After 60 seconds, turn on the analyzer using the power button on the right side of the analyzer.</li></ol>If the issue persists, contact IDEXX Support.",
+      "title": "Reboot and Cable Inspection Required"
+    },
+    "UPDATE_AVAILABLE": {
+      "body": "If you choose to install later, you can upgrade the analyzer at any time by going to the UA Analyzer Instrument screen.",
+      "title": "Software upgrade version {{ version }} is ready to be installed."
+    },
+    "UPDATE_FAILED": {
+      "body": "The UA Analyzer was not upgraded successfully. To resolve, repeat the upgrade procedure now or upgrade later by going to the UA Analyzer Instrument screen.<linebreak/>If the problem persists, contact IDEXX Support.",
+      "title": "Software Upgrade Unsuccessful"
+    },
+    "UPDATE_FAILED_CATASTROPHIC": {
+      "body": "Please call IDEXX Support for assistance.",
+      "title": "Software Upgrade Unsuccessful"
+    }
+  },
+  "THEIA": {
+    "INST_TEMP_LOW": {
+      "body": "The analyzer operating temperature is too low to begin a sample run. Please wait for the analyzer to warm up or check the room temperature.<linebreak/>If the problem persists, contact IDEXX Support."
+    },
+    "INST_TEMP_HIGH": {
+      "body": "The analyzer operating temperature is too high to begin a sample run. Please ensure there is adequate air flow around the analyzer.<linebreak/>If the problem persists, contact IDEXX Support."
+    },
+    "INVALID_CONSUMABLES": {
+      "body": "This does not appear to be an IDEXX inVue Dx cartridge. Rerun the sample with an IDEXX cartridge."
+    },
+    "EXPIRED_CONSUMABLES": {
+      "body": "The cartridge has expired. Rerun the sample with a fresh, unexpired cartridge."
+    },
+    "BARCODE_READ_FAILURE": {
+      "body": "The barcode cannot be read. Check the barcode for damage or obstruction, clean the barcode, or enter the barcode manually."
+    },
+    "INCORRECT_TEST_TYPE_MANUAL": {
+      "body": "The barcode does not match the selected test type. Please enter the correct barcode."
+    },
+    "INCORRECT_TEST_TYPE": {
+      "body": "This is the wrong cartridge for the selected test type. Rerun the sample with the correct cartridge."
+    },
+    "SAMPLE_OVER_TEMP": {
+      "body": "The system temperature is too high during the sample run. Check the operators guide to set up your environment to a temperature conducive to the inVue sample run."
+    },
+    "SAMPLE_UNDER_TEMP": {
+      "body": "The system temperature is too low during the sample run. Check the operators guide to set up your environment to a temperature conducive to the inVue sample run."
+    },
+    "IMPROPER_SAMPLE_PREPARATION": {
+      "body": "The reagent may be missing from the sample. Prepare a new sample and rerun.<linebreak/>If the problem persists, contact IDEXX Support."
+    },
+    "SAMPLE_CELLULARITY_HIGH": {
+      "body": "The sample cannot be analyzed. Prepare a new sample and rerun."
+    },
+    "MOTION_ERROR_CARTRIDGE": {
+      "body": "The cartridge is not positioned correctly. Try reinserting the cartridge.<linebreak/>If the problem persists, contact IDEXX Support."
+    },
+    "MOTION_ERROR_MICROSCOPE": {
+      "body": "The microscope is not positioned correctly. Try reinserting the cartridge.<linebreak/>If the problem persists, contact IDEXX Support."
+    },
+    "UNKNOWN_ERROR": {
+      "body": "The run was aborted.<linebreak/>If the problem persists, contact IDEXX Support."
+    }
+  },
+  "default": {
+    "message": "The instrument has reported an alert. Please see the instrument for more information."
+  },
+  "buttons": {
+    "start": "Start",
+    "powerOnProCyteDx": "Power On ProCyte Dx",
+    "performClean": "Perform Clean"
+  },
+  "defaultActionButtons": {
+    "ASPIRATION_UNIT_MOTOR": "Reset Aspiration Motor",
+    "CALIBRATE": "Calibrate",
+    "CANCEL": "Cancel",
+    "CANCEL_RUN": "Cancel Run",
+    "CHANGE_REAGENT": "Change Reagent",
+    "CHANGE_STAIN": "Change Stain",
+    "CLEAN": "Clean",
+    "CLEAR_PINCH_VALUE": "Clear Pinch Valve",
+    "CLOSE": "Close",
+    "CONFIGURE": "Configure",
+    "CONNECT": "Connect",
+    "CONTINUE": "Continue",
+    "DISMISS": "Dismiss",
+    "DRAIN_REACTION_CHAMBER": "Drain Reaction Chamber",
+    "DRAIN_WASTE_CHAMBER": "Drain Waste Chamber",
+    "ENTER_REAGENT_BARCODE": "Enter Manually",
+    "ENTER_SHEATH_BARCODE": "Enter Manually",
+    "FILTER_INSTRUCTIONS": "Filter Instructions",
+    "FINISH": "Finish",
+    "INITIALIZE": "Initialize",
+    "OK": "OK",
+    "OK_REMOVE": "OK",
+    "OPTIMIZE_LATER": "Optimize Later",
+    "OPTIMIZE_NOW": "Optimize Now",
+    "PINCH_VALVE": "Clear Pinch Valve",
+    "POWER_DOWN": "Power Down",
+    "REBOOT_INSTRUMENT": "Restart",
+    "REMIND_ME_LATER": "Remind Me later",
+    "REMIND_ME_NEXT_RUN": "Remind Me Next Run",
+    "REMIND_ME_WHEN_EMPTY": "Remind Me When Empty",
+    "REMOVE_CLOGS": "Remove Clog",
+    "REPLACE_CUVETTES": "Replace Cartridges",
+    "REPLACE_FILTER": "Replace Filter",
+    "REPLACE_REAGENT": "Replace Reagent",
+    "REPLACE_SHEATH": "Replace Sheath",
+    "REPLACE_SMART_QC": "Replace SmartQC",
+    "RESET_AIR_PUMP": "Reset Air Pump",
+    "RESET_SHEATH_MOTOR": "Reset Sheath Motor",
+    "RESET_WB_MOTOR": "Reset WB Motor",
+    "RINSE_FLOW_CELL": "Rinse Flow Cell",
+    "AUTO_RINSE": "Run Auto Rinse",
+    "RUN_BLEACH_CLEAN": "Run Bleach Clean",
+    "MONTHLY_RINSE": "Run Monthly Rinse",
+    "START_PRIME": "Start Prime",
+    "TUBE_HOLDER_MOTOR": "Reset Tube Motor",
+    "UPGRADE": "Upgrade",
+    "UPGRADE_LATER": "Upgrade Later",
+    "UPGRADE_SOFTWARE": "Upgrade Now",
+    "PRINT": "Print",
+    "FORCE_RUN": "Ignore",
+    "ENTER_THEIA_BARCODE": "Enter Barcode"
+  },
+  "QualityControl": {
+    "PatientName": {
+      "Level1": "ProCyte Dx QC Level 1",
+      "Level2": "ProCyte Dx QC Level 2"
+    }
+  }
+}

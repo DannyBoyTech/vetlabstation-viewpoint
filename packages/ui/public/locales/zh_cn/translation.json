@@ -1,0 +1,3573 @@
+{
+  "DeviceType": {
+    "Chemistry": "生化",
+    "Coagulation": "凝血",
+    "Hematology": "血液学",
+    "Immunoassay": "SNAP",
+    "Unknown": "未知",
+    "Urinalysis": "尿液分析",
+    "Cytology": "细胞学检查",
+    "Pathology": "病理分析"
+  },
+  "Species": {
+    "Alpaca": "羊驼",
+    "Avian": "禽类",
+    "Bovine": "牛",
+    "Camel": "骆驼",
+    "Canine": "犬",
+    "Control": "对照组",
+    "Dolphin": "海豚",
+    "Equine": "马",
+    "Feline": "猫",
+    "Ferret": "貂",
+    "Gerbil": "沙鼠",
+    "Goat": "山羊",
+    "Guinea pig": "豚鼠",
+    "Hamster": "仓鼠",
+    "LaserCyteControl": "LaserCyteControl",
+    "Lizard": "蜥蜴",
+    "Llama": "羊驼",
+    "Mini Pig": "迷你猪",
+    "Monkey": "猴子",
+    "Mouse": "老鼠",
+    "Other": "其它",
+    "Pig": "猪",
+    "Rabbit": "兔",
+    "Rat": "大鼠",
+    "Sea Turtle": "海龟",
+    "Sheep": "绵羊",
+    "Snake": "蛇",
+    "Tortoise": "陆龟",
+    "Unknown": "未知"
+  },
+  "messagesScreen": {
+    "header": "消息中心",
+    "title": "消息",
+    "category": "类别",
+    "subject": "主题",
+    "received": "接收时间",
+    "markAsUnread": "标记为未读",
+    "confirmDeleteMessage": {
+      "title": "删除消息",
+      "areYouSure": "您确定要删除该消息吗？"
+    }
+  },
+  "searchPatient": {
+    "addNew": "新增",
+    "addNewClient": "添加新宠物主人",
+    "addPatient": "添加新患宠",
+    "back": "返回",
+    "clientId": "病历号码",
+    "edit": "编辑",
+    "existingClients": "现有宠物主人：",
+    "header": "宠物搜索：",
+    "instructionsAddPatient": "搜索现有患宠或添加新患宠",
+    "lastName": "姓",
+    "lastSevenDays": "最近7天",
+    "lastThirtyDays": "过去30天",
+    "mostRecentResults": "最新报告",
+    "next": "下一步",
+    "noResults": "未找到符合搜索条件的患宠",
+    "patientName": "宠物名",
+    "recordsSearch": "记录搜索",
+    "stat": "急诊",
+    "view": "浏览"
+  },
+  "home": {
+    "labels": {
+      "pending": "待测样本({{ count }})",
+      "census": "样本总数({{ count }})",
+      "inProcess": "进行中({{ count }})",
+      "results": "检测结果({{ count }})"
+    },
+    "buttons": {
+      "analyzeSample": "检测样本",
+      "recordsSearch": "记录搜索"
+    },
+    "pendingList": {
+      "viewPending": "查看待测样本({{ count }})",
+      "viewCensus": "查看样本总数({{ count }})",
+      "delete": "删除",
+      "searchPlaceholder": "按患宠名搜索"
+    },
+    "patientMatch": {
+      "title": "发现建议的匹配项",
+      "instructions": "<strong>请帮助我们确认这些记录是否是匹配项。</strong><linebreak/>请从建议的匹配项中选择，新建记录，或搜索正确的匹配项。",
+      "currentRecord": "当前记录",
+      "suggestedMatch": "建议的匹配项第{{ matchNumber }}个，共{{ totalMatches }}个",
+      "confirmation": {
+        "title": "匹配记录",
+        "body": "匹配这些记录后，IDEXX VetLab Station中患宠的详细信息将会被从您的医院管理软件收到的信息所覆盖。<linebreak/><strong>此操作无法轻易撤销。</strong><linebreak/>您确定这些记录是针对同一个患宠吗？"
+      },
+      "table": {
+        "patient": "宠物",
+        "species": "种别",
+        "breed": "品种",
+        "sex": "性别",
+        "age": "年龄",
+        "clientFirst": "宠主名字",
+        "clientLast": "宠主姓氏"
+      },
+      "buttons": {
+        "createNew": "新建",
+        "match": "匹配"
+      }
+    }
+  },
+  "instrumentScreens": {
+    "general": {
+      "qcLots": "质控品批号",
+      "buttons": {
+        "addQCLot": "新增质控品批号",
+        "maintenance": "维护",
+        "diagnostics": "诊断",
+        "eventLog": "事件日志",
+        "idexxUseOnly": "仅限IDEXX人员使用",
+        "removeInstrument": "仪器移除",
+        "settings": "设置",
+        "shutDown": "关机",
+        "runQC": "检测质控品",
+        "changeQC": "更换质控品",
+        "viewLotResults": "查看批次结果",
+        "viewAllQCResults": "查看所有质控结果",
+        "viewQCResults": "查看质控结果",
+        "viewQCLotInfo": "浏览质控品批号信息",
+        "viewResults": "浏览结果",
+        "qualityControl": "质控品",
+        "clean": "清洁",
+        "calibrate": "校准",
+        "print": "打印",
+        "printAll": "打印所有",
+        "powerDown": "关闭电源",
+        "powerOn": "开启电源",
+        "restart": "重新启动",
+        "smartQC": "SmartQC"
+      },
+      "labels": {
+        "lastConnected": "上次连接时间",
+        "settings": "设置",
+        "system": "系统",
+        "softwareVersion": "软件版本",
+        "vpSoftwareVersion": "客户端版本",
+        "serialNumber": "序列号",
+        "ipAddress": "IP地址",
+        "qcLot": "质控品批号",
+        "qcType": "质控品类型",
+        "expirationDate": "到期日",
+        "mostRecentResults": "最新报告",
+        "maintenance": "维护"
+      }
+    },
+    "smartQc": {
+      "title": "{{ instrumentName }}SmartQC",
+      "button": {
+        "runSmartQc": "执行SmartQC"
+      },
+      "label": {
+        "smartQc": "SmartQC",
+        "analyzerSerialNumber": "分析仪：{{ serialNumber }}"
+      },
+      "table": {
+        "runTime": "检测时间",
+        "result": "结果"
+      },
+      "result": {
+        "PASS": "合格",
+        "OUT_OF_RANGE": "偏出规定范围"
+      },
+      "chemistry": {
+        "reminder": {
+          "title": "清洁和SmartQC提醒",
+          "body": "请清洁您的{{ analyzerName }}生化分析仪并执行SmartQC。",
+          "sendReminder": "提醒发送间隔：每",
+          "weeks": "周的"
+        }
+      }
+    },
+    "maintenance": {
+      "title": "{{ instrumentName }}维护"
+    },
+    "diagnostics": {
+      "title": "{{ instrumentName }}诊断"
+    },
+    "lotEntry": {
+      "title": "{{ instrumentName }}输入批号",
+      "selectType": "选择耗材类型",
+      "enter": "输入批号或条形码编号",
+      "error": "输入的编号无效。请再试一次。"
+    },
+    "system": {
+      "title": "IDEXX VetLab Station",
+      "labels": {
+        "advanced": "高级设置",
+        "backupData": "备份数据",
+        "restoreData": "恢复数据",
+        "upgradeSoftware": "软件升级",
+        "systemInfo": "系统信息",
+        "hardware": "硬件",
+        "data": "数据",
+        "software": "软件"
+      },
+      "advanced": {
+        "applyChanges": "应用更改",
+        "dnsServer": "DNS服务器",
+        "gateway": "默认网关",
+        "localIpAddress": "本地IP地址",
+        "networkAccessTest": "网络联机测试",
+        "networkIpAddress": "网络IP地址",
+        "routerConfiguration": "路由器的设置",
+        "subnetMask": "子网掩码",
+        "wanIpConfig": "WAN IP地址",
+        "wanIpAddress": "IP地址",
+        "ping": "Ping",
+        "applyIDEXXDefaults": "应用IDEXX默认值",
+        "pingModal": {
+          "title": "网络联机测试",
+          "resultMessage": "Ping{{ip}} ... {{result}}",
+          "success": "成功。",
+          "failure": "失败。"
+        },
+        "configStatusModal": {
+          "title": "路由器的设置",
+          "pleaseWait": "您的设置正在启用，请等待。",
+          "successMessage": "成功完成操作",
+          "failureMessage": "设置不成功"
+        },
+        "rebootConfirmModal": {
+          "title": "警告：",
+          "content": "当您点击“应用”时，仪器连接将会断开，并将重置路由器。路由器重启最多可能需要3分钟，您的IDEXX VetLab Station也将重启。"
+        },
+        "wanIpChoice": {
+          "UNKNOWN": "未知",
+          "DYNAMIC": "自动取得IP地址",
+          "STATIC": "静态IP地址"
+        },
+        "wirelessSettings": {
+          "title": "无线设置",
+          "enableWirelessAntenna": "启用无线天线",
+          "generatePassword": "生成密码",
+          "wirelessConfiguration": "无线配置",
+          "wirelessPassword": "SSID密码"
+        }
+      },
+      "systemInformation": {
+        "title": "系统信息",
+        "softwareLicense": "软件序列号",
+        "openSourceBlurb": "IDEXX VetLab Station © 2003-2024 IDEXX Laboratories, Inc.保留所有权利。<br/><br/>ProCyte Dx、ProCyte One、IDEXX inVue Dx、Catalyst Dx、Catalyst One、LaserCyte、LaserCyte Dx、SNAPshot Dx、SNAP Pro、SNAP Reader、VetLyte、VetStat、VetTest、VetAutoread、Coag Dx、VetLab UA、SediVue Dx、VetLab Station以及应用程序和组件（统称为“IDEXX产品”），以及您对上述产品的使用受IDEXX One主条款和条件的约束，主条款和条件详情请参见https://www.idexx.com/corporate/about-idexx/one-idexx-master-terms.html。<br/><br/>随IDEXX产品提供或包含在IDEXX产品中的第三方材料和软件，包括开放源代码或免费软件，均按原样提供，且不在任何IDEXX产品保修范围内。<br/><br/>IDEXX在美国和其他国家或地区拥有与IDEXX产品相关的商标、服务标志、品牌名称、设计、徽标和所用其他商业外观的权利。除了标识适用的IDEXX产品外，未经IDEXX书面许可，不得使用IDEXX商标、服务标志、品牌名称、设计、徽标和其他商业外观。<br/><br/>此处列出的或IDEXX产品中包含的所有其他产品和公司名称及徽标均为其各自所有者的标志。<br/><br/>Acrobat Reader © 2013 Adobe Systems Incorporated.保留所有权利。<br/><br/>Adobe® Flash® Player.版权 © 1996 - 2013 Adobe Systems Incorporated. 保留所有权利。Adobe 和 Flash 是在美国和/或其他国家的商标或注册商标。保留所有权利。<br/><br/>Microsoft Windows XP © 1985-2001 Microsoft Corporation.保留所有权利。<br/><br/>Microsoft Windows 7 Professional © 2009 Microsoft Corporation.保留所有权利。<br/><br/>Microsoft Windows 10 © 2015 Microsoft Corporation.保留所有权利。<br/><br/>Paul Bunyan Server & Message Viewer © 2000 - 2001 Diamond Sierra Corp.<br/><br/>JNIWrapper，已从TeamDev获得许可。",
+        "list": "此产品包含了以下公开来源的软件库:",
+        "license": {
+          "JETTY": "Apache Jetty",
+          "FELIX": "Apache Felix",
+          "SLING": "Apache Sling",
+          "COMMONS_LOGGING": "Apache Commons Logging",
+          "COMMONS_CODEC": "Apache Commons Codec",
+          "COMMONS_LANG": "Apache Commons Lang",
+          "IMGSCALR": "Imgscalr",
+          "JCONNECT": "Sybase JConnect",
+          "COMFYJ": "ComfyJ",
+          "JNIWRAP": "JNIWrap",
+          "WINPACK": "WinPack",
+          "PDFBOX": "Apache PDFBox",
+          "MIG_LAYOUT": "MigLayout",
+          "NETTY": "Netty",
+          "LIQUIBASE": "Liquibase",
+          "SMAKEYAML": "SnakeYAML",
+          "NETGEAR_R7000": "Netgear R7000",
+          "RABBIT_MQ_SERVER": "RabbitMQ Server",
+          "ERLANG_R16B03": "Erlang R16B03",
+          "ERLANG_OTP192": "Erlang OTP 19.2",
+          "JSERIALCOMM": "jSerialComm",
+          "SLF4J": "SLF4J",
+          "SPRING": "Spring",
+          "AOP_ALLIANCE": "AOP Alliance",
+          "JACKSON": "Jackson JSON-Processor",
+          "SQL_SERVER_2008": "SQL Server Express 2008",
+          "SQL_SERVER_2016": "SQL Server Express 2016",
+          "COMMONS_IO": "Apache Commons IO",
+          "LOGBACK": "Logback",
+          "AMQP": "RabbitMQ Java Client",
+          "RABBIT_MQ": "Spring RabbitMQ",
+          "ASPECTJ": "AspectJ",
+          "HIBERNATE": "Hibernate",
+          "JSOUP": "jsoup",
+          "JAVA": "Java SE",
+          "XSTREAM": "XStream",
+          "XPP3": "XPP3",
+          "ANTLR": "ANTLR",
+          "STRING_TEMPLATE": "String Template",
+          "BOUNCY_CASTLE_MAIL": "Bouncy Castle Mail",
+          "BOUNCY_CASTLE_PROV": "Bouncy Castle Provider",
+          "BOUNCY_CASTLE_TSP": "Bouncy Castle TSP",
+          "ITEXT": "iTextButton",
+          "BEAN_UTILS": "Apache Commons BeanUtils",
+          "COMMONS_COLLECTIONS": "Apache Commons Collections",
+          "COMMONS_DBCP": "Apache Commons DBCP",
+          "COMMONS_DIGESTER": "Apache Commons Digester",
+          "COMMONS_NET": "Apache Commons Net",
+          "COMMONS_POOL": "Apache Commons Pool",
+          "DOM4J": "dom4j",
+          "JDT_CORE": "JDT Core",
+          "JFREE": "JFreeChart",
+          "GERONIMO": "Apache Geronimo STAX API",
+          "JASPER": "JasperReports",
+          "POI": "Apache POI",
+          "TOMCAT": "Apache Tomcat",
+          "XML_BEANS": "XMLBeans",
+          "CASTOR": "Castor",
+          "JAVA_ASSIST": "Javassist",
+          "JBOSS_LOGGING": "JBoss Logging",
+          "JBOSS_TRANSACTION": "JBoss Transactions API",
+          "APACHE_STAX": "Apache StAX API",
+          "JCOMMON": "JCommon",
+          "MEDIA_BURNER": "MediaBurner",
+          "OBJENESIS": "Objenesis",
+          "XML_PULL": "XML Pull"
+        }
+      },
+      "powerDownModal": {
+        "title": "关闭电源",
+        "message": "确定要立即关闭IDEXX VetLab Station的电源？"
+      },
+      "restartModal": {
+        "title": "重新启动",
+        "message": "确定要立即重启IDEXX VetLab Station？"
+      }
+    },
+    "proCyteDx": {
+      "buttons": {
+        "enterStandby": "待机设置",
+        "exitStandby": "退出待机状态",
+        "addQCLot": "新增质控品批号",
+        "viewAll": "查看全部"
+      },
+      "fluid": {
+        "labels": {
+          "REAGENT": "试剂盒",
+          "STAIN": "染剂"
+        },
+        "changeButtons": {
+          "REAGENT": "更换试剂盒",
+          "STAIN": "更换染剂"
+        },
+        "buttons": {
+          "viewLog": "浏览日志"
+        },
+        "log": {
+          "title": "ProCyte Dx试剂记录",
+          "headers": {
+            "reagent": "试剂",
+            "lot": "批次",
+            "changedDate": "更改日期",
+            "daysInUse": "使用天数"
+          },
+          "reagents": {
+            "DYE": "染剂",
+            "REA": "试剂盒"
+          }
+        },
+        "entry": {
+          "title": {
+            "REAGENT": "使用ProCyte Dx 更换试剂盒",
+            "STAIN": "使用ProCyte Dx更换染色剂套装"
+          },
+          "inputLabel": {
+            "REAGENT": "扫描或输入试剂盒条形码：",
+            "STAIN": "扫描或输入染色剂套装条形码："
+          },
+          "results": {
+            "REAGENT": {
+              "valid": "连接试剂盒，然后点击<strong>OK</strong>完成更新。",
+              "sufficientVolume": "试剂量足够。<linebreak/><ul><li>更换试剂，点击<strong>“继续”</strong>.</li><li>使用目前试剂，点击<strong>“取消”</strong>.</li></ul",
+              "maxReplacement": "<strong>试剂包已使用。</strong><linebreak/>已超过试剂盒条码的最大输入次数。<linebreak/><linebreak/>要解决此问题，可扫描库存中另一试剂盒的条码，或联系IDEXX支持部门寻求帮助。",
+              "expired": "<strong>试剂已过期。</strong><linebreak/>ProCyte Dx不允许使用过期试剂。",
+              "barcodeError": "您所扫描的条形码不是有效的试剂盒条形码。<linebreak/>点击<strong>关闭</strong>并扫描有效的条形码。"
+            },
+            "STAIN": {
+              "valid": "连接染色剂套装，然后点击<strong>OK</strong>完成更新",
+              "sufficientVolume": "试剂量足够。<linebreak/><ul><li>更换试剂，点击<strong>“继续”</strong>.</li><li>使用目前试剂，点击<strong>“取消”</strong>.</li></ul",
+              "maxReplacement": "<strong>染剂包已使用。</strong><linebreak/>已超过染色剂套装条码的最大输入次数。<linebreak/><linebreak/>要解决此问题，可扫描库存中另一染色剂套装的条码，或联系IDEXX支持部门寻求帮助。",
+              "expired": "<strong>试剂已过期。</strong><linebreak/>ProCyte Dx不允许使用过期试剂。",
+              "barcodeError": "您所扫描的条形码不是有效的染色剂套装条形码。<linebreak/>点击<strong>关闭</strong>并扫描有效的条形码。"
+            }
+          }
+        }
+      },
+      "labels": {
+        "ipuSerialNumber": "IPU序列号",
+        "level": "级数",
+        "lotNumber": "批号",
+        "procedures": "操作步骤：",
+        "upToDate": "最新的"
+      },
+      "enterStandbyModal": {
+        "title": "待机设置",
+        "content": "建议每天至少将ProCyte Dx设置为待机状态一次。<linebreak/><strong>整个过程将需要约3分钟。</strong>"
+      },
+      "powerDownModal": {
+        "title": "关闭ProCyte Dx电源",
+        "toPowerDown": "要关闭ProCyte Dx电源：",
+        "step1": "1.点击<strong>关闭电源</strong>，自动关闭IPU。",
+        "step2": "2.在分析仪发出“滴”的一声后，使用分析仪右侧的开关关闭分析仪电源。",
+        "durationMessage": "整个过程将需要约3分钟."
+      },
+      "powerOnModal": {
+        "title": "开启ProCyte Dx电源",
+        "content": "需耗时约<strong>1分钟</strong>打开IPU。在此过程中，不要按动IPU上的电源按钮。<linebreak />使用分析仪右侧的开关开启分析仪电源。"
+      },
+      "rinseModal": {
+        "insertBleach": "在一只未经处理的13 x 75毫米试管中注入2毫升IDEXX Hydro-Clean或5%的漂白剂溶液，然后将该试管插入样本槽中。",
+        "pressStart": "按下分析仪的<strong>开始</strong>键开始冲洗。",
+        "cancelRinse": "取消冲洗"
+      },
+      "startupModal": {
+        "content": "只有在安装新的分析仪或有IDEXX支持部门指导时方可执行此步骤。<linebreak/><strong>此过程需要45分钟，需要使用全套试剂盒与染色剂套装。</strong>您想继续吗？"
+      },
+      "startupConfirmModal": {
+        "youMustHave": "您必须准备:",
+        "aFullReagentKit": "全新试剂盒",
+        "aFullStainPack": "全新染剂套组",
+        "aQuickConnector": "QCT快速连接盖（随赠于ProCyte分析仪）",
+        "followTheseSteps": "按照以下步骤：",
+        "attachQuickConnectorTop": "1.将快速连接盖的盖子接在试剂盒上",
+        "attachQuickConnectorLines": "2.将快速连接盖的管子接到分析仪背后",
+        "installStainPack": "3.装上染色剂套装",
+        "tapInitiateStartup": "4.点击<strong>开始启动</strong>。",
+        "initiateStartup": "开始启动"
+      },
+      "maintenance": {
+        "diagnostics": "诊断",
+        "rinse": "清洗",
+        "autoRinse": "自动清洗",
+        "monthlyRinse": "每月清洗",
+        "wasteChamberRinse": "废液瓶清洗",
+        "flowCellRinse": "流动室清洗",
+        "drain": "排空",
+        "drainReactionChamber": "清空反应槽",
+        "drainRBCIsolationChamber": "排空红细胞隔离槽",
+        "drainWasteChamber": "清空废液瓶",
+        "removeClear": "移除／清除",
+        "removeClog": "清除血块",
+        "clearPinchValve": "清洁夹管阀",
+        "reset": "重新设置",
+        "resetAirPump": "重设空气泵",
+        "resetAspirationMotor": "重设吸样马达",
+        "resetSheathMotor": "重新设置鞘液马达",
+        "resetTubeMotor": "重设试管 马达",
+        "resetWBMotor": "重设WB Asp Motor",
+        "replenish": "补充",
+        "replenishStain": "补满染剂",
+        "replenishLyticReagent": "补满裂解试剂",
+        "replenishReticulocyteDiluent": "补满网织红细胞稀释液",
+        "replenishHGBReagent": "补满血红蛋白试剂",
+        "replenishSystemDiluent": "补满系统稀释液",
+        "initialize": "初始化",
+        "startup": "启动",
+        "ship": "运输",
+        "shutdownForShipping": "关机运输"
+      },
+      "qc": {
+        "level": "级数",
+        "parameter": "参数",
+        "target": "目标",
+        "unopenedExpiration": "未开封时的到期日"
+      },
+      "settings": {
+        "standby": "待机",
+        "standbyDetails": "自动设置成待机状态的时间：",
+        "aspirationSensor": "吸入感应器",
+        "sampleInvertReminder": "体检倒置提醒",
+        "reagentLowReminder": "低试剂液面提醒",
+        "synovialFluidReminder": "滑液提醒信息",
+        "sampleDrawerPosition": "样本槽默认位置",
+        "open": "开启",
+        "closed": "已关闭"
+      },
+      "qualityControl": {
+        "addQcLot": {
+          "header": "新增质控品批号",
+          "instructions": "扫描或输入所有适用的条形码。注意：要添加质控品批号，需要输入各浓度的全部三个条形码。完成后，点击<strong>下一步</strong>。",
+          "barcodesHeader": "质控品条形码",
+          "levelTwo": "第2阶(正常)",
+          "levelOne": "第1阶(低)",
+          "barCodePlaceholder": "条形码{{ number }}",
+          "enterBarcode": "输入条形码",
+          "barcodeAccepted": "条形码接受",
+          "barcodesSaved": "已成功添加质控品批号。",
+          "error": "输入的条形码无效。",
+          "expiredWarning": "<strong>此质控品批号已过期.</strong>",
+          "expiredResults": "此质控品批号已过期",
+          "expiredHeader": "ProCyte Dx质控品"
+        },
+        "runQC": {
+          "header": "运行ProCyte Dx质控品",
+          "labels": {
+            "lot": "批次：",
+            "level": "级数:"
+          },
+          "expiredQc": {
+            "header": "ProCyte Dx质控品",
+            "body": "此质控品批号已过期.此质控品批号已过期"
+          },
+          "pageOne": {
+            "header": "准备质控样本并开始检测：",
+            "stepOne": "将e-CHECK小瓶室温放置15min，回温至室温。<strong>检测前，切勿将质控小瓶在冰箱外放置1小时以上。</strong>",
+            "stepTwo": "确认瓶盖已盖牢，然后轻轻翻转e-CHECK小瓶充分混匀，直到小瓶底部纽扣大小的细胞团块完全悬浮。<strong>切勿将e-CHECK小瓶放置在机械混合仪或摇床上。</strong>"
+          },
+          "pageTwo": {
+            "header": "开始检测：",
+            "stepOne": "确保质控品适配器在样本槽中就位。",
+            "stepTwo": "将e-CHECK小瓶轻轻翻转10次，然后立即将其放入适配器中。",
+            "stepThree": "按下分析仪的<strong>Start</strong>（开始）键。",
+            "imageLabel": "QC 适配器"
+          }
+        }
+      },
+      "changeReagentWizard": {
+        "kit": {
+          "header": "使用ProCyte Dx 更换试剂盒",
+          "Open": {
+            "header": "打开新试剂盒",
+            "instructions": "<ol><li>撕开易拉标签，打开新试剂盒，露出试剂架，并将其放在分析仪旁边或下面。</li><li>取下系统稀释液的盖子。</li></ol>"
+          },
+          "Prep": {
+            "header": "准备试剂盒",
+            "instructions": "<ol><li>取下 3 个试剂瓶、系统稀释液和废液容器的盖子（如有必要，使用原装配件盒中的除帽器），然后放置一边备用。</li><li>将试剂瓶标签的颜色与试剂架上的颜色相匹配，以检查试剂瓶的顺序是否正确。</li</ol>"
+          },
+          "Install": {
+            "header": "安装新的试剂瓶",
+            "instructions": "将快速连接头放在试剂盒上，确保探针插入 3 个试剂瓶、系统稀释液和废液容器中。",
+            "note": "<strong>注意：</strong>快速连接头应与试剂瓶齐平，以确保探针能够接触到液体。如果您注意到快速连接头与试剂瓶之间有缝隙，请检查盒子顶部边缘是否还有纸板。（见右图）。"
+          },
+          "Dispose": {
+            "header": "处理旧试剂盒",
+            "instructions": "<ol><li>小心地从旧试剂盒中取出每个试剂瓶，并根据适用的当地处置法律处置每个瓶子中的内容物。</li><li>将新试剂盒中试剂瓶的盖子盖在旧试剂盒内的试剂瓶上。</li</ol>"
+          }
+        }
+      },
+      "shutDownForShippingWizard": {
+        "header": "ProCyte Dx关机运输指示",
+        "Notes": {
+          "header": "重要说明",
+          "instructions": "应仅在将分析仪送回IDEXX时才执行此步骤。<br/><br/><strong>此过程大约需要40分钟，将排空分析仪中的所有液体。</strong>"
+        },
+        "TubeAdapter": {
+          "header": "取下管适配器",
+          "instructions": "打开样本抽屉，并取下软管接头，从而可以用于替换分析仪。<br/><br/><strong>要取下管适配器：</strong><ol><li>如果样本槽没有打开，按ProCyte Dx分析仪上的打开/关闭按钮打开样本槽。</li><li>将样本管适配器向左转动 (45°)，直到适配器上的红色标记和槽样本位置区域的红色标记对齐。</li><li>提起管适配器以将其卸下。</li></ol>"
+        },
+        "KitTubing": {
+          "header": "试剂盒管连接",
+          "instructions": "确保快速连接头位于试剂盒上。在分析仪的背面，保持连接白色端口的管线不动，但将黑色、绿色、蓝色和红色端口上的管线拔出，从分析仪上拔出这些管线时需按住黄色快速分离器。"
+        },
+        "StainProbes": {
+          "header": "染剂探针",
+          "instructions": "打开染色剂槽盖，并从探针上拧下染色剂套装。用纸巾包好探针，以防止染剂飞溅。"
+        },
+        "DrainReagents": {
+          "header": "清空试剂",
+          "instructions": "<strong>此步骤大约需要 30 分钟才能完成。</strong><br/><br/>试剂从仪器中排空后，您会收到一条关于最终关机步骤的警示。",
+          "button": "清空试剂"
+        }
+      },
+      "newHardware": {
+        "title": "ProCyte Dx硬件配置",
+        "header": "输入ProCyte Dx序列号：",
+        "instructions": "序列号可以在以下位置找到：<ul><li>ProCyte Dx CD封面上。</li><li>分析仪侧面板盖的内面。</li><li>分析仪背板上。</li></ul>",
+        "dialogHeader": "配置",
+        "selectUsb": {
+          "body": "插入包含ProCyte Dx校准文件的USB驱动器，点击<strong>下一步</strong>继续。<linebreak/><strong>注意：</strong>如果您无法找到文件，请联系IDEXX支持部门。",
+          "selectBody": "请选择包含 ProCyte Dx 校准文件的驱动器。如果所需的驱动器未列出，请尝试另一个 USB 端口。"
+        },
+        "success": "配置成功。",
+        "filesFound": "找到配置文件。<shortlinebreak/>点击<strong>完成</strong>以完成配置进程。",
+        "filesNotFound": "请插入包含 IDEXX 校准文件的驱动器。",
+        "filesNotFound_header": "未找到校准文件",
+        "mainUnitOn": "<ol><li>使用电源开关<strong>关闭分析仪</strong>。<shortlinebreak/><strong>注意：</strong>切勿关闭IPU。</li><li> 2. 点击 <strong>“完成”</strong>以完成配置进程。</li></ol>",
+        "transmissionErrorSystemCal": "发生传输错误。<linebreak/>点击<strong>完成</strong>重试或联系IDEXX支持部门寻求帮助。",
+        "transmissionErrorSerialNumber": "发生传输错误。<linebreak/>点击<strong>完成</strong>重试或联系IDEXX支持部门寻求帮助。"
+      }
+    },
+    "tensei": {
+      "qualityControl": {
+        "addQcLot": {
+          "header": "IDEXX ProCyte Dx新增质控品批号",
+          "instructions": "扫描或输入所有适用的条形码。注意：要添加质控品批号，需要输入各浓度的全部三个条形码。完成后，点击<strong>下一步</strong>。",
+          "barcodesHeader": "质控品条形码",
+          "levelTwo": "第2阶(正常)",
+          "levelOne": "第1阶(低)",
+          "barCodePlaceholder": "条形码{{ number }}",
+          "enterBarcode": "输入条形码",
+          "barcodeAccepted": "条形码接受",
+          "barcodesSaved": "已成功添加质控品批号。",
+          "error": "输入的条形码无效。",
+          "expiredWarning": "<strong>此质控品批号已过期.</strong>",
+          "expiredResults": "此质控品批号已过期",
+          "expiredHeader": "IDEXX ProCyte Dx质控品"
+        }
+      },
+      "maintenance": {
+        "diagnostics": "诊断",
+        "rinse": "清洗",
+        "autoRinse": "自动清洗",
+        "monthlyRinse": "每月清洗",
+        "wasteChamberRinse": "废液瓶清洗",
+        "flowCellRinse": "流动室清洗",
+        "drain": "排空",
+        "drainReactionChamber": "清空反应槽",
+        "drainRBCIsolationChamber": "排空红细胞隔离槽",
+        "drainWasteChamber": "清空废液瓶",
+        "removeClear": "移除／清除",
+        "removeClog": "清除血块",
+        "clearPinchValve": "清洁夹管阀",
+        "reset": "重新设置",
+        "resetAirPump": "重设空气泵",
+        "resetAspirationMotor": "重设吸样马达",
+        "resetSheathMotor": "重新设置鞘液马达",
+        "resetTubeMotor": "重设试管 马达",
+        "resetWBMotor": "重设WB Asp Motor",
+        "replenish": "补充",
+        "replenishStain": "补满染剂",
+        "replenishLyticReagent": "补满裂解试剂",
+        "replenishReticulocyteDiluent": "补满网织红细胞稀释液",
+        "replenishHGBReagent": "补满血红蛋白试剂",
+        "replenishSystemDiluent": "补满系统稀释液",
+        "initialize": "初始化",
+        "startup": "启动",
+        "ship": "运输",
+        "shutdownForShipping": "关机运输"
+      },
+      "labels": {
+        "lotNumber": "批号",
+        "level": "级数",
+        "results": "检测结果"
+      }
+    },
+    "proCyteOne": {
+      "labels": {
+        "smartQcVersion": "SQC目标文件版本",
+        "lotNumber": "批号",
+        "runTime": "检测时间",
+        "results": "检测结果"
+      },
+      "qualityControl": {
+        "OUT_OF_RANGE": "偏出规定范围",
+        "PASS": "合格"
+      },
+      "maintenance": {
+        "diagnostics": "诊断",
+        "power": "电源",
+        "packProcedures": "试剂包操作步骤",
+        "fluidicProcedures": "液体操作步骤",
+        "idexxDirectedProcedures": "IDEXX指导下的（诊断）操作步骤",
+        "powerDown": "关闭电源",
+        "shutDown": "关机运输",
+        "primeReagent": "灌注试剂",
+        "primeSheath": "灌注鞘液",
+        "lotEntry": "输入批号",
+        "fullSystemPrime": "全系统灌注",
+        "systemFlush": "系统冲洗",
+        "replaceFilter": "更换过滤器",
+        "bleachClean": "漂白水清洁",
+        "flowCellSoak": "流动室浸泡",
+        "drainMixChambers": "排空混匀室",
+        "prime": "灌注",
+        "warningModal": {
+          "title": "ProCyte One 诊断",
+          "content": "这些选项均为高级诊断功能，只有在IDEXX支持人员指导下方可使用。"
+        },
+        "powerDownModal": {
+          "title": "警告：",
+          "content": "长期关闭 ProCyte One 分析仪电源可能会影响分析仪性能。确定要关闭 ProCyte One 分析仪电源？"
+        },
+        "shutDownModal": {
+          "title": "警告：",
+          "content": "<strong>重要提示：</strong>如继续进行本操作，将排出分析仪内的所有液体，以便为分析仪运输做准备，但此操作会导致分析仪在添加新液体之前无法使用。<linebreak/>是否确定要继续操作？"
+        },
+        "fullSystemPrimeModal": {
+          "title": "ProCyte One 全系统灌注",
+          "content": "<strong>重要提示：此步骤将需要约8分钟。</strong><linebreak/>是否确定要进行全系统灌注？"
+        },
+        "replaceFilterModal": {
+          "title": "ProCyte One过滤器更换",
+          "remove": {
+            "header": "取下旧的过滤器：",
+            "stepOne": "1.打开大的试剂门，然后向下旋转过滤器门将其打开",
+            "stepTwo": "2.向上抬起绿色控制杆",
+            "stepThree": "3.从分析仪上取下过滤器并妥善处理。"
+          },
+          "install": {
+            "header": "安装新的过滤器：",
+            "stepOne": "1.将过滤器卡入C型过滤器支架中（白色盖子朝上）。",
+            "stepTwo": "2.将绿色控制杆向下推到底，以将过滤器固定住。",
+            "stepThree": "3.关闭过滤器门 - 将门向上旋转，使其关闭就位。",
+            "stepFour": "4.关闭试剂门，按下<strong>完成</strong>。"
+          }
+        },
+        "bleachCleanModal": {
+          "title": "ProCyte One 漂白水清洗",
+          "durationMessage": "此步骤大约需要 13 分钟。",
+          "toBegin": "开始前准备：",
+          "instructions": "<step>在未经处理且已取下盖子的13 mm x 75 mm试管中注入IDEXX Hydro-Clean（或制备的5%漂白剂溶液），直至试管一半位置处。</step><step>将未盖上盖子的试管放入样本槽中。</step><step>关闭样本槽</step><step>按下分析仪上的<strong>Start</strong>（开始）键。</step>"
+        },
+        "replaceSheathModal": {
+          "title": "Procyte One鞘液包更换",
+          "remove": {
+            "header": "取出原有鞘液包",
+            "stepOne": "1.打开位于分析仪前面的门。",
+            "stepTwo": "2.向前拉将灰色大鞘液包从分析仪内部取出。"
+          },
+          "install": {
+            "header": "安装新的鞘液包",
+            "stepOne": "1.插入新鞘液包，使包上的盖子卡入分析仪内部的端口。",
+            "stepTwo": "2.关上分析仪的门。如果试剂包未正确就位，则门关不上。"
+          }
+        },
+        "replaceReagentModal": {
+          "title": "ProCyte One 试剂更换",
+          "remove": {
+            "header": "取出原有试剂包",
+            "stepOne": "1.打开位于分析仪前面的门。",
+            "stepTwo": "2.向前拉将灰色小试剂包从分析仪内部取出。"
+          },
+          "install": {
+            "header": "安装新的试剂包",
+            "stepOne": "1.安装新试剂包，使包上的盖子卡入分析仪内部的端口。",
+            "stepTwo": "2.关上分析仪的门。如果试剂包未正确就位，则门关不上。"
+          }
+        }
+      },
+      "runQCModal": {
+        "title": "质控确认",
+        "content": "您确定要在分析仪上执行质控检测吗？此过程大约需要10分钟。"
+      },
+      "replaceQcModal": {
+        "title": "更换ProCyte One SmartQC小瓶",
+        "stepOne": "1.用力摇晃新的SmartQC小瓶10秒钟，以确保其均匀混合。",
+        "stepTwo": "2.在样本槽中，用摇晃均匀新的SmartQC小瓶进行替换。",
+        "stepThree": "3.关闭样本槽。"
+      },
+      "settings": {
+        "sampleInvertReminderToggle": "样本倒转提醒",
+        "smartQcInfo": "质控检测自动执行时间："
+      }
+    },
+    "catOne": {
+      "labels": {
+        "calDataVersion": "CAL数据版本"
+      },
+      "shutDownConfirm": "您确定要关闭分析仪吗？这一过程大约需要2分钟。",
+      "settings": {
+        "sound": "声音：",
+        "standby": "待机：",
+        "exitStandby": "退出待机模式："
+      },
+      "cleaningWizard": {
+        "headers": {
+          "primary": "Catalyst One 清洗指南",
+          "Landing": "推荐材料",
+          "Prepare": "准备分析仪",
+          "Clean": "清洗分析仪",
+          "Complete": "清洁完成"
+        },
+        "Landing": {
+          "recommends": "IDEXX建议使用以下材料：",
+          "list": "<ul><li>不含粉末的乳胶或橡胶手套</li><li>IDEXX支持的酒精制备板</li><li>IDEXX光学纸巾</li></ul>",
+          "moreInfo": "如需了解详细信息，或避免使用的材料列表，请参阅操作指南或联系IDEXX支持部门。"
+        },
+        "Prepare": {
+          "steps": "打开侧门，移除圆盘传送带。"
+        },
+        "Clean": {
+          "steps": "<ul><li>使用酒精制备板，逆时针方向擦拭孵化环和光学窗户柜，直到无可见残留。每次转动都使用酒精制备板的新表面。</li><li>使用新的酒精棉片，清洁转盘上的白色参考片。</li><li>使用光学纸巾擦干。</li></ul>"
+        },
+        "Complete": {
+          "steps": "<ul><li>放回转盘并旋转至其卡入原位。盖上转盘上盖，直到其卡紧，关闭侧门。</li><li>点击<strong>完成</strong>。</li></ul>"
+        }
+      },
+      "calibrateWizard": {
+        "headers": {
+          "primary": "Catalyst One光学校准",
+          "Clean": "清洗分析仪",
+          "LoadMaterials": "加入物质",
+          "success": "光学校准"
+        },
+        "Clean": {
+          "instructions": "在执行校准前必须将分析仪清洗干净。",
+          "viewButton": "查看清洁指南",
+          "pleaseWait": "仪器正在执行清洁循环，请稍候"
+        },
+        "LoadMaterials": {
+          "list": "<ol><li>按图示添加白色校准试剂片。</li><li>关上样本槽再按下<strong>开始</strong>键。</li></ol>"
+        }
+      },
+      "offsetsWizard": {
+        "title": "Catalyst One补偿",
+        "preparation": {
+          "title": "制备",
+          "prepareVetTrolControlFluid": "制备VetTrol质控液",
+          "vetTrolInstructions": "VetTrol说明",
+          "cleanYourCatOne": "清洗您的Catalyst One",
+          "cleaningInstructions": "清洁说明"
+        },
+        "selectLot": {
+          "title": "选择您的VetTrol批次",
+          "prompt": "选择您将用于设定补偿的VetTrol质控液。"
+        },
+        "loadMaterials": {
+          "title": "加入物质",
+          "instructions": "<strong>按图示加入材料：</strong><ol><li>吸头</li><li>300uL VetTrol质控液</li><li>来自同一批次的4个钙和/或白蛋白单独切片</li></ol><shortlinebreak />关闭样本槽再按下<strong>开始</strong>键。"
+        },
+        "success": {
+          "title": "Catalyst One 维护",
+          "content": "您的Catalyst One补偿已成功完成。"
+        },
+        "failure": {
+          "title": "Catalyst One 维护",
+          "content": "您的Catalyst One补偿失败。如需帮助，请联系IDEXX支持部门。"
+        },
+        "confirmCancel": {
+          "title": "Catalyst One补偿",
+          "content": "确定要取消设置Catalyst One补偿吗？"
+        }
+      },
+      "fluidPrepWizard": {
+        "stepHeader": {
+          "Prep": "制备",
+          "Load": "加入物质"
+        },
+        "instructionButton": {
+          "clean": "清洁说明",
+          "vetTrol": "VetTrol说明"
+        },
+        "vetTrol": {
+          "header": "Catalyst One质控液",
+          "prep1": "<ol><li>制备VetTrol质控液</li></ol>",
+          "prep2": "<ol start='2'><li>清洗您的Catalyst One</li></ol>",
+          "load": "<strong>按图示加入材料：</strong><ol><li>所有吸管已装满</li><li>300 µL VetTrol质控液</li><li>加入 Lyte 4 CLIP, QC CLIP, 或单个试剂片</li></ol>关上样本槽再按下<strong>Start</strong>（开始）键。"
+        },
+        "upro": {
+          "header": "Catalyst One UPRO质控液",
+          "prep": "<ol><li>将质控液回温10分钟。</li><li>将容器翻转 6-10次，以进行混合。</li><li>清洗您的Catalyst One。</li></ol>",
+          "load": "<strong>按图示加入材料：</strong><ol><li>满装吸管</li><li>300 µ升 UPRO 质控液</li><li>UPRO 切片</li></ol>关上样本槽再按下<strong>Start</strong>（开始）键。"
+        },
+        "phbr": {
+          "header": "Catalyst One PHBR 质控液",
+          "prep": "<ol><li>将质控液回温60分钟。</li><li>将容器翻转 6-10次，以进行混合。</li><li>清洗您的Catalyst One。</li></ol>",
+          "load": "<strong>按图示加入材料：</strong><ol><li>满装吸管</li><li>300 µL PHBR质控液</li><li>PHBR试剂片</li><li>PHBR 试剂</li></ol>关上样本槽再按下<strong>Start</strong>（开始）键。"
+        },
+        "advanced": {
+          "header": "Catalyst One 进阶质控液",
+          "prep": "<ol><li>将药水瓶加热30分钟。</li><li>将容器翻转 6-10次，以进行混合。</li><li>清洗您的Catalyst One。</li></ol>",
+          "load": "<strong>按图示加入材料：</strong><ol><li>满装吸管</li><li>300 µL催化剂先进质控液</li><li>加入切片</li><li>加入试剂（如果适用）</li></ol>关上样本槽再按下<strong>Start</strong>（开始）键。"
+        }
+      },
+      "vetTrolInstructionsModal": {
+        "title": "VetTrol质控液制备",
+        "instructions": "<ol><li>从冷冻室中取出1瓶稀释液和1瓶质控液。将小瓶置于室温下60-90分钟。</li><li>缓缓翻转稀释液小瓶若干次，或者把小瓶放置在试管振荡器中，以彻底混合内容物。请勿摇晃。</li><li>轻轻敲打质控液西林瓶数次，以去除附着在塞子上的任何物质。</li><li>取下每个西林瓶上的盖子和塞子，然后立即将稀释液加入质控液。切勿使西林瓶保持开启状态。</li><li>使用一个洁净干燥的吸管，或等效的自动吸管将3.0 mL的稀释液准确移入质控液西林瓶中。丢弃剩余的稀释液。<shortlinebreak /><strong>重要提示：</strong>测量必须精确，否则结果将出现误差。<shortlinebreak /><strong>注意：</strong>如果使用针筒，请确保取下针头。</li><li>装回质控液西林瓶上的塞子，并将其牢牢扣紧。每10分钟轻轻翻转西林瓶6-10次，持续1小时（建议使用慢速混匀仪）。请勿摇晃。复溶（偶尔倒转）需要45-60分钟。使用前目视确认所有冻干材料均已溶解。</li></ol>"
+      },
+      "smartQcModal": {
+        "title": "SmartQC操作指南",
+        "body": "<ol><li>加入如下所示的耗材。请注意不需要加入样本。</li><li>关上样本槽并按下<strong>Start</strong>（开始）键。此过程大约需要<strong>11分钟。</strong></li></ol>",
+        "clean": "建议您先清洁分析仪再执行SmartQC。",
+        "cleaningInstructions": "查看清洁指南"
+      }
+    },
+    "common": {
+      "buttons": {
+        "transmitLogs": "传输记录"
+      },
+      "exitStandbyModal": {
+        "title": "退出待机状态",
+        "content": {
+          "default": "{{ instrumentName }}当前处于待机模式。退出待机模式可进行患宠样本分析或诊断。",
+          "CRIMSON": "$t(instrumentScreens.common.exitStandbyModal.content.default)<linebreak/><strong>整个过程大约需要8分钟。</strong>"
+        }
+      },
+      "powerDownModal": {
+        "title": "关闭{{ instrumentName }}的电源",
+        "body": "确定要关闭{{ instrumentName }}的电源吗？"
+      },
+      "eventLog": {
+        "title": "{{ instrumentName }} 事件日志",
+        "time": "时间",
+        "event": "事件",
+        "patient": "宠物",
+        "eventLog": "事件日志",
+        "analyzer": "分析仪：{{ serialNumber }}"
+      },
+      "fluid": {
+        "labels": {
+          "expires": "在{{ days }}天内过期",
+          "fluidLevels": "预估液体量",
+          "sheath": "鞘液",
+          "reagent": "试剂",
+          "sheathRemaining": "鞘液：{{ percent }}%",
+          "reagentRemaining": "试剂：{{ runs }}次检测"
+        },
+        "buttons": {
+          "replaceSheath": "鞘液更换",
+          "replaceReagent": "更换试剂"
+        }
+      },
+      "qc": {
+        "lotEntry": {
+          "barcodesHeader": "质控品条形码",
+          "expiredModal": {
+            "header": "{{instrumentName}}质控品",
+            "expiredWarning": "<strong>此质控品批号已过期.</strong>",
+            "expiredResults": "此质控品批号已过期"
+          }
+        }
+      },
+      "settings": {
+        "header": "{{ instrumentName }}设置"
+      },
+      "catalyst": {
+        "advancedSettings": {
+          "header": "{{ instrumentName }}仅限IDEXX人员使用",
+          "label": "仅限IDEXX人员使用",
+          "warning": "<strong>警告：</strong>这些选项均为高级诊断功能，只有在IDEXX支持人员指导下方可使用。",
+          "scalars": "标量",
+          "existing": "现有",
+          "proposed": "建议的",
+          "status": "状态",
+          "lastCalibrated": "最后一次校准",
+          "offsets": "补偿",
+          "retrieving": "读取...",
+          "waiting": "等待",
+          "SDMA": "SDMA",
+          "K_SCALAR": "K_Scalar",
+          "CL_SCALAR": "Cl_Scalar",
+          "NA_SCALAR": "Na_Scalar",
+          "CA_OFFSET": "Ca补偿",
+          "ALB_OFFSET": "Alb补偿",
+          "QSDMA_GAIN": "SDMA增益",
+          "QSDMA_OFFSET": "SDMA偏移",
+          "modal": {
+            "header": "{{ instrumentType }}设置",
+            "body": "点击<strong>发送</strong>将以下设置发送到{{ instrumentType }}，或点击<strong>取消</strong>返回上一个页面。",
+            "submittedBody": "设置已发送到{{ instrumentType }}。",
+            "send": "发送"
+          }
+        }
+      },
+      "offline": {
+        "offline": "{{ instrumentType }}已离线",
+        "description": "IDEXX VetLab Station无法与{{ instrumentType }}分析仪通信。如果不再使用此仪器，点击<strong>仪器移除</strong>按钮将图标从主屏上移除。",
+        "reconnect": "要重新连接，请重启{{ instrumentType }}分析仪。如需更多帮助，请联系IDEXX支持部门。"
+      },
+      "usb": {
+        "driveSelectionModal": {
+          "title": "选择驱动器"
+        },
+        "copyProgress": {
+          "title": "正在复制"
+        }
+      }
+    },
+    "catDx": {
+      "buttons": {
+        "qualityControl": "质控品"
+      },
+      "followSteps": "按照下列步骤重新建立连接：",
+      "followStepsDescription1": "在Catalyst Dx 分析仪上，点击<strong>“Tools”</strong>，确保分析仪拥有IP地址。",
+      "followStepsDescription2": "如果IP地址为<strong>未确定，</strong>按照下列步骤操作：",
+      "followSteps1": "在Catalyst Dx分析仪“工具”页面上，点击<strong>关机</strong>。",
+      "followSteps2": "当得到提示时，使用电源开关关闭分析仪。",
+      "followSteps3": "当分析仪关闭后，使用电源开关重启分析仪。",
+      "followSteps4": "在IDEXX VetLab Station上点击<strong>“首页”</strong>。分析仪将在5分钟内返回到“待机”状态。",
+      "problemPersists": "如果存在IP地址但问题仍未解决，请联系IDEXX支持部门。"
+    },
+    "sediVueDx": {
+      "cartridgeStatus": {
+        "title": "分析片状态",
+        "remaining": "剩余：{{ remaining }}",
+        "replaceCartridges": "更换分析片",
+        "lotNumber": "<strong>批号：</strong>{{ lotNumber }}",
+        "expirationDate": "<strong>到期日：</strong>{{ date }}",
+        "installed": "<strong>已安装：</strong>{{ date }}"
+      },
+      "replaceCartridges": {
+        "header": "SediVue Dx 分析片套筒更换",
+        "prompt": "扫描或输入试管套筒条形码：",
+        "modal": {
+          "title": "SediVue Dx - 更换分析片",
+          "content": {
+            "LOT_CONSUMED": "输入的条码已被使用。丢弃带有该条形码的分析片套筒。<linebreak />点击<b>关闭</b>，然后扫描或输入新分析片套筒塑料包装上的条形码。如果问题仍存在，请联系IDEXX支持部门。",
+            "LOT_EXPIRED": "条形码已过期。<linebreak />点击<b>关闭</b>，然后扫描或输入新的条形码。",
+            "VALID": "<b>安装新的分析片套筒：</b><ol><li>拆除旧的分析片套筒，如图所示。</li><li>更换为新的分析片套筒，如图所示</li><li>选择下方<b>确定</b>，完成更换。</li></ol>",
+            "invalidBarcode": "无效的条形码。确保键盘上的大写锁定功能已关闭。<linebreak/>点击<b>关闭</b>，然后扫描或输入分析片套筒塑料包装上的条形码。",
+            "unknownError": "发生未知错误。请联系IDEXX支持部门。"
+          }
+        }
+      },
+      "settings": {
+        "uaHeader": "尿液物理学检查记录",
+        "autoAddUaSetting": "将尿液物理学检查记录图标自动添加到SediVue Dx检测中",
+        "printingHeader": "打印报告上的图像",
+        "autoIncludeImages": "滑液提醒信息",
+        "onlyIfSediment": "仅当沉渣存在时"
+      },
+      "powerDownModal": {
+        "title": "关闭SediVue Dx电源",
+        "body": "确定要关闭SediVue Dx的电源？"
+      },
+      "maintenance": {
+        "buttons": {
+          "initialize": "初始化"
+        }
+      },
+      "cleaningWizard": {
+        "headers": {
+          "primary": "SediVue Dx 清洗指南",
+          "Landing": "重要说明",
+          "PowerDown": "关闭电源",
+          "PipettingWindow": "移液窗口",
+          "CartridgeHolder": "分析片架",
+          "PusherArm": "推臂",
+          "CartridgeTrack": "分析片轨道",
+          "OpticalWindow": "光学窗口",
+          "ShieldAndWasteBin": "护罩和废物箱",
+          "CentrifugeArm": "离心机臂",
+          "MoveArm": "移动臂",
+          "ReplaceComponents": "更换组件",
+          "FanFilter": "清洁风扇过滤器"
+        },
+        "Landing": {
+          "notes": "为确保您的分析仪达到最佳运作状态，请务必每个月将其清洗一次，这很重要。<linebreak/>请勿在运行进行时打开分析仪门，因为这将取消运行并需丢弃样本和分析片。</li></ul>",
+          "recommends": "IDEXX建议使用以下材料进行清洁：",
+          "halfDoor": {
+            "list": "<ul><li>1双不含粉末的乳胶或丁腈手套</li><li>6张干的光学纸巾</li><li>1张湿的光学纸巾（用温水湿润）</li><li>4张酒精棉片</li><li>纸巾</li></ul>"
+          },
+          "fullDoor": {
+            "list": "<ul><li>1双不含粉末的乳胶或丁腈手套</li><li>9张干的光学纸巾</li><li>1张湿的光学纸巾（用温水湿润）</li><li>3张冲洗过的酒精棉片（用温水冲洗并挤干水分）</li><li>3张酒精棉片（未冲洗）</li><li>纸巾</li></ul>"
+          }
+        },
+        "PowerDown": {
+          "turnOff": "要继续清洁，请使用下面的按钮关闭SediVue Dx：",
+          "button": "关闭SediVue Dx电源"
+        },
+        "PipettingWindow": {
+          "instructions": "<ul><li>打开分析仪前门。</li><li>使用经自来水润湿的光学纸巾清洁移液窗的顶部和底部。</li><li>使用新的光学纸巾将移液窗的顶部和底部擦干。</li></ul>"
+        },
+        "CartridgeHolder": {
+          "instructions": "<ul><li>取出分析片架。</li><li>使用新的酒精棉片清洁分析片架，然后用新的光学纸巾擦干。</li><li>将分析片架放在一旁。</li></ul>"
+        },
+        "CartridgeTrack": {
+          "instructions": "<ul><li>使用新的酒精棉片彻底清洁分析片轨道和白色进给臂。</li><li>使用新的光学纸巾将分析片轨道和白色进给臂擦干。</li></ul>"
+        },
+        "PusherArm": {
+          "instructions": "<ul><li>用温自来水冲洗两个酒精棉片，然后挤干水分。</li><li>用一张冲洗过的棉片将推臂左侧清洁五次，然后用新的光学纸巾擦干。</li><li>将推臂压向左侧，然后用另一张冲洗过的棉片清洁推臂右侧，再用光学纸巾擦干。</li></ul>"
+        },
+        "OpticalWindow": {
+          "halfDoor": {
+            "instructions": "<ul><li>用一张新的酒精棉片，以画圆的方式（3-4次）清洁光学窗口，再用一张新的光学纸巾以画圆的方式将其擦干。</li><linebreak/><strong>重要提示：</strong><shortlinebreak/>不要大力压光学窗口。</li></ul>"
+          },
+          "fullDoor": {
+            "instructions": "<ul><li>使用新的冲洗过的酒精棉片反复清洁光学工作台和轨道，以清除所有碎片。然后用光学纸巾擦干。</li><li>使用一张新的酒精棉片（未冲洗过），以画圆的方式（3-4次）清洁光学窗口，然后用一张新的光学纸巾以画圆的方式将其擦干。<linebreak/><strong>重要提示：</strong><shortlinebreak/>不要大力压光学窗口。</li></ul>"
+          }
+        },
+        "ShieldAndWasteBin": {
+          "title": "取下离心机护罩和废物箱。",
+          "instructions": "<ul><li>用温水清洗。</li><li>用纸巾擦干。</li></ul>",
+          "note": "<strong>重要提示：</strong><shortlinebreak/>在第{{ replaceStep }}步之前不要更换部件。"
+        },
+        "CentrifugeArm": {
+          "instructions": "<ul><li>轻轻向左移动离心机臂，并检查下方区域是否存在碎片</li><li>如有碎片，用新的酒精棉片清除，再用新的光学纸巾擦干。</li></ul>"
+        },
+        "MoveArm": {
+          "instructions": "<ul><li>用新的酒精棉片（未冲洗）清洁移动臂。</li><li>用新的光学纸巾擦干移动臂。</li></ul>"
+        },
+        "ReplaceComponents": {
+          "instructions": "将废物箱、离心机护罩和分析片架放回分析仪中的原位。"
+        },
+        "FanFilter": {
+          "instructions": "<ul><li>关闭前门。风扇过滤网位于分析仪背面。</li><li>取下滤网，用温水彻底冲洗。</li><li>用纸巾拍干并更换滤网。<linebreak/>点击<strong>完成</strong>开启分析仪并返回主屏幕。</li></ul>"
+        }
+      },
+      "qc": {
+        "buttons": {
+          "addQCLot": "新增质控品批号"
+        },
+        "labels": {
+          "level": "级数",
+          "lotNumber": "批号"
+        },
+        "runQc": {
+          "title": "运行 SediVue Dx 质控品",
+          "prepare": {
+            "header": "质控品的制备：",
+            "instructions": "<li>轻轻翻转质控品小瓶，直到附着在小瓶底部的细胞完全悬浮。<linebreak/><strong>注意：</strong>切勿将质控品小瓶放置在机械摇床或混合仪上。</li>"
+          },
+          "start": {
+            "header": "开始检测：",
+            "instructions": "<li>将SediVue Dx质控品样本加入到分析仪的试管中。</li><li>按下分析仪的<strong>Start</strong>（开始）键。"
+          }
+        },
+        "viewQc": {
+          "title": "SediVue Dx质控结果"
+        },
+        "lotEntry": {
+          "complete": "完成",
+          "title": "SediVue Dx 添加质控品批号",
+          "prompt": "扫描或输入所有适用的条形码。注意：要添加质控品批号，您必须有每个浓度的条形码。完成后，点击<strong>下一步</strong>。",
+          "lotNumber": "批号",
+          "expiry": "到期日",
+          "rbcRange": "红细胞范围",
+          "wbcRange": "白细胞范围",
+          "qualityControlBarcodes": "质控品条形码",
+          "enterBarcode": "输入条形码：",
+          "barcode1": "条形码1 -",
+          "barcode2": "条形码2 -",
+          "level1Abnormal": "第1阶（异常）",
+          "level2Normal": "第2阶(正常)",
+          "barcodeInvalid": "条形码无效。",
+          "lotExpired": "批号过期。"
+        }
+      }
+    },
+    "reports": {
+      "title": "{{ instrumentName }}报告"
+    },
+    "snap": {
+      "buttons": {
+        "printSnapReport": "打印SNAP报告"
+      },
+      "settings": {
+        "enableTimer": "启用SNAP定时器",
+        "reminderDuration": "SNAP提示",
+        "enableCompletionBeep": "当SNAP检测完成时会发出“哔哔”声。"
+      },
+      "reports": {
+        "customDateRange": "自定义日期范围",
+        "lastMonth": "上一个月",
+        "lastWeek": "上一周",
+        "printLog": "打印日志",
+        "printSummary": "打印摘要",
+        "selectDateRangeForReport": "选择您报告的日期范围：",
+        "selectDates": "选择日期",
+        "selectedDates": "选择的日期：",
+        "thisMonth": "本月",
+        "thisWeek": "本周",
+        "title": "SNAP记录报告",
+        "yearToDate": "本年至今",
+        "reportModal": {
+          "logTitle": "SNAP记录报告",
+          "summaryTitle": "SNAP摘要报告",
+          "logReport": "日志报告",
+          "summaryReport": "摘要报告",
+          "noDataAvailable": "无任何数据"
+        }
+      }
+    },
+    "uaAnalyzer": {
+      "offline": {
+        "description": "IDEXX VetLab Station无法与UA分析仪通信。如果不再使用此仪器，点击<strong>仪器移除</strong>按钮将图标从主屏上移除。"
+      },
+      "settings": {
+        "section": {
+          "physicalRecordEntry": "尿液物理学检查记录"
+        },
+        "autoAddManualUA": "自动将尿液物理学检查记录添加到UA分析仪检测中",
+        "samplePreparationInstructions": "样本制备说明",
+        "reportingUnits": "报告单位",
+        "reportingUnitsOptions": {
+          "arbitrary": "任意单位：1+，2+",
+          "arbitraryAndConventional": "常规和任意单位：mg/dL(1+)",
+          "arbitraryAndSi": "国际和任意单位：µmol/L(1+)",
+          "conventional": "常规单位：mg/dL",
+          "si": "国际单位：µmol/L"
+        }
+      }
+    },
+    "uriSysDx": {
+      "uaCalibration": "UA分析仪校准",
+      "analyzerSerialNumber": "分析仪：{{serialNumber}}",
+      "calibration": "校正",
+      "calibrationModal": {
+        "title": "校准说明",
+        "body": "<ol><li>在UA试纸检测架中装入新的校准条。</li><li>按下分析仪上的<strong>启动</strong>按钮。</li></ol>",
+        "bodyNote": "如果校准失败，使用新的校准条重新校准。如果问题仍然存在，请联系IDEXX技术支持部门。"
+      },
+      "calibrationResult": {
+        "FAIL": "失败",
+        "PASS": "合格",
+        "success": "尿液分析仪校准成功。",
+        "failureTitle": "校准失败",
+        "failureBody": "校准失败。请使用新校准条重复校准。如果问题仍然存在，请联系IDEXX技术支持部门。"
+      },
+      "buttons": {
+        "calibration": "校正",
+        "runCalibration": "运行校准",
+        "cancelProcess": "取消流程",
+        "initialize": "初始化"
+      },
+      "labels": {
+        "results": "检测结果",
+        "time": "时间"
+      },
+      "offline": {
+        "description": "IDEXX VetLab Station无法与UA分析仪通信。如果不再使用此仪器，点击<strong>仪器移除</strong>按钮将图标从主屏上移除。"
+      },
+      "samplePreparationInstructions": {
+        "title": "样本制备",
+        "body": "<strong>分析样本：</strong><ol><li>使用移液管将尿液样本滴加到IDEXX UA试纸条上并浸润试纸条。<strong>不要弯折试纸条。</strong></li><li>依次将试纸条的长边和背面在吸水表面上轻擦一下。</li><li>将试纸条放在试纸检测架上，保持检测垫朝上。</li><li>按 <strong>Start</strong>（开始）按钮。</li></ol>",
+        "disableInstruction": "要禁用此消息，请将UA分析仪设置屏幕中的<strong>样本制备说明</strong>设置设为<strong>关闭</strong>。"
+      }
+    },
+    "inVue": {
+      "diagnostics": {
+        "ejectCartridge": "弹出分析片",
+        "lotEntry": "输入批号",
+        "lotEntrySuccess": "下一次检测所需耗材已备妥。"
+      }
+    }
+  },
+  "qc": {
+    "header": "{{ instrumentName }}质控品批号",
+    "analyzer": "分析仪：",
+    "control": "Control:",
+    "level": "级数",
+    "lot": "批次：",
+    "records": {
+      "header": "质控品记录",
+      "dateTime": "日期与时间",
+      "viewResults": "浏览结果",
+      "noResults": "无任何结果",
+      "qcTrend": "分析所有质控品趋势",
+      "controlTrendReport": "{{ instrumentName }}质控品趋势报告",
+      "excludeFromQcTrend": "从质控品趋势数据中排除",
+      "tapToEnterComments": "点击以输入注释"
+    },
+    "results": {
+      "header": "{{ instrumentName }}质控结果"
+    },
+    "lotInfo": {
+      "header": "{{instrumentName}}质控品批号信息",
+      "lot": "批次",
+      "qcType": "质控品类型",
+      "expiration": "有效期",
+      "calibrationVersion": "校正版本",
+      "test": "测试",
+      "expectedRange": "预设范围"
+    },
+    "smartQCResult": {
+      "title": "{{instrumentName}} SmartQC",
+      "outOfRangeContent": "您的SmartQC超出范围，请联系IDEXX支持部门。",
+      "passContent": "SmartQC 已通过。",
+      "catalyst": {
+        "outOfRange": {
+          "title": "SmartQC超出范围",
+          "content": "SmartQC超出范围。使用新的SmartQC套组和试剂盒重新执行。如果问题仍存在，请联系IDEXX支持部门。"
+        }
+      }
+    }
+  },
+  "header": {
+    "instruments": {
+      "detail": {
+        "title": "分析仪",
+        "viewAll": "查看全部"
+      },
+      "pills": {
+        "allReady": "所有分析仪均已就绪",
+        "alert": "{{count}}台警报",
+        "busy": "{{count}}台忙碌",
+        "offline": "{{count}}台离线",
+        "alertShort": "{{count}}",
+        "busyShort": "{{count}}",
+        "offlineShort": "{{count}}"
+      }
+    },
+    "navigation": {
+      "instruments": "仪器",
+      "settings": "设置",
+      "help": "帮助和支持",
+      "messages": "消息",
+      "dropDown": "设置",
+      "powerDown": "关闭电源"
+    },
+    "powerDownModal": {
+      "title": "关闭电源",
+      "body": "确定要关闭IDEXX VetLab Station的电源？",
+      "buttons": {
+        "powerDown": "关闭电源",
+        "restart": "重新启动"
+      }
+    },
+    "tutorial": {
+      "label": "教程"
+    }
+  },
+  "pendingList": {
+    "labels": {
+      "received": "接收时间{{receivedAt}}"
+    },
+    "cancelConfirm": {
+      "header": "删除待检测病例",
+      "body": "确定要删除该{{patientName}}待检测病例？"
+    }
+  },
+  "instruments": {
+    "cancelProcessModal": {
+      "title": "取消流程",
+      "body": "您确定要取消当前的分析仪流程并将分析仪恢复到待机状态吗？"
+    },
+    "categories": {
+      "hematology": "血液学",
+      "chemistry": "生化",
+      "urineSediment": "尿沉渣",
+      "immunoassay": "免疫检测",
+      "urinalysis": "尿液分析",
+      "pathology": "病理分析"
+    },
+    "numberedName": "{{name}} {{number}}",
+    "names": {
+      "LASERCYTE": "LaserCyte",
+      "VETTEST": "VetTest",
+      "AUTOREADER": "VetAutoread",
+      "SNAPREADER": "SNAP Reader",
+      "VETLYTE": "VetLyte",
+      "VETSTAT": "VetStat",
+      "UA_ANALYZER": "UA Analyzer",
+      "URISYS_DX": "UA Analyzer",
+      "SNAP": "SNAP",
+      "CATALYST_DX": "Catalyst Dx",
+      "SNAPSHOT_DX": "SNAPshot Dx",
+      "COAG_DX": "Coag Dx",
+      "CRIMSON": "ProCyte Dx",
+      "LASERCYTE_DX": "LaserCyte Dx",
+      "SNAPPRO": "SNAP Pro",
+      "CATONE": "Catalyst One",
+      "URISED": "SediVue Dx",
+      "MANUAL_UA": "手动分析 UA",
+      "MANUAL_CRP": "手动分析 CRP",
+      "ACADIA_DX": "ProCyte One",
+      "SAAS_PIMS": "PIMS",
+      "INTERLINK_PIMS": "PIMS",
+      "SERIAL_PIMS": "PIMS",
+      "THEIA": "IDEXX inVue Dx",
+      "THEIA_short": "inVue Dx",
+      "TENSEI": "IDEXX ProCyte Dx",
+      "TENSEI_short": "Tensei",
+      "CATONE_extended": "Catalyst One 生化分析仪",
+      "CATALYST_DX_extended": "Catalyst Dx 生化分析仪",
+      "VETSTAT_extended": "VetStat 电解质和血气分析仪",
+      "ACADIA_DX_extended": "ProCyte One 血液分析仪",
+      "CRIMSON_extended": "ProCyte Dx 血细胞分析仪",
+      "COAG_DX_extended": "Coag Dx 分析仪",
+      "SNAPPRO_extended": "SNAP Pro 分析仪",
+      "URISED_extended": "SediVue Dx 尿液沉积物分析仪",
+      "URISYS_DX_extended": "IDEXX VetLab UA 分析仪"
+    },
+    "status": {
+      "READY": "待机",
+      "BUSY": "忙碌",
+      "OFFLINE": "离线",
+      "ENABLED": "已启用",
+      "STANDBY": "待机",
+      "ALERT": "警示",
+      "NOT_READY": "未待机",
+      "UNKNOWN": "未知",
+      "SLEEP": "睡眠",
+      "MANUAL_ENTRY": "手动输入",
+      "MANUAL": "手动"
+    }
+  },
+  "patientEntry": {
+    "titles": {
+      "newPatient": "新的宠物",
+      "editPatient": "编辑宠物"
+    },
+    "labels": {
+      "patientName": "宠物名",
+      "species": "种别",
+      "breed": "品种",
+      "sex": "性别",
+      "lastKnownWeight": "体重",
+      "lifestage": "成长阶段",
+      "type": "种别",
+      "age": "年龄",
+      "pimsPatientId": "PIMS宠物号码",
+      "ageApproximate": "年龄为近似值",
+      "ageCategories": {
+        "Years": "年",
+        "Months": "月",
+        "Days": "天",
+        "Weeks": "周"
+      },
+      "client": {
+        "lastName": "姓",
+        "firstName": "名",
+        "clientId": "病历号码",
+        "pimsClientId": "PIMS宠物主人号码"
+      }
+    },
+    "validation": {
+      "years": "年份无效"
+    }
+  },
+  "orderFulfillment": {
+    "title": "选择仪器",
+    "fulfillment": {
+      "requisitionId": "申请单号",
+      "confirmLifestage": "确认成长阶段*",
+      "confirmType": "确认种别*",
+      "selectLifestage": "选择成长阶段",
+      "selectType": "选择种别",
+      "reasonForTesting": "检查原因",
+      "selectDoctor": "选择医师",
+      "selectReason": "选择原因",
+      "statPatient": "急诊患宠",
+      "testOrder": "检测订单：{{services}}",
+      "testOrderLabel": "检测订单",
+      "addRun": "新增执行",
+      "addRun_one": "新增二次执行",
+      "addRun_other": "新增执行",
+      "runTab": "执行{{ index }}"
+    },
+    "testingReasons": {
+      "WELLNESS_TESTING": "健康筛查",
+      "SICK_TESTING": "疾病筛查",
+      "MONITORING": "监控",
+      "PREANESTHESIA": "麻醉前",
+      "NONE_GIVEN": "无"
+    },
+    "guidance": {
+      "enterResults": "请在选择“检测”后输入结果"
+    },
+    "runConfig": {
+      "UPC": {
+        "toggle": "尿蛋白肌酐比(UPC)",
+        "header": "UPC - 1：{{totalParts}}",
+        "sampleTypeHeader": "{{ sampleType }}：UPC - 1:{{ totalParts }}"
+      },
+      "DILUTION": {
+        "toggle": "稀释",
+        "header": "稀释 - 1：{{totalParts}}",
+        "sampleTypeHeader": "{{ sampleType }}：稀释 - 1:{{ totalParts }}"
+      },
+      "BACTERIA_REFLEX": {
+        "toggle": "确认细菌",
+        "header": "使用细菌确认试剂盒制备样本，然后启动检测。",
+        "instructionsModalHeader": "细菌确认试剂盒说明",
+        "instructionsModalBody": "<ol><li>使用SediVue Dx移液管将165 µL尿液从原始样本容器转移到未经处理的新试管 - 使用该试管进行其余步骤。</li><li>添加1滴（红色）试剂1，将盖子盖回到试管上，然后倒转5次以混合。取下盖子。</li><li>添加1滴（蓝色）试剂2，将盖子盖回到试管上，然后倒转5次以混合。</li><li>使用SediVue Dx移液管抽吸165 µL样本和试剂混合物。</li><li> 点击下方的<strong>确定</strong>，启动检测，样品和试剂混合物会被分配到SediVue Dx分析片中。</li><li>按下SediVue Dx分析仪上的<strong>开始</strong>键。</li></ol>"
+      },
+      "labels": {
+        "UPC": "尿蛋白肌酐比(UPC)",
+        "DILUTION": "稀释",
+        "BACTERIA_REFLEX": "确认细菌",
+        "SAMPLE_TYPE": "样本类型"
+      },
+      "dilution": {
+        "partSample": "份样本",
+        "partDiluent": "份稀释液",
+        "totalParts": "总份数",
+        "adjust": "调整稀释",
+        "upcDilution": "UPC稀释"
+      },
+      "selectSampleType": "选择样本类型",
+      "fluidTypeNotValidated": "液体类型未确认。仅用于研究目的。",
+      "sediVueDx": {
+        "dilutionInstructions": {
+          "title": "稀释说明",
+          "instructions": "<ol><li>将尿液样本倒转10次，然后立即吸取1份样本，加入到含选定份数的0.9%生理盐水的试管中。生理盐水的份数会根据您选择的稀释因子而变化。（例如1份样本 + 9份生理盐水 = 稀释因子 10）</li><li>调整稀释液的份数以达到所需的稀释因子，然后点击<strong>检测</strong>或<strong>新增检测</strong>以开始检测。</li><li>将稀释后的样本倒转10次，然后立即吸取165 µl并分配到分析片装填口。</li><li>按下分析仪的<strong>Start</strong>（开始）键。结果中将添加一条注释，表明已进行稀释。</li></ol><shortlinebreak/><strong>注意：</strong>稀释尿液样本可能影响样本的 pH 值和渗透浓度，进而导致细胞形态和晶体的存在情况发生变化。"
+        }
+      },
+      "catOne": {
+        "automaticDilutionInstructions": {
+          "title": "自动稀释说明",
+          "body": "加入显示物质:",
+          "instructions": "<ol><li>吸头</li><li>未稀释样本</li><li>切片</li><li>清空样本杯</li><li>样本杯中加入300 µl生理盐水</li></ol><strong>另一支CBC5R套组的冲洗管</strong>氨、苯巴比妥、果糖胺或电解质检测项目不能使用稀释过的样本。"
+        },
+        "manualDilutionInstructions": {
+          "title": "手动稀释说明",
+          "body": "加入显示物质:",
+          "instructions": "<ol><li>吸头</li><li>已稀释样本</li><li>切片</li></ol><strong>另一支CBC5R套组的冲洗管</strong>氨、苯巴比妥、果糖胺或电解质检测项目不能使用稀释过的样本。"
+        },
+        "upcInstructions": {
+          "title": "UPC说明",
+          "instructions": "<ol><li>装载吸头</li><li>放入未稀释的样本<shortlinebreak/><strong>注意：</strong>请确保对尿液样本进行离心，以获得检测UPC所需的尿液上清液</li><li>加载UPRO和UCRE试剂片<shortlinebreak/><strong>注意：</strong>UPC需单独检测，不能和其他试剂片或套组一起检测</li><li>将一个空的样本杯放入左侧稀释杯孔位</li><li>将装有300µl UPC稀释液的样本杯放入右侧稀释杯孔位</li></ol>"
+        }
+      },
+      "proCyteDx": {
+        "synovialReminder": {
+          "title": "滑液样本制备",
+          "body": "极其黏稠的滑液样本可能堵塞分析仪。<linebreak/><strong>这种情况下，IDEXX建议您：</strong><ul><li>按1:2进行稀释（将滑液与透明质酸酶等比混合）。</li><li>将结果乘以2。。</li></ul>"
+        }
+      },
+      "inVueDx": {
+        "barcodePlaceholder": "请扫描试剂片条形码",
+        "fna": {
+          "edit": "编辑样本详情",
+          "confirmCancel": {
+            "title": "放弃样本选择？",
+            "body": "确定要放弃样本选择吗？"
+          },
+          "buttons": {
+            "finish": "完成并保存",
+            "optional": "输入可选详细信息"
+          },
+          "titles": {
+            "required": "必填",
+            "optional": "自选的",
+            "sampleLocation": "样本位置",
+            "lesionAppearance": "病变外观",
+            "clinicalHistory": "临床病史"
+          },
+          "sampleLocation": {
+            "title": "* 样本位置",
+            "LEFT": "左",
+            "RIGHT": "右"
+          },
+          "lesionAppearance": {
+            "title": "* 病变的外观？（选择所有适用项）",
+            "ALOPECIC": "脱毛",
+            "CRUSTED": "结痂",
+            "FIRM": "坚硬",
+            "FIXED": "不可移动/固定",
+            "FLAT": "平整",
+            "FLUID_FILLED": "充液",
+            "HAIRED": "有毛",
+            "INVASIVE": "侵入性",
+            "IRREGULAR": "不规则",
+            "MOVABLE": "可移动",
+            "NODULAR": "有结节",
+            "NORMAL_SKIN_COLOR": "正常肤色",
+            "OOZING_WEEPING": "渗出/流液",
+            "PAINFUL": "疼痛",
+            "PART_HAIRED": "部分有毛",
+            "PEDUNCULATED": "有蒂",
+            "PIGMENTED_BLACK": "色素沉着/黑色",
+            "PINK": "粉红色",
+            "POORLY_CIRCUMSCRIBED": "边界不清",
+            "PRURITIC_ITCHY": "搔痒/发痒",
+            "RAISED": "隆起",
+            "RED": "红色",
+            "SEMIFIRM": "半硬质",
+            "SMOOTH": "光滑",
+            "SOFT": "柔软",
+            "ULCERATED": "溃疡",
+            "UNKNOWN": "未知",
+            "WELL_CIRCUMSCRIBED": "边界清晰"
+          },
+          "sampleSite": {
+            "title": "* 样本部位",
+            "HEAD": "头部",
+            "SUBMANDIBULAR": "颌下区",
+            "NECK": "颈部",
+            "CHEST_TRUNK": "胸部/躯干",
+            "ABDOMEN": "腹部",
+            "FORELIMB": "前肢",
+            "HINDLIMB": "后肢",
+            "FOOT": "足部",
+            "PERINEUM_PERIANAL": "会阴/肛周",
+            "TAIL": "尾部",
+            "EAR": "耳朵"
+          },
+          "subsite": {
+            "title": "* 特定局部",
+            "ABDOMEN_INGUINAL": "腹股沟 - 皮肤或皮下",
+            "ABDOMEN_LATERAL": "侧面",
+            "ABDOMEN_MAMMARY_GLAND": "乳腺",
+            "ABDOMEN_MIDLINE": "中线",
+            "ABDOMEN_OTHER_UNKNOWN": "其他/未知",
+            "ABDOMEN_PREPUTIAL_HAIRED_SKIN": "包皮有毛皮肤",
+            "ABDOMEN_VENTRAL": "腹侧",
+            "CHEST_TRUNK_DORSUM": "背部",
+            "CHEST_TRUNK_LATERAL": "侧面",
+            "CHEST_TRUNK_MAMMARY_GLAND": "乳腺",
+            "CHEST_TRUNK_OTHER_UNKNOWN": "其他/未知",
+            "CHEST_TRUNK_VENTRAL": "腹侧",
+            "EAR": "耳朵",
+            "EMPTY": "空",
+            "FOOT_CARPUS_TARSUS": "腕部/跗部",
+            "FOOT_DIGIT": "趾部",
+            "FOOT_INTERDIGITAL": "趾间",
+            "FOOT_METACARPAL_METATARSAL": "掌骨/跖骨区域",
+            "FOOT_NAILBED": "爪床",
+            "FOOT_OTHER_UNKNOWN": "其他/未知",
+            "FOOT_PAD": "足垫",
+            "FORELIMB_ANTEBRACHIUM": "前肢/前臂",
+            "FORELIMB_AXILLA": "腋窝",
+            "FORELIMB_BRACHIUM": "前肢/上臂",
+            "FORELIMB_CARPUS": "腕部",
+            "FORELIMB_ELBOW": "肘部",
+            "FORELIMB_OTHER_UNKNOWN": "其他/未知",
+            "FORELIMB_SHOULDER": "肩部",
+            "HEAD_CHEEK": "面颊",
+            "HEAD_CHIN": "下颚",
+            "HEAD_EYELID": "眼睑",
+            "HEAD_LIP_HAIRED_SKIN": "唇部有毛皮肤",
+            "HEAD_LIP_MUCU_JUNCTION": "唇粘膜与皮肤交界处",
+            "HEAD_MUZZLE": "鼻口部",
+            "HEAD_NASAL_DORSAL_BRIDGE": "鼻背桥",
+            "HEAD_NASAL_PLANUM": "鼻骨平面",
+            "HEAD_OTHER_UNKNOWN": "其他/未知",
+            "HEAD_PERIOCULAR": "眼周",
+            "HEAD_PINNA": "耳廓",
+            "HEAD_TOP_OF_HEAD": "头顶",
+            "HINDLIMB_HIP": "髋部",
+            "HINDLIMB_OTHER_UNKNOWN": "其他/未知",
+            "HINDLIMB_STIFLE": "膝关节",
+            "HINDLIMB_TARSUS": "跗部",
+            "HINDLIMB_THIGH": "大腿",
+            "HINDLIMB_TIBIAL_REGION": "胫侧区域",
+            "INDETERMINATE": "不确定",
+            "NECK_DORSAL": "背侧",
+            "NECK_LATERAL": "侧面",
+            "NECK_OTHER_UNKNOWN": "其他/未知",
+            "NECK_THYROID": "甲状腺",
+            "NECK_VENTRAL": "腹侧",
+            "PERINEUM_PERIANAL_ANAL_GLAND_SAC": "肛门腺/囊",
+            "PERINEUM_PERIANAL_OTHER_UNKNOWN": "其他/未知",
+            "PERINEUM_PERIANAL_PARANIAL_REGION": "肛周区域",
+            "PERINEUM_PERIANAL_PERIVULVAR": "外阴周围",
+            "PERINEUM_PERIANAL_SCROTUM": "阴囊",
+            "SUBMANDIBULAR_OTHER_UNKNOWN": "其他/未知",
+            "SUBMANDIBULAR_SALIVARY_GLAND": "唾液腺",
+            "SUBMANDIBULAR_SKIN_SUBCUT_LESION": "皮肤或皮下病变",
+            "TAIL_OTHER_UNKNOWN": "其他/未知",
+            "TAIL_TAIL_BASE": "尾基部",
+            "TAIL_TAIL_DORSAL": "尾背侧",
+            "TAIL_TAIL_VENTRAL": "尾腹侧"
+          },
+          "clinicalHistory": {
+            "labels": {
+              "recentVaccination": "患宠在过去3个月内接种过疫苗吗？",
+              "infection": "患宠曾感染过吗？",
+              "recentTravel": "患宠在美国旅行过吗？（选择所有适用项）",
+              "patientLivingLocation": "患宠居住在哪里？",
+              "recentTrauma": "患宠有外伤史吗？",
+              "recentNeoplasia": "患宠有肿瘤病史吗？",
+              "lesionDischarge": "是否有产生分泌物？",
+              "antibioticsTreatment": "患宠对抗生素过敏吗？（最近或当前）",
+              "treatmentOtherResponsive": "患宠有其他治疗成功的经历吗？（最近或当前）",
+              "symptoms": "患宠有以下症状吗？（选择所有适用项）",
+              "lesionDuration": "病变已持续多长时间？",
+              "recentSurgery": "患宠最近或之前（在本区域）做过手术吗？",
+              "lesionRecurrent": "病变是否复发？",
+              "lesionSizeChanging": "病变大小是否有变化？",
+              "lesionSimilarPresent": "是否存在其他相似的病变？",
+              "lesionSwelling": "是否有肿块？",
+              "lesionBothering": "患宠是否因病变而烦躁？（选择所有适用项）",
+              "lesionGrowthRate": "病变的生长速率？",
+              "distribution": "病变的分布情况？",
+              "lesionAspirateAppearance": "抽吸液的外观如何？（选择所有适用项）",
+              "lesionSize": "病变直径是多少？"
+            },
+            "area": {
+              "IN_THIS_AREA": "在此区域",
+              "ELSEWHERE": "其他地方"
+            },
+            "recentTravel": {
+              "US_WEST": "西部",
+              "US_SOUTHWEST": "西南",
+              "US_SOUTHEAST": "东南",
+              "US_NORTHEAST": "东北",
+              "US_MIDWEST": "中西部",
+              "OUTSIDE_US": "美国境外"
+            },
+            "patientLivingLocation": {
+              "INDOOR": "仅室内",
+              "OUTDOOR": "仅室外",
+              "INDOOR_OUTDOOR": "室内/室外"
+            },
+            "binary": {
+              "YES": "是",
+              "NO": "否"
+            },
+            "responsive": {
+              "RESPONSIVE": "是",
+              "NON_RESPONSIVE": "否"
+            },
+            "symptoms": {
+              "FEVER": "发热",
+              "LETHARGY": "嗜睡",
+              "WEIGHT_LOSS": "体重减轻",
+              "INAPPETENCE_ANOREXIA": "食欲不振/厌食",
+              "GENERALIZED_LYMPHADENOPATHY": "全身性淋巴结肿大",
+              "REGIONAL_LYMPHADENOPATHY": "局部淋巴结肿大 "
+            },
+            "lesionDuration": {
+              "LESS_THAN_24HOURS": "< 24 小时",
+              "DAYS": "天",
+              "WEEKS": "周",
+              "ONE_TO_SIX_MONTHS": "1-6 个月",
+              "SIX_TO_TWELVE_MONTHS": "6-12 个月",
+              "MORE_THAN_ONE_YEAR": "> 1 年"
+            },
+            "lesionSizeChanging": {
+              "GROWING": "增大",
+              "SHRINKING": "缩小",
+              "FLUCTUATING": "不稳定"
+            },
+            "lesionSwelling": {
+              "REGIONAL": "局部",
+              "DISTAL": "远端",
+              "ASSOCIATED": "伴随"
+            },
+            "lesionBothering": {
+              "ITCHING": "瘙痒",
+              "LICKING": "舔舐",
+              "PAINFUL": "疼痛",
+              "LIMPING": "跛行"
+            },
+            "lesionGrowthRate": {
+              "SLOW": "慢",
+              "MODERATE": "中等",
+              "RAPID": "快"
+            },
+            "distribution": {
+              "SINGLE_LESION": "单一病变（局灶性）",
+              "MULTIPLE_LESIONS": "多处病变（多灶性）",
+              "REGIONALLY_EXTENSIVE": "区域性广泛分布",
+              "DIFFUSE": "弥漫性（全身性）"
+            },
+            "lesionAspirateAppearance": {
+              "CLEAR_SEROUS": "清亮/浆液状",
+              "SEROSANGUINOUS": "血性浆液",
+              "BLOODY": "有出血",
+              "PURULENT": "化脓",
+              "WHITE": "白色",
+              "BLACK": "黑色",
+              "VISCOUS_MUCINOUS": "粘稠/粘液状",
+              "CHUNKY": "块状",
+              "GREASY": "油脂状"
+            }
+          }
+        }
+      },
+      "snap": {
+        "confirmLeishmania": {
+          "title": "注意 - 请确认测试板版本！",
+          "body_original": "存在两个版本的IDEXX SNAP利什曼原虫测试板。为保证结果准确性，请确认您选择相应版本的SNAP利什曼原虫测试板：<shortlinebreak/><strong><ul><li>您的测试板结果窗有3个蓝点，并且</li><li>您的试剂盒条形码旁的产品编号是99-06810或99-07821</li></ul></strong>",
+          "body_twoSpot": "存在两个版本的IDEXX SNAP利什曼原虫测试板。为保证结果准确性，请确认您选择相应版本的SNAP利什曼原虫测试板：<shortlinebreak/><strong><ul><li>您的测试板结果窗有2个蓝点，并且</li><li>您的试剂盒条形码旁的产品编号是99-0017586或99-0019362</li></ul></strong>"
+        }
+      }
+    },
+    "bloodMorphology": {
+      "optional": "自选的",
+      "addHematology": {
+        "button": "添加血液学分析",
+        "instruction": "为了获得更全面的结果，IDEXX强烈建议添加全血细胞计数(CBC)：点击<strong>添加血液学分析</strong>，获得增强后的IDEXX inVue Dx结果。"
+      },
+      "confirmPanel": {
+        "cbc.results": "血液学分析结果：",
+        "cbc.values": "红细胞 {{ rbcValue }} | 白细胞 {{ wbcValue }} | 红细胞比容 {{ hctValue }}"
+      },
+      "confirmModal": {
+        "header": "血液学分析和IDEXX inVue Dx",
+        "secondaryHeader": "自选的",
+        "instructions": "为了获得更全面的结果，IDEXX强烈建议添加全血细胞计数(CBC)：请选择以下结果来源，或选择跳过，单独运行IDEXX inVue Dx（不推荐）。"
+      },
+      "tableHeaders": {
+        "analyzer": "分析仪",
+        "runTime": "检测时间",
+        "doctor": "医师姓名"
+      },
+      "cbc.values": {
+        "placeholder": {
+          "rbc": "输入红细胞",
+          "hct": "输入红细胞比容",
+          "wbc": "输入白细胞"
+        },
+        "enter": "输入CBC值",
+        "title": "CBC结果",
+        "rbc": "红细胞（M/µL或x10^12/L）",
+        "hct": "红细胞比容(%)",
+        "wbc": "白细胞（K/µL或x10^9/L）",
+        "instructions": "用于IDEXX inVue Dx的血样必须与进行全血细胞计数检测的血样相同，并且<strong>理想情况下应不超过4小时。</strong>",
+        "header": "输入CBC值",
+        "secondaryHeader": "IDEXX inVue Dx - 可选输入"
+      },
+      "historical.run": {
+        "import": "导入先前检测结果",
+        "instructions": "选择<strong>{{ patientName }}</strong>的检测结果。用于IDEXX inVue Dx的血样必须与进行全血细胞计数检测的血样相同，并且<strong>理想情况下应不超过4小时。</strong>",
+        "header": "导入先前的血液学分析结果",
+        "secondaryHeader": "IDEXX inVue Dx - 可选输入"
+      },
+      "hematology.run": {
+        "import": "使用IDEXX inVue Dx运行ProCyte",
+        "instructions": "为了获得最佳结果，IDEXX建议在进行血液形态学检测时结果中应包括血液学分析结果。更多详细信息，请参见下方说明。",
+        "header": "使用ProCyte检测",
+        "secondaryHeader": "IDEXX inVue Dx - 可选输入"
+      }
+    },
+    "earSwab": {
+      "header": {
+        "required": "必填",
+        "optional": "自选的",
+        "specimenDetails": "样本详情"
+      },
+      "buttons": {
+        "finishAndSave": "完成并保存",
+        "enterClinicalSigns": "输入临床症状"
+      },
+      "chamber": {
+        "filled": "已满",
+        "empty": "空"
+      },
+      "selection": {
+        "separator": "，",
+        "left": "左",
+        "right": "右"
+      },
+      "selections": "{{selections}}"
+    }
+  },
+  "resultsEntry": {
+    "manualUA": {
+      "labels": {
+        "comments": "注释",
+        "physical": "物理属性",
+        "chemistries": "化学成份",
+        "specificGravity": "比重",
+        "editResults": "编辑结果"
+      },
+      "buttons": {
+        "setAllNegativeNormal": "将所有结果均设为阴性/正常？"
+      },
+      "collectionMethod": {
+        "Cystocentesis": "膀胱穿刺术",
+        "FreeCatch": "自由采集",
+        "TableTop": "检查台面样本收集",
+        "Catheterization": "导管插入术",
+        "Other": "其它",
+        "NotSpecified": "未指定"
+      },
+      "color": {
+        "Colorless": "无色",
+        "Straw": "稻草色",
+        "PaleYellow": "淡黄色",
+        "DarkYellow": "暗黄色",
+        "Amber": "琥珀色",
+        "Orange": "橙色",
+        "Pink": "粉红色",
+        "Red": "红色",
+        "Brown": "棕色",
+        "Green": "绿色",
+        "Other": "其它"
+      },
+      "clarity": {
+        "Clear": "透明",
+        "SlightlyCloudy": "略显浑浊",
+        "Cloudy": "浑浊",
+        "VeryCloudy": "非常浑浊",
+        "Opaque": "不透明"
+      },
+      "chemistryResults": {
+        "Negative": "阴性",
+        "Normal": "正常",
+        "Trace": "痕迹",
+        "1+": "1+",
+        "2+": "2+",
+        "3+": "3+",
+        "4+": "4+",
+        "short": {
+          "Negative": "阴性",
+          "Normal": "正常",
+          "Trace": "少量",
+          "1+": "1+",
+          "2+": "2+",
+          "3+": "3+",
+          "4+": "4+"
+        }
+      }
+    },
+    "snap": {
+      "commentTab": {
+        "comment": "评注",
+        "editDate": "编辑日期",
+        "editHistory": "编辑病史",
+        "userId": "使用者编号"
+      },
+      "timerToast": {
+        "complete": "{{snapName}}计时完成。",
+        "link": "添加结果"
+      },
+      "buttons": {
+        "resetTimer": "重置定时器"
+      },
+      "tabs": {
+        "results": "检测结果",
+        "comment": "评注"
+      },
+      "resultsPage": {
+        "instructions_one": "样本点如有颜色变化，则表示结果为阳性。<shortlinebreak/><strong>点击下方的点以标记为阳性。</strong>",
+        "instructions_other": "样本点如有颜色变化，则表示结果为阳性。<shortlinebreak/><strong>点击下方的点以标记为阳性。</strong>",
+        "heartwormInstructions": "如果高低抗原指示区的呈色比阴性对照组还深的话, 表示结果为阳性."
+      },
+      "results": {
+        "positive": "阳性",
+        "negative": "阴性",
+        "qualifiedLowAntigen": "（低抗原）",
+        "qualifiedHighAntigen": "（高抗原）",
+        "normal": "正常",
+        "abnormal": "异常",
+        "lt_400": "< 400 mg/dL",
+        "400-800": "400-800 mg/dL",
+        "gt_800": "> 800 mg/dL"
+      },
+      "labels": {
+        "control": "对照组",
+        "positiveControl": "阳性对照组",
+        "negativeControl": "阴性对照组",
+        "select": "<strong>在下方选择一个选项</strong>",
+        "selectWithWarning": "<strong>在下方选择一个选项</strong><linebreak/>注意：样本点可能不出现颜色变化。",
+        "reference": "参考",
+        "sample": "样本",
+        "normalDefinition": "样本点的颜色强度比参考点<strong>更浅</strong>。",
+        "abnormalDefinition": "样本点的颜色强度<strong>等于或比参考点更深</strong>。",
+        "negativeDefinition": "只有阳性对照点出现颜色变化。",
+        "positiveDefinition": "如果样本点的呈色比阴性对照组还深的话，表示结果为阳性.",
+        "400Spot": "400 mg/dL 校正点",
+        "800Spot": "800 mg/dL 校正点",
+        "lt_400": "样本点的颜色强度比 400 mg/dL 校正点浅。",
+        "400-800": "样本点的颜色强度比 400 mg/dL 校正点深，但比 800 mg/dL 校正点浅。",
+        "gt_800": "样本点的颜色强度比 800 mg/dL 校正点深。"
+      }
+    },
+    "snapPro": {
+      "selectSnapModal": {
+        "select": "选择一项SNAP测试"
+      }
+    },
+    "manualCRP": {
+      "header": "手动 C-反应蛋白质捕捉"
+    }
+  },
+  "resultsPage": {
+    "title": "检测结果",
+    "buttons": {
+      "editResults": "编辑结果",
+      "editComment": "编辑注释",
+      "addComment": "添加注释",
+      "manageResults": "管理结果",
+      "addTest": "新增检测",
+      "resultDetails": "结果详情"
+    },
+    "commsLog": {
+      "title": "通讯记录",
+      "viewLog": "查看通讯记录",
+      "resendToPims": "重新发送至{{ pimsName }}",
+      "instrument": "仪器",
+      "runDate": "检测日期",
+      "sentTo": "发送至{{ targetName }}",
+      "resentNotification": "结果将重新发送至{{ pimsName }}"
+    },
+    "manageResults": {
+      "title": "管理结果 ({{ timestamp }})",
+      "instructions": "点击下方的卡片继续。",
+      "descriptions": {
+        "reassignResults": "<strong>重新分配结果</strong><shortlinebreak/>完整的结果集将重新分配给选定的患宠。",
+        "editResults": "<strong>编辑手动结果</strong><shortlinebreak/>编辑手动输入的结果。",
+        "editResultsInstructions": "从表格中选择一项检测，点击<strong>下一步</strong>继续。",
+        "undoMerge": "<strong>撤销合并/替换</strong><shortlinebreak/>将结果还原为原始记录。"
+      },
+      "undoMerge": {
+        "title": "撤销合并/替换",
+        "warning": "选择“使用先前检测结果”将<strong>永久删除</strong>合并/替换的结果。",
+        "previousResults": "先前检测结果：",
+        "mergeResults": "合并/替换检测结果：",
+        "usePreviousResults": "使用先前检测结果",
+        "useMergeResults": "使用合并/替换检测结果",
+        "toast": "成功将结果还原为原始记录"
+      }
+    },
+    "labels": {
+      "images": "图像"
+    },
+    "patientProfile": {
+      "labels": {
+        "header": "患宠资料",
+        "patient": "宠物",
+        "patientId": "患宠编号",
+        "species": "种别",
+        "breed": "品种",
+        "sex": "性别",
+        "age": "年龄",
+        "clientFirst": "宠主名字",
+        "clientLast": "宠主姓氏",
+        "clientId": "病历号码",
+        "LifeStage": "成长阶段",
+        "Type": "种别"
+      }
+    },
+    "resultDetails": {
+      "labels": {
+        "header": "检测详情",
+        "source": "来源",
+        "runDate": "检测日期",
+        "veterinarian": "兽医",
+        "doctor": "医师姓名",
+        "requisition": "申请单",
+        "patientDetails": "患宠详情",
+        "lastKnownWeight": "体重",
+        "qcLotNumber": "质控品批号",
+        "noSampleSubmittedMessage": "未提交样本。",
+        "diagnosticConsiderations": "诊断注意事项"
+      }
+    },
+    "graphing": {
+      "title": "图表",
+      "inHouse": "诊所内",
+      "timeframe": {
+        "day": "1天",
+        "week": "1周",
+        "month": "1个月",
+        "year": "1年",
+        "all": "所有时间"
+      }
+    }
+  },
+  "transferResultsPage": {
+    "headerTitle": "重新分配结果",
+    "title": "将{{patientName}} {{clientFamilyName}}的所选结果重新分配给：",
+    "onlyPatientsOfSameSpeciesShown": "仅显示同一物种的患宠。"
+  },
+  "transferResultsModal": {
+    "title": "重新分配结果",
+    "prompt": "您确定要<strong>将下方的结果重新分配给{{patientName}}{{clientFamilyName}}</strong>吗?",
+    "heading": {
+      "instruments": "仪器",
+      "veterinarian": "兽医",
+      "requisitionNumber": "申请单号"
+    }
+  },
+  "dotPlots": {
+    "labels": {
+      "patientRun": "患宠检测",
+      "normalRun": "正常{{ type }}检测",
+      "runType": {
+        "RBC": "红细胞执行",
+        "WBC": "白细胞执行"
+      },
+      "axis": {
+        "COMPLEXITY": "复杂度",
+        "SIZE": "大小",
+        "FLUORESCENCE": "荧光",
+        "GRANULARITY": "颗粒度",
+        "LIGHT_ABSORPTION": "吸光"
+      },
+      "legend": "散点图图例"
+    },
+    "cellEvents": {
+      "AGRANS": "非颗粒白细胞 (AGRANS)",
+      "BASO": "嗜碱性粒细胞(BASO)",
+      "DOUBLET": "双联体",
+      "EOS": "嗜酸性粒细胞(EOS)",
+      "GRANS": "颗粒性白细胞 (GRANS)",
+      "GST": "GST",
+      "HETER": "异核细胞(HETERO)",
+      "HFR": "HFR",
+      "LATEX": "LATEX",
+      "LFR": "LFR",
+      "LYM": "淋巴细胞(LYM)",
+      "MFR": "MFR",
+      "MONO": "单核细胞(MONO)",
+      "NEU": "中性粒细胞(NEU)",
+      "NONREDCELL": "NONREDCELL",
+      "PLT": "血小板(PLT)",
+      "PLT_AGG": "PLT AGG",
+      "PLTO": "光学法血小板计数(PLT-O)",
+      "Qualibeads": "Qualibeads",
+      "QUALIBEADS": "Qualibeads",
+      "R7": "R7",
+      "R8": "R8",
+      "RBC": "红细胞",
+      "RBC_FRAG": "红细胞碎片",
+      "RBCO": "红细胞-O",
+      "RETICS": "RETICS",
+      "UNK": "UNK",
+      "UPP": "UPP",
+      "URBC": "U红细胞",
+      "WBC": "白细胞",
+      "WBC_FRAG": "白细胞碎片",
+      "WBCGST": "白细胞 GST"
+    }
+  },
+  "imageViewer": {
+    "labels": {
+      "paginator": "第{{ currentPage }}页，共{{ totalPages }}页",
+      "previewInstructions": "点触以放大",
+      "previewInstructionsWithAddToRecord": "点击放大 | 选中以添加到病历中",
+      "recordImageCount": "病历中有{{ recordImageCount }}张图像",
+      "maxImagesInRecord": "已选择最大数量的图像",
+      "addToRecord": "添加到病历",
+      "partOfRecord": "部分病历",
+      "magnification": "放大",
+      "imageInformation": "图像信息",
+      "imageNumber": "图像编号",
+      "imageId": "图像 ID",
+      "dragInstructions": "拖拽至关注区域"
+    },
+    "printResults": "打印结果",
+    "resendModal": {
+      "title": "再次发送检测结果",
+      "description": "本结果将会再次发送到医院管理系统。",
+      "resend": "再次传送"
+    }
+  },
+  "assays": {
+    "mua": {
+      "short": {
+        "mPH": "pH",
+        "mLEU": "白细胞 (LEU)",
+        "mPRO": "蛋白质（PRO）",
+        "mGLU": "血糖 (GLU)",
+        "mKET": "酮体 (KET)",
+        "mUBG": "尿胆原（UBG）",
+        "mBIL": "胆红素 (BIL)",
+        "mBLD": "潜血 (BLD)",
+        "mHGB": "血红蛋白(HGB)"
+      },
+      "mPH": "pH",
+      "mLEU": "白血球",
+      "mPRO": "蛋白质",
+      "mGLU": "葡萄糖",
+      "mKET": "酮类",
+      "mUBG": "尿胆素原",
+      "mBIL": "胆红素",
+      "mBLD": "血液",
+      "mHGB": "血液",
+      "Color": "颜色",
+      "Clarity": "透明度",
+      "Collec": "收集方法"
+    },
+    "snap": {
+      "HW": "心丝虫",
+      "Lyme": "莱姆病",
+      "E. canis": "",
+      "EC-EE": "埃立克体",
+      "A. ph.": "",
+      "AP_spp": "边虫病",
+      "FIV": "猫艾滋病病毒",
+      "FeLV": "猫白血病病毒",
+      "Parvo": "细小病毒",
+      "Giardia": "梨形鞭毛虫",
+      "CanL": "利什曼原虫",
+      "IgG": "",
+      "cPL": "",
+      "fPL": "",
+      "fBNP": "猫proBNP",
+      "Lepto": "细螺旋体",
+      "Hook": "",
+      "Round": "",
+      "Whip": "",
+      "A_VASO": "血管检测"
+    }
+  },
+  "inProcess": {
+    "cancelRunConfirm": {
+      "header": "取消{{analyzerName}}操作？",
+      "body": "确定要取消这一操作？"
+    },
+    "patientCard": {
+      "results": "检测结果",
+      "min": "分钟"
+    },
+    "analyzerRun": {
+      "buttons": {
+        "startRun": "开始",
+        "cancelRun": "取消操作",
+        "ejectCartridge": "弹出分析片",
+        "startTimer": "开始计时",
+        "addResults": "添加结果"
+      },
+      "runLabel": "执行{{ runQueueId }}",
+      "status": {
+        "ALERT": "警示",
+        "AT_INSTRUMENT": "仪器上",
+        "AWAITING_MANUAL_ENTRY": "添加结果",
+        "CANCELLED": "已取消",
+        "COMPLETE": "已完成",
+        "PARTIAL": "部分结果",
+        "PENDING": "等待结果",
+        "REQUIRES_USER_INPUT": "添加详情",
+        "RUNNING": "正在运行",
+        "TIMER_COMPLETE": "计时完成",
+        "NO_STATUS": "未知",
+        "COMPLETE_ON_INSTRUMENT": "处理中"
+      },
+      "runInfo": {
+        "dilution": "稀释 - 1:{{ totalParts }}",
+        "dilution_UPC_AUTOMATIC": "UPC - 1：{{ totalParts}}",
+        "dilution_AUTOMATIC": "自动稀释 - 1:{{ totalParts }}",
+        "dilution_MANUAL": "手动稀释 - 1:{{ totalParts }}"
+      }
+    }
+  },
+  "general": {
+    "buttons": {
+      "add": "添加",
+      "addTest": "新增检测",
+      "addQCLot": "新增质控品批号",
+      "apply": "应用",
+      "back": "返回",
+      "cancel": "取消",
+      "cancelProcess": "取消流程",
+      "clear": "清除",
+      "close": "关闭",
+      "continue": "继续",
+      "confirm": "确认",
+      "daily": "日常",
+      "delete": "删除",
+      "done": "已完成",
+      "edit": "编辑",
+      "finish": "完成",
+      "high": "高",
+      "instructions": "说明",
+      "low": "低",
+      "never": "从不",
+      "new": "新增",
+      "next": "下一步",
+      "no": "否",
+      "now": "现在",
+      "off": "关闭",
+      "ok": "确定",
+      "print": "打印",
+      "restart": "重新启动",
+      "run": "执行",
+      "save": "保存",
+      "search": "搜索",
+      "skip": "跳过",
+      "reassign": "重新分配",
+      "update": "更新",
+      "upgradeNow": "立即升级",
+      "view": "浏览",
+      "viewDetails": "查看详情",
+      "yes": "是",
+      "remindMeLater": "稍后提醒我",
+      "learnMore": "了解更多信息",
+      "addToRun": "添加到执行",
+      "startNow": "立即开始"
+    },
+    "keys": {
+      "backspace": "退格",
+      "capsLock": "大写",
+      "shift": "切换",
+      "space": "空格",
+      "close": "关闭"
+    },
+    "printJobs": {
+      "resultsReport": "结果报告",
+      "testPage": "检测页面",
+      "unrecognizedAlert": "无法识别的警示",
+      "catOneUpcDoc": "CatOneUpcDoc",
+      "catOneDilutionDoc": "CatOneDilutionDoc",
+      "notification": "通知",
+      "calibrationParams": "校准参数",
+      "report": "报告",
+      "smartServiceAgreement": "SmartService协议"
+    },
+    "timeAndDate": {
+      "AM": "上午",
+      "PM": "下午",
+      "monday": "星期一",
+      "tuesday": "星期二",
+      "wednesday": "星期三",
+      "thursday": "星期四",
+      "friday": "星期五",
+      "saturday": "星期六",
+      "sunday": "星期日"
+    },
+    "messages": {
+      "transferResultsSuccess": "结果重新分配成功。点击查看结果。",
+      "somethingWentWrong": "出了点问题。请再试一次。如果问题仍存在，请联系IDEXX支持部门。",
+      "whoopsSomethingWentWrong": "哎呀！出了点问题。<maybelinebreak />请重试或联系IDEXX支持部门。",
+      "printPreviewFailed": "打印预览失败。",
+      "actionWillTakeApproximatelyDuration": "{{action}}需要耗时约{{duration}}。",
+      "actionWillTakeLessThanDuration": "{{action}}需要耗时不到{{duration}}。",
+      "emptyTable": "无任何数据",
+      "error": "错误",
+      "newMessage": "您有一条新消息。",
+      "shuttingDown": "关闭"
+    },
+    "duration": {
+      "second_one": "{{count}}秒",
+      "second_other": "{{count}}秒",
+      "minute_one": "{{count}}分钟",
+      "minute_other": "{{count}}分钟"
+    },
+    "placeholder": {
+      "noValue": "--"
+    },
+    "ThisProcedure": "此操作步骤",
+    "select": "选择",
+    "noResults": "无结果",
+    "doctor": "医师姓名",
+    "lastKnownWeight": "体重",
+    "firstName": "名",
+    "lastName": "姓",
+    "patientName": "宠物名",
+    "numberSign": "#",
+    "personalName": "{{firstName}} {{middleName}} {{lastName}}",
+    "personalNameReversed": "{{lastName}}, {{firstName}} {{middleName}}",
+    "personalNameReversed_lastOnly": "{{lastName}}",
+    "personalNameReversed_firstOnly": "{{firstName}} {{middleName}}"
+  },
+  "sampleType": {
+    "WHOLEBLOOD": "全血",
+    "ABDOMINAL": "腹水",
+    "SYNOVIAL": "滑液",
+    "THORACIC": "胸水",
+    "SERUM": "血清",
+    "PLASMA": "血浆",
+    "OTHER": "其它",
+    "URINE": "尿液",
+    "CSF": "CSF",
+    "EAR_SWAB": "耳拭子",
+    "FNA": "细针抽吸 (FNA)",
+    "BLOOD": "血液",
+    "SERUMPLASMA": "血清/血浆",
+    "FECAL": "粪便",
+    "QUALITYCONTROL": "质控品",
+    "CEREBROSPINAL": "脑脊髓液",
+    "UNKNOWN": "未知"
+  },
+  "dilutionType": {
+    "AUTOMATIC": "已设为自动",
+    "MANUAL": "手动",
+    "UPC_AUTOMATIC": "尿蛋白肌酐比(UPC)",
+    "NOTDEFINED": "未定义"
+  },
+  "weightUnits": {
+    "POUNDS": "磅",
+    "KILOGRAMS": "公斤"
+  },
+  "unitSystem": {
+    "US": "美国",
+    "SI": "S.I.（国际单位）",
+    "French": "French (法制单位)"
+  },
+  "gender": {
+    "Male": "公",
+    "Neutered": "公/已去势",
+    "Neutered_Equine": "公/已去势",
+    "Female": "母",
+    "Spayed": "母/已绝育",
+    "Gelding": "公/已去势"
+  },
+  "validation": {
+    "genericInput": "此栏为必填项",
+    "genericSelect": "必须选择一个选项",
+    "genericInputInvalid": "输入内容无效"
+  },
+  "Instrument": {
+    "Snap": {
+      "Canine": {
+        "3Dx": "3Dx",
+        "4Dx": "4Dx",
+        "4DxPlus": "4Dx Plus",
+        "AngioDetect": "血管检测",
+        "cPL": "犬胰腺特异脂肪脢(cPL)",
+        "FecalDx": "Fecal Dx",
+        "Giardia": "梨形鞭毛虫",
+        "Heartworm": "猫心丝虫快速检测",
+        "Leish4Dx": "Leish 4Dx",
+        "Leishmania": "利什曼原虫",
+        "Leishmania2Spot": "利什曼原虫检测（2点）",
+        "Lepto": "钩端螺旋体",
+        "Parvo": "细小病毒"
+      },
+      "Equine": {
+        "FoalIgG": "仔马免疫球蛋白快速检测"
+      },
+      "Feline": {
+        "fBNP": "猫proBNP",
+        "FecalDx": "Fecal Dx",
+        "FelineCombo": "猫白血病/艾滋病二合一快速检测",
+        "FelineComboPlus": "猫白血病/艾滋病二合一快速检测+",
+        "FelineHeartworm": "猫心丝虫快速检测",
+        "FelineTriple": "猫三合一快速检测",
+        "FeLV": "猫白血病病毒",
+        "fPL": "fPL",
+        "Giardia": "梨形鞭毛虫",
+        "HeartwormRT": "猫心丝虫快速检测"
+      }
+    }
+  },
+  "assayTypeModal": {
+    "later": "稍后输入",
+    "done": "已完成",
+    "Assay.Category.BileAcids": "Catalyst胆汁酸检测",
+    "selectOne": "选择一项",
+    "resultsPendingUntilIdentified": "选择运行类型后才会出结果。",
+    "Assay.ListName.BA01": "餐前",
+    "Assay.ListName.BA02": "餐后",
+    "Assay.ListName.BA03": "其它"
+  },
+  "addTestModal": {
+    "title": "新增检测",
+    "selectHowToSaveResults": "请选择结果保存方式。",
+    "appendResults": {
+      "button": "追加",
+      "description": "<strong>追加结果：</strong>将选定仪器的结果添加到患宠病例中。所有原始病例记录都将保留。"
+    },
+    "mergeResults": {
+      "button": "合并/替换",
+      "description": "<strong>合并/替换结果</strong>：用新添加的结果覆盖具有重复参数的原始结果；所有其他原始病例记录都将保留。"
+    },
+    "newResults": {
+      "button": "新增",
+      "description": "<strong>新增结果</strong>：将选定仪器的结果作为一组新的实验室结果添加到患者病例中。"
+    },
+    "validationErrors": {
+      "MERGE_THEIA": "<strong>注意：</strong>合并/替换不可选，因为本次运行包含IDEXX inVue Dx。要合并/替换结果，请从选择中移除IDEXX inVue Dx。单独运行IDEXX inVue Dx。"
+    }
+  },
+  "printResultsModal": {
+    "title": "打印结果",
+    "button": {
+      "print": "打印"
+    }
+  },
+  "confirmBackActionModal": {
+    "title": "放弃更改",
+    "body": "确定要在未保存的情况下退出？",
+    "button": {
+      "discard": "放弃"
+    }
+  },
+  "reminders": {
+    "sampleInvertReminder": {
+      "title": "倒转样本提醒",
+      "instructions_CRIMSON": "<strong>要分析样本：</strong><ol><li>将样本管倒转10次，充分混合。</li><li>将试管插入适当的插槽。</li><li>点击ProCyte Dx上的<strong>Start</strong>（开始）键。</li></ol>",
+      "instructions_ACADIA_DX": "<strong>分析样本：</strong><ol><li>将样本管倒转 10 次，使其充分混合。如果您使用微量管，请在混合后取下盖子。</li><li>立即将试管置于样本槽的前槽中。</li><li>关闭样品槽并按下 ProCyte One 上的<strong>开始</strong>按钮。</li></ol>",
+      "disable": "如需停用该提醒功能，可在{{ instrumentName }}“设置”屏幕上将<strong>倒转样本提醒</strong>的设置值更改为<strong>关闭</strong>。"
+    },
+    "resultDelayedNotification": {
+      "title": "结果延迟",
+      "body": "处理结果所花费的时间比预期的要长。确认SmartService连接已激活。您可以继续处理结果或取消仪器运行。<br><br> 如果问题仍然存在，请联系IDEXX支持部门。"
+    },
+    "resultFailedNotification": {
+      "title": "结果不可用",
+      "body": "因结果报告错误，无法提供IDEXX inVue Dx血液结果。要解决此问题，请用新样本重新检测。如果问题仍然存在，请联系IDEXX支持部门。"
+    }
+  },
+  "rebootNotification": {
+    "weeklyReminder": {
+      "title": "提醒",
+      "body": "IDEXX 建议每周将IDEXX VetLab Station计算机重启一次，以确保最佳性能。您想现在重启计算机吗？"
+    },
+    "excessiveUptime": {
+      "title": "注意",
+      "body": "您已 21 天未重启 IDEXX VetLab Station，现在需要重新启动。建议每 7 天重启一次，以使系统保持最佳健康状态。"
+    },
+    "dstTransition": {
+      "title": "注意",
+      "body": "设置您的 IDEXX VetLab Station 旨在遵守夏时制，且需要重启才可应用变更。"
+    },
+    "timeRemaining": "剩余时间：<strong>{{ timeRemaining }}</strong>",
+    "pressRestart": "按 <strong>Restart</strong>（重启）以继续。"
+  },
+  "ManualUA": {
+    "Results": {
+      "Cystocentesis": "膀胱穿刺术",
+      "FreeCatch": "自由采集",
+      "TableTop": "检查台面样本收集",
+      "Catheterization": "导管插入术",
+      "Other": "其它",
+      "NotSpecified": "未指定",
+      "Colorless": "无色",
+      "Straw": "稻草色",
+      "PaleYellow": "淡黄色",
+      "DarkYellow": "暗黄色",
+      "Amber": "琥珀色",
+      "Orange": "橙色",
+      "Pink": "粉红色",
+      "Red": "红色",
+      "Brown": "棕色",
+      "Green": "绿色",
+      "Clear": "透明",
+      "SlightlyCloudy": "略显浑浊",
+      "Cloudy": "浑浊",
+      "VeryCloudy": "非常浑浊",
+      "Opaque": "不透明",
+      "Negative": "阴性",
+      "Normal": "正常",
+      "Trace": "痕迹",
+      "1+": "1+",
+      "2+": "2+",
+      "3+": "3+",
+      "4+": "4+"
+    }
+  },
+  "Results": {
+    "UA_ANALYZER": {
+      "neg": "阴性",
+      "norm": "正常",
+      "TR": "痕迹"
+    },
+    "URISED": {
+      "Marked": "已标记",
+      "Moderate": "中等",
+      "Nonedetected": "未检测到",
+      "NSOR": "未检测到或极少",
+      "NSTF": "未检测到或少量",
+      "Present": "检测到存在",
+      "Rare": "罕见的",
+      "Suspect_Presence*": "疑似检出"
+    },
+    "CRIMSON": {
+      "NRBCLikely": "可能有",
+      "Suspected": "疑似"
+    },
+    "SNAP": {
+      "Negative": "阴性",
+      "WeakPositive": "阳性<br/>(低)",
+      "StrongPositive": "阳性<br/>(高)",
+      "Abnormal": "异常",
+      "GT800": ">800 mg/dl",
+      "LT400": "<400 mg/dl",
+      "400THRU800": "400-800 mg/dl",
+      "Normal": "正常",
+      "Positive": "阳性",
+      "NoResult": "无结果"
+    },
+    "InProcess": "进行中",
+    "WaitingForUserInput": "等待结果",
+    "resultsComplete": "结果已生成。点击此处查看。"
+  },
+  "Category": {
+    "Bacteria": "细菌",
+    "Casts": "管型",
+    "Crystals": "结晶",
+    "EPI": "上皮细胞",
+    "Epithelial_Cells": "上皮细胞",
+    "Mucus": "粘液",
+    "Other": "其它",
+    "RBC": "红细胞",
+    "WBC": "白细胞"
+  },
+  "Assay": {
+    "extended": {
+      "BACc": "球菌",
+      "BACr": "杆状细胞",
+      "BILI": "胆红素",
+      "BIURAT": "Amm 重尿酸盐",
+      "CaCar": "碳酸钙",
+      "CaOx": "草酸钙",
+      "CaOxDi": "CaOx Di",
+      "CaOxMo": "CaOx Mo",
+      "Clar": "透明度",
+      "Collec": "收集",
+      "CRY": "未分类",
+      "DEBRIS": "无定形碎片",
+      "Hook": "钩虫",
+      "HYA": "玻璃质",
+      "LIP": "脂质",
+      "mSG": "比重",
+      "nhCST": "非透明",
+      "nsEPI": "非鳞状",
+      "PROG": "黄体酮",
+      "QPL": "胰脂肪酶",
+      "Round": "蛔虫",
+      "SG": "比重",
+      "SPRM": "精子",
+      "sqEPI": "鳞状",
+      "STR": "鸟粪石",
+      "URIC01": "尿酸",
+      "Whip": "鞭虫",
+      "YEA": "酵母"
+    },
+    "A_VASO": "管圆线虫",
+    "A._ph.": "马型艾利希氏体",
+    "AaDO2": "肺泡至动脉氧压力梯度( AaDO2)",
+    "AGRANS": "非颗粒白细胞 (AGRANS)",
+    "ALB": "白蛋白(ALB)",
+    "ALB_GLOB": "白蛋白/球蛋白比(ALB/GLOB)",
+    "ALKP": "碱性磷酸酶(ALKP)",
+    "ALT": "丙氨酸转氨酶(ALT)",
+    "AMYL": "胰淀粉酶(AMYL)",
+    "AnGap": "阴离子间隙",
+    "AP_spp": "AP_spp",
+    "aPTT": "活化部分凝血活酶时间(aPTT)",
+    "AST": "天门冬酸转氨酶(AST)",
+    "BA01": "胆汁酸（餐前）",
+    "BA02": "胆汁酸（餐后）",
+    "BA03": "胆汁酸（其他）",
+    "BACc": "球菌",
+    "BACr": "杆状细胞",
+    "BAND": "杆状核细胞(BAND)",
+    "Baro": "气压(Baro)",
+    "BASO": "嗜碱性粒细胞(BASO)",
+    "BB": "缓冲碱( BB)",
+    "BE": "碱剩余(BE)",
+    "BEact": "实际碱剩余(BEact)",
+    "BEecf": "细胞外液碱剩余(BEecf)",
+    "BIL": "胆红素 (BIL)",
+    "BIL01": "胆红素 (BIL)",
+    "BIL02": "胆红素 (BIL)",
+    "BIL03": "胆红素 (BIL)",
+    "BILE01": "胆汁酸（餐前）",
+    "BILE02": "胆汁酸（餐后）",
+    "BILE03": "胆汁酸（其他）",
+    "BILI": "胆汁",
+    "BIURAT": "Amm 重尿酸盐",
+    "BLD": "潜血 (BLD)",
+    "BLD01": "潜血 (BLD)",
+    "BLD02": "潜血 (BLD)",
+    "BUN": "血尿素氮(BUN)",
+    "BUN_CREA": "血尿素氮/肌酐比(BUN/CREA)",
+    "CA": "钙离子(CA)",
+    "Ca++01": "钙离子(Ca++)",
+    "Ca++02": "钙离子(Ca++)",
+    "Ca++03": "钙离子(Ca++)",
+    "CaCar": "Ca C",
+    "CanL": "利什曼原虫",
+    "CaOx": "草酸钙",
+    "CaOxDi": "CaOx Di",
+    "CaOxMo": "CaOx Mo",
+    "Category": {
+      "BileAcids": "胆汁酸"
+    },
+    "cH+": "氢离子(cH+)",
+    "CHOL": "胆固醇(CHOL)",
+    "cit-aPTT": "柠檬酸盐-活化部分凝血活酶时间检测(cit-aPTT)",
+    "cit-PT": "柠檬酸盐-凝血酶原时间检测(Cit-PT)",
+    "CK": "肌酸激酶(CK)",
+    "Cl": "氯离子(Cl)",
+    "Cl01": "氯离子(Cl)",
+    "Cl02": "氯离子(Cl)",
+    "Clar": "澄清度",
+    "Collec": "收集",
+    "Color": "颜色",
+    "CORT01": "CORT<br/>  基线皮质醇",
+    "CORT02": "CORT<br/>  服用低剂量地塞米松后4小时",
+    "CORT03": "CORT<br/>  服用低剂量地塞米松后8小时",
+    "CORT04": "CORT<br/>  服用高剂量地塞米松后4小时",
+    "CORT05": "CORT<br/>  服用高剂量地塞米松后8小时",
+    "CORT06": "CORT<br/>  肾上腺皮质激素刺激（库兴氏症筛检）",
+    "CORT07": "CORT<br/>  肾上腺皮质激素刺激（艾迪森氏症筛检）",
+    "CORT08": "CORT<br/>  治疗监控",
+    "CORT09": "CORT<br/>  治疗监控高范围",
+    "CORT10": "CORT<br/>  单项检测",
+    "cPL": "犬胰腺特异脂肪脢(cPL)",
+    "CREA": "肌酐(CREA)",
+    "CRP": "人工 C 反应蛋白质",
+    "CRY": "CRY",
+    "DEBRIS": "沉降物",
+    "E._canis": "犬艾利希氏体",
+    "EC-EE": "EC-EE",
+    "EOS": "嗜酸性粒细胞(EOS)",
+    "ETHG": "乙二醇(ETHG)",
+    "fBNP": "fBNP",
+    "FeLV": "猫白血病病毒",
+    "FIBR": "纤维蛋白原(FIBR)",
+    "FIV": "猫艾滋病病毒",
+    "fPL": "fPL",
+    "FRU": "果糖胺(FRU)",
+    "GGT": "谷氨酰转移酶(GGT)",
+    "Giardia": "梨形鞭毛虫",
+    "GLOB": "球蛋白(GLOB)",
+    "GLU": "血糖 (GLU)",
+    "GLU01": "血糖 (GLU)",
+    "GLU02": "血糖 (GLU)",
+    "GLU03": "血糖 (GLU)",
+    "GLU04": "血糖 (GLU)",
+    "GLU05": "血糖 (GLU)",
+    "GLU06": "血糖 (GLU)",
+    "GLU07": "血糖 (GLU)",
+    "GRANS": "颗粒性白细胞 (GRANS)",
+    "GRANS01": "颗粒性白细胞 (GRANS)",
+    "HCO3": "碳酸氢根离子( HCO3)",
+    "HCO301art": "碳酸氢根(动脉)( HCO3(art))",
+    "HCO301cap": "碳酸氢根离子（微血管）( HCO3(cap))",
+    "HCO301ven": "碳酸氢根(静脉)( HCO3(ven))",
+    "HCO302": "碳酸氢根离子( HCO3)",
+    "HCT": "红细胞比容(HCT)",
+    "Hct(c)": "红细胞比容(Hct(c))",
+    "HETER": "异核细胞(HETERO)",
+    "HGB": "血红蛋白(HGB)",
+    "Hook": "钩虫",
+    "HW": "心丝虫(HW)",
+    "HYA": "HYA",
+    "IgG": "免疫球蛋白(IgG)",
+    "K": "钾离子(K)",
+    "K01": "钾离子(K)",
+    "K02": "钾离子(K)",
+    "KET": "酮体 (KET)",
+    "KET01": "酮体 (KET)",
+    "KET02": "酮体 (KET)",
+    "KET03": "酮体 (KET)",
+    "L_M": "淋巴细胞／单核细胞比(L/M)",
+    "LAC": "乳酸(LAC)",
+    "LDH": "乳酸脱氢酶(LDH)",
+    "Lepto": "钩端螺旋体",
+    "LEU": "白细胞 (LEU)",
+    "LEU01": "白细胞 (LEU)",
+    "LEU02": "白细胞 (LEU)",
+    "LIP": "脂类",
+    "LIPA": "脂肪酶(LIPA)",
+    "LYM": "淋巴细胞(LYM)",
+    "Lyme": "莱姆病",
+    "mBIL": "胆红素 (BIL)",
+    "mBLD": "潜血 (BLD)",
+    "MCH": "平均血红蛋白量(MCH)",
+    "MCHC": "平均血红蛋白浓度(MCHC)",
+    "mCRP": "人工 C 反应蛋白质",
+    "MCV": "平均红细胞体积(MCV)",
+    "MG": "镁离子(MG)",
+    "mGLU": "血糖 (GLU)",
+    "mHGB": "潜血 (BLD)",
+    "mKET": "酮体 (KET)",
+    "mLEU": "白细胞 (LEU)",
+    "MONO": "单核细胞(MONO)",
+    "mpH": "pH",
+    "mPRO": "蛋白质（PRO）",
+    "MPV": "平均血小板体积(MPV)",
+    "mSG": "比重 (SG)",
+    "mUBG": "尿胆原（UBG）",
+    "Mucus": "粘液",
+    "Na": "钠离子(Na)",
+    "Na_K": "钠/钾比（Na/K）",
+    "Na01": "钠离子(Na)",
+    "Na02": "钠离子(Na)",
+    "nCa++01": "非游离钙（nCa++）",
+    "nCa++02": "非游离钙（nCa++）",
+    "nCa++03": "非游离钙（nCa++）",
+    "NEU": "中性粒细胞(NEU)",
+    "NH3": "氨（NH3）",
+    "nhCST": "非透明管型",
+    "NIT": "尿亚硝酸盐（NIT）",
+    "NRBC": "有核红细胞",
+    "NRBC01": "有核红细胞",
+    "nsEPI": "非鳞状",
+    "O2Ct": "血氧含量（O2Ct）",
+    "OSM_calc": "估算渗透压(Osm Calc)",
+    "P-LCR": "大型血小板比率（P-LCR）",
+    "P50(c)": "P50函数(c)",
+    "Parvo": "细小病毒",
+    "PCO201art": "二氧化碳分压(动脉) (PCO2(art))",
+    "PCO201cap": "二氧化碳分压（微血管）(PCO2(cap))",
+    "PCO201ven": "二氧化碳分压(静脉)(PCO2(ven))",
+    "PCO202art": "二氧化碳分压(动脉) (PCO2(art))",
+    "PCO202cap": "二氧化碳分压（微血管）(PCO2(cap))",
+    "PCO202ven": "二氧化碳分压(静脉)(PCO2(ven))",
+    "PCT": "血小板压积（PCT）",
+    "pctAGRANS": "非颗粒白细胞百分比 (%AGRANS)",
+    "pctBASO": "嗜碱性粒细胞百分比(%BASO)",
+    "pctEOS": "嗜酸性粒细胞百分比(%EOS)",
+    "pctGRANS": "颗粒性白细胞百分比(%GRANS)",
+    "pctGRANS01": "颗粒性白细胞百分比(%GRANS)",
+    "pctHETER": "异核细胞百分比(%HETERO)",
+    "pctL_M": "淋巴细胞／单核细胞百分比(%L/M)",
+    "pctLYM": "淋巴细胞百分比（%LYM）",
+    "pctMONO": "单核细胞百分比(%MONO)",
+    "pctNEU": "中性粒细胞百分比（%NEU）",
+    "pctRETIC": "网织红细胞百分比（%RETIC）",
+    "PDW": "血小板分布宽度（PDW）",
+    "PDW-SD": "血小板分布宽度（PDW）",
+    "PDW01": "血小板分布宽度（PDW）",
+    "pH01": "pH",
+    "pHart": "酸碱度（动脉）(pH(art))",
+    "PHBR": "苯巴比妥(PHBR)",
+    "pHcap": "酸碱度（微血管）(pH(cap))",
+    "PHENO": "苯巴比妥（PHEN）",
+    "PHOS": "磷离子（PHOS）",
+    "pHven": "酸碱度（静脉）(pH(ven))",
+    "PLT": "血小板(PLT)",
+    "PLT-I": "电阻法血小板计数(PLT-I)",
+    "PLT-O": "光学法血小板计数(PLT-O)",
+    "PO201art": "氧分压(动脉) (PO2(art))",
+    "PO201cap": "氧分压(微血管) （PO2(cap)）",
+    "PO201ven": "氧分压(静脉) （PO2(ven)）",
+    "PO202art": "氧分压(动脉) (PO2(art))",
+    "PO202cap": "氧分压(微血管) （PO2(cap)）",
+    "PO202ven": "氧分压(静脉) （PO2(ven)）",
+    "PRO": "蛋白质（PRO）",
+    "PRO01": "蛋白质（PRO）",
+    "PRO02": "蛋白质（PRO）",
+    "PRO03": "蛋白质（PRO）",
+    "PRO04": "蛋白质（PRO）",
+    "PROG": "孕激素(PROG)",
+    "PT": "凝血酶原时间（PT）",
+    "RBC": "红细胞",
+    "RBC-X": "红细胞-X",
+    "RBC-Y": "红细胞-Y",
+    "RBC-Z": "红细胞-Z",
+    "RBC01": "红细胞",
+    "RBC02": "红细胞",
+    "RDW": "红细胞分布宽度（RDW）",
+    "RDW-CV": "红细胞分布宽度（RDW）",
+    "RET-He": "RETIC-HGB",
+    "RETIC": "网织红细胞（RETIC）",
+    "Round": "蛔虫",
+    "SDMA": "SDMA",
+    "SG": "比重 (SG)",
+    "SO2": "氧饱和度（SO2）",
+    "SO2(c)": "氧饱和度（SO2(c)）",
+    "SPRM": "精子",
+    "sqEPI": "鳞状",
+    "st.pH": "标准酸碱度(st.pH)",
+    "stHCO3": "标准碳酸氢根(stHCO3)",
+    "STR": "磷酸氨镁",
+    "T4": "甲状腺素（T4）",
+    "T4PLUS": "血清总甲状腺素（TT4）",
+    "TBIL": "总胆红素（TBIL）",
+    "tCO201art": "总二氧化碳分压（tCO2）",
+    "tCO201cap": "总二氧化碳分压微血管(tCO2(cap))",
+    "tCO201ven": "总二氧化碳分压(静脉)（tCO2(ven)）",
+    "tCO202": "总二氧化碳分压(TCO2)",
+    "tHb01": "总血红蛋白(tHb)",
+    "tHb02": "总血红蛋白(tHb)",
+    "tHb03": "总血红蛋白(tHb)",
+    "TNCC": "有核细胞总数 (TNCC)",
+    "TP": "总蛋白（TP）",
+    "TRIG": "甘油三酯（TRIG）",
+    "UBG": "尿胆原（UBG）",
+    "UBG01": "尿胆原（UBG）",
+    "UBG02": "尿胆原（UBG）",
+    "UBG03": "尿胆原（UBG）",
+    "UCRE": "尿肌酐（UCRE）",
+    "UNK": "未知",
+    "UPC": "尿蛋白肌酐比(UPC)",
+    "UPRO": "尿蛋白(UPRO)",
+    "UREA": "尿素（UREA）",
+    "URIC": "尿酸（URIC）",
+    "URIC01": "尿酸（URIC）",
+    "WBC": "白细胞",
+    "WBC01": "白细胞",
+    "WBC02": "白细胞",
+    "Whip": "鞭虫",
+    "YEA": "酵母",
+    "SITE": "部位",
+    "SITE2": "部位 2",
+    "BACc_CYT": "球菌",
+    "BACc_CYT2": "球菌",
+    "BACr_CYT": "杆状细胞",
+    "BACr_CYT2": "杆状细胞",
+    "MITE_CYT": "螨虫",
+    "MITE_CYT2": "螨虫",
+    "RBC_CYT": "红细胞",
+    "RBC_CYT2": "红细胞",
+    "WBC_CYT": "白细胞",
+    "WBC_CYT2": "白细胞",
+    "YEA_CYT": "酵母",
+    "YEA_CYT2": "酵母",
+    "INT_CYT": "诊断注意事项",
+    "INT_CYT2": "诊断注意事项",
+    "RBC_SPH": "球形红细胞",
+    "RBC_ECC": "偏心细胞",
+    "RBC_HNZ": "海因茨小体",
+    "RBC_HNZL": "海因茨小体（大）",
+    "RBC_HNZS": "海因茨小体（小）",
+    "RBC_ACNTH": "棘红细胞",
+    "RBC_KER": "角膜红细胞/水泡红细胞",
+    "RBC_BLI": "水泡红细胞",
+    "RBC_POIK": "其他异常红细胞",
+    "RBC_SCH": "裂片红细胞",
+    "RBC_ECH": "刺状红细胞",
+    "RBC_ELL": "卵形红细胞（椭圆形红细胞）",
+    "RBC_HJBOD": "豪威尔-乔里小体",
+    "RBC_OTH": "其他荧光红细胞",
+    "RBC_AGGL": "红细胞凝集",
+    "RBC_BLD": "红细胞",
+    "HCT_BLD": "红细胞压积",
+    "RETIC_PCT": "% 网织红细胞",
+    "RETIC_BLD": "网织红细胞",
+    "WBC_BLD": "白细胞",
+    "LYMPCT_BLD": "% 淋巴细胞",
+    "LYMABS_BLD": "淋巴细胞",
+    "MONOPCT_BLD": "% 单核细胞",
+    "MONOABS_BLD": "单核细胞",
+    "NEUPCT_BLD": "% 中性粒细胞",
+    "NEUABS_BLD": "中性粒细胞",
+    "EOSPCT_BLD": "% 嗜酸性粒细胞",
+    "EOSABS_BLD": "嗜酸性粒细胞",
+    "BASOPCT_BLD": "% 嗜碱性粒细胞",
+    "BASOABS_BLD": "嗜碱性粒细胞",
+    "BANDPCT_BLD": "% 幼稚中性粒细胞",
+    "BANDABS_BLD": "幼稚中性粒细胞",
+    "OTHNCPCT_BLD": "% 其他有核细胞",
+    "OTHNCABS_BLD": "其他有核细胞",
+    "NEU_TOX": "毒性变化",
+    "PLT_EST": "血小板估计",
+    "INT_BLD": "诊断注意事项"
+  },
+  "ServiceCategory": {
+    "Hematology": "血液学",
+    "Chemistry": "生化",
+    "Urinalysis": "尿液分析",
+    "Endocrinology": "内分泌学",
+    "Serology": "血清学",
+    "SNAP": "SNAP",
+    "TherapeuticsToxicology": "治疗学/毒理学",
+    "Microbiology": "微生物分析",
+    "Parasitology": "寄生虫学",
+    "MolecularDiagnostics": "分子诊断学",
+    "Pathology": "病理分析",
+    "Radiology": "放射线学",
+    "Other": "其它",
+    "Cancelled": "已取消"
+  },
+  "barcodeType": {
+    "SHEATH": "鞘液",
+    "REAGENT": "试剂",
+    "SMART_QC": "SmartQC",
+    "CUVETTES": "试管",
+    "BLOOD": "血液",
+    "EAR_SWAB": "耳拭子",
+    "FNA": "细针抽吸 (FNA)"
+  },
+  "instrumentMaintenanceResult": {
+    "ACADIA_DX": {
+      "REPLACE_OBC": {
+        "SUCCESS": "SmartQC 小瓶已成功更换。"
+      },
+      "REPLACE_REAGENT": {
+        "SUCCESS": "ProCyte One 试剂包已成功更换。<br/><br/>仪器现在开始自动充灌流程（约1分钟）。"
+      },
+      "REPLACE_SHEATH": {
+        "SUCCESS": "成功更换了 ProCyte One鞘液包。<br/><br/>仪器现在开始自动充灌流程（约1分钟）"
+      }
+    },
+    "CATONE": {
+      "GENERAL_CLEAN": {
+        "SUCCESS": "您的Catalyst One分析仪已成功清洁。"
+      },
+      "OPTICS_CALIBRATION": {
+        "SUCCESS": "您的Catalyst One分析仪光学部件已成功校准。"
+      },
+      "OFFSETS": {
+        "SUCCESS": "您的Catalyst One补偿已成功完成。",
+        "FAILED": "您的Catalyst One补偿失败。如需帮助，请联系IDEXX支持部门。"
+      },
+      "OPTIMIZE": {
+        "SUCCESS": "Catalyst One已成功运行优化流程。"
+      }
+    },
+    "default": "操作步骤{{ maintenanceType }}已完成，结果为{{ maintenanceResult }}",
+    "rejected": "由于另一诊断程序正在进行或是分析仪出现警报消息，无法执行此步骤。<linebreak/>如果此消息持续出现，请联系IDEXX支持部门。",
+    "rejectedTitle": "不能运行程序"
+  },
+  "eula": {
+    "pdx": {
+      "bodyTitle": "搜索到新的信息处理单位(IPU)。请浏览并同意以下的许可证同意书。",
+      "body": "上次更新时间：2016年7月<br/>微软软件许可条款<br/>WINDOWS操作系统<br/>如果您居住（或者业务主营地）在美国，请阅读第10条中具有约束力的仲裁条款和共同起诉弃权。它会影响争议的解决方式。<br/>感谢您选择微软！<br/>根据您获取 Windows 软件的方式，这是 (i) 您与设备制造商或使用您的设备分销软件的软件安装商之间的许可协议；或 (ii) 您与微软公司（或其位于您居住所在地或业务主营地的关联公司之一）之间的许可协议，前提是您的软件是从零售商处购买的。微软是微软或其关联公司之一所生产设备的设备制造商，如果您的软件是直接从微软购买的，则微软还是零售商。<br/>本协议介绍您的权利以及您使用Windows软件的前提条件。您应阅读完整协议，包括软件随附的任何补充许可条款以及所有链接条款，因为所有条款都很重要并一起构成适用于您的本协议。您可通过将 (aka.ms/) 链接粘贴到浏览器窗口中来查看链接的条款。<br/>接受本协议或使用该软件，即表示您同意所有这些条款，并且同意在软件的激活和使用期间按照第3条所述的隐私声明传输特定信息。如果您不接受并遵守这些条款，您可能无法使用该软件或其功能。您可以与设备制造商或安装商或零售商（如果您的软件是直接购买的）联系，了解相关退货规定并退还软件或设备以依据该规定获得退款。请务必遵守退货规定，其中的条款可能会要求您退还该软件以及安装有该软件的整个设备，才能获得退款（如有）。<br/>1.概述。<br/>a.适用性。本协议适用于您设备上预安装的、从零售商处购买的以及您安装的Windows软件、您用于接收软件的介质（如有）、软件附带的任何字体、图标、图像或声音文件，还有软件的任何微软更新、升级、补充程序或服务，除非它们附带有其他条款。本协议还适用于由微软开发并提供诸如邮件、联系人、音乐和照片等功能的Windows应用程序，这些应用程序将包含在Windows中并作为其一部分。如果本协议包含有关设备上不可用功能或服务的条款，则这些条款不适用。<br/>b.附加条款。根据设备的功能、设备的配置方式和使用方式，您对某些功能、服务和应用程序的使用可能还适用微软附加条款和第三方条款。请务必阅读该等条款。<br/>(i) 一些 Windows 应用程序提供在线服务的访问点，或者依赖于在线服务，使用这些服务有时需要遵守单独的条款和隐私政策，例如 (aka.ms/msa) 上的微软服务协议。您可以通过查看服务使用条款或应用程序的设置（如果适用）来查看这些条款和政策。这些服务可能未在所有地区推出。<br/>(ii) 微软、设备制造商或安装商可能会提供额外的应用程序，这些应用程序将受单独的许可条款和隐私政策的约束。<br/>(iii) 该软件包含Adobe Flash Player，后者已根据 (aka.ms/adobeflash) 上的Adobe Systems Incorporated条款获得许可。Adobe和Flash是Adobe Systems Incorporated在美国和/或其他国家或地区的注册商标或商标。<br/>(iv) 该软件可能包含根据本协议或其各自的条款获得许可的第三方程序。您可在 (aka.ms/thirdpartynotices) 上查看适用于第三方程序的许可条款、通知和确认（如有）。<br/>(v) 当Word、Excel、PowerPoint和OneNote作为Windows随附的应用程序使用时，除非依据单独协议您具有商业使用之权利，否则您只能将其用于个人、非商业用途。<br/>2.安装和使用权利。<br/>a.许可。软件只授予使用许可，而非出售。根据本协议，我们授予您在您的设备（许可设备）上安装并运行该软件的一个实例的权利，一次供一人使用，但前提是您遵守本协议的所有条款。使用微软或授权来源的软件更新或升级非正版软件并不会使您原先的版本或更新/升级后的版本成为正版，并且在此情况下，您没有使用该软件的许可。<br/>b.设备。在本协议中，“设备”是指一种带有内部存储设备、能够运行软件的硬件系统（无论是物理硬件系统还是虚拟硬件系统）。硬件分区或刀片服务器都被视为设备。<br/>c.限制。设备制造商或安装商以及微软保留本协议中未明确授予的所有权利（如依据知识产权法享有的权利）。例如，本许可未授予您任何以下权利，并且您不得：<br/>(i) 单独使用或虚拟化软件的功能；<br/>(ii) 发布、复制（除允许的备份复制之外）、出租、租赁或出借软件；<br/>(iii) 转让软件（除非本协议允许）；<br/>(iv) 绕过软件中的任何技术限制；<br/>(v) 将软件用作服务器软件、用于商业托管服务、通过网络提供该软件以供多位用户同时使用、将软件安装在服务器上以供用户远程访问、或将软件安装在设备上仅供远程用户使用；<br/>(vi) 对该软件进行反向工程、反向编译或反汇编，或试图进行上述行为，除非且仅限于上述限制存在以下情形：(a) 适用法律允许；(b) 约束该软件可能包含的开源组件的使用的许可条款允许；或者 (c) 在该软件所包含或链接的GNU宽通用公共许可协议的许可下，进行必要的库变更调试；和<br/>(vii) 当使用基于Internet的功能时，您不得以任何妨碍他人使用这些功能的方式使用它们，或试图在未经授权的情况下访问或使用任何服务、数据、帐户或网络。<br/>d.多使用方案。<br/>(i) 多个版本。如果在购买软件时为您提供了多个版本（例如32位和64位版本），您一次只能安装并激活其中一个版本。<br/>(ii) 多个或组合连接。您用于多路复用或组合连接，或用于减少访问或使用软件的设备或用户数量的硬件或软件，不会减少您所需的许可数量。仅当您为所要使用的软件的每个实例拥有一个许可时，才能使用此类硬件或软件。<br/>(iii) 设备连接。您最多可以允许另外20台设备访问许可设备上安装的该软件，并仅为在许可设备上使用以下软件功能：文件服务、打印服务、Internet信息服务、Internet连接共享和电话服务。您可以允许任意数量的设备访问许可设备上的该软件以在设备之间同步数据。然而，本小节并不表示您有权在其中的任意其他设备上安装该软件，或使用该软件的主要功能（本小节中列出的功能除外）。<br/>(iv) 在虚拟环境中使用。本许可仅允许您在一台设备上安装一个软件实例，无论该设备是物理设备还是虚拟设备都是如此。如果要在多台虚拟设备上使用该软件，您必须为每个实例获取单独的可。<br/>(v) 远程访问。您可将实际使用许可设备的单一用户指定为许可用户，但频度不要超过每90天一次。许可用户可以使用远程访问技术从其他设备访问许可设备。其他用户在不同的时间可使用远程访问技术从其他设备访问许可设备，但前提是在已单独获得运行此软件的相同版本或更高版本的许可的设备上。<br/>(vi) 远程协助。您可以使用远程协助技术共享活动会话，而无需获得该软件的任何额外许可。远程协助允许一位用户直接连接到另一位用户的计算机，通常用于纠正问题。<br/>e.备份副本。您可以出于备份目的制作该软件的一份副本，也可按下文第4条所述使用该备份副本转让该软件（如果软件是作为独立软件购买的）。<br/>3.隐私；同意使用数据。您的隐私对于我们至关重要。部分软件功能会在您使用这些功能时发送或接收信息。其中的许多功能都可以在用户界面中关闭，或者您也可以选择不使用这些功能。接受本协议并使用该软件，即表示您同意微软按照微软隐私声明 (aka.ms/privacy) 以及与该软件功能关联的用户界面中的规定收集、使用和披露信息。<br/>4.转让。如果您是在德国或 (aka.ms/transfer) 站点中所列的任何国家/地区购得本软件，本条的条款概不适用，在这种情况下，将软件和软件使用权转让给第三方的任何行为都必须遵守适用的法律。<br/>a.预安装在设备上的软件。如果您购买了预安装在设备上的软件（并且如果您升级了预安装在设备上的软件），则只能将该软件的使用许可直接转让给具有许可设备的其他用户。转让物必须包括该软件，并且如果与设备一起提供，则还必须包括含有产品密钥在内的正版Windows标签。在根据规定进行任何形式的转让之前，第三方必须同意在转让和使用该软件时遵守本协议。<br/>b.独立软件。如果您购买了作为独立软件的软件（并且如果您升级了作为独立软件购买的软件），则可将该软件转让给您拥有的其他设备。您也可以将该软件转让给由其他人所有的设备，前提是 (i) 您是该软件第一位获得许可的用户，并且 (ii) 新用户同意本协议的条款。您可以使用我们允许您制作的备份副本或者用来提供该软件的介质来转让该软件。每当您将该软件转让给一台新设备时，都必须将该软件从先前的设备上卸载。您不得为了在设备之间共享许可而转让该软件。<br/>5.授权软件和激活。只有在您获得适当许可，并且已经使用正版产品密钥或其他授权方式正确激活软件的情况下，您才有权使用该软件。当您使用该软件连接到Internet时，该软件将自动与微软或其关联公司联系，以进行激活并将其与某一特定设备相关联。您也可以通过Internet或电话手动激活该软件。在任一情况下，都将传输特定信息，并且可能收取Internet、电话和SMS服务费用。在激活（或可能由设备的组件更改触发的重新激活）过程中，该软件可能会确定软件的安装实例是否伪造、是否经过不当许可或是否包含未经授权的更改。如果激活失败，该软件将尝试通过将任何被篡改的微软软件替换为正版微软软件来进行自身修复。您还可能收到提醒，要求您获取软件的适当许可。激活成功并不能确认该软件为正版或经适当许可。您不得绕过或规避激活过程。如需确认您的软件是否为正版以及您是否已获得适当许可，请访问 (aka.ms/genuine)。某些更新、支持和其他服务可能仅对正版微软软件的用户提供。<br/>6.更新。该软件将定期检查系统和应用程序更新，并为您下载和安装这些更新。您只能从微软或授权来源获取更新，微软可能需要更新您的系统来为您提供这些更新。接受本协议，即表示您同意在无需任何额外通知的情况下接收这些类型的自动更新。<br/>7.降级权利。如果您从制造商或安装商处购买的设备上预安装了Windows专业版，则您可使用Windows 8.1专业版或Windows 7专业版，但仅限于微软根据 (aka.ms/windowslifecycle) 所述规定为该早期版本提供支持期间使用。使用早期版本时应遵守本协议。如果早期版本包含不同的组件，那么在使用这些组件时，您应遵守该早期版本附带的协议中所有适用于这些组件的条款。无论是设备制造商、安装商还是微软，都没有义务向您提供早期版本。您您必须另行获得早期版本，这可能会产生一定的费用。您随时可以使用最初购买的版本替代早期版本。<br/>8.地理区域和出口限制。如果您的软件仅限在特定地理区域使用，您仅能在该区域激活该软件。您还必须遵守适用于该软件的所有国内和国际出口法律和法规，其中包括对目的地、最终用户和最终用途的各种限制。有关地理区域和出口限制的详细信息，请访问 (aka.ms/georestrict) 和 (aka.ms/exporting)。<br/>9.支持和退款程序。<br/>a.对于预安装在设备上的软件。有关该软件的一般支持选项，请向设备制造商或安装商咨询。请参见随软件提供的支持电话号码。对于直接从微软获取的更新和补充程序，微软可能会为获得适当许可的软件提供有限的支持服务，详见 (aka.ms/mssupport)。如果您有退款需求，请与制造商或安装商联系，了解其退款政策。请务必遵守这些政策，其中的条款可能会要求您将该软件连同安装软件的整个设备一并退还，然后您才能获得退款。<br/>b.对于从零售商处购买的软件。微软为具有适当许可的软件提供有限支持服务，详见 (aka.ms/mssupport)。如果您从零售商处购买了该软件并且有退款需求，但您无法从购买该软件的零售商处获得退款，请联系微软以了解微软退款政策的相关信息。请访问 (aka.ms/msoffices)，如果您在北美地区，请拨打 (800) 致电微软公司或访问 (aka.ms/nareturns)。<br/>10.具有约束力的仲裁条款和共同起诉弃权（如果您的居住地或业务主营地在美国）。<br/>我们希望我们永远不会有争议，但如果发生争议，您与我们都同意尝试在六十 (60) 天内对争议进行非正式解决。如果我们无法解决，您与我们同意按照《联邦仲裁法》（以下简称“FAA”）接受美国仲裁协会（以下简称“AAA”）的有约束力的独立仲裁，而不是在法官或陪审团面前进行法律诉讼。中立的仲裁员将对争议作出裁决并且其裁决为最终裁决，但依据FAA享有有限审查权的除外。不得提起集体诉讼、集体仲裁、私人检察总长诉讼，以及其他需要推选代表进行的诉讼。如果未取得所有方的同意，也不得将单独的诉讼进行合并。“我们”和“我们的”包括微软、设备制造商和软件安装商。<br/>a.涉及除知识产权之外的所有内容的争议。术语“争议”包含其最大语意范围内的所有含义。它包含您与设备制造商或安装商之间或者您与微软之间，依据包括合同、保证、侵权法、法令或法规在内的任何法理，就软件、软件价格或本协议而产生的任何索赔或争论，但不包括与您、您的许可方、我们或我们的许可方的知识产权的执行或有效性有关的争议。<br/>b.首先寄出争议通知。如果您有争议并且我们的客户服务代表无法解决，请通过美国邮政将争议通知寄给设备制造商或安装商，收件人：法律部。如果您的争议与微软有关，请将争议通知寄给微软公司，收件人：LCA ARBITRATION，One Microsoft Way，Redmond，WA 98052-6399。请告诉我们您的姓名、地址、联系方式、问题所在以及您想要的处理结果。相关表格，请访问 (aka.ms/disputeform)。如果我们有与您有关的争议，也会采取同样的处理方式。六十 (60) 天后，如果争议未解决，您或我们可能会启动仲裁。<br/>c.小额索赔法院选择。如果您不愿意邮寄争议通知，并且您满足法院的要求，则可在您居住地（若为企业，则指业务主营地）所在县或我们的主营地——美国华盛顿州金县（如果您的争议与微软有关）的小额索赔法院起诉我们。我们希望您邮寄争议通知，并为我们留出六十 (60) 天的时间尝试解决争议，但如果您要向小额索赔法院起诉，则不必这样做。<br/>d.仲裁程序。AAA将依据其《商事仲裁规则》处理任何仲裁（如果您是个人并将该软件用于个人或家庭用途，或者争议涉及价值为75,000美元或以下金额，则无论您是否是个人或者无论您如何使用该软件，均将依据其消费者仲裁规则处理）。有关详细信息，请访问 (aka.ms/adr) 或致电1-800-778-7879。若要启动仲裁，请将 (aka.ms/arbitration) 上提供的表格提交给AAA；并将副本寄给设备制造商或安装商（如果您的争议与微软有关，则寄给微软）。对于涉及金额为25,000美元或以下的争议，任何听证均将用电话传送，除非仲裁员找到合适的理由用在场听证取代。任何在场听证将在您居住地（若为企业，则指业务主营地）所在县或我们的业务主营地——华盛顿州的金县（如果您的争议与微软有关）举行。具体由您选择。仲裁员可以像法院那样判给您个人相同的损害赔偿金。仲裁员仅可裁定对您个人的宣告性救济或禁令性救济，以满足您的个人索赔诉求。<br/>e.仲裁费用和付款。<br/>(i) 涉及金额为75,000美元或以下的争议。设备制造商或安装商（或微软，如果您的争议与微软有关）将及时补偿您的立案费并支付AAA和仲裁员的费用与支出。如果您拒绝我方在指定仲裁员之前作出的最后书面庭外和解提议，那么争议需要在仲裁员做出裁判（称为“裁决”）后才能解决，此外，如果仲裁员裁定您可获得的金额超过了该最后书面提议的金额，设备制造商或安装商（或微软，如果您的争议与微软有关）将：(1) 支付判决金额或1,000美元两者间较大的金额；(2) 支付您的合理律师费（如有）；以及 (3) 补偿您的律师在仲裁中调查、准备和进行索赔而合理产生的任何支出（包括专家证人费）。具体金额将由仲裁员确定，除非您与我方就金额达成一致。<br/>(ii) 涉及金额超过75,000美元的争议。AAA规则将规定立案费以及AAA和仲裁员的费用与支出。<br/>(iii) 涉及任何金额的争议。如果您启动仲裁，我们不会要求您支付我方AAA或仲裁员的费用与支出，或我们补偿给您的立案费，除非仲裁员认为仲裁无意义或提出仲裁的目的不正当。如果我们启动仲裁，我们将支付所有立案费、AAA和仲裁员的费用与支出。我们在任何仲裁中都不会要求您支付我方的律师费。在确定争议所涉及金额时，这些费用和支出不计入在内。<br/>f.必须在一年内提出。您和我们必须在从争议最早可以提出的时间开始的一年内在小额索赔法院起诉或仲裁任何索赔或争议（知识产权争议除外 - 请参阅第10条的a款）。否则，索赔或争议将被永久禁止。<br/>g.可分割性。如果共同起诉弃权被认定为对争议的所有或某些部分非法或不可执行，则这些部分将不会进行仲裁，而由法院审理，其余部分将进行仲裁。如果第10条的任何其他条款被认定为非法或不可执行，则该条款将进行分割，但第10条的其他条款仍然适用。<br/>h.与AAA规则冲突。如果本协议与AAA的《商事仲裁规则》或《消费者仲裁规则》相冲突，则以本协议为准。<br/>i.微软作为当事方或第三方受益人。如果微软是设备制造商或者您的软件是从零售商处购买的，则微软为本协议的当事方。否则，微软不是本协议的当事方，而是您与设备制造商或安装商所签订协议的第三方受益人，通过非正式协商和仲裁解决争议。<br/>11.管辖法律。您所居住的州或国家/地区（若为企业，则为主要营业地）的法律管辖有关软件、软件价格或本协议的所有索赔和争议项目，包括违约索赔和根据消费者保护法、不正当竞争法、默示保证法、不当得利法以及侵权法提出的相关索赔，但不考虑冲突法原则。在美国，FAA管辖所有与仲裁相关的条款。<br/>12.消费者权利，地区差异。本协议规定了某些法定权利。根据您所在州或国家/地区的法律规定，您可能享有其他权利（包括消费者权利）。您还可能享有与您的软件卖方相关的权利。如果您所在州或国家/地区的法律不允许本协议改变这些其他权利，则本协议将不改变这些其他权利。例如，如果您的软件是从下列地区之一购买的，或强制性国家/地区法律适用，则下列条款对您适用：<br/>a.澳大利亚。提及的“有限保证”是指微软或设备制造商或安装商提供的明示保证。除了依照法律所拥有的其他权利和补偿（包括您依据《澳大利亚消费者法》中的消费者保障享有的权利和补偿），您还享有此保证。<br/>在本条中，“产品”指微软或设备制造商或安装商为其提供明示保证的软件。我们的产品附带《澳大利亚消费者法》规定的不可排除的保证。如产品存在重大故障，您有权提出更换或退款，以及对任何其他合理预见的损失或损坏提出赔偿。如果产品质量不过关或故障未达到重大故障程度，您也有权提出维修或更换产品。<br/>b.加拿大。您可通过禁用Internet访问来停止在设备上接收更新。如果重新连接到Internet，软件将继续检查并安装更新。<br/>c.欧盟。下文第13.d(i)节中的学术使用限制不适用于以下站点上所列的司法管辖区：(aka.ms/academicuse)。<br/>d.德国和奥地利。<br/>(i) 保证。获得适当许可的软件，基本上会按照该软件附带的任何微软材料说明的方式运行。但是，设备制造商或安装商和微软未提供任何与许可软件相关的合同保障。<br/>(ii) 责任限制。如果出现基于《产品责任法》的故意行为、重大过失、索赔以及出现死亡或人身伤害的情况，制造商或安装商或微软将依据成文法承担相应责任。<br/>根据前面的声明，设备制造商或安装商或微软将仅对以下情况的轻微过失负责：设备制造商或安装商或微软违反实质性合同义务，此类义务是指，履行时可促使本协议正常执行、违反时可能危及本协议的目的且一方可能一直相信要履行的义务（所谓的“基本义务”）。在其他轻微过失情况下，设备制造商或安装商或微软不对轻微过失负责。<br/>e.其他地区。请访问 (aka.ms/variations) 获取当前的地区差异列表。<br/>13.附加声明。<br/>a.网络、数据和Internet使用。通过该软件访问的某些软件功能和服务可能要求您的设备访问Internet。您的访问和使用（包括费用）可能受您的手机或Internet提供商协议条款的约束。某些软件功能可以帮助您更有效地访问Internet，但软件使用量的计算结果可能会与您的服务提供商的测量结果有所不同。您始终有责任 (i) 了解和遵守自己的计划和协议的条款，并且对 (ii) 因使用或访问网络（包括公共/开放的网络）引起的任何问题负责。只有在获得相关权限时，您才可以使用该软件来连接网络，并共享关于这些网络的访问信息。<br/>b.H.264/AVC和MPEG-4视频标准以及VC-1视频标准。该软件可能采用H.264/MPEG-4 AVC和/或VC-1解码技术。MPEG LA, L.L.C.要求做出以下声明：<br/>本产品受AVC、VC-1和MPEG-4 PART 2视频专利组合许可限制，仅供消费者个人使用和用于非商业用途，以便 (i) 对符合上述标准（以下简称“视频标准”）的视频进行编码和/或 (ii) 对消费者在从事个人和非商业活动过程中编码的AVC、VC-1 和 MPEG-4 PART 2视频和/或自获得提供此类视频许可的视频提供商处获得的此类视频进行解码。不授予或默示授予任何其他用途的许可。更多信息，可从MPEG LA, L.L.C获取，详情请访问 (AKA.MS/MPEGLA)。<br/>c.恶意软件防护。微软重视保护您的设备免受恶意软件的侵害。如果其他防护未安装或已过期，则该软件将启用恶意软件防护。为此，将禁用或可能必须卸载其他反恶意软件。<br/>d.有限权利版本。如果您购买的软件版本标记为或另行设计用于特定或有限用途，则您只能按规定使用软件。您不得将此类软件版本用于商业、非营利或营利活动。<br/>(i) 学术。若要用于学术用途，您在购买时的身份必须是教育机构的学生或教职员工。<br/>(ii) 产品评测。若要用于产品评测（或测试或演示）用途，您不得将软件销售给他人，不得将软件用于实际工作环境，也不得在产品评测期之后使用软件。无论本协议中是否存在相反表述，评测软件均按“现状”提供。<br/>(iii) NFR。您不得销售标有“不得再销售”（“NFR”或“Not For Resale”）字样的软件。<br/>14.完整协议。本协议（连同由设备制造商、安装商或微软提供且您使用的任何软件补充程序、更新和服务附带的书面许可条款或其他条款），以及本协议中列出的Web链接中包含的条款，共同构成了该软件和任何此类补充程序、更新和服务的完整协议（除非由设备制造商、安装商或微软随此类补充程序、更新或服务提供其他条款）。您可在软件运行后转至 (aka.ms/useterms) 或转至软件中的“设置 - 系统 - 关于”查看本协议。也可以在浏览器地址栏中键入相应URL，查看本协议中的任何链接中的条款，且您同意如此操作。您同意，在使用该软件或服务之前阅读本条款，包括任何链接的条款。您理解，使用软件和服务即表示您认可本协议及链接的条款。本协议中也包含一些提供信息的链接。包含声明和具有约束力的条款的链接如下：<br/>·微软隐私声明 (aka.ms/privacy)<br/>·微软服务协议 (aka.ms/msa)<br/>·Adobe Flash Player许可条款 (aka.ms/adobeflash)<br/>\f<br/>****************************************************************<br/><br/>有限保证<br/>设备制造商或安装商保证，获得适当许可的软件基本上会按照软件附带的任何微软材料说明的方式运行。如果您在本有限保证的九十 (90) 天期限内直接从微软获得更新或补充程序，微软会为它们提供本有限保证。由您造成、或因您未遵守相关说明而引起、由超出制造商、安装商或微软合理控制范围的活动所造成的问题不在本有限保证范围之内。本有限保证自您的软件副本的首位用户购买该副本之日起有效并持续九十 (90) 天。您在这九十 (90) 天期限内从制造商、安装商或微软处收到的该软件的补充程序、更新或更换软件也可以享受有限保证，但仅在该九十 (90) 天的剩余有效期或三十 (30) 天内（以两者中时间较长者为准）可享受有限保证。转让软件不会延长本有限保证的期限。<br/>制造商或安装商和微软不提供任何其他明示的保证、保障或条件。制造商或安装商和微软排除所有默示保证和条件，包括适销性、针对特定用途的适用性和不侵权的默示保证。如果您当地的法律不允许排除默示保证，则任何默示保证、保障或条件仅在有限保证期限内有效，且仅限于您当地的法律所允许的范围。如果您当地的法律要求更长的有限保证期限，则尽管有本协议，更长的期限将适用，但您只能按本协议获得补偿。<br/>如果制造商、安装商或微软违反了有限保证，则其将自行选择：(i) 免费修复或更换该软件，或 (ii) 退还购买该软件（或预安装该软件的设备，由其自行选择）支付的金额（如有）并收回产品。制造商或安装商（或微软，如果您直接从微软购买）也可以修复或更换该软件的补充程序、更新和更换软件，或退还您支付的金额（如有）。这些是在违反本有限保证的情况下您所获得的唯一补偿。本有限保证为您赋予了特定的法定权利，同时，您还可能享有其他权利，这些权利因州或国家/地区而异。<br/>除了制造商或安装商或者微软可能提供的任何修复、更换或退款之外，依据本有限保证、本协议的任何其他部分或任何理论，您不能因任何损害获得赔偿或其他补偿，包括利润损失、直接损害、后果性损害、特别损害、间接损害或附带损害。即使修复、更换或退款未完全补偿您的损失，如果制造商或安装商或者微软已经知晓或应该已经知晓可能会出现损害，或者如果补偿未能达到其基本目的，本协议中的损害排除和补偿限制也同样适用。某些州和国家/地区不允许排除或限制附带损害赔偿、后果性损害赔偿或其他损害赔偿责任，因此这些限制或排除条款可能对您不适用。如果您当地的法律允许您因损害从制造商、安装商或微软处获得补偿，则即使本协议不允许，您也可以获得，但您获得的补偿不能超过您为该软件支付的金额（或者如果您的软件是免费获取的，则补偿上限为50美元）。<br/>保证程序<br/>要获得服务或退款，您必须提供购买凭证并遵守制造商或安装商的退回政策，这些政策可能会要求您将软件连同安装软件的整个设备退回给微软；必须仍贴附包括产品密钥的“正版证书”标签（如果随设备一起提供）。<br/>请通过与您的设备一起提供的地址或免费电话与制造商或安装商联系，了解如何获得软件的保证服务。如果微软是您的设备制造商或者您的软件是从零售商处购买的，请通过以下方式联系微软：<br/>1.美国和加拿大。对于在美国或加拿大购买的软件，如需了解软件保证服务或有关如何获得软件退款的信息，请通过以下方式联系微软：通过 (800) 电话致电微软公司；或发邮件至 Microsoft Customer Service and Support，One Microsoft Way，Redmond，WA 98052-6399，USA；或访问 (aka.ms/nareturns)。<br/>2.欧洲、中东和非洲。如果您是在欧洲、中东或非洲购买的软件，请联系 Microsoft Ireland Operations Limited，Customer Care Centre，Atrium Building Block B，Carmanhall Road，Sandyford Industrial Estate，Dublin 18，Ireland，或者联系为您所在国家/地区提供服务的微软关联公司 (aka.ms/msoffices)。<br/>3.澳大利亚。如果您是在澳大利亚购买的软件，请通过以下方式联系微软以提出索赔：致电13 20 58或寄信至Microsoft Pty Ltd，1 Epping Road，North Ryde NSW 2113 Australia。<br/>4.其他国家/地区。如果您是在其他国家/地区购买的软件，请联系为您所在国家/地区提供服务的微软关联公司，网址为 (aka.ms/msoffices)。<br/><br/>EULAID：RSC_R1_2_ED_PS_O_zh-cn<br/>"
+    },
+    "common": {
+      "buttons": {
+        "agree": "我同意",
+        "disagree": "我不同意"
+      },
+      "header": {
+        "microsoft": "微软终端用户许可证同意书"
+      },
+      "instructions": "请浏览并同意以下的许可证同意书。"
+    }
+  },
+  "Crimson": {
+    "Procedures": {
+      "BadBackgroundCheck": "参数过高。执行自动冲洗。",
+      "ShuttingDown": "关闭"
+    },
+    "BoldProcedures": {
+      "BadBackgroundCheck": "<strong>参数过高。执行自动冲洗。</strong>"
+    },
+    "Reminders": {
+      "RunMonthlyRinse": "每月清洗提醒。",
+      "ReagentExpiring": "试剂套装即将过期。",
+      "StainExpiring": "染色剂套装即将过期。",
+      "ReagentLow": "试剂量低",
+      "StainLow": "染色剂套装量过低。"
+    },
+    "BoldReminders": {
+      "RunMonthlyRinse": "<strong>每月清洗提醒。</strong>",
+      "ReagentExpiring": "<strong>试剂套装即将过期。</strong>",
+      "StainExpiring": "<strong>染色剂套装即将过期。</strong>",
+      "ReagentLow": "<strong>试剂量低</strong>",
+      "StainLow": "<strong>染色剂套装量过低。</strong>"
+    },
+    "ReagentKit": {
+      "Expired": "试剂过期"
+    },
+    "BoldReagentKit": {
+      "Expired": "<strong>试剂过期</strong>"
+    },
+    "StainPack": {
+      "Expired": "染剂包过期"
+    },
+    "BoldStainPack": {
+      "Expired": "<strong>染剂包过期</strong>"
+    }
+  },
+  "usb": {
+    "copyError": {
+      "title": "复制文件时出错",
+      "body": "复制文件时出现问题，该过程无法完成。<linebreak/>请确认您选择的驱动器正确，然后重试。如果问题仍存在，请联系IDEXX支持部门。"
+    }
+  },
+  "restore": {
+    "buttons": {
+      "restoreData": "恢复数据"
+    },
+    "restoreInterstitial": {
+      "title": "恢复数据",
+      "body": "您想要恢复哪些数据？"
+    },
+    "selectData": {
+      "allAvailableData": "所有数据",
+      "patientData": "只需宠物资料",
+      "hematologyCalibrationData": "只需校正数据",
+      "userSettingsData": "仅有用户设置数据"
+    },
+    "insertDrive": {
+      "title": "数据恢复",
+      "body": "插入您的 USB 备份驱动器。请等待任何正在运行的仪器结束任务，然后点击“下一步”。",
+      "firstBootInsertUsb": "插入您的USB备份驱动器，然后点击<strong>下一步</strong>。"
+    },
+    "selectDrive": {
+      "title": "选择USB驱动器",
+      "body": "请选择要恢复的驱动器。如果所需的驱动器未列出，请尝试另一个 USB 端口。"
+    },
+    "selectDriveData": {
+      "title": "恢复数据",
+      "body": "请选择想要恢复的数据。",
+      "titleNoBackup": "未找到备份",
+      "bodyNoBackup": "在所选驱动器上未找到以前的备份。请插入一个包含先前备份的驱动器。"
+    },
+    "copyRestore": {
+      "title": "恢复数据",
+      "body": "准备要恢复的文件。请稍候。"
+    },
+    "restoreReady": {
+      "title": "准备恢复",
+      "body": "取出您的 USB 驱动器，然后继续。取出驱动器后，选择<strong>确定</strong>。",
+      "firstBootBody": "IDEXX VetLab Station将重启以应用更改。"
+    },
+    "restoreRebootModal": {
+      "title": "恢复数据",
+      "restoreCompleted": "恢复已完成",
+      "hematologySuccess": "校正数据恢复成功",
+      "patientDataSuccess": "宠物资料已恢复成功。",
+      "settingsDataSuccess": "用户设置已成功恢复。",
+      "hematologyFailure": "恢复失败",
+      "patientDataFailure": "宠物资料恢复失败",
+      "settingsDataFailure": "恢复用户设置时出错。",
+      "contentDataFailure": "恢复图像数据时出错。",
+      "failure": "如果需要完整恢复，请再次尝试。"
+    },
+    "notEnoughSpace": {
+      "title": "空间不足",
+      "body": "系统空间不足，无法恢复数据。请释放一些空间，然后重试。"
+    },
+    "unknownError": {
+      "title": "未知错误",
+      "body": "恢复过程中出现未知错误。请再试一次。"
+    },
+    "ssRestoreModal": {
+      "header": "发现SmartService备份",
+      "body": "找到了SmartService备份。如果恢复，您当前的患者数据和设置可能会被覆盖。可能需要重新启动。"
+    },
+    "futureSoftware": {
+      "title": "数据库恢复错误",
+      "body": "数据库来自更新版本的IDEXX VetLab Station。<linebreak/>请升级您的IDEXX VetLab Station软件或联系IDEXX支持部门请求升级。"
+    }
+  },
+  "backups": {
+    "backupError": {
+      "title": "备份错误",
+      "body": "在尝试生成备份时发生错误。请再试一次。如果无法完成备份，请联系IDEXX支持部门。"
+    },
+    "insertDrive": {
+      "title": "备份数据",
+      "body": "请插入一个 USB 驱动器，然后点击<strong>下一步</strong>继续。"
+    },
+    "selectDrive": {
+      "body": "请选择用于备份的驱动器。如果所需的驱动器未列出，请尝试另一个 USB 端口。"
+    },
+    "performBackup": {
+      "title": "备份数据",
+      "preparingBackup": "文件准备就绪后备份立即开始。",
+      "copyingBackup": "请稍候，正在复制宠物数据",
+      "copyingComplete": "备份完成。取出您的 USB 驱动器并妥善保存。"
+    },
+    "notEnoughCapacity": {
+      "title": "空间不足",
+      "body": "所选驱动器空间不足，无法进行备份。<linebreak/>请删除一些文件，或使用空间更大的驱动器重试。"
+    },
+    "notEnoughSpace": {
+      "title": "删除文件吗？",
+      "body": "需要更多空间来备份您的数据，也就是要删除这些文件。如果您想删除它们，请选择<strong>确定</strong>并继续。"
+    }
+  },
+  "upgrades": {
+    "upgradeAvailable": {
+      "title": "可进行软件升级",
+      "instructions": {
+        "SMART_SERVICE": "点击 <strong>SmartService</strong>，以安装已下载的升级版。",
+        "USB": "点击 <strong>USB</strong>，从 USB 驱动器进行升级。"
+      },
+      "buttons": {
+        "SMART_SERVICE": "SmartService",
+        "USB": "USB"
+      }
+    },
+    "ssUpgradeAvailable": {
+      "instructions": "已通过SmartService下载IDEXX VetLab Station升级版本{{ version }}。<linebreak/>点击<strong>立即升级</strong>，开始升级过程。<br/>点击<strong>稍后提醒我</strong>，可以过一段时间再升级。<linebreak/>",
+      "shutDownWarning": "警告：警告：在升级时，IDEXX VetLab Station系统将会关机。",
+      "buttons": {
+        "upgradeNow": "立即升级",
+        "remindMeLater": "稍后提醒我"
+      }
+    },
+    "driveSelection": {
+      "body": "请选择软件更新位置。如果所需的驱动器未列出，请尝试使用另一个USB端口。"
+    },
+    "noUpgrades": {
+      "title": "未找到升级文件",
+      "body": "请插入包含 IDEXX 升级文件的驱动器。"
+    },
+    "copying": {
+      "title": "升级",
+      "body": "请勿在准备升级时移除USB驱动器。"
+    },
+    "readyToUpgrade": {
+      "title": "准备升级",
+      "body": "在继续之前请移除USB驱动器。<linebreak/>在将驱动器移除后，选择<strong>确定</strong>。"
+    },
+    "upgradeLetter": {
+      "title": "升级信件",
+      "modalBody": "选择<strong>阅读</strong>，查看介绍版本特性的升级通知书。<linebreak/>选择<strong>升级</strong>继续操作。",
+      "readButton": "阅读",
+      "upgradeButton": "升级"
+    },
+    "drivesFound": {
+      "title": "移除 USB 以进行升级",
+      "firstWarning": "在继续之前<strong>必须</strong>移除USB驱动器。在将驱动器移除后，<linebreak/>选择<strong>确定</strong>。",
+      "secondWarning": "在继续之前<strong>必须</strong>移除USB驱动器。<linebreak/>要进行升级，选择<strong>确定</strong>。您的系统将重新启动。"
+    },
+    "success": {
+      "title": "升级成功",
+      "body": "升级已成功完成。"
+    },
+    "failure": {
+      "title": "升级未完成。",
+      "body": "IDEXX VetLab Station软件升级失败。请联系IDEXX技术支持部门。"
+    },
+    "instrumentUpgradeComplete": {
+      "title": "{{instrumentName}}：升级成功",
+      "body": "您的{{instrumentName}}分析仪升级成功。",
+      "procyteDxBody": "ProCyte Dx升级成功。<linebreak />使用ProCyte Dx电源开关启动分析仪。",
+      "upgradeLetterTransferSuccess": "有关升级功能的详细信息，请参见消息中心内的相关通知。",
+      "upgradeLetterTransferFail": "升级通知传送失败。欲了解更多升级功能，请联系 IDEXX 支持部门。",
+      "uriSysDxBody": "您的{{instrumentName}}升级成功。"
+    },
+    "instrumentUpgradeModal": {
+      "title": "软件升级",
+      "body": "请从{{ currentVersion }}更新到{{ newVersion }}。{{ instrumentName }}在完成升级之前无法处理样本。"
+    }
+  },
+  "settings": {
+    "categories": {
+      "SMART_SERVICE": "SmartService",
+      "VET_CONNECT_PLUS": "VetConnect PLUS",
+      "PRACTICE_MANAGEMENT": "医院管理系统",
+      "ALERTS_NOTIFICATIONS": "警报和通知",
+      "DISPLAY": "显示",
+      "LANGUAGE": "语言",
+      "PRACTICE_INFO": "医院信息",
+      "PRINTING": "打印",
+      "REPORTS": "报告",
+      "TIME_DATE": "时间与日期",
+      "UNITS": "单位"
+    },
+    "display": {
+      "title": "显示",
+      "includeOnHomeScreen": "显示在主屏幕上",
+      "includeInPatientAndOrderDetails": "显示在患宠和订单详情中",
+      "pendingList": "待测样本列表",
+      "censusList": "统计列表",
+      "doctor": "医师姓名",
+      "breed": "品种",
+      "sex": "性别",
+      "weight": "体重",
+      "reasonForTesting": "检查原因"
+    },
+    "language": {
+      "labels": {
+        "title": "语言",
+        "location": "位置"
+      }
+    },
+    "printing": {
+      "title": "打印",
+      "autoPrintSettings": "自动打印设置",
+      "autoPrintWhenComplete": "当所有项目检测完毕后自动打印结果.",
+      "doNotAutoPrintManualSNAP": "请勿自动打印手动 SNAP 结果",
+      "doNotAutoPrintSNAPPro": "请勿自动打印手动 SNAP Pro 结果",
+      "numberOfCopies": "打印张数",
+      "defaultPrinter": "默认打印机",
+      "paperFormat": "纸张格式",
+      "paperSize": {
+        "A4": "A4尺寸",
+        "LEGAL": "Legal尺寸",
+        "LETTER": "Letter尺寸"
+      },
+      "pageBreakOptions": "分页选项",
+      "naturalPageBreaks": "自然分页",
+      "clearAllPrintJobs": {
+        "button": "清除所有打印工作",
+        "confirmModal": {
+          "title": "是否清除所有打印任务？",
+          "body": "确定要清除所有排队等待<strong>{{printer}}</strong>的打印任务吗？"
+        },
+        "sucessToast": "已清除“{{printer}}”的所有打印任务"
+      }
+    },
+    "units": {
+      "labels": {
+        "title": "单位",
+        "weight": "体重",
+        "Pounds": "磅（磅）",
+        "Kilograms": "公斤（公斤）",
+        "millimeters": "毫米(mm)",
+        "millimeters_short": "毫米",
+        "centimeters": "厘米(cm)",
+        "centimeters_short": "厘米",
+        "inches": "英寸(in)",
+        "inches_short": "英寸"
+      }
+    },
+    "alertsAndNotifications": {
+      "labels": {
+        "title": "警报和通知",
+        "newResults": "新结果",
+        "showNewResultsToggleLabel": "显示新结果通知",
+        "beepToggleLabel": "当有新结果时发出“滴”的声音",
+        "timeIntervalSingleMinute": "1分钟",
+        "timeIntervalMinutes": "{{minutes}}分钟",
+        "timeIntervalSingleSecond": "1秒",
+        "timeIntervalSeconds": "{{seconds}}秒",
+        "timeIntervalNoTimeout": "不要忽略"
+      }
+    },
+    "timeAndDate": {
+      "labels": {
+        "timeAndDate": "时间与日期",
+        "dst": "夏令时",
+        "automaticallyAdjust": "自动调整",
+        "changeTimeZone": "更改时区",
+        "locationDefault": "选择用于确定时区的地点",
+        "tzDefault": "选择时区",
+        "tzDisplay": "({{ shortName }}) {{ longName }} {{ city }} ({{ currentTime }})",
+        "tzDisplayNoTime": "({{ shortName }}) {{ longName }} {{ city }}",
+        "currentTime": "当前日期/时间"
+      }
+    },
+    "confirmRestart": {
+      "title": "设置",
+      "body": "若要保存其中的一些更改，必须重新启动IDEXX VetLab Station计算机。<linebreak/>如果有样本正在任何已连接的IDEXX VetLab分析仪上接受检测，切勿重新启动计算机。<linebreak/>确定要保存更改并重新启动？",
+      "restartNow": "立即重新启动"
+    },
+    "practiceInfo": {
+      "headers": {
+        "doctorsName": "医师姓名",
+        "idexxAccountNumber": "IDEXX账号"
+      },
+      "labels": {
+        "practiceInfo": "医院信息",
+        "idexxAccountNumber": "IDEXX账号",
+        "doctor": "医师姓名",
+        "enterAccountNumber": "请输入您的IDEXX账号",
+        "enterDoctorName": "输入医师姓名",
+        "firstName": "名",
+        "lastName": "姓"
+      },
+      "confirmDeleteDoctor": {
+        "header": "删除医师",
+        "body": "确定要从列表中删除该医师？"
+      }
+    },
+    "practiceManagement": {
+      "labels": {
+        "display": "显示",
+        "practiceManagement": "医院信息管理系统",
+        "requisitionId": "申请单号",
+        "results": "检测结果",
+        "required": "必填",
+        "transmitResults": "传送结果（数据）",
+        "transmitResultsAndReports": "传送结果和报告（数据和PDF文件）"
+      },
+      "buttons": {
+        "configure": "配置",
+        "removePims": "移除PIMS"
+      },
+      "status": {
+        "disabled": "已禁用",
+        "notReady": "未待机",
+        "offline": "离线",
+        "ready": "待机"
+      },
+      "pimsRemoved": "PIMS移除成功。",
+      "donNotTransmitRecords": "不要传送过去的记录",
+      "pimsOfflineHeader": "PIMS离线",
+      "pimsOfflineBody1": "IDEXX VetLab Station无法与PIMS通信。如果不再使用此PIMS，请点击<strong>移除PIMS</strong>按钮，将其图标从主屏幕上移除。",
+      "pimsOfflineBody2": "如需更多帮助，请联系IDEXX支持部门。",
+      "requisitionIdContent": "诊室管理系统使可以使用申请单号自动匹配已完成的检测结果与患宠病历记录。",
+      "resultsNotTransmitted": "自该日期起已创建{{count}}条记录但尚未传送。",
+      "configure": {
+        "title": "配置医院管理系统",
+        "serialConnection": "序列连接",
+        "networkConnection": "网络联机",
+        "none": "无",
+        "autoConnect": "自动连接",
+        "directConnect": "直接连接",
+        "ipAddress": "IP地址：",
+        "integrationName": "完整名称："
+      },
+      "eula": {
+        "title": "IDEXX连结同意",
+        "body": "<b>用户须知：在表示接受并使用 IDEXX 连接之前，请仔细阅读本协议。</b>通过使用 IDEXX 集成，表示您和您代表的实体接受本协议的所有条款和条件。您同意本协议与您协商并正式签署的书面协议具有同等的法律约束力和可执行性。如果您不同意，请不要使用 IDEXX 集成。<br/><br/>本协议规定了我们将提供的服务条款（下文简称“<u>服务</u>”），涉及您的医院信息管理软件（下文简称“<u>PIMS</u>”）与 IDEXX Laboratories, Inc.、其关联公司或授权经销商提供的设备（如诊断仪器、实验室信息和医院管理系统、放射成像产品及相关计算机）（下文简称“<u>IDEXX 设备</u>”）之间的信息传输。本协议中，<b>我们</b>及<b>我们的</b>一词，专指 IDEXX 公司、其关联公司和授权经销商。<br/><br/><u>1.服务范围：</u>一旦您接受本协议，已安装在您的 IDEXX 设备上的软件将被激活，以允许我们与您的 PIMS 安装的软件进行通信。这种通信将使得 PIMS 能够向 IDEXX 设备发送请求以及患宠日程安排状态。并且允许将请求和可用患宠结果返回给带有必要识别信息的您的 PIMS，以便您的 PIMS 可以唯一识别并管理这些传入的结果。为了提供服务，IDEXX 设备将根据具体请求从 PIMS 请求并接收特定数据，以帮助满足请求。服务可能不适用于您拥有或使用的所有 IDEXX 产品。<br/><br/>2.<u>技术环境：</u>为了使用服务，您必须按照我们的规定，在您的 PIMS 和 IDEXX 设备之间建立网络连接。您应提供并承担 IDEXX 设备和联网费用。您应提供相应的网络连接以确保服务正常运行。<br/><br/>3.<u>有限保证</u>。我们保证服务包含在您购买 IDEXX 设备时授予您的有限保证中。请参考您购买 IDEXX 设备时的销售条款和条件，或访问我们的网站 <u>www.idexx.com</u> 了解有限保证的具体内容。我们不对您的 PIMS 性能或其对 IDEXX 设备提供的数据的解读作出任何陈述或保证。<br/><br/>4.<u>责任限制</u>。我们不对因超出我们合理控制范围的情况而未能履行本协议承担责任。在任何情况下，我们或我们的许可方均不对您或任何其他人或实体因使用本服务而造成的任何利润或使用损失、商誉损失或任何其他特殊、附带或后果性、间接、惩戒性、惩罚性或多重损害（包括但不限于商誉、数据或设备损失或业务中断）负责，无论这些损害是基于保证、合同、侵权行为还是其他原因，即使我们已被告知发生此类损害的可能性。无论是基于担保、合同、侵权行为还是其他原因，我们对本服务的全部责任不得超过 500 美元。一些司法管辖区不允许排除或限制特殊的、附带的、后果性的、间接的、惩戒性的、惩罚性的或多重的损害赔偿，也不允许将责任限制在为产品或服务支付的实际价格范围内，因此上述限制可能不适用于您。我们的有限保证赋予您特定的法律权利，您还可能拥有其他权利，这些权利因司法管辖区而异。<br/><br/>5.<u>IDEXX 数据使用：</u>您授权我们访问您医院的数据，包括包含在您数据中的任何客户数据，并将此类数据与我们获准使用的您的任何其他数据进行组合或关联，以用于 (a) 为您的医院单独提供性能和利用率分析，或与其他去标识化医院的性能和利用率分析对比；(b) 监控、故障排除、诊断和维护您的 IDEXX 设备；(c) 升级您的 IDEXX 设备软件；(d) 备份和存储您的数据；(e) 将您的数据与其他数据（包括来自其他医院的数据）整合用于研究和分析，(f) 以其他方式为您提供服务；以及 (g) 促进并维护我们的合法权利。除了向您提供服务、管理本协议、安排、收集和处理付款、遵守法律或维护我们的合法权益所必需的情况外，我们一般不会与第三方共享您的数据，除非是以去标识化的格式共享。除非得到您的特别书面许可，否则我们绝不会将您的数据提供给列表经纪人或任何希望使用这些数据与您和/或您的客户联系的其他方。本授权适用于您通过我们的 SmartService™ 智能设备管理服务提供给我们的数据，或通过将设备返还给我们进行维修或翻新，或将 CD 或其他存储设备发送给我们等其他形式提供给我们的数据。您提供给我们的任何个人资料，以及我们将会收集的资料，将主要由 IDEXX Laboratories, Inc.（地址：One IDEXX Drive, Westbrook, Maine 04092, USA）负责在美国存储，此过程将完全遵循美国相关法律及本协议的规定。我们已采取技术和组织措施，保护您的数据免遭意外或非法破坏、意外丢失、篡改、未经授权的披露或访问，并提供与数据处理风险和受保护数据性质相适应的安全级别。您同意全权负责妥善管理和控制客户的个人信息，包括但不限于事先征得客户同意向我们提供其个人信息。如果您的客户对我们或您提出投诉，或者您的客户与您或我们在管理和控制客户个人信息方面发生争议，您同意自行负责解决此类投诉或争议，并使我们免受任何损害、责任或损失，除非您合理确定我们对此类投诉或争议负有责任。我们将根据《2001 年 12 月 27 日委员会决定》附件中所载的根据第 95/46/EC 号指令将个人数据传输给在第三国/地区设立的处理商的标准合同条款（处理商）中规定的条款和条件，处理来自欧洲经济区（“EEA”）内医院的个人数据，这些条款和条件已通过引用纳入本文。<br/><br/>6.<u>适用法律；审判地；放弃陪审团审判权。</u>本协议和本协议预期进行的交易，以及双方之间根据本协议或与本协议有关的所有相关争议，无论是合同、侵权行为还是其他争议，均应受美国缅因州法律管辖，不适用法律冲突原则。如果出现与服务或本协议相关的争议，各方同意在收到通知后六十（60）天内会面，真诚尝试达成和解。如未达成和解，任何与本协议有关的争议，或由本协议引起的任何其他协议的争议，或本协议的违反、终止或无效，应根据现行国际商会仲裁规则最终解决，由根据上述规则任命的一名仲裁员裁决。仲裁程序应以英语进行，仲裁员收到或发送的所有文件也应以英语书写。<br/><br/><u>除非另有规定，仲裁地应在美国缅因州。</u><br/><br/><u>对于加拿大的医院，仲裁地应在加拿大安大略省。</u><br/><br/><u>对于欧洲经济区的医院，仲裁地应在荷兰阿姆斯特丹。</u><br/><br/>在与本协议有关的任何法律诉讼中，双方均放弃对对方提出多重、惩罚性或惩戒性损害赔偿要求。在任何情况下，仲裁员均无权裁决多重、惩罚性或惩戒性损害赔偿，无论是根据允许此类损害赔偿的法规还是其他法规，任何此类损害赔偿的主张均超出仲裁员的权限，无效且不可执行。仲裁员的裁决应为双方唯一且排他性的法定补偿，并应可在任何有管辖权的法院强制执行，只能以仲裁员欺诈或明显偏袒为由予以撤销。在此类法律行动中，胜诉方有权获得合理的法律费用和成本赔偿。尽管本协议第 6 节中含有相反规定，但各方均有权在法院（而非仲裁）对另一方或由另一方、通过另一方或在另一方领导下行事的任何人提起诉讼，以通过合同修改、具体履行、禁令或类似的公平救济方式，行使提起诉讼方在本协议下的权利。各方放弃其现在或将来可能对任何此类审判地点或此类诉讼在不方便的法庭提起的任何异议。<br/><br/>7.<u>可分割性。</u>如果有管辖权的法院认定本协议的任何条款在任何方面无效或不可执行，则其余条款的有效性和可执行性不受影响或损害，并且您和我们同意用可执行的有效安排取代该无效或不可执行的条款，该安排的经济效果应尽可能接近无效或不可执行的条款。<br/><br/>8.<u>其他条款。</u>您同意未经我们事先书面许可，不得将本协议或 IDEXX 设备或服务（无论是通过股票购买、合并、业务转让、法律运作或其他方式）转让给其他任何人，任何此类尝试性转让均为无效。本协议构成我们之间就其主题事项达成的完整协议，并取代我们之前就其主题事项达成的任何口头或书面协议。本协议只能通过 IDEXX 向您提供的修正案进行修改。当我们进行修改时，我们会提前通知您，您继续使用服务即表示您接受这些修改。我们任何一方在要求对方履行本协议项下义务或行使我们的任何权利时的延迟或疏忽，并不构成对这些权利的放弃，也不会妨碍未来行使这些权利。<br/><br/>9.<u>协议副本。</u>您可以联系 IDEXX 支持部门获取本协议的纸质副本，联系方式请参见您收到的 IDEXX 设备随附文件。<br/><br/>10.<u>约定的官方语言。</u>本协议的任何译本仅用于满足当地要求。如英文版与任何非英文版之间发生争议，一切问题的解释均应以本协议的原始英文版为准。根据本协议交付或提供的任何其他文件，包括通知，可以使用英文。"
+      }
+    },
+    "vcp": {
+      "buttons": {
+        "connect": "立即连接",
+        "disconnect": "断开连接",
+        "testConnection": "测试连接"
+      },
+      "labels": {
+        "vcp": "IDEXX VetConnect PLUS",
+        "howHelp": "VetConnect PLUS将为您提供哪些帮助？",
+        "info": "还没有帐户？请致电IDEXX支持部门开通帐户。"
+      },
+      "testConnection": {
+        "title": "测试连接",
+        "success": "测试成功。",
+        "failure": "测试失败。"
+      },
+      "disconnect": {
+        "title": "断开VetConnect PLUS连接",
+        "body": "确定要断开IDEXX VetConnect PLUS帐户与IDEXX VetLab Station的连接？",
+        "disconnect": "断开连接",
+        "stayConnected": "保持连接"
+      },
+      "activate": {
+        "directions": "若要连接，请在下方输入VetConnect PLUS用户名和密码。",
+        "activationError": "激活出错",
+        "success": "您的账号已成功激活。",
+        "NOT_REACHABLE": "因网页无法访问，VetConnect PLUS未激活成功。<linebreak />请确认已联网并且网络可正常使用。<linebreak />确保IDEXX VetLab Station已正确连接到路由器，并且路由器已连接网络。<linebreak />如需帮助，请联系IDEXX支持部门。",
+        "INVALID_USER_PASSWORD": "因用户名和/或密码无效，VetConnect PLUS未激活成功。<linebreak />请确认您帐户的用户名和密码正确，然后重试。<linebreak />如需帮助，请联系IDEXX支持部门。"
+      },
+      "cards": {
+        "advancedDiagnostics": {
+          "title": "高级诊断：",
+          "body": "全面了解每例患者的所有 IDEXX 诊断信息。"
+        },
+        "clinicalInsights": {
+          "title": "临床见解",
+          "body": "借助IDEXX DecisionIQ™减少确定后续步骤所需的时间。"
+        },
+        "saveTime": {
+          "title": "节省时间",
+          "body": "向患宠主人提供便于其理解的诊疗汇总，规范与患宠主人的交流。"
+        }
+      }
+    },
+    "smartService": {
+      "status": {
+        "NOT_ACTIVATED": "未激活",
+        "DISABLED": "已禁用",
+        "OFFLINE": "离线",
+        "CONNECTED": "已启用",
+        "CONNECTING": "连接中"
+      },
+      "deactivateModal": {
+        "title": "停用SmartService",
+        "body": "您确定要停用SmartService吗?"
+      },
+      "buttons": {
+        "activate": "启动",
+        "deactivate": "停用",
+        "terms": "服务条款"
+      },
+      "blurb": {
+        "offlineBlurb": "要重新建立连接：<br/><br/>1.确认您诊所的网络连接正常。<br/>2.通过检查以下两个连接，确保IDEXX VetLab Station已正确连接上随附的IDEXX路由器，并且路由器已接入您诊所的网络：<br/> <ul><li>a.确保您诊所网络的网线已连接上随附的IDEXX路由器。</li><li>b.确保一根网线从IDEXX VetLab Station计算机的背面连接到随附的IDEXX路由器。</li></ul>3.使用下面的按钮来<strong>重启</strong>您的IDEXX VetLab Station。<br/><br/>如果您的连接仍离线，请联系IDEXX支持部门。<br/>"
+      },
+      "labels": {
+        "smartService": "IDEXX SmartService™",
+        "howHelp": "IDEXX SmartService 对您有何帮助？"
+      },
+      "activate": {
+        "activationError": "激活出错",
+        "success": "SmartService已激活！"
+      },
+      "cards": {
+        "Support": {
+          "title": "主动支持",
+          "body": "使用远程故障排除，节省您的通话时间，让您有更多的时间治疗患病动物。"
+        },
+        "Backup": {
+          "title": "数据备份保护",
+          "body": "对所有病历应用端到端加密，让您无安全之忧。"
+        },
+        "UpToDate": {
+          "title": "保持更新",
+          "body": "延长设备正常运行时间，并实现软件自动更新。"
+        }
+      },
+      "termsModal": {
+        "title": "服务条款",
+        "titleActivate": "Activate SmartService™",
+        "instructions": "请扫描相应的二维码，查看IDEXX SmartService™服务条款。",
+        "uslabel": "美国及加拿大",
+        "otherLocations": "所有其他地点",
+        "smartServiceTerms": "请在One IDEXX主条款内查看SmartService条款。"
+      }
+    },
+    "reports": {
+      "title": "报告",
+      "editReportHeader": "编辑报告标题",
+      "labels": {
+        "testResultsOrder": "检测结果排序",
+        "testResultsFormat": "检测报告格式",
+        "englishAssayNames": "在检测结果报告及屏幕显示中使用英文检测名称。",
+        "outOfRange": "检测结果超出检测范围",
+        "highResults": "数据结果高于 检测上限",
+        "lowResults": "检测结果低于 检测下限",
+        "messageCodes": "信息代码",
+        "resultsBasedComments": "启用基于结果的评论",
+        "printDotPlots": "打印散点图及患宠检测结果",
+        "abnormalResults": "异常结果"
+      },
+      "editHeader": {
+        "title": "编辑标题"
+      },
+      "colors": {
+        "Black": "黑色",
+        "Blue": "蓝色",
+        "Red": "红色",
+        "Green": "绿色"
+      },
+      "resultsOrder": {
+        "OrganCellType": "器官/细胞类型",
+        "Standard": "标准"
+      },
+      "reportFormat": {
+        "Enhanced": "长报告",
+        "Standard": "标准"
+      },
+      "hematologyCodes": {
+        "FullText": "全文",
+        "Short": "缩写"
+      },
+      "header": {
+        "printHeader": "打印报告标题",
+        "blankLines": "为信头留出的空白行",
+        "dontPrint": "无标题",
+        "lineOne": "第一行",
+        "lineTwo": "第二行",
+        "lineThree": "第三行"
+      }
+    }
+  },
+  "theia": {
+    "sampleSource": {
+      "LEFT_EAR": "左耳",
+      "RIGHT_EAR": "右耳"
+    },
+    "clinicalSigns": {
+      "label": "临床症状",
+      "ITCHINESS": "瘙痒",
+      "ODOR": "异味",
+      "REDNESS": "发红",
+      "DISCHARGE": "分泌物"
+    },
+    "optionalClinicalSigns": {
+      "label": "中耳炎的症状",
+      "subLabel": "（例如不适、异味、红肿、有分泌物）"
+    }
+  },
+  "boot": {
+    "language": {
+      "selectLanguage": "选择语言",
+      "selectLocation": "选择位置"
+    },
+    "timeZone": {
+      "header": "选择您的位置和时区",
+      "instructions": "确保您的时区选择准确。时区不准确可能导致历史和未来记录中显示的时间不准确。"
+    },
+    "smartService": {
+      "header": "激活SmartService",
+      "whyActivate": "激活IDEXX SmartService，以获得主动客户支持、安全数据备份和自动软件更新。"
+    },
+    "restore": {
+      "header": "想要恢复数据？"
+    },
+    "restart": {
+      "header": "重启以保存设置",
+      "body": "点击<strong>立即重启</strong>或30秒后让您的IDEXX VetLab Station自动重启。",
+      "restarting": "正在重启"
+    },
+    "welcome": {
+      "title": "欢迎使用IDEXX VetLab Station！"
+    },
+    "ssEula": {
+      "title": "协议通知",
+      "body": "IDEXX SmartService™服务条款已变更。请查看并做出选择。<linebreak/>不接受这些变更会导致以下服务中断或禁用：<shortlinebreak/><ul><li>实时故障排除或软件部署</li><li>积极主动</li><li>通过程序点的补偿</li><li>自动装运SediVue Dx和ProCyte One耗材</li></ul>"
+    }
+  },
+  "referenceClass": {
+    "Adult Canine": "成犬",
+    "Adult Equine": "成马",
+    "Adult Feline": "成猫",
+    "African Gray": "非洲灰",
+    "Amazon Blue-Feather": "亚马逊蓝羽",
+    "Amazon Yellow": "亚马逊蓝羽",
+    "Beef Cattle": "肉牛",
+    "Budgerigar": "虎皮鹦鹉",
+    "Canary": "金丝雀",
+    "Cockatiel": "鸡尾鹦鹉",
+    "Cockatoo Molu": "朱鹭冠",
+    "Cockatoo Umber": "大白",
+    "Conure": "锥尾鹦鹉",
+    "Dairy Cow": "乳牛",
+    "Ferret": "貂",
+    "Foal": "仔马",
+    "Geriatric Canine": "老犬",
+    "Geriatric Equine": "老马",
+    "Geriatric Feline": "老猫",
+    "Goat": "山羊",
+    "Gray Cheek": "绣眼画眉",
+    "Kitten": "幼猫",
+    "Lizard": "蜥蜴",
+    "Llama": "羊驼",
+    "Macaw Blue and Gold": "蓝黄金刚鹦鹉",
+    "Macaw Hyacinth": "紫蓝金刚鹦鹉",
+    "Macaw Scarlet": "绯红金刚鹦鹉",
+    "Mare at Stud": "母种马",
+    "Monkey": "猴子",
+    "Mouse": "老鼠",
+    "No Control": "无对照组",
+    "Other": "其它",
+    "Parrot Eclect": "Eclect鹦鹉",
+    "Pig": "猪",
+    "Puppy": "幼犬",
+    "Rabbit": "兔",
+    "Rat": "大鼠",
+    "Sea Turtle": "海龟",
+    "Sheep": "绵羊",
+    "Snake": "蛇",
+    "Tortoise": "陆龟",
+    "Unknown": "未知",
+    "Yearling": "周岁马"
+  },
+  "smartService": {
+    "offlineNotificationModal": {
+      "secondaryHeader": "SmartService",
+      "header": "进行连接",
+      "offlineForDays": "SmartService已离线{{ daysOffline }}天。"
+    },
+    "reconnectionInstructions": "要重新建立连接：<shortlinebreak /><ol><li>请确认医院网络已正确连接并且运行正常。</li><li>确保一根网线正确地将贵院的网络设备连接到IDEXX提供的路由器。</li><li>确保一根网线正确地从IDEXX VetLab Station计算机的背面连接到IDEXX提供的路由器。</li><li>确认连接的分析仪均未处于进行中状态。然后拔下IDEXX提供的路由器电源插头15-30秒后，重新启动路由器。整个过程大约需要<strong>5分钟</strong>。</li><li>路由器完成重启后，请使用下面的按钮<strong>重启</strong>您的IDEXX VetLab Station。</li></ol>如果连接未恢复，请联系IDEXX技术支持部门。"
+  },
+  "helpScreen": {
+    "sideBarTitle": "帮助和资源",
+    "instrumentModal": {
+      "title": "手册和资源",
+      "instructions": "访问{{ instrumentName }}手册、快速参考指南、样本制备海报等资料信息。"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+name: Update IVLS E2E Runner
+
+on:
+  schedule:
+    - cron: "0 */2 * * *"
+  workflow_dispatch:
+
+permissions:
+  id-token: write
+  checks: write
+  contents: read
+
+jobs:
+  e2e-automation:
+    runs-on: [self-hosted, ivls-e2e]
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Check for update
+        run: |
+          .github\workflows\scripts\ivls-install-updater.ps1

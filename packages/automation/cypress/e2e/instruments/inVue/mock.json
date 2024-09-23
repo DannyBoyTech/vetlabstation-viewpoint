@@ -1,0 +1,145 @@
+{
+  "source_data": {
+    "ivls": {
+      "ivls_locale": null,
+      "ivls_serial_number": null,
+      "ivls_software_version": null,
+      "sap_id": null,
+      "invue_dx_analyzer_version": null,
+      "invue_dx_decisioniq_file": null,
+      "invue_dx_diagnostic_set_id": null,
+      "invue_dx_instrument_run_uuid": null,
+      "invue_dx_instrument_timestamp": null,
+      "invue_dx_serial_number": null,
+      "hematology_analyzer": null,
+      "hematology_analyzer_version": null,
+      "hematology_diagnostic_set_id": null,
+      "hematology_instrument_run_uuid": null,
+      "hematology_instrument_serial_number": null,
+      "fcs_red": null,
+      "fcs_white": null
+    },
+    "instrument": {}
+  },
+  "response_data": {
+    "response_code": 200,
+    "response_message": "Clinical Intelligence Rules Engine ran successfully!",
+    "result_status": "SUCCESS"
+  },
+  "results": [
+    {
+      "qualifier": null,
+      "assay_code": "RBC_BLD",
+      "abnormal_flag": false,
+      "result_reportable": true,
+      "result_type": "numeric",
+      "result_value": "34.4",
+      "result_text": "",
+      "result_key": "",
+      "result_args": null,
+      "result_units": "M/μL",
+      "reference_very_low_number": 0.0,
+      "reference_low_number": 10.0,
+      "reference_high_number": 50.0,
+      "reference_very_high_number": 100.0,
+      "footnotes": [
+        {
+          "key": "RESULT_FOOTNOTE_1",
+          "text": "Result Footnote 1"
+        }
+      ]
+    },
+    {
+      "qualifier": null,
+      "assay_code": "RBC_SPH",
+      "abnormal_flag": false,
+      "result_reportable": true,
+      "result_type": "text",
+      "result_value": "",
+      "result_text": "{count}% (Mild)",
+      "result_key": "RBC_SPH_1",
+      "result_args": [
+        {
+          "key": "count",
+          "value": "50"
+        }
+      ],
+      "result_units": "",
+      "reference_very_low_number": null,
+      "reference_low_number": null,
+      "reference_high_number": null,
+      "reference_very_high_number": null,
+      "footnotes": [
+        {
+          "key": "RESULT_FOOTNOTE_2",
+          "text": "Result Footnote 2"
+        }
+      ]
+    },
+    {
+      "qualifier": null,
+      "assay_code": "RBC_ECC",
+      "abnormal_flag": false,
+      "result_reportable": true,
+      "result_type": "text",
+      "result_value": "",
+      "result_text": "{start}-{end}% (Moderate)",
+      "result_key": "RBC_ECC_1",
+      "result_args": [
+        {
+          "key": "start",
+          "value": "10"
+        },
+        {
+          "key": "end",
+          "value": "20"
+        }
+      ],
+      "result_units": "",
+      "reference_very_low_number": null,
+      "reference_low_number": null,
+      "reference_high_number": null,
+      "reference_very_high_number": null,
+      "footnotes": [
+        {
+          "key": "RESULT_FOOTNOTE_2",
+          "text": "Result Footnote 2"
+        }
+      ]
+    },
+    {
+      "qualifier": null,
+      "assay_code": "EEE_EEE",
+      "abnormal_flag": false,
+      "result_reportable": true,
+      "result_type": "text",
+      "result_value": "",
+      "result_text": "{start}-{end}% (Moderate)",
+      "result_key": "EEE_EEE_1",
+      "result_args": null,
+      "result_units": "",
+      "reference_very_low_number": null,
+      "reference_low_number": null,
+      "reference_high_number": null,
+      "reference_very_high_number": null,
+      "footnotes": null
+    }
+  ],
+  "diagnostic_considerations": [
+    {
+      "key": "DIAGNOSTIC_CONSIDERATION_1",
+      "text": "Diagnostic Consideration 1"
+    }
+  ],
+  "image_modifier_data": {
+    "crops": [
+      {
+        "filename": "225af2a9-b1c0-4d1d-873b-c8dad3e49c55-VIOLO.png",
+        "imageUuid": "225af2a9-b1c0-4d1d-873b-c8dad3e49c55",
+        "classification": "heinz_body",
+        "classificationProb": "0.76"
+      }
+    ],
+    "fovs": null
+  }
+}

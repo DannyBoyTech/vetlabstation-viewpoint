@@ -1,0 +1,74 @@
+name: Update Differentials
+
+on:
+  workflow_dispatch: # allow manual triggering
+  schedule:
+    - cron: "30 10 * * 1-5" # check on weekdays @ 10:30
+
+permissions:
+  id-token: write
+  contents: write
+  packages: read
+  pull-requests: write
+
+jobs:
+  update-differentials:
+    runs-on: "ubuntu-22.04"
+
+    steps:
+      - name: checkout project
+        uses: actions/checkout@v2
+
+      - name: setup nodejs lts/hydrogen (18.x)
+        uses: actions/setup-node@v2
+        with:
+          node-version: lts/hydrogen
+
+      - name: update npm
+        run: npm install -g npm@10.2.3
+
+      # setup private repo w/ gh encrypted secrets
+      - run: >
+          npm config set
+          '@idexx:registry'
+          'https://npm.pkg.github.com'
+
+      - run: >
+          npm config set
+          '//npm.pkg.github.com/:_authToken'
+          "${{ secrets.GITHUB_TOKEN }}"
+
+      - run: >
+          npm config set
+          '//npm.pkg.github.com/:email'
+          "viewpoint@idexx.com"
+
+      - name: install all npm dependencies (based on lockfile)
+        run: npm ci --workspaces --include-workspace-root
+
+      - name: configure AWS credentials for goldlist download
+        uses: aws-actions/configure-aws-credentials@v4.0.2
+        with:
+          role-to-assume: arn:aws:iam::639716160505:role/viewpoint-goldlist
+          aws-region: us-east-1
+
+      - name: create temp directory for goldlist data
+        run: echo "GL_DATA_DIR=$(mktemp -d)" >> "$GITHUB_ENV"
+
+      - name: download latest DxD goldlist data
+        run: aws s3 cp s3://viewpoint-goldlist/gold_list.zip "${GL_DATA_DIR}/gold_list.zip"
+
+      - name: apply differential updates
+        run: |
+          cd packages/differentials
+          npm run differentials -- "${GL_DATA_DIR}/gold_list.zip" "$GITHUB_WORKSPACE"
+
+      - name: create pull request (if required)
+        uses: peter-evans/create-pull-request@v6.0.4
+        with:
+          commit-message: Update differentials
+          title: Update differentials
+          branch: auto/update-differentials
+
+      - name: remove temp directory and goldlist data
+        run: rm -rf "$GL_DATA_DIR"

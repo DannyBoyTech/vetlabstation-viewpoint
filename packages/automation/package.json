@@ -1,0 +1,45 @@
+{
+  "name": "@viewpoint/automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "@cypress/webpack-preprocessor": "5.17.1",
+    "@reportportal/agent-js-cypress": "^5.3.1",
+    "@testing-library/cypress": "9.0.0",
+    "@types/faker": "5.5.3",
+    "@types/node-ipc": "9.1.1",
+    "@viewpoint/test-utils": "^1.0.0",
+    "cypress": "12.17.2",
+    "dayjs": "1.11.6",
+    "faker": "5.5.3",
+    "typescript": "4.8.2"
+  },
+  "scripts": {
+    "clean": "rimraf node_modules",
+    "cypress:open": "cypress open",
+    "cypress:ui": "export AUTOMATION_SUITE=UI;cypress run",
+    "cypress:e2e": "export AUTOMATION_SUITE=E2E;cypress run",
+    "cypress:exports": "export AUTOMATION_SUITE=EXPORTS;cypress run",
+    "cypress:install": "cypress install",
+    "tsc": "tsc",
+    "build:check": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IDEXX/viewpoint.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IDEXX/viewpoint/issues"
+  },
+  "homepage": "https://github.com/IDEXX/viewpoint#readme",
+  "dependencies": {
+    "chai-colors": "1.0.1",
+    "cypress-terminal-report": "^5.3.12",
+    "cypress-wait-until": "^3.0.2",
+    "node-fetch": "2.6.7",
+    "xml-js": "1.6.11"
+  }
+}

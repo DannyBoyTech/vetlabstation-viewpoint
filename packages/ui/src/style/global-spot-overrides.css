@@ -1,0 +1,211 @@
+/**
+ * global IDEXX Spot (spot.idexxi.com) design system overrides
+ */
+
+/** begin: don't use a different background color on hover for selected items in data table **/
+.spot-data-table--clickable .spot-data-table__row--clicked:hover,
+.spot-data-table--clickable .spot-data-table__row--clicked:hover,
+.spot-container--light-primary
+  .spot-data-table--clickable
+  .spot-data-table__row--clicked:hover {
+  background-color: #f0f0f0;
+}
+
+.spot-data-table--clickable :not(.spot-data-table__row--clicked):hover,
+.spot-data-table--clickable :not(.spot-data-table__row--clicked):hover,
+.spot-container--light-primary
+  .spot-data-table--clickable
+  :not(thead)
+  :not(.spot-data-table__row--clicked):hover {
+  background-color: inherit;
+}
+
+.spot-data-table--clickable .spot-data-table__row--clicked:hover,
+.spot-data-table--clickable .spot-data-table__row--clicked:hover,
+.spot-container--dark-primary
+  .spot-data-table--clickable
+  .spot-data-table__row--clicked:hover {
+  background-color: #3f434a;
+}
+
+.spot-data-table--clickable :not(.spot-data-table__row--clicked):hover,
+.spot-data-table--clickable :not(.spot-data-table__row--clicked):hover,
+.spot-container--dark-primary
+  .spot-data-table--clickable
+  :not(thead)
+  :not(.spot-data-table__row--clicked):hover {
+  background-color: inherit;
+}
+
+.spot-data-table.spot-data-table thead tr:hover {
+  background-color: #ffffff;
+}
+
+/** end: don't use a different background color on hover for selected items in data table **/
+
+/* begin: disable hover decoration for links */
+.spot-link.spot-link--hover:hover,
+.spot-link:hover,
+.spot-button--link:hover,
+.spot-di__header > a:hover {
+  text-decoration: none;
+}
+
+/* end: disable hover decoration for links */
+
+/* begin: disable hover color on list items */
+.spot-list-group__link:hover.spot-list-group__link:hover {
+  background-color: unset;
+}
+
+/* end: disable hover color on list items */
+
+/* begin: add disabled styling to spot toggles */
+.spot-container--light-primary
+  .spot-toggle:disabled
+  + .spot-toggle-label:before {
+  background-color: #bcbdbc;
+  border-color: #bcbdbc;
+}
+
+.spot-container--light-primary .spot-toggle:disabled + .spot-toggle-label {
+  color: #bcbdbc;
+}
+
+.spot-container--dark-primary
+  .spot-toggle:disabled
+  + .spot-toggle-label:before {
+  background-color: #5d6066;
+  border-color: #5d6066;
+}
+
+¬ .spot-container--dark-primary .spot-toggle:disabled + .spot-toggle-label {
+  color: #5d6066;
+}
+
+/* end: add disabled styling to spot toggles */
+
+/* begin: don't show SPOT header over slide-out and modals */
+.spot-header {
+  z-index: unset;
+}
+
+/* end: don't show SPOT header over slide-out and modals */
+
+/* begin: disable hover color for spot buttons */
+
+.spot-container--light-primary .spot-button--primary:not([disabled]):hover {
+  background-color: #0969d9;
+  border-color: #0969d9;
+}
+
+.spot-container--light-primary .spot-button--secondary:not([disabled]):hover {
+  background-color: #ffffff;
+}
+
+.spot-container--dark-primary .spot-button--primary:not([disabled]):hover {
+  background-color: #0969d9;
+  border-color: #0969d9;
+}
+
+.spot-container--dark-primary .spot-button--secondary:not([disabled]):hover {
+  background-color: #31353d;
+}
+
+/* end: disable hover color for spot buttons */
+
+/* begin: don't let spot-text override toast color */
+.spot-message .spot-typography__text--paragraph,
+.spot-message .spot-typography__text--secondary,
+.spot-message .spot-typography__text--tertiary,
+.spot-message .spot-typography__heading--level-1,
+.spot-message .spot-typography__heading--level-2,
+.spot-message .spot-typography__heading--level-3,
+.spot-message .spot-typography__heading--level-4,
+.spot-message .spot-typography__heading--level-5,
+.spot-message .spot-typography__font-weight--bold {
+  color: inherit;
+}
+
+/* end: don't let spot-text override toast color */
+
+/* begin: disable hover color for inactive button groups buttons */
+
+.spot-container--light-primary
+  .spot-button-group-toggle
+  label:hover:not(:active) {
+  background-color: #ffffff;
+}
+
+.spot-container--dark-primary
+  .spot-button-group-toggle
+  label:hover:not(:active) {
+  background-color: #31353d;
+}
+
+/* end: disable hover color for inactive button groups buttons */
+
+/* begin: add spacing between toast messages, remove fixed width */
+.toast-container--top-left,
+.toast-container--top-right,
+.toast-container--bottom-left,
+.toast-container--bottom-right {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px;
+  width: unset;
+  max-width: 425px;
+}
+
+.spot-toast {
+  width: fit-content;
+}
+
+/* end: add spacing between toast messages, remove fixed width */
+
+/* begin: use interactive icon color by default for toast message */
+.spot-toast .icon-tab .spot-icon {
+  fill: #0969d9;
+}
+
+/* end: use interactive icon color by default for toast message */
+
+/* begin: hide overflow in message content to allow for text ellipsizing */
+.spot-toast .message--content {
+  overflow: hidden;
+}
+
+/* end: hide overflow in message content to allow for text ellipsizing */
+
+/* begin: prevent under-sizing of spot-modal__titles */
+.spot-modal__title::before {
+  display: none;
+}
+
+.spot-modal__title::after {
+  display: none;
+}
+
+/* end: prevent under-sizing of spot-modal__titles */
+
+/* begin: override background color for dropdowns */
+.spot-container--dark-primary .spot-form__select-input {
+  background-color: #31353d;
+  z-index: unset;
+}
+
+.spot-container--dark-secondary .spot-form__select-input {
+  background-color: #3f434a;
+  z-index: unset;
+}
+
+.spot-container--dark-primary .spot-form__select-inner,
+.spot-container--dark-primary .spot-form__select-open-indicator,
+.spot-container--dark-secondary .spot-form__select-inner,
+.spot-container--dark-secondary .spot-form__select-open-indicator {
+  background-color: transparent;
+  pointer-events: none;
+}
+
+/* end: override background color for dropdowns */

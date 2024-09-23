@@ -1,0 +1,28 @@
+{
+  "name": "@viewpoint/app-win7",
+  "version": "1.0.147",
+  "description": "Shell build config for building against Windows 7. Copies the compiled script from the normal app distributable and builds an Electron 22 (Win7-supported) version of the app.",
+  "main": "build/main.js",
+  "scripts": {
+    "start": "export DOTENV_CONFIG_PATH=\"../server/.env\"; electron-forge start",
+    "package": "electron-forge package",
+    "make:win32": "rimraf out && electron-forge make --arch=ia32 --platform=win32",
+    "premake:win32": "copyfiles -V -f -E ../app/.vite/build/* build",
+    "postmake:win32": "rimraf build"
+  },
+  "author": "",
+  "license": "ISC",
+  "config": {
+    "forge": "./forge-config.js"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "6.4.2",
+    "@electron-forge/maker-zip": "6.4.2",
+    "copyfiles": "2.4.1",
+    "electron": "22.3.27",
+    "rimraf": "5.0.5"
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "1.0.0"
+  }
+}

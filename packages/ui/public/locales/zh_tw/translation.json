@@ -1,0 +1,3573 @@
+{
+  "DeviceType": {
+    "Chemistry": "生化檢驗項目",
+    "Coagulation": "凝血",
+    "Hematology": "血液學",
+    "Immunoassay": "SNAP",
+    "Unknown": "未知",
+    "Urinalysis": "尿液分析",
+    "Cytology": "細胞學檢查",
+    "Pathology": "病理"
+  },
+  "Species": {
+    "Alpaca": "羊駝",
+    "Avian": "禽類",
+    "Bovine": "牛",
+    "Camel": "駱駝",
+    "Canine": "犬",
+    "Control": "品管液",
+    "Dolphin": "海豚",
+    "Equine": "馬",
+    "Feline": "貓",
+    "Ferret": "貂",
+    "Gerbil": "沙鼠",
+    "Goat": "山羊",
+    "Guinea pig": "天竺鼠",
+    "Hamster": "倉鼠",
+    "LaserCyteControl": "LaserCyteControl",
+    "Lizard": "蜥蜴",
+    "Llama": "羊駝",
+    "Mini Pig": "迷你豬",
+    "Monkey": "猴子",
+    "Mouse": "老鼠",
+    "Other": "其他",
+    "Pig": "豬",
+    "Rabbit": "兔",
+    "Rat": "大鼠",
+    "Sea Turtle": "海龜",
+    "Sheep": "綿羊",
+    "Snake": "蛇",
+    "Tortoise": "陸龜",
+    "Unknown": "未知"
+  },
+  "messagesScreen": {
+    "header": "訊息中心",
+    "title": "訊息",
+    "category": "類別",
+    "subject": "主旨",
+    "received": "已接收",
+    "markAsUnread": "標記為未讀取",
+    "confirmDeleteMessage": {
+      "title": "刪除訊息",
+      "areYouSure": "是否要刪除此訊息？"
+    }
+  },
+  "searchPatient": {
+    "addNew": "新增",
+    "addNewClient": "新增畜主",
+    "addPatient": "新增動物患者",
+    "back": "上一步",
+    "clientId": "病歷號碼",
+    "edit": "編輯",
+    "existingClients": "現有畜主：",
+    "header": "動物患者搜尋",
+    "instructionsAddPatient": "搜尋現有動物或新增新的動物",
+    "lastName": "姓",
+    "lastSevenDays": "最近 7 天",
+    "lastThirtyDays": "最近 30 天",
+    "mostRecentResults": "最新報告",
+    "next": "下一步",
+    "noResults": "依您的搜尋內容找不到動物",
+    "patientName": "動物名",
+    "recordsSearch": "紀錄搜尋",
+    "stat": "急作",
+    "view": "瀏覽"
+  },
+  "home": {
+    "labels": {
+      "pending": "待驗檢體 ({{ count }})",
+      "census": "所有檢體 ({{ count }})",
+      "inProcess": "進行中 ({{ count }})",
+      "results": "檢驗結果 ({{ count }})"
+    },
+    "buttons": {
+      "analyzeSample": "檢驗檢體",
+      "recordsSearch": "紀錄搜尋"
+    },
+    "pendingList": {
+      "viewPending": "檢視待驗檢體 ({{ count }})",
+      "viewCensus": "檢視所有檢體 ({{ count }})",
+      "delete": "刪除",
+      "searchPlaceholder": "依名稱搜尋"
+    },
+    "patientMatch": {
+      "title": "找到建議的符合項目",
+      "instructions": "<strong>協助我們確認這些紀錄是否為相符的項目。</strong><linebreak/>請自建議的相符項目中選擇或是建立新紀錄。",
+      "currentRecord": "目前的紀錄",
+      "suggestedMatch": "建議的符合項目 {{ matchNumber }}/{{ totalMatches }}",
+      "confirmation": {
+        "title": "比對紀錄",
+        "body": "比對這些紀錄會覆寫這名動物患者在 IDEXX VetLab Station 中的詳細資料，取而代之的是源自醫院管理軟體的詳細資料。<linebreak/><strong>要復原這項操作並不容易。</strong><linebreak/>您確定這些紀錄屬於同一名動物患者嗎？"
+      },
+      "table": {
+        "patient": "動物患者",
+        "species": "種別",
+        "breed": "品種",
+        "sex": "性別",
+        "age": "年齡",
+        "clientFirst": "畜主名字",
+        "clientLast": "畜主姓氏"
+      },
+      "buttons": {
+        "createNew": "新建",
+        "match": "符合"
+      }
+    }
+  },
+  "instrumentScreens": {
+    "general": {
+      "qcLots": "品管批號",
+      "buttons": {
+        "addQCLot": "新增品管批號",
+        "maintenance": "維護",
+        "diagnostics": "診斷模式",
+        "eventLog": "事件紀錄",
+        "idexxUseOnly": "僅限 IDEXX 使用",
+        "removeInstrument": "移除儀器",
+        "settings": "設定",
+        "shutDown": "關機",
+        "runQC": "執行品管",
+        "changeQC": "更換品管",
+        "viewLotResults": "檢視批號結果",
+        "viewAllQCResults": "檢視所有品管結果",
+        "viewQCResults": "檢視品管結果",
+        "viewQCLotInfo": "檢視品管批號訊息",
+        "viewResults": "檢視結果",
+        "qualityControl": "品管",
+        "clean": "清潔",
+        "calibrate": "校正",
+        "print": "列印",
+        "printAll": "全部列印",
+        "powerDown": "斷電",
+        "powerOn": "開機",
+        "restart": "重新啟動",
+        "smartQC": "SmartQC"
+      },
+      "labels": {
+        "lastConnected": "最近連線",
+        "settings": "設定",
+        "system": "系統",
+        "softwareVersion": "軟體版本",
+        "vpSoftwareVersion": "客戶端版本",
+        "serialNumber": "序號",
+        "ipAddress": "IP位址",
+        "qcLot": "品管批號",
+        "qcType": "品管類型",
+        "expirationDate": "有效日期",
+        "mostRecentResults": "最新報告",
+        "maintenance": "維護"
+      }
+    },
+    "smartQc": {
+      "title": "{{ instrumentName }} SmartQC",
+      "button": {
+        "runSmartQc": "執行 SmartQC"
+      },
+      "label": {
+        "smartQc": "SmartQC",
+        "analyzerSerialNumber": "分析儀：{{ serialNumber }}"
+      },
+      "table": {
+        "runTime": "操作時間",
+        "result": "結果"
+      },
+      "result": {
+        "PASS": "合格",
+        "OUT_OF_RANGE": "超出範圍"
+      },
+      "chemistry": {
+        "reminder": {
+          "title": "清潔與 SmartQC 提醒",
+          "body": "請清潔您的 {{ analyzerName }} 生化分析儀並執行 SmartQC。",
+          "sendReminder": "傳送提醒間隔：每",
+          "weeks": "週的"
+        }
+      }
+    },
+    "maintenance": {
+      "title": "{{ instrumentName }} 維護"
+    },
+    "diagnostics": {
+      "title": "{{ instrumentName }} 診斷模式"
+    },
+    "lotEntry": {
+      "title": "{{ instrumentName }} 批號輸入",
+      "selectType": "選取耗材類型",
+      "enter": "輸入批號或條碼",
+      "error": "輸入的編號無效。請再試。"
+    },
+    "system": {
+      "title": "IDEXX VetLab Station",
+      "labels": {
+        "advanced": "進階設定",
+        "backupData": "資料備份",
+        "restoreData": "資料回存",
+        "upgradeSoftware": "軟體升級",
+        "systemInfo": "系統訊息",
+        "hardware": "硬體",
+        "data": "資料",
+        "software": "軟體"
+      },
+      "advanced": {
+        "applyChanges": "套用變更",
+        "dnsServer": "DNS 伺服器",
+        "gateway": "預設通道",
+        "localIpAddress": "區域 IP 位址",
+        "networkAccessTest": "網路連線測試",
+        "networkIpAddress": "網路 IP 位址",
+        "routerConfiguration": "路由器設定",
+        "subnetMask": "子網路遮罩",
+        "wanIpConfig": "WAN IP",
+        "wanIpAddress": "IP位址",
+        "ping": "Ping",
+        "applyIDEXXDefaults": "套用 IDEXX 預設值",
+        "pingModal": {
+          "title": "網路連線測試",
+          "resultMessage": "Ping {{ip}} ... {{result}}",
+          "success": "成功。",
+          "failure": "失敗。"
+        },
+        "configStatusModal": {
+          "title": "路由器設定",
+          "pleaseWait": "套用設定中，請稍後。",
+          "successMessage": "操作成功",
+          "failureMessage": "配置不成功"
+        },
+        "rebootConfirmModal": {
+          "title": "警告",
+          "content": "在您點選「套用」後，儀器會中斷連線，且會重設路由器。路由器重設最久約需三分鐘，也會重新啟動 IDEXX VetLab Station。"
+        },
+        "wanIpChoice": {
+          "UNKNOWN": "未知",
+          "DYNAMIC": "自動取得IP位址",
+          "STATIC": "固定IP位址"
+        },
+        "wirelessSettings": {
+          "title": "無線設定",
+          "enableWirelessAntenna": "啟用無線天線",
+          "generatePassword": "產生密碼",
+          "wirelessConfiguration": "無線設置",
+          "wirelessPassword": "SSID 密碼"
+        }
+      },
+      "systemInformation": {
+        "title": "系統訊息",
+        "softwareLicense": "軟體許可證",
+        "openSourceBlurb": "IDEXX VetLab Station © 2003-2024 IDEXX Laboratories, Inc.保留所有權利。<br/><br/>ProCyte Dx、ProCyte One、IDEXX inVue Dx、Catalyst Dx、Catalyst One、LaserCyte、LaserCyte Dx、SNAPshot Dx、SNAP Pro、SNAP Reader、VetLyte、VetStat、VetTest、VetAutoread、Coag Dx、VetLab UA、SediVue Dx、VetLab Station 與應用程式和零組件 (統稱「IDEXX 產品與服務」)，以及您使用前述產品與服務的用途，一概必須遵守 IDEXX One 條款與條件總則 (https://www.idexx.com/corporate/about-idexx/one-idexx-master-terms.html)。<br/><br/>IDEXX 供應物品隨附或其中包含的第三方材料與軟體，包括開放原始碼或免費軟體，均以現狀提供，且不涵蓋於任何 IDEXX 保固範圍內。<br/><br/>IDEXX 對於與本 IDEXX 供應物品有關的商標、服務標誌、商品名稱、設計、標誌和其他外觀包裝，於美國與其他地點持有權利。除了鑑別適用的 IDEXX 供應物品以外，未事先經過 IDEXX 書面許可，不得使用 IDEXX 商標、服務標誌、商品名稱、設計、標誌或其他外觀包裝。<br/><br/>此處所列或 IDEXX 供應物品中的所有其他產品和公司名稱以及標誌均為其各自持有人的商標。<br/><br/>Acrobat Reader © 2013 Adobe Systems Incorporated。保留所有權利。<br/><br/>Adobe® Flash® Player.Copyright © 1996 - 2013 Adobe Systems Incorporated。保留所有權利。Adobe 和 Flash 為在美國和/或其他國家/地區的商標或註冊商標。<br/><br/>Microsoft Windows XP © 1985-2001 Microsoft Corporation。保留所有權利。<br/><br/>Microsoft Windows 7 Professional © 2009 Microsoft Corporation。保留所有權利。<br/><br/>Microsoft Windows 10 © 2015 Microsoft Corporation。保留所有權利。<br/><br/>Paul Bunyan Server & Message Viewer © 2000 - 2001 Diamond Sierra Corp。<br/><br/>JNIWrapper 從 TeamDev 取得許可。",
+        "list": "此產品包含了以下公開來源的軟體庫:",
+        "license": {
+          "JETTY": "Apache Jetty",
+          "FELIX": "Apache Felix",
+          "SLING": "Apache Sling",
+          "COMMONS_LOGGING": "Apache Commons Logging",
+          "COMMONS_CODEC": "Apache Commons Codec",
+          "COMMONS_LANG": "Apache Commons Lang",
+          "IMGSCALR": "Imgscalr",
+          "JCONNECT": "Sybase JConnect",
+          "COMFYJ": "ComfyJ",
+          "JNIWRAP": "JNIWrap",
+          "WINPACK": "WinPack",
+          "PDFBOX": "Apache PDFBox",
+          "MIG_LAYOUT": "MigLayout",
+          "NETTY": "Netty",
+          "LIQUIBASE": "Liquibase",
+          "SMAKEYAML": "SnakeYAML",
+          "NETGEAR_R7000": "Netgear R7000",
+          "RABBIT_MQ_SERVER": "RabbitMQ Server",
+          "ERLANG_R16B03": "Erlang R16B03",
+          "ERLANG_OTP192": "Erlang OTP 19.2",
+          "JSERIALCOMM": "jSerialComm",
+          "SLF4J": "SLF4J",
+          "SPRING": "Spring",
+          "AOP_ALLIANCE": "AOP Alliance",
+          "JACKSON": "Jackson JSON-Processor",
+          "SQL_SERVER_2008": "SQL Server Express 2008",
+          "SQL_SERVER_2016": "SQL Server Express 2016",
+          "COMMONS_IO": "Apache Commons IO",
+          "LOGBACK": "Logback",
+          "AMQP": "RabbitMQ Java Client",
+          "RABBIT_MQ": "Spring RabbitMQ",
+          "ASPECTJ": "AspectJ",
+          "HIBERNATE": "Hibernate",
+          "JSOUP": "jsoup",
+          "JAVA": "Java SE",
+          "XSTREAM": "XStream",
+          "XPP3": "XPP3",
+          "ANTLR": "ANTLR",
+          "STRING_TEMPLATE": "String Template",
+          "BOUNCY_CASTLE_MAIL": "Bouncy Castle Mail",
+          "BOUNCY_CASTLE_PROV": "Bouncy Castle Provider",
+          "BOUNCY_CASTLE_TSP": "Bouncy Castle TSP",
+          "ITEXT": "iTextButton",
+          "BEAN_UTILS": "Apache Commons BeanUtils",
+          "COMMONS_COLLECTIONS": "Apache Commons Collections",
+          "COMMONS_DBCP": "Apache Commons DBCP",
+          "COMMONS_DIGESTER": "Apache Commons Digester",
+          "COMMONS_NET": "Apache Commons Net",
+          "COMMONS_POOL": "Apache Commons Pool",
+          "DOM4J": "dom4j",
+          "JDT_CORE": "JDT Core",
+          "JFREE": "JFreeChart",
+          "GERONIMO": "Apache Geronimo STAX API",
+          "JASPER": "JasperReports",
+          "POI": "Apache POI",
+          "TOMCAT": "Apache Tomcat",
+          "XML_BEANS": "XMLBeans",
+          "CASTOR": "Castor",
+          "JAVA_ASSIST": "Javassist",
+          "JBOSS_LOGGING": "JBoss Logging",
+          "JBOSS_TRANSACTION": "JBoss Transactions API",
+          "APACHE_STAX": "Apache StAX API",
+          "JCOMMON": "JCommon",
+          "MEDIA_BURNER": "MediaBurner",
+          "OBJENESIS": "Objenesis",
+          "XML_PULL": "XML Pull"
+        }
+      },
+      "powerDownModal": {
+        "title": "斷電",
+        "message": "您確定現在要關閉 IDEXX VetLab Station?"
+      },
+      "restartModal": {
+        "title": "重新啟動",
+        "message": "您確定現在要重新啟動 IDEXX VetLab Station?"
+      }
+    },
+    "proCyteDx": {
+      "buttons": {
+        "enterStandby": "待機設定",
+        "exitStandby": "離開待機狀態",
+        "addQCLot": "新增品管批號",
+        "viewAll": "查看全部"
+      },
+      "fluid": {
+        "labels": {
+          "REAGENT": "套組",
+          "STAIN": "染劑"
+        },
+        "changeButtons": {
+          "REAGENT": "更換套組",
+          "STAIN": "更換染劑"
+        },
+        "buttons": {
+          "viewLog": "檢視紀錄"
+        },
+        "log": {
+          "title": "ProCyte Dx試劑紀錄",
+          "headers": {
+            "reagent": "試劑",
+            "lot": "批號",
+            "changedDate": "更改日期",
+            "daysInUse": "使用天數"
+          },
+          "reagents": {
+            "DYE": "染劑",
+            "REA": "套組"
+          }
+        },
+        "entry": {
+          "title": {
+            "REAGENT": "ProCyte Dx 更換試劑套組",
+            "STAIN": "ProCyte Dx 更換染劑套組"
+          },
+          "inputLabel": {
+            "REAGENT": "掃描或輸入試劑套組條碼：",
+            "STAIN": "掃描或輸入染劑套組條碼："
+          },
+          "results": {
+            "REAGENT": {
+              "valid": "連接試劑套組，然後點選<strong>確定</strong>鍵完成更新。",
+              "sufficientVolume": "試劑量足夠。<linebreak/><ul><li>點選<strong>繼續</strong>以更換試劑。</li><li>點選<strong>取消</strong>以使用目前試劑。</li></ul",
+              "maxReplacement": "<strong>這是已經使用過的試劑套組。</strong><linebreak/>您已經超出試劑盒條碼輸入次數上限。<linebreak/><linebreak/>要解決問題，請掃描另一個庫存試劑盒的條碼，或聯絡 IDEXX 支援部門以取得協助。",
+              "expired": "<strong>試劑已過期。</strong><linebreak/>ProCyte Dx 不接受過期試劑。",
+              "barcodeError": "您所掃描的條碼不是有效的試劑盒條碼。<linebreak/>點選<strong>關閉</strong>並掃描正確的條碼。"
+            },
+            "STAIN": {
+              "valid": "連接染劑套組，然後點選<strong>確定</strong>鍵完成更新。",
+              "sufficientVolume": "試劑量足夠。<linebreak/><ul><li>點選<strong>繼續</strong>以更換試劑。</li><li>點選<strong>取消</strong>以使用目前試劑。</li></ul",
+              "maxReplacement": "<strong>這是已經使用過的試劑套組。</strong><linebreak/>您已經超出染劑套組條碼輸入次數上限。<linebreak/><linebreak/>要解決問題，請掃描另一個庫存染劑套組的條碼，或聯絡 IDEXX 支援部門以取得協助。",
+              "expired": "<strong>試劑已過期。</strong><linebreak/>ProCyte Dx 不接受過期試劑。",
+              "barcodeError": "您所掃描的條碼不是有效的染劑套組條碼。<linebreak/>點選<strong>關閉</strong>並掃描正確的條碼。"
+            }
+          }
+        }
+      },
+      "labels": {
+        "ipuSerialNumber": "IPU 序號",
+        "level": "濃度",
+        "lotNumber": "批號",
+        "procedures": "操作步驟：",
+        "upToDate": "最新的"
+      },
+      "enterStandbyModal": {
+        "title": "待機設定",
+        "content": "建議一天至少一次將 ProCyte Dx 設定為待機狀態。<linebreak/><strong>整個過程約需要 3 分鐘。</strong>"
+      },
+      "powerDownModal": {
+        "title": "關閉 ProCyte Dx",
+        "toPowerDown": "關閉 ProCyte Dx：",
+        "step1": "1.點選<strong>斷電</strong>，以自動關閉 IPU 電源。",
+        "step2": "2.分析儀發出嗶聲時，請使用分析儀右邊的開關關閉電源。",
+        "durationMessage": "整個過程約需要 3 分鐘。"
+      },
+      "powerOnModal": {
+        "title": "開啟 ProCyte Dx",
+        "content": "開啟 IPU 約需耗時 <strong>1 分鐘</strong>。此階段請勿按壓 IPU 上之電源鍵。<linebreak />利用分析儀右側之電源開關開啟分析儀。"
+      },
+      "rinseModal": {
+        "insertBleach": "將 2mL 之 IDEXX Hydro-Clean 或 5% 漂白水加入一支不含任何藥劑之 13 x 75 mm 試管中，接著將試管插入檢體槽。",
+        "pressStart": "按下分析儀上的<strong>啟動</strong>按鈕。",
+        "cancelRinse": "取消清洗"
+      },
+      "startupModal": {
+        "content": "請在設定新分析儀之時，或在 IDEXX 支援部門人員指導下執行這項程序。<linebreak/><strong>這項程序需時 45 分鐘，必須備妥完整的試劑套組與染劑套組。</strong>您要繼續嗎？"
+      },
+      "startupConfirmModal": {
+        "youMustHave": "您必須準備：",
+        "aFullReagentKit": "全套試劑套組",
+        "aFullStainPack": "全套染劑",
+        "aQuickConnector": "Quick Connector（附於 ProCyte 分析儀）",
+        "followTheseSteps": "照以下步驟：",
+        "attachQuickConnectorTop": "1.將 Quick Connector 的蓋子接在試劑套組上。",
+        "attachQuickConnectorLines": "2.將 Quick Connector 的線接到分析儀後面。",
+        "installStainPack": "3.裝上染劑套組",
+        "tapInitiateStartup": "4.點選<strong>開始啟動</strong>鍵。",
+        "initiateStartup": "開始啟動"
+      },
+      "maintenance": {
+        "diagnostics": "診斷模式",
+        "rinse": "清洗",
+        "autoRinse": "自動清洗",
+        "monthlyRinse": "每月清洗",
+        "wasteChamberRinse": "清洗廢棄槽",
+        "flowCellRinse": "清洗Flow Cell",
+        "drain": "清空",
+        "drainReactionChamber": "清空反應槽",
+        "drainRBCIsolationChamber": "清空紅血球隔離槽",
+        "drainWasteChamber": "清空廢液槽",
+        "removeClear": "移除／清除",
+        "removeClog": "移除阻塞",
+        "clearPinchValve": "清潔閥門",
+        "reset": "重新設定",
+        "resetAirPump": "重設空氣幫浦",
+        "resetAspirationMotor": "重設抽吸馬達",
+        "resetSheathMotor": "重設鞘液馬達",
+        "resetTubeMotor": "重設管路馬達",
+        "resetWBMotor": "重設 WB 馬達",
+        "replenish": "充滿",
+        "replenishStain": "充滿染劑",
+        "replenishLyticReagent": "充滿裂解試劑",
+        "replenishReticulocyteDiluent": "充滿網狀紅血球稀釋劑",
+        "replenishHGBReagent": "充滿血紅素試劑",
+        "replenishSystemDiluent": "充滿系統稀釋液",
+        "initialize": "初始化",
+        "startup": "啟動",
+        "ship": "運送",
+        "shutdownForShipping": "關機 - 運送"
+      },
+      "qc": {
+        "level": "濃度",
+        "parameter": "參數",
+        "target": "平均值",
+        "unopenedExpiration": "未開封的有效日期"
+      },
+      "settings": {
+        "standby": "待機",
+        "standbyDetails": "自動設定成待機狀態的時間：",
+        "aspirationSensor": "吸取感應器",
+        "sampleInvertReminder": "檢體倒置提醒",
+        "reagentLowReminder": "試劑過少警示",
+        "synovialFluidReminder": "關節液提示",
+        "sampleDrawerPosition": "檢體槽預設位置",
+        "open": "開啟",
+        "closed": "已關閉"
+      },
+      "qualityControl": {
+        "addQcLot": {
+          "header": "ProCyte Dx 新增品管批號",
+          "instructions": "掃描或輸入所有適用的條碼。注意：新增品管批號時，必須完整填寫代表濃度的三個條碼。完成時，點選<strong>下一步</strong>。",
+          "barcodesHeader": "品管條碼",
+          "levelTwo": "濃度 2 (正常)",
+          "levelOne": "濃度 1 (低)",
+          "barCodePlaceholder": "條碼 {{ number }}",
+          "enterBarcode": "輸入條碼",
+          "barcodeAccepted": "條碼接受",
+          "barcodesSaved": "品管液新增成功。",
+          "error": "輸入的條碼無效。",
+          "expiredWarning": "<strong>此品管批號已過期</strong>",
+          "expiredResults": "過期的品管可能會造成不正確的結果",
+          "expiredHeader": "ProCyte Dx 品管"
+        },
+        "runQC": {
+          "header": "執行 ProCyte Dx 品管",
+          "labels": {
+            "lot": "批號：",
+            "level": "濃度:"
+          },
+          "expiredQc": {
+            "header": "ProCyte Dx 品管",
+            "body": "此品管批號已過期過期的品管可能會造成不正確的結果"
+          },
+          "pageOne": {
+            "header": "準備品管檢體並開始測試：",
+            "stepOne": "讓 e-CHECK 品管液回復至室溫 (18°C–25°C [64°F–77°F]) 至少 15 分鐘。<strong>檢測前勿讓品管液瓶離開冷藏條件超過 1 小時。</strong>",
+            "stepTwo": "確認蓋子已經確實蓋妥，輕輕翻轉 e-CHECK 品管液瓶進行混合，直到品管液瓶底部的細胞團塊完全懸浮。<strong>不要將 e-CHECK 小瓶置於混勻機或搖擺器上。</strong>"
+          },
+          "pageTwo": {
+            "header": "開始檢測：",
+            "stepOne": "確保 QC 試管架位於檢體槽中。",
+            "stepTwo": "輕輕倒轉 e-CHECK 小瓶 10 次，然後立即放到試管架上。",
+            "stepThree": "按下分析儀上的<strong>啟動</strong>按鈕。",
+            "imageLabel": "QC 試管架"
+          }
+        }
+      },
+      "changeReagentWizard": {
+        "kit": {
+          "header": "ProCyte Dx 更換試劑套組",
+          "Open": {
+            "header": "打開新的試劑盒",
+            "instructions": "<ol><li>撕掉易於拉動的標籤露出試劑架，然後將其放在分析儀旁邊或下方，打開新的試劑套組。</li><li>撕開系統稀釋液的封條。</li></ol>"
+          },
+          "Prep": {
+            "header": "準備試劑盒",
+            "instructions": "<ol><li>取下 3 個瓶子、系統稀釋液和廢液容器的蓋子（如有必要，使用套組原來隨附的蓋子拆卸器）並放在一邊。</li><li>比對瓶子標籤上的顏色與架上的顏色，確認瓶子順序是否正確。</li</ol>"
+          },
+          "Install": {
+            "header": "安裝新的試劑盒",
+            "instructions": "將快速連接頭放在試劑套組上，確保探頭插入 3 個試劑瓶、系統稀釋液和廢液容器中。",
+            "note": "<strong>注意：</strong>快接蓋應與試劑瓶保持齊平，讓探針確實能夠接觸到液體。若發現快接蓋與試劑瓶之間有落差，請檢查並確認盒子上緣周圍沒有任何紙板。(見右圖)。"
+          },
+          "Dispose": {
+            "header": "丟棄舊試劑盒",
+            "instructions": "<ol><li>小心取出舊試劑套組中的每個試劑瓶，並根據適用的當地處置法律棄置每個瓶子的內容物。</li><li>取新試劑盒中試劑瓶的蓋子，蓋在舊試劑盒中的試劑瓶上。</li</ol>"
+          }
+        }
+      },
+      "shutDownForShippingWizard": {
+        "header": "ProCyte Dx 關機運送指南",
+        "Notes": {
+          "header": "重要注意事項",
+          "instructions": "準備將分析儀還給 IDEXX 之時才需要進行這項步驟。<br/><br/><strong>這項程序約需 40 分鐘；過程中會清空分析儀中的所有液體。</strong>"
+        },
+        "TubeAdapter": {
+          "header": "拆下試管架",
+          "instructions": "打開檢體抽屜 , 移除試管架並收好 ,以便用於替換後的分析儀。<br/><br/><strong>拆下試管架：</strong><ol><li>若尚未打開檢體槽，請按下 ProCyte Dx 分析儀上的「開啟/關閉」按鈕，打開檢體槽。</li><li>將檢體試管架向左轉動 (45°)，直到試管架上的紅色標記與檢體槽檢體位置區的紅色標記對齊。</li><li>提起試管裝置槽以將其移除。</li></ol>"
+        },
+        "KitTubing": {
+          "header": "試劑盒管",
+          "instructions": "試劑盒上一定要有快接蓋。分析儀的背面接在白色接口的管子保持不動，按住黃色墊圈，拔下接在分析儀黑色、綠色、藍色和紅色接口的管子。"
+        },
+        "StainProbes": {
+          "header": "染劑探針",
+          "instructions": "打開染劑槽蓋，鬆開鎖在探頭上的染劑套組。用紙巾包好探頭，以防止染劑飛濺。"
+        },
+        "DrainReagents": {
+          "header": "清空試劑",
+          "instructions": "<strong>完成此步驟大約需要 30 分鐘的時間。</strong><br/><br/>儀器中的試劑用完之後會發出警示，提醒您最後的關機步驟。",
+          "button": "清空試劑"
+        }
+      },
+      "newHardware": {
+        "title": "ProCyte Dx硬體配置",
+        "header": "輸入ProCyte Dx的序號：",
+        "instructions": "序號位置如下：<ul><li>ProCyte Dx 光碟片封面上</li><li>分析儀的側面門板內面</li><li>分析儀的後面板上</li></ul>",
+        "dialogHeader": "配置",
+        "selectUsb": {
+          "body": "插入儲存了 ProCyte Dx 校正檔的 USB 隨身碟，然後點選<strong>下一步</strong>繼續操作。<linebreak/><strong>注意：</strong>若找不到檔案，請聯絡 IDEXX 支援部門。",
+          "selectBody": "請選擇帶有 ProCyte Dx 校正檔案的磁碟機。若所需的磁碟機未列出，請選擇其他的 USB 連接埠。"
+        },
+        "success": "配置成功。",
+        "filesFound": "找到設定檔。<shortlinebreak/>點選<strong>完成</strong>，完成設定流程。",
+        "filesNotFound": "請插入包含 IDEXX 校正檔案的磁碟機。",
+        "filesNotFound_header": "找不到校正檔",
+        "mainUnitOn": "<ol><li>使用電源開關<strong>關閉分析儀電源</strong>。<shortlinebreak/><strong>注意：</strong>請勿關閉 IPU 的電源。</li><li> 點選 <strong>完成</strong> 以完成配置程序。</li></ol>",
+        "transmissionErrorSystemCal": "發生傳輸錯誤。<linebreak/>請點選<strong>完成</strong>再試一次，或者聯絡 IDEXX 支援部門以取得協助。",
+        "transmissionErrorSerialNumber": "發生傳輸錯誤。<linebreak/>請點選<strong>完成</strong>再試一次，或者聯絡 IDEXX 支援部門以取得協助。"
+      }
+    },
+    "tensei": {
+      "qualityControl": {
+        "addQcLot": {
+          "header": "IDEXX ProCyte Dx 新增品管批號",
+          "instructions": "掃描或輸入所有適用的條碼。注意：新增品管批號時，必須完整填寫代表濃度的三個條碼。完成時，點選<strong>下一步</strong>。",
+          "barcodesHeader": "品管條碼",
+          "levelTwo": "濃度 2 (正常)",
+          "levelOne": "濃度 1 (低)",
+          "barCodePlaceholder": "條碼 {{ number }}",
+          "enterBarcode": "輸入條碼",
+          "barcodeAccepted": "條碼接受",
+          "barcodesSaved": "品管液新增成功。",
+          "error": "輸入的條碼無效。",
+          "expiredWarning": "<strong>此品管批號已過期</strong>",
+          "expiredResults": "過期的品管可能會造成不正確的結果",
+          "expiredHeader": "IDEXX ProCyte Dx 品管"
+        }
+      },
+      "maintenance": {
+        "diagnostics": "診斷模式",
+        "rinse": "清洗",
+        "autoRinse": "自動清洗",
+        "monthlyRinse": "每月清洗",
+        "wasteChamberRinse": "清洗廢棄槽",
+        "flowCellRinse": "清洗Flow Cell",
+        "drain": "清空",
+        "drainReactionChamber": "清空反應槽",
+        "drainRBCIsolationChamber": "清空紅血球隔離槽",
+        "drainWasteChamber": "清空廢液槽",
+        "removeClear": "移除／清除",
+        "removeClog": "移除阻塞",
+        "clearPinchValve": "清潔閥門",
+        "reset": "重新設定",
+        "resetAirPump": "重設空氣幫浦",
+        "resetAspirationMotor": "重設抽吸馬達",
+        "resetSheathMotor": "重設鞘液馬達",
+        "resetTubeMotor": "重設管路馬達",
+        "resetWBMotor": "重設 WB 馬達",
+        "replenish": "充滿",
+        "replenishStain": "充滿染劑",
+        "replenishLyticReagent": "充滿裂解試劑",
+        "replenishReticulocyteDiluent": "補充網織球稀釋液",
+        "replenishHGBReagent": "充滿血紅素試劑",
+        "replenishSystemDiluent": "充滿系統稀釋液",
+        "initialize": "初始化",
+        "startup": "啟動",
+        "ship": "運送",
+        "shutdownForShipping": "關機 - 運送"
+      },
+      "labels": {
+        "lotNumber": "批號",
+        "level": "濃度",
+        "results": "檢驗結果"
+      }
+    },
+    "proCyteOne": {
+      "labels": {
+        "smartQcVersion": "SQC 目標檔案版本",
+        "lotNumber": "批號",
+        "runTime": "操作時間",
+        "results": "檢驗結果"
+      },
+      "qualityControl": {
+        "OUT_OF_RANGE": "超出範圍",
+        "PASS": "合格"
+      },
+      "maintenance": {
+        "diagnostics": "診斷模式",
+        "power": "電源",
+        "packProcedures": "包裝程序",
+        "fluidicProcedures": "流體程序",
+        "idexxDirectedProcedures": "IDEXX 導引 (診斷) 程序",
+        "powerDown": "斷電",
+        "shutDown": "關機 - 運送",
+        "primeReagent": "預備試劑",
+        "primeSheath": "預備鞘液",
+        "lotEntry": "輸入批號",
+        "fullSystemPrime": "全系統預備",
+        "systemFlush": "系統沖洗",
+        "replaceFilter": "更換濾網",
+        "bleachClean": "漂白水清潔",
+        "flowCellSoak": "流式細胞浸泡",
+        "drainMixChambers": "清空混和槽",
+        "prime": "充填",
+        "warningModal": {
+          "title": "ProCyte One 診斷模式",
+          "content": "這些選項皆屬進階診斷功能，必須在 IDEXX 支援部門指導下使用。"
+        },
+        "powerDownModal": {
+          "title": "警告",
+          "content": "ProCyte One 分析儀長時間斷電可能會影響分析儀效能。您確定要關閉 ProCyte One 分析儀嗎？"
+        },
+        "shutDownModal": {
+          "title": "警告",
+          "content": "<strong>重要提示：</strong>如繼續這項流程，將會排空分析儀中的所有液體，準備運送分析儀，因此，直到添入新液體之前，均無法使用分析儀。<linebreak/>您確定要繼續嗎？"
+        },
+        "fullSystemPrimeModal": {
+          "title": "ProCyte One 全系統充填",
+          "content": "<strong>重要提示：此步驟約需 8 分鐘。</strong><linebreak/>您確定要執行全系統充填嗎？"
+        },
+        "replaceFilterModal": {
+          "title": "更換 ProCyte One 濾網",
+          "remove": {
+            "header": "取出舊濾網：",
+            "stepOne": "1.打開大的試劑門板，將濾網門板往下轉並打開",
+            "stepTwo": "2.提起綠色操縱桿",
+            "stepThree": "3.將濾網從分析儀上取下並按照正確方式丟棄。"
+          },
+          "install": {
+            "header": "安裝新濾網：",
+            "stepOne": "1.將濾網卡入 C 型濾網架中 (白色蓋子朝上)。",
+            "stepTwo": "2.將綠色操縱桿向下推到底，固定住濾網。",
+            "stepThree": "3.將濾網門板往上轉並固定於定位，關上濾網門板。",
+            "stepFour": "4.關上試劑門板，按下<strong>完成</strong>。"
+          }
+        },
+        "bleachCleanModal": {
+          "title": "ProCyte One 漂白水清洗",
+          "durationMessage": "此過程大約需要 13 分鐘。",
+          "toBegin": "啟動前的準備：",
+          "instructions": "<step>在未經處理且未加蓋的 13 mm x 75 mm 試管中注入 IDEXX Hydro-Clean (或預先製備好的 5% 漂白水溶液)，到試管半滿的高度。</step><step>將未加蓋的試管放入檢體槽中。</step><step>關閉檢體槽。</step><step>按下分析儀上的<strong>啟動</strong>按鈕。</step>"
+        },
+        "replaceSheathModal": {
+          "title": "更換 ProCyte One 鞘液",
+          "remove": {
+            "header": "取下舊鞘液套組",
+            "stepOne": "1.打開分析儀正面的分析儀門板。",
+            "stepTwo": "2.將分析儀內部的大瓶灰色鞘液套組往外拉並取出。"
+          },
+          "install": {
+            "header": "裝上新鞘液套組",
+            "stepOne": "1.插入新鞘液套組時，應讓鞘液套組上的蓋帽扣入分析儀內部的插孔。",
+            "stepTwo": "2.關閉分析儀門。如果試劑包未安插妥當，門將無法關閉。"
+          }
+        },
+        "replaceReagentModal": {
+          "title": "更換 ProCyte One 試劑",
+          "remove": {
+            "header": "取下舊試劑套組",
+            "stepOne": "1.打開分析儀正面的分析儀門板。",
+            "stepTwo": "2.將分析儀內部的小瓶灰色試劑套組往外拉並取出。"
+          },
+          "install": {
+            "header": "裝上新試劑套組",
+            "stepOne": "1.插入新試劑套組時，應讓試劑套組上的蓋帽扣入分析儀內部的插孔。",
+            "stepTwo": "2.關閉分析儀門。如果試劑包未安插妥當，門將無法關閉。"
+          }
+        }
+      },
+      "runQCModal": {
+        "title": "品管確認",
+        "content": "您確定要使用分析儀執行品管程序嗎？此流程約需 10 分鐘。"
+      },
+      "replaceQcModal": {
+        "title": "更換 ProCyte One SmartQC 小瓶",
+        "stepOne": "1.大力搖晃新的 SmartQC 小瓶 10 秒鐘，確保內容物均勻混合。",
+        "stepTwo": "2.在檢體槽中，用搖晃過的新瓶更換 SmartQC。",
+        "stepThree": "3.關閉檢體槽。"
+      },
+      "settings": {
+        "sampleInvertReminderToggle": "檢體倒轉提醒",
+        "smartQcInfo": "品管程序自動執行時間："
+      }
+    },
+    "catOne": {
+      "labels": {
+        "calDataVersion": "CAL 資料版本"
+      },
+      "shutDownConfirm": "您確定要關閉分析儀嗎？此程序需耗時約 2 分鐘。",
+      "settings": {
+        "sound": "音效：",
+        "standby": "待機：",
+        "exitStandby": "離開待機狀態："
+      },
+      "cleaningWizard": {
+        "headers": {
+          "primary": "Catalyst One 清潔指南",
+          "Landing": "推薦的材料",
+          "Prepare": "準備分析儀",
+          "Clean": "清洗分析儀",
+          "Complete": "完成清洗"
+        },
+        "Landing": {
+          "recommends": "IDEXX 推薦使用下列材料：",
+          "list": "<ul><li>無粉乳膠或合成橡膠手套</li><li>支援 IDEXX 的酒精棉片</li><li>IDEXX 拭鏡紙巾</li></ul>",
+          "moreInfo": "如需詳細資訊，或想瞭解一系列應避免使用的材料，請參閱操作手冊或聯絡 IDEXX 支援部門。"
+        },
+        "Prepare": {
+          "steps": "開啟側門板並取出轉盤。"
+        },
+        "Clean": {
+          "steps": "<ul><li>使用酒精棉片順時針擦拭培養圈與觀測窗，直到沒有可見殘留為止。每圈都使用酒精棉片的新一面。</li><li>使用新的酒精棉片清潔轉盤上的白色參考磚。</li><li>以拭鏡紙擦乾。</li></ul>"
+        },
+        "Complete": {
+          "steps": "<ul><li>更換轉盤，轉動轉盤到轉盤卡入定位為止。將轉盤蓋放下到可以扣緊的位置，並且關上側門板。</li><li>點選<strong>完成</strong>。</li></ul>"
+        }
+      },
+      "calibrateWizard": {
+        "headers": {
+          "primary": "Catalyst One 光學校正",
+          "Clean": "清洗分析儀",
+          "LoadMaterials": "放入材料",
+          "success": "光學校正"
+        },
+        "Clean": {
+          "instructions": "執行校正之前必須清潔分析儀。",
+          "viewButton": "瀏覽清潔指示",
+          "pleaseWait": "請等待儀器完成清潔週期。"
+        },
+        "LoadMaterials": {
+          "list": "<ol><li>如圖所示，放入白色校正試片。</li><li>關上檢體槽，然後按下<strong>啟動</strong>按鈕。</li></ol>"
+        }
+      },
+      "offsetsWizard": {
+        "title": "Catalyst One 偏移",
+        "preparation": {
+          "title": "製備",
+          "prepareVetTrolControlFluid": "備製 VetTrol 對照組液體",
+          "vetTrolInstructions": "VetTrol 指示",
+          "cleanYourCatOne": "清洗 Catalyst One",
+          "cleaningInstructions": "清潔指示"
+        },
+        "selectLot": {
+          "title": "選擇 VetTrol 批號",
+          "prompt": "選擇要用於設定偏移的 VetTrol 品管液。"
+        },
+        "loadMaterials": {
+          "title": "放入材料",
+          "instructions": "<strong>如下所示放入材料：</strong><ol><li>移液管吸頭</li><li>300uL 的 VetTrol 對照組液體</li><li>相同批號的四片鈣和/或白蛋白單片試藥片</li></ol><shortlinebreak />關上檢體槽，再按下<strong>啟動</strong>按鈕。"
+        },
+        "success": {
+          "title": "Catalyst One 保養作業",
+          "content": "Catalyst One 偏移計算完畢。"
+        },
+        "failure": {
+          "title": "Catalyst One 保養作業",
+          "content": "Catalyst One 偏移失敗。請電洽 IDEXX 支援部門以取得協助。"
+        },
+        "confirmCancel": {
+          "title": "Catalyst One 偏移",
+          "content": "確定要取消設定 Catalyst One 偏移嗎？"
+        }
+      },
+      "fluidPrepWizard": {
+        "stepHeader": {
+          "Prep": "製備",
+          "Load": "放入材料"
+        },
+        "instructionButton": {
+          "clean": "清潔指示",
+          "vetTrol": "VetTrol 指示"
+        },
+        "vetTrol": {
+          "header": "Catalyst One 品質控制",
+          "prep1": "<ol><li>備製 VetTrol 對照組液體</li></ol>",
+          "prep2": "<ol start='2'><li>清洗 Catalyst One</li></ol>",
+          "load": "<strong>如下所示放入材料：</strong><ol><li>裝滿所有的移液管吸頭</li><li>300 µL VetTrol 對照組</li><li>載入 Lyte 4 CLIP、QC CLIP 或單一試藥片</li></ol>關上檢體槽，再按下<strong>啟動</strong>按鈕。"
+        },
+        "upro": {
+          "header": "Catalyst One UPRO 品管液",
+          "prep": "<ol><li>溫熱小瓶達 10 分鐘。</li><li>倒轉小瓶 6-10 次以混合。</li><li>清洗 Catalyst One。</li></ol>",
+          "load": "<strong>如下所示放入材料：</strong><ol><li>裝滿的移液管吸頭</li><li>300 µL UPRO 對照組</li><li>UPRO 試藥片</li></ol>關上檢體槽，再按下<strong>啟動</strong>按鈕。"
+        },
+        "phbr": {
+          "header": "Catalyst One PHBR 品管液",
+          "prep": "<ol><li>溫熱小瓶達 60 分鐘。</li><li>倒轉小瓶 6-10 次以混合。</li><li>清洗 Catalyst One。</li></ol>",
+          "load": "<strong>如下所示放入材料：</strong><ol><li>裝滿的移液管吸頭</li><li>300 µL PHBR 對照組</li><li>PHBR 試藥片</li><li>PHBR 試劑</li></ol>關上檢體槽，再按下<strong>啟動</strong>按鈕。"
+        },
+        "advanced": {
+          "header": "Catalyst One 進階品管液",
+          "prep": "<ol><li>溫熱小瓶達 30 分鐘。</li><li>倒轉小瓶 6-10 次以混合。</li><li>清洗 Catalyst One。</li></ol>",
+          "load": "<strong>如下所示放入材料：</strong><ol><li>裝滿的移液管吸頭</li><li>300 µL Catalyst 進階對照組</li><li>載入試藥片</li><li>載入試劑 (如適用)</li></ol>關上檢體槽，再按下<strong>啟動</strong>按鈕。"
+        }
+      },
+      "vetTrolInstructionsModal": {
+        "title": "備製 VetTrol 對照組液體",
+        "instructions": "<ol><li>從冷凍庫取出一罐稀釋液和一罐品管瓶。靜置 60 到 90 分鐘，待瓶子恢復室溫。</li><li>慢慢倒置稀釋液瓶數次，或是將稀釋液瓶放置於搖晃器上，將內容物混和均勻。不要搖晃。</li><li>輕敲品管瓶數次，讓軟塞上的附著物掉落。</li><li>將稀釋液加入品管瓶之前，取下各小瓶的封環與軟塞。請勿讓瓶子一直開著。</li><li>使用乾淨、乾燥、A 級定量吸管或自動定量吸管，精準的將 3.0 mL 稀釋液加入品管瓶。丟棄剩下的稀釋液。<shortlinebreak /><strong>重要提示：</strong>測量必須精準，以免結果不正確。<shortlinebreak /><strong>注意：</strong>如果使用注射器，請先取下針頭。</li><li>蓋上品管瓶的塞子，將塞子牢牢蓋緊。每 10 分鐘輕輕倒置瓶子 6 到 10 次，持續 1 小時 (建議使用慢速搖晃器)。不要搖晃。每隔一小段時間倒置瓶子一次進行回溶，持續 45 到 60 分鐘。使用前，目視檢查所有粉末已完全溶解。</li></ol>"
+      },
+      "smartQcModal": {
+        "title": "SmartQC 操作說明",
+        "body": "<ol><li>如下所示裝入材料。請注意，此時不需放入檢體。</li><li>關上檢體槽，按下分析儀上的<strong>啟動</strong>按鈕。過程約需 <strong>11 分鐘。</strong></li></ol>",
+        "clean": "建議執行 SmartQC 前先清潔分析儀。",
+        "cleaningInstructions": "瀏覽清潔指示"
+      }
+    },
+    "common": {
+      "buttons": {
+        "transmitLogs": "傳輸紀錄"
+      },
+      "exitStandbyModal": {
+        "title": "離開待機狀態",
+        "content": {
+          "default": "{{ instrumentName }} 處於待機模式。離開待機模式以執行動物患者分析或診斷程序。",
+          "CRIMSON": "$t(instrumentScreens.common.exitStandbyModal.content.default)<linebreak/><strong>此程序需耗時約 8 分鐘。</strong>"
+        }
+      },
+      "powerDownModal": {
+        "title": "關閉 {{ instrumentName }} 電源",
+        "body": "確定要關閉 {{ instrumentName }} 電源嗎？"
+      },
+      "eventLog": {
+        "title": "{{ instrumentName }} 事件紀錄",
+        "time": "時間",
+        "event": "事件",
+        "patient": "動物患者",
+        "eventLog": "事件紀錄",
+        "analyzer": "分析儀：{{ serialNumber }}"
+      },
+      "fluid": {
+        "labels": {
+          "expires": "{{ days }} 天後過期",
+          "fluidLevels": "預估液面",
+          "sheath": "鞘液",
+          "reagent": "試劑",
+          "sheathRemaining": "鞘液：{{ percent }}%",
+          "reagentRemaining": "試劑：{{ runs }} 次檢測"
+        },
+        "buttons": {
+          "replaceSheath": "更換鞘液",
+          "replaceReagent": "更換試劑"
+        }
+      },
+      "qc": {
+        "lotEntry": {
+          "barcodesHeader": "品管條碼",
+          "expiredModal": {
+            "header": "{{instrumentName}} 品管",
+            "expiredWarning": "<strong>此品管批號已過期</strong>",
+            "expiredResults": "過期的品管可能會造成不正確的結果"
+          }
+        }
+      },
+      "settings": {
+        "header": "{{ instrumentName }} 設定"
+      },
+      "catalyst": {
+        "advancedSettings": {
+          "header": "{{ instrumentName }} 僅限 IDEXX 使用",
+          "label": "僅限 IDEXX 使用",
+          "warning": "<strong>警告：</strong>這些選項皆屬進階診斷功能，必須在 IDEXX 支援部門指導下使用。",
+          "scalars": "純量",
+          "existing": "現有",
+          "proposed": "已提議",
+          "status": "狀態",
+          "lastCalibrated": "最近校正",
+          "offsets": "偏移",
+          "retrieving": "擷取中...",
+          "waiting": "等待中",
+          "SDMA": "SDMA",
+          "K_SCALAR": "鉀_純量",
+          "CL_SCALAR": "氯_純量",
+          "NA_SCALAR": "鈉_純量",
+          "CA_OFFSET": "鈣偏移",
+          "ALB_OFFSET": "白蛋白偏移",
+          "QSDMA_GAIN": "SDMA 增益",
+          "QSDMA_OFFSET": "SDMA 偏移",
+          "modal": {
+            "header": "{{ instrumentType }} 設定",
+            "body": "點選<strong>傳送</strong>以將下列設定傳送到 {{ instrumentType }}，或點選<strong>取消</strong>以回到上一個畫面。",
+            "submittedBody": "設定已傳送到 {{ instrumentType }}。",
+            "send": "傳送"
+          }
+        }
+      },
+      "offline": {
+        "offline": "{{ instrumentType }} 已離線",
+        "description": "IDEXX VetLab Station 無法與 {{ instrumentType }} 分析儀連線。若不再使用此儀器，請點選<strong>移除儀器</strong>鍵，將圖示從主畫面移除。",
+        "reconnect": "若要重新連線，請重新啟動 {{ instrumentType }} 分析儀。如需進一步協助，請聯絡 IDEXX 支援部門。"
+      },
+      "usb": {
+        "driveSelectionModal": {
+          "title": "選擇磁碟機"
+        },
+        "copyProgress": {
+          "title": "正在複製"
+        }
+      }
+    },
+    "catDx": {
+      "buttons": {
+        "qualityControl": "品管"
+      },
+      "followSteps": "按照以下步驟，重新建立連線：",
+      "followStepsDescription1": "在 Catalyst Dx 分析儀，點選 <strong>Tools</strong> 確保分析儀擁有 IP 位址。",
+      "followStepsDescription2": "若 IP 位址為<strong>未定</strong>，按照以下步驟：",
+      "followSteps1": "在 Catalyst Dx 分析儀「Tools」畫面，點選 <strong>Shut Down</strong>。",
+      "followSteps2": "當提示出現時，請使用電源開關關閉分析儀的電源。",
+      "followSteps3": "分析儀關閉後，請使用電源開關重新開啟分析儀。",
+      "followSteps4": "點選 IDEXX VetLab Station 上的 <strong>Home</strong>。分析儀將於 5 分鐘內返回到“待機”狀態。",
+      "problemPersists": "若存在 IP 位址且仍有問題，請洽詢 IDEXX 支援部門。"
+    },
+    "sediVueDx": {
+      "cartridgeStatus": {
+        "title": "分析片狀態",
+        "remaining": "剩餘：{{ remaining }}",
+        "replaceCartridges": "更換分析片",
+        "lotNumber": "<strong>批號：</strong>{{ lotNumber }}",
+        "expirationDate": "<strong>有效日期：</strong>{{ date }}",
+        "installed": "<strong>安裝於：</strong>{{ date }}"
+      },
+      "replaceCartridges": {
+        "header": "更換 SediVue Dx 分析片套筒",
+        "prompt": "掃描或輸入分析片套筒條碼：",
+        "modal": {
+          "title": "SediVue Dx - 更換分析片",
+          "content": {
+            "LOT_CONSUMED": "輸入的條碼已被使用過。請丟棄印有該條碼的分析片套筒。<linebreak />點選<b>關閉</b>，掃描或輸入新分析片套筒塑膠包裝上的條碼。若仍有問題，請電洽 IDEXX 支援部門。",
+            "LOT_EXPIRED": "條碼已過期。<linebreak />點選<b>關閉</b>，掃描或輸入新條碼。",
+            "VALID": "<b>安裝新的分析片套筒：</b><ol><li>請依示移除舊的分析片套筒。</li><li>請依示更換新的分析片套筒</li><li>選擇下方的<b>確定</b>以完成更換。</li></ol>",
+            "invalidBarcode": "條碼無效。請確認已關閉鍵盤的大寫鎖定功能。<linebreak/>點選<b>關閉</b>，掃描或輸入位於分析片套筒塑膠包裝上的條碼。",
+            "unknownError": "發生未知錯誤。聯絡 IDEXX 支援部門。"
+          }
+        }
+      },
+      "settings": {
+        "uaHeader": "尿液分析理學特性紀錄項目",
+        "autoAddUaSetting": "自動新增尿液分析理學特性紀錄圖示至 SediVue Dx 以進行分析。",
+        "printingHeader": "列印報告上的影像",
+        "autoIncludeImages": "自動附加Sedivue Dx 影像在報告中",
+        "onlyIfSediment": "僅當沉渣存在時"
+      },
+      "powerDownModal": {
+        "title": "關閉 SediVue Dx",
+        "body": "您確定要關閉 SediVue Dx 嗎?"
+      },
+      "maintenance": {
+        "buttons": {
+          "initialize": "初始化"
+        }
+      },
+      "cleaningWizard": {
+        "headers": {
+          "primary": "SediVue Dx 清潔指示",
+          "Landing": "重要注意事項",
+          "PowerDown": "斷電",
+          "PipettingWindow": "移液窗",
+          "CartridgeHolder": "分析片架",
+          "PusherArm": "推片臂",
+          "CartridgeTrack": "分析片軌道",
+          "OpticalWindow": "光學觀測窗",
+          "ShieldAndWasteBin": "保護片和廢片槽",
+          "CentrifugeArm": "離心機臂",
+          "MoveArm": "移動臂",
+          "ReplaceComponents": "更換元件",
+          "FanFilter": "清潔風扇濾網"
+        },
+        "Landing": {
+          "notes": "為確保分析儀能發揮最佳正常運轉效能，請務必每月清潔分析儀一次。<linebreak/>請勿在分析過程中打開分析儀門板，否則會取消分析操作並丟棄檢體和分析片。</li></ul>",
+          "recommends": "IDEXX 推薦使用下列清潔材料：",
+          "halfDoor": {
+            "list": "<ul><li>1 副無粉乳膠或合成橡膠手套</li><li>6 張乾的拭鏡紙</li><li>1 張濕的拭鏡紙 (用溫水浸濕)</li><li>4 片酒精棉片</li><li>紙巾</li></ul>"
+          },
+          "fullDoor": {
+            "list": "<ul><li>1 副無粉乳膠或合成橡膠手套</li><li>9 張乾的拭鏡紙</li><li>1 張濕的拭鏡紙 (用溫水浸濕)</li><li>3 片浸濕酒精棉片 (用溫水浸濕並擰乾)</li><li>3 片酒精棉片 (不需浸濕)</li><li>紙巾</li></ul>"
+          }
+        },
+        "PowerDown": {
+          "turnOff": "使用下列按鈕關閉 SediVue Dx 電源，繼續進行清潔：",
+          "button": "關閉 SediVue Dx"
+        },
+        "PipettingWindow": {
+          "instructions": "<ul><li>打開分析儀前門板。</li><li>用自來水將拭鏡紙浸濕，用於清潔移液窗上方和下方。</li><li>取一張新的拭鏡紙，將移液窗上方和下方擦乾。</li></ul>"
+        },
+        "CartridgeHolder": {
+          "instructions": "<ul><li>拆下分析片架。</li><li>使用新的酒精棉片清潔分析片架，再取一張新的拭鏡紙擦乾。</li><li>將分析片架放在一旁。</li></ul>"
+        },
+        "CartridgeTrack": {
+          "instructions": "<ul><li>使用新的酒精棉片徹底清潔分析片軌道和白色的進樣臂。</li><li>取一張新的拭鏡紙，將分析片軌道和白色進樣臂擦乾。</li></ul>"
+        },
+        "PusherArm": {
+          "instructions": "<ul><li>用溫自來水浸濕兩片酒精棉片，再擰乾棉片。</li><li>用其中一片浸濕過的棉片清潔推片臂左半部五次，接著取一張新的拭鏡紙擦乾。</li><li>將推片臂推向左側，使用另一片浸濕的酒精棉片清潔推片臂右半部，再取一張拭鏡紙擦乾。</li></ul>"
+        },
+        "OpticalWindow": {
+          "halfDoor": {
+            "instructions": "<ul><li>取一片新的酒精棉片，以劃圓 (3-4 次) 的動作清潔光學觀測窗，再取一張新的乾拭鏡紙，以劃圓動作擦乾。</li><strong>重要提示：</strong><linebreak/>不可用力壓光學觀測窗。</li></ul>"
+          },
+          "fullDoor": {
+            "instructions": "<ul><li>使用全新且浸濕過的酒精棉片反覆清潔光學工作台和軌道，拭除所有的碎片。然後用拭鏡紙擦乾。</li><li>使用新的酒精棉片 (不必浸濕)，以劃圓 (3-4 次) 的動作清潔光學觀測窗，再取一張乾淨的拭鏡紙，以劃圓動作擦乾。<linebreak/><strong>重要提示：</strong><shortlinebreak/>不可用力壓光學觀測窗。</li></ul>"
+          }
+        },
+        "ShieldAndWasteBin": {
+          "title": "取出離心機臂和廢片槽。",
+          "instructions": "<ul><li>用溫水洗乾淨。</li><li>以紙巾擦乾。</li></ul>",
+          "note": "<strong>重要提示：</strong><shortlinebreak/>請務必等到步驟 {{ replaceStep }} 再將零件裝回去。"
+        },
+        "CentrifugeArm": {
+          "instructions": "<ul><li>將離心機臂輕輕移動到左側，檢查機臂下方區域是否有碎片。</li><li>若仍不夠乾淨，請使用新的酒精棉片清潔，再取一張新的拭鏡紙擦乾。</li></ul>"
+        },
+        "MoveArm": {
+          "instructions": "<ul><li>使用新的酒精棉片 (不必浸濕) 清潔移動臂。</li><li>另取一張新的拭鏡紙擦乾移動臂。</li></ul>"
+        },
+        "ReplaceComponents": {
+          "instructions": "將廢片槽、離心機保護片以及分析片架裝回分析儀內部的原位。"
+        },
+        "FanFilter": {
+          "instructions": "<ul><li>關上正面門板。找到分析儀背面的風扇濾網。</li><li>取下濾網，以溫水充分浸濕。</li><li>以紙巾將濾網拍乾，再將濾網裝回原位。<linebreak/>點選<strong>完成</strong>開啟分析儀的電源，然後返回主畫面。</li></ul>"
+        }
+      },
+      "qc": {
+        "buttons": {
+          "addQCLot": "新增品管批號"
+        },
+        "labels": {
+          "level": "濃度",
+          "lotNumber": "批號"
+        },
+        "runQc": {
+          "title": "執行 SediVue Dx 品管",
+          "prepare": {
+            "header": "品管樣本製備：",
+            "instructions": "<li>輕輕倒轉品管瓶，直到沉降於瓶底的細胞充分懸浮。<linebreak/><strong>注意：</strong>不要將品管瓶置於搖擺器或混勻機上。</li>"
+          },
+          "start": {
+            "header": "開始檢測：",
+            "instructions": "<li>將 SediVue Dx 品管檢體放入分析儀中的吸收池。</li><li>按下分析儀上的<strong>啟動</strong>按鈕。"
+          }
+        },
+        "viewQc": {
+          "title": "SediVue Dx 品管結果"
+        },
+        "lotEntry": {
+          "complete": "完成",
+          "title": "SediVue Dx 新增品管批號",
+          "prompt": "掃描或輸入所有適用的條碼。注意：若要新增品管批號，每種濃度必須各有一個條碼。完成時，點選<strong>下一步</strong>。",
+          "lotNumber": "批號",
+          "expiry": "有效日期",
+          "rbcRange": "紅血球範圍",
+          "wbcRange": "白血球範圍",
+          "qualityControlBarcodes": "品管條碼",
+          "enterBarcode": "輸入條碼：",
+          "barcode1": "條碼 1 -",
+          "barcode2": "條碼 2 -",
+          "level1Abnormal": "濃度 1 (異常)",
+          "level2Normal": "濃度 2 (正常)",
+          "barcodeInvalid": "條碼無效。",
+          "lotExpired": "批號過期。"
+        }
+      }
+    },
+    "reports": {
+      "title": "{{ instrumentName }} 報告"
+    },
+    "snap": {
+      "buttons": {
+        "printSnapReport": "列印 SNAP 檢驗報告"
+      },
+      "settings": {
+        "enableTimer": "啟用 SNAP 計時器",
+        "reminderDuration": "SNAP 提醒",
+        "enableCompletionBeep": "SNAP 檢驗完成時會發出嗶聲"
+      },
+      "reports": {
+        "customDateRange": "自訂日期範圍",
+        "lastMonth": "上個月",
+        "lastWeek": "上週",
+        "printLog": "列印記錄",
+        "printSummary": "列印摘要",
+        "selectDateRangeForReport": "選擇報告裡所需的日期範圍：",
+        "selectDates": "選擇日期",
+        "selectedDates": "選定的日期：",
+        "thisMonth": "本月",
+        "thisWeek": "本週",
+        "title": "SNAP 記錄報告",
+        "yearToDate": "今年度迄今",
+        "reportModal": {
+          "logTitle": "SNAP 記錄報告",
+          "summaryTitle": "SNAP 摘要報告",
+          "logReport": "記錄報告",
+          "summaryReport": "摘要報告",
+          "noDataAvailable": "沒有資料。"
+        }
+      }
+    },
+    "uaAnalyzer": {
+      "offline": {
+        "description": "IDEXX VetLab Station 無法與 UA 分析儀連線。若不再使用此儀器，請點選<strong>移除儀器</strong>鍵，將圖示從主畫面移除。"
+      },
+      "settings": {
+        "section": {
+          "physicalRecordEntry": "尿液分析理學特性紀錄項目"
+        },
+        "autoAddManualUA": "自動在尿液分析儀檢測中新增尿液分析理學特性紀錄圖示。",
+        "samplePreparationInstructions": "檢體製備說明",
+        "reportingUnits": "報告單位",
+        "reportingUnitsOptions": {
+          "arbitrary": "任意單位：1+、2+",
+          "arbitraryAndConventional": "常設與任意單位：mg/dL(1+)",
+          "arbitraryAndSi": "國際與任意單位：µmol/L(1+)",
+          "conventional": "常設單位：mg/dL",
+          "si": "國際單位：µmol/L"
+        }
+      }
+    },
+    "uriSysDx": {
+      "uaCalibration": "UA 分析儀校正",
+      "analyzerSerialNumber": "分析儀：{{serialNumber}}",
+      "calibration": "校正",
+      "calibrationModal": {
+        "title": "校正說明",
+        "body": "<ol><li>在 UA 托盤上放入新的校正試紙。</li><li>按下儀器上的<strong>啟動</strong>按鈕。</li></ol>",
+        "bodyNote": "如果校正失敗，請使用新的校正試紙再次校正。若問題持續出現，請電洽 IDEXX 支援部門。"
+      },
+      "calibrationResult": {
+        "FAIL": "失敗",
+        "PASS": "合格",
+        "success": "UA 分析儀校正成功。",
+        "failureTitle": "校正失敗",
+        "failureBody": "校正失敗。請使用新的校正試紙再次校正。若問題持續出現，請電洽 IDEXX 支援部門。"
+      },
+      "buttons": {
+        "calibration": "校正",
+        "runCalibration": "執行校正",
+        "cancelProcess": "取消程序",
+        "initialize": "初始化"
+      },
+      "labels": {
+        "results": "檢驗結果",
+        "time": "時間"
+      },
+      "offline": {
+        "description": "IDEXX VetLab Station 無法與 UA 分析儀連線。若不再使用此儀器，請點選<strong>移除儀器</strong>鍵，將圖示從主畫面移除。"
+      },
+      "samplePreparationInstructions": {
+        "title": "檢體製備",
+        "body": "<strong>分析檢體：</strong><ol><li>使用吸量管將尿液檢體滴在 IDEXX UA 試紙上並浸潤試紙。<strong>請勿彎曲試紙。</strong></li><li>將檢驗試紙長緣及背面在吸水表面上快速輕擦一下。</li><li>將檢驗試紙放入托盤，檢驗襯墊朝上。</li><li>按下 <strong>Start</strong> (啟動) 按鈕。</li></ol>",
+        "disableInstruction": "欲停用本訊息，請將 UA 分析儀設定螢幕中的<strong>檢體製備說明</strong>設定為<strong>關閉</strong>。"
+      }
+    },
+    "inVue": {
+      "diagnostics": {
+        "ejectCartridge": "退出分析片",
+        "lotEntry": "輸入批號",
+        "lotEntrySuccess": "進行下一次分析的耗材已準備好。"
+      }
+    }
+  },
+  "qc": {
+    "header": "{{ instrumentName }} 品管批號",
+    "analyzer": "分析儀:",
+    "control": "Control:",
+    "level": "濃度",
+    "lot": "批號：",
+    "records": {
+      "header": "品管紀錄",
+      "dateTime": "日期與時間",
+      "viewResults": "檢視結果",
+      "noResults": "無結果可用",
+      "qcTrend": "排列所有品管趨勢圖",
+      "controlTrendReport": "{{ instrumentName }} 品管趨勢圖報告",
+      "excludeFromQcTrend": "從品管趨勢資料中排除",
+      "tapToEnterComments": "點選以輸入附註"
+    },
+    "results": {
+      "header": "{{ instrumentName }} 品管結果"
+    },
+    "lotInfo": {
+      "header": "{{instrumentName}} 品管批號資訊",
+      "lot": "批號",
+      "qcType": "品管類型",
+      "expiration": "有效日期",
+      "calibrationVersion": "校正版本",
+      "test": "檢驗項目",
+      "expectedRange": "預期範圍"
+    },
+    "smartQCResult": {
+      "title": "{{instrumentName}} SmartQC",
+      "outOfRangeContent": "SmartQC 超出範圍；請聯絡 IDEXX 支援部門。",
+      "passContent": "SmartQC 已通過。",
+      "catalyst": {
+        "outOfRange": {
+          "title": "SmartQC 超出範圍",
+          "content": "SmartQC 超出範圍。請使用新的 SmartQC 套組和試劑套組重新執行。若問題仍然存在，請洽詢 IDEXX 支援部門。"
+        }
+      }
+    }
+  },
+  "header": {
+    "instruments": {
+      "detail": {
+        "title": "分析儀",
+        "viewAll": "查看全部"
+      },
+      "pills": {
+        "allReady": "所有分析儀就緒",
+        "alert": "{{count}} 有警告",
+        "busy": "{{count}} 忙碌",
+        "offline": "{{count}} 離線",
+        "alertShort": "{{count}}",
+        "busyShort": "{{count}}",
+        "offlineShort": "{{count}}"
+      }
+    },
+    "navigation": {
+      "instruments": "儀器",
+      "settings": "設定",
+      "help": "說明與支援",
+      "messages": "訊息",
+      "dropDown": "設定",
+      "powerDown": "斷電"
+    },
+    "powerDownModal": {
+      "title": "斷電",
+      "body": "您確定要關閉 IDEXX VetLab Station 嗎?",
+      "buttons": {
+        "powerDown": "斷電",
+        "restart": "重新啟動"
+      }
+    },
+    "tutorial": {
+      "label": "教學課程"
+    }
+  },
+  "pendingList": {
+    "labels": {
+      "received": "接收於 {{receivedAt}}"
+    },
+    "cancelConfirm": {
+      "header": "刪除待驗檢體請求",
+      "body": "您確定要要刪除 {{patientName}} 的此待驗檢體請求嗎？"
+    }
+  },
+  "instruments": {
+    "cancelProcessModal": {
+      "title": "取消程序",
+      "body": "確定要取消目前的分析儀程序，並讓分析儀恢復「就緒」狀態？"
+    },
+    "categories": {
+      "hematology": "血液學",
+      "chemistry": "生化檢驗項目",
+      "urineSediment": "尿液沉渣",
+      "immunoassay": "免疫分析",
+      "urinalysis": "尿液分析",
+      "pathology": "病理"
+    },
+    "numberedName": "{{name}} {{number}}",
+    "names": {
+      "LASERCYTE": "LaserCyte",
+      "VETTEST": "VetTest",
+      "AUTOREADER": "VetAutoread",
+      "SNAPREADER": "SNAP Reader",
+      "VETLYTE": "VetLyte",
+      "VETSTAT": "VetStat",
+      "UA_ANALYZER": "UA Analyzer",
+      "URISYS_DX": "UA Analyzer",
+      "SNAP": "SNAP",
+      "CATALYST_DX": "Catalyst Dx",
+      "SNAPSHOT_DX": "SNAPshot Dx",
+      "COAG_DX": "Coag Dx",
+      "CRIMSON": "ProCyte Dx",
+      "LASERCYTE_DX": "LaserCyte Dx",
+      "SNAPPRO": "SNAP Pro",
+      "CATONE": "Catalyst One",
+      "URISED": "SediVue Dx",
+      "MANUAL_UA": "手動 UA",
+      "MANUAL_CRP": "手動分析 CRP",
+      "ACADIA_DX": "ProCyte One",
+      "SAAS_PIMS": "醫院管理系統",
+      "INTERLINK_PIMS": "醫院管理系統",
+      "SERIAL_PIMS": "醫院管理系統",
+      "THEIA": "IDEXX inVue Dx",
+      "THEIA_short": "inVue Dx",
+      "TENSEI": "IDEXX ProCyte Dx",
+      "TENSEI_short": "Tensei",
+      "CATONE_extended": "Catalyst One 生化分析儀",
+      "CATALYST_DX_extended": "Catalyst Dx 生化分析儀",
+      "VETSTAT_extended": "VetStat 電解質與血液氣體分析儀",
+      "ACADIA_DX_extended": "ProCyte One 血液分析儀",
+      "CRIMSON_extended": "ProCyte Dx 血液分析儀",
+      "COAG_DX_extended": "Coag Dx 分析儀",
+      "SNAPPRO_extended": "SNAP Pro 分析儀",
+      "URISED_extended": "SediVue DX尿液沉渣分析儀",
+      "URISYS_DX_extended": "IDEXX VetLab UA 分析儀"
+    },
+    "status": {
+      "READY": "待機",
+      "BUSY": "忙碌",
+      "OFFLINE": "離線",
+      "ENABLED": "已啟用",
+      "STANDBY": "待機",
+      "ALERT": "警示",
+      "NOT_READY": "未就緒",
+      "UNKNOWN": "未知",
+      "SLEEP": "睡眠",
+      "MANUAL_ENTRY": "手動輸入",
+      "MANUAL": "手動"
+    }
+  },
+  "patientEntry": {
+    "titles": {
+      "newPatient": "新增動物",
+      "editPatient": "編輯動物"
+    },
+    "labels": {
+      "patientName": "動物名",
+      "species": "種別",
+      "breed": "品種",
+      "sex": "性別",
+      "lastKnownWeight": "體重",
+      "lifestage": "成長階段",
+      "type": "種別",
+      "age": "年齡",
+      "pimsPatientId": "PIMS Patient ID",
+      "ageApproximate": "年齡是概略值",
+      "ageCategories": {
+        "Years": "歲",
+        "Months": "月",
+        "Days": "天",
+        "Weeks": "週"
+      },
+      "client": {
+        "lastName": "姓",
+        "firstName": "名字",
+        "clientId": "病歷號碼",
+        "pimsClientId": "PIMS Client ID"
+      }
+    },
+    "validation": {
+      "years": "無效年份"
+    }
+  },
+  "orderFulfillment": {
+    "title": "選擇檢驗項目",
+    "fulfillment": {
+      "requisitionId": "醫院病歷號碼",
+      "confirmLifestage": "確認成長階段 *",
+      "confirmType": "確認種別 *",
+      "selectLifestage": "選擇成長階段",
+      "selectType": "選擇種別",
+      "reasonForTesting": "檢驗原因",
+      "selectDoctor": "選擇醫師",
+      "selectReason": "選擇理由",
+      "statPatient": "緊急患者",
+      "testOrder": "檢驗順序：{{services}}",
+      "testOrderLabel": "檢驗順序",
+      "addRun": "新增執行",
+      "addRun_one": "新增第二次執行",
+      "addRun_other": "新增執行",
+      "runTab": "執行 {{ index }}"
+    },
+    "testingReasons": {
+      "WELLNESS_TESTING": "健康篩檢",
+      "SICK_TESTING": "疾病檢驗",
+      "MONITORING": "監測",
+      "PREANESTHESIA": "麻醉前",
+      "NONE_GIVEN": "無"
+    },
+    "guidance": {
+      "enterResults": "選擇「執行」後請輸入結果"
+    },
+    "runConfig": {
+      "UPC": {
+        "toggle": "尿蛋白/尿肌酸肝比 (UPC)",
+        "header": "UPC - 1:{{totalParts}}",
+        "sampleTypeHeader": "{{ sampleType }}:UPC - 1:{{ totalParts }}"
+      },
+      "DILUTION": {
+        "toggle": "稀釋",
+        "header": "稀釋 - 1:{{totalParts}}",
+        "sampleTypeHeader": "{{ sampleType }}:稀釋 - 1:{{ totalParts }}"
+      },
+      "BACTERIA_REFLEX": {
+        "toggle": "確認細菌",
+        "header": "使用細菌確認試劑盒製備檢體，然後開始進行分析。",
+        "instructionsModalHeader": "細菌確認試劑盒使用說明",
+        "instructionsModalBody": "<ol><li>使用 SediVue Dx 移液管，將 165 µL 的尿液從原檢體容器移至未處理過的新試管中，接下來的步驟均使用這根試管進行。</li><li>添加 1 滴（紅色）試劑 1，蓋上試管蓋，然後倒置 5 次，搖晃均勻。取下蓋子。</li><li>添加 1 滴（藍色）試劑 2，蓋回試管蓋，再倒置 5 次，搖晃均勻。</li><li>使用 SediVue Dx 移液管抽吸 165 µL 的檢體和試劑混合物。</li><li> 點選下方的<strong>確定</strong>讓分析儀開始運轉，然後將檢體和試劑混合物放入 SediVue Dx 分析片中。</li><li>按 SediVue Dx 上的<strong>啟動</strong>按鈕。</li></ol>"
+      },
+      "labels": {
+        "UPC": "尿蛋白/尿肌酸肝比 (UPC)",
+        "DILUTION": "稀釋",
+        "BACTERIA_REFLEX": "確認細菌",
+        "SAMPLE_TYPE": "檢體種類"
+      },
+      "dilution": {
+        "partSample": "份檢體",
+        "partDiluent": "份稀釋液",
+        "totalParts": "總部份",
+        "adjust": "調整稀釋",
+        "upcDilution": "UPC 稀釋"
+      },
+      "selectSampleType": "選取檢體種類",
+      "fluidTypeNotValidated": "液體類型尚未被驗證。僅用於研究目的。",
+      "sediVueDx": {
+        "dilutionInstructions": {
+          "title": "稀釋說明",
+          "instructions": "<ol><li>倒置尿液檢體 10 次，然後立即抽吸 1 份檢體，將檢體加進試管中，這根試管中已經含有特定份數的 0.9% 普通食鹽水。食鹽水份數因您所選定的稀釋比而異 (例如1 份檢體 + 9 份食鹽水 = 稀釋比是 10)</li><li>根據理想的稀釋比調整稀釋液份數，然後點選<strong>分析</strong>或<strong>新增檢驗</strong>，開始進行分析。</li><li>倒轉稀釋後的檢體 10 次，然後立即抽吸 165 µl 的檢體，注入分析片注口。</li><li>按下分析儀上的<strong>啟動</strong>按鈕。結果會出現一則備註，註明有進行稀釋。</li></ol><shortlinebreak/><strong>注意：</strong>尿液檢體的稀釋可能會影響檢體的 PH (酸鹼值) 及滲透壓並導致細胞外觀的改變及結晶的出現。"
+        }
+      },
+      "catOne": {
+        "automaticDilutionInstructions": {
+          "title": "自動稀釋指示",
+          "body": "載入顯示的材料：",
+          "instructions": "<ol><li>移液管吸頭</li><li>未稀釋的檢體</li><li>試藥片</li><li>空檢體杯</li><li>檢體杯中放 300 µl 食鹽水</li></ol><strong>重要提示：</strong>請勿稀釋正在進行氨、苯巴比妥、果糖胺或電解質檢測的檢體。"
+        },
+        "manualDilutionInstructions": {
+          "title": "手動稀釋指示",
+          "body": "載入顯示的材料：",
+          "instructions": "<ol><li>移液管吸頭</li><li>已稀釋的檢體</li><li>試藥片</li></ol><strong>重要提示：</strong>請勿稀釋正在進行氨、苯巴比妥、果糖胺或電解質檢測的檢體。"
+        },
+        "upcInstructions": {
+          "title": "UPC 指示",
+          "instructions": "<ol><li>放入尖頭吸管</li><li>放入未稀釋的檢體<shortlinebreak/><strong>注意：</strong>務必確實離心尿液檢體，取得適用於進行 UPC 檢測的尿液上清液。</li><li>放入 UPRO 和 UCRE 試藥片<shortlinebreak/><strong>注意：</strong>使用 UPC 套組時勿檢測任何其他試藥片或 CLIP。</li><li>將一個空的檢體杯放入左側的稀釋杯架內。</li><li>在右側的稀釋杯架內，放入裝有 300 µl Catalyst 尿液 P:C 稀釋劑的檢體杯</li></ol>"
+        }
+      },
+      "proCyteDx": {
+        "synovialReminder": {
+          "title": "準備關節液檢體",
+          "body": "黏稠度極高的滑液檢體有可能會導致分析儀阻塞。<linebreak/><strong>若發生這種情形，IDEXX 建議以下處理方式：</strong><ul><li>進行 1:2 稀釋 (混合 1 份的滑液與 1 份的透明質酸酶)。</li><li>將結果乘以 2。</li></ul>"
+        }
+      },
+      "inVueDx": {
+        "barcodePlaceholder": "請掃描試藥片條碼",
+        "fna": {
+          "edit": "編輯檢體詳情",
+          "confirmCancel": {
+            "title": "捨棄檢體選擇？",
+            "body": "您確定要捨棄檢體選擇？"
+          },
+          "buttons": {
+            "finish": "完成並儲存",
+            "optional": "輸入選填詳情"
+          },
+          "titles": {
+            "required": "必填",
+            "optional": "選項",
+            "sampleLocation": "檢體位置",
+            "lesionAppearance": "病變外觀",
+            "clinicalHistory": "臨床病史"
+          },
+          "sampleLocation": {
+            "title": "* 採樣位置",
+            "LEFT": "左側",
+            "RIGHT": "右側"
+          },
+          "lesionAppearance": {
+            "title": "* 病變的外觀如何？(勾選所有適用的項目)",
+            "ALOPECIC": "脫毛",
+            "CRUSTED": "結痂",
+            "FIRM": "堅實",
+            "FIXED": "不可移動/固著",
+            "FLAT": "平坦",
+            "FLUID_FILLED": "充滿液體",
+            "HAIRED": "有毛",
+            "INVASIVE": "侵入性",
+            "IRREGULAR": "不規則",
+            "MOVABLE": "可移動",
+            "NODULAR": "結節",
+            "NORMAL_SKIN_COLOR": "正常皮膚顏色",
+            "OOZING_WEEPING": "滲血/滲液",
+            "PAINFUL": "痛感",
+            "PART_HAIRED": "部分有毛",
+            "PEDUNCULATED": "有蒂",
+            "PIGMENTED_BLACK": "變色/黑色",
+            "PINK": "粉色",
+            "POORLY_CIRCUMSCRIBED": "邊界不清楚",
+            "PRURITIC_ITCHY": "搔癢/癢",
+            "RAISED": "隆起",
+            "RED": "紅色",
+            "SEMIFIRM": "半堅實",
+            "SMOOTH": "平滑",
+            "SOFT": "柔軟",
+            "ULCERATED": "潰瘍",
+            "UNKNOWN": "未知",
+            "WELL_CIRCUMSCRIBED": "邊界清楚"
+          },
+          "sampleSite": {
+            "title": "* 檢體採集部位",
+            "HEAD": "頭部",
+            "SUBMANDIBULAR": "下頜",
+            "NECK": "頸部",
+            "CHEST_TRUNK": "胸部/軀幹",
+            "ABDOMEN": "腹部",
+            "FORELIMB": "前肢",
+            "HINDLIMB": "後肢",
+            "FOOT": "足部",
+            "PERINEUM_PERIANAL": "會陰/肛周",
+            "TAIL": "尾巴",
+            "EAR": "耳朵"
+          },
+          "subsite": {
+            "title": "* 具體次採集部位",
+            "ABDOMEN_INGUINAL": "鼠蹊部 - 皮膚或皮下病變",
+            "ABDOMEN_LATERAL": "側面",
+            "ABDOMEN_MAMMARY_GLAND": "乳腺",
+            "ABDOMEN_MIDLINE": "中線",
+            "ABDOMEN_OTHER_UNKNOWN": "其他/未知",
+            "ABDOMEN_PREPUTIAL_HAIRED_SKIN": "包皮有毛皮膚",
+            "ABDOMEN_VENTRAL": "腹側",
+            "CHEST_TRUNK_DORSUM": "背部",
+            "CHEST_TRUNK_LATERAL": "側面",
+            "CHEST_TRUNK_MAMMARY_GLAND": "乳腺",
+            "CHEST_TRUNK_OTHER_UNKNOWN": "其他/未知",
+            "CHEST_TRUNK_VENTRAL": "腹側",
+            "EAR": "耳朵",
+            "EMPTY": "空",
+            "FOOT_CARPUS_TARSUS": "腕部/跗部",
+            "FOOT_DIGIT": "趾部",
+            "FOOT_INTERDIGITAL": "趾間",
+            "FOOT_METACARPAL_METATARSAL": "蹠部/蹠骨區域",
+            "FOOT_NAILBED": "爪床",
+            "FOOT_OTHER_UNKNOWN": "其他/未知",
+            "FOOT_PAD": "足墊",
+            "FORELIMB_ANTEBRACHIUM": "前臂",
+            "FORELIMB_AXILLA": "腋下",
+            "FORELIMB_BRACHIUM": "肱部/上臂",
+            "FORELIMB_CARPUS": "腕部",
+            "FORELIMB_ELBOW": "肘部",
+            "FORELIMB_OTHER_UNKNOWN": "其他/未知",
+            "FORELIMB_SHOULDER": "肩部",
+            "HEAD_CHEEK": "臉頰",
+            "HEAD_CHIN": "下巴",
+            "HEAD_EYELID": "眼皮",
+            "HEAD_LIP_HAIRED_SKIN": "唇部有毛皮膚",
+            "HEAD_LIP_MUCU_JUNCTION": "唇黏膜交界處",
+            "HEAD_MUZZLE": "口鼻部",
+            "HEAD_NASAL_DORSAL_BRIDGE": "鼻樑",
+            "HEAD_NASAL_PLANUM": "鼻平面",
+            "HEAD_OTHER_UNKNOWN": "其他/未知",
+            "HEAD_PERIOCULAR": "眼周",
+            "HEAD_PINNA": "耳廓",
+            "HEAD_TOP_OF_HEAD": "頭頂",
+            "HINDLIMB_HIP": "髖部",
+            "HINDLIMB_OTHER_UNKNOWN": "其他/未知",
+            "HINDLIMB_STIFLE": "膝部",
+            "HINDLIMB_TARSUS": "跗部",
+            "HINDLIMB_THIGH": "大腿",
+            "HINDLIMB_TIBIAL_REGION": "脛骨區域",
+            "INDETERMINATE": "不確定",
+            "NECK_DORSAL": "背側",
+            "NECK_LATERAL": "側面",
+            "NECK_OTHER_UNKNOWN": "其他/未知",
+            "NECK_THYROID": "甲狀腺",
+            "NECK_VENTRAL": "腹側",
+            "PERINEUM_PERIANAL_ANAL_GLAND_SAC": "肛門腺/囊",
+            "PERINEUM_PERIANAL_OTHER_UNKNOWN": "其他/未知",
+            "PERINEUM_PERIANAL_PARANIAL_REGION": "肛周區域",
+            "PERINEUM_PERIANAL_PERIVULVAR": "外陰周圍",
+            "PERINEUM_PERIANAL_SCROTUM": "陰囊",
+            "SUBMANDIBULAR_OTHER_UNKNOWN": "其他/未知",
+            "SUBMANDIBULAR_SALIVARY_GLAND": "唾腺",
+            "SUBMANDIBULAR_SKIN_SUBCUT_LESION": "皮膚或皮下病變",
+            "TAIL_OTHER_UNKNOWN": "其他/未知",
+            "TAIL_TAIL_BASE": "尾巴基部",
+            "TAIL_TAIL_DORSAL": "尾巴背側",
+            "TAIL_TAIL_VENTRAL": "尾巴腹側"
+          },
+          "clinicalHistory": {
+            "labels": {
+              "recentVaccination": "動物患者過去 3 個月內是否接種過疫苗？",
+              "infection": "動物患者是否曾感染過？",
+              "recentTravel": "動物患者是否曾經在美國境內行動？(勾選所有適用的項目)",
+              "patientLivingLocation": "動物患者目前的居住地在哪裡？",
+              "recentTrauma": "動物患者是否有外傷病史？",
+              "recentNeoplasia": "動物患者是否曾患有腫瘤？",
+              "lesionDischarge": "是否有任何分泌物？",
+              "antibioticsTreatment": "動物患者對抗生素是否有反應？(最近或目前)",
+              "treatmentOtherResponsive": "動物患者是否有接受任何其他治療後成功治癒的經驗？(最近或目前)",
+              "symptoms": "動物患者是否出現以下任何症狀？(勾選所有適用的項目)",
+              "lesionDuration": "病變出現多久了？",
+              "recentSurgery": "動物患者最近或以前是否 (在此區域) 接受過外科手術？",
+              "lesionRecurrent": "病變是否是復發？",
+              "lesionSizeChanging": "病變大小是否出現變化？",
+              "lesionSimilarPresent": "是否出現其他類似病變？",
+              "lesionSwelling": "是否有腫塊？",
+              "lesionBothering": "動物患者是否因病變所苦？(勾選所有適用的項目)",
+              "lesionGrowthRate": "病變生長速度如何？",
+              "distribution": "病變分佈情形如何？",
+              "lesionAspirateAppearance": "抽吸液的外觀如何？(勾選所有適用的項目)",
+              "lesionSize": "病變的直徑多大？"
+            },
+            "area": {
+              "IN_THIS_AREA": "在此區域",
+              "ELSEWHERE": "在其他區域"
+            },
+            "recentTravel": {
+              "US_WEST": "西部",
+              "US_SOUTHWEST": "西南部",
+              "US_SOUTHEAST": "東南部",
+              "US_NORTHEAST": "東北部",
+              "US_MIDWEST": "中西部",
+              "OUTSIDE_US": "美國境外"
+            },
+            "patientLivingLocation": {
+              "INDOOR": "只限室內",
+              "OUTDOOR": "只限室外",
+              "INDOOR_OUTDOOR": "室內/室外"
+            },
+            "binary": {
+              "YES": "是",
+              "NO": "否"
+            },
+            "responsive": {
+              "RESPONSIVE": "是",
+              "NON_RESPONSIVE": "否"
+            },
+            "symptoms": {
+              "FEVER": "發燒",
+              "LETHARGY": "嗜睡",
+              "WEIGHT_LOSS": "體重下降",
+              "INAPPETENCE_ANOREXIA": "食慾不振/厭食",
+              "GENERALIZED_LYMPHADENOPATHY": "全身性淋巴結腫大",
+              "REGIONAL_LYMPHADENOPATHY": "局部淋巴腺腫大 "
+            },
+            "lesionDuration": {
+              "LESS_THAN_24HOURS": "<24 小時",
+              "DAYS": "天",
+              "WEEKS": "週",
+              "ONE_TO_SIX_MONTHS": "1-6 個月",
+              "SIX_TO_TWELVE_MONTHS": "6-12 個月",
+              "MORE_THAN_ONE_YEAR": ">1 年"
+            },
+            "lesionSizeChanging": {
+              "GROWING": "變大",
+              "SHRINKING": "縮小",
+              "FLUCTUATING": "時大時小"
+            },
+            "lesionSwelling": {
+              "REGIONAL": "局部",
+              "DISTAL": "遠端",
+              "ASSOCIATED": "相關"
+            },
+            "lesionBothering": {
+              "ITCHING": "發癢",
+              "LICKING": "舔舐",
+              "PAINFUL": "痛感",
+              "LIMPING": "跛腳"
+            },
+            "lesionGrowthRate": {
+              "SLOW": "慢",
+              "MODERATE": "適中",
+              "RAPID": "快"
+            },
+            "distribution": {
+              "SINGLE_LESION": "單一病變 (局部性)",
+              "MULTIPLE_LESIONS": "多處病變 (多發性)",
+              "REGIONALLY_EXTENSIVE": "局部廣泛性",
+              "DIFFUSE": "擴散 (全身)"
+            },
+            "lesionAspirateAppearance": {
+              "CLEAR_SEROUS": "澄清/漿液性",
+              "SEROSANGUINOUS": "血性漿液",
+              "BLOODY": "帶血",
+              "PURULENT": "化膿",
+              "WHITE": "白色",
+              "BLACK": "黑色",
+              "VISCOUS_MUCINOUS": "黏性/黏液性",
+              "CHUNKY": "結塊",
+              "GREASY": "油脂性"
+            }
+          }
+        }
+      },
+      "snap": {
+        "confirmLeishmania": {
+          "title": "注意 - 請驗證檢測版本！",
+          "body_original": "IDEXX SNAP 利什曼原蟲症檢測有兩個版本存在。為避免可能有不正確的結果，請確認您已選擇正確版本的 SNAP 利什曼原蟲症檢測：<shortlinebreak/><strong><ul><li>您的檢測在結果窗中有 3 個藍點，並且</li><li>您的試劑盒條碼旁的產品編號為 99-06810 或 99-07821</li></ul></strong>",
+          "body_twoSpot": "IDEXX SNAP 利什曼原蟲症檢測有兩個版本存在。為避免可能有不正確的結果，請確認您已選擇正確版本的 SNAP 利什曼原蟲症檢測：<shortlinebreak/><strong><ul><li>您的檢測在結果窗中有 2 個藍點，並且</li><li>您的試劑盒條碼旁的產品編號為 99-0017586 或 99-0019362</li></ul></strong>"
+        }
+      }
+    },
+    "bloodMorphology": {
+      "optional": "選項",
+      "addHematology": {
+        "button": "新增血液學分析",
+        "instruction": "如需進一步的結果，IDEXX 相當建議新增 CBC：點選<strong>新增血液學分析</strong>以獲得進一步的 IDEXX inVue Dx 結果。"
+      },
+      "confirmPanel": {
+        "cbc.results": "血液學分析結果：",
+        "cbc.values": "RBC {{ rbcValue }} | WBC {{ wbcValue }} | HCT {{ hctValue }}"
+      },
+      "confirmModal": {
+        "header": "血液學分析和 IDEXX inVue Dx",
+        "secondaryHeader": "選項",
+        "instructions": "如需進一步的結果，IDEXX 相當建議新增 CBC：選擇以下的結果來源，或「略過」並只執行 IDEXX inVue Dx (不建議)。"
+      },
+      "tableHeaders": {
+        "analyzer": "分析儀",
+        "runTime": "操作時間",
+        "doctor": "醫師姓名"
+      },
+      "cbc.values": {
+        "placeholder": {
+          "rbc": "輸入 RBC",
+          "hct": "輸入 HCT",
+          "wbc": "輸入 WBC"
+        },
+        "enter": "輸入 CBC 數值",
+        "title": "CBC 結果",
+        "rbc": "RBC (M/µL 或 x10^12/L)",
+        "hct": "血容比 (%)",
+        "wbc": "WBC (K/µL 或 x10^9/L)",
+        "instructions": "用於 IDEXX inVue Dx 的血液檢體必須與用於 CBC 分析的檢體相同，且<strong>最好不要超過 4 小時。</strong>",
+        "header": "輸入 CBC 數值",
+        "secondaryHeader": "IDEXX inVue Dx - 選擇性輸入"
+      },
+      "historical.run": {
+        "import": "匯入先前檢測結果",
+        "instructions": "選擇<strong>{{ patientName }}</strong>的結果。用於 IDEXX inVue Dx 的血液檢體必須與用於 CBC 分析的檢體相同，且<strong>最好不要超過 4 小時。</strong>",
+        "header": "匯入先前血液學分析結果",
+        "secondaryHeader": "IDEXX inVue Dx - 選擇性輸入"
+      },
+      "hematology.run": {
+        "import": "使用 IDEXX inVue Dx 執行 ProCyte",
+        "instructions": "若要得到最佳結果，IDEXX 建議在分析血液形態學時包含血液學分析結果。詳情請見以下說明。",
+        "header": "使用 ProCyte 檢測",
+        "secondaryHeader": "IDEXX inVue Dx - 選擇性輸入"
+      }
+    },
+    "earSwab": {
+      "header": {
+        "required": "必填",
+        "optional": "選項",
+        "specimenDetails": "檢體細節"
+      },
+      "buttons": {
+        "finishAndSave": "完成並儲存",
+        "enterClinicalSigns": "輸入臨床症狀"
+      },
+      "chamber": {
+        "filled": "已滿",
+        "empty": "空"
+      },
+      "selection": {
+        "separator": "、",
+        "left": "左側",
+        "right": "右側"
+      },
+      "selections": "{{selections}}"
+    }
+  },
+  "resultsEntry": {
+    "manualUA": {
+      "labels": {
+        "comments": "附註",
+        "physical": "理學特性",
+        "chemistries": "化學成份",
+        "specificGravity": "比重",
+        "editResults": "編輯結果"
+      },
+      "buttons": {
+        "setAllNegativeNormal": "全部設為陰性/正常"
+      },
+      "collectionMethod": {
+        "Cystocentesis": "膀胱穿刺",
+        "FreeCatch": "盛接採集",
+        "TableTop": "檢查台台面",
+        "Catheterization": "導管插入",
+        "Other": "其他",
+        "NotSpecified": "未指定"
+      },
+      "color": {
+        "Colorless": "無色",
+        "Straw": "淡黃色",
+        "PaleYellow": "金黃色",
+        "DarkYellow": "深黃色",
+        "Amber": "琥珀色",
+        "Orange": "橙色",
+        "Pink": "粉色",
+        "Red": "紅色",
+        "Brown": "棕色",
+        "Green": "綠色",
+        "Other": "其他"
+      },
+      "clarity": {
+        "Clear": "透明",
+        "SlightlyCloudy": "稍微渾濁",
+        "Cloudy": "渾濁",
+        "VeryCloudy": "非常渾濁",
+        "Opaque": "不透明"
+      },
+      "chemistryResults": {
+        "Negative": "陰性",
+        "Normal": "正常",
+        "Trace": "蹤跡",
+        "1+": "1+",
+        "2+": "2+",
+        "3+": "3+",
+        "4+": "4+",
+        "short": {
+          "Negative": "陰性",
+          "Normal": "正常",
+          "Trace": "蹤跡",
+          "1+": "1+",
+          "2+": "2+",
+          "3+": "3+",
+          "4+": "4+"
+        }
+      }
+    },
+    "snap": {
+      "commentTab": {
+        "comment": "附註",
+        "editDate": "編輯日期",
+        "editHistory": "編輯病史",
+        "userId": "使用者代號"
+      },
+      "timerToast": {
+        "complete": "{{snapName}} 計時完成。",
+        "link": "新增結果"
+      },
+      "buttons": {
+        "resetTimer": "重設計時器"
+      },
+      "tabs": {
+        "results": "檢驗結果",
+        "comment": "附註"
+      },
+      "resultsPage": {
+        "instructions_one": "檢體點只要出現任何顏色就表示陽性結果。<shortlinebreak/><strong>點選下方的點，加註陽性標記</strong>。",
+        "instructions_other": "檢體點只要出現任何顏色就表示陽性結果。<shortlinebreak/><strong>點選下方的點，加註陽性標記</strong>。",
+        "heartwormInstructions": "如果高和/或低抗原指示區的呈色比陰性品管液更深，表示結果是陽性。"
+      },
+      "results": {
+        "positive": "陽性",
+        "negative": "陰性",
+        "qualifiedLowAntigen": "(低抗原)",
+        "qualifiedHighAntigen": "(高抗原)",
+        "normal": "正常",
+        "abnormal": "異常",
+        "lt_400": "< 400 mg/dL",
+        "400-800": "400-800 mg/dL",
+        "gt_800": "> 800 mg/dL"
+      },
+      "labels": {
+        "control": "品管液",
+        "positiveControl": "陽性品管液",
+        "negativeControl": "陰性品管液",
+        "select": "<strong>請在下方選擇一個選項</strong>",
+        "selectWithWarning": "<strong>請在下方選擇一個選項</strong><linebreak/>注意：檢體點有可能不會顯色。",
+        "reference": "參考",
+        "sample": "檢體",
+        "normalDefinition": "檢體點的顏色彩度比參考點的彩度<strong>淺</strong>。",
+        "abnormalDefinition": "檢體點的顏色彩度與參考點的彩度<strong>一樣或較深</strong>。",
+        "negativeDefinition": "只有陽性對照點會顯色。",
+        "positiveDefinition": "如果檢體點的呈色比陰性對照組還深的話，表示結果為陽性",
+        "400Spot": "400 mg/dL 校正點",
+        "800Spot": "800 mg/dL 校正點",
+        "lt_400": "檢體點的顏色彩度比 400 mg/dL 校正點的彩度淺。",
+        "400-800": "檢體點的顏色彩度比 400 mg/dL 校正點的彩度深，但比 800 mg/dL 校正點的彩度淺。",
+        "gt_800": "檢體點的顏色彩度比 800 mg/dL 校正點的彩度深。"
+      }
+    },
+    "snapPro": {
+      "selectSnapModal": {
+        "select": "選擇 SNAP 測試"
+      }
+    },
+    "manualCRP": {
+      "header": "C- 反應蛋白手動捕獲"
+    }
+  },
+  "resultsPage": {
+    "title": "檢測結果",
+    "buttons": {
+      "editResults": "編輯結果",
+      "editComment": "編輯附註",
+      "addComment": "新增附註",
+      "manageResults": "管理結果",
+      "addTest": "新增檢驗",
+      "resultDetails": "結果詳情"
+    },
+    "commsLog": {
+      "title": "通訊記錄",
+      "viewLog": "查看通訊記錄",
+      "resendToPims": "重新傳送至 {{ pimsName }}",
+      "instrument": "儀器",
+      "runDate": "檢測日期",
+      "sentTo": "已傳送至 {{ targetName }}",
+      "resentNotification": "系統會將結果重新傳送至 {{ pimsName }}"
+    },
+    "manageResults": {
+      "title": "管理結果 ({{ timestamp }})",
+      "instructions": "點選下方其中一張卡片，繼續操作。",
+      "descriptions": {
+        "reassignResults": "<strong>重新分配結果</strong><shortlinebreak/>已將整份結果分配給選定的動物患者。",
+        "editResults": "<strong>編輯手動結果</strong><shortlinebreak/>編輯手動輸入的結果。",
+        "editResultsInstructions": "在表中選擇一項檢測，然後點選<strong>下一步</strong>繼續執行。",
+        "undoMerge": "<strong>復原合併/取代</strong><shortlinebreak/>將結果還原成原始紀錄。"
+      },
+      "undoMerge": {
+        "title": "復原合併/取代",
+        "warning": "選擇「使用先前檢測結果」會<strong>永久刪除</strong>合併/取代的結果。",
+        "previousResults": "先前檢測結果：",
+        "mergeResults": "合併/取代結果：",
+        "usePreviousResults": "使用先前檢測結果",
+        "useMergeResults": "使用合併/取代結果",
+        "toast": "結果已成功還原回原始紀錄"
+      }
+    },
+    "labels": {
+      "images": "圖像"
+    },
+    "patientProfile": {
+      "labels": {
+        "header": "動物檔案",
+        "patient": "動物患者",
+        "patientId": "動物患者 ID",
+        "species": "種別",
+        "breed": "品種",
+        "sex": "性別",
+        "age": "年齡",
+        "clientFirst": "畜主名字",
+        "clientLast": "畜主姓氏",
+        "clientId": "病歷號碼",
+        "LifeStage": "成長階段",
+        "Type": "種別"
+      }
+    },
+    "resultDetails": {
+      "labels": {
+        "header": "檢測詳情",
+        "source": "來源",
+        "runDate": "檢測日期",
+        "veterinarian": "獸醫",
+        "doctor": "醫師姓名",
+        "requisition": "醫院病歷",
+        "patientDetails": "動物詳情",
+        "lastKnownWeight": "體重",
+        "qcLotNumber": "品管批號",
+        "noSampleSubmittedMessage": "未送出檢體。",
+        "diagnosticConsiderations": "診斷注意事項"
+      }
+    },
+    "graphing": {
+      "title": "趨勢圖",
+      "inHouse": "診所內",
+      "timeframe": {
+        "day": "1 天",
+        "week": "1 週",
+        "month": "1 個月",
+        "year": "1 年",
+        "all": "所有時間"
+      }
+    }
+  },
+  "transferResultsPage": {
+    "headerTitle": "重新分配結果",
+    "title": "將 {{patientName}} {{clientFamilyName}} 的選定結果重新分配給：",
+    "onlyPatientsOfSameSpeciesShown": "僅顯示相同種別的動物患者。"
+  },
+  "transferResultsModal": {
+    "title": "重新分配結果",
+    "prompt": "確定要<strong>將下列結果重新分配給 {{patientName}} {{clientFamilyName}}</strong>？",
+    "heading": {
+      "instruments": "儀器",
+      "veterinarian": "獸醫",
+      "requisitionNumber": "醫院病歷號碼"
+    }
+  },
+  "dotPlots": {
+    "labels": {
+      "patientRun": "動物患者檢測",
+      "normalRun": "正常{{ type }}檢測",
+      "runType": {
+        "RBC": "紅血球測試",
+        "WBC": "白血球測試"
+      },
+      "axis": {
+        "COMPLEXITY": "複雜度",
+        "SIZE": "大小",
+        "FLUORESCENCE": "螢光特性",
+        "GRANULARITY": "顆粒性",
+        "LIGHT_ABSORPTION": "光吸收"
+      },
+      "legend": "點狀圖圖例"
+    },
+    "cellEvents": {
+      "AGRANS": "非顆粒白血球 (AGRANS)",
+      "BASO": "嗜鹼性白血球 (BASO)",
+      "DOUBLET": "雙紅血球",
+      "EOS": "嗜酸性球 (EOS)",
+      "GRANS": "顆粒性白血球 (GRANS)",
+      "GST": "麩胱甘肽硫轉基酶 (GST)",
+      "HETER": "異質 (HETERO)",
+      "HFR": "高螢光強度 (HFR)",
+      "LATEX": "LATEX",
+      "LFR": "低螢光強度 (LFR)",
+      "LYM": "淋巴球 (LYM)",
+      "MFR": "中螢光強度 (MFR)",
+      "MONO": "單核球 (MONO)",
+      "NEU": "嗜中性白血球 (NEU)",
+      "NONREDCELL": "NONREDCELL",
+      "PLT": "血小板 (PLT)",
+      "PLT_AGG": "血小板凝集 (PLT AGG)",
+      "PLTO": "血小板-O (PLT-O)",
+      "Qualibeads": "Qualibeads",
+      "QUALIBEADS": "Qualibeads",
+      "R7": "R7",
+      "R8": "R8",
+      "RBC": "紅血球",
+      "RBC_FRAG": "紅血球碎片",
+      "RBCO": "紅血球-O",
+      "RETICS": "網織球",
+      "UNK": "UNK",
+      "UPP": "UPP",
+      "URBC": "未裂解紅血球",
+      "WBC": "白血球",
+      "WBC_FRAG": "白血球碎片",
+      "WBCGST": "白血球 GST"
+    }
+  },
+  "imageViewer": {
+    "labels": {
+      "paginator": "第 {{ currentPage }} 頁，共 {{ totalPages }} 頁",
+      "previewInstructions": "點選放大",
+      "previewInstructionsWithAddToRecord": "點選以放大 | 選擇新增至病歷",
+      "recordImageCount": "病歷中有 {{ recordImageCount }} 个圖像",
+      "maxImagesInRecord": "選取圖像的最大數目",
+      "addToRecord": "新增至病歷",
+      "partOfRecord": "部分紀錄",
+      "magnification": "放大",
+      "imageInformation": "圖像資訊",
+      "imageNumber": "圖像編號",
+      "imageId": "圖像 ID",
+      "dragInstructions": "拖曳到感興趣區域"
+    },
+    "printResults": "列印結果",
+    "resendModal": {
+      "title": "重新傳送結果",
+      "description": "本結果將重傳到醫院管理系統。",
+      "resend": "重新傳送"
+    }
+  },
+  "assays": {
+    "mua": {
+      "short": {
+        "mPH": "酸鹼值 (pH)",
+        "mLEU": "尿白血球 (LEU)",
+        "mPRO": "尿蛋白質 (PRO)",
+        "mGLU": "尿糖 (GLU)",
+        "mKET": "酮體 (KET)",
+        "mUBG": "尿膽素原 (UBG)",
+        "mBIL": "尿膽紅素 (BIL)",
+        "mBLD": "潛血 (BLD)",
+        "mHGB": "血紅素 (HGB)"
+      },
+      "mPH": "酸鹼值 (pH)",
+      "mLEU": "白血球",
+      "mPRO": "蛋白質",
+      "mGLU": "尿糖",
+      "mKET": "酮體",
+      "mUBG": "尿膽素原",
+      "mBIL": "膽紅素",
+      "mBLD": "血液",
+      "mHGB": "血液",
+      "Color": "顏色",
+      "Clarity": "清晰度",
+      "Collec": "採集方法"
+    },
+    "snap": {
+      "HW": "心絲蟲",
+      "Lyme": "萊姆病",
+      "E. canis": "",
+      "EC-EE": "艾莉西體症",
+      "A. ph.": "",
+      "AP_spp": "片狀邊蟲症",
+      "FIV": "貓愛滋病病毒",
+      "FeLV": "貓白血病病毒",
+      "Parvo": "犬細小病毒",
+      "Giardia": "梨形鞭毛蟲",
+      "CanL": "利什曼原蟲",
+      "IgG": "",
+      "cPL": "",
+      "fPL": "",
+      "fBNP": "貓 proBNP",
+      "Lepto": "鉤端螺旋體",
+      "Hook": "",
+      "Round": "",
+      "Whip": "",
+      "A_VASO": "Angio Detect"
+    }
+  },
+  "inProcess": {
+    "cancelRunConfirm": {
+      "header": "取消{{analyzerName}}檢測？",
+      "body": "您確定要取消本次檢測？"
+    },
+    "patientCard": {
+      "results": "檢驗結果",
+      "min": "min"
+    },
+    "analyzerRun": {
+      "buttons": {
+        "startRun": "開始測試",
+        "cancelRun": "取消測試",
+        "ejectCartridge": "退出分析片",
+        "startTimer": "開始計時",
+        "addResults": "新增結果"
+      },
+      "runLabel": "執行 {{ runQueueId }}",
+      "status": {
+        "ALERT": "警示",
+        "AT_INSTRUMENT": "在儀器上",
+        "AWAITING_MANUAL_ENTRY": "新增結果",
+        "CANCELLED": "已取消",
+        "COMPLETE": "完成",
+        "PARTIAL": "部分結果",
+        "PENDING": "待驗檢體",
+        "REQUIRES_USER_INPUT": "新增詳情",
+        "RUNNING": "檢測中",
+        "TIMER_COMPLETE": "計時完成",
+        "NO_STATUS": "未知",
+        "COMPLETE_ON_INSTRUMENT": "處理中"
+      },
+      "runInfo": {
+        "dilution": "稀釋 - 1:{{ totalParts }}",
+        "dilution_UPC_AUTOMATIC": "UPC - 1:{{ totalParts}}",
+        "dilution_AUTOMATIC": "自動稀釋 - 1:{{ totalParts }}",
+        "dilution_MANUAL": "手動稀釋 - 1:{{ totalParts }}"
+      }
+    }
+  },
+  "general": {
+    "buttons": {
+      "add": "新增",
+      "addTest": "新增檢驗",
+      "addQCLot": "新增品管批號",
+      "apply": "套用",
+      "back": "上一步",
+      "cancel": "取消",
+      "cancelProcess": "取消程序",
+      "clear": "透明",
+      "close": "關閉",
+      "continue": "繼續",
+      "confirm": "確認",
+      "daily": "每日",
+      "delete": "刪除",
+      "done": "完成",
+      "edit": "編輯",
+      "finish": "完成",
+      "high": "高",
+      "instructions": "指示",
+      "low": "低",
+      "never": "絕不",
+      "new": "新增",
+      "next": "下一步",
+      "no": "否",
+      "now": "現在",
+      "off": "關閉",
+      "ok": "確定",
+      "print": "列印",
+      "restart": "重新啟動",
+      "run": "執行",
+      "save": "儲存",
+      "search": "搜尋",
+      "skip": "略過",
+      "reassign": "重新分配",
+      "update": "更新",
+      "upgradeNow": "立即升級",
+      "view": "瀏覽",
+      "viewDetails": "查看詳細資料",
+      "yes": "是",
+      "remindMeLater": "稍後提醒",
+      "learnMore": "瞭解更多詳情",
+      "addToRun": "新增至執行",
+      "startNow": "立即開始"
+    },
+    "keys": {
+      "backspace": "倒退",
+      "capsLock": "大寫",
+      "shift": "shift",
+      "space": "空白鍵",
+      "close": "關閉"
+    },
+    "printJobs": {
+      "resultsReport": "結果報告",
+      "testPage": "測試頁面",
+      "unrecognizedAlert": "不明警示",
+      "catOneUpcDoc": "CatOneUpcDoc",
+      "catOneDilutionDoc": "CatOneDilutionDoc",
+      "notification": "通知",
+      "calibrationParams": "CalParams",
+      "report": "報告",
+      "smartServiceAgreement": "SmartService 同意書"
+    },
+    "timeAndDate": {
+      "AM": "上午",
+      "PM": "下午",
+      "monday": "星期一",
+      "tuesday": "星期二",
+      "wednesday": "星期三",
+      "thursday": "星期四",
+      "friday": "星期五",
+      "saturday": "星期六",
+      "sunday": "星期日"
+    },
+    "messages": {
+      "transferResultsSuccess": "結果重新分配成功。點選以檢視結果。",
+      "somethingWentWrong": "出了些問題。請再試。若錯誤持續出現，請聯絡 IDEXX 支援部門。",
+      "whoopsSomethingWentWrong": "糟糕！出了些問題。<maybelinebreak />請重試一次或聯絡 IDEXX 支援部門。",
+      "printPreviewFailed": "列印預覽失敗。",
+      "actionWillTakeApproximatelyDuration": "{{action}}約需耗時 {{duration}}。",
+      "actionWillTakeLessThanDuration": "{{action}}耗時短於 {{duration}}。",
+      "emptyTable": "無資料可用",
+      "error": "錯誤",
+      "newMessage": "您有一則新訊息。",
+      "shuttingDown": "關機"
+    },
+    "duration": {
+      "second_one": "{{count}} 秒",
+      "second_other": "{{count}} 秒",
+      "minute_one": "{{count}} 分鐘",
+      "minute_other": "{{count}} 分鐘"
+    },
+    "placeholder": {
+      "noValue": "--"
+    },
+    "ThisProcedure": "本程序",
+    "select": "選擇",
+    "noResults": "沒有結果",
+    "doctor": "醫師姓名",
+    "lastKnownWeight": "體重",
+    "firstName": "名字",
+    "lastName": "姓",
+    "patientName": "動物名",
+    "numberSign": "#",
+    "personalName": "{{firstName}} {{middleName}} {{lastName}}",
+    "personalNameReversed": "{{lastName}}, {{firstName}} {{middleName}}",
+    "personalNameReversed_lastOnly": "{{lastName}}",
+    "personalNameReversed_firstOnly": "{{firstName}} {{middleName}}"
+  },
+  "sampleType": {
+    "WHOLEBLOOD": "全血",
+    "ABDOMINAL": "腹水",
+    "SYNOVIAL": "滑液",
+    "THORACIC": "胸腔",
+    "SERUM": "血清",
+    "PLASMA": "血漿",
+    "OTHER": "其他",
+    "URINE": "尿液",
+    "CSF": "CSF",
+    "EAR_SWAB": "耳部棉棒",
+    "FNA": "FNA (細針抽取)",
+    "BLOOD": "血液",
+    "SERUMPLASMA": "血清/血漿",
+    "FECAL": "糞便",
+    "QUALITYCONTROL": "品管",
+    "CEREBROSPINAL": "腦脊髓液",
+    "UNKNOWN": "未知"
+  },
+  "dilutionType": {
+    "AUTOMATIC": "自動",
+    "MANUAL": "手動",
+    "UPC_AUTOMATIC": "尿蛋白/尿肌酸肝比 (UPC)",
+    "NOTDEFINED": "未定義"
+  },
+  "weightUnits": {
+    "POUNDS": "磅",
+    "KILOGRAMS": "公斤"
+  },
+  "unitSystem": {
+    "US": "U.S (美制單位)",
+    "SI": "S.I. (國際單位)",
+    "French": "French (法國制單位)"
+  },
+  "gender": {
+    "Male": "公",
+    "Neutered": "公/已結紮",
+    "Neutered_Equine": "公/已結紮",
+    "Female": "母",
+    "Spayed": "母/已結紮",
+    "Gelding": "公/已結紮"
+  },
+  "validation": {
+    "genericInput": "此欄位必填",
+    "genericSelect": "您必須選擇一項",
+    "genericInputInvalid": "無效的輸入"
+  },
+  "Instrument": {
+    "Snap": {
+      "Canine": {
+        "3Dx": "3Dx",
+        "4Dx": "4Dx",
+        "4DxPlus": "4Dx Plus",
+        "AngioDetect": "Angio Detect",
+        "cPL": "犬胰臟特異脂肪脢 (cPL)",
+        "FecalDx": "Fecal Dx",
+        "Giardia": "梨形鞭毛蟲",
+        "Heartworm": "心絲蟲 RT",
+        "Leish4Dx": "Leish 4Dx",
+        "Leishmania": "利什曼原蟲",
+        "Leishmania2Spot": "利什曼原蟲症 (2 個點)",
+        "Lepto": "鉤端螺旋體病",
+        "Parvo": "犬細小病毒"
+      },
+      "Equine": {
+        "FoalIgG": "仔馬 IgG"
+      },
+      "Feline": {
+        "fBNP": "貓 proBNP",
+        "FecalDx": "Fecal Dx",
+        "FelineCombo": "貓二合一",
+        "FelineComboPlus": "貓二合一+",
+        "FelineHeartworm": "貓心絲蟲",
+        "FelineTriple": "貓三合一",
+        "FeLV": "貓白血病病毒",
+        "fPL": "貓胰臟炎檢驗 (fPL)",
+        "Giardia": "梨形鞭毛蟲",
+        "HeartwormRT": "心絲蟲 RT"
+      }
+    }
+  },
+  "assayTypeModal": {
+    "later": "稍後輸入",
+    "done": "完成",
+    "Assay.Category.BileAcids": "Catalyst 膽酸",
+    "selectOne": "選擇一項",
+    "resultsPendingUntilIdentified": "在確定運行類型之前，結果將保持待定狀態。",
+    "Assay.ListName.BA01": "空腹",
+    "Assay.ListName.BA02": "餐後",
+    "Assay.ListName.BA03": "其他"
+  },
+  "addTestModal": {
+    "title": "新增檢驗",
+    "selectHowToSaveResults": "請選擇您希望如何儲存結果。",
+    "appendResults": {
+      "button": "附加",
+      "description": "<strong>附加結果：</strong>將所選儀器產生的結果新增到病歷中。原始紀錄全數保留。"
+    },
+    "mergeResults": {
+      "button": "合併/取代",
+      "description": "<strong>合併/取代結果</strong>；新加入的結果如有重複參數，即以新的參數覆寫原始結果；其他原始紀錄全數保留。"
+    },
+    "newResults": {
+      "button": "新增",
+      "description": "<strong>新增結果</strong>：將所選儀器產生的結果新增到病歷中，列為一組新的實驗室結果。"
+    },
+    "validationErrors": {
+      "MERGE_THEIA": "<strong>注意：</strong>此分析包含 IDEXX inVue Dx 故沒有合併/取代選項。若要合併/取代結果．請取消選擇 IDEXX inVue Dx。分別執行 IDEXX inVue Dx。"
+    }
+  },
+  "printResultsModal": {
+    "title": "列印結果",
+    "button": {
+      "print": "列印"
+    }
+  },
+  "confirmBackActionModal": {
+    "title": "捨棄變更",
+    "body": "您確定要離開而不儲存嗎？",
+    "button": {
+      "discard": "捨棄"
+    }
+  },
+  "reminders": {
+    "sampleInvertReminder": {
+      "title": "倒置檢體提醒",
+      "instructions_CRIMSON": "<strong>分析檢體：</strong><ol><li>倒轉檢體試管 10 次，以充分混合。</li><li>將試管插入適當的架子。</li><li>按下 ProCyte Dx 的 [<strong>啟動</strong>]。</li></ol>",
+      "instructions_ACADIA_DX": "<strong>分析檢體：</strong><ol><li>上下倒置檢體試管 10 次，以充分混合。如果您使用微量離心管，混合後取下蓋子。</li><li>立即將試管放入檢體槽的前槽中。</li><li>請關閉檢體槽並按下 ProCyte One 的<strong>「啟動（Start）」</strong> 按鈕。</li></ol>",
+      "disable": "要停用這則訊息，請在 {{ instrumentName }} 的設定畫面中，將<strong>倒置檢體提醒</strong>設定設為<strong>關閉</strong>。"
+    },
+    "resultDelayedNotification": {
+      "title": "結果延遲",
+      "body": "處理結果的時間比預期時間長。確認 SmartService 可以正常連線。您可以繼續處理結果或取消儀器執行流程。<br><br> 若問題持續出現，請聯絡 IDEXX 支援部門。"
+    },
+    "resultFailedNotification": {
+      "title": "無法顯示結果",
+      "body": "發生結果報告錯誤，無法提供 IDEXX inVue Dx 血液結果。若要解決此問題，請使用新檢體重新分析。若問題持續出現，請聯絡 IDEXX 支援部門。"
+    }
+  },
+  "rebootNotification": {
+    "weeklyReminder": {
+      "title": "提醒",
+      "body": "IDEXX 建議每週重新啟動 IDEXX VetLab Station 電腦，以確保最佳效能。您要立即重新啟動電腦嗎？"
+    },
+    "excessiveUptime": {
+      "title": "注意",
+      "body": "您的 IDEXX VetLab Station 已經 21 天未重新啟動，需要重新開機。建議每 7 天重新啟動一次，讓系統保持最佳狀況。"
+    },
+    "dstTransition": {
+      "title": "注意",
+      "body": "您的 IDEXX VetLab Station 已設定為採用日光節約時間，且必須重新啟動以套用此變更。"
+    },
+    "timeRemaining": "剩餘時間：<strong>{{ timeRemaining }}</strong>",
+    "pressRestart": "請按「<strong>重新啟動</strong>」(Restart) 以繼續。"
+  },
+  "ManualUA": {
+    "Results": {
+      "Cystocentesis": "膀胱穿刺",
+      "FreeCatch": "盛接採集",
+      "TableTop": "檢查台台面",
+      "Catheterization": "導管插入",
+      "Other": "其他",
+      "NotSpecified": "未指定",
+      "Colorless": "無色",
+      "Straw": "淡黃色",
+      "PaleYellow": "金黃色",
+      "DarkYellow": "深黃色",
+      "Amber": "琥珀色",
+      "Orange": "橙色",
+      "Pink": "粉色",
+      "Red": "紅色",
+      "Brown": "棕色",
+      "Green": "綠色",
+      "Clear": "透明",
+      "SlightlyCloudy": "稍微渾濁",
+      "Cloudy": "渾濁",
+      "VeryCloudy": "非常渾濁",
+      "Opaque": "不透明",
+      "Negative": "陰性",
+      "Normal": "正常",
+      "Trace": "蹤跡",
+      "1+": "1+",
+      "2+": "2+",
+      "3+": "3+",
+      "4+": "4+"
+    }
+  },
+  "Results": {
+    "UA_ANALYZER": {
+      "neg": "陰性",
+      "norm": "正常",
+      "TR": "蹤跡"
+    },
+    "URISED": {
+      "Marked": "有標記",
+      "Moderate": "適中",
+      "Nonedetected": "未檢測出",
+      "NSOR": "未檢測出或極少量",
+      "NSTF": "未檢測出或少量",
+      "Present": "出現",
+      "Rare": "罕見的",
+      "Suspect_Presence*": "疑似存在"
+    },
+    "CRIMSON": {
+      "NRBCLikely": "可能有",
+      "Suspected": "疑似"
+    },
+    "SNAP": {
+      "Negative": "陰性",
+      "WeakPositive": "陽性<br/>(低)",
+      "StrongPositive": "陽性<br/>(高)",
+      "Abnormal": "異常",
+      "GT800": ">800 mg/dl",
+      "LT400": "<400 mg/dl",
+      "400THRU800": "400-800 mg/dl",
+      "Normal": "正常",
+      "Positive": "陽性",
+      "NoResult": "沒有結果"
+    },
+    "InProcess": "進行中",
+    "WaitingForUserInput": "待驗檢體",
+    "resultsComplete": "結果就緒。點選此處以瀏覽。"
+  },
+  "Category": {
+    "Bacteria": "細菌",
+    "Casts": "尿圓柱",
+    "Crystals": "結晶",
+    "EPI": "上皮細胞",
+    "Epithelial_Cells": "上皮細胞",
+    "Mucus": "粘液",
+    "Other": "其他",
+    "RBC": "紅血球",
+    "WBC": "白血球"
+  },
+  "Assay": {
+    "extended": {
+      "BACc": "球菌",
+      "BACr": "桿菌",
+      "BILI": "膽紅素",
+      "BIURAT": "重尿酸氨鹽",
+      "CaCar": "碳酸鈣",
+      "CaOx": "CaOx",
+      "CaOxDi": "雙水草酸鈣",
+      "CaOxMo": "CaOx Mo",
+      "Clar": "清晰度",
+      "Collec": "收集",
+      "CRY": "未分類",
+      "DEBRIS": "非定型碎片",
+      "Hook": "鉤蟲",
+      "HYA": "透明",
+      "LIP": "脂肪",
+      "mSG": "比重",
+      "nhCST": "非透明",
+      "nsEPI": "非鱗狀細胞",
+      "PROG": "黃體素",
+      "QPL": "胰臟特異性脂肪酶",
+      "Round": "蛔蟲",
+      "SG": "比重",
+      "SPRM": "精子",
+      "sqEPI": "鱗狀的",
+      "STR": "磷酸銨鎂",
+      "URIC01": "尿酸",
+      "Whip": "鞭蟲",
+      "YEA": "酵母"
+    },
+    "A_VASO": "A. vasorum",
+    "A._ph.": "馬型艾利希氏體",
+    "AaDO2": "肺泡至動脈氧壓力梯度 (AaDO2)",
+    "AGRANS": "非顆粒白血球 (AGRANS)",
+    "ALB": "白蛋白 (ALB)",
+    "ALB_GLOB": "白蛋白/球蛋白 (ALB/GLOB)",
+    "ALKP": "鹼性磷酸酶 (ALKP)",
+    "ALT": "丙胺酸轉氨酶 (ALT)",
+    "AMYL": "胰澱粉酶 (AMYL)",
+    "AnGap": "陰離子差 (AnGap)",
+    "AP_spp": "AP_spp",
+    "aPTT": "活化部分凝血活酶時間 (aPTT)",
+    "AST": "天門冬酸轉氨酶 (AST)",
+    "BA01": "膽酸 (餐前)",
+    "BA02": "膽酸 (餐後)",
+    "BA03": "膽酸 (其他)",
+    "BACc": "球菌",
+    "BACr": "杆狀細胞",
+    "BAND": "帶狀嗜中性球 (BAND)",
+    "Baro": "大氣壓力 (Baro)",
+    "BASO": "嗜鹼性白血球 (BASO)",
+    "BB": "緩衝鹼 (BB)",
+    "BE": "鹼超量 (BE)",
+    "BEact": "鹼超量 (氧飽和狀態下) (BEact)",
+    "BEecf": "鹼超量 (細胞外液) (BEecf)",
+    "BIL": "尿膽紅素 (BIL)",
+    "BIL01": "尿膽紅素 (BIL)",
+    "BIL02": "尿膽紅素 (BIL)",
+    "BIL03": "尿膽紅素 (BIL)",
+    "BILE01": "膽酸 (餐前)",
+    "BILE02": "膽酸 (餐後)",
+    "BILE03": "膽酸 (其他)",
+    "BILI": "膽紅素",
+    "BIURAT": "重尿酸銨鹽",
+    "BLD": "潛血 (BLD)",
+    "BLD01": "潛血 (BLD)",
+    "BLD02": "潛血 (BLD)",
+    "BUN": "血中尿素氮 (BUN)",
+    "BUN_CREA": "血中尿素氮/肌酸酐 (BUN/CREA)",
+    "CA": "鈣離子 (CA)",
+    "Ca++01": "游離鈣 (Ca++)",
+    "Ca++02": "游離鈣 (Ca++)",
+    "Ca++03": "游離鈣 (Ca++)",
+    "CaCar": "Ca C",
+    "CanL": "利什曼原蟲",
+    "CaOx": "CaOx",
+    "CaOxDi": "草酸鈣 Di",
+    "CaOxMo": "草酸鈣 Mo",
+    "Category": {
+      "BileAcids": "膽酸"
+    },
+    "cH+": "氫離子 (cH+)",
+    "CHOL": "膽固醇 (CHOL)",
+    "cit-aPTT": "檸檬酸鈉-活化部分凝血活酶時間 (cit-aPTT)",
+    "cit-PT": "檸檬酸鈉-凝血酶原時間 (cit-PT)",
+    "CK": "肌酸磷酸激脢 (CK)",
+    "Cl": "氯離子 (CL)",
+    "Cl01": "氯離子 (CL)",
+    "Cl02": "氯離子 (CL)",
+    "Clar": "清晰度",
+    "Collec": "收集",
+    "Color": "顏色",
+    "CORT01": "腎上腺素值 (CORT)<br/>  腎上腺素基準值",
+    "CORT02": "腎上腺素值 (CORT)<br/>  低劑量 dex 刺激 4 小時後",
+    "CORT03": "腎上腺素值 (CORT)<br/>  低劑量 dex 刺激 8 小時後",
+    "CORT04": "腎上腺素值 (CORT)<br/>  高劑量 dex 刺激 4 小時後",
+    "CORT05": "腎上腺素值 (CORT)<br/>  高劑量 dex 刺激 8 小時後",
+    "CORT06": "腎上腺素值 (CORT)<br/>  ACTH刺激試驗 (庫興氏症候群篩檢)",
+    "CORT07": "腎上腺素值 (CORT)<br/>  ACTH 刺激試驗 (艾迪生氏症候群篩檢)",
+    "CORT08": "腎上腺素值 (CORT)<br/>  治療監控",
+    "CORT09": "腎上腺素值 (CORT)<br/>  高範圍治療監測",
+    "CORT10": "腎上腺素值 (CORT)<br/>  單一測試",
+    "cPL": "犬胰臟特異脂肪脢 (cPL)",
+    "CREA": "肌酸酐 (CREA)",
+    "CRP": "C-反應蛋白 (CRP)",
+    "CRY": "CRY",
+    "DEBRIS": "碎片",
+    "E._canis": "犬型艾利希氏體",
+    "EC-EE": "EC-EE",
+    "EOS": "嗜酸性球 (EOS)",
+    "ETHG": "乙二醇 (ETHG)",
+    "fBNP": "貓腦鈉肽檢驗 (fBNP)",
+    "FeLV": "貓白血病病毒",
+    "FIBR": "纖維蛋白原 (FIBR)",
+    "FIV": "貓愛滋病病毒",
+    "fPL": "貓胰臟炎檢驗 (fPL)",
+    "FRU": "果糖胺 (FRU)",
+    "GGT": "加瑪麩氨肌轉換脢 (GGT)",
+    "Giardia": "梨形鞭毛蟲",
+    "GLOB": "球蛋白 (GLOB)",
+    "GLU": "尿糖 (GLU)",
+    "GLU01": "尿糖 (GLU)",
+    "GLU02": "尿糖 (GLU)",
+    "GLU03": "尿糖 (GLU)",
+    "GLU04": "尿糖 (GLU)",
+    "GLU05": "尿糖 (GLU)",
+    "GLU06": "尿糖 (GLU)",
+    "GLU07": "尿糖 (GLU)",
+    "GRANS": "顆粒性白血球 (GRANS)",
+    "GRANS01": "顆粒性白血球 (GRANS)",
+    "HCO3": "重碳酸根 (HCO3)",
+    "HCO301art": "重碳酸根 (動脈) (HCO3(art))",
+    "HCO301cap": "重碳酸根 (微血管) (HCO3(cap))",
+    "HCO301ven": "重碳酸根 (靜脈) (HCO3(ven))",
+    "HCO302": "重碳酸根 (HCO3)",
+    "HCT": "血球容積比 (HCT)",
+    "Hct(c)": "血球容積比函數 (Hct(c))",
+    "HETER": "異質 (HETERO)",
+    "HGB": "血紅素 (HGB)",
+    "Hook": "鉤蟲",
+    "HW": "心絲蟲",
+    "HYA": "HYA",
+    "IgG": "IgG",
+    "K": "鉀離子 (K)",
+    "K01": "鉀離子 (K)",
+    "K02": "鉀離子 (K)",
+    "KET": "酮體 (KET)",
+    "KET01": "酮體 (KET)",
+    "KET02": "酮體 (KET)",
+    "KET03": "酮體 (KET)",
+    "L_M": "淋巴球/單核球 (L/M)",
+    "LAC": "乳酸 (LAC)",
+    "LDH": "乳酸脫氫酶 (LDH)",
+    "Lepto": "鉤端螺旋體病",
+    "LEU": "尿白血球 (LEU)",
+    "LEU01": "尿白血球 (LEU)",
+    "LEU02": "尿白血球 (LEU)",
+    "LIP": "脂類",
+    "LIPA": "脂肪脢 (LIPA)",
+    "LYM": "淋巴球 (LYM)",
+    "Lyme": "萊姆病",
+    "mBIL": "尿膽紅素 (BIL)",
+    "mBLD": "潛血 (BLD)",
+    "MCH": "平均紅血球血紅素量 (MCH)",
+    "MCHC": "平均紅血球血紅素濃度 (MCHC)",
+    "mCRP": "C-反應蛋白 (CRP)",
+    "MCV": "平均紅血球體積 (MCV)",
+    "MG": "鎂離子 (MG)",
+    "mGLU": "尿糖 (GLU)",
+    "mHGB": "潛血 (BLD)",
+    "mKET": "酮體 (KET)",
+    "mLEU": "尿白血球 (LEU)",
+    "MONO": "單核球 (MONO)",
+    "mpH": "酸鹼值 (pH)",
+    "mPRO": "尿蛋白質 (PRO)",
+    "MPV": "平均血小板體積 (MPV)",
+    "mSG": "比重 (SG)",
+    "mUBG": "尿膽素原 (UBG)",
+    "Mucus": "粘液",
+    "Na": "鈉離子 (Na)",
+    "Na_K": "鈉離子/鉀離子 (Na/K)",
+    "Na01": "鈉離子 (Na)",
+    "Na02": "鈉離子 (Na)",
+    "nCa++01": "非游離鈣 (nCa++)",
+    "nCa++02": "非游離鈣 (nCa++)",
+    "nCa++03": "非游離鈣 (nCa++)",
+    "NEU": "嗜中性白血球 (NEU)",
+    "NH3": "氨 (NH3)",
+    "nhCST": "非透明管型",
+    "NIT": "尿亞硝酸 (NIT)",
+    "NRBC": "有核紅血球",
+    "NRBC01": "有核紅血球",
+    "nsEPI": "非鱗狀的",
+    "O2Ct": "O2Ct",
+    "OSM_calc": "估算滲透壓 (Osm Calc)",
+    "P-LCR": "血小板-大細胞比率 (P-LCR)",
+    "P50(c)": "P50 函數",
+    "Parvo": "犬細小病毒",
+    "PCO201art": "二氧化碳分壓 (動脈) (PCO2(art))",
+    "PCO201cap": "二氧化碳分壓 (微血管) (PCO2(cap))",
+    "PCO201ven": "二氧化碳分壓 (靜脈) (PCO2(ven))",
+    "PCO202art": "二氧化碳分壓 (動脈) (PCO2(art))",
+    "PCO202cap": "二氧化碳分壓 (微血管) (PCO2(cap))",
+    "PCO202ven": "二氧化碳分壓 (靜脈) (PCO2(ven))",
+    "PCT": "血小板容積比 (PCT)",
+    "pctAGRANS": "非顆粒白血球百分比 (%AGRANS)",
+    "pctBASO": "嗜鹼性球百分比 (%BASO)",
+    "pctEOS": "嗜酸性球百分比 (%EOS)",
+    "pctGRANS": "顆粒性白血球百分比 (%GRANS)",
+    "pctGRANS01": "顆粒性白血球百分比 (%GRANS)",
+    "pctHETER": "異質百分比 (%HETERO)",
+    "pctL_M": "淋巴球/單核球百分比 (%L/M)",
+    "pctLYM": "淋巴球百分比 (%LYM)",
+    "pctMONO": "單核球百分比 (%MONO)",
+    "pctNEU": "嗜中性白血球百分比 (%NEU)",
+    "pctRETIC": "網織球百分比 (%RETIC)",
+    "PDW": "血小板分布寬度 (PDW)",
+    "PDW-SD": "血小板分布寬度 (PDW)",
+    "PDW01": "血小板分布寬度 (PDW)",
+    "pH01": "酸鹼值 (pH)",
+    "pHart": "血液酸鹼值 (動脈) (pH(art))",
+    "PHBR": "苯巴比妥 (PHBR)",
+    "pHcap": "血液酸鹼值 (微血管) (pH(cap))",
+    "PHENO": "苯巴比妥 (PHEN)",
+    "PHOS": "磷離子 (PHOS)",
+    "pHven": "血液酸鹼值 (靜脈) (pH(ven))",
+    "PLT": "血小板 (PLT)",
+    "PLT-I": "血小板-I (PLT-I)",
+    "PLT-O": "血小板-O (PLT-O)",
+    "PO201art": "氧分壓 (動脈) (PO2(art))",
+    "PO201cap": "氧分壓 (微血管) (PO2(cap))",
+    "PO201ven": "氧分壓 (靜脈) (PO2(ven))",
+    "PO202art": "氧分壓 (動脈) (PO2(art))",
+    "PO202cap": "氧分壓 (微血管) (PO2(cap))",
+    "PO202ven": "氧分壓 (靜脈) (PO2(ven))",
+    "PRO": "尿蛋白質 (PRO)",
+    "PRO01": "尿蛋白質 (PRO)",
+    "PRO02": "尿蛋白質 (PRO)",
+    "PRO03": "尿蛋白質 (PRO)",
+    "PRO04": "尿蛋白質 (PRO)",
+    "PROG": "黃體激素 (PROG)",
+    "PT": "凝血酶原時間 (PT)",
+    "RBC": "紅血球",
+    "RBC-X": "紅血球-X",
+    "RBC-Y": "紅血球-Y",
+    "RBC-Z": "紅血球-Z",
+    "RBC01": "紅血球",
+    "RBC02": "紅血球",
+    "RDW": "紅血球分布寬度 (RDW)",
+    "RDW-CV": "紅血球分布寬度 (RDW)",
+    "RET-He": "網織球血紅素 (RETIC-HGB)",
+    "RETIC": "網織球 (RETIC)",
+    "Round": "蛔蟲",
+    "SDMA": "SDMA",
+    "SG": "比重 (SG)",
+    "SO2": "氧飽和度 (SO2)",
+    "SO2(c)": "氧飽和度函數 (SO2(c))",
+    "SPRM": "精子",
+    "sqEPI": "鱗狀的",
+    "st.pH": "酸鹼度 (st.pH)",
+    "stHCO3": "重碳酸根 (stHCO3)",
+    "STR": "結石",
+    "T4": "甲狀腺素 (T4)",
+    "T4PLUS": "總甲狀腺素 (TT4)",
+    "TBIL": "總膽紅素 (TBIL)",
+    "tCO201art": "總二氧化碳量 (動脈) (tCO2(art))",
+    "tCO201cap": "二氧化碳總量 (微血管) (tCO2(cap))",
+    "tCO201ven": "二氧化碳總量 (靜脈) (tCO2(ven))",
+    "tCO202": "總二氧化碳量 (tCO2)",
+    "tHb01": "總血紅素 (tHb)",
+    "tHb02": "總血紅素 (tHb)",
+    "tHb03": "總血紅素 (tHb)",
+    "TNCC": "有核細胞總數",
+    "TP": "總蛋白 (TP)",
+    "TRIG": "三酸甘油脂 (TRIG)",
+    "UBG": "尿膽素原 (UBG)",
+    "UBG01": "尿膽素原 (UBG)",
+    "UBG02": "尿膽素原 (UBG)",
+    "UBG03": "尿膽素原 (UBG)",
+    "UCRE": "尿肌酸肝 (UCRE)",
+    "UNK": "未知",
+    "UPC": "尿蛋白/尿肌酸肝比 (UPC)",
+    "UPRO": "尿蛋白 (UPRO)",
+    "UREA": "尿素 (UREA)",
+    "URIC": "尿酸 (UA)",
+    "URIC01": "尿酸 (UA)",
+    "WBC": "白血球",
+    "WBC01": "白血球",
+    "WBC02": "白血球",
+    "Whip": "鞭蟲",
+    "YEA": "酵母",
+    "SITE": "部位",
+    "SITE2": "部位 2",
+    "BACc_CYT": "球菌",
+    "BACc_CYT2": "球菌",
+    "BACr_CYT": "桿菌",
+    "BACr_CYT2": "桿菌",
+    "MITE_CYT": "蟎",
+    "MITE_CYT2": "蟎",
+    "RBC_CYT": "紅血球",
+    "RBC_CYT2": "紅血球",
+    "WBC_CYT": "白血球",
+    "WBC_CYT2": "白血球",
+    "YEA_CYT": "酵母",
+    "YEA_CYT2": "酵母",
+    "INT_CYT": "診斷注意事項",
+    "INT_CYT2": "診斷注意事項",
+    "RBC_SPH": "球型紅血球",
+    "RBC_ECC": "偏心紅血球",
+    "RBC_HNZ": "海因茲小體",
+    "RBC_HNZL": "海因茲小體 (大)",
+    "RBC_HNZS": "海因茲小體 (小)",
+    "RBC_ACNTH": "棘狀紅血球",
+    "RBC_KER": "角狀紅血球/邊緣空泡",
+    "RBC_BLI": "邊緣空泡",
+    "RBC_POIK": "其他異常紅血球",
+    "RBC_SCH": "紅血球裂片",
+    "RBC_ECH": "鋸齒狀紅血球",
+    "RBC_ELL": "卵形紅血球 (橢圓紅血球)",
+    "RBC_HJBOD": "圓形核殘留",
+    "RBC_OTH": "其他螢光紅血球",
+    "RBC_AGGL": "紅血球凝集",
+    "RBC_BLD": "紅血球",
+    "HCT_BLD": "血容比",
+    "RETIC_PCT": "% 網織球",
+    "RETIC_BLD": "網織球",
+    "WBC_BLD": "白血球",
+    "LYMPCT_BLD": "% 淋巴球",
+    "LYMABS_BLD": "淋巴球",
+    "MONOPCT_BLD": "% 單核球",
+    "MONOABS_BLD": "單核球",
+    "NEUPCT_BLD": "% 嗜中性球",
+    "NEUABS_BLD": "嗜中性球",
+    "EOSPCT_BLD": "% 嗜酸性球",
+    "EOSABS_BLD": "嗜酸性球",
+    "BASOPCT_BLD": "% 嗜鹼性球",
+    "BASOABS_BLD": "嗜鹼性球",
+    "BANDPCT_BLD": "% 不成熟嗜中性球",
+    "BANDABS_BLD": "不成熟嗜中性球",
+    "OTHNCPCT_BLD": "% 其他有核細胞",
+    "OTHNCABS_BLD": "其他有核細胞",
+    "NEU_TOX": "中毒變化",
+    "PLT_EST": "血小板預估值",
+    "INT_BLD": "診斷注意事項"
+  },
+  "ServiceCategory": {
+    "Hematology": "血液學",
+    "Chemistry": "生化檢驗項目",
+    "Urinalysis": "尿液分析",
+    "Endocrinology": "內分泌學",
+    "Serology": "血清學",
+    "SNAP": "SNAP",
+    "TherapeuticsToxicology": "治療/毒理學",
+    "Microbiology": "微生物學",
+    "Parasitology": "寄生蟲學",
+    "MolecularDiagnostics": "分子診斷",
+    "Pathology": "病理",
+    "Radiology": "放射學",
+    "Other": "其他",
+    "Cancelled": "已取消"
+  },
+  "barcodeType": {
+    "SHEATH": "鞘液",
+    "REAGENT": "試劑",
+    "SMART_QC": "SmartQC",
+    "CUVETTES": "吸收池",
+    "BLOOD": "血液",
+    "EAR_SWAB": "耳部棉棒",
+    "FNA": "FNA (細針抽取)"
+  },
+  "instrumentMaintenanceResult": {
+    "ACADIA_DX": {
+      "REPLACE_OBC": {
+        "SUCCESS": "SmartQC 小瓶已成功更換。"
+      },
+      "REPLACE_REAGENT": {
+        "SUCCESS": "ProCyte One 試劑包已更換成功。<br/><br/>儀器現在將開始自動預充程序 (約 1 分鐘)。"
+      },
+      "REPLACE_SHEATH": {
+        "SUCCESS": "已成功更換 ProCyte One 鞘液套組。<br/><br/>儀器現在將開始自動預充程序 (約 1 分鐘)"
+      }
+    },
+    "CATONE": {
+      "GENERAL_CLEAN": {
+        "SUCCESS": "Catalyst One 分析儀清潔成功。"
+      },
+      "OPTICS_CALIBRATION": {
+        "SUCCESS": "Catalyst One 分析儀光學元件校正成功。"
+      },
+      "OFFSETS": {
+        "SUCCESS": "Catalyst One 偏移計算完畢。",
+        "FAILED": "Catalyst One 偏移失敗。請電洽 IDEXX 支援部門以取得協助。"
+      },
+      "OPTIMIZE": {
+        "SUCCESS": "Catalyst One 最佳化流程執行成功。"
+      }
+    },
+    "default": "程序「{{ maintenanceType }}」已完成且結果為「{{ maintenanceResult }}」",
+    "rejected": "無法執行這項程序，因為正在進行另一項診斷程序，或者分析儀出現警示。<linebreak/>若持續出現這則訊息，請致電 IDEXX 支援部門。",
+    "rejectedTitle": "無法執行程序"
+  },
+  "eula": {
+    "pdx": {
+      "bodyTitle": "偵測到新的訊息處理單位 (IPU)。請瀏覽並同意以下的授權同意書。",
+      "body": "上次更新：2016 年 7 月<br/>MICROSOFT 軟體授權條款<br/>WINDOWS 作業系統<br/>若貴用戶居住 (或若貴公司之主要營業地點) 在美國，請詳讀第 10 節中具有拘束力的仲裁條款以及集體訟訴權利之拋棄條款。相關條款將影響爭議之解決方式。<br/>感謝您選擇 Microsoft！<br/>視貴用戶取得 Windows 軟體的方式而定，本授權合約係由 (i) 貴用戶與隨同裝置散布軟體的裝置製造商或軟體代工廠商間所共同締訂；或 (ii) 若透過零售商取得軟體，則為貴用戶和 Microsoft Corporation (或其關係企業，視貴用戶的居住地區或貴公司的主要營業地點而定) 間所共同締訂。Microsoft 為 Microsoft 或其關係企業之一所生產之裝置的裝置製造商，且若貴用戶是向 Microsoft 直接取得軟體，則 Microsoft 亦同時為零售商。<br/>本合約描述貴用戶使用 Windows 軟體之權利及條件。請務必從頭到尾讀完整份合約 (包括軟體隨附的任何增補授權條款及任何連結條款)，因為所有條款全都十分重要，並共同構成這份適用於貴用戶的合約。若要閱讀連結條款，請將 (aka.ms/) 連結貼入貴用戶的瀏覽器視窗中。<br/>一旦接受本合約或使用軟體，即代表貴用戶接受本合約之全部條款，並同意在軟體啟用及使用期間依照第３節的隱私權聲明，允許傳輸特定的資訊。若貴用戶不接受或無法遵守本合約的條款，則不得使用軟體或其功能。貴用戶可以連絡製造商或代工廠商 (如果貴用戶是向零售商購買軟體，則為零售商) 來確定其退貨原則，並根據該原則將軟體或裝置退還以取得退款或折讓。貴用戶必須遵守上述原則，該原則可能要求貴用戶將軟體與已安裝軟體的整部裝置一起退貨，以便進行退款或折讓 (若有的話)。<br/>1.概觀。<br/>a.適用性。本合約適用於貴用戶裝置上所預先安裝，或從零售商取得且由貴用戶安裝的 Windows 軟體、供貴用戶取得軟體的媒體 (若有的話)、軟體內隨附之任何字型、圖示、影像或聲音檔，還有軟體的任何 Microsoft 更新程式、升級、增補程式或服務，但若上述項目另附有其他條款則不在此限。本合約也適用於由 Microsoft 開發之 Windows 應用程式，其可提供隨附於 Windows 且屬於 Windows 的一部分之功能，例如郵件、連絡人、音樂及相片。如果本合約內的條款係關於裝置上未提供的功能或服務，則該條款將不適用。<br/>b.其他條款。視貴用戶裝置的功能、設定方式及貴用戶的使用方式而定，貴用戶使用特定的功能、服務及應用程式時，可能適用其他 Microsoft 與第三方廠商的條款。請務必仔細閱讀這些授權條款。<br/>(i) 部分 Windows 應用程式會提供線上服務之存取點或需依賴線上服務，而這些服務之使用有時會受個別條款及隱私權政策所規範，例如位於 (aka.ms/msa) 之 Microsoft 服務合約。貴用戶可以查看適用的使用服務條款或應用程式的設定，以檢視這些條款和原則。服務可能並非所有國家/地區均能使用。<br/>(ii) Microsoft、製造商或代工廠商亦可包含其他應用程式，惟其將受個別的授權條款與隱私權政策所約束。<br/>(iii) 軟體包含 Adobe Flash Player，其係由 Adobe Systems Incorporated 根據 (aka.ms/adobeflash) 中之條款授權給貴用戶。Adobe 及 Flash 為 Adobe Systems Incorporated 在美國及/或其他國家/地區的註冊商標或商標。<br/>(iv) 軟體可能包含第三方廠商程式，這些程式碼是根據本合約或第三方廠商自訂之條款授權給貴用戶。第三方廠商程式的授權條款、注意事項及聲明 (若有的話) 可於 (aka.ms/thirdpartynotices) 檢視。<br/>(v) 所包含範圍內，Windows、Word、Excel、PowerPoint 與 OneNote 係授權給貴用戶做為貴用戶的個人、非商業使用，除非貴用戶經其他合約取得商業使用權利。<br/>2.安裝與使用權利。<br/>a.授權。軟體係授權使用，而非出售賣斷。依據本合約，本公司授權貴用戶可以在貴用戶裝置 (授權裝置) 上安裝並執行一份軟體執行個體、在同一時間僅供一人使用，但前提是貴用戶必須遵守本合約的所有條款。使用來自 Microsoft 或授權來源的軟體更新或升級非正版軟體，不會使貴用戶原來的版本或更新/升級後的版本變為正版，因此貴用戶仍無法取得軟體的使用權。<br/>b.裝置。在本合約中，「裝置」一詞是指具有內部儲存裝置、可執行軟體的硬體系統 (實體或虛擬)。硬體磁碟分割或刀鋒 (Blade) 視同為一項裝置。<br/>c.限制。所有本合約中未明示授與的權利 (例如受智慧財產權法律保護的權利)，均保留為製造商或代工廠商及 Microsoft 所有。舉例來說，本授權未授與貴用戶下列權利，且貴用戶亦不得：<br/>(i) 單獨使用或虛擬化軟體的功能；<br/>(ii) 發佈、複製 (許可的備份拷貝不在此限)、出租、租賃或出借軟體；<br/>(iii) 移轉軟體 (除本合約明文許可者)；<br/>(iv) 規避軟體中所包含的技術限制或保護措施；<br/>(v) 將軟體做為伺服器軟體使用，提供商業主機服務；透過網路將軟體提供給多名使用者同時使用；將軟體安裝於伺服器並允許使用者遠端存取；或將軟體安裝於只能由遠端使用者使用的裝置上；<br/>(vi) 對軟體進行還原工程、解編或反向組譯，或試圖進行這些動作，但下列範圍不在此限：(a) 相關法律所允許者；(b) 規範軟體內所含開放原始碼元件之使用的授權條款所允許者；或 (c) 必須針對軟體隨附及連結的任何 GNU Lesser General Public License 授權程式庫進行偵錯變更；以及<br/>(vii) 使用網際網路功能時，貴用戶不得干擾他人使用這些功能，或是試圖以未經授權的方式存取或使用任何服務、資料、帳戶或網路。<br/>d.多重使用情況。<br/>(i) 多種版本。如果貴用戶在取得軟體時獲得多個版本 (例如 32 位元及 64 位元版本)，貴用戶一次只能安裝並啟用其中一種版本。<br/>(ii) 多重或共用連線。使用特定的硬體或軟體來進行多工處理或共用連線，或是減少存取或使用軟體的裝置或使用者數量，並不會減少貴用戶所需的授權總數。貴用戶必須要為所使用的每一份軟體執行個體取得使用權，才能使用這類硬體或軟體。<br/>(iii) 裝置之連線。貴用戶可以允許最多 20 部其他裝置存取安裝在授權裝置上的軟體，但是僅限於使用授權裝置上的下列軟體功能：檔案服務、列印服務、網際網路資訊服務、網際網路連線共用以及電話語音服務。如果是用於裝置間的資料同步處理，則貴用戶可以允許不限數目的裝置存取授權裝置上的軟體。然而，此款不代表貴用戶有權在任何這類其他裝置上安裝軟體，或是使用軟體的主要功能 (除了本款列出的功能)。<br/>(iv) 在虛擬環境中使用。此授權只允許貴用戶在一部實體或虛擬裝置上安裝並使用一份軟體執行個體。如果貴用戶想要同時在多部虛擬裝置上使用軟體，則貴用戶必須為每份執行個體取得個別的使用權。<br/>(v) 遠端存取。每隔不超過 90 日，貴用戶得指定實際使用授權裝置的單一使用者為授權使用者。授權使用者得使用遠端存取技術，透過其他裝置存取授權裝置。如果裝置具有可執行此軟體相同或更新版本的獨立使用權，則其他使用者可於其他時間使用遠端存取技術存取授權裝置。<br/>(vi) 遠端協助。貴用戶得使用遠端協助技術，共享作用中的工作階段，而無須另外取得軟體使用權。遠端協助可讓一名使用者直接連線至另一名使用者的裝置，目的通常是為了修正問題。<br/>e.備份拷貝。貴用戶可以為了備份而製作一份軟體拷貝，並依以下第 4 節說明使用此備份拷貝移轉以獨立軟體方式取得之軟體。<br/>3.隱私權；資料使用之同意。貴用戶之隱私權對本公司而言非常重要。部分軟體功能可能會在使用功能時傳送或接收資訊。其中大部分的功能都可從使用者介面中關閉，或是選擇不使用。一旦接受本合約或使用軟體，即代表貴用戶同意，Microsoft 得依據 Microsoft 隱私權聲明 (aka.ms/privacy) 及與軟體功能相關之使用者介面中所述，蒐集、使用並揭露貴用戶之資訊。<br/>4.移轉。若貴用戶於德國或本網站 (aka.ms/transfer) 所列出的任何國家/地區取得軟體，本章節之條款將不適用於貴用戶。若是此情況，則移轉軟體予第三方及與軟體使用權相關之任何行為，均必須遵守相關法律。<br/>a.裝置上預先安裝之軟體。若貴用戶取得軟體時軟體已預先安裝於裝置 (以及若貴用戶已從裝置上預先安裝之軟體進行升級)，貴用戶僅得將軟體使用權連同授權裝置直接移轉給其他使用者。此移轉必須包含軟體以及內含產品金鑰之 Windows 真品證明書標籤 (若與裝置一同提供者)。在進行任何許可的移轉之前，他方當事人必須先同意本合約適用於軟體之移轉及使用。<br/>b.獨立軟體。若貴用戶以獨立軟體方式取得軟體 (以及若貴用戶已從視同獨立軟體取得之軟體進行升級)，則貴用戶得將軟體移轉至貴用戶所擁有之其他裝置。貴用戶亦得將軟體移轉至其他人擁有的裝置上，前提是：(i) 貴用戶是軟體的第一位授權使用者，同時 (ii) 新使用者同意接受本合約的條款。貴用戶可以使用本公司允許貴用戶製作的備份拷貝，或是貴用戶收到軟體所用的媒體，來進行軟體移轉。貴用戶每次將軟體移轉至新的裝置時，都必須立即將軟體從前一部裝置上移除。貴用戶不得藉由移轉軟體，在不同裝置之間共用其使用權。<br/>5.授權軟體及啟用。貴用戶有權使用本軟體之前提為，貴用戶已獲得適當授權，且軟體已用正版產品金鑰或其他授權方式正確啟用。貴用戶使用軟體連上網際網路時，軟體會自動連絡 Microsoft 或其關係企業以進行啟用來將它與特定裝置之間建立關聯。貴用戶也可以透過網際網路或電話，手動啟用軟體。不論是兩種方式的哪一種，都會傳輸部分資訊，且可能要繳付網際網路和簡訊服務費用。啟用期間 (或裝置元件變更而觸發重新啟用期間)，軟體可能判定安裝的軟體執行個體為仿冒、未正確授權或包含未經授權的變更。如果啟用失敗，軟體將嘗試自行修復，以正版 Microsoft 軟體取代任何遭到篡改的 Microsoft 軟體。貴用戶可能收到需取得正確授權軟體的提醒。成功啟用並非確認軟體是正版或取得正確授權。貴用戶不得略過或規避啟動程序。為協助判斷軟體是否為正版且貴用戶是否已獲得適當授權，請參閱 (aka.ms/genuine)。特定的更新、支援及其他服務可能只會提供給正版 Microsoft 軟體的使用者。<br/>6.更新。軟體會定期檢查系統及應用程式的更新，同時為貴用戶完成下載及安裝。貴用戶僅得從 Microsoft 或經授權之來源取得更新，且 Microsoft 可能需要更新貴用戶之系統，以提供這些更新。一旦接受本合約或使用軟體，即代表貴用戶同意在沒有任何其他通知的情況下接收這類自動更新。<br/>7.降級權限。如果貴用戶向製造商或代工廠商取得已預先安裝 Windows 專業版的裝置，貴用戶得使用 Windows 8.1 Pro 或 Windows 7 專業版，但僅得在 Microsoft 如 (aka.ms/windowslifecycle) 所述為該較早版本提供支援的情況下使用。本合約適用於較早版本軟體之使用。若較早版本軟體包含不同元件，則隨附於較早版本軟體之合約中針對此等元件的任何條款，將適用於該等元件之使用。裝置製造商或代工廠商及 Microsoft 均無義務提供貴用戶較早版本。貴用戶必須另外取得較早版本之軟體，且可能需支付費用。貴用戶隨時可以用原先取得之版本的軟體，取代較早版本的軟體。<br/>8.地區及出口限制。若貴用戶的軟體係限制於特定的地區內使用，則貴用戶只能在該地區啟用軟體。貴用戶必須遵守適用於軟體的一切本國及國際出口法令規定，包括目的地限制、最終使用者限制和最終使用用途限制。如需有關地區及出口限制的詳細資訊，請參閱 (aka.ms/georestrict) 及 (aka.ms/exporting)。<br/>9.支援與退款程序。<br/>a.裝置上預先安裝之軟體。一般而言，如需了解軟體有哪些支援選項，請連絡裝置製造商或代工廠商。請參閱隨軟體提供的支援電話號碼。針對直接透過 Microsoft 取得的更新與增補程式，Microsoft 得依照 (aka.ms/mssupport) 的說明提供適當授權之軟體的有限支援服務。若貴用戶欲退款，請連絡製造商或代工廠商以確認其退款政策。貴用戶必須遵守退款政策，退款政策可能要求貴用戶將軟體與已安裝軟體的整部裝置一起退貨，以便進行退款。<br/>b.向零售商取得之軟體。Microsoft 為已取得正確授權的軟體提供有限的支援服務，詳情請參閱 (aka.ms/mssupport)。若貴用戶係透過零售商取得軟體且欲退款，但無法在取得軟體的地點取得退款時，請連絡 Microsoft 以取得 Microsoft 退款原則的相關資訊。請參閱 (aka.ms/msoffices)，如果是在北美地區，請致電 (800) MICROSOFT 或瀏覽 (aka.ms/nareturns)。<br/>10.僅當貴用戶居住 (或若貴公司之主要營業地點) 在美國的情況下，才依具有拘束力的仲裁條款以及集體訟訴權利之拋棄條款。<br/>本公司希望永遠不會出現爭議，但假如雙方出現爭議，貴用戶與本公司同意試著在 60 日內以非正式管道解決爭議。若無法於此時間內解決，則貴用戶與本公司同意透過聯邦仲裁法 (Federal Arbitration Act，以下稱「FAA」) 由美國仲裁協會 (American Arbitration Association，以下稱「AAA」) 具有個別拘束力的仲裁予以解決，而非提交法院訴訟，由法官或陪審團解決。改由中立仲裁人進行裁決，且該仲裁人之裁決將為最終判斷，但依 FAA 進行審查之有限權利不在此限。不得展開集體訴訟、集體仲裁、私人律師之通常訴訟 (General Action)，或是由任一人擔任代表人的任何其他訴訟程序。任何個別訴訟程序均不得合併進行，除非經所有當事人書面同意。「本公司」與「我們」包含 Microsoft、裝置製造商及軟體代工廠商。<br/>a.爭議涵蓋智慧財產權 (IP) 以外的一切事務。「爭議」一詞從寬認定。包含貴用戶及裝置製造商或代工廠商，或貴用戶及 Microsoft 之間就軟體、其價格或本合約有關的任何索賠或爭端，無論是基於包括合約、瑕疵擔保、侵權行為、法規或規章等任何法律理論，但不包括與貴用戶、貴用戶之授權人、本公司、本公司之授權人的智慧財產權強制執行或有效性有關的爭議。<br/>b.先寄送爭議通知。若貴用戶存有爭議，且本公司的客服代表無法解決該爭議，請透過美國郵政 (U.S. Mail) 將爭議通知寄給裝置製造商或代工廠商，收件者：法務部門 (LEGAL DEPARTMENT)。若爭議對象為 Microsoft，請寄送至 Microsoft Corporation，收件者：LCA ARBITRATION, One Microsoft Way, Redmond, WA 98052-6399。請告知貴用戶的姓名、地址、連絡方式、發生的問題，以及貴用戶的需求。如需相關表格，可於 (aka.ms/disputeform) 上取得。若本公司對貴用戶存有爭議，本公司亦會採取相同的作法。若 60 日過後仍無法解決爭議，貴用戶與本公司可將爭議交付仲裁。<br/>c.小額索賠法庭選項。若不寄送爭議通知，且若貴用戶符合法庭的要求，則貴用戶可選擇在貴用戶之居住地點 (或貴公司之主要營業所在地點) 或本公司之主要營業地點華盛頓州國王郡 (King County) (若貴用戶與 Microsoft 發生爭議) 的小額索賠法庭提出訴訟。本公司希望貴用戶寄送爭議通知並給予本公司 60 日嘗試解決，但貴用戶前往小額索賠法庭提出訴訟前並非絕對必要如此。<br/>d.仲裁程序。AAA 將依據其商業仲裁規則 (Commercial Arbitration Rules) 進行任何仲裁 (或若貴用戶是為了個人或家戶使用而使用軟體的個人，或若爭議的價值金額未達 $75,000 美元 (無論貴用戶是否為個人或使用軟體的目的為何)，AAA 將採用消費者仲裁規則 (Consumer Arbitration Rules))。如需詳細資訊，請參閱 (aka.ms/adr) 或致電 1-800-778-7879。若要展開仲裁，請填寫表格 (可透過 (aka.ms/arbitration) 取得) 並提交給 AAA；同時寄送一份副本給裝置製造商或代工廠商 (若爭議對象為 Microsoft，則寄給 Microsoft)。若爭議所涉及金額未達 $25,000 美元，則任何聽證將採電話方式，除非仲裁人依據合理理由而改採親自聽證。任何親自聽證只能在貴用戶的居住地點 (或貴公司之主要營業地點) 或本公司的主要營業地點華盛頓州國王郡 (King County) (若貴用戶與 Microsoft 間發生爭議) 展開。由貴用戶決定。仲裁人得如法庭可能進行的程序，個別裁定相同的損害賠償予貴用戶。仲裁人得僅對貴用戶個別裁定宣告或禁制令之救濟，以配合貴用戶之個人索賠。<br/>e.仲裁費用及付款。<br/>(i) 爭議所涉及金額未超過 $75,000 美元。裝置製造商或代工廠商 (若爭議對象為 Microsoft，則為 Microsoft) 將立即補償貴用戶的聲請費用，並支付 AAA 及仲裁人的費用及支出。若貴用戶回絕本公司在指派仲裁人之前所提供的最後書面和解要約，則貴用戶的爭議將逕付仲裁人判斷 (稱為「仲裁判斷」)，如仲裁人對貴用戶之仲裁判斷優於最後書面要約，製造商或代工廠商 (若爭議對象為 Microsoft，則為 Microsoft) 將：(1) 支付仲裁判定金額或 $1,000 美元 (以金額較大者為準)；(2) 支付合理的律師費 (若有的話)；以及 (3) 補償貴用戶之律師在仲裁中為了調查、準備及提起貴用戶的索賠申請而產生的任何合理費用 (包含專家作證費用及成本)。若貴用戶與本公司同意，則仲裁人將判定金額。<br/>(ii) 爭議所涉及金額超過 $75,000 美元。聲請費用、支付給 AAA 及仲裁人的費用及花費的付款方式，均將根據 AAA 規則的規定。<br/>(iii) 涉及任何金額之爭議。若貴用戶展開仲裁，除非仲裁人判定仲裁無意義或目的不當，否則本公司不會追討 AAA 或仲裁人的費用及花費，或者本公司賠償貴用戶之聲請費用。若為本公司發動仲裁，本公司將支付所有聲請、AAA 及仲裁人的費用及支出。本公司在任何仲裁中不會向貴用戶追討律師費或支出。仲裁人的費用及支出不計入爭議所涉金額。<br/>f.必須在一年之內提出。任何索賠或爭議都必須在可首次提出的一年內，向小額索賠法庭提出或交付仲裁 (智慧財產權爭議除外，請參閱第 10.a. 節)。否則日後即不得再提出。<br/>g.可分割性。若發現集體訟訴權利之拋棄條款對爭議全部或部分不合法或無法執行，將不對該部分進行仲裁，而是在法庭進行，其餘部分仍於仲裁庭進行。若第 10 節中其他任何條款不合法或無法執行，則該條款無效但第 10 節中其餘部分依然適用。<br/>h.與 AAA 規則牴觸。若本合約與 AAA 的商業仲裁規則 (Commercial Arbitration Rules) 或消費者仲裁規則 (Consumer Arbitration Rules) 牴觸，以本合約為準。<br/>i.Microsoft 為當事人或第三方受益人。若 Microsoft 是裝置製造商或貴用戶係透過零售商取得軟體，則 Microsoft 是本合約之當事人。若 Microsoft 並非當事人，但為貴用戶和製造商或代工廠商間所簽訂之合約之第三方受益人，可透過非正式協商和仲裁解決爭議。<br/>11.準據法。與軟體、其價格或本合約相關的所有索賠及爭議，無論相關衝突法規如何規定，將以貴用戶所居住之州/省或國家/地區 (或貴公司之主要營業所在地點) 的法律為準據法，包含違約索賠，以及與消費者保護法、不公平競爭法、默示擔保法、不當得利和侵權行為相關的索賠。在美國，與仲裁相關的所有條款均依 FAA 規範之。<br/>12.消費者權利，各地區差異。本合約敘述了特定的法律權利。貴用戶所在州/省或國家/地區的法律可能會賦予貴用戶其他權利，包括消費者權利。貴用戶取得軟體的當事人可能也會提供相關的權利。若貴用戶所在州/省或國家/地區的法律不允許，則本合約無法改變貴用戶的上述其他權利。例如，若貴用戶在下列其中一個國家/地區取得軟體，或具強制性之國家/地區法律適用，則亦適用下列條款：<br/>a.澳洲。本合約中所稱之「有限瑕疵擔保責任」，是指由 Microsoft 或製造商或代工廠商提供的明示擔保。除了貴用戶依法享有的其他權利或救濟 (包括貴用戶依照澳洲消費者法律的消費者保證而享有的權利或救濟)，貴用戶亦得享有本瑕疵擔保提供的權利。<br/>本節中所稱之「商品」，是指 Microsoft 或製造商或代工廠商提供明示擔保的軟體。本公司商品包含依澳洲消費者法律規定不得排除的保證事項。貴用戶有權就嚴重故障要求替換商品或退款，亦可就其他任何可合理預見之損失或損害請求賠償。如果商品未能達到可接受之品質，且未達嚴重故障之程度，則貴用戶亦有權要求修復或替換商品。<br/>b.加拿大。貴用戶得關閉裝置的網際網路存取，以停止接收更新。當貴用戶重新連線至網際網路，軟體將繼續檢查並安裝更新。<br/>c.歐盟。下文第 13.d(i) 節中的學術使用限制不適用於 (aka.ms/academicuse) 中所列之管轄地。<br/>d.德國及奧地利。<br/>(i) 瑕疵擔保。取得正確授權的軟體將會大致依照軟體隨附的任何 Microsoft 說明手冊執行。但製造商或代工廠商和 Microsoft 不為授權軟體提供契約保證。<br/>(ii) 責任限制若為故意行為、重大過失、依產品責任法提出之索賠，或造成個人傷亡或實體傷害，製造商、代工廠商或 Microsoft 將依法賠償。<br/>受以上條款限制之前提下，只有在製造商、代工廠商或 Microsoft 違反重大合約義務、違反可助本合約實現之履約、違反行為危及本合約之目的，以及違反任何當事人持續信賴之合約遵循 (亦稱為「基本義務」) 下，製造商、代工廠商或 Microsoft 方為輕過失負賠償責任。至於其他的輕過失，製造商、代工廠商或 Microsoft 將不為輕過失負賠償責任。<br/>e.其他地區。如需最新的地區差異清單，請參閱 (aka.ms/variations)。<br/>13.其他通知。<br/>a.網路、資料和網際網路之使用。透過軟體存取之部分軟體和服務功能，可能要求貴用戶之裝置必須存取至網際網路。貴用戶的存取及使用量 (包括費用) 可能受貴用戶之行動或網際網路提供者合約之條款所拘束。軟體的部分功能得協助貴用戶更有效率地存取網際網路，但是軟體使用量的計算可能會因貴用戶之服務提供者之衡量方式而有所不同。貴用戶應就下列事項負全責：(i) 了解並遵守貴用戶本身的方案和合約條款，以及 (ii) 任何因使用或存取網路，包括公用/開放式網路，所引起之問題。貴用戶得使用軟體來連接至網路，以及共用與這些網路相關之資訊，前提是貴用戶必須具備進行這些動作的權限。<br/>b.H.264/AVC 和 MPEG-4 視訊標準以及 VC-1 視訊標準。本軟體可能包含 H.264/MPEG-4 AVC 及/或 VC-1 解碼技術。MPEG LA, L.L.C. 要求列出以下聲明：<br/>本產品依 AVC、VC-1 和 MPEG-4 PART 2 視訊專利組合授權規定，僅供消費者用於下列個人和非商業用途：(i) 依上述標準 (以下稱「視訊標準」) 編碼視訊，及/或 (ii) 針對消費者因個人或非商業活動用途而編碼的 AVC、VC-1 及 MPEG-4 PART 2 視訊進行解碼，和/或針對從授權視訊提供者取得的前述視訊進行解碼。其他用途皆未獲得明示或默示之授權。詳細資訊可向 MPEG LA, L.L.C. 索取。請參閱 (AKA.MS/MPEGLA)。<br/>c.惡意軟體防護。Microsoft 重視貴用戶之裝置對惡意軟體的防護功能。如果裝置未安裝其他防護功能或已過期，軟體將開啟惡意軟體防護。此時，本軟體將停用其他的防惡意軟體，或可能將其移除。<br/>d.有限權利版本。若貴用戶取得之軟體版本已註明或用於特定或限定用途，貴用戶只能按規定使用。貴用戶不得將該軟體版本用於進行商業、非營利或創造收益的活動。<br/>(i) 「學校版」。如用於學校，貴用戶於購買當時必須為該教育機構的學生、教職員或工作人員。<br/>(ii) 評估版。如為評估 (或測試或展示) 用途，貴用戶不得轉售軟體、於實際操作環境下使用軟體，或在評估期限過後繼續使用。無論本合約中是否有牴觸之規定，評估軟體將依「現況」提供。<br/>(iii) NFR。貴用戶不得銷售標示有「禁止轉售」(「NFR」或「Not for Resale」) 的軟體。<br/>14.整份合約。本合約 (連同由製造商或代工廠商或 Microsoft 提供予貴用戶使用之任何軟體增補程式、更新程式及服務的書面授權條款或其他隨附條款)、以及本合約列出之網頁連結當中的條款，構成關於軟體及任何此等增補程式、更新程式和服務之整份合約 (除非製造商或代工廠商或 Microsoft 在此等增補程式、更新程式及服務中提供了其他條款)。貴用戶可以在軟體開始執行之後，連至 (aka.ms/useterms) 或進入軟體中的 [設定] - [系統] - [關於] 底下來檢閱本合約。貴用戶也可以將本合約中任何一個連結的網址輸入瀏覽器網址列，以閱讀位於該網址的條款，貴用戶亦同意進行前述動作。貴用戶同意在使用軟體或服務之前，先閱讀條款，包括任何連結的條款。貴用戶了解，使用軟體及服務即代表貴用戶同意接受本合約及連結條款。本合約同時包含了資訊連結。以下連結含有通知及具有拘束力的條款：<br/>· Microsoft 隱權聲明 (aka.ms/privacy)<br/>· Microsoft 服務合約 (aka.ms/msa)<br/>· Adobe Flash Player 授權條款 (aka.ms/adobeflash)<br/>\f<br/>****************************************************************<br/><br/>有限瑕疵擔保責任<br/>裝置製造商或代工廠商保證正式授權軟體依照軟體隨附的任何 Microsoft 材料所述執行。若貴用戶係於本有限瑕疵擔保責任之 90 日期間內，直接向 Microsoft 取得更新程式或增補程式，則 Microsoft 僅針對這些程式提供有限瑕疵擔保責任。本有限瑕疵擔保責任並不涵蓋由貴用戶所造成、因貴用戶無法遵守指示而產生，或因超出製造商或代工廠商或 Microsoft 無法合理控制之事件而造成的問題。有限瑕疵擔保責任是從第一位使用者取得軟體之日起算，並持續 90 日。本有限瑕疵擔保責任同時涵蓋貴用戶在 90 日期間內收到製造商或代工廠商或 Microsoft 提供的任何增補程式、更新程式或替代軟體，但其瑕疵擔保期間為 90 日期間之剩餘期間或 30 日 (以較長者為準)。移轉軟體並不會延長有限瑕疵擔保責任。<br/>製造商或代工廠商及 Microsoft 不提供其他明示擔保、保證或條件。製造商或代工廠商及 Microsoft 排除一切默示擔保及條件，包括適售性、符合特定目的及未侵權的默示擔保。若貴用戶所在地區的法律禁止排除默示擔保，則任何默示擔保、保證或條件僅在這段有限瑕疵擔保責任的期間內有效，同時在貴用戶所在地區法律允許的最大範圍內。若貴用戶所在地區法律規定的有限瑕疵擔保責任期間，比本合約規定的期間來得長，則以較長的有限瑕疵擔保責任期間為準，但貴用戶只能享有本合約所允許的救濟權。<br/>如果製造商、代工廠商或 Microsoft 違反其有限瑕疵擔保責任，則其得選擇：(i) 免費修復或更換軟體，或 (ii) 接受退貨的軟體 (或選擇預先安裝軟體的裝置)，並退還貴用戶先前支付的金額 (若有的話)。製造商或代工廠商 (若貴用戶是向 Microsoft 直接取得軟體的話，則為 Microsoft) 亦得修復或更換增補程式、更新程式以及替換軟體，或是退還貴用戶為上述項目所支付的金額 (若有的話)。以上是貴用戶就違反瑕疵擔保責任所享有的全部救濟權。本有限瑕疵擔保責任授予貴用戶特定之法律權利，且根據美國各州及各國家/地區之法律，貴用戶亦可能享有其他權利。<br/>除製造商、代工廠商或 Microsoft 可能提供的任何維修、替換或退款之外，貴用戶不能依據此有限瑕疵擔保責任、本合約之任何部分或任何理論，就任何損害或其他救濟權，包括利潤損失或直接、衍生性、特殊性、間接或附隨性損害，請求損害賠償。即使修復、替換或退款無法完全賠償貴用戶的損失，或製造商、代工廠商或 Microsoft 已知悉或應知悉此等損害發生的可能性，或任何救濟未能達到其基本目的，本合約中的損害排除及救濟限制規定仍適用。某些州/省及國家/地區不允許排除或限制附隨性、衍生性或其他損害，因此上述限制或排除規定可能並不適用於貴用戶。即使本合約不允許貴用戶就損害向製造商、代工廠商或 Microsoft 請求損害賠償，但如果貴用戶的當地法律許可，則貴用戶要求的損害賠償金額不得超過貴用戶針對軟體所支付的金額 (或者，若貴用戶是免費取得軟體，則上限為 50 美元)。<br/>瑕疵擔保程序<br/>如需服務或退款，貴用戶必須提供一份購買證明的副本，並遵守製造商或代工廠商的退貨政策，可能要求貴用戶連同預先安裝軟體的完整裝置與軟體一併退還；裝置仍需貼有內含產品金鑰的真品證明書標籤 (假如連同裝置提供)。<br/>請利用裝置所隨附之地址或免付費電話號碼連絡製造商或代工廠商，以了解如何取得軟體瑕疵擔保服務。若 Microsoft 是裝置製造商或貴用戶係透過零售商取得軟體，請透過以下方式與 Microsoft 連絡：<br/>1.美國與加拿大。關於如何就在美國或加拿大取得之軟體申請退款，請透過以下電話、地址或網址與 Microsoft 連絡，以取得瑕疵擔保服務或資訊：電話為 (800) MICROSOFT；地址為 Microsoft Customer Service and Support, One Microsoft Way, Redmond, WA 98052-6399；或造訪 (aka.ms/nareturns)。<br/>2.歐洲、中東地區與非洲。若貴用戶是在歐洲、中東地區或非洲取得軟體，請連絡 Microsoft Ireland Operations Limited, Customer Care Centre, Atrium Building Block B, Carmanhall Road, Sandyford Industrial Estate, Dublin 18, Ireland，或是連絡貴用戶所在國家/地區的 Microsoft 關係企業 (aka.ms/msoffices)。<br/>3.澳洲。若貴用戶想要針對在澳洲取得的軟體提出索賠，請透過電話 (13 20 58) 或以下地址與 Microsoft 連絡：Microsoft Pty Ltd, 1 Epping Road, North Ryde NSW 2113 Australia。<br/>4.其他國家/地區。若貴用戶是在其他國家/地區取得軟體，請連絡貴用戶所在國家/地區的 Microsoft 關係企業 (aka.ms/msoffices)。<br/><br/>EULAID:RSC_R1_2_ED_PS_O_en-us<br/>"
+    },
+    "common": {
+      "buttons": {
+        "agree": "我同意",
+        "disagree": "我不同意"
+      },
+      "header": {
+        "microsoft": "微軟終端用戶許可證同意書"
+      },
+      "instructions": "請瀏覽並同意以下的授權同意書。"
+    }
+  },
+  "Crimson": {
+    "Procedures": {
+      "BadBackgroundCheck": "參數過高。執行自動清洗。",
+      "ShuttingDown": "正在關閉"
+    },
+    "BoldProcedures": {
+      "BadBackgroundCheck": "<strong>參數過高。執行自動清洗。</strong>"
+    },
+    "Reminders": {
+      "RunMonthlyRinse": "每月清洗提醒。",
+      "ReagentExpiring": "試劑套組即將過期。",
+      "StainExpiring": "染劑套組即將過期。",
+      "ReagentLow": "試劑套組量過低",
+      "StainLow": "染劑套組量過低。"
+    },
+    "BoldReminders": {
+      "RunMonthlyRinse": "<strong>每月清洗提醒。</strong>",
+      "ReagentExpiring": "<strong>試劑套組即將過期。</strong>",
+      "StainExpiring": "<strong>染劑套組即將過期。</strong>",
+      "ReagentLow": "<strong>試劑套組量過低</strong>",
+      "StainLow": "<strong>染劑套組量過低。</strong>"
+    },
+    "ReagentKit": {
+      "Expired": "試劑套組過期"
+    },
+    "BoldReagentKit": {
+      "Expired": "<strong>試劑套組過期</strong>"
+    },
+    "StainPack": {
+      "Expired": "染劑套組過期"
+    },
+    "BoldStainPack": {
+      "Expired": "<strong>染劑套組過期</strong>"
+    }
+  },
+  "usb": {
+    "copyError": {
+      "title": "複製檔案時出錯",
+      "body": "複製檔案時發生問題；無法完成這項流程。<linebreak/>請確認您選擇的是正確的磁碟，並且再試一次。若問題仍然存在，請洽詢 IDEXX 支援部門。"
+    }
+  },
+  "restore": {
+    "buttons": {
+      "restoreData": "資料回存"
+    },
+    "restoreInterstitial": {
+      "title": "資料回存",
+      "body": "您想要回存哪些資料？"
+    },
+    "selectData": {
+      "allAvailableData": "所有資料",
+      "patientData": "檢驗報告資料",
+      "hematologyCalibrationData": "僅血液學校正資料",
+      "userSettingsData": "僅限使用者的設定值資料"
+    },
+    "insertDrive": {
+      "title": "資料回存",
+      "body": "請插入您的 USB 備份磁碟機。等候任何執行中的儀器完成，然後點選「下一步」。",
+      "firstBootInsertUsb": "請插入備份用的 USB 隨身碟，然後點選<strong>下一步</strong>。"
+    },
+    "selectDrive": {
+      "title": "選擇 USB 磁碟機",
+      "body": "請選擇用於回存的來源磁碟機。若所需的磁碟機未列出，請選擇其他的 USB 連接埠。"
+    },
+    "selectDriveData": {
+      "title": "資料回存",
+      "body": "請以備份日期選擇您想回存的資料。",
+      "titleNoBackup": "未找到備份",
+      "bodyNoBackup": "已選磁碟機上未找到先前的備份。請插入包含先前備份的磁碟機。"
+    },
+    "copyRestore": {
+      "title": "資料回存",
+      "body": "正在準備要回存的檔案。請稍候。"
+    },
+    "restoreReady": {
+      "title": "回存已準備就緒",
+      "body": "繼續操作前請移除您的 USB 磁碟機。取出磁碟機後，選擇<strong>確定</strong>。",
+      "firstBootBody": "IDEXX VetLab Station 會重新啟動並套用變更項目。"
+    },
+    "restoreRebootModal": {
+      "title": "資料回存",
+      "restoreCompleted": "回存已完成",
+      "hematologySuccess": "血液學校正資料回存成功",
+      "patientDataSuccess": "檢驗資料已回存成功。",
+      "settingsDataSuccess": "使用者設定已成功還原。",
+      "hematologyFailure": "血液學校正資料回存失敗",
+      "patientDataFailure": "檢驗資料回存失敗",
+      "settingsDataFailure": "還原使用者設定時出現錯誤。",
+      "contentDataFailure": "還原影像資料時發生錯誤。",
+      "failure": "如果需要完整復原，請再試一次。"
+    },
+    "notEnoughSpace": {
+      "title": "空間不足",
+      "body": "系統上沒有足夠空間可回存資料。請釋出部分空間並重試一次。"
+    },
+    "unknownError": {
+      "title": "未知錯誤",
+      "body": "回存過程中發生未知錯誤。請再試。"
+    },
+    "ssRestoreModal": {
+      "header": "找到了 SmartService 備份",
+      "body": "找到了 SmartService 備份。如果恢復，您當前的患者數據和設置可能會被覆蓋。可能需要重新啟動。"
+    },
+    "futureSoftware": {
+      "title": "資料庫還原錯誤",
+      "body": "資料庫來源是較新版的 IDEXX VetLab Station。<linebreak/>請升級 IDEXX VetLab Station 軟體或向 IDEXX 支援部門要求升級。"
+    }
+  },
+  "backups": {
+    "backupError": {
+      "title": "備份錯誤",
+      "body": "嘗試建立備份時發生錯誤。請再試。如果無法完成備份，請聯絡 IDEXX 支援部門。"
+    },
+    "insertDrive": {
+      "title": "資料備份",
+      "body": "請插入 USB 磁碟機，並點選<strong>下一步</strong>以繼續。"
+    },
+    "selectDrive": {
+      "body": "請選擇用於備份的磁碟機。若所需的磁碟機未列出，請選擇其他的 USB 連接埠。"
+    },
+    "performBackup": {
+      "title": "資料備份",
+      "preparingBackup": "檔案一準備好之後就會開始備份。",
+      "copyingBackup": "請稍候，正在複製資料。",
+      "copyingComplete": "備份完成。請移除您的 USB 磁碟機並存放在安全處。"
+    },
+    "notEnoughCapacity": {
+      "title": "空間不足",
+      "body": "所選磁碟容量不足，無法備份。<linebreak/>請刪除檔案或改用容量更大的磁碟再試一次。"
+    },
+    "notEnoughSpace": {
+      "title": "是否刪除檔案？",
+      "body": "需要更多空間才能備份資料，也就是說您必須刪除這些檔案。如果您想刪除並繼續，請選擇「<strong>OK（確定）</strong>」。"
+    }
+  },
+  "upgrades": {
+    "upgradeAvailable": {
+      "title": "進行軟體升級",
+      "instructions": {
+        "SMART_SERVICE": "點選<strong> SmartService</strong> 以安裝已下載的升級。",
+        "USB": "點選<strong> USB </strong>以自 USB 隨身碟進行升級。"
+      },
+      "buttons": {
+        "SMART_SERVICE": "SmartService",
+        "USB": "USB"
+      }
+    },
+    "ssUpgradeAvailable": {
+      "instructions": "已透過 SmartService 下載 IDEXX VetLab Station 升級版本 {{ version }}。<linebreak/>點選<strong>立即升級</strong>開始升級。<br/>點選<strong>稍後提醒</strong>並在之後升級。<linebreak/>",
+      "shutDownWarning": "警告：在升級時，IDEXX VetLab Station系統將會關機。",
+      "buttons": {
+        "upgradeNow": "立即升級",
+        "remindMeLater": "稍後提醒"
+      }
+    },
+    "driveSelection": {
+      "body": "請選擇軟體更新位置。若所需的磁碟機未列出，請選擇其他的 USB 連接埠。"
+    },
+    "noUpgrades": {
+      "title": "找不到升級檔案",
+      "body": "請插入包含 IDEXX 升級檔案的磁碟機。"
+    },
+    "copying": {
+      "title": "升級",
+      "body": "準備升級，請勿拔除 USB 隨身碟。"
+    },
+    "readyToUpgrade": {
+      "title": "升級已準備完畢",
+      "body": "繼續操作前請移除您的 USB 磁碟機。<linebreak/>磁碟機移除後，請選擇<strong>確定</strong>。"
+    },
+    "upgradeLetter": {
+      "title": "升級信函",
+      "modalBody": "選擇<strong>讀取</strong>查看說明版本功能的升級函。<linebreak/>點選<strong>升級</strong>繼續執行。",
+      "readButton": "讀取",
+      "upgradeButton": "升級"
+    },
+    "drivesFound": {
+      "title": "移除 USB 以升級",
+      "firstWarning": "您<strong>必須</strong>在繼續操作前移除您的 USB 磁碟機。<linebreak/>磁碟機移除後，請選擇<strong>確定</strong>。",
+      "secondWarning": "您<strong>必須</strong>在繼續操作前移除您的 USB 磁碟機。<linebreak/>如需繼續升級，請選擇<strong>確定</strong>。您的系統將重新啟動。"
+    },
+    "success": {
+      "title": "升級成功",
+      "body": "升級執行成功。"
+    },
+    "failure": {
+      "title": "升級未完成",
+      "body": "IDEXX VetLab Station 軟體升級失敗。請聯絡 IDEXX 技術支援部門。"
+    },
+    "instrumentUpgradeComplete": {
+      "title": "{{instrumentName}}:升級成功",
+      "body": "{{instrumentName}} 分析儀升級成功。",
+      "procyteDxBody": "ProCyte Dx 升級成功。<linebreak />請使用 ProCyte Dx 電源開關關閉分析儀電源。",
+      "upgradeLetterTransferSuccess": "請參閱訊息中心裡的相關通知函，瞭解關於升級功能的詳細資訊。",
+      "upgradeLetterTransferFail": "無法遞送升級通知函。請聯絡 IDEXX 支援部門，瞭解關於升級功能的詳細資訊。",
+      "uriSysDxBody": "{{instrumentName}} 升級成功。"
+    },
+    "instrumentUpgradeModal": {
+      "title": "軟體升級",
+      "body": "請將 {{ currentVersion }} 更新為 {{ newVersion }}。{{ instrumentName }} 升級完畢後才能處理檢體。"
+    }
+  },
+  "settings": {
+    "categories": {
+      "SMART_SERVICE": "SmartService",
+      "VET_CONNECT_PLUS": "VetConnect PLUS",
+      "PRACTICE_MANAGEMENT": "醫院管理系統",
+      "ALERTS_NOTIFICATIONS": "警告與通知",
+      "DISPLAY": "顯示",
+      "LANGUAGE": "語言",
+      "PRACTICE_INFO": "醫院資訊",
+      "PRINTING": "列印",
+      "REPORTS": "報告",
+      "TIME_DATE": "時間與日期",
+      "UNITS": "單位"
+    },
+    "display": {
+      "title": "顯示",
+      "includeOnHomeScreen": "顯示在主畫面",
+      "includeInPatientAndOrderDetails": "顯示在輸入動物與檢測指令頁面的細節",
+      "pendingList": "待驗檢體清單",
+      "censusList": "所有檢體清單",
+      "doctor": "醫師姓名",
+      "breed": "品種",
+      "sex": "性別",
+      "weight": "體重",
+      "reasonForTesting": "檢驗原因"
+    },
+    "language": {
+      "labels": {
+        "title": "語言",
+        "location": "地點"
+      }
+    },
+    "printing": {
+      "title": "列印",
+      "autoPrintSettings": "自動列印設定",
+      "autoPrintWhenComplete": "檢驗全數完成後自動列印報告",
+      "doNotAutoPrintManualSNAP": "不要自動列印手動 SNAP 結果",
+      "doNotAutoPrintSNAPPro": "不要自動列印 SNAP Pro 結果",
+      "numberOfCopies": "列印份數",
+      "defaultPrinter": "預設印表機",
+      "paperFormat": "紙張格式",
+      "paperSize": {
+        "A4": "A4紙尺寸",
+        "LEGAL": "Legal紙尺寸",
+        "LETTER": "Letter紙尺寸"
+      },
+      "pageBreakOptions": "分頁選項",
+      "naturalPageBreaks": "自動分頁",
+      "clearAllPrintJobs": {
+        "button": "清除所有列印工作",
+        "confirmModal": {
+          "title": "要清除所有列印工作？",
+          "body": "確定要清除所有等待使用 <strong>{{printer}}</strong> 列印的列印工作？"
+        },
+        "sucessToast": "已清除「{{printer}}」的所有列印工作"
+      }
+    },
+    "units": {
+      "labels": {
+        "title": "單位",
+        "weight": "體重",
+        "Pounds": "磅 (lbs)",
+        "Kilograms": "公斤 (kgs)",
+        "millimeters": "公釐 (mm)",
+        "millimeters_short": "公釐",
+        "centimeters": "公分 (cm)",
+        "centimeters_short": "公分",
+        "inches": "英寸 (in)",
+        "inches_short": "英寸"
+      }
+    },
+    "alertsAndNotifications": {
+      "labels": {
+        "title": "警告與通知",
+        "newResults": "新結果",
+        "showNewResultsToggleLabel": "顯示新的結果通知",
+        "beepToggleLabel": "當出現新結果時發出嗶嗶聲",
+        "timeIntervalSingleMinute": "1 分鐘",
+        "timeIntervalMinutes": "{{minutes}} 分鐘",
+        "timeIntervalSingleSecond": "1 秒",
+        "timeIntervalSeconds": "{{seconds}} 秒",
+        "timeIntervalNoTimeout": "不要取消"
+      }
+    },
+    "timeAndDate": {
+      "labels": {
+        "timeAndDate": "時間與日期",
+        "dst": "夏令時間",
+        "automaticallyAdjust": "自動調整",
+        "changeTimeZone": "變更時區",
+        "locationDefault": "選擇地點以篩選時區",
+        "tzDefault": "選擇時區",
+        "tzDisplay": "({{ shortName }}) {{ longName }} {{ city }} ({{ currentTime }})",
+        "tzDisplayNoTime": "({{ shortName }}) {{ longName }} {{ city }}",
+        "currentTime": "現在日期/時間"
+      }
+    },
+    "confirmRestart": {
+      "title": "設定",
+      "body": "必須重新啟動 IDEXX VetLab Station 電腦才能儲存其中部分變更項目。<linebreak/>若有任何連線的 IDEXX VetLab 分析儀正在分析檢體，請勿重新啟動電腦。<linebreak/>確定要儲存變更並重新啟動？",
+      "restartNow": "立即重新啟動"
+    },
+    "practiceInfo": {
+      "headers": {
+        "doctorsName": "醫師姓名",
+        "idexxAccountNumber": "IDEXX 客戶帳號"
+      },
+      "labels": {
+        "practiceInfo": "醫院資訊",
+        "idexxAccountNumber": "IDEXX 客戶帳號",
+        "doctor": "醫師姓名",
+        "enterAccountNumber": "請輸入您的 IDEXX 客戶帳號",
+        "enterDoctorName": "輸入醫師姓名",
+        "firstName": "名字",
+        "lastName": "姓"
+      },
+      "confirmDeleteDoctor": {
+        "header": "刪除醫師",
+        "body": "您確定要從此清單中刪除此醫師？"
+      }
+    },
+    "practiceManagement": {
+      "labels": {
+        "display": "顯示",
+        "practiceManagement": "醫院管理系統",
+        "requisitionId": "連線號碼",
+        "results": "檢驗結果",
+        "required": "必填",
+        "transmitResults": "傳送結果 (資料)",
+        "transmitResultsAndReports": "傳送結果與報告 (資料和 PDF)"
+      },
+      "buttons": {
+        "configure": "配置",
+        "removePims": "移除 PIMS"
+      },
+      "status": {
+        "disabled": "已停用",
+        "notReady": "未就緒",
+        "offline": "離線",
+        "ready": "待機"
+      },
+      "pimsRemoved": "PIMS 移除成功。",
+      "donNotTransmitRecords": "不要傳送在此之前建立的紀錄",
+      "pimsOfflineHeader": "PIMS 已離線",
+      "pimsOfflineBody1": "IDEXX VetLab Station 無法與 PIMS 連線。若不再使用這個 PIMS，請點選<strong>移除 PIMS</strong> 按鈕，將其圖示從主畫面移除。",
+      "pimsOfflineBody2": "請向 IDEXX 支援部門人員洽詢進一步協助事宜。",
+      "requisitionIdContent": "醫院管理系統可以利用連線號碼自動比對已經完成的檢驗結果與病歷。",
+      "resultsNotTransmitted": "自該日期起已建立 {{count}} 個紀錄，但還未傳送。",
+      "configure": {
+        "title": "設定醫院管理",
+        "serialConnection": "序列連線",
+        "networkConnection": "網路連線",
+        "none": "無",
+        "autoConnect": "自動連接",
+        "directConnect": "直接連接",
+        "ipAddress": "IP位址：",
+        "integrationName": "整合名稱"
+      },
+      "eula": {
+        "title": "IDEXX連線同意",
+        "body": "<b>使用者請注意：表明接受本協議並使用 IDEXX 連線之前，請仔細閱讀協議內容。</b>使用 IDEXX 整合功能即表示您與您所代表之機構均接受本協議之所有條款與條件。您同意本協議與您所簽署之任何書面協議具有相同的強制執行效力。如不同意，請勿使用 IDEXX 整合功能。<br/><br/>本協議載明轉移資訊相關服務 (下稱「<u>服務</u>」) 的條款。我們將提供的服務牽涉到您所用之醫院資訊管理軟體 (下稱「<u>PIMS</u>」)，以及由 IDEXX Laboratories, Inc.、其關係企業或我方授權經銷商所提供之設備 (例如診斷儀器、實驗室資訊，以及醫院管理系統、放射產品與相關電腦，下稱「<u>IDEXX 設備</u>」) 之間的資訊轉移。<b>我們、我方</b>及<b>我們的</b>等用語，泛指 IDEXX、IDEXX 關係企業，以及我們的授權分銷商。<br/><br/><u>1.服務範疇：</u>一旦您接受本協議後，應啟動已經預先安裝於 IDEXX 設備中的軟體，以利支援我方與您的醫院管理系統 (PIMS) 所安裝的軟體進行通訊。這類通訊能支援醫院管理系統傳送要求及有無動物患者的狀態傳送至 IDEXX 設備。同時，這類通訊也能支援我們將可用的動物患者結果及必要的識別資訊傳回您的醫院管理系統，以利精準識別及管理傳入的結果。為提供服務，IDEXX 設備會向 PIMS 發出要求並接收對方所傳來之具體資料，這類資料能協助 IDEXX 設備因應各項要求。您所擁有或使用之 IDEXX 產品，未必全數都能使用前述服務。<br/><br/>2.<u>技術環境：</u>您的 PIMS 和 IDEXX 設備必須透過我方所指定的乙太網路連線方式進行連線，才能使用前述服務。IDEXX 設備與乙太網路之間的連線由您提供，費用也由您負擔。您應適度提供能讓服務正常運作的網路連線。<br/><br/>3.<u>有限保固</u>。我們提供的服務保證以您購買 IDEXX 設備時所得到的有限保固為準據。請參閱您購買 IDEXX 設備時所得到的銷售條款與條件，或上我們的網站 <u>www.idexx.com</u> 參閱有限保固的具體內容。我們不言明亦不保證您的 PIMS 所能發揮的效能，或是 PIMS 對於 IDEXX 設備所提供之資料的解讀。<br/><br/>4.<u>責任有限。</u>如因超出我方合理控制之環境因素，導致表現不及本協議內容所載，我們概不負責。在任何情況下，倘若因您使用前述服務而使您或任何實體/單位蒙受任何利潤損失或使用損失、商譽損失或任何其他特殊、附帶或間接、特殊、懲罰性或多重損害，包括但不限於商譽、資料或設備損失，抑或業務中斷所致之損失，我們或我們的授權人概不負責，無論是基於保固、合約、侵權行為或其他方式，即便我方於事前即以得知可能會發生此類損害。不論基於保固、合約、侵權行為或其他原因，我們就前述服務所應承擔之完全賠償責任，一律不超過 500 美元。部分司法管轄區不允許排除或限制特別、附帶、間接、懲戒性、懲罰性或多重損害，或不允許將責任限制限縮於產品或服務的實際價格，因此，上述限制未必適用於您。我們的有限保固授予您具體之法律權利，且您可能亦享有其他權利 (因不同司法管轄區而異)。<br/><br/>5.<u>IDEXX 資料使用方式：</u>您授權我方存取貴醫院的資料 (包括任何附在資料中的畜主資料)，也授權我方將該等資料與我們獲准使用之您的任何其他資料合併或建立連結，用於 (a) 提供獨立的醫院效能/使用狀況分析或與其他不具名醫院之比較給貴院；(b) 監控、疑難排解、診斷以及檢修您的 IDEXX 設備；(c) 升級您的 IDEXX 設備軟體；(d) 備份及儲存您的資料；(e) 將您的資料與其他資料 (包括其他醫院提供的資料) 進行彙總，以利進行研究與分析；(f) 透過其他方式提供服務給您；以及 (g) 促進與捍衛我們的合法權利。一般而言，我們不會與第三方分享您的資料，除非採用無法辨認個人身分的格式，惟若因以下例外情況所須，則不得不為之：為您提供服務、管理本協議、安排付款/收款/處理款項、遵守法律，抑或捍衛我們的合法權利。除非您提供具體的書面授權，否則我們絕對不會將您的資料提供給名單仲介或任何意欲利用該項資訊與您和/或您的客戶聯絡者。您的書面授權適用於您透過我方 SmartService™ 智慧型裝置管理服務提供給我們，或者讓我方得以透過其他形式取得的資料，例如您將裝置交給我們進行修繕或整新，抑或將光碟面或其他儲存裝置寄送給我們。凡是您提供給我方或由我方透過收集得到的個人資訊，主要皆由 IDEXX Laboratories, Inc.(One IDEXX Drive, Westbrook, Maine 04092, USA) 控管，且將依據美國法律及本協議之規範存放於美國。我們採行了技術與組織方面的措施，充分防範您的資料遭到意外或非法破壞，抑或不慎遺失、遭到竄改、擅自洩漏或使用；且我們所採行的措施，其安全保障足以因應處理受保護資料及資料性質可能引起的風險程度。您同意全權負責妥善管理及控管客戶的個人資訊，包括但不限於事先徵得畜主同意才能將其個人資訊提供給我方。倘若客戶投訴我方或您，或者客戶與您或我方在客戶個人資訊控管方面出現爭議，您同意全權負責排解投訴或爭議，且不讓我方受到傷害、承擔賠償責任或損失，惟您在合理範圍內證明我方應為該等投訴或爭議負責之情形則不在此限。我們處理歐洲共同區 (下稱「EEA」) 境內醫院所提供之個人資料時，會遵守《標準契約條款》(處理方) 針對將個人資料傳輸至第三國所明訂之條款與條件，該項契約條款是以 2001 年 12 月 27 日歐盟委員會決策附錄中註明的第 95/46/EC 條指令為準據，本文茲列舉其條款與條件以供參考。<br/><br/>6.<u>準據法；審理地點；放棄陪審制。</u>本協議及相關交易，以及各協議當事方/關係人之間發生之所有爭議，不分合約、侵權行為或其他方面，一概以美國緬因州法律為準據法，不考慮法律衝突原則。倘若發生爭議之事由與服務或本協議相關，當事方同意於接獲通知後六十 (60) 天內開會，秉持善意討論出可行的和解方式。若無法議定可行的和解方式，凡因本協議引發之爭議，或因本協議延伸之其他協議所引發之爭議，抑或本協議因此/在過程中之違約、終止或失效，最終應依據當時有執行效力之國際商會仲裁規則，由依據前述規則指定之一名仲裁人裁定解決。仲裁程序應以英文進行，且交予仲裁人或由仲裁人提供之所有文件，皆應以英文撰寫。<br/><br/><u>除非另有註明，仲裁地點應在美國緬因州。</u><br/><br/><u>若醫院位於加拿大，仲裁地點應在加拿大安大略省。</u><br/><br/><u>若醫院位於歐洲經濟區，仲裁地點應在荷蘭阿姆斯特丹。</u><br/><br/>雙方同意，在任何與本協議相關之法律行動中，願意放棄對彼此就多項、具懲罰性質或懲戒性質的損失求償。在任何情況下，仲裁人均無權裁定多項、具懲罰性質或懲戒性質的損失賠償，無論是根據允許此類賠償的法律或其他情形，任何所謂的此類賠償裁定，一律超出仲裁人之權限，因此不具效力且不可強制執行。仲裁人之裁定即為雙方唯一且不適用於他人的救濟措施，且可於任何具合理管轄權的法院中執行，除非仲裁人有詐欺或明顯偏見行為之情況，否則不得撤銷。在任何此類法律行動中，勝訴之一方應有權在合理範圍內求償討回訴訟費和相關費用。即便與第 6 節 (本節) 之任何內容相左，但各當事方應有權在法院對另一當事方或任何代表、透過或依照該當事方要求行事者提起訴訟，以透過重擬合約、強制履行、禁制令或類似公平救濟方式，強制執行其依據本協議所應得之權利。不論現在或未來，各當事方均放棄下列權利：反對在該法院提起的任何法律程序，以及聲稱該法律程序在不方便的法院提起。<br/><br/>7.<u>可分割性。</u>倘若本協議之任何條款經有合理管轄權之法院裁定在任何方面不具效力或不具執行力，一概不影響或破壞其餘條款之效力與執行力，您與我方均同意將該項不具效力或不具執行力之條款換成執行力與效力兼具之安排，且該項安排在經濟效益方面盡可能接近原本不具效力或不具執行力之條款。<br/><br/>8.<u>其他。</u>您同意不在我方未事先提供書面授權之情況下將本協議或 IDEXX 設備或服務讓渡予他人 (無論透過購買股權、合併、業務轉讓、法律操作或其他方式)，亦同意該等試圖讓渡之行為無效。本協議構成您我雙方就其主題所達成之完整協議，且其效力凌駕於我們先前可能就其主題所達成的任何口頭或書面協議。本協議之修改，一律只能透過由 IDEXX 提供修正協議給您的方式進行。我方如有修改協議，會事先通知您，倘若您於之後繼續使用服務，即表示您接受修改。您我雙方當中的任何一方，在對方要求履行或依據本協議行使任何權利時，倘若有任何延誤或疏漏，一概不等同於放棄任何權利，亦不妨礙未來行使該等權利。<br/><br/>9.<u>協議影本。</u>您可以索取一份本協議之影本，請按照 IDEXX 設備隨附文件中註明的方式聯絡 IDEXX 支援部門。<br/><br/>10.<u>準據語言。</u>本協議之任何翻譯版本一律依據當地規定進行翻譯。倘若本協議之英文版與非英文版內容之間出現爭議，所有因內容詮釋所致之疑問，一概以原始的英文版為準據。如有任何其他基於本協議所佈達或提供之文件，可能會是英文版本。"
+      }
+    },
+    "vcp": {
+      "buttons": {
+        "connect": "立即連線",
+        "disconnect": "中斷連線",
+        "testConnection": "測試連接"
+      },
+      "labels": {
+        "vcp": "IDEXX VetConnect PLUS",
+        "howHelp": "VetConnect PLUS 可以協助您做些什麼？",
+        "info": "沒有帳戶？請致電 IDEXX 支援部門開通帳戶。"
+      },
+      "testConnection": {
+        "title": "測試連接",
+        "success": "測試成功。",
+        "failure": "測試失敗。"
+      },
+      "disconnect": {
+        "title": "中斷 VetConnect PLUS 連線",
+        "body": "您確定要中斷 IDEXX VetConnect PLUS 帳戶與 IDEXX VetLab Station 的連線嗎？",
+        "disconnect": "中斷連線",
+        "stayConnected": "保持連線"
+      },
+      "activate": {
+        "directions": "若要連線，請在下面輸入您的　VetConnect PLUS 用戶名稱和密碼。",
+        "activationError": "啟用錯誤",
+        "success": "您的帳戶已成功啟用。",
+        "NOT_REACHABLE": "因無法連上網頁，無法啟動 VetConnect PLUS。<linebreak />請確認目前所用的網際網路連線運作正常無誤。<linebreak />另外，請確定已確實連接 IDEXX VetLab Station 與路由器，且路由器也已連上網際網路。<linebreak />如需協助，請聯絡 IDEXX 支援部門。",
+        "INVALID_USER_PASSWORD": "使用者名稱和/或密碼無效，無法啟動 VetConnect PLUS。<linebreak />請確認使用者名稱及密碼後再試一次。<linebreak />如需協助，請聯絡 IDEXX 支援部門。"
+      },
+      "cards": {
+        "advancedDiagnostics": {
+          "title": "進階診斷",
+          "body": "為病患取得所有 IDEXX 診斷，全面掌握病患狀況。"
+        },
+        "clinicalInsights": {
+          "title": "臨床分析",
+          "body": "使用 IDEXX DecisionIQ™ 可花費更少時間探究後續步驟。"
+        },
+        "saveTime": {
+          "title": "節省時間",
+          "body": "透過客戶友善的摘要標準化與寵物主人的溝通。"
+        }
+      }
+    },
+    "smartService": {
+      "status": {
+        "NOT_ACTIVATED": "未啟動",
+        "DISABLED": "已停用",
+        "OFFLINE": "離線",
+        "CONNECTED": "已啟用",
+        "CONNECTING": "連線中"
+      },
+      "deactivateModal": {
+        "title": "停用 SmartService",
+        "body": "確定要停用 SmartService？"
+      },
+      "buttons": {
+        "activate": "啟用",
+        "deactivate": "停用",
+        "terms": "服務規範"
+      },
+      "blurb": {
+        "offlineBlurb": "若要重新建立連線：<br/><br/>1.確認醫院的網際網路連線功能正常。<br/>2.請檢查下方註明的兩個連接處，確認已經將 IDEXX VetLab Station 接妥於 IDEXX 提供的路由器，且路由器也已經連上醫院所使用的網路：<br/> <ul><li>a.務必將用於連上醫院網路的乙太網路線接在 IDEXX 提供的路由器上。</li><li>b.務必將 IDEXX VetLab Station 電腦背面的乙太網路線接在 IDEXX 提供的路由器上。</li></ul>3.請使用下方按鈕<strong>重新啟動</strong> IDEXX VetLab Station。<br/><br/>若仍無法連線，請聯絡 IDEXX 支援部門。<br/>"
+      },
+      "labels": {
+        "smartService": "IDEXX SmartService™",
+        "howHelp": "IDEXX SmartService 會如何協助您？"
+      },
+      "activate": {
+        "activationError": "啟用錯誤",
+        "success": "SmartService 啟動完成！"
+      },
+      "cards": {
+        "Support": {
+          "title": "主動支援",
+          "body": "遠端疑難排解可以節省您打電話的時間，讓您有更多時間陪伴病患。"
+        },
+        "Backup": {
+          "title": "資料備份保護",
+          "body": "對病患紀錄進行端對端加密保護，敬請放心。"
+        },
+        "UpToDate": {
+          "title": "掌握最新消息",
+          "body": "增加儀器正常運作時間並能夠自動化軟體更新。"
+        }
+      },
+      "termsModal": {
+        "title": "服務規範",
+        "titleActivate": "啟用 SmartService™",
+        "instructions": "掃描適用的 QR 碼，查看 IDEXX SmartService™ 服務條款。",
+        "uslabel": "美國與加拿大",
+        "otherLocations": "其他所有地區",
+        "smartServiceTerms": "閱讀 One IDEXX 主要規範中的 SmartService 規範。"
+      }
+    },
+    "reports": {
+      "title": "報告",
+      "editReportHeader": "編輯報告標題",
+      "labels": {
+        "testResultsOrder": "檢驗結果排序",
+        "testResultsFormat": "檢驗報告格式",
+        "englishAssayNames": "在結果報告和畫面顯示使用英文檢測名稱。",
+        "outOfRange": "結果超出範圍",
+        "highResults": "結果過高",
+        "lowResults": "結果過低",
+        "messageCodes": "訊息",
+        "resultsBasedComments": "支援基於結果的附註",
+        "printDotPlots": "在檢驗結果列印點狀圖",
+        "abnormalResults": "異常結果"
+      },
+      "editHeader": {
+        "title": "編輯標題"
+      },
+      "colors": {
+        "Black": "黑色",
+        "Blue": "藍色",
+        "Red": "紅色",
+        "Green": "綠色"
+      },
+      "resultsOrder": {
+        "OrganCellType": "器官/細胞型態",
+        "Standard": "標準"
+      },
+      "reportFormat": {
+        "Enhanced": "附加前次檢驗結果",
+        "Standard": "標準"
+      },
+      "hematologyCodes": {
+        "FullText": "全文",
+        "Short": "縮寫"
+      },
+      "header": {
+        "printHeader": "列印報告標題",
+        "blankLines": "列印標題保留空白行",
+        "dontPrint": "無標題",
+        "lineOne": "第一行",
+        "lineTwo": "第二行",
+        "lineThree": "第三行"
+      }
+    }
+  },
+  "theia": {
+    "sampleSource": {
+      "LEFT_EAR": "左耳",
+      "RIGHT_EAR": "右耳"
+    },
+    "clinicalSigns": {
+      "label": "臨床症狀",
+      "ITCHINESS": "搔癢",
+      "ODOR": "異味",
+      "REDNESS": "發紅",
+      "DISCHARGE": "分泌物"
+    },
+    "optionalClinicalSigns": {
+      "label": "中耳炎症狀",
+      "subLabel": "(例如不適、有異味、發紅、有分泌物)"
+    }
+  },
+  "boot": {
+    "language": {
+      "selectLanguage": "選擇語言",
+      "selectLocation": "選取位置"
+    },
+    "timeZone": {
+      "header": "請選取您的所在位置和時區",
+      "instructions": "務必選擇正確的時區。時區不準確會導致過去和未來的紀錄顯示不準確的時間。"
+    },
+    "smartService": {
+      "header": "啟動SmartService",
+      "whyActivate": "啟動 IDEXX SmartService 就能適時得到客戶支援、安全地備份資料，以及自動更新軟體。"
+    },
+    "restore": {
+      "header": "要還原資料？"
+    },
+    "restart": {
+      "header": "請重新啟動以利儲存設定",
+      "body": "點選<strong>立即重新啟動</strong>或等待 30 秒，IDEXX VetLab Station 會自動重新啟動。",
+      "restarting": "重新啟動"
+    },
+    "welcome": {
+      "title": "歡迎使用 IDEXX VetLab Station！"
+    },
+    "ssEula": {
+      "title": "協議通知",
+      "body": "我們已經更改了 IDEXX SmartService™ 服務條款。請詳閱並選擇一項。<linebreak/>如不接受這些改變，將會中斷或停用下列服務：<shortlinebreak/><ul><li>即時故障排除或升級軟體推送</li><li>積極主動</li><li>點數補償</li><li>自動寄送 SediVue Dx 和 ProCyte One 耗材</li></ul>"
+    }
+  },
+  "referenceClass": {
+    "Adult Canine": "成犬",
+    "Adult Equine": "成馬",
+    "Adult Feline": "成貓",
+    "African Gray": "非洲灰羽鸚鵡",
+    "Amazon Blue-Feather": "亞馬遜藍羽鸚鵡",
+    "Amazon Yellow": "亞馬遜黃羽鸚鵡",
+    "Beef Cattle": "肉牛",
+    "Budgerigar": "虎皮鸚鵡",
+    "Canary": "金絲雀",
+    "Cockatiel": "玄鳳鸚鵡",
+    "Cockatoo Molu": "巴丹鸚鵡(Molu)",
+    "Cockatoo Umber": "巴丹鸚鵡(Umber)",
+    "Conure": "錐尾鸚鵡",
+    "Dairy Cow": "乳牛",
+    "Ferret": "貂",
+    "Foal": "仔馬",
+    "Geriatric Canine": "老犬",
+    "Geriatric Equine": "老馬",
+    "Geriatric Feline": "老貓",
+    "Goat": "山羊",
+    "Gray Cheek": "繡眼畫眉",
+    "Kitten": "幼貓",
+    "Lizard": "蜥蜴",
+    "Llama": "羊駝",
+    "Macaw Blue and Gold": "藍黃金剛鸚鵡",
+    "Macaw Hyacinth": "紫藍金剛鸚鵡",
+    "Macaw Scarlet": "緋紅金剛鸚鵡",
+    "Mare at Stud": "母種馬",
+    "Monkey": "猴子",
+    "Mouse": "老鼠",
+    "No Control": "無品管",
+    "Other": "其他",
+    "Parrot Eclect": "折衷鸚鵡",
+    "Pig": "豬",
+    "Puppy": "幼犬",
+    "Rabbit": "兔",
+    "Rat": "大鼠",
+    "Sea Turtle": "海龜",
+    "Sheep": "綿羊",
+    "Snake": "蛇",
+    "Tortoise": "陸龜",
+    "Unknown": "未知",
+    "Yearling": "週歲馬"
+  },
+  "smartService": {
+    "offlineNotificationModal": {
+      "secondaryHeader": "SmartService",
+      "header": "取得連線",
+      "offlineForDays": "SmartService 已離線 {{ daysOffline }} 天。"
+    },
+    "reconnectionInstructions": "重新建立連線；<shortlinebreak /><ol><li>確認醫院的網路已經連線並且正常運作。</li><li>確實使用一條乙太網路線正確連接醫院網路設備與 IDEXX 提供的路由器。</li><li>確實使用一條乙太網路線，從 IDEXX VetLab Station 電腦背面正確連接到 IDEXX 提供的路由器。</li><li>確認已經連接的分析儀全都不在進行中狀態。接著將 IDEXX 提供的路由器斷電 15 到 30 秒，再重新啟動路由器。路由器重新啟動約需 <strong>5 分鐘</strong>。</li><li>路由器完成重新啟動流程後，按下方的按鈕<strong>重新啟動</strong> IDEXX VetLab Station。</li></ol>若您的連線並未恢復，請聯絡 IDEXX 技術支援部門。"
+  },
+  "helpScreen": {
+    "sideBarTitle": "說明與資源",
+    "instrumentModal": {
+      "title": "手冊與資源",
+      "instructions": "取得 {{ instrumentName }}手冊、快速參考指南、檢體製備海報等等。"
+    }
+  }
+}

@@ -1,0 +1,1557 @@
+{
+  "ACADIA_DX": {
+    "ALG_RUN_FLAG_FAULT": {
+      "body": "Çalışmayı kesintiye uğratan beklenmedik bir hata meydana geldi. Lütfen numuneyi karıştırın ve yeniden çalışın. Sorun devam ederse lütfen IDEXX Destek ile iletişime geçin.",
+      "title": "Beklenmeyen Hata"
+    },
+    "ASP_CLOT": {
+      "body": "Bu çalışma, yetersiz numune miktarı ve/veya numunede pıhtı bulunması sebebiyle iptal edildi. Lütfen numune miktarının yeterli olduğunu doğrulayın, numunede pıhtı bulunmadığından emin olun ve ardından numuneyi karıştırıp yeniden çalışın. Sorun devam ederse lütfen IDEXX Destek ile iletişime geçin.",
+      "title": "Numune Sorunu"
+    },
+    "ASP_ERROR": {
+      "body": "Bu çalışma, yetersiz numune miktarı ve/veya numunede pıhtı bulunması sebebiyle iptal edildi. Lütfen numune miktarının yeterli olduğunu doğrulayın, numunede pıhtı bulunmadığından emin olun ve ardından numuneyi karıştırıp yeniden çalışın. Sorun devam ederse lütfen IDEXX Destek ile iletişime geçin.",
+      "title": "Numune Sorunu"
+    },
+    "ASP_NO_FLUID": {
+      "body": "Bu çalışma, yetersiz numune miktarı ve/veya numunede pıhtı bulunması sebebiyle iptal edildi. Lütfen numune miktarının yeterli olduğunu doğrulayın, numunede pıhtı bulunmadığından emin olun ve ardından numuneyi karıştırıp yeniden çalışın. Sorun devam ederse lütfen IDEXX Destek ile iletişime geçin.",
+      "title": "Numune Sorunu"
+    },
+    "ASP_PARTIAL": {
+      "body": "Bu çalışma, yetersiz numune miktarı ve/veya numunede pıhtı bulunması sebebiyle iptal edildi. Lütfen numune miktarının yeterli olduğunu doğrulayın, numunede pıhtı bulunmadığından emin olun ve ardından numuneyi karıştırıp yeniden çalışın. Sorun devam ederse lütfen IDEXX Destek ile iletişime geçin.",
+      "title": "Numune Sorunu"
+    },
+    "ASP_START_IN_AIR": {
+      "body": "Bu çalışma, yetersiz numune miktarı ve/veya numunede pıhtı bulunması sebebiyle iptal edildi. Lütfen numune miktarının yeterli olduğunu doğrulayın, numunede pıhtı bulunmadığından emin olun ve ardından numuneyi karıştırıp yeniden çalışın. Sorun devam ederse lütfen IDEXX Destek ile iletişime geçin.",
+      "title": "Numune Sorunu"
+    },
+    "BARCODE_READ_FAILURE_QC": {
+      "body": "SmartQC barkodu okunamadı. Lütfen etiketteki barkodda hasar veya engel olup olmadığını kontrol edin.",
+      "title": "SmartQC Barkodu Okunamıyor"
+    },
+    "BARCODE_READ_FAILURE_REAGENT": {
+      "body": "ProCyte One reaktif paketi tanımlanamadı; lütfen barkodu kontrol edin - hasarlıysa lütfen IDEXX Destek birimi ile iletişime geçin.",
+      "title": "Reaktif Paketi Geçersiz"
+    },
+    "BARCODE_READ_FAILURE_SHEATH": {
+      "body": "ProCyte One sheath paketi tanımlanamadı; lütfen barkodu kontrol edin - hasarlıysa lütfen IDEXX Destek birimi ile iletişime geçin.",
+      "title": "Sheath Paketi Geçersiz"
+    },
+    "BLEACH_CLEAN_RECOMMENDED": {
+      "body": "Son Kimyasal Temizlik’ten bu yana 90 gün geçti. <linebreak/>Bu işlem yaklaşık 15 dakika sürer ve kontaminantları yok ederek doğru sonuçlar alınmasını sağlar.",
+      "title": "90. Gün Kimyasal Temizlik Hatırlatması."
+    },
+    "BLEACH_CLEAN_REQUIRED": {
+      "body": "Bu bakım işlemini gerçekleştirmek için <strong>Kimyasal Temizliği Başlat</strong> butonuna dokunun. <linebreak/>Bu prosedür yaklaşık 15 dakika sürer ve kontaminantları yok ederek hassas sonuçlar alınmasını sağlar.",
+      "title": "90 günlük Kimyasal Temizlik yapılmalıdır."
+    },
+    "CAMERA_INITIALIZATION_FAILURE": {
+      "body": "Beklenmeyen bir hata oluştu. Analiz cihazı önceki durumuna geri dönerken lütfen bekleyin. Sorun devam ederse lütfen IDEXX Destek ile iletişime geçin.",
+      "title": "Beklenmeyen Hata"
+    },
+    "DATA_PROCESSING_ERROR": {
+      "body": "Çalışmayı kesintiye uğratan beklenmedik bir hata meydana geldi. Lütfen numuneyi karıştırın ve yeniden çalışın. Sorun devam ederse lütfen IDEXX Destek ile iletişime geçin.",
+      "title": "Beklenmeyen Hata"
+    },
+    "EXPIRED_REAGENT": {
+      "body": "Reaktif paketinizin tarihi geçmiş.<linebreak/>Analiz cihazınızı kullanmaya devam etmek için tarihi geçmemiş bir paketle değiştirin. Talimatlara ulaşmak için <strong>Reaktifi Değiştir</strong> düğmesine dokunun.",
+      "title": "UYARI: Reaktifin tarihi geçmiş."
+    },
+    "EXPIRED_SHEATH": {
+      "body": "Sheath paketinizin tarihi geçmiş.<linebreak/>Analiz cihazınızı kullanmaya devam etmek için tarihi geçmemiş bir paketle değiştirin. Talimatlara ulaşmak için <strong>Sheath'i Değiştir</strong> düğmesine dokunun.",
+      "title": "UYARI: Sheath'in tarihi geçmiş."
+    },
+    "FILTER_LEAK": {
+      "body": "Beklenmeyen bir filtre hatası oluştu. Lütfen devam etmeden önce analiz cihazındaki filtreyi yeniden yerleştirin.<linebreak/>Sorun devam ederse lütfen IDEXX Destek birimi ile iletişime geçin.",
+      "title": "Filtre Hatası"
+    },
+    "FILTER_REPLACE": {
+      "body": "Sıvı filtresi değiştirilmelidir. Bu işlem 3-4 dakika sürecektir. Lütfen analiz cihazındaki filtreyi değiştirin veya talimatları görmek için <strong>Filtreyi Değiştir</strong> seçeneğine dokunun.",
+      "title": "Sıvı Filtresini Değiştirin"
+    },
+    "INSUFFICIENT_EVENTS": {
+      "body": "Çalışmayı kesintiye uğratan beklenmedik bir hata meydana geldi. Lütfen numuneyi karıştırın ve yeniden çalışın. Sorun devam ederse lütfen IDEXX Destek ile iletişime geçin.",
+      "title": "Beklenmeyen Hata"
+    },
+    "JUNK_OVERLOAD": {
+      "body": "Parçalanmayan RBC'ler (Eritrosit), WBC (Beyaz Kan Hücresi) sayımını etkiledi. Lütfen bir kan frotisiyle doğrulama gerçekleştirin. Daha fazla yardım almak için lütfen IDEXX Destek birimiyle iletişime geçin.",
+      "title": "WBC Sonuçları Saklandı"
+    },
+    "MAINTENANCE_TUBE_ERROR": {
+      "body": "Kimyasal temizleyici işlem tüpüyle ilgili bir sorun var. Lütfen tüpün, kapağı çıkarılmış 13 mm x 75 mm’lik bir tüp olduğundan emin olun ve ardından devam etmek için analiz cihazındaki <strong>Başlat</strong> butonuna basın.<linebreak/>Bu işlemi sonlandırmak için <strong>İptal Et</strong> butonuna basın.",
+      "title": ""
+    },
+    "MICROCODE_WATCHDOG": {
+      "body": "Beklenmeyen bir hata oluştu. Analiz cihazı önceki durumuna geri dönerken lütfen bekleyin. Sorun devam ederse lütfen IDEXX Destek ile iletişime geçin.",
+      "title": "Beklenmeyen Hata"
+    },
+    "MISSING_CONTROL": {
+      "body": "Lütfen otomatik kalite kontrolünü açmak için SmartQC yükleyin.",
+      "title": "SmartQC Yükle"
+    },
+    "MISSING_REAGENT": {
+      "body": "Numune işlemeye devam etmek için lütfen bir reaktif paketi yükleyin.",
+      "title": "Reaktif Paketi Eksik"
+    },
+    "MISSING_SAMPLE": {
+      "body": "Lütfen numune tüpünün desteklenen bir EDTA'lı tüp olduğundan emin olun, numuneyi karıştırın, stoperi veya kapağı çıkarın ve numuneyi yeniden çalışın.",
+      "title": "Numune Tüpü Sorunu"
+    },
+    "MISSING_SHEATH": {
+      "body": "Numune işlemeye devam etmek için lütfen bir sheath paketi yükleyin.",
+      "title": "Sheath Paketi Eksik"
+    },
+    "OBC_EMPTY": {
+      "body": "SmartQC boş ve kalite kontrolünün otomatik olarak devam etmesi için değiştirilmesi gerekiyor.",
+      "title": "SmartQC Boş"
+    },
+    "OBC_LOW": {
+      "body": "SmartQC şişesi düşük seviyede ve yakında değiştirilmesi gerekecek. Stoklarınızda yedek bir SmartQC şişesi bulunduğundan emin olun.",
+      "title": "SmartQC Düşük"
+    },
+    "OVER_PRESSURE": {
+      "body": "Sistem, sıvı hatlarının birinde bir tıkanma ile karşılaştı. Sistem tıkanmayı otomatik olarak gidermeyi denerken lütfen bekleyin.",
+      "title": "Tıkanma ile Karşılaşıldı"
+    },
+    "OVER_PRESSURE_UNRECOVERABLE": {
+      "body": "Çalışmayı kesintiye uğratan beklenmedik bir hata meydana geldi. Yardım almak için lütfen IDEXX Destek ile iletişime geçin.",
+      "title": "Beklenmeyen Hata"
+    },
+    "OVER_TEMP": {
+      "body": "Analiz cihazının sıcaklığı, çalışma başlatılamayacak kadar yüksek. Lütfen analiz cihazının etrafında yeterli hava akışı olduğundan emin olun.",
+      "title": "Sıcaklık Sorunu"
+    },
+    "PACK_ACCESS_OPEN": {
+      "body": "Devam etmek için lütfen analiz cihazının kapısını kapatın.",
+      "title": "Analiz Cihazı Kapısı Açık"
+    },
+    "PACK_ACCESS_OPEN_RUN": {
+      "body": "Analiz cihazının kapısı açıldı ve çalışma yarıda kesildi. Analiz cihazının otomatik olarak sıfırlanabilmesi için lütfen analiz cihazının kapısını kapatın. Analiz cihazının durumu <strong>Hazır</strong> olduğunda, numuneyi karıştırın ve yeniden çalışın.",
+      "title": "Analiz Cihazı Kapısı Açık"
+    },
+    "QC_REMINDER": {
+      "body": "SmartQC şişesinin kullanım süresi, programlanmış bir sonraki otomatik Kalite Kontrol çalıştırmanızdan önce sona erecektir. Lütfen kullanım süresi dolmamış bir şişeyle değiştirin.",
+      "title": "SmartQC Kullanım Süreniz Yakında Sona Eriyor"
+    },
+    "REAGENT_EMPTY": {
+      "body": "Reaktif paketiniz boş.<linebreak/>Analiz cihazınızı kullanmaya devam etmek için <strong>Reaktifi Değiştir</strong> düğmesine dokunun ve ekrandaki talimatları uygulayın.",
+      "title": "UYARI: Reaktif Boş"
+    },
+    "REAGENT_LOW": {
+      "body": "Reaktif paketiniz azalmış ve kısa bir süre sonra yenilenmesi gerekecek. Stoğunuzda yedek paket olduğundan emin olun.",
+      "title": "Reaktif Paketiniz Azalmış"
+    },
+    "REAGENT_PACK_LEAK": {
+      "body": "Reaktif paketi beklenmedik bir şekilde hava aldı. Reaktif dolum hacmini kontrol edin ve paketi yeniden yerleştirin. Gerekiyorsa reaktif paketini değiştirin."
+    },
+    "REAGENT_PACK_LEAK_RUN": {
+      "body": "Reaktif paketi beklenmedik bir şekilde hava aldı. Reaktif dolum hacmini kontrol edin ve paketi yeniden yerleştirin. Gerekiyorsa reaktif paketini değiştirin. Lütfen numune tüpünü iyice karıştırdıktan sonra bu numuneyi yeniden çalışın."
+    },
+    "SAMPLE_DRAWER_OPEN_QC": {
+      "body": "Numune çekmecesi açıldı ve otomatik kalite kontrolü kesintiye uğradı. SmartQC belirlenmiş bir sonraki zaman aralığında devam edecek.",
+      "title": "Numune Çekmecesi Açık"
+    },
+    "SAMPLE_DRAWER_OPEN_RUN": {
+      "body": "Devam etmek için lütfen numune çekmecesini kapatın ve analiz cihazının ön tarafındaki <strong>Başlat</strong> butonuna basın.",
+      "title": "Numune Çekmecesi Açık"
+    },
+    "SAMPLE_TUBE_RUN_END": {
+      "body": "Çalışma, desteklenmeyen bir numune tüpü veya stoperi delinemeyen bir tüp yüzünden iptal edildi. Yardım almak için lütfen IDEXX Destek ile iletişime geçin.",
+      "title": "Numune Tüpü Sorunu"
+    },
+    "SHEATH_EMPTY": {
+      "body": "Sheath paketiniz boş.<linebreak/><linebreak>Analiz cihazınızı kullanmaya devam etmek için <strong>Sheathi Değiştir</strong> düğmesine dokunun ve ekrandaki talimatları uygulayın.",
+      "title": "UYARI: Sheath Boş"
+    },
+    "SHEATH_LOW": {
+      "body": "Sheath paketiniz azalmış ve kısa bir süre sonra yenilenmesi gerekecek. Stoğunuzda yedek paket olduğundan emin olun.",
+      "title": "Sheath Paketiniz Azalmış"
+    },
+    "SHUTDOWN_SHIPPING_CLEANUP": {
+      "body": "Bu süreci tamamlamak için lütfen analiz cihazının içindeki reaktif madde paketini, sheath paketini ve filtreyi çıkarın. Numune çekmecesindeki her şeyi çıkarın (SmartQC, numune tüpleri) ve analiz cihazının arka tarafındaki güç kablosunu ve Ethernet kablosunu çekin.",
+      "title": "Kapatma Prosedürünü Tamamla"
+    },
+    "STOPPER_PRESENT": {
+      "body": "Lütfen numune tüpünün desteklenen bir EDTA'lı tüp olduğundan emin olun, numuneyi karıştırın, stoperi veya kapağı çıkarın ve numuneyi yeniden çalışın.",
+      "title": "Numune Tüpü Sorunu"
+    },
+    "SYR_RBC_HOME_ERROR": {
+      "body": "Çalışmayı kesintiye uğratan beklenmedik bir hata meydana geldi. Lütfen numuneyi karıştırın ve yeniden çalışın. Sorun devam ederse lütfen IDEXX Destek ile iletişime geçin.",
+      "title": "Beklenmeyen Hata"
+    },
+    "SYR_RBC_MOTION_ERROR": {
+      "body": "Çalışmayı kesintiye uğratan beklenmedik bir hata meydana geldi. Lütfen numuneyi karıştırın ve yeniden çalışın. Sorun devam ederse lütfen IDEXX Destek ile iletişime geçin.",
+      "title": "Beklenmeyen Hata"
+    },
+    "SYR_RBC_PRESSURE_ERROR": {
+      "body": "Çalışmayı kesintiye uğratan beklenmedik bir hata meydana geldi. Lütfen numuneyi karıştırın ve yeniden çalışın. Sorun devam ederse lütfen IDEXX Destek ile iletişime geçin.",
+      "title": "Beklenmeyen Hata"
+    },
+    "SYR_SAMPLE_HOME_ERROR": {
+      "body": "Çalışmayı kesintiye uğratan beklenmedik bir hata meydana geldi. Lütfen numuneyi karıştırın ve yeniden çalışın. Sorun devam ederse lütfen IDEXX Destek ile iletişime geçin.",
+      "title": "Beklenmeyen Hata"
+    },
+    "SYR_SAMPLE_MOTION_ERROR": {
+      "body": "Çalışmayı kesintiye uğratan beklenmedik bir hata meydana geldi. Lütfen numuneyi karıştırın ve yeniden çalışın. Sorun devam ederse lütfen IDEXX Destek ile iletişime geçin.",
+      "title": "Beklenmeyen Hata"
+    },
+    "SYR_SAMPLE_PRESSURE_ERROR": {
+      "body": "Çalışmayı kesintiye uğratan beklenmedik bir hata meydana geldi. Lütfen numuneyi karıştırın ve yeniden çalışın. Sorun devam ederse lütfen IDEXX Destek ile iletişime geçin.",
+      "title": "Beklenmeyen Hata"
+    },
+    "SYR_SHEATH_HOME_ERROR": {
+      "body": "Çalışmayı kesintiye uğratan beklenmedik bir hata meydana geldi. Lütfen numuneyi karıştırın ve yeniden çalışın. Sorun devam ederse lütfen IDEXX Destek ile iletişime geçin.",
+      "title": "Beklenmeyen Hata"
+    },
+    "SYR_SHEATH_MOTION_ERROR": {
+      "body": "Çalışmayı kesintiye uğratan beklenmedik bir hata meydana geldi. Lütfen numuneyi karıştırın ve yeniden çalışın. Sorun devam ederse lütfen IDEXX Destek ile iletişime geçin.",
+      "title": "Beklenmeyen Hata"
+    },
+    "SYR_SHEATH_PRESSURE_ERROR": {
+      "body": "Çalışmayı kesintiye uğratan beklenmedik bir hata meydana geldi. Lütfen numuneyi karıştırın ve yeniden çalışın. Sorun devam ederse lütfen IDEXX Destek ile iletişime geçin.",
+      "title": "Beklenmeyen Hata"
+    },
+    "SYR_WBC_HOME_ERROR": {
+      "body": "Çalışmayı kesintiye uğratan beklenmedik bir hata meydana geldi. Lütfen numuneyi karıştırın ve yeniden çalışın. Sorun devam ederse lütfen IDEXX Destek ile iletişime geçin.",
+      "title": "Beklenmeyen Hata"
+    },
+    "SYR_WBC_MOTION_ERROR": {
+      "body": "Çalışmayı kesintiye uğratan beklenmedik bir hata meydana geldi. Lütfen numuneyi karıştırın ve yeniden çalışın. Sorun devam ederse lütfen IDEXX Destek ile iletişime geçin.",
+      "title": "Beklenmeyen Hata"
+    },
+    "SYR_WBC_PRESSURE_ERROR": {
+      "body": "Çalışmayı kesintiye uğratan beklenmedik bir hata meydana geldi. Lütfen numuneyi karıştırın ve yeniden çalışın. Sorun devam ederse lütfen IDEXX Destek ile iletişime geçin.",
+      "title": "Beklenmeyen Hata"
+    },
+    "TUBE_EMPTY": {
+      "body": "Bu çalışma, yetersiz numune miktarı ve/veya numunede pıhtı bulunması sebebiyle iptal edildi. Lütfen numune miktarının yeterli olduğunu doğrulayın, numunede pıhtı bulunmadığından emin olun ve ardından numuneyi karıştırıp yeniden çalışın. Sorun devam ederse lütfen IDEXX Destek ile iletişime geçin.",
+      "title": "Numune Sorunu"
+    },
+    "UNEXPECTED_ERROR": {
+      "body": "Çalışmayı kesintiye uğratan beklenmedik bir hata meydana geldi. Lütfen numuneyi karıştırın ve yeniden çalışın. Sorun devam ederse lütfen IDEXX Destek ile iletişime geçin.",
+      "title": "Beklenmeyen Hata"
+    },
+    "UNEXPECTED_ERROR_MAINTENANCE": {
+      "body": "Beklenmedik bir hata oluştu. Sorun devam ederse lütfen IDEXX Destek ile iletişime geçin.",
+      "title": "Beklenmeyen Hata"
+    },
+    "UNKNOWN_TUBE": {
+      "body": "Lütfen numune tüpünün desteklenen bir EDTA'lı tüp olduğundan emin olun, numuneyi karıştırın, stoperi veya kapağı çıkarın ve numuneyi yeniden çalışın.",
+      "title": "Numune Tüpü Sorunu"
+    },
+    "UNSTABLE_REAGENT": {
+      "body": "Reaktif paketinizin tarihi geçmiş.<linebreak/>Analiz cihazınızı kullanmaya devam etmek için tarihi geçmemiş bir paketle değiştirin. Talimatlara ulaşmak için <strong>Reaktifi Değiştir</strong> düğmesine dokunun.",
+      "title": "UYARI: Reaktifin tarihi geçmiş."
+    },
+    "UNSTABLE_SHEATH": {
+      "body": "Sheath paketinizin tarihi geçmiş.<linebreak/>Analiz cihazınızı kullanmaya devam etmek için tarihi geçmemiş bir paketle değiştirin. Talimatlara ulaşmak için <strong>Sheath'i Değiştir</strong> düğmesine dokunun.",
+      "title": "UYARI: Sheath'in tarihi geçmiş."
+    },
+    "UNSUPPORTED_QC_LOT": {
+      "body": "SmartQC şişesinin tarihi geçti. Lütfen kullanım süresi dolmamış bir SmartQC şişesi ile değiştirin.",
+      "title": "SmartQC'nin Süresi Doldu"
+    },
+    "UPDATE_PENDING": {
+      "body": "ProCyte One analiz cihazı otomatik olarak yükseltilip yeniden başlatılırken lütfen yaklaşık 2 dakika bekleyin.<linebreak/>ProCyte One <strong>Hazır</strong> durumuna döndüğünde işlem tamamlanmış olur.",
+      "title": "Yazılım yükseltme sürümü {{ 0 }} yüklenmeye hazır."
+    },
+    "USED_REAGENT": {
+      "body": "ProCyte One reaktif paketi zaten kullanılmış. Lütfen başka bir paketi deneyin veya IDEXX Destek birimi ile iletişime geçin.",
+      "title": "Reaktif Paketi Geçersiz"
+    },
+    "XAXIS_MOTION_ERROR": {
+      "body": "Çalışmayı kesintiye uğratan beklenmedik bir hata meydana geldi. Lütfen numuneyi karıştırın ve yeniden çalışın. Sorun devam ederse lütfen IDEXX Destek ile iletişime geçin.",
+      "title": "Beklenmeyen Hata"
+    },
+    "ZAXIS_MOTION_ERROR": {
+      "body": "Çalışmayı kesintiye uğratan beklenmedik bir hata meydana geldi. Lütfen numuneyi karıştırın ve yeniden çalışın. Sorun devam ederse lütfen IDEXX Destek ile iletişime geçin.",
+      "title": "Beklenmeyen Hata"
+    }
+  },
+  "alertModal": {
+    "secondaryHeader": "Uyarı | {{ instrumentName }}",
+    "secondaryHeaderNoInstrument": "Uyarı"
+  },
+  "CATONE": {
+    "ADD_PIPETTE_TIPS": {
+      "title": "Pipet Uçları Ekle",
+      "body": "Numune çekmecesine yeterli sayıda pipet ucu yüklenmemiş. Bunu çözmek için, numune çekmecesinin kilidinin açılmasını bekleyin, uç kısmını doldurun ve ardından Başlat butonuna basın."
+    },
+    "AIR_DETECTED_IN_SAMPLE": {
+      "title": "Numunede Hava Algılandı",
+      "body": "Hasta numunesinde hava kabarcığı algılandı. Bunu çözmek için, numunedeki hava kabarcıklarını giderin ve ardından Başlat butonuna basın."
+    },
+    "AIR_DETECTED_IN_SAMPLE_WARNING": {
+      "body": "Hava algılandığı için analiz sırasında bir hata oluştu. Çözmek için numune hazırlama prosedürünü gözden geçirin ve yeni bir numune ve slaytlar kullanarak tekrar çalıştırın. Sorun devam ederse IDEXX Destek birimini arayın."
+    },
+    "ALG_ANOM_INIT_SLOPE_VS_SUB_READ": {
+      "body": "Slaytlardan biri işlenirken bir hata meydana geldi. Rapor edilmeyen sonucu almak için, yeni bir numune ve yeni sarf malzemeleri ile yeniden çalıştırın.<linebreak/>Sorun devam ederse lütfen IDEXX Destek birimi ile iletişime geçin."
+    },
+    "ALG_ANOM_PROG_CURVE_DEVELOPMENT": {
+      "body": "Slaytlardan biri işlenirken bir hata meydana geldi. Rapor edilmeyen sonucu almak için, yeni bir numune ve yeni sarf malzemeleri ile yeniden çalıştırın.<linebreak />Sorun devam ederse lütfen IDEXX Destek birimi ile iletişime geçin."
+    },
+    "ALG_BAD_DRY_READ": {
+      "body": "Slaytlardan biri işlenirken bir hata meydana geldi. Rapor edilmeyen sonucu almak için, yeni bir numune ve yeni sarf malzemeleri ile yeniden çalıştırın.<linebreak />Sorun devam ederse lütfen IDEXX Destek birimi ile iletişime geçin."
+    },
+    "ALG_BAD_LATE_SLOPE": {
+      "body": "Slaytlardan biri işlenirken bir hata meydana geldi. Rapor edilmeyen sonucu almak için, yeni bir numune ve yeni sarf malzemeleri ile yeniden çalıştırın.<linebreak />Sorun devam ederse lütfen IDEXX Destek birimi ile iletişime geçin."
+    },
+    "ALG_BAD_RESPONSE_RANGE": {
+      "body": "Slaytlardan biri işlenirken bir hata meydana geldi. Rapor edilmeyen sonucu almak için, yeni bir numune ve yeni sarf malzemeleri ile yeniden çalıştırın.<linebreak />Sorun devam ederse lütfen IDEXX Destek birimi ile iletişime geçin."
+    },
+    "ALG_BAD_SC_MINUS_DRY_DIFF": {
+      "body": "Slaytlardan biri işlenirken bir hata meydana geldi. Rapor edilmeyen sonucu almak için, yeni bir numune ve yeni sarf malzemeleri ile yeniden çalıştırın.<linebreak />Sorun devam ederse lütfen IDEXX Destek birimi ile iletişime geçin."
+    },
+    "ALG_BAD_SUB_MINUS_WASH_DIFF": {
+      "body": "Slaytlardan biri işlenirken bir hata meydana geldi. Rapor edilmeyen sonucu almak için, yeni bir numune ve yeni sarf malzemeleri ile yeniden çalıştırın.<linebreak />Sorun devam ederse lütfen IDEXX Destek birimi ile iletişime geçin."
+    },
+    "ALG_BAD_WASH_MINUS_SC_DIFF": {
+      "body": "Slaytlardan biri işlenirken bir hata meydana geldi. Rapor edilmeyen sonucu almak için, yeni bir numune ve yeni sarf malzemeleri ile yeniden çalıştırın.<linebreak />Sorun devam ederse lütfen IDEXX Destek birimi ile iletişime geçin."
+    },
+    "ALG_ELLIPSE_INTERSECTION_FAIL": {
+      "body": "Slaytlardan biri işlenirken bir hata meydana geldi. Rapor edilmeyen sonucu almak için, yeni bir numune ve yeni sarf malzemeleri ile yeniden çalıştırın.<linebreak />Sorun devam ederse lütfen IDEXX Destek birimi ile iletişime geçin."
+    },
+    "ALG_GREATER_THAN_EXTREME_HIGH_CONC_LIMIT": {
+      "body": "Slaytlardan biri işlenirken bir hata meydana geldi. Rapor edilmeyen sonucu almak için, yeni bir numune ve yeni sarf malzemeleri ile yeniden çalıştırın.<linebreak />Sorun devam ederse lütfen IDEXX Destek birimi ile iletişime geçin."
+    },
+    "ALG_GREATER_THAN_EXTREME_LOW_CONC_LIMIT": {
+      "body": "Slaytlardan biri işlenirken bir hata meydana geldi. Rapor edilmeyen sonucu almak için, yeni bir numune ve yeni sarf malzemeleri ile yeniden çalıştırın.<linebreak />Sorun devam ederse lütfen IDEXX Destek birimi ile iletişime geçin."
+    },
+    "ALG_INTERFERING_SUBSTANCE": {
+      "body": "{{0}} sonuçları, müdahale eden maddeler veya substrat deplesyonu nedeniyle sağlanamıyor. Bir sonuç elde etmek için, örnek üzerinde 1:4 seyreltme (manuel veya otomatik) yapın ve yeni bir slayt kullanarak tekrar çalıştırın."
+    },
+    "ALG_ION_CALIBRATION_DRIFT": {
+      "body": "Elektrolit slaytları işlenirken bir hata oluştu. Sorunu çözmek için, slaytların folyo ambalajları açıldıktan hemen sonra yüklendiğinden emin olarak yeni numune ve slaytlarla tekrar çalıştırın.<linebreak />Sorun devam ederse IDEXX Destek birimi ile iletişime geçin."
+    },
+    "ALG_ION_IMPULSE_DETECTED": {
+      "body": "Elektrolit analizi sırasında bir hata meydana geldi. Sorunu çözmek için, analiz cihazının iç bileşenlerini temizleyin ve ardından yeni numune ve slaytlarla tekrar çalıştırın.<linebreak />Sorun devam ederse IDEXX Destek birimi ile iletişime geçin."
+    },
+    "ALG_ION_SAMPLE_DRIFT": {
+      "body": "Bir veya daha fazla Elektrolit slaytı işlenirken bir hata oluştu. Rapor edilmeyen sonuç(lar)ı almak için, yeni slaytlarla tekrar çalıştırın."
+    },
+    "ALG_ION_SAMPLE_ERROR": {
+      "body": "Bir veya daha fazla Elektrolit slaytı işlenirken bir hata oluştu. Rapor edilmeyen sonuç(lar)ı almak için, yeni slaytlarla tekrar çalıştırın."
+    },
+    "ALG_ION_SAMPLE_NOT_DETECTED": {
+      "body": "{{0}} işlenirken bir hata oluştu. Rapor edilmeyen sonucu almak için, örnek hazırlama prosedürünü gözden geçirin ve ardından yeni örnek ve slayt(lar)la tekrar çalıştırın."
+    },
+    "ALG_ION_SHIFT_DETECTED": {
+      "body": "Elektrolit analizi sırasında bir hata meydana geldi. Sorunu çözmek için, analiz cihazının iç bileşenlerini temizleyin ve ardından yeni numune ve slaytlarla tekrar çalıştırın.<linebreak />Sorun devam ederse IDEXX Destek birimi ile iletişime geçin."
+    },
+    "ALG_NO_SAMPLE_DISPENSE": {
+      "body": "{{0}} slaytı işlenirken bir hata oluştu. Sonucu almak için, örnek hazırlama prosedürünü gözden geçirin ve ardından yeni örnek, slayt ve slayt yıkaması ile tekrar çalıştırın."
+    },
+    "ALG_NO_WASH_1_DISPENSE": {
+      "body": "{{0}} slaytı işlenirken bir hata oluştu. Sonucu almak için, örnek hazırlama prosedürünü gözden geçirin ve ardından yeni örnek, slayt ve slayt yıkaması ile tekrar çalıştırın."
+    },
+    "ALG_NO_WASH_2_DISPENSE": {
+      "body": "{{0}} slaytı işlenirken bir hata oluştu. Sonucu almak için, örnek hazırlama prosedürünü gözden geçirin ve ardından yeni örnek, slayt ve slayt yıkaması ile tekrar çalıştırın."
+    },
+    "ALG_PHBR_BIASED_RESULT": {
+      "body": "{{0}} işlenirken bir hata oluştu. Yardım almak için lütfen IDEXX Destek birimini arayın."
+    },
+    "ALG_SLIDE_NOT_SPOTTED": {
+      "title": "Slayt Algılanamadı",
+      "body": "{{0}} işlenirken bir hata oluştu. Bildirilmeyen sonuçları almak için, numune hazırlık prosedürünü gözden geçirin ve yeni numune ile slayt(lar) kullanarak tekrar çalıştırın."
+    },
+    "ALG_SLOPE_NOT_CORRECTABLE_GEN": {
+      "body": "Safra Asitleri slaytı işlenirken bir hata oluştu. Bunu çözmek için, yeni bir slayt ile tekrar çalıştırın. Sorun devam ederse IDEXX Destek birimini arayın."
+    },
+    "ALG_SLOPE_NOT_CORRECTABLE": {
+      "body": "Fruktozamin testi işlenirken bir hata oluştu. Bunu çözmek için, yeni bir slayt ile tekrar çalıştırın. Sorun devam ederse IDEXX Destek birimini arayın."
+    },
+    "UPDATE_AVAILABLE": {
+      "title": "Yazılım yükseltme sürümü {{version}} yüklenmeye hazır.",
+      "body": "Analiz cihazını istediğiniz an Catalyst One cihaz ekranına giderek yükseltebilirsiniz.",
+      "autoUpdateWarning": "<shortlinebreak />Analiz cihazını {{dateTime}} tarihine kadar yükseltmezseniz, yükseltme otomatik olarak yüklenecektir."
+    },
+    "UPDATE_FAILED_CATASTROPHIC": {
+      "title": "Yazılım Yükseltmesi Başarısız",
+      "body": "Yardım almak için lütfen IDEXX Destek birimini arayın."
+    },
+    "ERR_ALG_ALGORITHM_INTERFERING_SUBSTANCE": {
+      "title": "CREA için Seyreltme Gerekli",
+      "body": "Etkileşen maddelerden veya substrat deplesyonu yüzünden CREA sonuçları sağlanamıyor. Bir sonuç elde etmek için, örnek üzerinde 1:4 seyreltme (manuel veya otomatik) yapın ve yeni bir slayt kullanarak tekrar çalıştırın."
+    },
+    "ALG_SUBSTRATE_DEPLETION": {
+      "title": "Substrat Deplesyonu",
+      "body": "{{0}} sonuçları, müdahale eden maddeler veya substrat deplesyonu nedeniyle sağlanamıyor. Sonuç elde etmek için numune üzerine 1:2 oranında seyreltme (manuel veya otomatik) uygulayın ve yeni bir slayt kullanarak tekrar analiz edin."
+    },
+    "ALG_TT4_ANOM_INIT_SLOPE_VS_SUB_READ": {
+      "body": "Slaytlardan biri işlenirken bir hata meydana geldi. Rapor edilmeyen sonucu almak için, yeni bir numune ve yeni sarf malzemeleri ile yeniden çalıştırın.<linebreak />Sorun devam ederse lütfen IDEXX Destek birimi ile iletişime geçin."
+    },
+    "ALG_TT4_ANOM_PROG_CURVE_DEVELOPMENT": {
+      "body": "Slaytlardan biri işlenirken bir hata meydana geldi. Rapor edilmeyen sonucu almak için, yeni bir numune ve yeni sarf malzemeleri ile yeniden çalıştırın.<linebreak/>Sorun devam ederse lütfen IDEXX Destek birimi ile iletişime geçin."
+    },
+    "ALG_TT4_BAD_SUB_MINUS_WASH_DIFF": {
+      "body": "Slaytlardan biri işlenirken bir hata meydana geldi. Rapor edilmeyen sonucu almak için, yeni bir numune ve yeni sarf malzemeleri ile yeniden çalıştırın.<linebreak />Sorun devam ederse lütfen IDEXX Destek birimi ile iletişime geçin."
+    },
+    "ALG_TT4_ELLIPSE_INTERSECTION_FAIL": {
+      "body": "Slaytlardan biri işlenirken bir hata meydana geldi. Rapor edilmeyen sonucu almak için, yeni bir numune ve yeni sarf malzemeleri ile yeniden çalıştırın.<linebreak />Sorun devam ederse lütfen IDEXX Destek birimi ile iletişime geçin."
+    },
+    "ASPIRATION_FAILURE": {
+      "body": "Cihaz bir eylemi tamamlayamadı. Cihaz düzelirken lütfen bekleyin. Sorun devam ederse lütfen IDEXX Destek birimini arayın."
+    },
+    "ASPIRATION_START_IN_AIR": {
+      "body": "Cihaz bir eylemi tamamlayamadı. Cihaz düzelirken lütfen bekleyin. Sorun devam ederse lütfen IDEXX Destek birimini arayın."
+    },
+    "ASPIRATION_START_IN_AIR_WARNING": {
+      "body": "Numune aspirasyonu sırasında bir hata oluştu. Çözmek için numune hazırlama prosedürünü gözden geçirin ve yeni bir numune ve slaytlar kullanarak tekrar çalıştırın. Sorun devam ederse IDEXX Destek birimini arayın."
+    },
+    "ASSAY_NORMALIZATION_MISSING": {
+      "body": "{{0}} sonucu gösterilmedi.<linebreak/>Lütfen IDEXX Destek birimi ile iletişime geçin."
+    },
+    "BAD_OR_MISSING_CALCURVE_DATA": {
+      "body": "Hatalı veya eksik Kalibrasyon Eğrisi Verisi. Analiz cihazı kalibre edilemedi. Yardım almak için lütfen IDEXX Destek birimini arayın."
+    },
+    "BARCODE_READ_ERROR": {
+      "title": "Barkod Okuma Hatası",
+      "body": "Yüklenen slaytlar tanımlanamadı. Sorunu çözmek için yeni slaytlar kullanarak numuneyi yeniden çalışın.<linebreak />Sorun devam ederse IDEXX Destek birimini arayın."
+    },
+    "BARCODE_READ_FAILURE": {
+      "body": "Tanımlanamayan Slayt"
+    },
+    "CALIBRATION_SOFTWARE_ERROR": {
+      "body": "Kalibrasyon Yazılımı Hatası. Analiz cihazı kalibre edilemedi. Yardım almak için lütfen IDEXX Destek birimini arayın."
+    },
+    "CAMERA_COM_ERROR": {
+      "body": "Başlatırken bir kamera iletişim hatası meydana geldi. Bunu çözmek için, güç kaynağını duvardan çıkarın ve yeniden takın. Sorun devam ederse lütfen IDEXX Destek birimini arayın."
+    },
+    "CAMERA_CONNECTION_ERROR": {
+      "body": "Çalışmanız sırasında kamera bağlantı hatası meydana geldi. Bu sorunu çözmek için güç kaynağını prizden çıkarın ve yeniden takın, ardından yeni numune ve sarf malzemeleri kullanarak tekrar çalıştırın. Sorun devam ederse IDEXX Destek ile iletişime geçin."
+    },
+    "CAMERA_INITIALIZATION_FAILURE": {
+      "body": "Cihaz bir eylemi tamamlayamadı. Lütfen Başlat düğmesine basın ve cihaz algılayana kadar bekleyin. Sorun devam ederse lütfen IDEXX Destek birimini arayın."
+    },
+    "CANNOT_LOCK_SAMPLE_DRAWER": {
+      "title": "Numune Çekmecesi Kilitlenemiyor",
+      "body": "Numune çekmecesinde sıkışma var. Bunu çözmek için, numune çekmecesindeki tüm materyallerin düzgün şekilde yerlerine oturtulduğundan emin olun ve ardından Başlat butonuna basın."
+    },
+    "CANNOT_UNLOCK_SAMPLE_DRAWER": {
+      "title": "Numune Çekmecesinin Kilidi Açılamıyor",
+      "body": "Numune çekmecesinin kilidi açılamıyor.<linebreak/>Yardım almak için lütfen IDEXX Destek birimini arayın."
+    },
+    "CAP_DETECTED": {
+      "title": "Kapak Algılandı",
+      "body": "Çalıştırma işlemi başlatılmadan önce bütün kan separatörü kapağı çıkartılmalı. Bunu çözmek için, bütün kan separatöründeki yeşil kapağı çıkarın ve Başlat butonuna basın."
+    },
+    "CAROUSEL_ALIGNMENT_FAILED": {
+      "title": "Karusel Hizalaması Başarısız",
+      "body": "Karusel hizalanamadı. Sorunu çözmek için, yan kapağı açın, karusel kapağını kaldırın ve karuselin yerine düzgün oturduğunu doğrulayın. Karusel kapağını ve yan kapağı kapatın. Yan kapak kapandıktan sonra analiz cihazı otomatik olarak hazır durumuna geri dönecektir. Sorun devam ederse lütfen IDEXX Destek birimini arayın."
+    },
+    "CAROUSEL_COVER_OPEN": {
+      "title": "Karusel Kapağı Açık",
+      "body": "Karusel kapağı açık. Bunu çözmek için, yan kapağı açın ve kapağın kapatıldığını doğrulayın. Yan kapak kapandıktan sonra analiz cihazı otomatik olarak hazır durumuna geri dönecektir."
+    },
+    "CAROUSEL_ROTATION_ERROR": {
+      "body": "Karusel beklendiği gibi dönmüyor. Bu sorunu çözmek için:<ol><li>Numune çekmecesinde kalan tüm slaytları çıkartın.</li><li>Yan kapağı açın, karusel kapağını kaldırın ve karuseli sökün.</li><li>Hattaki tüm slaytları çıkarın ve atın.</li><li>Karuseli değiştirin ve karusel kapağını kapatın.</li><li>Yan kapağı kapatın. Analiz cihazı otomatik olarak hazır konumuna geçer.</li><li>Yeni slayt kullanarak numuneyi tekrar çalıştırın.</li></ol>Sorun devam ederse lütfen IDEXX Destek birimini arayın."
+    },
+    "CENTRIFUGE_ERROR": {
+      "title": "Santrifüj Hatası",
+      "body": "Santrifüj başarılı bir şekilde çalışmadı. Sorunu çözmek için yeni numune ve slaytlarla tekrar çalıştırın.<linebreak/>Sorun devam ederse IDEXX Destek birimini arayın."
+    },
+    "CHECK_EVAP_CAP": {
+      "body": "Bir veya daha fazla slayt tanımlanamadı.<ol><li>Yan kapağı açın ve karusel kapağı üzerindeki serbest cisimleri çıkarın.</li><li>Karusel buharlaşma kapağı hareketini kontrol edin ve kalıntı mevcutsa alkol preparatlı ped ile temizleyin.</li><li>Karuseli değiştirin ve karusel kapağını kapatın.</li><li>Yan kapağı kapatın. Analiz cihazı otomatik olarak hazır konumuna geçer.</li><li>Yeni slayt kullanarak numuneyi tekrar çalıştırın.</li></ol>Sorun devam ederse IDEXX Destek birimi ile iletişime geçin."
+    },
+    "ALG_DRY_READ_VARIANCE": {
+      "title": "İşleme Hatası",
+      "body": "Pankreas Lipaz testi çalıştırılırken bir hata oluştu. Bunu çözmek için, yeni bir slayt ile tekrar çalıştırın. Sorun devam ederse IDEXX Destek birimini arayın."
+    },
+    "CLEANING_REQUIRED": {
+      "title": "Temizleme Gerekli",
+      "body": "Catalyst One Biyokimyasal Analiz Cihazı'nın temizlenmesi gerekiyor. Catalyst One Cihazlar sekmesinde bulunan ekran talimatlarını uygulayın. Temizledikten sonra bu hatayı almaya devam ederseniz, IDEXX Destek birimini arayın."
+    },
+    "CLOT_DETECTED_IN_SAMPLE": {
+      "title": "Numunede Pıhtı Algılandı",
+      "body": "Hasta numunesinde pıhtı algılandı. Bunu çözmek için, numunedeki pıhtıları giderin ve ardından Başlat butonuna basın."
+    },
+    "CLOT_DETECTED_IN_SAMPLE_WARNING": {
+      "body": "Pıhtı algılandığı için analiz sırasında bir hata oluştu. Çözmek için numune hazırlama prosedürünü gözden geçirin ve yeni bir numune ve slaytlar kullanarak tekrar çalıştırın. Sorun devam ederse IDEXX Destek birimini arayın."
+    },
+    "DILUTION_SLIDE_COUNT_EXCEEDED": {
+      "title": "Seyreltme için Slayt Sayısı Aşıldı",
+      "body": "1:2 seyreltme gerçekleştirirken 5 slayttan ve tüm diğer seyreltmeler için 10 slayttan daha fazla yükleyemezsiniz.<ul><li>Hata durumundan çıkmak için: Analiz cihazı üzerindeki Başlat butonuna basın.</li><li>Bu sorunu çözmek için: Maksimum slayt sayısından daha fazla slayt yüklenmediğinden emin olarak yeni slaytlarla tekrar çalıştırın.</li></ul>"
+    },
+    "DUPLICATE_REAGENT_TYPE_DETECTED": {
+      "title": "Mükerrer Reaktif Tipi Algılandı",
+      "body": "Mükerrer reaktif tipi algılandı. Örnek çekmecesinin kilidi açılınca, birini çıkarın, örnek çekmecesini kapatın ve çalıştırmaya devam etmek için Başlat butonuna basın."
+    },
+    "FLUID_FIND_FAILURE": {
+      "body": "Cihaz numune bulamadı. Çözmek için numune hazırlama prosedürünü gözden geçirin ve yeni bir numune ve slaytlar kullanarak tekrar çalıştırın. Sorun devam ederse IDEXX Destek birimini arayın."
+    },
+    "FLUID_FIND_FAILURE_DIL_CUP": {
+      "body": "Otomatik seyreltme yapmak için yeterli hacimde seyreltici yok. Sorunu çözmek için, yeni slaytlar ve seyreltici ile tekrar çalıştırın."
+    },
+    "FLUID_FIND_FAILURE_MIX_CUP": {
+      "body": "Otomatik seyreltme yapmak için yeterli seyreltilmiş örnek hacmi yok. Sorunu çözmek için, yeni slaytlar ve seyreltici ile tekrar çalıştırın."
+    },
+    "FOAM_DETECTED_IN_SAMPLE": {
+      "title": "Numunede Köpük Algılandı",
+      "body": "Hasta numunesinde köpük algılandı. Bunu çözmek için, numunedeki tüm köpükleri giderin ve ardından Başlat butonuna basın."
+    },
+    "FOAM_DETECTED_IN_SAMPLE_WARNING": {
+      "body": "Köpük algılandığı için analiz sırasında bir hata oluştu. Çözmek için numune hazırlama prosedürünü gözden geçirin ve yeni bir numune ve slaytlar kullanarak tekrar çalıştırın. Sorun devam ederse IDEXX Destek birimini arayın."
+    },
+    "HEIGHT_CORRECTION_SURFACE_FIND_FAILURE": {
+      "body": "Yükseklik düzeltme yüzeyi arıza buldu"
+    },
+    "INCORRECTLY_SEATED_CAROUSEL": {
+      "title": "Karusel Doğru Şekilde Oturtulmamış",
+      "body": "Karusel yerine doğru şekilde oturtulmadı. Sorunu çözmek için, yan kapağı açın, karusel kapağını kaldırın ve karuselin yerine düzgün oturduğunu doğrulayın. Karusel kapağını ve yan kapağı kapatın. Yan kapak kapandıktan sonra analiz cihazı otomatik olarak hazır durumuna geri dönecektir."
+    },
+    "INCORRECT_SLIDE_OR_REAGENT": {
+      "title": "Yanlış Slayt veya Reaktif Tipi",
+      "body": "Yüklenen reaktif türü için doğru slayt türü tespit edilemedi. Bunu çözmek için numune çekmecesinin kilidinin açılmasını bekleyin ve daha sonra uygun slaytı yükleyin veya reaktifi çıkarın ve Başlat butonuna basın."
+    },
+    "INCORRECT_SLIDE_OR_REAGENT_IGNORABLE": {
+      "title": "Yanlış Slayt veya Reaktif Tipi. Diğer Slaytlar Çalıştırılıyor.",
+      "body": "Yüklenen reaktif türü için doğru slayt türü tespit edilemedi. Sorunu çözmek için, numune çekmecesinin kilidinin açılmasını bekleyin, doğru slaytı yükleyin veya reaktifi çıkarın ve ardından Başlat butonuna basın.<shortlinebreak/>Uygun malzemeler algılanmazsa, bu testin sonuçları raporlanmayacaktır."
+    },
+    "INSUFFICIENT_DILUENT_VOLUME": {
+      "title": "Yetersiz Seyrelti Hacmi",
+      "body": "Otomatik seyreltme yapmak için yeterli hacimde seyreltici yok. Bunu çözmek için, seyrelti kabına seyrelti ekleyin ve ardından Başlat butonuna basın."
+    },
+    "INSUFFICIENT_DILUENT_VOLUME_WARNING": {
+      "title": "Yetersiz Seyreltici",
+      "body": "Otomatik seyreltme yapmak için yeterli hacimde seyreltici yok. Lütfen Catalyst One Kullanıcı Kılavuzuna başvurun ve önerilen materyalleri kullanarak tekrar çalıştırın. Sorun devam ederse IDEXX Destek birimini arayın."
+    },
+    "INSUFFICIENT_PIPETTE_TIPS": {
+      "title": "Çalıştırma için Yetersiz Pipet Ucu",
+      "body": "Bu çalıştırma için yeterli sayıda pipet ucu yok. Bunu çözmek için, numune çekmecesinin kilidinin açılmasını bekleyin, uç kısmını doldurun ve ardından Başlat butonuna basın. Uçları eklemezseniz, çalışma devam edecek, ancak tüm sonuçlar raporlanmayacak."
+    },
+    "INSUFFICIENT_SAMPLE_FOR_DILUTION": {
+      "title": "Seyreltme için Yetersiz Numune",
+      "body": "Otomatik seyreltmeyi gerçekleştirmek için yetersiz numune hacmi. Bunu çözmek için, numune kabına numune ekleyin ve ardından Başlat butonuna basın."
+    },
+    "INSUFFICIENT_SAMPLE_FOR_DILUTION_WARNING": {
+      "title": "Seyreltme için Yetersiz Numune Hacmi",
+      "body": "Otomatik seyreltmeyi gerçekleştirmek için yetersiz numune hacmi. Çözmek için numune hazırlama prosedürünü gözden geçirin ve yeni bir numune ve slaytlar kullanarak tekrar çalıştırın. Sorun devam ederse IDEXX Destek birimini arayın."
+    },
+    "INSUFFICIENT_SAMPLE_VOLUME": {
+      "title": "Tüm slaytlar için yetersiz Örnek Hacmi",
+      "body": "Yüklenmiş slayt sayısı için yetersiz numune hacmi. Bunu çözmek için, numune kabına numune ekleyin ve ardından Başlat butonuna basın."
+    },
+    "INSUFFICIENT_SAMPLE_VOLUME_IGNORABLE": {
+      "title": "Bazı slaytlar için Yetersiz Numune Hacmi",
+      "body": "Yüklenmiş slayt sayısı için yetersiz numune hacmi. Sorunu çözmek için, numune kabına numune ekleyin ve ardından Başlat butonuna basın.<shortlinebreak/>İlave numune eklenmezse, slaytların tümü işlenmeyecektir."
+    },
+    "INSUFFICIENT_SAMPLE_VOLUME_IGNORABLE_WARNING": {
+      "body": "Bu çalıştırmada bir veya daha fazla slayt için numune yetersiz. Bu durum çalıştırmanın kısmen başarısız olmasına neden olur. Çalıştırma hâlâ işlem aşamasında. Çalıştırma tamamlandığında numune hazırlama prosedürünü inceleyin ve yeni numune ile slaytlarla yeniden çalıştırın."
+    },
+    "INSUFFICIENT_SAMPLE_VOLUME_WARNING": {
+      "body": "Bu çalıştırmada slaytlar için numune yetersiz. Çözmek için numune hazırlama prosedürünü gözden geçirin ve yeni bir numune ve slaytlar kullanarak tekrar çalıştırın. Sorun devam ederse IDEXX Destek birimini arayın."
+    },
+    "INTERNAL_TIMING_ERROR": {
+      "body": "Cihaz bir eylemi tamamlayamadı. Lütfen Başlat düğmesine basın ve cihaz algılayana kadar bekleyin. Sorun devam ederse lütfen IDEXX Destek birimini arayın."
+    },
+    "LVLASP_BUBBLE": {
+      "body": "Numune aspirasyonu sırasında bir hata oluştu. Sorunu çözmek için, numune hazırlama prosedürünü gözden geçirdikten sonra yeni numune ve yeni sarf malzemeleriyle tekrar çalıştırın.<linebreak/>Sorun devam ederse lütfen IDEXX Destek birimi ile iletişime geçin."
+    },
+    "LVLASP_CLOT": {
+      "body": "Numune aspirasyonu sırasında bir hata oluştu. Sorunu çözmek için, numune hazırlama prosedürünü gözden geçirdikten sonra yeni numune ve yeni sarf malzemeleriyle tekrar çalıştırın.<linebreak/>Sorun devam ederse lütfen IDEXX Destek birimi ile iletişime geçin."
+    },
+    "LVLASP_INSUFFICIENT_SAMPLE": {
+      "body": "Bu çalıştırmada slaytlar için numune yetersiz. Sorunu çözmek için, numune hazırlama prosedürünü gözden geçirdikten sonra yeni numune ve yeni sarf malzemeleriyle tekrar çalıştırın.<linebreak/>Sorun devam ederse lütfen IDEXX Destek birimi ile iletişime geçin."
+    },
+    "LVLASP_START_IN_AIR": {
+      "body": "Numune aspirasyonu sırasında bir hata oluştu. Sorunu çözmek için, numune hazırlama prosedürünü gözden geçirdikten sonra yeni numune ve yeni sarf malzemeleriyle tekrar çalıştırın.<linebreak/>Sorun devam ederse lütfen IDEXX Destek birimi ile iletişime geçin."
+    },
+    "LYTE_PROCESSING_ERROR": {
+      "body": "Elektrolit slaytları işlenirken bir hata oluştu. Bunu çözmek için, slaytların folyo ambalajları açıldıktan hemen sonra yüklendiğinden emin olarak yeni slaytlarla tekrar çalıştırın. Sorun devam ederse IDEXX Destek ile iletişime geçin."
+    },
+    "MATERIALS_INCOMPATIBLE": {
+      "title": "Uyumlu Olmayan Materyaller",
+      "body": "Yüklenen materyaller, istenen çalıştırma tipiyle uyumlu değil. Lütfen Catalyst One™ Kullanıcı Kılavuzuna başvurun ve onaylanmış materyaller kullanarak tekrar çalıştırın."
+    },
+    "MATERIALS_INCOMPATIBLE_FRIENDS": {
+      "body": "Yüklenen bazı malzemeler istenen çalışma türü ile uyumlu değil. Lütfen Catalyst One Kullanıcı Kılavuzunuza bakın ve onaylı malzemeleri kullanarak tekrar çalıştırın."
+    },
+    "MISSING_DILUTION_MATERIALS": {
+      "title": "Eksik Seyreltme Materyali",
+      "body": "Seyreltme malzemeleri hatalı şekilde yüklendi veya eksik. Bunu çözmek için, en öndeki kap tutacağının sağında 300 µL seyrelti ve solunda boş bir numune kabı olduğunu doğrulayın, hasta numunesinin numune kap tutacağına yüklendiğini doğrulayın ve ardından Başlat butonuna basın."
+    },
+    "MISSING_EMPTY_CUP": {
+      "body": "Çalıştırma, boş kap yerinde sıvı algılandığı için sona erdirildi. Sorunu çözmek için, boş bir örnek kabını sol tarafta en öndeki kap tutucusuna yükleyin ve sonra yeni slaytlarla tekrar çalıştırın."
+    },
+    "MISSING_EMPTY_DILUTION_CUP": {
+      "title": "Boş Seyreltme Kabı yok",
+      "body": "Seyreltme için boş numune kabı yüklenmedi. Bunu çözmek için, en önde soldaki kap tutacağına boş numune kabı yükleyin."
+    },
+    "MISSING_IA_FOR_REAGENT": {
+      "body": "Yüklenen reaktif için eşleşen bir slayt bulunamadı. Bunu çözmek için, çalışmanın tamamlanmasını bekleyin yeni reaktif ve slayt(lar)la tekrar çalıştırın."
+    },
+    "MISSING_REAGENT": {
+      "title": "Eksik Reaktif",
+      "body": "Yüklenen {{0}} slayt için eşleşen bir reaktif bulunamadı. Bunu çözmek için numune çekmecesinin kilidinin açılmasını bekleyin, numune çekmecesine eşleşen reaktifleri yerleştirin ve ardından Başlat butonuna basın."
+    },
+    "MISSING_REAGENT_FOR_IA": {
+      "body": "Yüklenen {{0}} slayt için eşleşen bir reaktif bulunamadı. Bunu çözmek için, çalışmanın tamamlanmasını bekleyin yeni reaktif ve slaytla tekrar çalıştırın."
+    },
+    "MISSING_REAGENT_IGNORABLE": {
+      "title": "Eksik Reaktif. Diğer Slaytlar Çalıştırılıyor.",
+      "body": "Yüklenen {{0}} slayt için eşleşen bir reaktif bulunamadı. Sorunu çözmek için numune çekmecesinin kilidinin açılmasını bekleyin, eşleşen reaktifi ekleyin, numune çekmecesini kapatın ve ardından Başlat butonuna basın.<shortlinebreak/>Reaktif yüklenmezse, bu kimyasalın sonuçları raporlanmayacaktır."
+    },
+    "MISSING_UPC_MATERIALS": {
+      "title": "Eksik UPC Materyalleri",
+      "body": "UPC malzemeleri hatalı şekilde yüklendi veya eksik. Bunu çözmek için, en öndeki kap tutacağının sağında 300 µL UPC seyreltisi ve solunda boş bir numune kabı olduğunu doğrulayın, hasta numunesinin numune kap tutacağına yüklendiğini doğrulayın ve ardından Başlat butonuna basın."
+    },
+    "MULTIPLE_SAMPLES_DETECTED": {
+      "title": "Birden Fazla Numune Algılandı",
+      "body": "Analiz cihazı bir defada birden fazla numune işleyemez. Bunu çözmek için, fazla olan numuneyi çıkartın ve ardından Başlat butonuna basın."
+    },
+    "NO_IDENTIFIABLE_SLIDES_FOUND": {
+      "body": "Yüklenen slaytlar tanımlanamadı. Sorunu gidermek için, Başlat düğmesine basarak devam edin ve yeni slaytlar kullanarak numuneyi tekrar analiz edin. Sorun devam ederse lütfen IDEXX Destek birimini arayın."
+    },
+    "NO_SAMPLE_DETECTED": {
+      "title": "Herhangi Bir Numune Algılanmadı",
+      "body": "Hasta numunesi yüklenmedi. Bunu çözmek için, numuneyi numune çekmecesine yükleyin ve ardından Başlat butonuna basın."
+    },
+    "OFFSETS_CALIBRATION_ERROR": {
+      "body": "Analiz cihazı, geçerli bir kalsiyum ve/veya albümin dengesinin hesaplanmasında başarısız oldu. Yardım almak için lütfen IDEXX Destek birimini arayın."
+    },
+    "OFFSETS_CV_TOO_HIGH_ERROR": {
+      "body": "Bir ya da daha fazla sonucun kabul aralığının dışında olmasından dolayı analiz cihazı, geçerli bir kalsiyum ve/veya albümin dengesinin hesaplanmasında başarısız olmuştur. Sorunu çözmek için dengeleme hazırlık prosedürünü gözden geçirin ve yeni kontrol sıvısı ve slaytlarla tekrar çalıştırın. Sorun devam ederse lütfen IDEXX Destek birimini arayın."
+    },
+    "OFFSETS_INSUFFICIENT_SLIDES_ERROR": {
+      "body": "Aynı lottan yetersiz sayıda slayt kullanıldı. Sorunu çözmek için dengeleme hazırlık prosedürünü gözden geçirin ve yeni kontrol sıvısı ve slaytlarla tekrar çalıştırın."
+    },
+    "OFFSETS_OUT_OF_RANGE_ERROR": {
+      "body": "Hesaplanan denge kabul aralığının dışında olduğu için analiz cihazı, geçerli bir kalsiyum ve/veya albümin dengesinin hesaplanmasında başarısız olmuştur. Yardım almak için lütfen IDEXX Destek birimini arayın."
+    },
+    "OPTICS_CALIBRATION_REQUIRED": {
+      "title": "Kalibrasyon Gerekli",
+      "body": "Catalyst One Biyokimya Analiz Cihazı'nın temizlenmesi ve kalibre edilmesi gerekiyor. Kalibrasyon gerçekleştirdikten sonra bu hatayı almaya devam ederseniz, IDEXX Destek birimini arayın."
+    },
+    "OPTICS_INITIALIZATION_FAILURE": {
+      "body": "Cihaz bir eylemi tamamlayamadı. Cihazı açıp kapatmayı deneyin. Sorun devam ederse lütfen IDEXX Destek birimini arayın."
+    },
+    "OPTICS_LED_FAILURE": {
+      "body": "Analiz cihazının otomatik kontrol işlemi veya çalıştırılması sırasında bir hata meydana geldi. Lütfen IDEXX Destek birimini arayın."
+    },
+    "OPTICS_MODULE_CONFIGURATION_ERROR": {
+      "body": "Optik Modülü Yapılandırma Hatası. Analiz cihazı kalibre edilemedi. Yardım almak için lütfen IDEXX Destek birimini arayın."
+    },
+    "OPTICS_SENSOR_FAILURE": {
+      "body": "Analiz cihazının otomatik kontrol işlemi veya çalıştırılması sırasında bir hata meydana geldi. Lütfen IDEXX Destek birimini arayın."
+    },
+    "OPTIMIZATION_AVAILABLE": {
+      "title": "Optimizasyon Hatırlatıcısı",
+      "body": "Catalyst One için optimizasyon gereklidir. Bu işlemin tamamlanması yaklaşık <strong>{{0}} dakika</strong> sürer.<linebreak />Cihaz bunu {{1}} saat içinde otomatik olarak başlatacaktır."
+    },
+    "OPTIMIZATION_AVAILABLE_ALIGNMENT": {
+      "title": "Optimizasyon Hatırlatıcısı",
+      "body": "Catalyst One için optimizasyon gereklidir. Bu işlemin tamamlanması yaklaşık <strong>{{0}} dakika</strong> sürer.<linebreak />Cihaz bunu {{1}} saat içinde otomatik olarak başlatacaktır.",
+      "instructions": {
+        "title": "Catalyst One Optimizasyonunu Çalıştırın",
+        "body": "<ol><li>Çekmecenin pipet ucu bölümünde en az beş (5) adet ucun yüklü olduğundan emin olun.</li><li>Numune kaplarını, Tam Kan Separatörlerini veya reaktif kaplarını çıkarın.</li><li>Çekmeceyi kapatın ve “Başlat” tuşuna basın.</li></ol><linebreak/>Optimizasyon tamamlandığında Catalyst One simgesi yeşile döner ve hazır durumuna gelir."
+      }
+    },
+    "PHBR_LOAD_ERROR": {
+      "title": "PHBR Reaktifi Yükleme Hatası",
+      "body": "PHBR reaktifi hatalı şekilde yüklendi. Bunu çözmek için, reaktifi en öndeki kap tutucularına getirin ve ardından Başlat butonuna basın."
+    },
+    "PHBR_LOAD_ERROR_IGNORABLE": {
+      "title": "PHBR Reaktif Yükleme Hatası. Diğer Slaytlar Çalıştırılıyor.",
+      "body": "PHBR reaktifi hatalı şekilde yüklendi. Sorunu çözmek için reaktifi en öndeki kap tutucularına doğru getirin ve ardından Başlat butonuna basın.<linebreak />Reaktifi yeniden konumlandırmazsanız, işlem geri kalan yüklenmiş slaytlarla devam edecek ve PHBR sonuçları raporlanmayacaktır."
+    },
+    "PHBR_ORIENT_ERROR": {
+      "title": "PHBR Reaktifi Yönelim Hatası",
+      "body": "PHBR reaktifi hatalı şekilde yüklendi. Sorunu gidermek için, reaktifi doğru yöne çevirin ve sonra Başlat butonuna basın."
+    },
+    "PHBR_ORIENT_ERROR_IGNORABLE": {
+      "title": "PHBR Reaktifi Yönelim Hatası. Diğer Slaytlar Çalıştırılıyor.",
+      "body": "PHBR reaktifi hatalı şekilde yüklendi. Sorunu gidermek için, reaktifi doğru yöne çevirin ve sonra Başlat butonuna basın. Reaktifi tekrar yönlendirmezseniz, işlem geri kalan yüklenmiş slaytlarla devam edecek ve PHBR sonuçları raporlanmayacaktır."
+    },
+    "PIPETTE_TIPS_LOW": {
+      "title": "Pipet Uçları Ekle",
+      "body": "Numune çekmecesindeki pipet uçları azalmış. Bir sonraki numuneyi çalıştırmadan önce numune çekmecesindeki uç bölmesini doldurduğunuzdan emin olun."
+    },
+    "PRESSURE_SENSOR_ERROR": {
+      "body": "Analiz cihazının otomatik kontrol işlemi veya çalıştırılması sırasında bir hata meydana geldi. Lütfen IDEXX Destek birimini arayın."
+    },
+    "REAGENT_IDENTIFICATION_ERROR": {
+      "title": "Reaktif Tanımlama Hatası",
+      "body": "Analiz cihazı yüklenen bir veya daha fazla reaktif ve/veya slaytı tanımlayamadı.<linebreak/>Sorunu çözmek için, işlem tamamlandığında yeni slaytlarla tekrar çalıştırın."
+    },
+    "RECOVERABLE_TIMEOUT": {
+      "title": "Geri Kazanılabilir Zaman Aşımı",
+      "body": "Çalıştırma sırasında, kısmen veya tamamen çalıştırma kaybıyla sonuçlanan bir hata meydana geldi. Hangi hatanın meydana geldiğini doğrulamak için, Catalyst One Instruments yan sekmesi altında bulunan olay günlüğüne bakın veya yardım almak için IDEXX Destek birimini arayın."
+    },
+    "RECOVERY_FAILURE": {
+      "body": "Analiz cihazı, bir önceki arızadan çıkamadı. Sorun devam ederse lütfen IDEXX Destek birimini arayın."
+    },
+    "ROBOT_HOMING_FAILURE": {
+      "body": "Cihaz bir eylemi tamamlayamadı. Lütfen Başlat düğmesine basın ve cihaz algılayana kadar bekleyin. Sorun devam ederse lütfen IDEXX Destek birimini arayın."
+    },
+    "ROBOT_MOTION_ERROR": {
+      "body": "Cihaz bir eylemi tamamlayamadı. Lütfen Başlat düğmesine basın ve cihaz algılayana kadar bekleyin. Sorun devam ederse lütfen IDEXX Destek birimini arayın."
+    },
+    "RUN_COMPLETION_ERROR": {
+      "title": "Çalıştırma Tamamlanamadı",
+      "body": "Slayt işleme sırasında bir hata meydana geldi ve çalıştırma tamamlanamadı. Sorunu çözmek için, yeni bir numune ve slaytlarla tekrar çalıştırın.<shortlinebreak/>Sorun devam ederse IDEXX Destek birimini arayın."
+    },
+    "SAMPLE_DRAWER_LOCK_ERROR": {
+      "title": "Numune Çekmecesi Kilit Hatası",
+      "body": "Numune çekmecesinin kilitleme mekanizmasında bir sorun var.<shortlinebreak/>Yardım almak için lütfen IDEXX Destek birimini arayın."
+    },
+    "SAMPLE_DRAWER_OPEN": {
+      "title": "Numune Çekmecesi Açık",
+      "body": "Numune çekmecesini kapatın."
+    },
+    "SAMPLE_DRAWER_OPEN_RUN": {
+      "title": "Numune Çekmecesi Çalıştırma Sırasında Açık",
+      "body": "Numune çekmecesi açık. Çalıştırmanın devam edebilmesi için numune çekmecesini kapatın ve Başlat butonuna basın."
+    },
+    "SAMPLE_TOO_LOW": {
+      "body": "Bu çalıştırmada slaytlar için numune yetersiz. Sorunu çözmek için, örnek hazırlama prosedürünü gözden geçirin ve ardından yeni örnek, slayt(lar) ve reaktifle tekrar çalıştırın. Sorun devam ederse IDEXX Destek birimini arayın."
+    },
+    "SHIPPING_CLIPS_DETECTED": {
+      "body": "Sevkiyat klipsleri saptandı. Bu sorunu çözmek için:<ol><li>Yan kapağı açın.</li><li>Sevkiyat klipslerini çıkarın.</li><li>Yan kapağı kapatın.</li><li>Analiz cihazı gücü açılmaya devam edecektir.</li></ol>Sorun devam ederse lütfen IDEXX Destek ile iletişime geçin."
+    },
+    "SLIDE_CONTAMINATED": {
+      "body": "{{0}} slaytı kontamine oldu, sonuçlar gösterilmemiştir."
+    },
+    "SIDE_DOOR_OPEN": {
+      "title": "Yan Kapak Açık",
+      "body": "Yan kapak çalıştırma sırasında açıldı. Bunu çözmek için, yan kapağı kapatın ve ardından yeni slaytlı numunelerle tekrar çalıştırın."
+    },
+    "SLIDE_DATE_SOFTWARE_VERSION_MISMATCH": {
+      "title": "Slaytların Tarihi Yazılım Sürümüyle Eşleşmiyor",
+      "body": "Analiz cihazının yazılımının en güncel sürümü (Catalyst One Instruments yan sekmesi) olduğunu doğrulayın, slaytların sürelerinin dolmadığını doğrulayın ve ardından yeni slaytları kullanarak tekrar çalıştırın."
+    },
+    "SLIDE_DETECTION_ERROR": {
+      "title": "Slayt Algılama Hatası",
+      "body": "Slaytlar hatalı şekilde yüklendi veya eksik. Bunu çözmek için numune çekmecesinin kilidinin açılmasını bekleyin, numune çekmecesine slaytları yerleştirin ve ardından Başlat butonuna basın."
+    },
+    "SLIDE_EJECT_ERROR": {
+      "title": "Slayt Çıkartma Hatası",
+      "body": "Bir veya daha fazla slayt başarıyla çıkartılamadı. Bu sorunu çözmek için:<ol><li>Numune çekmecesinde kalan tüm slaytları çıkartın.</li><li>Yan kapağı açın, karusel kapağını kaldırın ve karuseli sökün.</li><li>Hattaki tüm slaytları çıkarın ve atın.</li><li>Karuseli değiştirin ve karusel kapağını kapatın.</li><li>Yan kapağı kapatın. Analiz cihazı otomatik olarak hazır konumuna geçer.</li><li>Atık çekmecesini boşaltın.</li></ol>"
+    },
+    "SLIDE_LOADING_ERROR": {
+      "title": "Slayt Yükleme Hatası",
+      "body": "Bir veya daha fazla slayt başarıyla yüklenemedi. Bu sorunu çözmek için:<ol><li>Numune çekmecesinin kilidinin açılmasını bekleyin.</li><li>Numune çekmecesinde kalan tüm slaytları çıkartın.</li><li>Yan kapağı açın, karusel kapağını kaldırın ve karuseli sökün.</li><li>Hattaki tüm slaytları çıkarın ve atın.</li><li>Karuseli değiştirin ve karusel kapağını kapatın.</li><li>Yan kapağı kapatın. Analiz cihazı otomatik olarak hazır konumuna geçer.</li><li>Yeni slayt kullanarak numuneyi tekrar çalıştırın.</li></ol>"
+    },
+    "SLIDE_REAGENT_LOT_MISMATCH": {
+      "title": "Slayt ve Reaktif Lot Numaraları Eşleşmiyor",
+      "body": "Slayttaki lot numaraları ve reaktif uyuşmuyor. Bunu çözmek için, numune çekmecesine eşleşen slayt ve reaktif lotları yükleyin ve ardından Başlat butonuna basın."
+    },
+    "SLIDE_REAGENT_LOT_MISMATCH_IGNORABLE": {
+      "title": "Slayt ve Reaktif Lot Numaraları Eşleşmiyor. Diğer Slaytlar Çalıştırılıyor.",
+      "body": "Slayttaki lot numaraları ve reaktif uyuşmuyor. Sorunu çözmek için, numune çekmecesine eşleşen slayt ve reaktif lotlarını yükleyin ve ardından Başlat butonuna basın.<linebreak/>Eşleşen lot numaraları algılanmazsa, bu kimyasalın sonuçları raporlanmayacaktır."
+    },
+    "SLIDE_REAGENT_MISMATCH": {
+      "body": "Yüklenen {{0}} slayt için eşleşen bir reaktif bulunamadı. Bunu çözmek için numune çekmecesinin kilidinin açılmasını bekleyin, reaktifi çıkarıp eşleşen reaktifi yerleştirin, numune çekmecesini kapatın ve Başlat butonuna basın."
+    },
+    "SLIDE_REAGENT_MISMATCH_IGNORABLE": {
+      "body": "Yüklenen {{0}} slayt için eşleşen bir reaktif bulunamadı. Bunu çözmek için numune çekmecesinin kilidinin açılmasını bekleyin, reaktifi çıkarıp eşleşen reaktifi yerleştirin, numune çekmecesini kapatın ve Başlat butonuna basın. Eşleşen reaktif yüklenmediyse, bu kimyasal analizin sonuçları raporlanmayacaktır."
+    },
+    "SLIDE_TIMEOUT_ERROR": {
+      "title": "Slayt Zaman Aşımı Hatası",
+      "body": "Çalıştırılmadan önce slaytlar numune çekmecesinde çok fazla kaldı. Bunu çözmek için, yeni slaytlarla numuneyi tekrar çalıştırın."
+    },
+    "SPURIOUS_DEVICE_EVENT": {
+      "body": "Cihaz bir eylemi tamamlayamadı. Lütfen Başlat düğmesine basın ve cihaz algılayana kadar bekleyin. Sorun devam ederse lütfen IDEXX Destek birimini arayın."
+    },
+    "SUSPECT_RESULT_COMPARISON": {
+      "body": "Slaytlardan biri işlenirken bir hata meydana geldi. Raporlanmamış bir sonuç edinmek için, yeni numune ve slaytlar ile tekrar çalıştırın. Sorun devam ederse IDEXX Destek birimini arayın."
+    },
+    "THERMAL_CONTROL_ERROR": {
+      "title": "Termal Kontrol Hatası",
+      "body": "Çalıştırma sırasında sonuçların sıkıştırılmasına neden olan bir termal kontrol sorunu oluştu. Bunu çözmek için, analiz cihazının etrafındaki sıcaklığın belirtilen çalışma sınırları içerisinde olduğunu doğrulayın ve ardından yeni slaytlarla numuneyi yeniden çalıştırın."
+    },
+    "THERMAL_ERROR": {
+      "title": "Termal Hata",
+      "body": "Analiz cihazının otomatik kontrol işlemi sırasında bir termal hata meydana geldi. Bunu çözmek için, yan kapağı açın ve karusel kapağının kapalı olduğundan emin olun. Yan kapak kapandıktan sonra analiz cihazı otomatik olarak başlayacaktır.<shortlinebreak />Sorun devam ederse, IDEXX Destek birimini arayın."
+    },
+    "UNSPECIFIED_ERROR": {
+      "body": "Beklenmedik bir hata oluştu. Düzeltmek için cihaz üzerindeki başlat butonuna basın. Sorun devam ederse lütfen IDEXX Destek birimi ile iletişime geçin."
+    },
+    "UNSUPPORTED_QC_RANGE": {
+      "body": "{{0}} {{1}} sonucu baskılandı, çünkü slayt seçilen Kalite Kontrol sıvı tipi için desteklenmiyor. Sorunu çözmek için, uygun Kalite Kontrol sıvısını seçerek yeni slaytlarla tekrar çalıştırın."
+    },
+    "UNSUPPORTED_SLIDE_LOT": {
+      "body": "{{0}} {{1}} sonucu gösterilmedi, Desteklenmeyen slayt lotu veya kullanım süresi dolmuş slayt"
+    },
+    "UNSUPPORTED_WHITE_REF_SLIDE_LOT": {
+      "body": "Desteklenmeyen Beyaz Referans Slayt Lotu. Desteklenen bir beyaz referans slaytı ile kalibrasyon işlemini tekrar çalıştırın. Yardım almak için lütfen IDEXX Destek birimini arayın."
+    },
+    "UPDATE_FAILED": {
+      "title": "Yazılım Yükseltmesi Başarısız",
+      "body": "Catalyst One Analiz Cihazı'nın yazılımı yükseltilmedi. Sorunu çözmek için, şimdi yükseltme prosedürünü tekrarlayın veya Catalyst One Instruments yan sekmesindeki Yazılımı yükselt seçeneğini kullanın.<linebreak/>Sorun devam ederse, IDEXX Destek birimini arayın."
+    },
+    "UPGRADE_FAILED_DOWNLOAD": {
+      "title": "Yazılım Yükseltme İndirmesi Başarısız"
+    },
+    "UPGRADE_FAILED_PREPARATION": {
+      "title": "Yazılım Yükseltme Hazırlığı Başarısız"
+    },
+    "USED_REAGENT_DETECTED": {
+      "title": "Kullanılmış Reaktif Algılandı",
+      "body": "Algılanan reaktif daha önce kullanılmış. Bunu çözmek için, yeni bir reaktifle değiştirin ve ardından Başlat butonuna basın."
+    },
+    "USED_REAGENT_DETECTED_IGNORABLE": {
+      "title": "Kullanılmış Reaktif Algılandı. Diğer Slaytlar Çalıştırılıyor.",
+      "body": "Algılanan reaktif daha önce kullanılmış. Sorunu çözmek için, yeni bir reaktifle değiştirin ve ardından Başlat butonuna basın.<shortlinebreak />Reaktif değiştirilmezse, bu kimyasal analizin sonuçları raporlanmayacaktır."
+    },
+    "USED_REAGENT_DETECTED_IGNORABLE_WARNING": {
+      "body": "Algılanan reaktif daha önce kullanılmış. O kimyasal analizin sonuçları raporlanmayacaktır. Bunu çözmek için analiz cihazının yeniden hazır konuma dönmesini bekleyin, yeni numune, slaytlar ve reaktif kullanarak tekrar çalıştırın."
+    },
+    "USED_REAGENT_DETECTED_WARNING": {
+      "body": "Algılanan reaktif daha önce kullanılmış. Bunu çözmek için analiz cihazının yeniden hazır konuma dönmesini bekleyin, yeni numune, slaytlar ve reaktif kullanarak tekrar çalıştırın."
+    },
+    "USER_CALIBRATION_UNSUCCESSFUL": {
+      "title": "Kullanıcı Kalibrasyonu Başarısız",
+      "body": "Analiz cihazı başarıyla kalibre edilemedi.<shortlinebreak/>Yardım almak için lütfen IDEXX Destek birimini arayın."
+    },
+    "WARMUP_THERMAL_ERROR": {
+      "title": "Isınma Sırasında Termal Hata",
+      "body": "Termal bir hata meydana geldi. Bunu çözmek için, yan kapağı açın ve karusel kapağının kapalı olduğundan emin olun. Yan kapak kapandıktan sonra analiz cihazı otomatik olarak başlayacaktır.<shortlinebreak/>Sorun devam ederse, IDEXX Destek birimini arayın."
+    },
+    "WASTE_DRAWER_FULL": {
+      "title": "Atık Çekmecesi Dolu",
+      "body": "Atık çekmecesini boşaltın."
+    },
+    "WASTE_DRAWER_OPEN": {
+      "title": "Atık Çekmecesi Açık",
+      "body": "Atık çekmecesini kapatın."
+    },
+    "WASTE_DRAWER_OPEN_RUN": {
+      "title": "Atık Çekmecesi Çalıştırma Sırasında Açık",
+      "body": "Atık çekmecesi açık. Çalıştırmanın devam edebilmesi için atık çekmecesini kapatın ve Başlat butonuna basın."
+    },
+    "WBS_SAMPLE_VOLUME_HIGH": {
+      "body": "Tam kan separatöründe gereğinden fazla numune var. Sorunu çözmek için, 0,6 - 0,8 cc numune ve yeni slaytlarla tam kan separatörü kullanarak tekrar çalıştırın.<shortlinebreak/>Sorun devam ederse, IDEXX Destek birimini arayın."
+    }
+  },
+  "CATALYST_DX": {
+    "CONNECTION_TIMEOUT": {
+      "body": "IDEXX VetLab Station Catalyst Dx analiz cihazı ile iletişim kuramıyor. <linebreak /><strong>NOT:</strong> Analiz cihazı simgesini ana ekrandan kaldırmak için uyarıyı kapatın, Çevirim Dışı seçeneğinin ardından <strong>Cihazı Kaldır</strong> seçeneğine tıklayınız. Bağlantıyı yeniden sağlamak için aşağıdaki basamakları izleyiniz: <ol><li>Catalyst Dx'in analiz cihazı’nın IP adresinin olduğunu doğrulamak için cihaz ekranından <strong>Araçlar</strong>öğesini seçiniz.</li><li>IP adresi <strong>tanımlanamıyorsa</strong> aşağıdaki adımları izleyiniz:<ol type=\\\"a\\\"><li>Catalyst Dx Araçlar ekranından <strong>Kapat</strong> seçimini yapın.</li><li>İşlemi başlattıktan sonra analiz cihazı “Açma/Kapatma” düğmesine basarak kapatınız.</li><li>Analiz cihazı kapandıktan sonra Açma/Kapatma düğmesine basarak açınız.</li></ol></li></ol>IP adresi varsa ve sorun devam ederse, IDEXX Destek birimi ile iletişim kurun."
+    }
+  },
+  "CRIMSON": {
+    "ASP_UNIT_FRONTBACK_MOTOR": {
+      "body": "Bu hatayı gidermek için <strong>Aspirasyon Motorunu Sıfırla</strong> seçeneğine tıklayınız.<shortlinebreak/>Bu işlem birkaç saniye sürecektir.",
+      "title": "Aspirasyon Ünitesi Motor Hatası (Ön-Arka)"
+    },
+    "ASP_UNIT_UPDOWN_MOTOR": {
+      "body": "ProCyte Dx’i yeniden başlatmak bu hatayı çözümleyebilir. Bu uyarı devam ederse IDEXX Destek birimi ile iletişime geçin.<shortlinebreak/><ol><li>ProCyte Dx’i Kapat.</li><li>IPU’yu Kapat.</li><li>IPU’yu Aç.</li><li>ProCyte Dx’i Aç.</li></ol>",
+      "title": "Aspirasyon Ünitesi Motor Hatası (Aşağı-Yukarı)"
+    },
+    "BACKGROUND": {
+      "body": "Bu durum, güvenilirliği düşük sonuçlara yol açabilir. <strong>Otomatik Temizlik Çalıştır</strong> seçeneğine dokunun ve arka plan ölçümlerini tekrar kontrol edin. Bu prosedür yaklaşık olarak <strong>8 dakika</strong> sürecektir.",
+      "title": "Arka plan kontrol ölçümleri takip eden parametrelerin yüksek olduğunu saptandı.",
+      "table": {
+        "headers": {
+          "assay": "Ölçüm",
+          "result": "Sonuç",
+          "limit": "Limit",
+          "unit": "Birim"
+        },
+        "assays": {
+          "PLT-O": "PLT-O",
+          "HGB": "HGB",
+          "RBC": "RBC",
+          "WBC": "WBC",
+          "PLT-I": "PLT-I"
+        }
+      }
+    },
+    "BLOOD_ASP_SENSOR": {
+      "body": "Bu uyarı devam ederse IDEXX Destek birimi ile iletişime geçin.",
+      "title": "Hasta analizi gerçekleştirilemiyor."
+    },
+    "CHAMBER_EPK": {
+      "body": "Reaktif kiti bağlantısı algılanamıyor. Reaktif kitinin doğru bağlandığından veya tüp hortumlarının bükülmediğinden emin olunuz. Ardından, <strong>Kullanıma Hazır Hale Getir</strong> seçeneğine tıklayın.<shortlinebreak/>Tıkladıktan sonra bu mesajı tekrar alırsanız, yardım almak için IDEXX Destek birimi ile iletişime geçin.",
+      "title": "Reaktif Kiti bağlı görünmüyor"
+    },
+    "CLOSE_FCM_DETECT_COVER": {
+      "body": "Analiz cihazını en az 10 saniye kapatmak için ProCyte Dx açma/kapatma düğmesini kullanın. Daha sonra analiz cihazını açın.<linebreak/>Bu uyarı devam ederse, IDEXX Destek birimini arayın.",
+      "title": "FCM Saptama Kapağını Kapatınız"
+    },
+    "DIFF_CH": {
+      "body": "Bu uyarı devam ederse IDEXX Destek birimi ile iletişime geçin.",
+      "title": "DIFF-CH Hatası"
+    },
+    "DIFF_SAMPLING": {
+      "body": "Numuneyi, topladıktan hemen sonra ve analizden önce 10 kez alt üst çevirerek hazırlayınız. Mesaj devam ederse, IDEXX Destek birimi ile iletişime geçin.",
+      "title": "Diff Örnekleme Hatası"
+    },
+    "ENV_TEMP_HIGH": {
+      "body": "ProCyte Dx analiz cihazı’nın bulunduğu ortam sıcaklığı çok yüksektir. Analiz cihazının çevresinde yeterli seviyede hava akımı olduğundan emin olun, fan filtresini kontrol edin ve ortam sıcaklığını 38° C’nin (100° F) altına düşürün.<shortlinebreak/>Bu uyarı devam ederse, IDEXX Destek birimini arayın.",
+      "title": "Sıcaklık Yüksek"
+    },
+    "ENV_TEMP_LOW": {
+      "body": "ProCyte Dx analiz cihazı’nın bulunduğu ortam sıcaklığı çok düşüktür. Ortam sıcaklığını 10° C’nin (50° F) üstüne yükseltin.<linebreak/>Bu uyarı devam ederse IDEXX Destek birimini arayın.",
+      "title": "Sıcaklık Düşük"
+    },
+    "ENV_THERM_SENS": {
+      "body": "ProCyte Dx’i yeniden başlatmak bu hatayı çözümleyebilir. Bu uyarı devam ederse IDEXX Destek birimi ile iletişime geçin.<shortlinebreak/><ol><li>ProCyte Dx’i Kapat.</li><li>IPU’yu Kapat.</li><li>IPU’yu Aç.</li><li>ProCyte Dx’i Aç.</li></ol>",
+      "title": "Env Therm Sens ERR"
+    },
+    "EXCHANGE_AIR_PUMP": {
+      "body": "Bu uyarı devam ederse IDEXX Destek birimi ile iletişime geçin.",
+      "title": "Hava Pompasını Değiştir"
+    },
+    "EXCHANGE_WASTE_TANK": {
+      "body": "Bu hatayı gidermek için <strong>Atık Bölmesini Boşalt</strong> seçeneğine tıklayın.<shortlinebreak/>Bu işlem 1 dakikadan az sürecektir.",
+      "title": "Atık Tankını Değiştiriniz"
+    },
+    "EXECUTE_MONTHLY_RINSE_IVLS": {
+      "body": "Aylık Temizlik en son bir ay önce gerçekleştirilmiştir.<shortlinebreak/>25 dakikalık bu işlem kontaminantları yok ederek doğru sonuçlar elde edilmesini sağlar.",
+      "title": "Aylık Temizlik hatırlatıcı."
+    },
+    "EXECUTE_MONTHLY_RINSE_WARNING": {
+      "body": "Temizleme işlemine devam etmek için <strong>Aylık Temizlik</strong> seçeneğine tıklayın.<shortlinebreak/>25 dakikalık bu işlem kontaminantları yok ederek doğru sonuçlar elde edilmesini sağlar.",
+      "title": "Aylık Temizlik gerçekleştirilmelidir."
+    },
+    "EXPIRED_EPK": {
+      "body": "Güvenilir sonuçlar elde etmek için reaktif kiti’ni değiştirmeniz önerilir.",
+      "title": "Reaktif Kitinin son kullanma tarihi doldu."
+    },
+    "EXPIRED_FFD": {
+      "body": "Güvenilir sonuçlar elde etmek için reaktif kiti’ni değiştirmeniz önerilir.",
+      "title": "Reaktif Kitinin son kullanma tarihi doldu."
+    },
+    "EXPIRED_FFS": {
+      "body": "Güvenilir sonuçlar elde etmek için stain pack'i değiştirmeniz önerilir.",
+      "title": "Stain Pack’in Son Kullanma Tarihi Doldu."
+    },
+    "EXPIRED_RED": {
+      "body": "Güvenilir sonuçlar elde etmek için reaktif kiti’ni değiştirmeniz önerilir.",
+      "title": "Reaktif Kitinin son kullanma tarihi doldu."
+    },
+    "EXPIRED_RES": {
+      "body": "Güvenilir sonuçlar elde etmek için stain pack'i değiştirmeniz önerilir.",
+      "title": "Stain Pack’in Son Kullanma Tarihi Doldu."
+    },
+    "EXPIRED_SLS": {
+      "body": "Güvenilir sonuçlar elde etmek için reaktif kiti’ni değiştirmeniz önerilir.",
+      "title": "Reaktif Kitinin son kullanma tarihi doldu."
+    },
+    "FCM_RU_TEMP_HIGH": {
+      "body": "ProCyte Dx Analiz Cihazı’nın iç sıcaklığı çok yüksektir. Ana Birimi 30 dakikalığına kapatıp tekrar açın.<shortlinebreak/>Bu uyarı devam ederse IDEXX Destek birimini arayın.",
+      "title": "FCM RU Sıcaklık Yüksek"
+    },
+    "FCM_RU_TEMP_LOW": {
+      "body": "ProCyte Dx ısınıyor. Bu işlem 30 dakika sürebilir.<linebreak/>Bu uyarı devam ederse IDEXX Destek birimini arayın.",
+      "title": "FCM RU Sıcaklık Düşük"
+    },
+    "FCM_RU_THERM_SENS": {
+      "body": "ProCyte Dx’i yeniden başlatmak bu hatayı çözümleyebilir. Bu uyarı devam ederse IDEXX Destek birimi ile iletişime geçin.<shortlinebreak/><ol><li>ProCyte Dx’i Kapat.</li><li>IPU’yu Kapat.</li><li>IPU’yu Aç.</li><li>ProCyte Dx’i Aç.</li></ol>",
+      "title": "FCM RU Therm Sens ERR"
+    },
+    "FCM_SHEATH_SENS": {
+      "body": "ProCyte Dx’i yeniden başlatmak bu hatayı çözümleyebilir. Bu uyarı devam ederse IDEXX Destek birimi ile iletişime geçin.<shortlinebreak/><ol><li>ProCyte Dx’i Kapat.</li><li>IPU’yu Kapat.</li><li>IPU’yu Aç.</li><li>ProCyte Dx’i Aç.</li></ol>",
+      "title": "FCM Sheath Sens ERR"
+    },
+    "FFS_ASP_ERROR": {
+      "body": "Stain pack bağlı görünmüyor Stain pack'in doğru bağlandığından veya tüp hortumlarının bükülmediğinden emin olunuz. Ardından, <strong>Kullanıma Hazır Hale Getir</strong> seçeneğine tıklayın.<shortlinebreak/>Tıkladıktan sonra bu mesajı tekrar alırsanız, yardım almak için IDEXX Destek birimi ile iletişime geçin",
+      "title": "Stain pack bağlı görünmüyor"
+    },
+    "HGB": {
+      "body": "Bu uyarı devam ederse IDEXX Destek birimi ile iletişime geçin.",
+      "title": "HGB Hatası"
+    },
+    "IPU_COMMUNICATION_ERROR": {
+      "body": "ProCyte Dx’i yeniden başlatmak bu hatayı çözümleyebilir. Bu uyarı devam ederse IDEXX Destek birimi ile iletişime geçin.<shortlinebreak/><ol><li>ProCyte Dx’i Kapat.</li><li>IPU’yu Kapat.</li><li>IPU’yu Aç.</li><li>ProCyte Dx’i Aç.</li></ol>",
+      "title": "Beklenmedik bir hata oluştu."
+    },
+    "LASER_DIODE_AGED": {
+      "body": "Bu uyarı devam ederse IDEXX Destek birimi ile iletişime geçin.",
+      "title": "Lazer Diyot Eskidi"
+    },
+    "LASER_POWER": {
+      "body": "Analiz cihazını en az 10 saniye kapatmak için ProCyte Dx açma/kapatma düğmesini kullanın. Daha sonra analiz cihazını açın.<linebreak/>Bu uyarı devam ederse, IDEXX Destek birimini arayın.",
+      "title": "Lazer Güç Hatası"
+    },
+    "MPA_06": {
+      "body": "Bu hatayı gidermek için <strong>Hava Pompasını Sıfırla</strong> seçeneğine tıklayın.<shortlinebreak/>Bu işlem yaklaşık olarak 2 dakika sürecektir.",
+      "title": "0.06MPa Hata"
+    },
+    "MPA_NEG03": {
+      "body": "Bu hatayı gidermek için <strong>Hava Pompasını Sıfırla</strong> seçeneğine tıklayın.<shortlinebreak/>Bu işlem yaklaşık olarak 2 dakika sürecektir.",
+      "title": "-0.03MPa Hata"
+    },
+    "NEW_HARDWARE_DETECTED": {
+      "body": "Yeni donanımı yapılandırmak için, ProCyte Dx Analiz Cihazınızın seri numarası ile uyumlu olan yapılandırma dosyalarını yüklemeniz gerekmektedir.<ol><li><strong>Analiz cihazını kapatmak</strong> için açma/kapatma düğmesini kullanın.<shortlinebreak/>Not: IPU’yu kapatmayınız.</li><li>Devam etmek için <strong>Yapılandır</strong> seçeneğine tıklamanız gerekmektedir.</li></ol>",
+      "title": "Yeni donanım bulundu."
+    },
+    "PLT_CH": {
+      "body": "Bu uyarı devam ederse IDEXX Destek birimi ile iletişime geçin.",
+      "title": "PLT-CH Hatası"
+    },
+    "PLT_SAMPLING": {
+      "body": "Bu hatayı gidermek için <strong>Pıhtıyı Gider</strong> seçeneğine tıklayın.<shortlinebreak/>Bu işlem yaklaşık olarak 1 dakika sürecektir.",
+      "title": "PLT Örnekleme Hatası"
+    },
+    "PRESS_START_BUTTON": {
+      "body": "<strong>Numuneyi test etmek için:</strong><ol><li>Numune tüpünü iyice karıştırmak için 10 defa ters-düz çevirin.</li><li>Analiz cihazı üzerindeki <strong>Başlat</strong> butonuna basın.</li></ol>",
+      "title": "Numune analizi başlatılamadı."
+    },
+    "PRESS_START_BUTTON_QC": {
+      "body": "<strong>$t({{ name }})<shortlinebreak/>Lot: {{ lot-number }}</strong><shortlinebreak/>$t({{ unit }})",
+      "title": "Aşağıdaki analizleri gerçekleştirmek üzere analizi başlatmak için analiz cihazı üzerindeki Başlat butonuna basın."
+    },
+    "PRESSURE_LOWER": {
+      "body": "Bu hatayı gidermek için <strong>Hava Pompasını Sıfırla</strong> seçeneğine tıklayın.<shortlinebreak/>Bu işlem yaklaşık olarak 2 dakika sürecektir.",
+      "title": "Düşük Basınç Hatası"
+    },
+    "RBC_BUBBLE": {
+      "body": "Bu hatayı gidermek için <strong>Pıhtıyı Gider</strong> seçeneğine tıklayın.<shortlinebreak/>Bu işlem yaklaşık olarak 1 dakika sürecektir.",
+      "title": "RBC Kabarcık Hatası"
+    },
+    "RBC_CH": {
+      "body": "Bu uyarı devam ederse IDEXX Destek birimi ile iletişime geçin.",
+      "title": "RBC-CH Hatası"
+    },
+    "RBC_CLOG": {
+      "body": "Bu hatayı gidermek için <strong>Pıhtıyı Gider</strong> seçeneğine tıklayın.<shortlinebreak/>Bu işlem yaklaşık olarak 1 dakika sürecektir.",
+      "title": "RBC Tıkanma Hatası"
+    },
+    "RBC_HGB_CHAMBER": {
+      "body": "Bu hatayı gidermek için <strong>Reaksiyon Bölmesini Boşalt</strong> seçeneğine tıklayın.<shortlinebreak/>Bu işlem 1 dakikadan az sürecektir.",
+      "title": "RBC/HGB Bölmesi Hatası"
+    },
+    "RBC_SAMPLING": {
+      "body": "Bu hatayı gidermek için <strong>Pıhtıyı Gider</strong> seçeneğine tıklayın.<shortlinebreak/>Bu işlem yaklaşık olarak 1 dakika sürecektir.",
+      "title": "RBC Örnekleme Hatası"
+    },
+    "REAGENT_KIT_LOW": {
+      "body": "Reaktif kiti sıvı seviyesi düşük. Boşalana kadar işleme devam edebilirsiniz.<linebreak/>Analiz cihazınızı kesintisiz kullanabilmek için stoklarınızda yedek kit bulunduğundan emin olun.<linebreak/>Bu mesajı devre dışı bırakmak için ProCyte Dx Ayarları ekranında <strong>Reaktif Seviyesi Düşük Hatırlatıcısı</strong>ayarını “Kapalı” olarak değiştirin.",
+      "title": "Reaktif Kiti düşük."
+    },
+    "REPLACE_EPK": {
+      "body": "Reaktif kiti bağlantısı algılanamıyor. Reaktif kitinin doğru bağlandığından veya tüp hortumlarının bükülmediğinden emin olunuz. Ardından, <strong>Kullanıma Hazır Hale Getir</strong> seçeneğine tıklayın.<shortlinebreak/>Tıkladıktan sonra bu mesajı tekrar alırsanız, yardım almak için IDEXX Destek birimi ile iletişime geçin.",
+      "title": "Reaktif Kiti bağlı görünmüyor"
+    },
+    "REPLACE_FFD": {
+      "body": "Reaktif kiti bağlantısı algılanamıyor. Reaktif kitinin doğru bağlandığından veya tüp hortumlarının bükülmediğinden emin olunuz. Ardından, <strong>Kullanıma Hazır Hale Getir</strong> seçeneğine tıklayın.<shortlinebreak/>Tıkladıktan sonra bu mesajı tekrar alırsanız, yardım almak için IDEXX Destek birimi ile iletişime geçin.",
+      "title": "Reaktif Kiti bağlı görünmüyor"
+    },
+    "REPLACE_FFS": {
+      "body": "Devam etmek için <strong>Stain Değiştir</strong> seçeneğine tıklayınız.",
+      "title": "Stain Pack Boş."
+    },
+    "REPLACE_PIERCER": {
+      "body": "Bu uyarı devam ederse IDEXX Destek birimi ile iletişime geçin.",
+      "title": "Delici İğneyi Değiştir"
+    },
+    "REPLACE_REAGENT_PACKAGE": {
+      "body": "Devam etmek için <strong>Reaktif Değiştir</strong> seçeneğine tıklayınız.",
+      "title": "Reaktif Kiti Boş."
+    },
+    "REPLACE_RED": {
+      "body": "Reaktif kiti bağlantısı algılanamıyor. Reaktif kitinin doğru bağlandığından veya tüp hortumlarının bükülmediğinden emin olunuz. Ardından, <strong>Kullanıma Hazır Hale Getir</strong> seçeneğine tıklayın.<shortlinebreak/>Tıkladıktan sonra bu mesajı tekrar alırsanız, yardım almak için IDEXX Destek birimi ile iletişime geçin.",
+      "title": "Reaktif Kiti bağlı görünmüyor"
+    },
+    "REPLACE_RES": {
+      "body": "Devam etmek için <strong>Stain Değiştir</strong> seçeneğine tıklayınız.",
+      "title": "Stain Pack Boş."
+    },
+    "REPLACE_SLS": {
+      "body": "Reaktif kiti bağlantısı algılanamıyor. Reaktif kitinin doğru bağlandığından veya tüp hortumlarının bükülmediğinden emin olunuz. Ardından, <strong>Kullanıma Hazır Hale Getir</strong> seçeneğine tıklayın.<shortlinebreak/>Tıkladıktan sonra bu mesajı tekrar alırsanız, yardım almak için IDEXX Destek birimi ile iletişime geçin.",
+      "title": "Reaktif Kiti bağlı görünmüyor"
+    },
+    "RET": {
+      "body": "Bu uyarı devam ederse IDEXX Destek birimi ile iletişime geçin.",
+      "title": "RET Hatası"
+    },
+    "RET_CH": {
+      "body": "Bu uyarı devam ederse IDEXX Destek birimi ile iletişime geçin.",
+      "title": "RET-CH Hatası"
+    },
+    "RET_CHAMBER": {
+      "body": "Bu hatayı gidermek için <strong>Reaksiyon Bölmesini Boşalt</strong> seçeneğine tıklayın.<shortlinebreak/>Bu işlem 1 dakikadan az sürecektir.",
+      "title": "RET Bölmesi Hatası"
+    },
+    "RET_SAMPLING": {
+      "body": "Hücre akış hatası algılandı. Devam etmek için <strong>Hücre Bölmesini Temizle</strong> seçeneğine tıklayın.<shortlinebreak/>Bu işlem yaklaşık olarak 6 dakika sürecektir.",
+      "title": "RET Örnekleme Hatası"
+    },
+    "RH_TEMP_HIGH_DIFF": {
+      "body": "ProCyte Dx Analiz Cihazı’nın iç sıcaklığı çok yüksektir. Ana Birimi 30 dakikalığına kapatıp tekrar açın.<linebreak/>Bu uyarı devam ederse IDEXX Destek birimini arayın.",
+      "title": "RH Sıcaklık Yüksek (DIFF)"
+    },
+    "RH_TEMP_HIGH_RET": {
+      "body": "ProCyte Dx Analiz Cihazı’nın iç sıcaklığı çok yüksektir. Ana Birimi 30 dakikalığına kapatıp tekrar açın.<shortlinebreak/>Bu uyarı devam ederse IDEXX Destek birimini arayın.",
+      "title": "RH Sıcaklık Yüksek (RET)"
+    },
+    "RH_TEMP_LOW_DIFF": {
+      "body": "ProCyte Dx ısınıyor. Bu işlem 30 dakika sürebilir.<shortlinebreak/>Bu uyarı devam ederse IDEXX Destek birimini arayın.",
+      "title": "RH Sıcaklık Düşük (DIFF)"
+    },
+    "RH_TEMP_LOW_RET": {
+      "body": "ProCyte Dx ısınıyor. Bu işlem 30 dakika sürebilir.<linebreak/>Bu uyarı devam ederse IDEXX Destek birimini arayın.",
+      "title": "RH Sıcaklık Düşük (RET)"
+    },
+    "RH_THERM_SENS_ERR_DIFF": {
+      "body": "ProCyte Dx’i yeniden başlatmak bu hatayı çözümleyebilir. Bu uyarı devam ederse IDEXX Destek birimi ile iletişime geçin.<shortlinebreak/><ol><li>ProCyte Dx’i Kapat.</li><li>IPU’yu Kapat.</li><li>IPU’yu Aç.</li><li>ProCyte Dx’i Aç.</li></ol>",
+      "title": "RH Therm Sens ERR (DIFF)"
+    },
+    "RH_THERM_SENS_ERR_RET": {
+      "body": "ProCyte Dx’i yeniden başlatmak bu hatayı çözümleyebilir. Bu uyarı devam ederse IDEXX Destek birimi ile iletişime geçin.<shortlinebreak/><ol><li>ProCyte Dx’i Kapat.</li><li>IPU’yu Kapat.</li><li>IPU’yu Aç.</li><li>ProCyte Dx’i Aç.</li></ol>",
+      "title": "RH Therm Sens ERR (RET)"
+    },
+    "RIGHT_COVER_HAS_OPENED": {
+      "body": "<ol><li>Sağ kapağı kapatınız.</li><li>ProCyte Dx Analiz Cihazını Açma/Kapatma düğmesini kullanarak önce kapatınız sonra açınız.</li></ol>",
+      "title": "Sağ kapak açık."
+    },
+    "RIGHT_COVER_IS_OPEN": {
+      "body": "Bu hatayı düzeltmek için lütfen ProCyte Dx’in sağ kapağı kapatınız.",
+      "title": "Sağ kapak açık."
+    },
+    "RINSE_CUP_PINCH_VALVE": {
+      "body": "Bu hatayı gidermek için <strong>Sıkıştırma Kapakçığını Temizle</strong> seçeneğine tıklayın.<shortlinebreak/>Bu işlem 1 dakikadan az sürecektir.",
+      "title": "Temizlik Bölmesi Sıkıştırma Kapakçık Hatası"
+    },
+    "SAMPLE_NOT_ASP": {
+      "body": "Numune kan hacmi yetersiz görünüyor. Testi tekrarlamadan önce kan hacmini kontrol edin. Numune hacim gereksinimleri için ProCyte Dx Analiz Cihazı Kullanıcı Kılavuzuna başvurun.<shortlinebreak/>Bu uyarı devam ederse IDEXX Destek birimini arayın.",
+      "title": "Örnek Aspirasyon Hatası"
+    },
+    "SFS_INTERRUPTED": {
+      "body": "<ol><li>Analiz cihazının arka tarafında bulunan hızlı bağlantı başlığı ile bağlı olan tüpleri çıkartın.</li><li>Analiz cihazı ve IPU’yu kapatın.</li><li>Elektrik ve bağlantı kablolarını analiz cihazından çıkartın.</li><li>Analiz cihazını IDEXX’e iade edin.</li></ol>",
+      "title": "Nakil Prosedürü için Kapatma sırasında bir sorun oluştu."
+    },
+    "SFS_REAGENTS_DRAINED": {
+      "body": "Analiz cihazındaki reaktifler boşaltıldı.<shortlinebreak/><strong>Sonraki adımlar:</strong><ol><li>Analiz cihazının arkasında, beyaz bağlantı noktasındaki hortumu çıkarın.</li><li>Cihazın sağ tarafında bulunan düğmeyi kullanarak analiz cihazını kapatın.</li><li>IPU'nun güç düğmesine basarak gücünü kapatın (düğmeyi basılı tutmayın).</li><li>Analiz cihazının arkasındaki güç ve Ethernet kablolarını çıkarın</li><li>Analiz cihazını, yerine gelen analiz cihazı kutusuna yerleştirin ve IDEXX'e iade edin</li></ol><linebreak/><strong>Bitir seçeneğine Tıklayın</strong>",
+      "title": "Son adımlar"
+    },
+    "SHEATH_MOTOR": {
+      "body": "Bu hatayı gidermek için <strong>Sheath Motorunu Sıfırla</strong> seçeneğine tıklayın.<shortlinebreak/>Bu işlem 1 dakikadan az sürecektir.",
+      "title": "Sheath Motor Hatası"
+    },
+    "SHORT_SAMPLE": {
+      "body": "Numune kan hacmi yetersiz görünüyor. Testi tekrarlamadan önce kan hacmini kontrol edin. Numune hacim gereksinimleri için ProCyte Dx Analiz Cihazı Kullanıcı Kılavuzuna başvurun.<shortlinebreak/>Bu uyarı devam ederse IDEXX Destek birimini arayın.",
+      "title": "Yetersiz örnek"
+    },
+    "SOFTWARE_UPGRADE_AVAILABLE": {
+      "body": "<ol><li><strong>Analiz cihazını kapatmak</strong> için açma/kapatma düğmesini kullanın.<shortlinebreak/>Not: IPU’yu kapatmayınız.</li><li>Devam etmek için <strong>Şimdi Yükselt</ strong> seçeneğine tıklayın.<shortlinebreak/>UYARI: Güncelleme süreci esnasında IPU kapanacaktır.</li></ol>",
+      "title": "Yazılım yükseltme sürümü {{ software-version }} yüklenmeye hazır."
+    },
+    "SOFTWARE_UPGRADE_FAILED": {
+      "body": "Yükseltmeyi yeniden deneyin veya yardım almak için IDEXX Destek birimi ile iletişime geçin.<shortlinebreak/><ol><li><strong>Analiz cihazını kapatmak</strong> için açma/kapatma düğmesini kullanın.<shortlinebreak/>Not: IPU’yu kapatmayınız.</li><li>Devam etmek için <strong>Şimdi Güncelle</strong> seçeneğine tıklayınız.</li></ol>",
+      "title": "Yazılım güncellemesi başarısız."
+    },
+    "SOFTWARE_UPGRADE_TIMEOUT": {
+      "body": "Sorunu çözmek için ProCyte Dx analiz cihazının kapatıldığından emin olun ve ardından IPU üzerindeki açma/kapatma düğmesini kullanarak IPU'yu yeniden başlatın.<shortlinebreak/>Sorun devam ederse IDEXX Destek birimini arayın.",
+      "title": "Yazılım güncellemesi başarısız."
+    },
+    "STAIN_PACK_LOW": {
+      "body": "Stain pack’inizin sıvı seviyesi düşük. Boşalana kadar işleme devam edebilirsiniz.<linebreak/>Analiz cihazınızı kesintisiz kullanabilmek için stoklarınızıda yedek paket bulunduğundan emin olun.<linebreak/>Bu mesajı devre dışı bırakmak için ProCyte Dx Ayarları ekranında <strong>Reaktif Seviyesi Düşük Hatırlatıcısı</strong>ayarını “Kapalı” olarak değiştirin.",
+      "title": "Stain Pack seviyesi düşük."
+    },
+    "STARTUP_PRIME_REQUIRED": {
+      "body": "45 dakika süren bu prosedür için dolu bir Reaktif Kiti ve stain pack gerekmektedir. Devam etmek istiyor musunuz?",
+      "title": "Açma prosedürü gerekliliği."
+    },
+    "SYSTEM_CONFIGURATION": {
+      "body": "ProCyte Dx’i yeniden başlatmak bu hatayı çözümleyebilir. Bu uyarı devam ederse IDEXX Destek birimi ile iletişime geçin.<shortlinebreak/><ol><li>ProCyte Dx’i Kapat.</li><li>IPU’yu Kapat.</li><li>IPU’yu Aç.</li><li>ProCyte Dx’i Aç.</li></ol>",
+      "title": "Sistem Yapılandırma Hatası."
+    },
+    "TUBE_HOLDER_HAS_OPENED": {
+      "body": "ProCyte Dx’i yeniden başlatmak bu hatayı çözümleyebilir. Bu uyarı devam ederse IDEXX Destek birimi ile iletişime geçin.<shortlinebreak/><ol><li>Mümkünse örnek tüpünü çıkartınız ve tıkanıklığı gideriniz.</li><li>ProCyte Dx’I kapatınız.</li><li>IPU’yu kapatınız.</li><li>IPU’yu açınız.</li><li>ProCyte Dx’i açınız.</li></ol>",
+      "title": "Numune çekmecesi açık."
+    },
+    "TUBE_HOLDER_MOTOR": {
+      "body": "Numune çekmecesinde sıkışma var. Bu hatayı gidermek için sıkışıklığı giderin ve <strong>Tüp Motorunu Sıfırla</strong> seçeneğine tıklayın.<shortlinebreak/>Bu işlem 1 dakikadan az sürecektir.",
+      "title": "Tüp Tutucu Motor Hatası"
+    },
+    "TURN_ON_MAIN_UNIT": {
+      "body": "ProCyte Dx Analiz Cihazını açmak için Açma/Kapatma düğmesini kullanınız.",
+      "title": "ProCyte Dx algılanamadı."
+    },
+    "UNINTENTIONAL_OFFLINE_TIMEOUT": {
+      "body": "IPU'yu çalıştırmak için <strong>ProCyte Dx’i Aç</strong> düğmesine tıklayın. IPU’nun açılması yaklaşık 1 dakika sürecektir.<shortlinebreak/><strong>Not:</strong> ProCyte Dx’i Aç düğmesini kullandıktan sonra IPU’daki açma/kapatma düğmesine basmayın. Analiz cihazının sağ tarafındaki düğmeyi kullanarak analiz cihazını açın.",
+      "title": "ProCyte Dx saptanmadı"
+    },
+    "WAKE_ON_LAN_FAILURE_TIMEOUT": {
+      "body": "IPU açıksa kapatın, ardından IPU'nun bir ağ kablosuyla VetLab yönlendiricisine bağlı olduğundan emin olun.<shortlinebreak/>Ardından, IPU’yu açmak için üzerindeki <strong>açma/kapatma düğmesine basın</strong>.",
+      "title": "ProCyte Dx saptanmadı"
+    },
+    "WASTE_CHAMBER_1": {
+      "body": "Bu hatayı gidermek için <strong>Atık Bölmesini Boşalt</strong> seçeneğine tıklayın.<shortlinebreak/>Bu işlem 1 dakikadan az sürecektir.",
+      "title": "Atık Bölmesi 1 Hata"
+    },
+    "WASTE_CHAMBER_1_PINCH_VALVE": {
+      "body": "Bu hatayı gidermek için <strong>Sıkıştırma Kapakçığını Temizle</strong> seçeneğine tıklayın.<shortlinebreak/>Bu işlem 1 dakikadan az sürecektir.",
+      "title": "Atık Bölmesi 1. Sıkıştırma Kapakçık Hatası"
+    },
+    "WASTE_CHAMBER_2": {
+      "body": "Bu hatayı gidermek için <strong>Atık Bölmesini Boşalt</strong> seçeneğine tıklayın.<shortlinebreak/>Bu işlem 1 dakikadan az sürecektir.",
+      "title": "Atık Bölmesi 2 Hata"
+    },
+    "WASTE_CHAMBER_2_PINCH_VALVE": {
+      "body": "Bu hatayı gidermek için <strong>Sıkıştırma Kapakçığını Temizle</strong> seçeneğine tıklayın.<shortlinebreak/>Bu işlem 1 dakikadan az sürecektir.",
+      "title": "Atık Bölmesi 2. Sıkıştırma Kapakçık Hatası"
+    },
+    "WB_ASP_MOTOR": {
+      "body": "Bu hatayı gidermek için <strong>WB Motorunu Sıfırla</strong> seçeneğine tıklayın.<shortlinebreak/>Bu işlem 1 dakikadan az sürecektir.",
+      "title": "WB Motor Hatası"
+    },
+    "WBC_CH": {
+      "body": "Hücre akış hatası algılandı. Devam etmek için <strong>Hücre Bölmesini Temizle</strong> seçeneğine tıklayın.<shortlinebreak/>Bu işlem yaklaşık olarak 6 dakika sürecektir.",
+      "title": "WBC-CH Hatası"
+    },
+    "WBC_CHAMBER": {
+      "body": "Bu hatayı gidermek için <strong>Reaksiyon Bölmesini Boşalt</strong> seçeneğine tıklayın.<shortlinebreak/>Bu işlem 1 dakikadan az sürecektir.",
+      "title": "WBC Bölmesi Hatası"
+    },
+    "WBC_SAMPLING": {
+      "body": "Hücre akış hatası algılandı. Devam etmek için <strong>Hücre Bölmesini Temizle</strong> seçeneğine tıklayın.<linebreak/>Bu işlem yaklaşık olarak 6 dakika sürecektir.",
+      "title": "WBC Örnekleme Hatası"
+    },
+    "unmapped": {
+      "body": "<strong>IDEXX Destek birimi ile iletişime geçin ve aşağıdaki bilgileri sağlayın:</strong> <shortlinebreak/>Hata: {{ error }} <shortlinebreak/>Önerilen Eylem: {{ action }} <shortlinebreak/>Komut: {{ command }}",
+      "title": "Beklenmedik bir hata oluştu."
+    }
+  },
+  "Crimson": {
+    "PressStartButton": {
+      "QC": {
+        "Line3": {
+          "EN": "<ol><li>Kontrolleri 15 dakika boyunca oda sıcaklığında (64°-77°F) ısıtın.</li><li>Flakonun dibine çökmüş olan hücreler tamamen asılı konuma gelene kadar QC flakonunu nazikçe alt-üst edin.<shortlinebreak/><strong>Not:</strong> Mekanik karıştırıcı veya çalkalayıcı kullanmayın.</li><li>Tüpü numune çekmecesindeki QC tüpü adaptörüne yükleyin.</li><li>Analiz cihazı üzerindeki <strong>Başlat</strong> butonuna basın.</li></ol>",
+          "SI": "1. Kontrol materyallerini en az 15 dakika boyunca oda sıcaklığına (18-25 °C) getirin.<br /><br />2. Flakonun dibine çökmüş olan hücreler tamamen asılı konuma gelene kadar QC flakonunu alt-üst edin.<br /><br />Not: Mekanik karıştırıcı veya çalkalayıcı kullanmayın.<br /><br />3. Tüpü numune çekmecesindeki QC tüpü adaptörüne yükleyin.<br /><br />4. Analiz cihazı üzerindeki <b>Başlat</b> butonuna basın."
+        }
+      }
+    }
+  },
+  "URISED": {
+    "ARM_MOVEMENT": {
+      "body": "Bir Kartuş Hareket Kolu Hatası algılandı.<linebreak/>Başlatma ve temizlik işlemleri hatayı gidermelidir. Başlamak için <strong>Başlat</strong> düğmesine tıklayın.<linebreak/>Hata devam ederse lütfen IDEXX Destek birimi ile iletişime geçin.",
+      "title": "Kartuş Hareketi Kol Hatası"
+    },
+    "CAMERA_ERROR": {
+      "body": "Kamera hatası. Lütfen IDEXX Destek ile iletişime geçin.",
+      "title": "Kamera Hatası"
+    },
+    "CENTRIFUGE_ARM_MISSING": {
+      "body": "Santrifüj kolu yok. Lütfen IDEXX Destek ile iletişime geçin.",
+      "title": "Santrifüj Hatası"
+    },
+    "CENTRIFUGE_ROTATION_ERROR": {
+      "body": "Santrifüj dönüş hatası. Lütfen IDEXX Destek ile iletişime geçin.",
+      "title": "Santrifüj Hatası"
+    },
+    "CLEANING_RECOMMENDED": {
+      "body": "SediVue Dx İdrar Sedimentasyon Analiz Cihazınızı ayda bir kez temizlemenizi tavsiye ederiz.<linebreak/>Analiz cihazını şimdi temizlemek için <strong>Temizle</strong> seçeneğine tıklayın.<linebreak/>24 saat içinde hatırlatma almak için <strong>Daha sonra hatırlat</strong> seçeneğine tıklayın.<linebreak/>Analiz cihazınız zaten temizse <strong>Kapat</strong> seçeneğine tıklayın.",
+      "title": "Temizleme Tavsiye Ediliyor"
+    },
+    "CUVETTE_COUNT_LOW": {
+      "body": "Kalan kartuş: {{ 0 }}<linebreak/>Kılıf boşalana kadar analiz cihazını kullanmaya devam edebilirsiniz.<linebreak/>Analiz cihazınızı kesintisiz kullanabilmek için stoklarınızda ek kartuşlar bulunduğundan emin olun.",
+      "title": "SediVue Dx kartuş kılıfı neredeyse boşaldı"
+    },
+    "CUVETTE_COUNT_ZERO": {
+      "body": "SediVue kartuş kılıfı boş.<linebreak/>Analiz cihazınızı kullanabilmeniz için, SediVue kartuş kılıfı değiştirilmelidir.",
+      "title": "SediVue Dx Kartuş kılıfını değiştirin"
+    },
+    "CUVETTE_SENSOR_EMPTY": {
+      "body": "SediVue kartuş kılıfı boş veya kartuş düzgün yüklenmedi.<linebreak/>SediVue Dx kapağını açın ve kılıfta kartuş bulunup bulunmadığını kontrol edin. Kartuşlar varsa, kılıfa hafifçe vurun ve tekrar çalıştırın. Kartuşlar yoksa, analiz cihazına yeni bir kartuş kılıfını yüklemelisiniz.",
+      "title": "SediVue kartuşu algılanmadı"
+    },
+    "DOOR_OPEN": {
+      "body": "Kapak, SediVue Dx kullanılmadan önce kapatılmalıdır.",
+      "title": "Kapak Açık"
+    },
+    "FEEDER_MOVEMENT": {
+      "body": "Bir Kartuş Hareket Kolu Hatası algılandı.<linebreak/>Başlatma ve temizlik işlemleri hatayı gidermelidir. Başlamak için <strong>Başlat</strong> düğmesine tıklayın.<linebreak/>Hata devam ederse lütfen IDEXX Destek birimi ile iletişime geçin.",
+      "title": "Kartuş Hareketi Kol Hatası"
+    },
+    "FOCUS_DLL_NOT_FOUND": {
+      "body": "Focus dll bulunamadı. Müşteri Destek Servisi ile iletişime geçiniz.",
+      "title": "Odak Hatası"
+    },
+    "FOCUS_FUNCTION_MISSING": {
+      "body": "Odak fonksiyonlarından biri eksik. Lütfen IDEXX Destek ile iletişime geçin.",
+      "title": "Odak Hatası"
+    },
+    "FOCUS_HOME_POSITION_ERROR": {
+      "body": "Odak ana pozisyon hatası. Lütfen IDEXX Destek ile iletişime geçin.",
+      "title": "Odak Hatası"
+    },
+    "GENERAL_COMMUNICATION_ERROR": {
+      "body": "Genel iletişim hatası. Müşteri Destek Servisi ile iletişime geçiniz.",
+      "title": "İletişim Hatası"
+    },
+    "HOUSE_OPEN": {
+      "body": "Santrifüj kapağı, SediVue Dx kullanılmadan önce değiştirilmelidir.",
+      "title": "Santrifüj Kapağı Çıkarıldı"
+    },
+    "INSTRUMENT_PORT_OPEN_ERROR": {
+      "body": "Alet portu açık hatası. Müşteri Destek Servisi ile iletişime geçiniz.",
+      "title": "Alet Portu Hatası"
+    },
+    "MEMORY_ALLOCATION_ERROR": {
+      "body": "Mesaj modülünde bellek atama hatası. Müşteri Destek Servisi ile iletişime geçiniz.",
+      "title": "Bellek Hatası"
+    },
+    "MICROSCOPE_CTS_TIMEOUT": {
+      "body": "Mikroskop CTS'de zaman aşımı. Müşteri Destek Servisi ile iletişime geçiniz.",
+      "title": "Mikroskop Hatası"
+    },
+    "MICROSCOPE_THREAD_CREATION_ERROR": {
+      "body": "Mikroskop dizisi oluşturma hatası. Lütfen IDEXX Destek ile iletişime geçin.",
+      "title": "Dizi Oluşturma Hatası"
+    },
+    "MOTY_MOVEMENT": {
+      "body": "Bir Kartuş Hareket Kolu Hatası algılandı.<linebreak/>Başlatma ve temizlik işlemleri hatayı gidermelidir. Başlamak için <strong>Başlat</strong> düğmesine tıklayın.<linebreak/>Hata devam ederse lütfen IDEXX Destek birimi ile iletişime geçin.",
+      "title": "Kartuş Hareketi Kol Hatası"
+    },
+    "PLATE_MISSING": {
+      "body": "Damlama tepsisi, SediVue Dx kullanılmadan önce değiştirilmelidir.",
+      "title": "Damlama Tepsisi Çıkarıldı"
+    },
+    "PORT_THREAD_NOT_STARTED": {
+      "body": "Port dizisi başlatılamıyor.",
+      "title": "Port Dizisi Hatası"
+    },
+    "PROTOCOL_CLASS_CREATION_ERROR": {
+      "body": "Protokol sınıfı oluşturma hatası. Müşteri Destek Servisi ile iletişime geçiniz.",
+      "title": "Protokol Hatası"
+    },
+    "PROTOCOL_USAGE_UNDEFINED": {
+      "body": "Protokol kullanımı tanımlanmamış. Müşteri Destek Servisi ile iletişime geçiniz.",
+      "title": "Protokol Hatası"
+    },
+    "SERIAL_PORT_NOT_FOUND": {
+      "body": "Seri port bulunamadı. Müşteri Destek Servisi ile iletişime geçiniz.",
+      "title": "Seri Port Hatası"
+    },
+    "SERIAL_PORT_UNAVAILABLE": {
+      "body": "PC'de seri port yok. Müşteri Destek Servisi ile iletişime geçiniz.",
+      "title": "Seri Port Hatası"
+    },
+    "SMART_SERVICE_DISCONNECTED": {
+      "body": "SmartService 5 günden daha fazla süre boyunca bağlanmadı. SediVue Dx ile optimum deneyiminizi sağlamak için, lütfen yeniden bağlayın.",
+      "title": "SmartService Ayrıldı"
+    },
+    "SYSTEM_REBOOT_RECOMMENDED": {
+      "body": "IDEXX, en iyi performansı elde etmek için SediVue Dx Analiz Cihazınızı aylık olarak yeniden başlatmanızı önerir.<linebreak/>Analiz cihazınızı şimdi yeniden başlatmak ister misiniz?\n",
+      "title": "Tekrar Başlatma Önerildi"
+    },
+    "TOO_MANY_SERIAL_PORTS_DEFINED": {
+      "body": "Ini'de çok fazla seri port tanımlanmış. Müşteri Destek Servisi ile iletişime geçiniz.",
+      "title": "Seri Port Hatası"
+    },
+    "UPDATE_AVAILABLE": {
+      "body": "SediVue Dx Aletleri ekranında Yükseltme Yazılımı seçeneğini kullanarak analiz cihazını istediğiniz zaman yükseltebilirsiniz.",
+      "noUpgradeWarning": "Analiz cihazını {{ dateFormat }} tarihine kadar yükseltmezseniz, yükseltme otomatik olarak yüklenecektir.",
+      "title": "Yazılım yükseltme sürümü {{ version }} yüklenmeye hazır."
+    },
+    "UPDATE_FAILED": {
+      "body": "SediVue Dx analiz cihazı yükseltmesi başarısız oldu. Sorunu çözmek için, yükseltme prosedürünü şimdi tekrarlayın veya SediVue Dx Cihazı ekranındaki Yazılımı Yükselt seçeneğini kullanarak daha sonra yükseltin.<linebreak/>Sorun devam ederse IDEXX Destek birimi ile iletişime geçin.",
+      "title": "Yazılım Yükseltmesi Başarısız"
+    },
+    "UPDATE_FAILED_CATASTROPHIC": {
+      "body": "Yardım almak için lütfen IDEXX Destek ile iletişime geçin.",
+      "title": "Yazılım Yükseltmesi Başarısız"
+    },
+    "WAKE_ON_LAN_FAILURE_TIMEOUT": {
+      "body": "Analiz cihazı açıksa kapatın. IDEXX VetLab yönlendiricisine bağlı olduğundan emin olun.<linebreak/>Ardından analiz cihazını açmak için üzerindeki <strong>açma/kapatma düğmesine basın</strong>.<linebreak/>Sorun devam ederse IDEXX Destek birimi ile iletişime geçin.",
+      "title": "SediVue Dx saptanmadı"
+    }
+  },
+  "URISYS_DX": {
+    "E1_REFERENCE_PAD_ERROR_MIDDLE_ERROR": {
+      "body": "Strip tablası kirli veya hasarlı.<shortlinebreak /><ol><li>Strip tablasını analiz cihazından çıkarın.</li><li>Beyaz referans pedini alkollü ve tüy bırakmayan bir bezle temizleyin.</li><li>Strip tablasını tekrar analiz cihazına yerleştirin ve yeniden çalıştırın.</li></ol>Sorun devam ederse strip tablasını değiştirin veya IDEXX Dest Birimini arayın.",
+      "title": "Referans Pedi Hatası"
+    },
+    "E2_WRONG_STRIP_ERROR": {
+      "body": "Kalibre ediyorsanız:<shortlinebreak /><ol><li>Bir IDEXX kalibrasyon stribi kullanarak yeniden test edin.</li><li>Stribin tablaya tam olarak yerleştiğinden emin olun.</li></ol>Bir numune ile çalışıyorsanız:<shortlinebreak /><ol><li>Bir IDEXX test stribi kullanarak yeniden çalışın.</li><li>Strip üzerine yeterli numune konulduğundan emin olun.</li><li>Stribin tablaya tam olarak yerleştiğinden emin olun.</li></ol>Sorun devam ederse IDEXX Destek servisiyle iletişime geçin.",
+      "title": "Strip Hatası"
+    },
+    "E3_STRIP_MEASUREMENT_ERROR": {
+      "body": "<ol><li>Bir IDEXX test stribi kullanarak yeniden çalışın.</li><li>Stribe yeterli miktarda numune uygulandığından emin olun.</li><li>Stribin tablaya düzgün bir şekilde yerleştiğinden emin olun.</li></ol><strong>Numune koyu renkliyse:</strong><shortlinebreak />Numuneyi santrifüj edin ve süpernatantı ve yeni bir test stribini kullanarak yeniden çalışın.<linebreak />Hata devam ederse IDEXX Destek birimi ile iletişime geçin.",
+      "title": "Ölçüm Hatası"
+    },
+    "E4_CALIBRATION_ERROR": {
+      "body": "Analiz cihazı kalibre edilemedi. Yardım almak için lütfen IDEXX Destek ile iletişime geçin.",
+      "title": "Kalibrasyon Hatası"
+    },
+    "E5_CALIBRATION_INVALID_ERROR": {
+      "body": "Analiz cihazı kalibre edilemedi. Yardım almak için lütfen IDEXX Destek ile iletişime geçin.",
+      "title": "Kalibrasyon Hatası"
+    },
+    "E7_MISSING_TRAY_ERROR": {
+      "body": "Strip tablası yok veya yerinden çıkmış.<shortlinebreak /><ol><li>Strip tablasını tekrar yerine oturtun.</li><li><strong>Başlat</strong> düğmesine dokunun.</li><li>Sorun devam ederse strip tablasını yenisiyle değiştirin.</li></ol>Sorun devam ederse IDEXX Destek servisiyle iletişime geçin.",
+      "title": "Strip Tablası Yok"
+    },
+    "E8_TRAY_POSITION_ERROR": {
+      "body": "Strip tablası hasarlı, kirli veya yerinden çıkmış.<shortlinebreak /><ol><li>Strip tablasını analiz cihazından çıkarın.</li><li>Tablayı alkollü ve tüy bırakmayan bir bezle temizleyin.</li><li>Strip tablasını tekrar analiz cihazına yerleştirin ve <strong>Başlat</strong> düğmesine dokunun.</li><li>Yeniden çalıştırmak için hasta simgesine dokunun.</li></ol>Sorun devam ederse strip tablasını yeni bir tepsiyle değiştirin veya IDEXX Destek birimi ile iletişime geçin.",
+      "title": "Strip Tablası Hatası"
+    },
+    "E9_WRONG_TRAY_ERROR": {
+      "body": "<ol><li>Strip tablasını yenisiyle değiştirin.</li><li><strong>Başlat</strong> düğmesine dokunun.</li></ol>Sorun devam ederse IDEXX Destek servisiyle iletişime geçin.",
+      "title": "Strip Tablası Hatalı"
+    },
+    "E10_LIGHT_BARRIER_ERROR": {
+      "body": "<ol><li>Strip tablasını analiz cihazından çıkarın.</li><li>Tablayı alkollü ve tüy bırakmayan bir bezle temizleyin.</li><li>Strip tablasını tekrar analiz cihazına yerleştirin ve <strong>Başlat</strong> düğmesine dokunun.</li></ol>Sorun devam ederse strip tablasını yeni bir tepsiyle değiştirin veya IDEXX Destek birimi ile iletişime geçin.",
+      "title": "Işık Bariyeri Hatası"
+    },
+    "E11_MOTOR_STEP_ERROR": {
+      "body": "Strip tablası doğru hareket etmiyor.<shortlinebreak /><ol><li>Strip tablasını analiz cihazından çıkarın.</li><li>Tablayı alkollü ve tüy bırakmayan bir bezle temizleyin.</li><li>Strip tablasını tekrar analiz cihazına yerleştirin ve <strong>Başlat</strong> düğmesine dokunun.</li></ol>Sorun devam ederse strip tablasını yeni bir tepsiyle değiştirin veya IDEXX Destek birimi ile iletişime geçin.",
+      "title": "Motor Adımı Hatası"
+    },
+    "E12_OPTICS_ERROR": {
+      "body": "<ol><li>Strip tablasını analiz cihazından çıkarın ve yeni bir tabla takın.</li><li><strong>Başlat</strong> düğmesine dokunun.</li></ol>Hata devam ederse IDEXX Destek birimi ile iletişime geçin.",
+      "title": "Optik Hata"
+    },
+    "E15_REFERENCE_PAD_BOTTOM_ERROR": {
+      "body": "Strip tablası kirli veya hasarlı.<shortlinebreak /><ol><li>Strip tablasını analiz cihazından çıkarın.</li><li>Beyaz referans pedini alkollü ve tüy bırakmayan bir bezle temizleyin.</li><li>Strip tablasını tekrar analiz cihazına yerleştirin ve yeniden çalıştırın.</li></ol>Sorun devam ederse strip tablasını değiştirin veya IDEXX Dest Birimini arayın.",
+      "title": "Referans Pedi Hatası"
+    },
+    "E16_REFERENCE_PAD_TOP_ERROR": {
+      "body": "Strip tablası kirli veya hasarlı.<shortlinebreak /><ol><li>Strip tablasını analiz cihazından çıkarın.</li><li>Beyaz referans pedini alkollü ve tüy bırakmayan bir bezle temizleyin.</li><li>Strip tablasını tekrar analiz cihazına yerleştirin ve yeniden çalıştırın.</li></ol>Sorun devam ederse strip tablasını değiştirin veya IDEXX Dest Birimini arayın.",
+      "title": "Referans Pedi Hatası"
+    },
+    "E24_COMP_PAD_REMISSIONS_OUT_OF_RANGE_ERROR": {
+      "body": "Stripte yeterli miktarda numune olduğundan ve stripini strip tablasına düzgün bir şekilde yerleştirildiğinden emin olduktan sonra yeni bir test stripi kullanarak yeniden çalışın.<linebreak /><strong>Numune koyu renkliyse</strong>:<shortlinebreak />Numuneyi santrifüj edin ve süpernatantı ve yeni bir test stripini kullanarak yeniden çalışın.<linebreak />Hata devam ederse IDEXX Destek birimi ile iletişime geçin.",
+      "title": "Sonuç Referans Aralığı Dışında"
+    },
+    "E25_SYSTEM_EPROM_ERROR": {
+      "body": "UA Analiz Cihazı’nı yeniden başlatın: <shortlinebreak /><ol><li>UA Analiz Cihazı’nı kapatmak için <strong>Gücü Kapatma</strong> butonuna dokunun.</li><li>60 saniye sonra analiz cihazının sağ tarafında bulunan güç butonunu kullanarak UA Analiz Cihazı’nı açın.</li></ol>Sorun devam ederse IDEXX Destek birimiyle iletişime geçin.",
+      "title": "Yeniden Başlatma Gerekli"
+    },
+    "E27_USER_CALIBRATION_IS_REQUIRED_ERROR": {
+      "body": "UA Analiz Cihazı, doğru sonuç almayı sürdürmek için 7 günde bir kalibre edilmelidir.<shortlinebreak /> Haftalık kalibrasyonu başlatmak için <strong>Kalibre Et</strong> butonuna dokunun.",
+      "title": "Kalibrasyon Gerekli"
+    },
+    "E29_DATABASE_ERROR": {
+      "body": "UA Analiz Cihazı’nı yeniden başlatın:<shortlinebreak /><ol><li> UA Analiz Cihazı’nı kapatmak için <strong>Gücü Kapatma</strong> butonuna dokunun.</li><li>60 saniye sonra analiz cihazının sağ tarafında bulunan güç butonunu kullanarak UA Analiz Cihazı’nı açın.</li></ol>Sorun devam ederse IDEXX Destek birimiyle iletişime geçin.",
+      "title": "Yeniden Başlatma Gerekli"
+    },
+    "E30_SYSTEM_INITIALIZATION_ERROR": {
+      "body": "UA Analiz Cihazı’nı yeniden başlatın: <shortlinebreak /><ol><li>UA Analiz Cihazı’nı kapatmak için <strong>Gücü Kapatma</strong> butonuna dokunun.</li><li>60 saniye sonra analiz cihazının sağ tarafında bulunan güç butonunu kullanarak UA Analiz Cihazı’nı açın.</li></ol>Sorun devam ederse IDEXX Destek birimiyle iletişime geçin.",
+      "title": "Yeniden Başlatma Gerekli"
+    },
+    "E33_SYSTEM_ERROR": {
+      "body": "UA Analiz Cihazı’nı yeniden başlatın: <shortlinebreak /><ol><li>UA Analiz Cihazı’nı kapatmak için <strong>Gücü Kapatma</strong> butonuna dokunun.</li><li>60 saniye sonra analiz cihazının sağ tarafında bulunan güç butonunu kullanarak UA Analiz Cihazı’nı açın.</li></ol>Sorun devam ederse IDEXX Destek birimiyle iletişime geçin.",
+      "title": "Yeniden Başlatma Gerekli"
+    },
+    "E100_POWERSUPPLY_ERROR": {
+      "body": "UA Analiz Cihazı’nın <strong>Gücünü Kapatın</strong>:<ol><li>UA Analiz Cihazı’nı kapatmak için <strong>Gücü Kapatma</strong> butonuna dokunun.</li><li>Doğru güç kaynağının, analiz cihazının arkasındaki güç portuna ve elektrik prizine sıkıca oturtulduğunu onaylayın.</li><li>60 saniye sonra analiz cihazının sağ tarafında bulunan güç butonuna basarak analiz cihazını açın.</li></ol>Sorun devam ederse IDEXX Destek birimiyle iletişime geçin.",
+      "title": "Yeniden Başlatma ve Kablo İnceleme Gerekli"
+    },
+    "UPDATE_AVAILABLE": {
+      "body": "Daha sonra yüklemeyi tercih ederseniz, istediğiniz zaman UA Analiz Cihazının Cihazlar ekranına giderek analiz cihazını yükseltebilirsiniz.",
+      "title": "Yazılım yükseltme sürümü {{ version }} yüklenmeye hazır."
+    },
+    "UPDATE_FAILED": {
+      "body": "UA Analiz Cihazının yükseltmesi başarısız oldu. Sorunu çözmek için yükseltme işlemini şimdi tekrarlayın veya UA Analiz Cihazının Cihaz ekranına giderek daha sonra yükseltin.<linebreak/>Sorun devam ederse IDEXX Destek birimi ile iletişime geçin.",
+      "title": "Yazılım Yükseltmesi Başarısız"
+    },
+    "UPDATE_FAILED_CATASTROPHIC": {
+      "body": "Yardım almak için lütfen IDEXX Destek birimini arayın.",
+      "title": "Yazılım Yükseltmesi Başarısız"
+    }
+  },
+  "THEIA": {
+    "INST_TEMP_LOW": {
+      "body": "Analiz cihazının sıcaklığı, numune çalışması başlatılamayacak kadar düşük. Lütfen analiz cihazının ısınmasını bekleyin ya da oda sıcaklığını kontrol edin.<linebreak/>Sorun devam ederse IDEXX Destek birimi ile iletişime geçin."
+    },
+    "INST_TEMP_HIGH": {
+      "body": "Analiz cihazının çalışma sıcaklığı, örnek çalışması başlatılamayacak kadar yüksek. Lütfen analiz cihazının etrafında yeterli hava akışı olduğundan emin olun.<linebreak/>Sorun devam ederse IDEXX Destek birimi ile iletişime geçin."
+    },
+    "INVALID_CONSUMABLES": {
+      "body": "Bu bir IDEXX inVue Dx kartuşu değil. Numuneyi bir IDEXX kartuşuyla yeniden çalıştırın."
+    },
+    "EXPIRED_CONSUMABLES": {
+      "body": "Kartuşun son kullanma tarihi geçmiş. Numuneyi son kullanma tarihi geçmemiş yeni bir kartuşla yeniden çalıştırın."
+    },
+    "BARCODE_READ_FAILURE": {
+      "body": "Barkod okunamıyor. Barkodda hasar veya engel olup olmadığını kontrol edin, barkodu temizleyin veya barkodu elle girin."
+    },
+    "INCORRECT_TEST_TYPE_MANUAL": {
+      "body": "Barkod, seçilen test tipiyle eşleşmiyor. Lütfen doğru barkodu girin."
+    },
+    "INCORRECT_TEST_TYPE": {
+      "body": "Bu, seçilen test tipi için yanlış kartuş. Numuneyi doğru kartuşla yeniden çalıştırın."
+    },
+    "SAMPLE_OVER_TEMP": {
+      "body": "Sistem sıcaklığı, numune çalışması sırasında çok yüksek. Ortamınızı inVue numune çalışmasına elverişli bir sıcaklığa ayarlamak için kullanıcı kılavuzunu kontrol edin."
+    },
+    "SAMPLE_UNDER_TEMP": {
+      "body": "Sistem sıcaklığı, numune çalışması sırasında çok düşük. Ortamınızı inVue numune çalışmasına elverişli bir sıcaklığa ayarlamak için kullanıcı kılavuzunu kontrol edin."
+    },
+    "IMPROPER_SAMPLE_PREPARATION": {
+      "body": "Numunedeki reaktif eksik olabilir. Yeni bir numune hazırlayın ve yeniden çalıştırın.<linebreak/>Sorun devam ederse IDEXX Destek birimi ile iletişim kurun."
+    },
+    "SAMPLE_CELLULARITY_HIGH": {
+      "body": "Numune analiz edilemiyor. Yeni bir numune hazırlayın ve yeniden çalıştırın."
+    },
+    "MOTION_ERROR_CARTRIDGE": {
+      "body": "Kartuş doğru konumda değil. Kartuşu yeniden takmayı deneyin.<linebreak/>Sorun devam ederse IDEXX Destek birimi ile iletişim kurun."
+    },
+    "MOTION_ERROR_MICROSCOPE": {
+      "body": "Mikroskop doğru konumda değil. Kartuşu yeniden takmayı deneyin.<linebreak/>Sorun devam ederse IDEXX Destek birimi ile iletişim kurun."
+    },
+    "UNKNOWN_ERROR": {
+      "body": "Çalışma iptal edildi.<linebreak/>Sorun devam ederse IDEXX Destek birimi ile iletişim kurun."
+    }
+  },
+  "default": {
+    "message": "Cihaz bir uyarı rapor etmiştir. Daha fazla bilgi için Kullanma Kılavuzu’na bakınız."
+  },
+  "buttons": {
+    "start": "Başlat",
+    "powerOnProCyteDx": "ProCyte Dx’i Açın",
+    "performClean": "Temizlik Yapın"
+  },
+  "defaultActionButtons": {
+    "ASPIRATION_UNIT_MOTOR": "Aspirasyon Motorunu Sıfırlayın",
+    "CALIBRATE": "Kalibre Edin",
+    "CANCEL": "İptal",
+    "CANCEL_RUN": "Çalışmayı İptal Et",
+    "CHANGE_REAGENT": "Reaktif Değiştirin",
+    "CHANGE_STAIN": "Stain Değiştirin",
+    "CLEAN": "Temizleyin",
+    "CLEAR_PINCH_VALUE": "Sıkıştırma Kapakçığı Temizleyin",
+    "CLOSE": "Kapat",
+    "CONFIGURE": "Yapılandırın",
+    "CONNECT": "Bağlanın",
+    "CONTINUE": "Devam",
+    "DISMISS": "Kapat",
+    "DRAIN_REACTION_CHAMBER": "Reaksiyon Bölmesini Boşaltın",
+    "DRAIN_WASTE_CHAMBER": "Atık Bölmesini Boşaltın",
+    "ENTER_REAGENT_BARCODE": "Manuel Olarak Girin",
+    "ENTER_SHEATH_BARCODE": "Manuel Olarak Girin",
+    "FILTER_INSTRUCTIONS": "Filtre Talimatları",
+    "FINISH": "Bitir",
+    "INITIALIZE": "Başlat",
+    "OK": "Tamam",
+    "OK_REMOVE": "Tamam",
+    "OPTIMIZE_LATER": "Daha Sonra Optimize Edin",
+    "OPTIMIZE_NOW": "Şimdi Optimize Edin",
+    "PINCH_VALVE": "Sıkıştırma Kapakçığı Temizleyin",
+    "POWER_DOWN": "Gücü Kapatma",
+    "REBOOT_INSTRUMENT": "Yeniden Başlat",
+    "REMIND_ME_LATER": "Daha Sonra Hatırlat",
+    "REMIND_ME_NEXT_RUN": "Sonraki Çalıştırmayı Bana Hatırlat",
+    "REMIND_ME_WHEN_EMPTY": "Bittiğinde Bana Hatırlat",
+    "REMOVE_CLOGS": "Pıhtıyı Temizle",
+    "REPLACE_CUVETTES": "Kartuşları Değiştirin",
+    "REPLACE_FILTER": "Filtreyi Değiştirin",
+    "REPLACE_REAGENT": "Reaktifi Değiştirin",
+    "REPLACE_SHEATH": "Kılıfı Değiştirin",
+    "REPLACE_SMART_QC": "SmartQC’yi Değiştirin",
+    "RESET_AIR_PUMP": "Hava Pompasını Sıfırlayın",
+    "RESET_SHEATH_MOTOR": "Sheath Motoru Sıfırlayın",
+    "RESET_WB_MOTOR": "WB Motorunu Sıfırlayın",
+    "RINSE_FLOW_CELL": "Hücre Akım Bölmesini Temizle",
+    "AUTO_RINSE": "Otomatik Temizlik Çalıştır",
+    "RUN_BLEACH_CLEAN": "Kimyasal Temizliği Başlat",
+    "MONTHLY_RINSE": "“Aylık Temizlik”i çalıştır",
+    "START_PRIME": "Kullanıma Hazır Hale Getir",
+    "TUBE_HOLDER_MOTOR": "Tüp Motorunu Sıfırla",
+    "UPGRADE": "Yükselt",
+    "UPGRADE_LATER": "Daha Sonra Yükselt",
+    "UPGRADE_SOFTWARE": "Şimdi Güncelle",
+    "PRINT": "Yazdır",
+    "FORCE_RUN": "Yoksay",
+    "ENTER_THEIA_BARCODE": "Barkod’u Girin"
+  },
+  "QualityControl": {
+    "PatientName": {
+      "Level1": "ProCyte Dx QC Seviye 1",
+      "Level2": "ProCyte Dx QC Seviye 2"
+    }
+  }
+}

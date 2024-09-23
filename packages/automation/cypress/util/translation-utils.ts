@@ -1,0 +1,28 @@
+import { InstrumentType } from "@viewpoint/api";
+
+export const INSTRUMENT_NAMES: Record<InstrumentType, string> = {
+  LASERCYTE: "LaserCyte",
+  VETTEST: "VetTest",
+  AUTOREADER: "VetAutoread",
+  SNAPREADER: "SNAP Reader",
+  VETLYTE: "VetLyte",
+  VETSTAT: "VetStat",
+  UA_ANALYZER: "UA Analyzer",
+  URISYS_DX: "UA Analyzer",
+  SNAP: "SNAP",
+  CATALYST_DX: "Catalyst Dx",
+  SNAPSHOT_DX: "SNAPshot Dx",
+  COAG_DX: "Coag Dx",
+  CRIMSON: "ProCyte Dx",
+  LASERCYTE_DX: "LaserCyte Dx",
+  SNAPPRO: "SNAP Pro",
+  CATONE: "Catalyst One",
+  URISED: "SediVue Dx",
+  MANUAL_UA: "Manual UA",
+  MANUAL_CRP: "Manual CRP",
+  ACADIA_DX: "ProCyte One",
+  INTERLINK_PIMS: "PIMS",
+  SERIAL_PIMS: "PIMS",
+  THEIA: "inVue Dx",
+  TENSEI: "IDEXX ProCyte Dx",
+};

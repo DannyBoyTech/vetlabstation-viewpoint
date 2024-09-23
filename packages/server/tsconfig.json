@@ -1,0 +1,12 @@
+{
+  "extends": "@tsconfig/node16-strictest/tsconfig.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "dist",
+    "skipLibCheck": true,
+    "exactOptionalPropertyTypes": false,
+    "types": ["vitest/globals"]
+  },
+  "include": ["src/**/*"],
+  "exclude": ["src/**/*.test.[jt]s"]
+}

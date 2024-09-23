@@ -1,0 +1,94 @@
+name: Check Pull Request
+
+on:
+  pull_request:
+    branches:
+      - main
+      - release/v*
+
+permissions:
+  id-token: write
+  checks: write
+  contents: read
+  packages: read
+
+jobs:
+  pr-checks:
+    env:
+      NODE_OPTIONS: --max-old-space-size=6144
+      RP_API_KEY: ${{ secrets.RP_API_KEY }}
+      RP_ENDPOINT: ${{ secrets.RP_ENDPOINT }}
+      RP_PROJECT: ${{ secrets.RP_PROJECT }}
+
+    runs-on: ubuntu-20.04
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: nodejs lts/hydrogen (18.x)
+        uses: actions/setup-node@v2
+        with:
+          node-version: lts/hydrogen
+
+      - name: update npm
+        run: npm install -g npm@10.2.3
+
+      # setup private repo w/ gh encrypted secrets
+      - run: >
+          npm config set
+          '@idexx:registry'
+          'https://npm.pkg.github.com'
+
+      - run: >
+          npm config set
+          '//npm.pkg.github.com/:_authToken'
+          "${{ secrets.GITHUB_TOKEN }}"
+
+      - run: >
+          npm config set
+          '//npm.pkg.github.com/:email'
+          "viewpoint@idexx.com"
+
+      - name: Install all dependencies
+        run: npm ci --workspaces --include-workspace-root
+
+      - name: run format check
+        run: npm run format:check
+
+      - name: run lint checks
+        run: npm run lint
+
+      - name: Build Storybook
+        run: npm run build-storybook
+
+      - name: Run build
+        run: npm run build:check
+
+      - name: run component tests
+        run: npm run test --workspaces --if-present
+
+      - name: Start production UI in the background
+        # See: https://github.com/cypress-io/github-action/issues/811
+        run: npm run --workspace @viewpoint/ui preview:ci -- --host &
+
+      - name: UI tests
+        uses: cypress-io/github-action@v5
+        env:
+          RP_LAUNCH_NAME: "ViewPoint UI Automation"
+          AUTOMATION_SUITE: UI
+        with:
+          install: false
+          working-directory: packages/automation
+          wait-on: http://127.0.0.1:5173
+
+      - uses: actions/upload-artifact@v3
+        if: always()
+        with:
+          name: ui-screenshots
+          path: packages/automation/cypress/screenshots/
+
+      - uses: actions/upload-artifact@v3
+        if: always()
+        with:
+          name: ui-videos
+          path: packages/automation/cypress/videos/

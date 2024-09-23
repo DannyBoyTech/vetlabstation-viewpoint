@@ -1,0 +1,792 @@
+{
+  "LASERCYTE": {
+    "2": [
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 4,
+        "name": "WHOLEBLOOD",
+        "default": true
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 8,
+        "name": "ABDOMINAL",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 9,
+        "name": "SYNOVIAL",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 11,
+        "name": "THORACIC",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 12,
+        "name": "OTHER",
+        "default": false
+      }
+    ],
+    "3": [
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 4,
+        "name": "WHOLEBLOOD",
+        "default": true
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 8,
+        "name": "ABDOMINAL",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 9,
+        "name": "SYNOVIAL",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 11,
+        "name": "THORACIC",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 12,
+        "name": "OTHER",
+        "default": false
+      }
+    ],
+    "4": [
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 4,
+        "name": "WHOLEBLOOD",
+        "default": true
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 8,
+        "name": "ABDOMINAL",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 9,
+        "name": "SYNOVIAL",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 11,
+        "name": "THORACIC",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 12,
+        "name": "OTHER",
+        "default": false
+      }
+    ],
+    "unknown": [
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 4,
+        "name": "WHOLEBLOOD",
+        "default": true
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 8,
+        "name": "ABDOMINAL",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 9,
+        "name": "SYNOVIAL",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 11,
+        "name": "THORACIC",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 12,
+        "name": "OTHER",
+        "default": false
+      }
+    ]
+  },
+  "CRIMSON": {
+    "2": [
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 4,
+        "name": "WHOLEBLOOD",
+        "default": true
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 8,
+        "name": "ABDOMINAL",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 9,
+        "name": "SYNOVIAL",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 11,
+        "name": "THORACIC",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 12,
+        "name": "OTHER",
+        "default": false
+      }
+    ],
+    "3": [
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 4,
+        "name": "WHOLEBLOOD",
+        "default": true
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 8,
+        "name": "ABDOMINAL",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 9,
+        "name": "SYNOVIAL",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 11,
+        "name": "THORACIC",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 12,
+        "name": "OTHER",
+        "default": false
+      }
+    ],
+    "4": [
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 4,
+        "name": "WHOLEBLOOD",
+        "default": true
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 8,
+        "name": "ABDOMINAL",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 9,
+        "name": "SYNOVIAL",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 11,
+        "name": "THORACIC",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 12,
+        "name": "OTHER",
+        "default": false
+      }
+    ],
+    "unknown": [
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 4,
+        "name": "WHOLEBLOOD",
+        "default": true
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 8,
+        "name": "ABDOMINAL",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 9,
+        "name": "SYNOVIAL",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 11,
+        "name": "THORACIC",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 12,
+        "name": "OTHER",
+        "default": false
+      }
+    ]
+  },
+  "TENSEI": {
+    "2": [
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 4,
+        "name": "WHOLEBLOOD",
+        "default": true
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 8,
+        "name": "ABDOMINAL",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 9,
+        "name": "SYNOVIAL",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 11,
+        "name": "THORACIC",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 12,
+        "name": "OTHER",
+        "default": false
+      }
+    ],
+    "3": [
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 4,
+        "name": "WHOLEBLOOD",
+        "default": true
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 8,
+        "name": "ABDOMINAL",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 9,
+        "name": "SYNOVIAL",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 11,
+        "name": "THORACIC",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 12,
+        "name": "OTHER",
+        "default": false
+      }
+    ],
+    "4": [
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 4,
+        "name": "WHOLEBLOOD",
+        "default": true
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 8,
+        "name": "ABDOMINAL",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 9,
+        "name": "SYNOVIAL",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 11,
+        "name": "THORACIC",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 12,
+        "name": "OTHER",
+        "default": false
+      }
+    ],
+    "unknown": [
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 4,
+        "name": "WHOLEBLOOD",
+        "default": true
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 8,
+        "name": "ABDOMINAL",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 9,
+        "name": "SYNOVIAL",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 11,
+        "name": "THORACIC",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 12,
+        "name": "OTHER",
+        "default": false
+      }
+    ]
+  },
+  "LASERCYTE_DX": {
+    "2": [
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 4,
+        "name": "WHOLEBLOOD",
+        "default": true
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 8,
+        "name": "ABDOMINAL",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 9,
+        "name": "SYNOVIAL",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 11,
+        "name": "THORACIC",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 12,
+        "name": "OTHER",
+        "default": false
+      }
+    ],
+    "3": [
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 4,
+        "name": "WHOLEBLOOD",
+        "default": true
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 8,
+        "name": "ABDOMINAL",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 9,
+        "name": "SYNOVIAL",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 11,
+        "name": "THORACIC",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 12,
+        "name": "OTHER",
+        "default": false
+      }
+    ],
+    "4": [
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 4,
+        "name": "WHOLEBLOOD",
+        "default": true
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 8,
+        "name": "ABDOMINAL",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 9,
+        "name": "SYNOVIAL",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 11,
+        "name": "THORACIC",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 12,
+        "name": "OTHER",
+        "default": false
+      }
+    ],
+    "unknown": [
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 4,
+        "name": "WHOLEBLOOD",
+        "default": true
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 8,
+        "name": "ABDOMINAL",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 9,
+        "name": "SYNOVIAL",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 11,
+        "name": "THORACIC",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 12,
+        "name": "OTHER",
+        "default": false
+      }
+    ]
+  },
+  "URISED": {
+    "2": [
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 6,
+        "name": "URINE",
+        "default": true
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 8,
+        "name": "ABDOMINAL",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 9,
+        "name": "SYNOVIAL",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 11,
+        "name": "THORACIC",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 12,
+        "name": "OTHER",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 14,
+        "name": "CSF",
+        "default": false
+      }
+    ],
+    "3": [
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 6,
+        "name": "URINE",
+        "default": true
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 8,
+        "name": "ABDOMINAL",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 9,
+        "name": "SYNOVIAL",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 11,
+        "name": "THORACIC",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 12,
+        "name": "OTHER",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 14,
+        "name": "CSF",
+        "default": false
+      }
+    ],
+    "4": [
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 6,
+        "name": "URINE",
+        "default": true
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 8,
+        "name": "ABDOMINAL",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 9,
+        "name": "SYNOVIAL",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 11,
+        "name": "THORACIC",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 12,
+        "name": "OTHER",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 14,
+        "name": "CSF",
+        "default": false
+      }
+    ],
+    "unknown": [
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 6,
+        "name": "URINE",
+        "default": true
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 8,
+        "name": "ABDOMINAL",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 9,
+        "name": "SYNOVIAL",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 11,
+        "name": "THORACIC",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 12,
+        "name": "OTHER",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 14,
+        "name": "CSF",
+        "default": false
+      }
+    ]
+  },
+  "ACADIA_DX": {
+    "2": [
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 4,
+        "name": "WHOLEBLOOD",
+        "default": true
+      }
+    ],
+    "3": [
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 4,
+        "name": "WHOLEBLOOD",
+        "default": true
+      }
+    ],
+    "4": [
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 4,
+        "name": "WHOLEBLOOD",
+        "default": true
+      }
+    ],
+    "unknown": [
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 4,
+        "name": "WHOLEBLOOD",
+        "default": true
+      }
+    ]
+  },
+  "THEIA": {
+    "2": [
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 15,
+        "name": "EAR_SWAB",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 16,
+        "name": "FNA",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 17,
+        "name": "BLOOD",
+        "default": false
+      }
+    ],
+    "3": [
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 15,
+        "name": "EAR_SWAB",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 16,
+        "name": "FNA",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 17,
+        "name": "BLOOD",
+        "default": false
+      }
+    ],
+    "4": [
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 15,
+        "name": "EAR_SWAB",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 16,
+        "name": "FNA",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 17,
+        "name": "BLOOD",
+        "default": false
+      }
+    ],
+    "unknown": [
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 15,
+        "name": "EAR_SWAB",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 16,
+        "name": "FNA",
+        "default": false
+      },
+      {
+        "@class": "com.idexx.labstation.core.dto.SampleTypeDto",
+        "id": 17,
+        "name": "BLOOD",
+        "default": false
+      }
+    ]
+  }
+}

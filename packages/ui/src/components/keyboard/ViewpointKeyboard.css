@@ -1,0 +1,57 @@
+/* Apply SPOT font to keyboard keys and clear the background color */
+.vp-keyboard-theme {
+  font-family: "Roboto", sans-serif;
+  background-color: #f0f0f0;
+}
+
+/* Use SPOT active color for active keys. */
+.vp-keyboard-theme .hg-button.hg-activeButton,
+.vp-keyboard-theme .hg-button.highlighted {
+  background-color: #cdedff;
+}
+
+/* Center-align keys within a row */
+.vp-keyboard-theme .hg-row {
+  justify-content: center;
+}
+
+/* Add additional space between rows */
+.vp-keyboard-theme .hg-row:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+/* Add additional space between keys */
+.vp-keyboard-theme .hg-row .hg-button:not(:last-child) {
+  margin-right: 10px;
+}
+
+.vp-keyboard-theme .hg-button {
+  /* Fixed height of 50px for all keys */
+  min-height: 50px;
+  max-height: 50px;
+  /* Set flex to 0 to prevent keys from filling the empty space */
+  flex: 0;
+  /* Remove library styles, apply SPOT border */
+  box-shadow: unset;
+  border-radius: 4px;
+  border: 1px solid #d0d1d0;
+}
+
+/* Fixed width of 70px for all standard buttons (alphanumeric) */
+.vp-keyboard-theme .hg-button.hg-standardBtn {
+  min-width: 70px;
+}
+
+/* Add additional padding to function buttons for non-numpad keyboards to make them stand out a bit */
+.vp-keyboard-theme:not(.vp-numpad) .hg-button.hg-functionBtn {
+  padding: 0 20px;
+}
+
+/* Fixed size buttons for numpads */
+.vp-keyboard-theme.vp-numpad .hg-button.hg-functionBtn {
+  min-width: 80px;
+}
+
+.vp-keyboard-theme.vp-small-keys .hg-button.hg-standardBtn {
+  min-width: 55px;
+}

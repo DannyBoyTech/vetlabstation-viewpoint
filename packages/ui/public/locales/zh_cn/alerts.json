@@ -1,0 +1,1557 @@
+{
+  "ACADIA_DX": {
+    "ALG_RUN_FLAG_FAULT": {
+      "body": "发生意外错误，检测中断。请混匀样本并重新检测。如果问题仍存在，请联系IDEXX支持部门。",
+      "title": "意外错误"
+    },
+    "ASP_CLOT": {
+      "body": "由于样本量不足和/或样本中存在血凝块，检测已取消。请确认样本量适当、检查样本中是否存在血凝块，然后再混匀样本并重新检测。如果问题仍存在，请联系IDEXX支持部门。",
+      "title": "样本问题"
+    },
+    "ASP_ERROR": {
+      "body": "由于样本量不足和/或样本中存在血凝块，检测已取消。请确认样本量适当、检查样本中是否存在血凝块，然后再混匀样本并重新检测。如果问题仍存在，请联系IDEXX支持部门。",
+      "title": "样本问题"
+    },
+    "ASP_NO_FLUID": {
+      "body": "由于样本量不足和/或样本中存在血凝块，检测已取消。请确认样本量适当、检查样本中是否存在血凝块，然后再混匀样本并重新检测。如果问题仍存在，请联系IDEXX支持部门。",
+      "title": "样本问题"
+    },
+    "ASP_PARTIAL": {
+      "body": "由于样本量不足和/或样本中存在血凝块，检测已取消。请确认样本量适当、检查样本中是否存在血凝块，然后再混匀样本并重新检测。如果问题仍存在，请联系IDEXX支持部门。",
+      "title": "样本问题"
+    },
+    "ASP_START_IN_AIR": {
+      "body": "由于样本量不足和/或样本中存在血凝块，检测已取消。请确认样本量适当、检查样本中是否存在血凝块，然后再混匀样本并重新检测。如果问题仍存在，请联系IDEXX支持部门。",
+      "title": "样本问题"
+    },
+    "BARCODE_READ_FAILURE_QC": {
+      "body": "无法读取 SmartQC 条码。请检查标签上的条码是否存在破损或遮挡。",
+      "title": "无法读取 SmartQC 条形码"
+    },
+    "BARCODE_READ_FAILURE_REAGENT": {
+      "body": "无法确认ProCyte One试剂包，请查看条码 - 如果条码损坏，请联系IDEXX支持部门。",
+      "title": "试剂包无效"
+    },
+    "BARCODE_READ_FAILURE_SHEATH": {
+      "body": "无法确认ProCyte One鞘液包，请查看条码 - 如果条码损坏，请联系IDEXX支持部门。",
+      "title": "鞘液包无效"
+    },
+    "BLEACH_CLEAN_RECOMMENDED": {
+      "body": "距离上次漂白水清洁已经过去90天了。<linebreak/>整个过程大约需要15分钟，旨在消除污染物，确保结果准确。",
+      "title": "90 天一次的漂白水清洁提醒。"
+    },
+    "BLEACH_CLEAN_REQUIRED": {
+      "body": "点击<strong>执行漂白水清洁</strong>按钮进行此维护过程。<linebreak/>整个过程大约需要15分钟，旨在消除污染物，确保结果准确。",
+      "title": "必须执行 90 天一次的漂白水清洁。"
+    },
+    "CAMERA_INITIALIZATION_FAILURE": {
+      "body": "发生意外错误。分析仪正在恢复，请等待。如果问题仍存在，请联系IDEXX支持部门。",
+      "title": "意外错误"
+    },
+    "DATA_PROCESSING_ERROR": {
+      "body": "发生意外错误，检测中断。请混匀样本并重新检测。如果问题仍存在，请联系IDEXX支持部门。",
+      "title": "意外错误"
+    },
+    "EXPIRED_REAGENT": {
+      "body": "您的试剂已过期。<linebreak/>要继续使用分析仪，请更换为未过期的套装。点击<strong>更换试剂</strong>可访问操作说明。",
+      "title": "警告：试剂过期。"
+    },
+    "EXPIRED_SHEATH": {
+      "body": "您的鞘液已过期。<linebreak/>要继续使用分析仪，请更换为未过期的套装。点击<strong>更换鞘液</strong>可访问操作说明。",
+      "title": "警告：鞘液过期。"
+    },
+    "FILTER_LEAK": {
+      "body": "过滤器发生错误。在继续操作之前，请重新安装分析仪中的过滤器。<linebreak/>如果问题仍存在，请联系IDEXX支持部门。",
+      "title": "过滤器错误"
+    },
+    "FILTER_REPLACE": {
+      "body": "必须更换过滤器。该过程将耗时3-4分钟。请更换分析仪中的过滤器，或点击<strong>更换过滤器</strong>查看说明。",
+      "title": "更换过滤器"
+    },
+    "INSUFFICIENT_EVENTS": {
+      "body": "发生意外错误，检测中断。请混匀样本并重新检测。如果问题仍存在，请联系IDEXX支持部门。",
+      "title": "意外错误"
+    },
+    "JUNK_OVERLOAD": {
+      "body": "未裂解的红细胞过多，干扰了白细胞计数。请使用血液涂片进行确认。如需更多帮助，请联系IDEXX支持部门。",
+      "title": "保留白细胞结果"
+    },
+    "MAINTENANCE_TUBE_ERROR": {
+      "body": "漂白剂清洗步骤中使用的试管有问题。确保将正确的试管放入样本槽内，然后按下分析仪上的<strong>开始</strong>按钮继续操作。<linebreak/>点击<strong>取消</strong>可结束此操作。",
+      "title": ""
+    },
+    "MICROCODE_WATCHDOG": {
+      "body": "发生意外错误。分析仪正在恢复，请等待。如果问题仍存在，请联系IDEXX支持部门。",
+      "title": "意外错误"
+    },
+    "MISSING_CONTROL": {
+      "body": "请装入 SmartQC 药瓶以启用自动质控。",
+      "title": "装入 SmartQC 药瓶"
+    },
+    "MISSING_REAGENT": {
+      "body": "请装入试剂包以继续样本检测。",
+      "title": "试剂组缺失"
+    },
+    "MISSING_SAMPLE": {
+      "body": "请确认样品管是分析仪所支持的经EDTA处理的试管，混匀样本，取下塞子或盖子，然后重新检测样本。",
+      "title": "样品管问题"
+    },
+    "MISSING_SHEATH": {
+      "body": "请装入鞘液包以继续样本检测。",
+      "title": "鞘液组缺失"
+    },
+    "OBC_EMPTY": {
+      "body": "SmartQC 药瓶已空，更换后才可恢复自动质控。",
+      "title": "SmartQC 为空"
+    },
+    "OBC_LOW": {
+      "body": "SmartQC 药瓶内液量低，需要尽快更换。请确保您的库存中备有替换用药瓶。",
+      "title": "SmartQC 液量低"
+    },
+    "OVER_PRESSURE": {
+      "body": "系统的一条液体管路发生堵塞。系统正在自动尝试清除堵塞，请等待。",
+      "title": "发生堵塞"
+    },
+    "OVER_PRESSURE_UNRECOVERABLE": {
+      "body": "发生意外错误，检测中断。如需帮助，请联系IDEXX支持部门。",
+      "title": "意外错误"
+    },
+    "OVER_TEMP": {
+      "body": "分析仪的工作温度过高，无法开始样本检测。请确保分析仪周围空气流通顺畅。",
+      "title": "温度问题"
+    },
+    "PACK_ACCESS_OPEN": {
+      "body": "请关闭分析仪门后继续操作。",
+      "title": "分析仪门开启"
+    },
+    "PACK_ACCESS_OPEN_RUN": {
+      "body": "分析仪门开启，检测中断。请关闭分析仪门以便能够自动重新设置分析仪。当分析仪处于<strong>准备就绪</strong>状态时，请混匀样本并重新检测。",
+      "title": "分析仪门开启"
+    },
+    "QC_REMINDER": {
+      "body": "SmartQC 药瓶将在您预定的下次自动检测质控品前到期。请更换一个未过期的药瓶。",
+      "title": "您的 SmartQC 即将过期"
+    },
+    "REAGENT_EMPTY": {
+      "body": "您的试剂包是空的。<linebreak/>要继续使用您的分析仪，请点击<strong>更换试剂</strong>然后按照屏幕上的指示操作。",
+      "title": "警告：试剂是空的"
+    },
+    "REAGENT_LOW": {
+      "body": "试剂包试剂不足，很快需要更换。请确保在您的库存中有更换包。",
+      "title": "您的试剂包试剂不足"
+    },
+    "REAGENT_PACK_LEAK": {
+      "body": "试剂包意外吸入空气。检查试剂加注量并重新安装试剂包。如有必要，请更换试剂包。"
+    },
+    "REAGENT_PACK_LEAK_RUN": {
+      "body": "试剂包意外吸入空气。检查试剂加注量并重新安装试剂包。如有必要，请更换试剂包。请在充分混匀样品管后重新运行此样本。"
+    },
+    "SAMPLE_DRAWER_OPEN_QC": {
+      "body": "样本槽开启，自动质控过程中断。将在计划的下一个时间间隔恢复 SmartQC。",
+      "title": "样本槽开启"
+    },
+    "SAMPLE_DRAWER_OPEN_RUN": {
+      "body": "要继续，请关闭样本槽，然后按下分析仪正面的<strong>开始</strong>按钮。",
+      "title": "样本槽开启"
+    },
+    "SAMPLE_TUBE_RUN_END": {
+      "body": "由于使用了不支持的样品管或带有不可刺穿塞子的样品管，检测已取消。如需帮助，请联系IDEXX支持部门。",
+      "title": "样品管问题"
+    },
+    "SHEATH_EMPTY": {
+      "body": "您的鞘液包是空的。<linebreak/><linebreak>要继续使用您的分析仪，请点击<strong>更换鞘液</strong>，然后按照屏幕上的指示操作。",
+      "title": "警告：鞘液是空的"
+    },
+    "SHEATH_LOW": {
+      "body": "鞘液包不足，很快需要更换。请确保在您的库存中有更换包。",
+      "title": "您的鞘液包不足"
+    },
+    "SHUTDOWN_SHIPPING_CLEANUP": {
+      "body": "要完成本操作，请取出分析仪内的试剂组、鞘液组和过滤器。取出样本槽内的所有物品（SmartQC、样品管），断开分析仪背面的电源线和网线连接。",
+      "title": "完成关机程序"
+    },
+    "STOPPER_PRESENT": {
+      "body": "请确认样品管是分析仪所支持的经EDTA处理的试管，混匀样本，取下塞子或盖子，然后重新检测样本。",
+      "title": "样品管问题"
+    },
+    "SYR_RBC_HOME_ERROR": {
+      "body": "发生意外错误，检测中断。请混匀样本并重新检测。如果问题仍存在，请联系IDEXX支持部门。",
+      "title": "意外错误"
+    },
+    "SYR_RBC_MOTION_ERROR": {
+      "body": "发生意外错误，检测中断。请混匀样本并重新检测。如果问题仍存在，请联系IDEXX支持部门。",
+      "title": "意外错误"
+    },
+    "SYR_RBC_PRESSURE_ERROR": {
+      "body": "发生意外错误，检测中断。请混匀样本并重新检测。如果问题仍存在，请联系IDEXX支持部门。",
+      "title": "意外错误"
+    },
+    "SYR_SAMPLE_HOME_ERROR": {
+      "body": "发生意外错误，检测中断。请混匀样本并重新检测。如果问题仍存在，请联系IDEXX支持部门。",
+      "title": "意外错误"
+    },
+    "SYR_SAMPLE_MOTION_ERROR": {
+      "body": "发生意外错误，检测中断。请混匀样本并重新检测。如果问题仍存在，请联系IDEXX支持部门。",
+      "title": "意外错误"
+    },
+    "SYR_SAMPLE_PRESSURE_ERROR": {
+      "body": "发生意外错误，检测中断。请混匀样本并重新检测。如果问题仍存在，请联系IDEXX支持部门。",
+      "title": "意外错误"
+    },
+    "SYR_SHEATH_HOME_ERROR": {
+      "body": "发生意外错误，检测中断。请混匀样本并重新检测。如果问题仍存在，请联系IDEXX支持部门。",
+      "title": "意外错误"
+    },
+    "SYR_SHEATH_MOTION_ERROR": {
+      "body": "发生意外错误，检测中断。请混匀样本并重新检测。如果问题仍存在，请联系IDEXX支持部门。",
+      "title": "意外错误"
+    },
+    "SYR_SHEATH_PRESSURE_ERROR": {
+      "body": "发生意外错误，检测中断。请混匀样本并重新检测。如果问题仍存在，请联系IDEXX支持部门。",
+      "title": "意外错误"
+    },
+    "SYR_WBC_HOME_ERROR": {
+      "body": "发生意外错误，检测中断。请混匀样本并重新检测。如果问题仍存在，请联系IDEXX支持部门。",
+      "title": "意外错误"
+    },
+    "SYR_WBC_MOTION_ERROR": {
+      "body": "发生意外错误，检测中断。请混匀样本并重新检测。如果问题仍存在，请联系IDEXX支持部门。",
+      "title": "意外错误"
+    },
+    "SYR_WBC_PRESSURE_ERROR": {
+      "body": "发生意外错误，检测中断。请混匀样本并重新检测。如果问题仍存在，请联系IDEXX支持部门。",
+      "title": "意外错误"
+    },
+    "TUBE_EMPTY": {
+      "body": "由于样本量不足和/或样本中存在血凝块，检测已取消。请确认样本量适当、检查样本中是否存在血凝块，然后再混匀样本并重新检测。如果问题仍存在，请联系IDEXX支持部门。",
+      "title": "样本问题"
+    },
+    "UNEXPECTED_ERROR": {
+      "body": "发生意外错误，检测中断。请混匀样本并重新检测。如果问题仍存在，请联系IDEXX支持部门。",
+      "title": "意外错误"
+    },
+    "UNEXPECTED_ERROR_MAINTENANCE": {
+      "body": "发生意外错误。如果问题仍存在，请联系IDEXX支持部门。",
+      "title": "意外错误"
+    },
+    "UNKNOWN_TUBE": {
+      "body": "请确认样品管是分析仪所支持的经EDTA处理的试管，混匀样本，取下塞子或盖子，然后重新检测样本。",
+      "title": "样品管问题"
+    },
+    "UNSTABLE_REAGENT": {
+      "body": "您的试剂已过期。<linebreak/>要继续使用分析仪，请更换为未过期的套装。点击<strong>更换试剂</strong>可访问操作说明。",
+      "title": "警告：试剂过期。"
+    },
+    "UNSTABLE_SHEATH": {
+      "body": "您的鞘液已过期。<linebreak/>要继续使用分析仪，请更换为未过期的套装。点击<strong>更换鞘液</strong>可访问操作说明。",
+      "title": "警告：鞘液过期。"
+    },
+    "UNSUPPORTED_QC_LOT": {
+      "body": "SmartQC 药瓶已过期。请更换一个未过期的药瓶。",
+      "title": "SmartQC 已过期"
+    },
+    "UPDATE_PENDING": {
+      "body": "请稍等约2分钟，ProCyte One分析仪将自动升级并重启。<linebreak/>当ProCyte One分析仪恢复到<strong>就绪</strong>状态时，表示此过程完成。",
+      "title": "软件升级版本{{ 0 }}已可供安装。"
+    },
+    "USED_REAGENT": {
+      "body": "ProCyte One 试剂包已被使用。请试另一个试剂包或联系IDEXX支持部门。",
+      "title": "试剂包无效"
+    },
+    "XAXIS_MOTION_ERROR": {
+      "body": "发生意外错误，检测中断。请混匀样本并重新检测。如果问题仍存在，请联系IDEXX支持部门。",
+      "title": "意外错误"
+    },
+    "ZAXIS_MOTION_ERROR": {
+      "body": "发生意外错误，检测中断。请混匀样本并重新检测。如果问题仍存在，请联系IDEXX支持部门。",
+      "title": "意外错误"
+    }
+  },
+  "alertModal": {
+    "secondaryHeader": "警示 | {{ instrumentName }}",
+    "secondaryHeaderNoInstrument": "警示"
+  },
+  "CATONE": {
+    "ADD_PIPETTE_TIPS": {
+      "title": "添加移液管吸头",
+      "body": "样本槽没有载入足够的吸头。要解决这个问题，请等待样本槽开启，然后放入足够的吸头，再按下“Start（开始）”按钮。"
+    },
+    "AIR_DETECTED_IN_SAMPLE": {
+      "title": "样本中检测到气泡",
+      "body": "在宠物样本中检测到气泡。要解决这个问题，请去除样本中的任何气泡，然后按下“Start（开始）”按钮。"
+    },
+    "AIR_DETECTED_IN_SAMPLE_WARNING": {
+      "body": "由于检测到空气，分析过程中出错。要解决这一问题，请检查样本制备程序，然后重新分析新的样本和切片。如果问题仍存在，请联系IDEXX支持部门。"
+    },
+    "ALG_ANOM_INIT_SLOPE_VS_SUB_READ": {
+      "body": "处理某一试剂片时出现错误。为了获得未出值的结果，请用新的样本及耗材重新检测。<linebreak/>如果问题仍存在，请联系IDEXX支持部门。"
+    },
+    "ALG_ANOM_PROG_CURVE_DEVELOPMENT": {
+      "body": "处理某一试剂片时出现错误。为了获得未出值的结果，请用新的样本及耗材重新检测。<linebreak />如果问题仍存在，请联系IDEXX支持部门。"
+    },
+    "ALG_BAD_DRY_READ": {
+      "body": "处理某一试剂片时出现错误。为了获得未出值的结果，请用新的样本及耗材重新检测。<linebreak />如果问题仍存在，请联系IDEXX支持部门。"
+    },
+    "ALG_BAD_LATE_SLOPE": {
+      "body": "处理某一试剂片时出现错误。为了获得未出值的结果，请用新的样本及耗材重新检测。<linebreak />如果问题仍存在，请联系IDEXX支持部门。"
+    },
+    "ALG_BAD_RESPONSE_RANGE": {
+      "body": "处理某一试剂片时出现错误。为了获得未出值的结果，请用新的样本及耗材重新检测。<linebreak />如果问题仍存在，请联系IDEXX支持部门。"
+    },
+    "ALG_BAD_SC_MINUS_DRY_DIFF": {
+      "body": "处理某一试剂片时出现错误。为了获得未出值的结果，请用新的样本及耗材重新检测。<linebreak />如果问题仍存在，请联系IDEXX支持部门。"
+    },
+    "ALG_BAD_SUB_MINUS_WASH_DIFF": {
+      "body": "处理某一试剂片时出现错误。为了获得未出值的结果，请用新的样本及耗材重新检测。<linebreak />如果问题仍存在，请联系IDEXX支持部门。"
+    },
+    "ALG_BAD_WASH_MINUS_SC_DIFF": {
+      "body": "处理某一试剂片时出现错误。为了获得未出值的结果，请用新的样本及耗材重新检测。<linebreak />如果问题仍存在，请联系IDEXX支持部门。"
+    },
+    "ALG_ELLIPSE_INTERSECTION_FAIL": {
+      "body": "处理某一试剂片时出现错误。为了获得未出值的结果，请用新的样本及耗材重新检测。<linebreak />如果问题仍存在，请联系IDEXX支持部门。"
+    },
+    "ALG_GREATER_THAN_EXTREME_HIGH_CONC_LIMIT": {
+      "body": "处理某一试剂片时出现错误。为了获得未出值的结果，请用新的样本及耗材重新检测。<linebreak />如果问题仍存在，请联系IDEXX支持部门。"
+    },
+    "ALG_GREATER_THAN_EXTREME_LOW_CONC_LIMIT": {
+      "body": "处理某一试剂片时出现错误。为了获得未出值的结果，请用新的样本及耗材重新检测。<linebreak />如果问题仍存在，请联系IDEXX支持部门。"
+    },
+    "ALG_INTERFERING_SUBSTANCE": {
+      "body": "{{0}}由于存在干扰物质或底物耗尽，无法提供结果。要获得结果，请对样本进行 1:4 稀释（手工或自动），并用新的试剂片重新操作。"
+    },
+    "ALG_ION_CALIBRATION_DRIFT": {
+      "body": "处理电解质试剂片时发生错误。要解决此问题，请用新的样本和试剂片重新操作，且务必在打开试剂片的铝箔包装后立即载入试剂片。<linebreak />如果问题仍存在，请联系IDEXX支持部门。"
+    },
+    "ALG_ION_IMPULSE_DETECTED": {
+      "body": "电解质分析过程中发生错误。要解决此问题，请清洁分析仪的内部组件，然后用新的样本和试剂片重新操作。<linebreak />如果问题仍存在，请联系IDEXX支持部门。"
+    },
+    "ALG_ION_SAMPLE_DRIFT": {
+      "body": "处理其中一个或多个电解质试剂片时发生错误。要获得未显示的结果，请用新的试剂片重新操作。"
+    },
+    "ALG_ION_SAMPLE_ERROR": {
+      "body": "处理其中一个或多个电解质试剂片时发生错误。要获得未显示的结果，请用新的试剂片重新操作。"
+    },
+    "ALG_ION_SAMPLE_NOT_DETECTED": {
+      "body": "处理{{0}}时发生错误。要获得未显示的结果，请复核样本准备程序，并用新的样本和试剂片重新操作。"
+    },
+    "ALG_ION_SHIFT_DETECTED": {
+      "body": "电解质分析过程中发生错误。要解决此问题，请清洁分析仪的内部组件，然后用新的样本和试剂片重新操作。<linebreak />如果问题仍存在，请联系IDEXX支持部门。"
+    },
+    "ALG_NO_SAMPLE_DISPENSE": {
+      "body": "处理{{0}}试剂片时发生错误。要获得结果，请复核样本准备程序，并用新的样本、试剂片和试剂片冲洗液重新操作。"
+    },
+    "ALG_NO_WASH_1_DISPENSE": {
+      "body": "处理{{0}}试剂片时发生错误。要获得结果，请复核样本准备程序，并用新的样本、试剂片和试剂片冲洗液重新操作。"
+    },
+    "ALG_NO_WASH_2_DISPENSE": {
+      "body": "处理{{0}}试剂片时发生错误。要获得结果，请复核样本准备程序，并用新的样本、试剂片和试剂片冲洗液重新操作。"
+    },
+    "ALG_PHBR_BIASED_RESULT": {
+      "body": "处理{{0}}时发生错误。如需帮助，请联系IDEXX支持部门。"
+    },
+    "ALG_SLIDE_NOT_SPOTTED": {
+      "title": "未发现切片",
+      "body": "处理{{0}}时发生错误。要获得未显示的结果，请检查样本准备程序，并用新的样本和切片重新操作。"
+    },
+    "ALG_SLOPE_NOT_CORRECTABLE_GEN": {
+      "body": "处理胆汁酸试剂片时发生错误。要解决此问题，请用新的试剂片重新操作。如果问题仍存在，请联系IDEXX支持部门。"
+    },
+    "ALG_SLOPE_NOT_CORRECTABLE": {
+      "body": "进行果糖胺检测时发生错误。要解决此问题，请用新的试剂片重新操作。如果问题仍存在，请联系IDEXX支持部门。"
+    },
+    "UPDATE_AVAILABLE": {
+      "title": "软件升级版本{{version}}已可供安装。",
+      "body": "您可以随时通过Catalyst One的仪器屏对分析仪进行升级。",
+      "autoUpdateWarning": "<shortlinebreak />如果您未在{{dateTime}}前完成分析仪升级，升级将自动进行。"
+    },
+    "UPDATE_FAILED_CATASTROPHIC": {
+      "title": "软件升级不成功",
+      "body": "如需帮助，请联系IDEXX支持部门。"
+    },
+    "ERR_ALG_ALGORITHM_INTERFERING_SUBSTANCE": {
+      "title": "需要对 CREA 进行稀释",
+      "body": "由于存在干扰物质或底物耗尽，无法提供 CREA 结果。要获得结果，请对样本进行 1:4 稀释（手工或自动），并用新的试剂片重新操作。"
+    },
+    "ALG_SUBSTRATE_DEPLETION": {
+      "title": "底物耗尽",
+      "body": "{{0}}由于存在干扰物质或底物耗尽，无法提供结果。要获得结果，请对样本进行 1:2 稀释（手工或自动），并用新的切片重新操作。"
+    },
+    "ALG_TT4_ANOM_INIT_SLOPE_VS_SUB_READ": {
+      "body": "处理某一试剂片时出现错误。为了获得未出值的结果，请用新的样本及耗材重新检测。<linebreak />如果问题仍存在，请联系IDEXX支持部门。"
+    },
+    "ALG_TT4_ANOM_PROG_CURVE_DEVELOPMENT": {
+      "body": "处理某一试剂片时出现错误。为了获得未出值的结果，请用新的样本及耗材重新检测。<linebreak/>如果问题仍存在，请联系IDEXX支持部门。"
+    },
+    "ALG_TT4_BAD_SUB_MINUS_WASH_DIFF": {
+      "body": "处理某一试剂片时出现错误。为了获得未出值的结果，请用新的样本及耗材重新检测。<linebreak />如果问题仍存在，请联系IDEXX支持部门。"
+    },
+    "ALG_TT4_ELLIPSE_INTERSECTION_FAIL": {
+      "body": "处理某一试剂片时出现错误。为了获得未出值的结果，请用新的样本及耗材重新检测。<linebreak />如果问题仍存在，请联系IDEXX支持部门。"
+    },
+    "ASPIRATION_FAILURE": {
+      "body": "仪器未能完成一项操作。仪器正在复原，请等待。如果问题仍存在，请联系IDEXX支持部门。"
+    },
+    "ASPIRATION_START_IN_AIR": {
+      "body": "仪器未能完成一项操作。仪器正在复原，请等待。如果问题仍存在，请联系IDEXX支持部门。"
+    },
+    "ASPIRATION_START_IN_AIR_WARNING": {
+      "body": "在样本吸取的过程中出错。要解决这一问题，请检查样本制备程序，然后重新分析新的样本和切片。如果问题仍存在，请联系IDEXX支持部门。"
+    },
+    "ASSAY_NORMALIZATION_MISSING": {
+      "body": "{{0}}结果异常。<linebreak/>请联系IDEXX支持部门。"
+    },
+    "BAD_OR_MISSING_CALCURVE_DATA": {
+      "body": "校准曲线数据不佳或缺失。分析仪未成功校正。如需帮助，请联系IDEXX支持部门。"
+    },
+    "BARCODE_READ_ERROR": {
+      "title": "条形码读取错误",
+      "body": "无法识别载入的切片。要解决此问题，请使用新的试剂片重新检测样本。<linebreak />如果问题仍存在，请联系IDEXX支持部门。"
+    },
+    "BARCODE_READ_FAILURE": {
+      "body": "未标识的切片"
+    },
+    "CALIBRATION_SOFTWARE_ERROR": {
+      "body": "校准软件错误。分析仪未成功校正。如需帮助，请联系IDEXX支持部门。"
+    },
+    "CAMERA_COM_ERROR": {
+      "body": "在初始化过程中，相机的通信连接出现故障。要解决此问题，请断开墙上的电源并重新连接。如果问题仍存在，请联系IDEXX支持部门。"
+    },
+    "CAMERA_CONNECTION_ERROR": {
+      "body": "在检测过程中，相机的通信连接出现故障。要解决此问题，请断开墙上的电源并重新连接，然后使用新的样本及耗材重新检测。如果问题仍存在，请联系IDEXX支持部门。"
+    },
+    "CAMERA_INITIALIZATION_FAILURE": {
+      "body": "仪器未能完成一项操作。请按下“Start（开始）”按钮，在仪器复原过程中请等待。如果问题仍存在，请联系IDEXX支持部门。"
+    },
+    "CANNOT_LOCK_SAMPLE_DRAWER": {
+      "title": "无法锁定样本槽",
+      "body": "样本槽中有阻塞物。要解决这个问题，请确保样本槽中的所有材料处于正确位置，然后按下“Start（开始）”按钮。"
+    },
+    "CANNOT_UNLOCK_SAMPLE_DRAWER": {
+      "title": "样本槽无法解锁",
+      "body": "样本槽无法打开。<linebreak/>如需帮助，请联系IDEXX支持部门。"
+    },
+    "CAP_DETECTED": {
+      "title": "检测到盖子",
+      "body": "在对样本进行处理前，必须取下血浆分离杯上的绿色盖子。要解决这个问题，请等待样本槽开启，然后移除全血分离杯的绿色盖子，再按下“Start（开始）”按钮。"
+    },
+    "CAROUSEL_ALIGNMENT_FAILED": {
+      "title": "圆盘传送带校准失败",
+      "body": "圆盘传送带无法校准。要解决这个问题，请打开侧门，提起转盘上盖，确认圆盘传送带处于正确位置。关闭转盘上盖和侧门。分析仪将在侧门关闭后自动返回待机状态。如果问题仍存在，请联系IDEXX支持部门。"
+    },
+    "CAROUSEL_COVER_OPEN": {
+      "title": "转盘上的防蒸发盖已打开",
+      "body": "转盘上盖处于开启状态。要解决这个问题，请打开侧门，确认盖是否已关闭。分析仪将在侧门关闭后自动返回待机状态。"
+    },
+    "CAROUSEL_ROTATION_ERROR": {
+      "body": "转盘未能如预期般转动。要解决这个问题：<ol><li>移除样本槽中任何残留试剂片。</li><li>打开侧门，提起转盘上盖并取出转盘。</li><li>移除轨道上的试剂片并丢弃。</li><li>重新放置转盘并关闭转盘上盖。</li><li>关闭侧门。仪器自动初始化并返回待机界面。</li><li>使用新的试剂片及样本重新检测。</li></ol>如果问题仍存在，请联系IDEXX支持部门。"
+    },
+    "CENTRIFUGE_ERROR": {
+      "title": "离心机错误",
+      "body": "离心机无法成功处理。要解决此问题，请使用新的样本和试剂片重新操作。<linebreak/>如果问题仍存在，请联系IDEXX支持部门。"
+    },
+    "CHECK_EVAP_CAP": {
+      "body": "无法确认一个或多个试剂片。<ol><li>打开侧门，取下转盘上盖上所有松动物件。</li><li>检查转盘蒸发帽的运动情况，如果发现碎屑，请用酒精棉片进行清洁。</li><li>重新放置转盘并关闭转盘上盖。</li><li>关闭侧门。仪器自动初始化并返回待机界面。</li><li>使用新的试剂片及样本重新检测。</li></ol>如果问题仍存在，请联系IDEXX支持部门。"
+    },
+    "ALG_DRY_READ_VARIANCE": {
+      "title": "运行错误",
+      "body": "进行胰脂肪酶检测时发生错误。要解决此问题，请用新的试剂片重新操作。如果问题仍存在，请联系IDEXX支持部门。"
+    },
+    "CLEANING_REQUIRED": {
+      "title": "需要清洁",
+      "body": "Catalyst One生化分析仪需要清洁。按照Catalyst One Instruments选项卡上的屏幕说明进行操作。如果清洁后仍然出现此错误，请联系IDEXX支持部门。"
+    },
+    "CLOT_DETECTED_IN_SAMPLE": {
+      "title": "样本中检测到结块",
+      "body": "在宠物样本中检测到结块。要解决这个问题，请去掉样本中的任何结块，然后按下“Start（开始）”按钮。"
+    },
+    "CLOT_DETECTED_IN_SAMPLE_WARNING": {
+      "body": "由于检测到结块，分析过程中出错。要解决这一问题，请检查样本制备程序，然后重新分析新的样本和切片。如果问题仍存在，请联系IDEXX支持部门。"
+    },
+    "DILUTION_SLIDE_COUNT_EXCEEDED": {
+      "title": "切片数超过稀释允许限数",
+      "body": "在进行1:2稀释时不能载入5个以上的切片，在进行所有其他稀释操作时，不能载入10个以上的切片。<ul><li>恢复方法：按下分析仪上的“Start”（开始）键。</li><li>要解决这个问题：请用新试剂片重新操作，确保载入的试剂片不超过最大数量。</li></ul>"
+    },
+    "DUPLICATE_REAGENT_TYPE_DETECTED": {
+      "title": "检测到重复的试剂类型",
+      "body": "检测到重复的试剂类型。当样本槽处于开启状态时，请移除其中一个，然后关闭样本槽，按下“Start（开始）”按钮继续操作。"
+    },
+    "FLUID_FIND_FAILURE": {
+      "body": "仪器无法找到样品。要解决这一问题，请检查样本制备程序，然后重新分析新的样本和切片。如果问题仍存在，请联系IDEXX支持部门。"
+    },
+    "FLUID_FIND_FAILURE_DIL_CUP": {
+      "body": "稀释液量不足以进行自动稀释。要解决这个问题，请用新的试剂片和稀释液重新操作。"
+    },
+    "FLUID_FIND_FAILURE_MIX_CUP": {
+      "body": "稀释样本量不足以进行自动稀释。要解决这个问题，请用新的试剂片和稀释液重新操作。"
+    },
+    "FOAM_DETECTED_IN_SAMPLE": {
+      "title": "样本中检测到泡沫",
+      "body": "在患者宠物中检测到泡沫。要解决这个问题，请去除样本中的任何泡沫，然后按下“Start（开始）”按钮。"
+    },
+    "FOAM_DETECTED_IN_SAMPLE_WARNING": {
+      "body": "由于检测到泡沫，分析过程中出错。要解决这一问题，请检查样本制备程序，然后重新分析新的样本和切片。如果问题仍存在，请联系IDEXX支持部门。"
+    },
+    "HEIGHT_CORRECTION_SURFACE_FIND_FAILURE": {
+      "body": "高度校正发现故障"
+    },
+    "INCORRECTLY_SEATED_CAROUSEL": {
+      "title": "转盘传送带未正确就位",
+      "body": "转盘未正确就位。要解决这个问题，请打开侧门，提起转盘上盖，确认圆盘传送带处于正确位置。关闭转盘上盖和侧门。分析仪将在侧门关闭后自动返回待机状态。"
+    },
+    "INCORRECT_SLIDE_OR_REAGENT": {
+      "title": "切片或试剂类型不正确",
+      "body": "加载的试剂类型未检测到正确的玻片类型。要解决这个问题，请等待样本槽开启，并载入正确的玻片，或去掉试剂，然后按下“Start（开始）”按钮。"
+    },
+    "INCORRECT_SLIDE_OR_REAGENT_IGNORABLE": {
+      "title": "切片或试剂类型不正确。其他切片在运行。",
+      "body": "加载的试剂类型未检测到正确的玻片类型。要解决此问题，请等待样本槽开启，载入正确的试剂片或取走试剂，然后按下“Start（开始）”按钮。<shortlinebreak/>如果未检测到匹配的材料，将不会报告该检测结果。"
+    },
+    "INSUFFICIENT_DILUENT_VOLUME": {
+      "title": "稀释液量不足",
+      "body": "稀释液量不足以进行自动稀释。要解决这个问题，请在稀释液杯中加入稀释液，然后按下“Start（开始）”按钮。"
+    },
+    "INSUFFICIENT_DILUENT_VOLUME_WARNING": {
+      "title": "稀释液不足",
+      "body": "稀释液量不足以进行自动稀释。请参考您的Catalyst One操作指南，使用建议的材料重新操作。如果问题仍存在，请联系IDEXX支持部门。"
+    },
+    "INSUFFICIENT_PIPETTE_TIPS": {
+      "title": "吸头量不足以进行操作",
+      "body": "吸头量不足以进行该操作。要解决这个问题，请等待样本槽开启，然后放入足够的吸头，再按下“Start（开始）”按钮。如果不增加吸头，操作将会进行，但不会报告所有结果。"
+    },
+    "INSUFFICIENT_SAMPLE_FOR_DILUTION": {
+      "title": "样本量不足以进行稀释",
+      "body": "样本量不足以进行自动稀释。要解决这个问题，请在样本容器中加入样本，然后按下“Start（开始）”按钮。"
+    },
+    "INSUFFICIENT_SAMPLE_FOR_DILUTION_WARNING": {
+      "title": "样本量不足以进行稀释",
+      "body": "样本量不足以进行自动稀释。要解决这一问题，请检查样本制备程序，然后重新分析新的样本和切片。如果问题仍存在，请联系IDEXX支持部门。"
+    },
+    "INSUFFICIENT_SAMPLE_VOLUME": {
+      "title": "所有试剂片样本量不足",
+      "body": "样本量相对载入的切片数量不足。要解决这个问题，请在样本容器中加入样本，然后按下“Start（开始）”按钮。"
+    },
+    "INSUFFICIENT_SAMPLE_VOLUME_IGNORABLE": {
+      "title": "部分切片样本量不足",
+      "body": "样本量相对载入的切片数量不足。要解决此问题，请在样本容器中加入样本，然后按下“Start（开始）”按钮。<shortlinebreak/>如果未加入额外样本，将不会处理所有试剂片。"
+    },
+    "INSUFFICIENT_SAMPLE_VOLUME_IGNORABLE_WARNING": {
+      "body": "本次操作中一个或多个切片上的样本量不足，导致操作不完整。操作仍在进行。操作完成后，请复核样本准备程序，并用新的样本和试剂片重新操作。"
+    },
+    "INSUFFICIENT_SAMPLE_VOLUME_WARNING": {
+      "body": "本次操作中任何切片上的样本量均不足。要解决这一问题，请检查样本制备程序，然后重新分析新的样本和切片。如果问题仍存在，请联系IDEXX支持部门。"
+    },
+    "INTERNAL_TIMING_ERROR": {
+      "body": "仪器未能完成一项操作。请按下“Start（开始）”按钮，在仪器复原过程中请等待。如果问题仍存在，请联系IDEXX支持部门。"
+    },
+    "LVLASP_BUBBLE": {
+      "body": "在样本吸取的过程中出错。要解决此问题，请复查样本制备程序，然后使用新的样本及耗材重新操作。<linebreak/>如果问题仍存在，请联系IDEXX支持部门。"
+    },
+    "LVLASP_CLOT": {
+      "body": "在样本吸取的过程中出错。要解决此问题，请复查样本制备程序，然后使用新的样本及耗材重新操作。<linebreak/>如果问题仍存在，请联系IDEXX支持部门。"
+    },
+    "LVLASP_INSUFFICIENT_SAMPLE": {
+      "body": "本次操作中任何切片上的样本量均不足。要解决此问题，请复查样本制备程序，然后使用新的样本及耗材重新操作。<linebreak/>如果问题仍存在，请联系IDEXX支持部门。"
+    },
+    "LVLASP_START_IN_AIR": {
+      "body": "在样本吸取的过程中出错。要解决此问题，请复查样本制备程序，然后使用新的样本及耗材重新操作。<linebreak/>如果问题仍存在，请联系IDEXX支持部门。"
+    },
+    "LYTE_PROCESSING_ERROR": {
+      "body": "处理电解质试剂片时发生错误。要解决这个问题，请用新的试剂片重新操作，务必在打开试剂片的锡纸后立即载入试剂片。如果问题仍存在，请联系IDEXX支持部门。"
+    },
+    "MATERIALS_INCOMPATIBLE": {
+      "title": "材料不兼容",
+      "body": "载入的材料与要求的操作类型不兼容。请参考您的 Catalyst One™ 操作说明，使用合格材料重新操作。"
+    },
+    "MATERIALS_INCOMPATIBLE_FRIENDS": {
+      "body": "载入的部分材料与要求的检测类型不兼容。要想获得未报告的数值，请参考Catalyst One操作手册并使用合格材料重新进行检测。"
+    },
+    "MISSING_DILUTION_MATERIALS": {
+      "title": "找不到稀释材料",
+      "body": "稀释材料载入不正确或无法找到。要解决这个问题，请确认最前面的杯架的右侧有一个含有300 μL稀释液的样本杯，左侧有一个空的样本杯，并确认宠物样本载入样本杯架，并按下“Start（开始）”按钮。"
+    },
+    "MISSING_EMPTY_CUP": {
+      "body": "因为在空杯位置检测到液体，本次操作结束。要解决这个问题，请将一个空的样本杯载入左侧最前方的杯架，然后用新的试剂片重新操作。"
+    },
+    "MISSING_EMPTY_DILUTION_CUP": {
+      "title": "找不到空的稀释杯",
+      "body": "未载入空的样本杯进行稀释操作。要解决这个问题，请将一个空的样本杯载入左侧最前方的杯架，然后按下“Start（开始）”按钮。"
+    },
+    "MISSING_IA_FOR_REAGENT": {
+      "body": "装入的试剂套组与试剂片不匹配。要想解决此问题，请等待检测结束，并使用新的试剂套组和试剂片重新进行检测。"
+    },
+    "MISSING_REAGENT": {
+      "title": "找不到试剂",
+      "body": "加载的{{0}}试剂片与找到的试剂不匹配。要解决这个问题，请等待样本槽开启，放入匹配的试剂，关闭样本槽，再按下“Start（开始）”按钮。"
+    },
+    "MISSING_REAGENT_FOR_IA": {
+      "body": "加载的{{0}}试剂片与找到的试剂不匹配。要想解决此问题，请等待检测结束，并使用新的试剂和试剂片重新进行检测。"
+    },
+    "MISSING_REAGENT_IGNORABLE": {
+      "title": "找不到试剂。其他切片在运行。",
+      "body": "加载的{{0}}试剂片与找到的试剂不匹配。要解决此问题，请等待样本槽开启，放入匹配的试剂，关闭样本槽并按下“Start”（开始）键。<shortlinebreak/>如果未载入试剂，将不会报告该项生化检测的结果。"
+    },
+    "MISSING_UPC_MATERIALS": {
+      "title": "找不到 UPC 材料",
+      "body": "UPC耗材载入错误或无法找到。要解决这个问题，请确认最前面的杯架的右侧有一个含有300μL UPC稀释液的样本杯，左侧有一个空的样本杯，并确认病畜样本载入样本杯架，并按下“Start（开始）”按钮。"
+    },
+    "MULTIPLE_SAMPLES_DETECTED": {
+      "title": "检测到多个样本",
+      "body": "分析仪一次无法处理一个以上的样本。要解决这个问题，请等待样本槽开启，并取出额外的样本，然后按下“Start（开始）”按钮。"
+    },
+    "NO_IDENTIFIABLE_SLIDES_FOUND": {
+      "body": "无法识别载入的切片。要解决这一问题，请按下“Start（开始）”按钮继续，并使用新的切片重新操作样本。如果问题仍存在，请联系IDEXX支持部门。"
+    },
+    "NO_SAMPLE_DETECTED": {
+      "title": "未检测到样本",
+      "body": "宠物样本未载入。要解决这个问题，请等待样本槽开启，然后将样本载入样本槽，再按下“Start（开始）”按钮。"
+    },
+    "OFFSETS_CALIBRATION_ERROR": {
+      "body": "仪器在计算钙离子和白蛋白偏移补偿时未能成功。如需帮助，请联系IDEXX支持部门。"
+    },
+    "OFFSETS_CV_TOO_HIGH_ERROR": {
+      "body": "仪器在计算钙离子和白蛋白偏移补偿时未能成功，因为有一项或者多项结果不在可接受的范围内。要解决这一问题，请检查样本制备程序，然后使用新的控制液和试剂片重新执行。如果问题仍存在，请联系IDEXX支持部门。"
+    },
+    "OFFSETS_INSUFFICIENT_SLIDES_ERROR": {
+      "body": "在补偿校正中，同一批号的试剂片数量不足。要解决此问题，检查补偿校正的准备步骤。要解决这一问题，请检查样本制备程序，然后使用新的控制液和试剂片重新执行。"
+    },
+    "OFFSETS_OUT_OF_RANGE_ERROR": {
+      "body": "因为计算的补偿不在可接受的范围内，分析仪未能成功计算有效的钙和白蛋白偏移补偿。如需帮助，请联系IDEXX支持部门。"
+    },
+    "OPTICS_CALIBRATION_REQUIRED": {
+      "title": "需要校准。",
+      "body": "Catalyst One需要清洁和校正。如果校正后仍然出现此错误，请联系IDEXX支持部门。"
+    },
+    "OPTICS_INITIALIZATION_FAILURE": {
+      "body": "仪器未能完成一项操作。请重启仪器。如果问题仍存在，请联系IDEXX支持部门。"
+    },
+    "OPTICS_LED_FAILURE": {
+      "body": "Catalyst在自检及检测过程中出现错误。请联系IDEXX支持部门。"
+    },
+    "OPTICS_MODULE_CONFIGURATION_ERROR": {
+      "body": "光学模块配置错误。分析仪未成功校正。如需帮助，请联系IDEXX支持部门。"
+    },
+    "OPTICS_SENSOR_FAILURE": {
+      "body": "Catalyst在自检及检测过程中出现错误。请联系IDEXX支持部门。"
+    },
+    "OPTIMIZATION_AVAILABLE": {
+      "title": "优化提醒",
+      "body": "Catalyst One 需要优化。完成此过程大约需要<strong>{{0}}分钟</strong>。<linebreak />仪器将在{{1}}小时后自动开始此过程。"
+    },
+    "OPTIMIZATION_AVAILABLE_ALIGNMENT": {
+      "title": "优化提醒",
+      "body": "Catalyst One 需要优化。完成此过程大约需要<strong>{{0}}分钟</strong>。<linebreak />仪器将在{{1}}小时后自动开始此过程。",
+      "instructions": {
+        "title": "运行 Catalyst One 优化",
+        "body": "<ol><li>确保槽的吸头区至少装有五 (5) 个吸头。</li><li>取出所有样本杯、全血分离杯或试剂杯。</li><li>关闭槽并按下“启动”按钮。</li></ol><linebreak/>完成优化后，Catalyst One图标会恢复到绿色待机状态。"
+      }
+    },
+    "PHBR_LOAD_ERROR": {
+      "title": "PHBR样本载入错误",
+      "body": "PHBR 试剂载入不正确。要解决这个问题，请将试剂移入最前方的样本杯中，然后按下“Start（开始）”按钮。"
+    },
+    "PHBR_LOAD_ERROR_IGNORABLE": {
+      "title": "PHBR试剂载入错误。其他切片在运行。",
+      "body": "PHBR 试剂载入不正确。要解决此问题，请将试剂移至最前端的杯架中，然后按下“Start（开始）”按钮。<linebreak />如果不重新放置试剂，仍会对载入的剩余试剂片进行处理，但不会报告PHBR结果。"
+    },
+    "PHBR_ORIENT_ERROR": {
+      "title": "PHBR 试剂放置错误",
+      "body": "PHBR 试剂载入不正确。要解决这一问题，请调整试剂的放置方向，然后按下“Start（开始）”按钮。"
+    },
+    "PHBR_ORIENT_ERROR_IGNORABLE": {
+      "title": "PHBR 试剂放置错误。其他切片在运行。",
+      "body": "PHBR 试剂载入不正确。要解决这一问题，请调整试剂的放置方向，然后按下“Start（开始）”按钮。如果不重新调整试剂放置方向，仍会对载入的剩余试剂片进行处理，但不会报告PHBR结果。"
+    },
+    "PIPETTE_TIPS_LOW": {
+      "title": "添加移液管吸头",
+      "body": "样本槽中吸头正在减少。确保在下次样本操作前填充样本槽的吸头区域。"
+    },
+    "PRESSURE_SENSOR_ERROR": {
+      "body": "Catalyst在自检及检测过程中出现错误。请联系IDEXX支持部门。"
+    },
+    "REAGENT_IDENTIFICATION_ERROR": {
+      "title": "试剂识别错误",
+      "body": "分析仪未识别出载入的一个或多个试剂和/或试剂片。<linebreak/>要解决此问题，请在运行完成后使用新的试剂片重新操作。"
+    },
+    "RECOVERABLE_TIMEOUT": {
+      "title": "可恢复的超时",
+      "body": "在操作过程中发生错误，导致操作部分或全部丢失。要确定发生了什么错误，请查看Catalyst One“仪器”侧栏选项卡下的事件日志，或联系IDEXX支持部门寻求帮助。"
+    },
+    "RECOVERY_FAILURE": {
+      "body": "仪器未从之前的故障中复原。如果问题仍存在，请联系IDEXX支持部门。"
+    },
+    "ROBOT_HOMING_FAILURE": {
+      "body": "仪器未能完成一项操作。请按下“Start（开始）”按钮，在仪器复原过程中请等待。如果问题仍存在，请联系IDEXX支持部门。"
+    },
+    "ROBOT_MOTION_ERROR": {
+      "body": "仪器未能完成一项操作。请按下“Start（开始）”按钮，在仪器复原过程中请等待。如果问题仍存在，请联系IDEXX支持部门。"
+    },
+    "RUN_COMPLETION_ERROR": {
+      "title": "操作无法完成",
+      "body": "在切片处理过程中发生错误，操作无法完成。要解决此问题，请使用新的样本和试剂片重新操作。<shortlinebreak/>如果问题仍存在，请联系IDEXX支持部门。"
+    },
+    "SAMPLE_DRAWER_LOCK_ERROR": {
+      "title": "样本槽锁定错误",
+      "body": "样本槽锁定装置出错。<shortlinebreak/>如需帮助，请联系IDEXX支持部门。"
+    },
+    "SAMPLE_DRAWER_OPEN": {
+      "title": "样本槽开启",
+      "body": "关闭样本槽。"
+    },
+    "SAMPLE_DRAWER_OPEN_RUN": {
+      "title": "样本槽在操作过程中处于打开状态",
+      "body": "样本槽处于开启状态。要使操作继续，请关闭样本槽，然后按下“Start（开始）”按钮。"
+    },
+    "SAMPLE_TOO_LOW": {
+      "body": "本次操作中任何切片上的样本量均不足。要解决这个问题，请复核样本准备程序，然后用新的样本、试剂片和试剂重新操作。如果问题仍存在，请联系IDEXX支持部门。"
+    },
+    "SHIPPING_CLIPS_DETECTED": {
+      "body": "检测到运输用夹子。要解决这个问题：<ol><li>打开侧门。</li><li>移除运输用夹子。</li><li>关闭侧门。</li><li>仪器将继续通电。</li></ol>如果问题仍存在，请联系IDEXX支持部门。"
+    },
+    "SLIDE_CONTAMINATED": {
+      "body": "{{0}}试剂片被污染，结果异常。"
+    },
+    "SIDE_DOOR_OPEN": {
+      "title": "侧门开启",
+      "body": "在操作过程中侧门被打开。要解决这个问题，请关闭侧门，然后以新的切片重新操作样本。"
+    },
+    "SLIDE_DATE_SOFTWARE_VERSION_MISMATCH": {
+      "title": "切片时间与软件版本不匹配",
+      "body": "确认分析仪的软件为最新版本（Catalyst One Instruments侧面的选项卡），并确认切片未过期，然后用新的切片重新操作。"
+    },
+    "SLIDE_DETECTION_ERROR": {
+      "title": "切片检测错误",
+      "body": "玻片载入不正确或无法找到。要解决这个问题，请等待样本槽开启，然后将样本载入样本槽，再按下“Start（开始）”按钮。"
+    },
+    "SLIDE_EJECT_ERROR": {
+      "title": "切片弹出错误",
+      "body": "一个或多个切片无法成功弹出。要解决这个问题：<ol><li>移除样本槽中任何残留试剂片。</li><li>打开侧门，提起转盘上盖并取出转盘。</li><li>移除轨道上的试剂片并丢弃。</li><li>重新放置转盘并关闭转盘上盖。</li><li>关闭侧门。仪器自动初始化并返回待机界面。</li><li>清空废物槽。</li></ol>"
+    },
+    "SLIDE_LOADING_ERROR": {
+      "title": "切片载入错误",
+      "body": "一个或多个玻片无法成功加载。要解决这个问题：<ol><li>请等待样本槽开启。</li><li>移除样本槽中任何残留试剂片。</li><li>打开侧门，提起转盘上盖并取出转盘。</li><li>移除轨道上的试剂片并丢弃。</li><li>重新放置转盘并关闭转盘上盖。</li><li>关闭侧门。仪器自动初始化并返回待机界面。</li><li>使用新的试剂片及样本重新检测。</li></ol>"
+    },
+    "SLIDE_REAGENT_LOT_MISMATCH": {
+      "title": "切片与试剂的批次号不匹配",
+      "body": "切片上与试剂上的批次号不匹配。要解决这个问题，请将批次号匹配的切片与试剂载入样本槽，然后按下“Start（开始）”按钮。"
+    },
+    "SLIDE_REAGENT_LOT_MISMATCH_IGNORABLE": {
+      "title": "切片与试剂的批次号不匹配。其他切片在运行。",
+      "body": "切片上与试剂上的批次号不匹配。为解决此问题，请在样本槽中放入批号匹配的试剂片和试剂，然后按下“Start（开始）”按钮。<linebreak/>如果未检测到匹配的批号，将不会报告该项生化检测的结果。"
+    },
+    "SLIDE_REAGENT_MISMATCH": {
+      "body": "加载的{{0}}试剂片与找到的试剂不匹配。要解决此问题，等待样本槽解锁状态，移除试剂，更换匹配的试剂。关闭样本槽并点击Start 按钮。"
+    },
+    "SLIDE_REAGENT_MISMATCH_IGNORABLE": {
+      "body": "加载的{{0}}试剂片与找到的试剂不匹配。要解决此问题，等待样本槽解锁状态，移除试剂，更换匹配的试剂。关闭样本槽并点击Start 按钮。如果未载入匹配的试剂，将不会报告该项生化检测的结果。"
+    },
+    "SLIDE_TIMEOUT_ERROR": {
+      "title": "切片超时错误",
+      "body": "切片在操作前停留在样本槽中的时间过长。要解决这个问题，使用新的切片重新操作样本。"
+    },
+    "SPURIOUS_DEVICE_EVENT": {
+      "body": "仪器未能完成一项操作。请按下“Start（开始）”按钮，在仪器复原过程中请等待。如果问题仍存在，请联系IDEXX支持部门。"
+    },
+    "SUSPECT_RESULT_COMPARISON": {
+      "body": "处理某一试剂片时出现错误。为了获得未出值的结果，请用新的样本及试剂片重新检测。如果问题仍存在，请联系IDEXX支持部门。"
+    },
+    "THERMAL_CONTROL_ERROR": {
+      "title": "热控制错误",
+      "body": "在操作过程中存在热控制问题，导致结果偏低。要解决这个问题，请检查分析仪周围的温度是否在所述的操作范围内，然后以新的切片重新操作样本。"
+    },
+    "THERMAL_ERROR": {
+      "title": "热错误",
+      "body": "在分析仪自我检查过程中发生热控制错误。要解决这个问题，请打开侧门，并确保转盘上盖已关闭。侧门关闭后，分析仪将自动初始化。<shortlinebreak />如果问题仍存在，请联系IDEXX支持部门。"
+    },
+    "UNSPECIFIED_ERROR": {
+      "body": "发生意外错误。按下分析仪上的“Start（开始）”按钮以复原仪器。如果问题仍存在，请联系IDEXX支持部门。"
+    },
+    "UNSUPPORTED_QC_RANGE": {
+      "body": "{{0}}{{1}}结果异常，因为试剂片不支持选定的 QC 液体类型。要解决这个问题，请选择合适的 QC 液体，用新的试剂片重新操作。"
+    },
+    "UNSUPPORTED_SLIDE_LOT": {
+      "body": "{{0}} {{1}}结果异常，试剂片批次不支持或试剂片已过期"
+    },
+    "UNSUPPORTED_WHITE_REF_SLIDE_LOT": {
+      "body": "不支持的空白参考切片批次。请用支持的空白参考切片再次校准。如需帮助，请联系IDEXX支持部门。"
+    },
+    "UPDATE_FAILED": {
+      "title": "软件升级不成功",
+      "body": "Catalyst One 分析仪未能成功升级。要解决此问题，请立即重复升级程序，或使用Catalyst One仪器侧栏选项卡上的“升级软件”选项。<linebreak/>如果问题仍存在，请联系IDEXX支持部门。"
+    },
+    "UPGRADE_FAILED_DOWNLOAD": {
+      "title": "软件升级下载不成功"
+    },
+    "UPGRADE_FAILED_PREPARATION": {
+      "title": "软件升级准备不成功"
+    },
+    "USED_REAGENT_DETECTED": {
+      "title": "检测到已使用过的试剂",
+      "body": "检测的试剂此前已被使用。为解决此问题，请更换新的试剂，然后按下“Start（开始）”按钮。"
+    },
+    "USED_REAGENT_DETECTED_IGNORABLE": {
+      "title": "检测到已使用过的试剂。其他切片在运行。",
+      "body": "检测的试剂此前已被使用。为解决此问题，请更换新的试剂，然后按下“Start（开始）”按钮。<shortlinebreak />如果不更换试剂，将不会报告该项生化检测的结果。"
+    },
+    "USED_REAGENT_DETECTED_IGNORABLE_WARNING": {
+      "body": "检测的试剂此前已被使用。将不会报告该化学品的结果。为了解决问题，请等待仪器返回到预备状态，并用新的样品、玻片和试剂重新运行。"
+    },
+    "USED_REAGENT_DETECTED_WARNING": {
+      "body": "检测的试剂此前已被使用。为了解决问题，请等待仪器返回到预备状态，并用新的样品、玻片和试剂重新运行。"
+    },
+    "USER_CALIBRATION_UNSUCCESSFUL": {
+      "title": "用户校正不成功",
+      "body": "分析仪未成功校准。<shortlinebreak/>如需帮助，请联系IDEXX支持部门。"
+    },
+    "WARMUP_THERMAL_ERROR": {
+      "title": "热机过程中发生热错误",
+      "body": "发生热控制错误。要解决这个问题，请打开侧门，并确保转盘上盖已关闭。侧门关闭后，分析仪将自动初始化。<shortlinebreak/>如果问题仍存在，请联系IDEXX支持部门。"
+    },
+    "WASTE_DRAWER_FULL": {
+      "title": "废物槽已满",
+      "body": "清空废物槽。"
+    },
+    "WASTE_DRAWER_OPEN": {
+      "title": "废物槽已开启",
+      "body": "关闭废物槽。"
+    },
+    "WASTE_DRAWER_OPEN_RUN": {
+      "title": "废物槽在操作过程中处于打开状态",
+      "body": "废物槽处于开启状态。要使操作继续，请关闭废物槽，然后按下“Start（开始）”按钮。"
+    },
+    "WBS_SAMPLE_VOLUME_HIGH": {
+      "body": "全血分离器样本太多。要解决此问题，请使用含有0.6-0.8cc样本量的全血分离杯和新试剂片重新操作。<shortlinebreak/>如果问题仍存在，请联系IDEXX支持部门。"
+    }
+  },
+  "CATALYST_DX": {
+    "CONNECTION_TIMEOUT": {
+      "body": "IDEXX VetLab Station 无法与Catalyst Dx分析仪通讯。<linebreak /><strong>注意：</strong>要从首页上永久删除分析仪图标，关闭警示，点击离线图标，然后点击<strong>“仪器移除”</strong>键。按照下列步骤重新建立连接：<ol><li>在Catalyst Dx 分析仪上，点击<strong>“Tools”</strong>，确保分析仪拥有IP地址。</li><li>如果IP地址为<strong>未确定，</strong>按照下列步骤操作：<ol type=\\\"a\\\"><li>在Catalyst Dx分析仪“工具”页面上，点击<strong>关机</strong>。</li><li>当得到提示时，使用电源开关关闭分析仪。</li><li>当分析仪关闭后，使用电源开关重启分析仪。</li></ol></li></ol>如果存在IP地址但问题仍未解决，请联系IDEXX支持部门。"
+    }
+  },
+  "CRIMSON": {
+    "ASP_UNIT_FRONTBACK_MOTOR": {
+      "body": "点击<strong>重设吸样马达</strong>来解决此错误。<shortlinebreak/>此过程需要数秒。",
+      "title": "Aspiration Unit Front Back Motor错误"
+    },
+    "ASP_UNIT_UPDOWN_MOTOR": {
+      "body": "重新开启ProCyte Dx可能可以解决此错误。如果警示一直存在，请联系IDEXX支持部门。<shortlinebreak/><ol><li>关闭ProCyte Dx.</li><li>关闭IPU.</li><li>开启IPU。</li><li>开启ProCyte Dx。</li></ol>",
+      "title": "Aspiration Unit Up Down Motor错误"
+    },
+    "BACKGROUND": {
+      "body": "这可能导致结果不准确。点击<strong>执行自动清洗</strong>清洁系统并重新检查背景测量。整个过程大约需要<strong>8分钟。</strong>",
+      "title": "背景检查测得以下参数为高。",
+      "table": {
+        "headers": {
+          "assay": "检测",
+          "result": "结果",
+          "limit": "限度",
+          "unit": "单位"
+        },
+        "assays": {
+          "PLT-O": "光学法血小板计数(PLT-O)",
+          "HGB": "血红蛋白(HGB)",
+          "RBC": "红细胞",
+          "WBC": "白细胞",
+          "PLT-I": "电阻法血小板计数(PLT-I)"
+        }
+      }
+    },
+    "BLOOD_ASP_SENSOR": {
+      "body": "如果警示一直存在，请联系IDEXX支持部门。",
+      "title": "无法分析宠物样本。"
+    },
+    "CHAMBER_EPK": {
+      "body": "试剂盒似乎被断开。核实试剂盒是否连接正确并且连接管是否未弯折或扭结。然后按下<strong>开始灌注</strong>。<shortlinebreak/>如果在您按下“开始灌注”后再次收到该信息，请联系IDEXX支持部门寻求帮助。",
+      "title": "试剂盒似乎被断开。"
+    },
+    "CLOSE_FCM_DETECT_COVER": {
+      "body": "使用ProCyte Dx电源开关将分析仪关闭至少10秒。然后，开启分析仪。<linebreak/>如果警示一直存在，请联系IDEXX支持部门。",
+      "title": "关闭FCM Detect Cover"
+    },
+    "DIFF_CH": {
+      "body": "如果警示一直存在，请联系IDEXX支持部门。",
+      "title": "DIFF-通道错误"
+    },
+    "DIFF_SAMPLING": {
+      "body": "重新提取样本，并在收集样本后、分析样本前立即倒转样本10次。如果持续出现错误提示，请联系IDEXX支持部门。",
+      "title": "分类取样错误"
+    },
+    "ENV_TEMP_HIGH": {
+      "body": "ProCyte Dx 外围温度过高。确保分析仪周边空气可以正常流通，检查风扇过滤器并降低室温到38°C (100°F)以下。<shortlinebreak/>如果警示一直存在，请联系IDEXX支持部门。",
+      "title": "环境温度过高"
+    },
+    "ENV_TEMP_LOW": {
+      "body": "ProCyte Dx 外围温度过低。将室温升高到10° C (50° F)以上。<linebreak/>如果警示一直存在，请联系IDEXX支持部门。",
+      "title": "环境温度过低"
+    },
+    "ENV_THERM_SENS": {
+      "body": "重新开启ProCyte Dx可能可以解决此错误。如果警示一直存在，请联系IDEXX支持部门。<shortlinebreak/><ol><li>关闭ProCyte Dx.</li><li>关闭IPU.</li><li>开启IPU。</li><li>开启ProCyte Dx。</li></ol>",
+      "title": "Env Therm Sens错误"
+    },
+    "EXCHANGE_AIR_PUMP": {
+      "body": "如果警示一直存在，请联系IDEXX支持部门。",
+      "title": "更换空气泵"
+    },
+    "EXCHANGE_WASTE_TANK": {
+      "body": "点击<strong>清空废液瓶</strong>来解决此错误。<shortlinebreak/>此过程用时不到1分钟。",
+      "title": "更换废液瓶"
+    },
+    "EXECUTE_MONTHLY_RINSE_IVLS": {
+      "body": "距离上次每月清洗已经过去1个月了。<shortlinebreak/>该过程需要25分钟清除污染物以确保结果正确。",
+      "title": "每月清洗提醒装置"
+    },
+    "EXECUTE_MONTHLY_RINSE_WARNING": {
+      "body": "点击<strong>每月清洗</strong>继续冲洗。<shortlinebreak/>该过程需要25分钟清除污染物以确保结果正确。",
+      "title": "必须进行每月清洗。"
+    },
+    "EXPIRED_EPK": {
+      "body": "为了保证检测结果的准确性，我们强烈建议更换试剂",
+      "title": "试剂过期"
+    },
+    "EXPIRED_FFD": {
+      "body": "为了保证检测结果的准确性，我们强烈建议更换试剂",
+      "title": "试剂过期"
+    },
+    "EXPIRED_FFS": {
+      "body": "为了保证检测结果的准确性，我们强烈建议更换染色试剂包",
+      "title": "染剂包过期"
+    },
+    "EXPIRED_RED": {
+      "body": "为了保证检测结果的准确性，我们强烈建议更换试剂",
+      "title": "试剂过期"
+    },
+    "EXPIRED_RES": {
+      "body": "为了保证检测结果的准确性，我们强烈建议更换染色试剂包",
+      "title": "染剂包过期"
+    },
+    "EXPIRED_SLS": {
+      "body": "为了保证检测结果的准确性，我们强烈建议更换试剂",
+      "title": "试剂过期"
+    },
+    "FCM_RU_TEMP_HIGH": {
+      "body": "ProCyte Dx 内部温度过高。关闭主机30分钟，然后重新开机。<shortlinebreak/>如果警示一直存在，请联系IDEXX支持部门。",
+      "title": "FCM RU 温度高"
+    },
+    "FCM_RU_TEMP_LOW": {
+      "body": "ProCyte Dx 正在热机。整个过程可能长达30分钟。<linebreak/>如果警示一直存在，请联系IDEXX支持部门。",
+      "title": "FCM RU 温度低"
+    },
+    "FCM_RU_THERM_SENS": {
+      "body": "重新开启ProCyte Dx可能可以解决此错误。如果警示一直存在，请联系IDEXX支持部门。<shortlinebreak/><ol><li>关闭ProCyte Dx.</li><li>关闭IPU.</li><li>开启IPU。</li><li>开启ProCyte Dx。</li></ol>",
+      "title": "FCM RU Therm Sens错误"
+    },
+    "FCM_SHEATH_SENS": {
+      "body": "重新开启ProCyte Dx可能可以解决此错误。如果警示一直存在，请联系IDEXX支持部门。<shortlinebreak/><ol><li>关闭ProCyte Dx.</li><li>关闭IPU.</li><li>开启IPU。</li><li>开启ProCyte Dx。</li></ol>",
+      "title": "FCM Sheath Sens错误"
+    },
+    "FFS_ASP_ERROR": {
+      "body": "染色剂套装似乎被断开。核实染色剂套装是否连接正确并且连接管是否未弯折或扭结。然后按下<strong>开始灌注</strong>。<shortlinebreak/>如果在您按下“开始灌注”后再次收到该信息，请联系IDEXX支持部门寻求帮助。",
+      "title": "染色剂套装似乎被断开。"
+    },
+    "HGB": {
+      "body": "如果警示一直存在，请联系IDEXX支持部门。",
+      "title": "血红素错误"
+    },
+    "IPU_COMMUNICATION_ERROR": {
+      "body": "重新开启ProCyte Dx可能可以解决此错误。如果警示一直存在，请联系IDEXX支持部门。<shortlinebreak/><ol><li>关闭ProCyte Dx.</li><li>关闭IPU.</li><li>开启IPU。</li><li>开启ProCyte Dx。</li></ol>",
+      "title": "发生意外错误。"
+    },
+    "LASER_DIODE_AGED": {
+      "body": "如果警示一直存在，请联系IDEXX支持部门。",
+      "title": "二极管激光老化"
+    },
+    "LASER_POWER": {
+      "body": "使用ProCyte Dx电源开关将分析仪关闭至少10秒。然后，开启分析仪。<linebreak/>如果警示一直存在，请联系IDEXX支持部门。",
+      "title": "激光电源错误"
+    },
+    "MPA_06": {
+      "body": "点击<strong>重设空气泵</strong>来解决此错误。<shortlinebreak/>整个过程大约需要2分钟。",
+      "title": "0.06MPa 错误"
+    },
+    "MPA_NEG03": {
+      "body": "点击<strong>重设空气泵</strong>来解决此错误。<shortlinebreak/>整个过程大约需要2分钟。",
+      "title": "--0.03MPa 错误"
+    },
+    "NEW_HARDWARE_DETECTED": {
+      "body": "要配置新硬件，您必须符合ProCyte Dx序列号的配置文件。<ol><li>使用电源开关<strong>关闭分析仪</strong>。<shortlinebreak/>注意：切勿关闭IPU。</li><li>2. 点击“<strong>配置</strong>”以继续。</li></ol>",
+      "title": "检测到新硬件。"
+    },
+    "PLT_CH": {
+      "body": "如果警示一直存在，请联系IDEXX支持部门。",
+      "title": "PLT-通道错误"
+    },
+    "PLT_SAMPLING": {
+      "body": "点击<strong>清除堵塞</strong>来解决此错误。<shortlinebreak/>整个过程大约需要1分钟。",
+      "title": "血小板取样错误"
+    },
+    "PRESS_START_BUTTON": {
+      "body": "<strong>分析样本</strong><ol><li>将样本管倒转10次，充分混合。</li><li>按下分析仪的<strong>Start</strong>（开始）键。</li></ol>",
+      "title": "样本分析未开始。"
+    },
+    "PRESS_START_BUTTON_QC": {
+      "body": "<strong>$t({{ name }})<shortlinebreak/>批号：{{ lot-number }}</strong><shortlinebreak/>$t({{ unit }})",
+      "title": "按下分析仪的“Start（开始）”按钮开始分析："
+    },
+    "PRESSURE_LOWER": {
+      "body": "点击<strong>重设空气泵</strong>来解决此错误。<shortlinebreak/>整个过程大约需要2分钟。",
+      "title": "压力降低错误"
+    },
+    "RBC_BUBBLE": {
+      "body": "点击<strong>清除堵塞</strong>来解决此错误。<shortlinebreak/>整个过程大约需要1分钟。",
+      "title": "红细胞气泡错误"
+    },
+    "RBC_CH": {
+      "body": "如果警示一直存在，请联系IDEXX支持部门。",
+      "title": "红细胞通道错误"
+    },
+    "RBC_CLOG": {
+      "body": "点击<strong>清除堵塞</strong>来解决此错误。<shortlinebreak/>整个过程大约需要1分钟。",
+      "title": "红细胞聚集错误"
+    },
+    "RBC_HGB_CHAMBER": {
+      "body": "点击<strong>排空反应槽</strong>来解决此错误。<shortlinebreak/>此过程用时不到1分钟。",
+      "title": "红细胞/血红素槽错误"
+    },
+    "RBC_SAMPLING": {
+      "body": "点击<strong>清除堵塞</strong>来解决此错误。<shortlinebreak/>整个过程大约需要1分钟。",
+      "title": "红细胞取样错误"
+    },
+    "REAGENT_KIT_LOW": {
+      "body": "您的试剂盒液面水平低。您可继续进行分析，直至试剂盒耗尽为止。<linebreak/>为确保您在使用分析仪的过程中不被打断，请核实库存中是否有试剂盒替换品。<linebreak/>如需停用该提醒功能，可在ProCyte Dx设置屏幕上将<strong>低试剂液面提醒</strong>的设置值更改为“关闭”。",
+      "title": "试剂量低"
+    },
+    "REPLACE_EPK": {
+      "body": "试剂盒似乎被断开。核实试剂盒是否连接正确并且连接管是否未弯折或扭结。然后按下<strong>开始灌注</strong>。<shortlinebreak/>如果在您按下“开始灌注”后再次收到该信息，请联系IDEXX支持部门寻求帮助。",
+      "title": "试剂盒似乎被断开。"
+    },
+    "REPLACE_FFD": {
+      "body": "试剂盒似乎被断开。核实试剂盒是否连接正确并且连接管是否未弯折或扭结。然后按下<strong>开始灌注</strong>。<shortlinebreak/>如果在您按下“开始灌注”后再次收到该信息，请联系IDEXX支持部门寻求帮助。",
+      "title": "试剂盒似乎被断开。"
+    },
+    "REPLACE_FFS": {
+      "body": "点击 <strong>“更换染剂”</strong> 以继续",
+      "title": "染色包空了"
+    },
+    "REPLACE_PIERCER": {
+      "body": "如果警示一直存在，请联系IDEXX支持部门。",
+      "title": "更换穿刺针"
+    },
+    "REPLACE_REAGENT_PACKAGE": {
+      "body": "试剂空了 <strong>“更换试剂”</strong>以继续",
+      "title": "试剂空了"
+    },
+    "REPLACE_RED": {
+      "body": "试剂盒似乎被断开。核实试剂盒是否连接正确并且连接管是否未弯折或扭结。然后按下<strong>开始灌注</strong>。<shortlinebreak/>如果在您按下“开始灌注”后再次收到该信息，请联系IDEXX支持部门寻求帮助。",
+      "title": "试剂盒似乎被断开。"
+    },
+    "REPLACE_RES": {
+      "body": "点击 <strong>“更换染剂”</strong> 以继续",
+      "title": "染色包空了"
+    },
+    "REPLACE_SLS": {
+      "body": "试剂盒似乎被断开。核实试剂盒是否连接正确并且连接管是否未弯折或扭结。然后按下<strong>开始灌注</strong>。<shortlinebreak/>如果在您按下“开始灌注”后再次收到该信息，请联系IDEXX支持部门寻求帮助。",
+      "title": "试剂盒似乎被断开。"
+    },
+    "RET": {
+      "body": "如果警示一直存在，请联系IDEXX支持部门。",
+      "title": "网织红细胞错误"
+    },
+    "RET_CH": {
+      "body": "如果警示一直存在，请联系IDEXX支持部门。",
+      "title": "RET-通道错误"
+    },
+    "RET_CHAMBER": {
+      "body": "点击<strong>排空反应槽</strong>来解决此错误。<shortlinebreak/>此过程用时不到1分钟。",
+      "title": "网织红细胞槽错误"
+    },
+    "RET_SAMPLING": {
+      "body": "检测到流动室异常。点击<strong>清洗流动室</strong>以继续。<shortlinebreak/>此过程大约需要6分钟。",
+      "title": "网织红细胞取样错误"
+    },
+    "RH_TEMP_HIGH_DIFF": {
+      "body": "ProCyte Dx 内部温度过高。关闭主机30分钟，然后重新开机。<linebreak/>如果警示一直存在，请联系IDEXX支持部门。",
+      "title": "RH Temp温度高"
+    },
+    "RH_TEMP_HIGH_RET": {
+      "body": "ProCyte Dx 内部温度过高。关闭主机30分钟，然后重新开机。<shortlinebreak/>如果警示一直存在，请联系IDEXX支持部门。",
+      "title": "RH Temp温度高"
+    },
+    "RH_TEMP_LOW_DIFF": {
+      "body": "ProCyte Dx 正在热机。整个过程可能长达30分钟。<shortlinebreak/>如果警示一直存在，请联系IDEXX支持部门。",
+      "title": "RH Temp温度低"
+    },
+    "RH_TEMP_LOW_RET": {
+      "body": "ProCyte Dx 正在热机。整个过程可能长达30分钟。<linebreak/>如果警示一直存在，请联系IDEXX支持部门。",
+      "title": "RH Temp温度低"
+    },
+    "RH_THERM_SENS_ERR_DIFF": {
+      "body": "重新开启ProCyte Dx可能可以解决此错误。如果警示一直存在，请联系IDEXX支持部门。<shortlinebreak/><ol><li>关闭ProCyte Dx.</li><li>关闭IPU.</li><li>开启IPU。</li><li>开启ProCyte Dx。</li></ol>",
+      "title": "RH Therm Sens ERR (DIFF)"
+    },
+    "RH_THERM_SENS_ERR_RET": {
+      "body": "重新开启ProCyte Dx可能可以解决此错误。如果警示一直存在，请联系IDEXX支持部门。<shortlinebreak/><ol><li>关闭ProCyte Dx.</li><li>关闭IPU.</li><li>开启IPU。</li><li>开启ProCyte Dx。</li></ol>",
+      "title": "RH Therm Sens ERR (RET)"
+    },
+    "RIGHT_COVER_HAS_OPENED": {
+      "body": "<ol><li>关闭右侧盖.</li><li>将ProCyte Dx电源转换器关闭再开启分析仪.</li></ol>",
+      "title": "右侧盖已打开."
+    },
+    "RIGHT_COVER_IS_OPEN": {
+      "body": "关上ProCyte Dx的右侧盖以解决此错误。",
+      "title": "右侧盖已打开."
+    },
+    "RINSE_CUP_PINCH_VALVE": {
+      "body": "点击<strong>清洁夹管阀</strong>来解决此错误。<shortlinebreak/>整个过程用时不到1分钟。",
+      "title": "清洗Cup 夹管阀错误"
+    },
+    "SAMPLE_NOT_ASP": {
+      "body": "样本血量似乎不足。在重新检测前，请先检查样本量。有关样本量的要求，请参见《ProCyte Dx分析仪操作指南》。<shortlinebreak/>如果警示一直存在，请联系IDEXX支持部门。",
+      "title": "Sample Not Asp（不吸取样本）错误"
+    },
+    "SFS_INTERRUPTED": {
+      "body": "<ol><li>将从快速连接头起始的试管从分析仪的背面断开。</li><li>关闭分析仪和IPU的电源。</li><li>将分析仪的电源和通讯电缆断开。</li><li>将分析仪退回给IDEXX。</li></ol>",
+      "title": "在“关机运输”操作过程中发生一个问题。"
+    },
+    "SFS_REAGENTS_DRAINED": {
+      "body": "已清空分析仪中的试剂。<shortlinebreak/><strong>后续步骤：</strong><ol><li>在分析仪背面断开管与白色端口的连接</li><li>使用位于仪器右侧的开关关闭分析仪</li><li>按 IPU 上的电源按钮关闭电源（不要按住按钮）</li><li>在分析仪背面断开电源线和以太网电缆</li><li>将旧的分析仪放入替换用分析仪的箱中，并将其送回 IDEXX</li></ol><linebreak/><strong>点击“完成”</strong>",
+      "title": "最后步骤"
+    },
+    "SHEATH_MOTOR": {
+      "body": "点击<strong>重设鞘液马达</strong>来解决此错误。<shortlinebreak/>整个过程用时不到1分钟。",
+      "title": "鞘液马达错误"
+    },
+    "SHORT_SAMPLE": {
+      "body": "样本血量似乎不足。在重新检测前，请先检查样本量。有关样本量的要求，请参见《ProCyte Dx分析仪操作指南》。<shortlinebreak/>如果警示一直存在，请联系IDEXX支持部门。",
+      "title": "样本量不足"
+    },
+    "SOFTWARE_UPGRADE_AVAILABLE": {
+      "body": "<ol><li>使用电源开关<strong>关闭分析仪</strong>。<shortlinebreak/>注意：切勿关闭IPU。</li><li>点击<strong>立即升级</ strong>以继续。<shortlinebreak/>警告：在升级进程中，IPU将关机。</li></ol>",
+      "title": "软件升级版本{{ software-version }}已可供安装。"
+    },
+    "SOFTWARE_UPGRADE_FAILED": {
+      "body": "再试一次升级或联系IDEXX技术支持部门寻求帮助。<shortlinebreak/><ol><li>使用电源开关<strong>关闭分析仪</strong>。<shortlinebreak/>注意：切勿关闭IPU。</li><li>点击“<strong>立即升级</strong>”以继续。</li></ol>",
+      "title": "软件升级不成功。"
+    },
+    "SOFTWARE_UPGRADE_TIMEOUT": {
+      "body": "要解决此问题，确保ProCyte Dx分析仪已关闭，然后使用IPU上的电源按钮重启IPU。<shortlinebreak/>如果问题仍存在，请联系IDEXX支持部门。",
+      "title": "软件升级不成功。"
+    },
+    "STAIN_PACK_LOW": {
+      "body": "您的染色剂套装液面水平低。您可继续进行分析，直至试剂盒耗尽为止。<linebreak/>为确保您在使用分析仪的过程中不被打断，请核实库存中是否有试剂套组替换品。<linebreak/>如需停用该提醒功能，可在ProCyte Dx设置屏幕上将<strong>低试剂液面提醒</strong>的设置值更改为“关闭”。",
+      "title": "染色剂套装量过低。"
+    },
+    "STARTUP_PRIME_REQUIRED": {
+      "body": "在这45分钟的过程中，需要准备全满的试剂品与染色瓶。您想继续吗？",
+      "title": "需要启动"
+    },
+    "SYSTEM_CONFIGURATION": {
+      "body": "重新开启ProCyte Dx可能可以解决此错误。如果警示一直存在，请联系IDEXX支持部门。<shortlinebreak/><ol><li>关闭ProCyte Dx.</li><li>关闭IPU.</li><li>开启IPU。</li><li>开启ProCyte Dx。</li></ol>",
+      "title": "系统配置错误."
+    },
+    "TUBE_HOLDER_HAS_OPENED": {
+      "body": "重新开启ProCyte Dx可能可以解决此错误。如果警示一直存在，请联系IDEXX支持部门。<shortlinebreak/><ol><li>尽可能清除样质控品及任何的阻塞物。</li><li>关闭ProCyte Dx。</li><li>关闭IPU。</li><li>开启IPU。</li><li>开启ProCyte Dx</li></ol>",
+      "title": "样本装置槽已打开"
+    },
+    "TUBE_HOLDER_MOTOR": {
+      "body": "样本槽中有阻塞物。移除障碍物并点击<strong>重设试管马达</strong>来解决此错误。<shortlinebreak/>整个过程用时不到1分钟。",
+      "title": "Tube Holder Motor错误"
+    },
+    "TURN_ON_MAIN_UNIT": {
+      "body": "将ProCyte Dx电源转换器打开",
+      "title": "未检测到ProCyte Dx分析仪"
+    },
+    "UNINTENTIONAL_OFFLINE_TIMEOUT": {
+      "body": "点击<strong>开启ProCyte Dx电源</strong>按钮启动IPU。大约需要1分钟。<shortlinebreak/><strong>注意：</strong>使用“开启ProCyte Dx电源”按钮后，不要推动IPU上面的电源开关。使用分析仪右侧的开关开启分析仪电源。",
+      "title": "尚未检测到ProCyte Dx"
+    },
+    "WAKE_ON_LAN_FAILURE_TIMEOUT": {
+      "body": "如果IPU已经开启，请将其关闭，然后确保IPU已通过网线连接到VetLab路由器。<shortlinebreak/>接下来，<strong>按下IPU上的电源按钮</strong>将其开启。",
+      "title": "尚未检测到ProCyte Dx"
+    },
+    "WASTE_CHAMBER_1": {
+      "body": "点击<strong>清空废液瓶</strong>来解决此错误。<shortlinebreak/>此过程用时不到1分钟。",
+      "title": "1号废液瓶错误"
+    },
+    "WASTE_CHAMBER_1_PINCH_VALVE": {
+      "body": "点击<strong>清洁夹管阀</strong>来解决此错误。<shortlinebreak/>整个过程用时不到1分钟。",
+      "title": "1号废液槽 夹管阀错误"
+    },
+    "WASTE_CHAMBER_2": {
+      "body": "点击<strong>清空废液瓶</strong>来解决此错误。<shortlinebreak/>此过程用时不到1分钟。",
+      "title": "废液瓶2错误"
+    },
+    "WASTE_CHAMBER_2_PINCH_VALVE": {
+      "body": "点击<strong>清洁夹管阀</strong>来解决此错误。<shortlinebreak/>整个过程用时不到1分钟。",
+      "title": "2号废液槽 夹管阀错误"
+    },
+    "WB_ASP_MOTOR": {
+      "body": "点击<strong>重设WB马达</strong>来解决此错误。<shortlinebreak/>整个过程用时不到1分钟。",
+      "title": "WB Asp Motor错误"
+    },
+    "WBC_CH": {
+      "body": "检测到流动室异常。点击<strong>清洗流动室</strong>以继续。<shortlinebreak/>此过程大约需要6分钟。",
+      "title": "白细胞通道错误"
+    },
+    "WBC_CHAMBER": {
+      "body": "点击<strong>排空反应槽</strong>来解决此错误。<shortlinebreak/>此过程用时不到1分钟。",
+      "title": "白细胞槽错误"
+    },
+    "WBC_SAMPLING": {
+      "body": "检测到流动室异常。点击<strong>清洗流动室</strong>以继续。<linebreak/>此过程大约需要6分钟。",
+      "title": "白细胞取样错误"
+    },
+    "unmapped": {
+      "body": "<strong>请联系IDEXX支持部门并提供下列信息:</strong><shortlinebreak/>错误：{{ error }} <shortlinebreak/>建议措施：{{ action }} <shortlinebreak/>命令：{{ command }}",
+      "title": "发生意外错误。"
+    }
+  },
+  "Crimson": {
+    "PressStartButton": {
+      "QC": {
+        "Line3": {
+          "EN": "<ol><li>在室温(18°-25°C)下预热质控品至少15分钟。</li><li>轻轻翻转质控品小瓶，直到附着在小瓶底部的细胞完全悬浮。<shortlinebreak/><strong>注意：</strong>注： 切勿将质控品放置在机械混合仪或摇床上。</li><li>注： 切勿将质控品放置在机械混合仪或摇杆上。</li><li>按下分析仪的<strong>Start</strong>（开始）键。</li></ol>",
+          "SI": "1.在室温 (18°C-25°C) 下预热质控品至少15分钟。<br /><br />2.在室温 (18°-25°C)下预热质控品至少15分钟。<br /><br />注意：注： 切勿将质控品放置在机械混合仪或摇床上。<br /><br />3.注： 切勿将质控品放置在机械混合仪或摇杆上。<br /><br />4.按下分析仪的<b>Start</b>（开始）键。"
+        }
+      }
+    }
+  },
+  "URISED": {
+    "ARM_MOVEMENT": {
+      "body": "检测到“分析片移动臂错误”。<linebreak/>初始化和清洁应该能解决此错误。点击<strong>初始化</strong>按钮开始该过程。<linebreak/>如果错误仍然存在，请联系IDEXX支持部门。",
+      "title": "分析片移动臂错误"
+    },
+    "CAMERA_ERROR": {
+      "body": "摄像机错误。请联系IDEXX技术支持部门。",
+      "title": "摄像机错误"
+    },
+    "CENTRIFUGE_ARM_MISSING": {
+      "body": "无离心机臂。请联系IDEXX技术支持部门。",
+      "title": "离心机错误"
+    },
+    "CENTRIFUGE_ROTATION_ERROR": {
+      "body": "离心机旋转错误。请联系IDEXX技术支持部门。",
+      "title": "离心机错误"
+    },
+    "CLEANING_RECOMMENDED": {
+      "body": "我们建议每月清洁一次您的SediVue Dx尿沉渣分析仪。<linebreak/>要立即清洁分析仪，请点击<strong>清洁</strong>。<linebreak/>如要在24小时内提醒，请点击<strong>稍后提醒我</strong>。<linebreak/>如果您的分析仪已经清洁过，请点击<strong>取消</strong>。",
+      "title": "建议清洁"
+    },
+    "CUVETTE_COUNT_LOW": {
+      "body": "剩余的分析片：{{ 0 }}<linebreak/>您可继续使用分析仪，直到套筒变空。<linebreak/>为确保您在使用分析仪的过程中不被打断，请核实库存中是否有其他分析片。",
+      "title": "SediVue 分析片套筒几乎是空的"
+    },
+    "CUVETTE_COUNT_ZERO": {
+      "body": "SediVue分析片套筒已空。<linebreak/>为使用分析仪，您必须将新的分析片套筒装入分析仪。",
+      "title": "更换 SediVue Dx 分析片套筒"
+    },
+    "CUVETTE_SENSOR_EMPTY": {
+      "body": "SediVue分析片套筒已空，或分析片未正确装入。<linebreak/>打开SediVue Dx门，检查分析片是否在套筒中。如果分析片已存在，请轻轻敲击套筒并重新运行。如果分析片不存在，您必须在分析仪中装入新的分析片套筒。",
+      "title": "无法探测到 SediVue 分析片"
+    },
+    "DOOR_OPEN": {
+      "body": "在使用 SediVue Dx 之前，必须关门。",
+      "title": "门已打开"
+    },
+    "FEEDER_MOVEMENT": {
+      "body": "检测到“分析片移动臂错误”。<linebreak/>初始化和清洁应该能解决此错误。点击<strong>初始化</strong>按钮开始该过程。<linebreak/>如果错误仍然存在，请联系IDEXX支持部门。",
+      "title": "分析片移动臂错误"
+    },
+    "FOCUS_DLL_NOT_FOUND": {
+      "body": "未发现焦点 dll。请联系客服部门",
+      "title": "对焦错误"
+    },
+    "FOCUS_FUNCTION_MISSING": {
+      "body": "其中一个对焦功能缺失。请联系IDEXX技术支持部门。",
+      "title": "对焦错误"
+    },
+    "FOCUS_HOME_POSITION_ERROR": {
+      "body": "焦点原始位置错误。请联系IDEXX技术支持部门。",
+      "title": "对焦错误"
+    },
+    "GENERAL_COMMUNICATION_ERROR": {
+      "body": "一般通讯错误。请联系客服部门",
+      "title": "通讯错误"
+    },
+    "HOUSE_OPEN": {
+      "body": "在使用 SediVue Dx 之前，必须更换离心机盖。",
+      "title": "离心机盖已取下"
+    },
+    "INSTRUMENT_PORT_OPEN_ERROR": {
+      "body": "仪器端口打开错误。请联系客服部门",
+      "title": "仪器端口错误"
+    },
+    "MEMORY_ALLOCATION_ERROR": {
+      "body": "消息模块中内存分配错误。请联系客服部门",
+      "title": "内存错误"
+    },
+    "MICROSCOPE_CTS_TIMEOUT": {
+      "body": "显微镜清除发送 (CTS) 超时。请联系客服部门",
+      "title": "显微镜错误"
+    },
+    "MICROSCOPE_THREAD_CREATION_ERROR": {
+      "body": "显微镜线程创建错误。请联系IDEXX技术支持部门。",
+      "title": "线程创建错误"
+    },
+    "MOTY_MOVEMENT": {
+      "body": "检测到“分析片移动臂错误”。<linebreak/>初始化和清洁应该能解决此错误。点击<strong>初始化</strong>按钮开始该过程。<linebreak/>如果错误仍然存在，请联系IDEXX支持部门。",
+      "title": "分析片移动臂错误"
+    },
+    "PLATE_MISSING": {
+      "body": "在使用 SediVue Dx 之前，必须更换化霜水盘。",
+      "title": "化霜水盘已取下"
+    },
+    "PORT_THREAD_NOT_STARTED": {
+      "body": "端口线程无法开始。",
+      "title": "端口线程错误"
+    },
+    "PROTOCOL_CLASS_CREATION_ERROR": {
+      "body": "协议等级创建错误。请联系客服部门",
+      "title": "协议错误"
+    },
+    "PROTOCOL_USAGE_UNDEFINED": {
+      "body": "协议用法未定义。请联系客服部门",
+      "title": "协议错误"
+    },
+    "SERIAL_PORT_NOT_FOUND": {
+      "body": "未发现串行端口。请联系客服部门",
+      "title": "串行端口错误"
+    },
+    "SERIAL_PORT_UNAVAILABLE": {
+      "body": "电脑上无串行端口。请联系客服部门",
+      "title": "串行端口错误"
+    },
+    "SMART_SERVICE_DISCONNECTED": {
+      "body": "SmartService 断开连接已超过 5 天。为确保您的 SediVue Dx 获得最佳体验，请重新连接。",
+      "title": "SmartService 已断开连接"
+    },
+    "SYSTEM_REBOOT_RECOMMENDED": {
+      "body": "IDEXX建议您每月重启一次您的SediVue Dx分析仪，以确保性能的最佳状态。<linebreak/>您想现在重启分析仪吗？\n",
+      "title": "建议重启"
+    },
+    "TOO_MANY_SERIAL_PORTS_DEFINED": {
+      "body": "ini 中定义太多串行端口。请联系客服部门",
+      "title": "串行端口错误"
+    },
+    "UPDATE_AVAILABLE": {
+      "body": "您可使用 SediVue Dx 仪器屏幕上的升级软件选项随时升级分析仪。",
+      "noUpgradeWarning": "如果您未在{{ dateFormat }}前完成分析仪升级，升级将自动进行。",
+      "title": "软件升级版本{{ version }}已可供安装。"
+    },
+    "UPDATE_FAILED": {
+      "body": "SediVue Dx 分析仪升级不成功。要解决此问题，请立即重复升级程序，或使用SediVue Dx“仪器”界面上的“升级软件”选项。<linebreak/>如果问题仍存在，请联系IDEXX支持部门。",
+      "title": "软件升级不成功"
+    },
+    "UPDATE_FAILED_CATASTROPHIC": {
+      "body": "如需帮助，请联系IDEXX支持部门。",
+      "title": "软件升级不成功"
+    },
+    "WAKE_ON_LAN_FAILURE_TIMEOUT": {
+      "body": "如果分析仪已经开启，请将其关闭。确保已连接上IDEXX VetLab路由器。<linebreak/>接下来，<strong>按下分析仪上的电源按钮</strong>开机。<linebreak/>如果问题仍存在，请联系IDEXX支持部门。",
+      "title": "没有检测到 SediVue Dx"
+    }
+  },
+  "URISYS_DX": {
+    "E1_REFERENCE_PAD_ERROR_MIDDLE_ERROR": {
+      "body": "试纸检测架脏污或已损坏。<shortlinebreak /><ol><li>取下分析仪的试纸检测架。</li><li>用酒精和无尘纸清洁白色参考片。</li><li>将试纸检测架装回分析仪，重新检测。</li></ol>如果问题仍然存在，请更换试纸检测架或者联系IDEXX支持部门。",
+      "title": "参考片错误"
+    },
+    "E2_WRONG_STRIP_ERROR": {
+      "body": "如果要执行校准：<shortlinebreak /><ol><li>请使用IDEXX校准条重新校准。</li><li>确保将试纸条正确放置于试纸检测架中。</li></ol>如果要执行样本检测：<shortlinebreak /><ol><li>请使用IDEXX试纸条重新检测。</li><li>确保在试纸条上添加足量样本。</li><li>确保将试纸条正确放置于试纸检测架中。</li></ol>如果问题仍然存在，请联系IDEXX支持部门。",
+      "title": "试纸条错误"
+    },
+    "E3_STRIP_MEASUREMENT_ERROR": {
+      "body": "<ol><li>请使用IDEXX试纸条重新检测。</li><li>确保试纸条被加上足量样本。</li><li>确保将试纸条正确放置于检测架中。</li></ol><strong>如果样本颜色较深：</strong><shortlinebreak />请对样本进行离心处理，使用上清液和新的试纸条重新检测。<linebreak />如果错误仍然存在，请联系IDEXX支持部门。",
+      "title": "测量错误"
+    },
+    "E4_CALIBRATION_ERROR": {
+      "body": "分析仪未成功校正。如需帮助，请联系IDEXX支持部门。",
+      "title": "校准错误"
+    },
+    "E5_CALIBRATION_INVALID_ERROR": {
+      "body": "分析仪未成功校正。如需帮助，请联系IDEXX支持部门。",
+      "title": "校准错误"
+    },
+    "E7_MISSING_TRAY_ERROR": {
+      "body": "找不到试纸检测架，或位置不正确。<shortlinebreak /><ol><li>重新放置试纸检测架。</li><li>点击<strong>初始化</strong>。</li><li>如果问题仍然存在，请更换新的试纸检测架。</li></ol>如果问题仍然存在，请联系IDEXX支持部门。",
+      "title": "找不到试纸检测架"
+    },
+    "E8_TRAY_POSITION_ERROR": {
+      "body": "试纸检测架已损坏、脏污或者位置不正确。<shortlinebreak /><ol><li>取下分析仪的试纸检测架。</li><li>用酒精和无尘纸清洁试纸检测架。</li><li>将试纸检测架装回分析仪，点击<strong>初始化</strong>。</li><li>点击患宠按钮，重新检测。</li></ol>如果问题仍然存在，请更换新的试纸检测架或者联系IDEXX支持部门。",
+      "title": "试纸检测架错误"
+    },
+    "E9_WRONG_TRAY_ERROR": {
+      "body": "<ol><li>更换新的试纸检测架。</li><li>点击<strong>初始化</strong>。</li></ol>如果问题仍然存在，请联系IDEXX支持部门。",
+      "title": "试纸检测架不正确"
+    },
+    "E10_LIGHT_BARRIER_ERROR": {
+      "body": "<ol><li>取下分析仪的试纸检测架。</li><li>用酒精和无尘纸清洁试纸检测架。</li><li>将试纸检测架装回分析仪，点击<strong>初始化</strong>。</li></ol>如果问题仍然存在，请更换新的试纸检测架或者联系IDEXX支持部门。",
+      "title": "挡光片错误"
+    },
+    "E11_MOTOR_STEP_ERROR": {
+      "body": "试纸检测架未正确移动。<shortlinebreak /><ol><li>取下分析仪的试纸检测架。</li><li>用酒精和无尘纸清洁试纸检测架。</li><li>将试纸检测架装回分析仪，点击<strong>初始化</strong>。</li></ol>如果问题仍然存在，请更换新的试纸检测架或者联系IDEXX支持部门。",
+      "title": "马达节距错误"
+    },
+    "E12_OPTICS_ERROR": {
+      "body": "<ol><li>取下分析仪的试纸检测架并更换新的试纸检测架。</li><li>点击<strong>初始化</strong>。</li></ol>如果问题仍存在，请联系IDEXX支持部门。",
+      "title": "光学元件错误"
+    },
+    "E15_REFERENCE_PAD_BOTTOM_ERROR": {
+      "body": "试纸检测架脏污或已损坏。<shortlinebreak /><ol><li>取下分析仪的试纸检测架。</li><li>用酒精和无尘纸清洁白色参考片。</li><li>将试纸检测架装回分析仪，重新检测。</li></ol>如果问题仍然存在，请更换试纸检测架或者联系IDEXX支持部门。",
+      "title": "参考片错误"
+    },
+    "E16_REFERENCE_PAD_TOP_ERROR": {
+      "body": "试纸检测架脏污或已损坏。<shortlinebreak /><ol><li>取下分析仪的试纸检测架。</li><li>用酒精和无尘纸清洁白色参考片。</li><li>将试纸检测架装回分析仪，重新检测。</li></ol>如果问题仍然存在，请更换试纸检测架或者联系IDEXX支持部门。",
+      "title": "参考片错误"
+    },
+    "E24_COMP_PAD_REMISSIONS_OUT_OF_RANGE_ERROR": {
+      "body": "使用新的试纸条重新检测，确保试纸条上样本足量并将试纸条正确放置于试纸检测架中。<linebreak /><strong>如果样本颜色较深</strong>：<shortlinebreak />对样本进行离心处理，使用上清液和新的试纸条重新检测。<linebreak />如果错误仍然存在，请联系IDEXX支持部门。",
+      "title": "结果偏出参考范围"
+    },
+    "E25_SYSTEM_EPROM_ERROR": {
+      "body": "重新启动UA分析仪：<shortlinebreak /><ol><li>点击<strong>关闭电源</strong>关闭UA分析仪。</li><li>60秒后，按下分析仪右侧的电源按钮开启UA分析仪。</li></ol>如果问题仍然存在，请联系IDEXX支持部门。",
+      "title": "需要重启"
+    },
+    "E27_USER_CALIBRATION_IS_REQUIRED_ERROR": {
+      "body": "UA分析仪每周需要校准一次，以保证检测结果的准确性。<shortlinebreak />点击<strong>校准</strong>开始每周一次的校准。",
+      "title": "需要校准。"
+    },
+    "E29_DATABASE_ERROR": {
+      "body": "重新启动UA分析仪。<shortlinebreak /><ol><li> 点击<strong>关闭电源</strong>关闭UA分析仪。</li><li>60秒后，按下分析仪右侧的电源按钮开启UA分析仪。</li></ol>如果问题仍然存在，请联系IDEXX支持部门。",
+      "title": "需要重启"
+    },
+    "E30_SYSTEM_INITIALIZATION_ERROR": {
+      "body": "重新启动UA分析仪：<shortlinebreak /><ol><li>点击<strong>关闭电源</strong>关闭UA分析仪。</li><li>60秒后，按下分析仪右侧的电源按钮开启UA分析仪。</li></ol>如果问题仍然存在，请联系IDEXX支持部门。",
+      "title": "需要重启"
+    },
+    "E33_SYSTEM_ERROR": {
+      "body": "重新启动UA分析仪：<shortlinebreak /><ol><li>点击<strong>关闭电源</strong>关闭UA分析仪。</li><li>60秒后，按下分析仪右侧的电源按钮开启UA分析仪。</li></ol>如果问题仍然存在，请联系IDEXX支持部门。",
+      "title": "需要重启"
+    },
+    "E100_POWERSUPPLY_ERROR": {
+      "body": "将UA分析仪<strong>关机</strong>：<ol><li>点击<strong>关闭电源</strong>关闭UA分析仪。</li><li>确认将正确的电源线牢牢地插入分析仪背面的电源端口和电源插座。</li><li>60秒后，按下分析仪右侧的电源按钮开启分析仪。</li></ol>如果问题仍然存在，请联系IDEXX支持部门。",
+      "title": "需要重启和电缆检查"
+    },
+    "UPDATE_AVAILABLE": {
+      "body": "如果您选择稍后安装，可随时通过UA分析仪“仪器”界面对分析仪进行升级。",
+      "title": "软件升级版本{{ version }}已可供安装。"
+    },
+    "UPDATE_FAILED": {
+      "body": "UA分析仪未能成功升级。要解决此问题，请立即重复升级程序，或稍后通过UA分析仪“仪器”界面进行升级。<linebreak/>如果问题仍存在，请联系IDEXX支持部门。",
+      "title": "软件升级不成功"
+    },
+    "UPDATE_FAILED_CATASTROPHIC": {
+      "body": "如需帮助，请联系IDEXX支持部门。",
+      "title": "软件升级不成功"
+    }
+  },
+  "THEIA": {
+    "INST_TEMP_LOW": {
+      "body": "分析仪机身温度过低，无法开始样本检测。请等待分析仪预热或检查室温。<linebreak/>如果问题仍存在，请联系IDEXX支持部门。"
+    },
+    "INST_TEMP_HIGH": {
+      "body": "分析仪机身温度过高，无法开始样本检测。请确保分析仪周围空气流通顺畅。<linebreak/>如果问题仍存在，请联系IDEXX支持部门。"
+    },
+    "INVALID_CONSUMABLES": {
+      "body": "这似乎不是IDEXX inVue Dx分析片。使用IDEXX分析片重新检测样本。"
+    },
+    "EXPIRED_CONSUMABLES": {
+      "body": "分析片已过期。使用新的、未过期的分析片重新检测样本。"
+    },
+    "BARCODE_READ_FAILURE": {
+      "body": "无法读取条形码。检查条形码是否有损坏或遮挡，清理条形码，或手动输入条形码。"
+    },
+    "INCORRECT_TEST_TYPE_MANUAL": {
+      "body": "条形码与选择的检测类型不匹配。请输入正确的条形码。"
+    },
+    "INCORRECT_TEST_TYPE": {
+      "body": "所用分析片不适用于所选的检测类型。使用正确的分析片重新检测样本。"
+    },
+    "SAMPLE_OVER_TEMP": {
+      "body": "样本检测期间系统温度过高。请查阅操作指南，将环境温度调整到适合inVue检测样本的温度。"
+    },
+    "SAMPLE_UNDER_TEMP": {
+      "body": "样本检测过程中系统温度过低。请查阅操作指南，将环境温度调整到适合inVue检测样本的温度。"
+    },
+    "IMPROPER_SAMPLE_PREPARATION": {
+      "body": "样本中可能缺少试剂。请制备新样本并重新进行检测。<linebreak/>如果问题仍存在，请联系IDEXX支持部门。"
+    },
+    "SAMPLE_CELLULARITY_HIGH": {
+      "body": "无法分析样本。请制备新样本并重新进行检测。"
+    },
+    "MOTION_ERROR_CARTRIDGE": {
+      "body": "分析片位置不正确。请尝试重新插入分析片。<linebreak/>如果问题仍存在，请联系IDEXX支持部门。"
+    },
+    "MOTION_ERROR_MICROSCOPE": {
+      "body": "显微镜位置不正确。请尝试重新插入分析片。<linebreak/>如果问题仍存在，请联系IDEXX支持部门。"
+    },
+    "UNKNOWN_ERROR": {
+      "body": "检测已中止。<linebreak/>如果问题仍存在，请联系IDEXX支持。"
+    }
+  },
+  "default": {
+    "message": "仪器出现警示。请检查仪器得知进一步信息。"
+  },
+  "buttons": {
+    "start": "启动",
+    "powerOnProCyteDx": "开启ProCyte Dx电源",
+    "performClean": "执行清除"
+  },
+  "defaultActionButtons": {
+    "ASPIRATION_UNIT_MOTOR": "重设吸样马达",
+    "CALIBRATE": "校准",
+    "CANCEL": "取消",
+    "CANCEL_RUN": "取消操作",
+    "CHANGE_REAGENT": "更换试剂",
+    "CHANGE_STAIN": "更换染剂",
+    "CLEAN": "清洁",
+    "CLEAR_PINCH_VALUE": "清洁夹管阀",
+    "CLOSE": "关闭",
+    "CONFIGURE": "配置",
+    "CONNECT": "连接",
+    "CONTINUE": "继续",
+    "DISMISS": "取消",
+    "DRAIN_REACTION_CHAMBER": "清空反应槽",
+    "DRAIN_WASTE_CHAMBER": "清空废液瓶",
+    "ENTER_REAGENT_BARCODE": "手动输入",
+    "ENTER_SHEATH_BARCODE": "手动输入",
+    "FILTER_INSTRUCTIONS": "过滤说明",
+    "FINISH": "完成",
+    "INITIALIZE": "初始化",
+    "OK": "确定",
+    "OK_REMOVE": "确定",
+    "OPTIMIZE_LATER": "稍后优化",
+    "OPTIMIZE_NOW": "立即优化",
+    "PINCH_VALVE": "清洁夹管阀",
+    "POWER_DOWN": "关闭电源",
+    "REBOOT_INSTRUMENT": "重新启动",
+    "REMIND_ME_LATER": "稍后提醒我",
+    "REMIND_ME_NEXT_RUN": "进行下一次分析时提醒我。",
+    "REMIND_ME_WHEN_EMPTY": "试剂瓶已空时提醒我",
+    "REMOVE_CLOGS": "清除血块",
+    "REPLACE_CUVETTES": "更换分析片",
+    "REPLACE_FILTER": "更换过滤器",
+    "REPLACE_REAGENT": "更换试剂",
+    "REPLACE_SHEATH": "鞘液更换",
+    "REPLACE_SMART_QC": "更换 SmartQC",
+    "RESET_AIR_PUMP": "重设空气泵",
+    "RESET_SHEATH_MOTOR": "重新设置鞘液马达",
+    "RESET_WB_MOTOR": "重设WB Asp Motor",
+    "RINSE_FLOW_CELL": "清洗流动室",
+    "AUTO_RINSE": "执行自动清洗",
+    "RUN_BLEACH_CLEAN": "执行漂白水清洁",
+    "MONTHLY_RINSE": "执行每月清洗",
+    "START_PRIME": "开始冲洗",
+    "TUBE_HOLDER_MOTOR": "重设试管 马达",
+    "UPGRADE": "升级",
+    "UPGRADE_LATER": "稍后升级",
+    "UPGRADE_SOFTWARE": "立即升级",
+    "PRINT": "打印",
+    "FORCE_RUN": "忽略",
+    "ENTER_THEIA_BARCODE": "输入条码编号"
+  },
+  "QualityControl": {
+    "PatientName": {
+      "Level1": "ProCyte Dx QC一第 1 阶",
+      "Level2": "ProCyte Dx QC第2 阶"
+    }
+  }
+}

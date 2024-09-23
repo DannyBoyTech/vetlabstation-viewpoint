@@ -1,0 +1,174 @@
+name: IVLS E2E Automation
+
+on:
+  workflow_dispatch:
+    inputs:
+      artifactId:
+        description: A unique identifier used to locate the artifact to test (currrently git repository SHA)
+        required: true
+
+permissions:
+  id-token: write
+  checks: write
+  contents: read
+  packages: read
+
+jobs:
+  e2e-automation:
+    env:
+      NODE_OPTIONS: --max-old-space-size=6144
+      CYPRESS_CACHE_FOLDER: \Windows\system32\config\systemprofile\AppData\Local\Cypress\Cache
+      CYPRESS_BASE_URL: http://127.0.0.1:3000
+      ARTIFACTORY_TOKEN: ${{ secrets.VIEWPOINT_ARTIFACTORY_TOKEN }}
+      RP_API_KEY: ${{ secrets.RP_API_KEY }}
+      RP_ENDPOINT: ${{ secrets.RP_ENDPOINT }}
+      RP_PROJECT: ${{ secrets.RP_PROJECT }}
+
+    runs-on: [self-hosted, ivls-e2e]
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Check for IVLS update
+        run: |
+          .github\workflows\scripts\ivls-install-updater.ps1
+
+      - uses: jfrog/setup-jfrog-cli@v3
+        env:
+          JF_URL: https://idexxlabs.jfrog.io/
+          JF_ACCESS_TOKEN: ${{ env.ARTIFACTORY_TOKEN }}
+
+      - name: Download Latest IRIS version
+        run: >
+          rm C:\tools\iris-springboot\ -r -Force -ErrorAction Ignore
+
+          jf rt dl 
+          "ivls-snapshot-local/com/idexx/labstation/labstation-simulator-springboot/*/labstation-simulator-springboot-*-dist.zip"
+          "C:\tools\iris-springboot\iris-springboot.zip"
+          --flat
+          --sort-by=created 
+          --sort-order=desc 
+          --limit=1
+          --explode
+
+      - name: Rename IRIS JAR
+        shell: cmd
+        run: >
+          move /Y 
+          C:\tools\iris-springboot\labstation-simulator-springboot-*.jar 
+          C:\tools\iris-springboot\labstation-simulator-springboot.jar
+
+      - name: Install AWS CLI (if needed)
+        run: |
+          if ( !(Get-Command "aws" -errorAction SilentlyContinue) ) {
+            Start-Process "msiexec.exe" -ArgumentList "/i http://awscli.amazonaws.com/AWSCLIV2.msi /qn /norestart" -Wait -NoNewWindow
+            echo "C:\Program Files\Amazon\AWSCLIV2" >> $env:GITHUB_PATH
+          } else {
+            echo "AWS CLI already be installed, proceeding"
+          }
+
+      - name: Configure AWS CLI
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-region: us-east-1
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+
+      - name: Fetch and prepare viewpoint artifact
+        run: |
+          $DOWNLOAD_DIR="artifacts"
+          $ARTIFACT_PATH="vp-app.zip"
+
+          aws s3 cp --recursive "s3://viewpoint-artifacts/${{ inputs.artifactId }}" "$DOWNLOAD_DIR"
+
+          $DL_ARTIFACT_PATH = Get-ChildItem -Path "$DOWNLOAD_DIR" 'viewpoint-app-win32-*.zip' | select -expand FullName
+          mv "$DL_ARTIFACT_PATH" "$ARTIFACT_PATH"
+          Expand-Archive "$ARTIFACT_PATH"
+
+      - name: Stop IVLS services
+        run: |
+          Stop-Service -name "LabStation IcSys"
+          Stop-Service -name "LabStation Server"
+          Stop-Service -name "LabStation Network"
+          Stop-Service "LabStation Jackalope"
+
+      - name: Wipe IVLS databases
+        run: |
+          . $env:LABSTATION_HOME\bin\manageivlsdatabase\manageivlsdatabase.exe -c -verify -v -s
+          . $env:LABSTATION_HOME\bin\manageivlsdatabase\manageivlsdatabase.exe --create systemconfig -v -s
+
+      - name: Start IVLS services
+        run: |
+          Start-Service "LabStation Server"
+          Start-Service "LabStation IcSys"
+          Start-Service "LabStation Jackalope"
+          Start-service "LabStation Network"
+
+      - name: Start instrument simulator in background
+        working-directory: C:\tools\iris-springboot
+        run: >
+          Start-Process
+          -FilePath $env:LABSTATION_JRE\bin\java.exe
+          -ArgumentList "-jar", "labstation-simulator-springboot.jar"
+
+      - name: Start ViewPoint Application
+        run: >
+          Start-Process
+          -FilePath "vp-app/viewpoint.exe"
+
+      - name: nodejs lts/hydrogen (18.x)
+        uses: actions/setup-node@v2
+        with:
+          node-version: lts/hydrogen
+
+      - name: update npm
+        run: npm install -g npm@10.2.3
+
+      # setup private repo w/ gh encrypted secrets
+      - run: >
+          npm config set
+          '@idexx:registry'
+          'https://npm.pkg.github.com'
+
+      - run: >
+          npm config set
+          '//npm.pkg.github.com/:_authToken'
+          "${{ secrets.GITHUB_TOKEN }}"
+
+      - run: >
+          npm config set
+          '//npm.pkg.github.com/:email'
+          "viewpoint@idexx.com"
+
+      - name: Install all dependencies
+        run: npm ci -ws --include-workspace-root
+
+      - name: Install Cypress
+        run: npm run cypress:install -w @viewpoint/automation
+
+      - name: E2E tests
+        uses: cypress-io/github-action@v5
+        env:
+          RP_LAUNCH_NAME: "ViewPoint E2E Automation"
+          AUTOMATION_SUITE: E2E
+        with:
+          install: false
+          working-directory: packages/automation
+          wait-on: http://127.0.0.1:3000
+
+      - uses: actions/upload-artifact@v3
+        if: always()
+        with:
+          name: e2e-screenshots
+          path: packages/automation/cypress/screenshots/
+
+      - uses: actions/upload-artifact@v3
+        if: always()
+        with:
+          name: e2e-videos
+          path: packages/automation/cypress/videos/
+
+      # These images are not cleared when wiping databases, and they end up clogging the disk
+      - name: clear Jackalope images
+        if: always()
+        run: rm -r -fo C:\IDEXX\LabStation\labstation-jackalope\jackalope

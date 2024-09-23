@@ -1,0 +1,31 @@
+{
+  "name": "@viewpoint/api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/cjs/index.js",
+  "types": "dist/types/index.d.ts",
+  "devDependencies": {
+    "@tsconfig/node16-strictest": "^1.0.3",
+    "@types/node": "18.19.41",
+    "concurrently": "7.4.0",
+    "rimraf": "3.0.2",
+    "typescript": "^4.8.2"
+  },
+  "scripts": {
+    "build": "rimraf dist && tsc",
+    "build:check": "tsc",
+    "clean": "rimraf dist node_modules",
+    "dev": "tsc --watch --preserveWatchOutput",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IDEXX/viewpoint.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IDEXX/viewpoint/issues"
+  },
+  "homepage": "https://github.com/IDEXX/viewpoint#readme"
+}

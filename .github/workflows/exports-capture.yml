@@ -1,0 +1,97 @@
+name: Upload exports
+
+on:
+  push:
+    branches:
+      - main
+  release:
+    types: [released]
+  workflow_dispatch:
+    inputs:
+      ref:
+        description: the git commit-ish to be checked out and exported, defaults to main/HEAD
+        required: false
+        default: main
+      skipImages:
+        description: Skip image capture and upload
+        required: false
+        type: boolean
+
+concurrency:
+  group: vp-exports
+
+jobs:
+  build:
+    env:
+      NODE_OPTIONS: --max-old-space-size=6144
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      ARTIFACTORY_TOKEN: ${{ secrets.VIEWPOINT_ARTIFACTORY_TOKEN }}
+      CONFLUENCE_USER: ${{ secrets.CONFLUENCE_USER }}
+      CONFLUENCE_API_KEY: ${{ secrets.CONFLUENCE_API_KEY }}
+      IDENTIFIER: ${{ github.event.release.tag_name || github.head_ref || github.ref_name }}
+      CONFLUENCE_TARGET: "https://wiki.idexx.com/rest/api"
+
+    runs-on: ubuntu-24.04
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: ${{ github.event.inputs.ref }}
+
+      - name: nodejs lts/hydrogen (18.x)
+        uses: actions/setup-node@v2
+        with:
+          node-version: lts/hydrogen
+
+      - name: update npm
+        run: npm install -g npm@10.2.3
+
+      # setup private repo w/ gh encrypted secrets
+      - run: >
+          npm config set
+          '@idexx:registry'
+          'https://npm.pkg.github.com'
+
+      - run: >
+          npm config set
+          '//npm.pkg.github.com/:_authToken'
+          "${{ secrets.GITHUB_TOKEN }}"
+
+      - run: >
+          npm config set
+          '//npm.pkg.github.com/:email'
+          "viewpoint@idexx.com"
+
+      - name: Install all dependencies
+        run: npm ci --workspaces --include-workspace-root
+
+      - name: Start production UI in the background
+        # See: https://github.com/cypress-io/github-action/issues/811
+        run: npm run build --workspace @viewpoint/ui && npm run --workspace @viewpoint/ui preview:ci -- --host &
+
+      - name: Generate export data
+        uses: cypress-io/github-action@v5
+        env:
+          AUTOMATION_SUITE: EXPORTS
+        with:
+          install: false
+          working-directory: packages/automation
+          wait-on: http://127.0.0.1:5173
+
+      - name: Run export script
+        run: >
+          npm run export --workspace @viewpoint/exporter -- 
+          --output confluence 
+          --type alerts 
+          --contentRoot "../automation/cypress/screenshots/alertsExport.cy.ts"
+          --space "IVLS"
+          --parentPage "Client alert definitions [IVLS-Export]"
+          --page "ViewPoint Alert definitions ${{ env.IDENTIFIER == 'main' && '(current)' || env.IDENTIFIER }}"
+          --buildUrl "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          ${{ github.event.inputs.skipImages == 'true' && '--skipImages' || '' }}
+
+      - uses: actions/upload-artifact@v3
+        if: always()
+        with:
+          name: exports
+          path: packages/automation/cypress/screenshots/

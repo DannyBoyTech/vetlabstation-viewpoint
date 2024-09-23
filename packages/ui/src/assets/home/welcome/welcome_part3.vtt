@@ -1,0 +1,69 @@
+WEBVTT
+
+running_sample
+00:00.000 --> 00:01.200
+Running a sample
+
+patient_info
+00:04.200 --> 00:09.500
+Patient information and lab request details are shown along the left
+
+select_analyzers
+00:11.000 --> 00:17.666
+Select the desired analyzers to be run
+
+tap_run
+00:17.966 --> 00:19.500
+Tap Run
+
+in_process_display
+00:20.000 --> 00:24.000
+In-Process column on the Home screen now displays analyzer progress indicators
+
+results_column
+00:24.100 --> 00:29.566
+Results populate in the Results column as they complete
+
+new_results_popup
+00:34.000 --> 00:36.700
+New Results pop up will appear in the lower left corner
+
+tap_new_results_popup
+00:36.733 --> 00:39.200
+Tap the pop up or the desired results in the Results list to view your diagnostic results
+
+results_patient_signalment
+00:41.333 --> 00:44.900
+On the Results screen, the patient signalment information will be outlined at the top of the screen
+
+diagnostic_results
+00:45.000 --> 00:47.400
+Diagnostic Results are laid out below
+
+service_category_icons
+00:47.500 --> 00:52.000
+Tap service category icons to jump directly to viewing a specific service category
+
+historical_results
+00:52.500 --> 00:59.000
+Historical results for the patient can be accessed along the top by tapping the various dates available
+
+differentials
+01:00.100 --> 01:04.000
+Differentials containing diagnostic information can be accessed by clicking the ‘book’ icons
+
+add_test
+01:04.100 --> 01:08.000
+To add further diagnostics for the patient, Tap Add Test
+
+print
+01:08.600 --> 01:11.000
+Tap the Print icon to print results
+
+tap_to_go_home
+01:11.100 --> 01:15.600
+Tap the upper left logo to return to the Home screen
+
+creating_clarity
+01:16.200 --> 01:20.000
+Creating Clarity

@@ -1,0 +1,110 @@
+name: Release
+
+on:
+  release:
+    types: [released]
+
+permissions:
+  contents: write
+
+jobs:
+  publish-release-artifacts:
+    env:
+      ARTIFACTORY_TOKEN: ${{ secrets.VIEWPOINT_ARTIFACTORY_TOKEN }}
+
+    runs-on: ubuntu-24.04
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Define tag variables
+        run: |
+          echo TAG="$GITHUB_REF_NAME" >> $GITHUB_ENV
+          echo SHA="$GITHUB_SHA" >> $GITHUB_ENV
+
+      - name: Define release version
+        run: echo RELEASE_VERSION=$(sed -e s/^v// <<< "$TAG") >> $GITHUB_ENV
+
+      - name: Configure AWS CLI
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-region: us-east-1
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+
+      - name: Define artifact variables
+        run: |
+          echo DOWNLOAD_DIR=$(mktemp -d) >> $GITHUB_ENV
+
+          echo ARTIFACT_NAME="viewpoint-app-win32-ia32-${RELEASE_VERSION}.zip" >> $GITHUB_ENV
+          echo WIN7_ARTIFACT_NAME="viewpoint-app-win7-win32-ia32-${RELEASE_VERSION}.zip" >> $GITHUB_ENV
+
+      - name: Define artifact paths
+        run: |
+          echo ARTIFACT_PATH="$DOWNLOAD_DIR/$ARTIFACT_NAME" >> $GITHUB_ENV
+          echo WIN7_ARTIFACT_PATH="$DOWNLOAD_DIR/$WIN7_ARTIFACT_NAME" >> $GITHUB_ENV
+
+      - name: Fetch previously built artifact(s) from s3
+        run: |
+          aws s3 cp --recursive "s3://viewpoint-artifacts/$SHA" "$DOWNLOAD_DIR"
+          echo DOWNLOADED_ARTIFACT="$(find $DOWNLOAD_DIR -type f -name 'viewpoint-app-win32-*.zip')" >> $GITHUB_ENV
+          echo DOWNLOADED_WIN7_ARTIFACT="$(find $DOWNLOAD_DIR -type f -name 'viewpoint-app-win7-win32-*.zip')" >> $GITHUB_ENV
+
+      - name: Rename artifacts
+        run: |
+          mv "$DOWNLOADED_ARTIFACT" "$ARTIFACT_PATH"
+          mv "$DOWNLOADED_WIN7_ARTIFACT" "$WIN7_ARTIFACT_PATH"
+
+      - name: Add workflow scripts to path
+        run: echo "$GITHUB_WORKSPACE/.github/workflows/scripts" >> $GITHUB_PATH
+
+      - name: Update version metadata in artifacts
+        run: |
+          update-vp-zip-version "$ARTIFACT_PATH" "$RELEASE_VERSION"
+          update-vp-zip-version "$WIN7_ARTIFACT_PATH" "$RELEASE_VERSION"
+
+      - uses: jfrog/setup-jfrog-cli@v3
+        env:
+          JF_URL: https://idexxlabs.jfrog.io/
+          JF_ACCESS_TOKEN: ${{ env.ARTIFACTORY_TOKEN }}
+
+      ## keeping the leading v in version for compatibility with downstream builds, for now
+      - name: Define maven version
+        run: echo "MAVEN_VERSION=v${RELEASE_VERSION}" >> $GITHUB_ENV
+
+      - name: Deploy release to Artifactory
+        run: >
+          jf rt upload "$ARTIFACT_PATH"
+          "ivls-release-local/com/idexx/viewpoint/viewpoint-app-win32/${{ env.MAVEN_VERSION }}/viewpoint-app-win32-${{ env.MAVEN_VERSION }}-ia32.zip"
+          --build-name viewpoint-client
+          --build-number ${{ env.MAVEN_VERSION }}
+
+      - name: Deploy Windows 7 release to Artifactory
+        run: >
+          jf rt upload "$WIN7_ARTIFACT_PATH"
+          "ivls-release-local/com/idexx/viewpoint/viewpoint-app-win7-win32/${{ env.MAVEN_VERSION }}/viewpoint-app-win7-win32-${{ env.MAVEN_VERSION}}-ia32.zip"
+          --build-name viewpoint-client-win7
+          --build-number ${{ env.MAVEN_VERSION }}
+
+      - name: Attach artifact to the github release
+        uses: svenstaro/upload-release-action@2.9.0
+        with:
+          file: ${{ env.ARTIFACT_PATH }}
+
+      - name: Attach win7 artifact to the github release
+        uses: svenstaro/upload-release-action@2.9.0
+        with:
+          file: ${{ env.WIN7_ARTIFACT_PATH }}
+
+      - name: Notify team of new release
+        uses: slackapi/slack-github-action@v1.26.0
+        with:
+          payload: |
+            {
+              "repo": "${{ github.repository }}",
+              "tag": "${{ github.ref_name }}",
+              "commit": "${{ github.sha }}",
+              "release_link": "${{ github.server_url }}/${{ github.repository }}/releases/tag/${{ github.ref_name }}"
+            }
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_RELEASE_WORKFLOW_HOOK }}

@@ -1,0 +1,38 @@
+name: "Synopsys Intelligent Security Scan"
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  security-scan:
+    runs-on: ubuntu-latest
+
+    env:
+      POLARIS_SERVER_URL: ${{ secrets.POLARIS_SERVER_URL }}
+      POLARIS_ACCESS_TOKEN: ${{ secrets.VIEWPOINT_POLARIS_ACCESS_TOKEN }}
+      POLARIS_PROJECT: viewpoint-poc
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          # We must fetch at least the immediate parents so that if this is
+          # a pull request then we can checkout the head.
+          fetch-depth: 2
+
+      # If this run was triggered by a pull request event, then checkout
+      # the head of the pull request instead of the merge commit.
+      - run: git checkout HEAD^2
+        if: ${{ github.event_name == 'pull_request' }}
+
+      - uses: actions/setup-node@v2
+        with:
+          node-version: lts/hydrogen
+
+      - name: Synopsys Polaris Scan
+        run: |
+          wget -q $POLARIS_SERVER_URL/api/tools/polaris_cli-linux64.zip
+          unzip -d /tmp -jo polaris_cli-linux64.zip
+          /tmp/polaris --co project.name=$POLARIS_PROJECT analyze

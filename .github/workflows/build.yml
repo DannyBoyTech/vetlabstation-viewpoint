@@ -1,0 +1,228 @@
+name: Build
+
+on:
+  push:
+    branches:
+      - main
+      - release/v*
+  workflow_dispatch:
+    inputs:
+      commit:
+        description: the git commit-ish to be checked out and deployed, defaults to main/HEAD
+        required: false
+        default: main
+
+permissions:
+  contents: write
+  actions: write
+  packages: read
+
+concurrency:
+  group: vp-build
+
+jobs:
+  build:
+    env:
+      NODE_OPTIONS: --max-old-space-size=6144
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      ARTIFACTORY_TOKEN: ${{ secrets.VIEWPOINT_ARTIFACTORY_TOKEN }}
+
+    runs-on: windows-2022
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: nodejs lts/hydrogen (18.x)
+        uses: actions/setup-node@v2
+        with:
+          node-version: lts/hydrogen
+
+      - name: update npm
+        run: npm install -g npm@10.2.3
+
+      # setup private repo w/ gh encrypted secrets
+      - run: >
+          npm config set
+          '@idexx:registry'
+          'https://npm.pkg.github.com'
+
+      - run: >
+          npm config set
+          '//npm.pkg.github.com/:_authToken'
+          "${{ env.GITHUB_TOKEN }}"
+
+      - run: >
+          npm config set
+          '//npm.pkg.github.com/:email'
+          "viewpoint@idexx.com"
+
+      - name: Install all dependencies
+        run: npm ci --workspaces --include-workspace-root
+
+      - name: Determine next artifact version
+        uses: IDEXX/viewpoint-next-version-action@v1.0.1
+        with:
+          output-env-var: NEXT_RELEASE_VERSION
+
+      - name: Define semver version
+        run: echo "SEMVER_VERSION=${NEXT_RELEASE_VERSION}-${GITHUB_SHA}" >> $GITHUB_ENV
+        shell: bash
+
+      - name: Set app version
+        run: npm version "$SEMVER_VERSION" --prefix packages/app --allow-same-version --git-tag-version false
+        shell: bash
+
+      - name: Set app version for Windows 7
+        run: npm version "$SEMVER_VERSION" --prefix packages/app-win7 --allow-same-version --git-tag-version false
+        shell: bash
+
+      - name: Build the components
+        run: |
+          npm run build
+          npm run build:win7
+
+      - name: Define artifact variables
+        run: |
+          ARTIFACT_PATH="$(find packages/app/out -type f -name 'viewpoint-app*.zip')"
+          echo "ARTIFACT_PATH=$ARTIFACT_PATH" >> $GITHUB_ENV
+          echo "ARTIFACT_NAME=$(basename $ARTIFACT_PATH)" >> $GITHUB_ENV
+
+          WIN7_ARTIFACT_PATH="$(find packages/app-win7/out -type f -name 'viewpoint-app*.zip')"
+          echo "WIN7_ARTIFACT_PATH=$WIN7_ARTIFACT_PATH" >> $GITHUB_ENV
+          echo "WIN7_ARTIFACT_NAME=$(basename $WIN7_ARTIFACT_PATH)" >> $GITHUB_ENV
+        shell: bash
+
+      - name: Add workflow scripts to path
+        run: echo "$GITHUB_WORKSPACE/.github/workflows/scripts" >> $GITHUB_PATH
+        shell: bash
+
+      - name: Update version metadata in artifacts
+        run: |
+          update-vp-zip-version "$ARTIFACT_PATH" "$SEMVER_VERSION"
+          update-vp-zip-version "$WIN7_ARTIFACT_PATH" "$SEMVER_VERSION"
+        shell: bash
+
+      - name: Configure AWS CLI
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-region: us-east-1
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+
+      - name: Upload artifact to S3 (for later [potential] release sans rebuild)
+        run: |
+          aws s3 cp "$ARTIFACT_PATH" s3://viewpoint-artifacts/$GITHUB_SHA/
+          aws s3 cp "$WIN7_ARTIFACT_PATH" s3://viewpoint-artifacts/$GITHUB_SHA/
+        shell: bash
+
+      - name: Collect artifacts for attachment
+        run: |
+          ARTIFACT_COLLECTION_NAME=viewpoint-app-artifacts-${{ env.SEMVER_VERSION }}
+          echo "ARTIFACT_COLLECTION_NAME=$ARTIFACT_COLLECTION_NAME"
+          echo "ARTIFACT_COLLECTION_NAME=$ARTIFACT_COLLECTION_NAME" >> $GITHUB_ENV
+
+          mkdir "$ARTIFACT_COLLECTION_NAME"
+          cp "$ARTIFACT_PATH" "$ARTIFACT_COLLECTION_NAME/"
+          cp "$WIN7_ARTIFACT_PATH" "$ARTIFACT_COLLECTION_NAME/"
+        shell: bash
+
+      - name: Attach artifacts to build
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ env.ARTIFACT_COLLECTION_NAME }}
+          path: ${{ env.ARTIFACT_COLLECTION_NAME }}/**/*
+          if-no-files-found: error
+
+      - name: Build docs
+        run: npm run build-storybook -- -o docs-build
+
+      - name: Upload 'docs' Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: docs
+          path: docs-build
+
+      - uses: jfrog/setup-jfrog-cli@v3
+        env:
+          JF_URL: https://idexxlabs.jfrog.io/
+          JF_ACCESS_TOKEN: ${{ env.ARTIFACTORY_TOKEN }}
+
+      # keeping the leading 'v' on the maven version for compatibility with downstream builds
+      - name: Define maven version
+        run: echo "MAVEN_VERSION=v${NEXT_RELEASE_VERSION}-SNAPSHOT" >> $GITHUB_ENV
+        shell: bash
+
+      - name: Deploy prerelease to Artifactory
+        run: >
+          jf rt upload "packages/app/out/make/zip/win32/ia32/*.zip"
+          "ivls-snapshot-local/com/idexx/viewpoint/viewpoint-app-win32/${{ env.MAVEN_VERSION }}/viewpoint-app-win32-${{ env.MAVEN_VERSION }}-ia32.zip"
+          --build-name viewpoint-client
+          --build-number ${{ env.MAVEN_VERSION }}
+
+      - name: Deploy Windows 7 prerelease to Artifactory
+        run: >
+          jf rt upload "packages/app-win7/out/make/zip/win32/ia32/*.zip"
+          "ivls-snapshot-local/com/idexx/viewpoint/viewpoint-app-win7-win32/${{ env.MAVEN_VERSION }}/viewpoint-app-win7-win32-${{ env.MAVEN_VERSION }}-ia32.zip"
+          --build-name viewpoint-client-win7
+          --build-number ${{ env.MAVEN_VERSION }}
+
+      # Ideally the E2E workflow would launch on the release event, but releases created using the built in
+      # "secrets.GITHUB_TOKEN" credentials do not trigger additional workflow events, by GitHub's design.
+      # We would have to create a dedicated PAT to use when creating the release which is a huge pain to maintain
+      - name: Launch E2E tests on pre-release
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: ivls-e2e.yml
+          inputs: '{ "artifactId": ${{ toJson(github.sha) }}}'
+
+      - name: Build list of commits since last push
+        id: commits
+        uses: actions/github-script@v7
+        with:
+          result-encoding: string
+          script: |
+            let messages = [];
+            context.payload.commits?.forEach(commit => {
+              messages.push(`* ${commit.message.split('\n')[0].substring(0, 50)}`);
+            });
+            return messages.join("\n");
+
+      - name: Notify team of new build
+        uses: slackapi/slack-github-action@v1.26.0
+        with:
+          payload: |
+            {
+              "repo": "${{ github.repository }}",
+              "branch": "${{ github.ref_name }}",
+              "commit": "${{ github.sha }}",
+              "build_link": "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}",
+              "commits_since_last": ${{ toJson(steps.commits.outputs.result) }}
+            }
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_BUILD_WORKFLOW_HOOK }}
+
+  deploy-docs:
+    if: ${{ github.ref_name == 'main' }}
+    needs: [build]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v3
+
+      - name: Download Artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: docs
+          path: docs
+
+      # See https://github.blog/2009-12-29-bypassing-jekyll-on-github-pages/
+      - name: create .nojekyll file
+        run: touch docs/.nojekyll
+
+      - name: Deploy docs
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: docs
+          target-folder: docs
+          clean: true

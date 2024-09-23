@@ -1,0 +1,1557 @@
+{
+  "ACADIA_DX": {
+    "ALG_RUN_FLAG_FAULT": {
+      "body": "Un error inesperado ha interrumpido el análisis. Mezcle y vuelva a ejecutar el análisis de la muestra. Si el problema persiste, llame al servicio de ayuda de IDEXX.",
+      "title": "Error inesperado"
+    },
+    "ASP_CLOT": {
+      "body": "El análisis se ha cancelado debido al uso de un volumen de muestra inadecuado y/o la presencia de coágulos en la muestra. Asegúrese de que el volumen de la muestra es el correcto, compruebe si hay coágulos en la muestra y después mezcle y vuelva a ejecutar el análisis de la muestra. Si el problema persiste, llame al servicio de ayuda de IDEXX.",
+      "title": "Problema con muestra"
+    },
+    "ASP_ERROR": {
+      "body": "El análisis se ha cancelado debido al uso de un volumen de muestra inadecuado y/o la presencia de coágulos en la muestra. Asegúrese de que el volumen de la muestra es el correcto, compruebe si hay coágulos en la muestra y después mezcle y vuelva a ejecutar el análisis de la muestra. Si el problema persiste, llame al servicio de ayuda de IDEXX.",
+      "title": "Problema con muestra"
+    },
+    "ASP_NO_FLUID": {
+      "body": "El análisis se ha cancelado debido al uso de un volumen de muestra inadecuado y/o la presencia de coágulos en la muestra. Asegúrese de que el volumen de la muestra es el correcto, compruebe si hay coágulos en la muestra y después mezcle y vuelva a ejecutar el análisis de la muestra. Si el problema persiste, llame al servicio de ayuda de IDEXX.",
+      "title": "Problema con muestra"
+    },
+    "ASP_PARTIAL": {
+      "body": "El análisis se ha cancelado debido al uso de un volumen de muestra inadecuado y/o la presencia de coágulos en la muestra. Asegúrese de que el volumen de la muestra es el correcto, compruebe si hay coágulos en la muestra y después mezcle y vuelva a ejecutar el análisis de la muestra. Si el problema persiste, llame al servicio de ayuda de IDEXX.",
+      "title": "Problema con muestra"
+    },
+    "ASP_START_IN_AIR": {
+      "body": "El análisis se ha cancelado debido al uso de un volumen de muestra inadecuado y/o la presencia de coágulos en la muestra. Asegúrese de que el volumen de la muestra es el correcto, compruebe si hay coágulos en la muestra y después mezcle y vuelva a ejecutar el análisis de la muestra. Si el problema persiste, llame al servicio de ayuda de IDEXX.",
+      "title": "Problema con muestra"
+    },
+    "BARCODE_READ_FAILURE_QC": {
+      "body": "No se puede leer el código de barras de SmartQC. Compruebe si el código de barras de la etiqueta está dañado u obstruido.",
+      "title": "No ha sido posible leer el código de barras de SmartQC"
+    },
+    "BARCODE_READ_FAILURE_REAGENT": {
+      "body": "El paquete de reactivo ProCyte One no se puede identificar. Compruebe el código de barras: si está dañado, póngase en contacto con el servicio técnico de IDEXX.",
+      "title": "Paquete de reactivo no válido"
+    },
+    "BARCODE_READ_FAILURE_SHEATH": {
+      "body": "El kit de diluyente ProCyte One no se puede identificar. Compruebe el código de barras: si está dañado, póngase en contacto con el servicio técnico de IDEXX.",
+      "title": "Kit de diluyente no válido"
+    },
+    "BLEACH_CLEAN_RECOMMENDED": {
+      "body": "Han transcurrido 90 días desde que se efectuó la última limpieza con lejía.<linebreak/>Este procedimiento dura unos 15 minutos y elimina los contaminantes para garantizar unos resultados más precisos.",
+      "title": "Recordatorio de limpieza con lejía cada 90 días."
+    },
+    "BLEACH_CLEAN_REQUIRED": {
+      "body": "Toque el botón <strong>Limpiar con lejía</strong> para llevar a cabo este procedimiento de mantenimiento.<linebreak/>Este procedimiento dura unos 15 minutos y eliminará los contaminantes para garantizar unos resultados más precisos.",
+      "title": "Debe efectuarse la limpieza con lejía de cada 90 días."
+    },
+    "CAMERA_INITIALIZATION_FAILURE": {
+      "body": "Ha ocurrido un error inesperado. Espere hasta que el analizador se recupere. Si el problema persiste, llame al servicio de ayuda de IDEXX.",
+      "title": "Error inesperado"
+    },
+    "DATA_PROCESSING_ERROR": {
+      "body": "Un error inesperado ha interrumpido el análisis. Mezcle y vuelva a ejecutar el análisis de la muestra. Si el problema persiste, llame al servicio de ayuda de IDEXX.",
+      "title": "Error inesperado"
+    },
+    "EXPIRED_REAGENT": {
+      "body": "El paquete de reactivo ha caducado.<linebreak/>Para seguir usando el analizador, sustitúyalo por un paquete no caducado. Pulse <strong>Sustituir reactivo</strong> para acceder a las instrucciones.",
+      "title": "ADVERTENCIA: Reactivo caducado."
+    },
+    "EXPIRED_SHEATH": {
+      "body": "El kit de diluyente ha caducado.<linebreak/>Para seguir usando el analizador, sustitúyalo por un kit no caducado. Pulse <strong>Sustituir kit de diluyente</strong> para acceder a las instrucciones.",
+      "title": "ADVERTENCIA: Kit de diluyente caducado."
+    },
+    "FILTER_LEAK": {
+      "body": "Ha ocurrido un error inesperado en el filtro. Recoloque el filtro en el analizador antes de continuar.<linebreak/>Si el problema persiste, llame al servicio técnico de IDEXX.",
+      "title": "Error en filtro"
+    },
+    "FILTER_REPLACE": {
+      "body": "El filtro de fluido debe sustituirse. Este proceso puede durar 3 o 4 minutos. Sustituya el filtro del analizador o pulse <strong>Sustituir filtro</strong> para ver las instrucciones.",
+      "title": "Sustituir filtro de fluido"
+    },
+    "INSUFFICIENT_EVENTS": {
+      "body": "Un error inesperado ha interrumpido el análisis. Mezcle y vuelva a ejecutar el análisis de la muestra. Si el problema persiste, llame al servicio de ayuda de IDEXX.",
+      "title": "Error inesperado"
+    },
+    "JUNK_OVERLOAD": {
+      "body": "Un exceso de GR no lisados puede haber interferido en el recuento de leucocitos. Confirme los resultados con un frotis sanguíneo. Si necesita ayuda, póngase en contacto con el servicio técnico de IDEXX.",
+      "title": "Recuento de leucocitos retenido"
+    },
+    "MAINTENANCE_TUBE_ERROR": {
+      "body": "Hay un problema con el tubo del procedimiento de limpieza con lejía. Asegúrese de que el tubo mide 13 mm x 75 mm y no tiene puesto el tapón. Luego presione el botón <strong>Inicio</strong> del analizador para continuar.<linebreak/>Pulse <strong>Cancelar</strong> para finalizar este procedimiento.",
+      "title": ""
+    },
+    "MICROCODE_WATCHDOG": {
+      "body": "Ha ocurrido un error inesperado. Espere hasta que el analizador se recupere. Si el problema persiste, llame al servicio de ayuda de IDEXX.",
+      "title": "Error inesperado"
+    },
+    "MISSING_CONTROL": {
+      "body": "Cargue un vial de SmartQC para habilitar el control de calidad automático.",
+      "title": "Cargar el vial de SmartQC"
+    },
+    "MISSING_REAGENT": {
+      "body": "Cargue un paquete de reactivo para reanudar el procesamiento de la muestra.",
+      "title": "Falta paquete de reactivo"
+    },
+    "MISSING_SAMPLE": {
+      "body": "Asegúrese de que el tubo de muestra es un tubo compatible tratado con EDTA, mezcle la muestra, retire la tapa o el tapón y vuelva a ejecutar el análisis de la muestra.",
+      "title": "Problema con tubo de muestra"
+    },
+    "MISSING_SHEATH": {
+      "body": "Cargue un kit de diluyente para reanudar el procesamiento de la muestra.",
+      "title": "Falta Kit de diluyente"
+    },
+    "OBC_EMPTY": {
+      "body": "El vial de SmartQC está vacío. Sustitúyalo para reanudar el control de calidad automático.",
+      "title": "SmartQC vacío"
+    },
+    "OBC_LOW": {
+      "body": "El vial de SmartQC tiene poco líquido y debe sustituirse pronto. Asegúrese de tener un vial de repuesto en su inventario.",
+      "title": "Nivel bajo de SmartQC"
+    },
+    "OVER_PRESSURE": {
+      "body": "El sistema ha detectado un bloqueo en una de las líneas de fluido. Espere mientras el sistema intenta eliminar el bloqueo automáticamente.",
+      "title": "Bloqueo detectado"
+    },
+    "OVER_PRESSURE_UNRECOVERABLE": {
+      "body": "Un error inesperado ha interrumpido el análisis. Si necesita asistencia, llame al servicio de ayuda de IDEXX.",
+      "title": "Error inesperado"
+    },
+    "OVER_TEMP": {
+      "body": "La temperatura de operación del analizador es demasiado alta para iniciar un análisis de muestras. Compruebe que hay un flujo de aire adecuado alrededor del analizador.",
+      "title": "Problema de temperatura"
+    },
+    "PACK_ACCESS_OPEN": {
+      "body": "Cierre la puerta del analizador para continuar.",
+      "title": "Puerta del analizador abierta"
+    },
+    "PACK_ACCESS_OPEN_RUN": {
+      "body": "La puerta del analizador se ha abierto, lo que ha interrumpido el análisis. Cierre la puerta del analizador y el analizador se reinicializará automáticamente. Cuando el estado del analizador sea <strong>Listo</strong>, mezcle y vuelva a ejecutar el análisis de la muestra.",
+      "title": "Puerta del analizador abierta"
+    },
+    "QC_REMINDER": {
+      "body": "El vial de SmartQC caducará antes del próximo análisis de control de calidad automático programado. Sustitúyalo por un vial no caducado.",
+      "title": "Su SmartQC caducará pronto"
+    },
+    "REAGENT_EMPTY": {
+      "body": "El paquete de reactivo está vacío.<linebreak/>Para continuar usando el analizador, pulse <strong>Sustituir reactivo</strong> y siga las instrucciones en pantalla.",
+      "title": "ADVERTENCIA: El kit reactivo está vacío"
+    },
+    "REAGENT_LOW": {
+      "body": "El paquete de reactivo está bajo y deberá sustituirse pronto. Asegúrese de que tiene un kit de sustitución en inventario.",
+      "title": "El paquete de reactivo está bajo"
+    },
+    "REAGENT_PACK_LEAK": {
+      "body": "El paquete de reactivo extrajo aire de forma inesperada. Compruebe el volumen de llenado del reactivo y vuelva a instalar el kit. Si es necesario, sustituya el paquete de reactivo."
+    },
+    "REAGENT_PACK_LEAK_RUN": {
+      "body": "El paquete de reactivo extrajo aire de forma inesperada. Compruebe el volumen de llenado del reactivo y vuelva a instalar el kit. Si es necesario, sustituya el paquete de reactivo. Vuelva a analizar esta muestra después de mezclar bien el tubo de muestra."
+    },
+    "SAMPLE_DRAWER_OPEN_QC": {
+      "body": "El cajón de muestras está abierto, lo que interrumpe el control de calidad automático. El SmartQC se reanudará en el siguiente intervalo programado.",
+      "title": "Cajón de muestras abierto"
+    },
+    "SAMPLE_DRAWER_OPEN_RUN": {
+      "body": "Para continuar, cierre el cajón de muestras y pulse el botón <strong>Inicio</strong> en la parte delantera del analizador.",
+      "title": "Cajón de muestras abierto"
+    },
+    "SAMPLE_TUBE_RUN_END": {
+      "body": "El análisis se ha cancelado debido al uso de un tubo de muestra no compatible o de un tubo con un tapón no perforable. Si necesita asistencia, llame al servicio de ayuda de IDEXX.",
+      "title": "Problema con tubo de muestra"
+    },
+    "SHEATH_EMPTY": {
+      "body": "El kit de diluyente está vacío.<linebreak/><linebreak>Para continuar usando el analizador, pulse <strong>Sustituir kit de diluyente</strong> y siga las instrucciones en pantalla.",
+      "title": "ADVERTENCIA: El kit de diluyente está vacío"
+    },
+    "SHEATH_LOW": {
+      "body": "El kit de diluyente está bajo y deberá sustituirse pronto. Asegúrese de que tiene un kit de sustitución en inventario.",
+      "title": "El kit de diluyente está bajo."
+    },
+    "SHUTDOWN_SHIPPING_CLEANUP": {
+      "body": "Para completar este proceso, extraiga del analizador el paquete de reactivo, el paquete de diluyente y el filtro. Extraiga todo lo que haya dentro del cajón de muestras (SmartQC, tubo de muestra, etc.) y desconecte los cables de alimentación y Ethernet de detrás del analizador.",
+      "title": "Finalizar el procedimiento de apagado"
+    },
+    "STOPPER_PRESENT": {
+      "body": "Asegúrese de que el tubo de muestra es un tubo compatible tratado con EDTA, mezcle la muestra, retire la tapa o el tapón y vuelva a ejecutar el análisis de la muestra.",
+      "title": "Problema con tubo de muestra"
+    },
+    "SYR_RBC_HOME_ERROR": {
+      "body": "Un error inesperado ha interrumpido el análisis. Mezcle y vuelva a ejecutar el análisis de la muestra. Si el problema persiste, llame al servicio de ayuda de IDEXX.",
+      "title": "Error inesperado"
+    },
+    "SYR_RBC_MOTION_ERROR": {
+      "body": "Un error inesperado ha interrumpido el análisis. Mezcle y vuelva a ejecutar el análisis de la muestra. Si el problema persiste, llame al servicio de ayuda de IDEXX.",
+      "title": "Error inesperado"
+    },
+    "SYR_RBC_PRESSURE_ERROR": {
+      "body": "Un error inesperado ha interrumpido el análisis. Mezcle y vuelva a ejecutar el análisis de la muestra. Si el problema persiste, llame al servicio de ayuda de IDEXX.",
+      "title": "Error inesperado"
+    },
+    "SYR_SAMPLE_HOME_ERROR": {
+      "body": "Un error inesperado ha interrumpido el análisis. Mezcle y vuelva a ejecutar el análisis de la muestra. Si el problema persiste, llame al servicio de ayuda de IDEXX.",
+      "title": "Error inesperado"
+    },
+    "SYR_SAMPLE_MOTION_ERROR": {
+      "body": "Un error inesperado ha interrumpido el análisis. Mezcle y vuelva a ejecutar el análisis de la muestra. Si el problema persiste, llame al servicio de ayuda de IDEXX.",
+      "title": "Error inesperado"
+    },
+    "SYR_SAMPLE_PRESSURE_ERROR": {
+      "body": "Un error inesperado ha interrumpido el análisis. Mezcle y vuelva a ejecutar el análisis de la muestra. Si el problema persiste, llame al servicio de ayuda de IDEXX.",
+      "title": "Error inesperado"
+    },
+    "SYR_SHEATH_HOME_ERROR": {
+      "body": "Un error inesperado ha interrumpido el análisis. Mezcle y vuelva a ejecutar el análisis de la muestra. Si el problema persiste, llame al servicio de ayuda de IDEXX.",
+      "title": "Error inesperado"
+    },
+    "SYR_SHEATH_MOTION_ERROR": {
+      "body": "Un error inesperado ha interrumpido el análisis. Mezcle y vuelva a ejecutar el análisis de la muestra. Si el problema persiste, llame al servicio de ayuda de IDEXX.",
+      "title": "Error inesperado"
+    },
+    "SYR_SHEATH_PRESSURE_ERROR": {
+      "body": "Un error inesperado ha interrumpido el análisis. Mezcle y vuelva a ejecutar el análisis de la muestra. Si el problema persiste, llame al servicio de ayuda de IDEXX.",
+      "title": "Error inesperado"
+    },
+    "SYR_WBC_HOME_ERROR": {
+      "body": "Un error inesperado ha interrumpido el análisis. Mezcle y vuelva a ejecutar el análisis de la muestra. Si el problema persiste, llame al servicio de ayuda de IDEXX.",
+      "title": "Error inesperado"
+    },
+    "SYR_WBC_MOTION_ERROR": {
+      "body": "Un error inesperado ha interrumpido el análisis. Mezcle y vuelva a ejecutar el análisis de la muestra. Si el problema persiste, llame al servicio de ayuda de IDEXX.",
+      "title": "Error inesperado"
+    },
+    "SYR_WBC_PRESSURE_ERROR": {
+      "body": "Un error inesperado ha interrumpido el análisis. Mezcle y vuelva a ejecutar el análisis de la muestra. Si el problema persiste, llame al servicio de ayuda de IDEXX.",
+      "title": "Error inesperado"
+    },
+    "TUBE_EMPTY": {
+      "body": "El análisis se ha cancelado debido al uso de un volumen de muestra inadecuado y/o la presencia de coágulos en la muestra. Asegúrese de que el volumen de la muestra es el correcto, compruebe si hay coágulos en la muestra y después mezcle y vuelva a ejecutar el análisis de la muestra. Si el problema persiste, llame al servicio de ayuda de IDEXX.",
+      "title": "Problema con muestra"
+    },
+    "UNEXPECTED_ERROR": {
+      "body": "Un error inesperado ha interrumpido el análisis. Mezcle y vuelva a ejecutar el análisis de la muestra. Si el problema persiste, llame al servicio de ayuda de IDEXX.",
+      "title": "Error inesperado"
+    },
+    "UNEXPECTED_ERROR_MAINTENANCE": {
+      "body": "Ha ocurrido un error inesperado. Si el problema persiste, llame al servicio de ayuda de IDEXX.",
+      "title": "Error inesperado"
+    },
+    "UNKNOWN_TUBE": {
+      "body": "Asegúrese de que el tubo de muestra es un tubo compatible tratado con EDTA, mezcle la muestra, retire la tapa o el tapón y vuelva a ejecutar el análisis de la muestra.",
+      "title": "Problema con tubo de muestra"
+    },
+    "UNSTABLE_REAGENT": {
+      "body": "El paquete de reactivo ha caducado.<linebreak/>Para seguir usando el analizador, sustitúyalo por un paquete no caducado. Pulse <strong>Sustituir reactivo</strong> para acceder a las instrucciones.",
+      "title": "ADVERTENCIA: Reactivo caducado."
+    },
+    "UNSTABLE_SHEATH": {
+      "body": "El kit de diluyente ha caducado.<linebreak/>Para seguir usando el analizador, sustitúyalo por un kit no caducado. Pulse <strong>Sustituir kit de diluyente</strong> para acceder a las instrucciones.",
+      "title": "ADVERTENCIA: Kit de diluyente caducado."
+    },
+    "UNSUPPORTED_QC_LOT": {
+      "body": "El vial de SmartQC ha caducado. Sustitúyalo por un vial no caducado.",
+      "title": "SmartQC caducado"
+    },
+    "UPDATE_PENDING": {
+      "body": "Espere en torno de 2 minutos mientras el analizador ProCyte One se actualiza y reinicia de forma automática.<linebreak/>El proceso se habrá completado cuando ProCyte One vuelva al estado <strong>Listo</strong>.",
+      "title": "La versión de actualización de software {{ 0 }} está lista para ser instalada."
+    },
+    "USED_REAGENT": {
+      "body": "El paquete de reactivo ProCyte One ya se ha usado. Pruebe con otro kit o póngase en contacto con el servicio técnico de IDEXX.",
+      "title": "Paquete de reactivo no válido"
+    },
+    "XAXIS_MOTION_ERROR": {
+      "body": "Un error inesperado ha interrumpido el análisis. Mezcle y vuelva a ejecutar el análisis de la muestra. Si el problema persiste, llame al servicio de ayuda de IDEXX.",
+      "title": "Error inesperado"
+    },
+    "ZAXIS_MOTION_ERROR": {
+      "body": "Un error inesperado ha interrumpido el análisis. Mezcle y vuelva a ejecutar el análisis de la muestra. Si el problema persiste, llame al servicio de ayuda de IDEXX.",
+      "title": "Error inesperado"
+    }
+  },
+  "alertModal": {
+    "secondaryHeader": "Alerta | {{ instrumentName }}",
+    "secondaryHeaderNoInstrument": "Alerta"
+  },
+  "CATONE": {
+    "ADD_PIPETTE_TIPS": {
+      "title": "Añada puntas de pipeta",
+      "body": "No hay suficientes puntas de pipeta cargadas en el cajón de muestras. Para solucionarlo, espere a que el cajón de muestras se desbloquee, llene la sección para puntas del cajón de muestras y, a continuación, pulse el botón Inicio."
+    },
+    "AIR_DETECTED_IN_SAMPLE": {
+      "title": "Aire detectado en la muestra",
+      "body": "Se han detectado burbujas de aire en la muestra del paciente. Para solucionarlo, elimine todas las burbujas de aire de la muestra y, a continuación, pulse el botón Inicio."
+    },
+    "AIR_DETECTED_IN_SAMPLE_WARNING": {
+      "body": "Se ha producido un error durante el análisis debido a la detección de aire. Para solucionarlo, compruebe el procedimiento de preparación de la muestra y repita el análisis utilizando nuevas muestras y placas. Si el problema persiste, llame al servicio técnico de IDEXX."
+    },
+    "ALG_ANOM_INIT_SLOPE_VS_SUB_READ": {
+      "body": "Se ha producido un error en el procesamiento de una de las placas. Para obtener el resultado que falta, vuelva a realizar el análisis con una muestra y consumibles nuevos.<linebreak/>Si el problema persiste, póngase en contacto con el servicio técnico de IDEXX."
+    },
+    "ALG_ANOM_PROG_CURVE_DEVELOPMENT": {
+      "body": "Se ha producido un error en el procesamiento de una de las placas. Para obtener el resultado que falta, vuelva a realizar el análisis con una muestra y consumibles nuevos.<linebreak />Si el problema persiste, póngase en contacto con el servicio técnico de IDEXX."
+    },
+    "ALG_BAD_DRY_READ": {
+      "body": "Se ha producido un error en el procesamiento de una de las placas. Para obtener el resultado que falta, vuelva a realizar el análisis con una muestra y consumibles nuevos.<linebreak />Si el problema persiste, póngase en contacto con el servicio técnico de IDEXX."
+    },
+    "ALG_BAD_LATE_SLOPE": {
+      "body": "Se ha producido un error en el procesamiento de una de las placas. Para obtener el resultado que falta, vuelva a realizar el análisis con una muestra y consumibles nuevos.<linebreak />Si el problema persiste, póngase en contacto con el servicio técnico de IDEXX."
+    },
+    "ALG_BAD_RESPONSE_RANGE": {
+      "body": "Se ha producido un error en el procesamiento de una de las placas. Para obtener el resultado que falta, vuelva a realizar el análisis con una muestra y consumibles nuevos.<linebreak />Si el problema persiste, póngase en contacto con el servicio técnico de IDEXX."
+    },
+    "ALG_BAD_SC_MINUS_DRY_DIFF": {
+      "body": "Se ha producido un error en el procesamiento de una de las placas. Para obtener el resultado que falta, vuelva a realizar el análisis con una muestra y consumibles nuevos.<linebreak />Si el problema persiste, póngase en contacto con el servicio técnico de IDEXX."
+    },
+    "ALG_BAD_SUB_MINUS_WASH_DIFF": {
+      "body": "Se ha producido un error en el procesamiento de una de las placas. Para obtener el resultado que falta, vuelva a realizar el análisis con una muestra y consumibles nuevos.<linebreak />Si el problema persiste, póngase en contacto con el servicio técnico de IDEXX."
+    },
+    "ALG_BAD_WASH_MINUS_SC_DIFF": {
+      "body": "Se ha producido un error en el procesamiento de una de las placas. Para obtener el resultado que falta, vuelva a realizar el análisis con una muestra y consumibles nuevos.<linebreak />Si el problema persiste, póngase en contacto con el servicio técnico de IDEXX."
+    },
+    "ALG_ELLIPSE_INTERSECTION_FAIL": {
+      "body": "Se ha producido un error en el procesamiento de una de las placas. Para obtener el resultado que falta, vuelva a realizar el análisis con una muestra y consumibles nuevos.<linebreak />Si el problema persiste, póngase en contacto con el servicio técnico de IDEXX."
+    },
+    "ALG_GREATER_THAN_EXTREME_HIGH_CONC_LIMIT": {
+      "body": "Se ha producido un error en el procesamiento de una de las placas. Para obtener el resultado que falta, vuelva a realizar el análisis con una muestra y consumibles nuevos.<linebreak />Si el problema persiste, póngase en contacto con el servicio técnico de IDEXX."
+    },
+    "ALG_GREATER_THAN_EXTREME_LOW_CONC_LIMIT": {
+      "body": "Se ha producido un error en el procesamiento de una de las placas. Para obtener el resultado que falta, vuelva a realizar el análisis con una muestra y consumibles nuevos.<linebreak />Si el problema persiste, póngase en contacto con el servicio técnico de IDEXX."
+    },
+    "ALG_INTERFERING_SUBSTANCE": {
+      "body": "Los resultados de {{0}} no pueden proporcionarse debido a la interferencia de sustancias o a la disminución del sustrato. Para obtener resultados, efectúe una dilución 1:4 (manual o automática) de la muestra y vuelva a realizar la prueba con una placa nueva."
+    },
+    "ALG_ION_CALIBRATION_DRIFT": {
+      "body": "Se ha producido un error al procesar las placas de electrolitos. Para solucionarlo, vuelva a realizar el análisis con una muestra y placas nuevas, asegurándose de que las placas se insertan inmediatamente después de abrir cada uno de sus envoltorios.<linebreak />Si el problema persiste, póngase en contacto con el servicio técnico de IDEXX."
+    },
+    "ALG_ION_IMPULSE_DETECTED": {
+      "body": "Se ha producido un error durante el análisis de electrolitos. Para solucionarlo, limpie los componentes internos del analizador y vuelva a realizar el análisis con una muestra y placas nuevas.<linebreak />Si el problema persiste, llame al servicio técnico de IDEXX."
+    },
+    "ALG_ION_SAMPLE_DRIFT": {
+      "body": "Se ha producido un error al procesar una o más placas de electrolitos. Para obtener el resultado que falta, repita el análisis con nuevas placas."
+    },
+    "ALG_ION_SAMPLE_ERROR": {
+      "body": "Se ha producido un error al procesar una o más placas de electrolitos. Para obtener el resultado que falta, repita el análisis con nuevas placas."
+    },
+    "ALG_ION_SAMPLE_NOT_DETECTED": {
+      "body": "Se ha producido un error en el procesamiento de {{0}}. Para obtener el resultado que falta, compruebe el procedimiento de preparación de la muestra y repita el análisis con una nueva muestra y placas."
+    },
+    "ALG_ION_SHIFT_DETECTED": {
+      "body": "Se ha producido un error durante el análisis de electrolitos. Para solucionarlo, limpie los componentes internos del analizador y vuelva a realizar el análisis con una muestra y placas nuevas.<linebreak />Si el problema persiste, llame al servicio técnico de IDEXX."
+    },
+    "ALG_NO_SAMPLE_DISPENSE": {
+      "body": "Se ha producido un error al procesar la placa de {{0}}. Para obtener el resultado, compruebe el procedimiento de preparación de la muestra y repita el análisis con una nueva muestra, una nueva placa y solución de lavado de placa."
+    },
+    "ALG_NO_WASH_1_DISPENSE": {
+      "body": "Se ha producido un error al procesar la placa de {{0}}. Para obtener el resultado, compruebe el procedimiento de preparación de la muestra y repita el análisis con una nueva muestra, una nueva placa y solución de lavado de placa."
+    },
+    "ALG_NO_WASH_2_DISPENSE": {
+      "body": "Se ha producido un error al procesar la placa de {{0}}. Para obtener el resultado, compruebe el procedimiento de preparación de la muestra y repita el análisis con una nueva muestra, una nueva placa y solución de lavado de placa."
+    },
+    "ALG_PHBR_BIASED_RESULT": {
+      "body": "Se ha producido un error de procesamiento de {{0}}. Llame al servicio técnico de IDEXX para obtener asistencia."
+    },
+    "ALG_SLIDE_NOT_SPOTTED": {
+      "title": "Placa no detectada",
+      "body": "Se ha producido un error en el procesamiento de {{0}}. Para obtener el(los) resultado(s) que falta(n), compruebe el procedimiento de preparación de la muestra y repita el análisis con una nueva muestra y placa(s)."
+    },
+    "ALG_SLOPE_NOT_CORRECTABLE_GEN": {
+      "body": "Se ha producido un error al procesar la placa de ácidos biliares. Para solucionarlo, repita el análisis con una nueva placa. Si el problema persiste, llame al servicio técnico de IDEXX."
+    },
+    "ALG_SLOPE_NOT_CORRECTABLE": {
+      "body": "Se ha producido un error al procesar la prueba de fructosamina. Para solucionarlo, repita el análisis con una nueva placa. Si el problema persiste, llame al servicio técnico de IDEXX."
+    },
+    "UPDATE_AVAILABLE": {
+      "title": "La versión de actualización de software {{version}} está lista para ser instalada.",
+      "body": "Puede actualizar el analizador en cualquier momento desde la pantalla Equipos de Catalyst One.",
+      "autoUpdateWarning": "<shortlinebreak />Si no actualiza el analizador antes del {{dateTime}}, la actualización se instalará automáticamente."
+    },
+    "UPDATE_FAILED_CATASTROPHIC": {
+      "title": "La actualización de software no se completó con éxito.",
+      "body": "Llame al servicio técnico de IDEXX para obtener asistencia."
+    },
+    "ERR_ALG_ALGORITHM_INTERFERING_SUBSTANCE": {
+      "title": "Dilución necesaria para CREA",
+      "body": "No es posible mostrar el resultado de CREA debido a la presencia de sustancias interferentes o la disminución del sustrato. Para obtener resultados, efectúe una dilución 1:4 (manual o automática) de la muestra y vuelva a realizar la prueba con una placa nueva."
+    },
+    "ALG_SUBSTRATE_DEPLETION": {
+      "title": "Disminución del sustrato",
+      "body": "Los resultados de {{0}} no pueden proporcionarse debido a la interferencia de sustancias o a la disminución del sustrato. Para obtener un resultado, realice una dilución 1:2 (manual o automática) de la muestra y repita el análisis utilizando una placa nueva."
+    },
+    "ALG_TT4_ANOM_INIT_SLOPE_VS_SUB_READ": {
+      "body": "Se ha producido un error en el procesamiento de una de las placas. Para obtener el resultado que falta, vuelva a realizar el análisis con una muestra y consumibles nuevos.<linebreak />Si el problema persiste, póngase en contacto con el servicio técnico de IDEXX."
+    },
+    "ALG_TT4_ANOM_PROG_CURVE_DEVELOPMENT": {
+      "body": "Se ha producido un error en el procesamiento de una de las placas. Para obtener el resultado que falta, vuelva a realizar el análisis con una muestra y consumibles nuevos.<linebreak/>Si el problema persiste, póngase en contacto con el servicio técnico de IDEXX."
+    },
+    "ALG_TT4_BAD_SUB_MINUS_WASH_DIFF": {
+      "body": "Se ha producido un error en el procesamiento de una de las placas. Para obtener el resultado que falta, vuelva a realizar el análisis con una muestra y consumibles nuevos.<linebreak />Si el problema persiste, póngase en contacto con el servicio técnico de IDEXX."
+    },
+    "ALG_TT4_ELLIPSE_INTERSECTION_FAIL": {
+      "body": "Se ha producido un error en el procesamiento de una de las placas. Para obtener el resultado que falta, vuelva a realizar el análisis con una muestra y consumibles nuevos.<linebreak />Si el problema persiste, póngase en contacto con el servicio técnico de IDEXX."
+    },
+    "ASPIRATION_FAILURE": {
+      "body": "El equipo no ha podido completar una acción. Espere hasta que el equipo se recupere. Si el problema persiste, llame al servicio técnico de IDEXX."
+    },
+    "ASPIRATION_START_IN_AIR": {
+      "body": "El equipo no ha podido completar una acción. Espere hasta que el equipo se recupere. Si el problema persiste, llame al servicio técnico de IDEXX."
+    },
+    "ASPIRATION_START_IN_AIR_WARNING": {
+      "body": "Se ha producido un error durante la aspiración de la muestra. Para solucionarlo, compruebe el procedimiento de preparación de la muestra y repita el análisis utilizando nuevas muestras y placas. Si el problema persiste, llame al servicio técnico de IDEXX."
+    },
+    "ASSAY_NORMALIZATION_MISSING": {
+      "body": "{{0}} resultado suprimido.<linebreak/>Llame al servicio técnico de IDEXX."
+    },
+    "BAD_OR_MISSING_CALCURVE_DATA": {
+      "body": "Datos de curva de calibración erróneos o inexistentes. El analizador no se calibró con éxito. Llame al servicio técnico de IDEXX para obtener asistencia."
+    },
+    "BARCODE_READ_ERROR": {
+      "title": "Error de lectura del código de barras",
+      "body": "No ha sido posible identificar las placas cargadas. Para solucionarlo, vuelva a analizar la muestra con placas nuevas.<linebreak />Si el problema persiste, llame al servicio técnico de IDEXX."
+    },
+    "BARCODE_READ_FAILURE": {
+      "body": "Placa no identificada"
+    },
+    "CALIBRATION_SOFTWARE_ERROR": {
+      "body": "Error del software de calibración. El analizador no se calibró con éxito. Llame al servicio técnico de IDEXX para obtener asistencia."
+    },
+    "CAMERA_COM_ERROR": {
+      "body": "Se ha producido un error de comunicación con la cámara durante el inicio. Para solucionarlo, desconecte el enchufe de la pared y vuélvalo a conectar. Si el problema persiste, llame al servicio técnico de IDEXX."
+    },
+    "CAMERA_CONNECTION_ERROR": {
+      "body": "Se ha producido un error de conexión con la cámara durante el análisis. Para solucionarlo, desconecte el enchufe de la pared y vuélvalo a conectar, y a continuación repita el análisis con una muestra y unas placas nuevas. Si el problema persiste, póngase en contacto con el servicio técnico de IDEXX."
+    },
+    "CAMERA_INITIALIZATION_FAILURE": {
+      "body": "El equipo no ha podido completar una acción. Pulse el botón Inicio y espere mientras el equipo se recupera. Si el problema persiste, llame al servicio técnico de IDEXX."
+    },
+    "CANNOT_LOCK_SAMPLE_DRAWER": {
+      "title": "Imposible cerrar el cajón de muestras",
+      "body": "Hay una obstrucción en el cajón de muestras. Para solucionarlo, asegúrese de que todos los materiales del cajón de muestras están correctamente colocados y, a continuación, pulse el botón Inicio."
+    },
+    "CANNOT_UNLOCK_SAMPLE_DRAWER": {
+      "title": "No se puede desbloquear el cajón de muestras.",
+      "body": "El cajón de muestras no se puede desbloquear.<linebreak/>Llame al servicio técnico de IDEXX para obtener asistencia."
+    },
+    "CAP_DETECTED": {
+      "title": "Tapón detectado",
+      "body": "Debe retirarse el tapón del separador de sangre entera antes de procesar el análisis. Para solucionarlo, espere a que el cajón de muestras se desbloquee, retire el tapón de color verde del separador de sangre entera y pulse el botón Inicio."
+    },
+    "CAROUSEL_ALIGNMENT_FAILED": {
+      "title": "Fallo de alineación de la bandeja",
+      "body": "No se ha podido alinear la bandeja. Para solucionarlo, abra la cubierta lateral, levante la cubierta de la bandeja y cerciórese de que queda correctamente ajustada. Cierre la cubierta de la bandeja y la cubierta lateral. El analizador vuelve automáticamente al estado “Listo” en cuanto cierra la cubierta. Si el problema persiste, llame al servicio técnico de IDEXX."
+    },
+    "CAROUSEL_COVER_OPEN": {
+      "title": "Cubierta del carrusel abierta",
+      "body": "La cubierta del carrusel está abierta. Para solucionarlo, abra la cubierta lateral y compruebe que la cubierta está cerrada. El analizador vuelve automáticamente al estado “Listo” en cuanto cierra la cubierta."
+    },
+    "CAROUSEL_ROTATION_ERROR": {
+      "body": "La bandeja no está girando como se espera. Para solucionarlo:<ol><li>Saque cualquier placa que quede en el cajón de muestras.</li><li>Abra la puerta lateral, levante la tapa de la bandeja y extraiga la bandeja.</li><li>Saque todas las placas de su carril y deséchelas.</li><li>Vuelva a colocar la bandeja y cierre la tapa de la bandeja.</li><li>Cierre la puerta lateral. El analizador vuelve automáticamente al estado “Listo”.</li><li>Repita el análisis con placas nuevas.</li></ol>Si el problema persiste, llame al servicio técnico de IDEXX."
+    },
+    "CENTRIFUGE_ERROR": {
+      "title": "Error de la centrífuga",
+      "body": "La centrífuga no ha podido procesar la muestra correctamente. Para solucionarlo, vuelva a realizar el análisis con una muestra y placas nuevas.<linebreak/>Si el problema persiste, llame al servicio técnico de IDEXX."
+    },
+    "CHECK_EVAP_CAP": {
+      "body": "No ha sido posible identificar una o varias placas.<ol><li>Abra la cubierta lateral y retire cualquier objeto suelto que haya en la tapa de la bandeja.</li><li>Compruebe el movimiento del tapón de evaporación de la bandeja y límpielo con una almohadilla humedecida en alcohol si se detectan residuos.</li><li>Vuelva a colocar la bandeja y cierre la tapa de la bandeja.</li><li>Cierre la puerta lateral. El analizador vuelve automáticamente al estado “Listo”.</li><li>Repita el análisis con placas nuevas.</li></ol>Si el problema persiste, póngase en contacto con el servicio técnico de IDEXX."
+    },
+    "ALG_DRY_READ_VARIANCE": {
+      "title": "Error de procesamiento",
+      "body": "Se ha producido un error al procesar la prueba de lipasa pancreática. Para solucionarlo, repita el análisis con una nueva placa. Si el problema persiste, llame al servicio técnico de IDEXX."
+    },
+    "CLEANING_REQUIRED": {
+      "title": "Limpieza requerida",
+      "body": "Es necesario limpiar el Analizador de bioquímica Catalyst One. Siga las instrucciones que aparecen en pantalla en la pestaña Equipos de Catalyst One. Si el error persiste después de la limpieza, póngase en contacto con el servicio técnico de IDEXX."
+    },
+    "CLOT_DETECTED_IN_SAMPLE": {
+      "title": "Coágulo detectado en la muestra",
+      "body": "Se ha detectado un coágulo en la muestra del paciente. Para solucionarlo, elimine todos los coágulos de la muestra y, a continuación, pulse el botón Inicio."
+    },
+    "CLOT_DETECTED_IN_SAMPLE_WARNING": {
+      "body": "Se ha producido un error durante el análisis debido a la detección de coágulos. Para solucionarlo, compruebe el procedimiento de preparación de la muestra y repita el análisis utilizando nuevas muestras y placas. Si el problema persiste, llame al servicio técnico de IDEXX."
+    },
+    "DILUTION_SLIDE_COUNT_EXCEEDED": {
+      "title": "Número de placas excesivo para la dilución",
+      "body": "No es posible cargar más de 5 placas cuando se realiza una dilución 1:2 ni más de 10 placas para todas las demás diluciones.<ul><li>Para recuperarlo: pulse el botón Iniciar en el equipo.</li><li>Para solucionarlo: repita el análisis con nuevas placas, asegurándose de no superar el número máximo de placas cargadas.</li></ul>"
+    },
+    "DUPLICATE_REAGENT_TYPE_DETECTED": {
+      "title": "Se ha detectado un tipo de reactivo duplicado",
+      "body": "Se ha detectado un tipo de reactivo duplicado. Cuando el cajón de muestras se abra, saque una, vuelva a cerrar el cajón y pulse el botón Inicio para que el análisis continúe."
+    },
+    "FLUID_FIND_FAILURE": {
+      "body": "El equipo no ha podido encontrar la muestra. Para solucionarlo, compruebe el procedimiento de preparación de la muestra y repita el análisis utilizando nuevas muestras y placas. Si el problema persiste, llame al servicio técnico de IDEXX."
+    },
+    "FLUID_FIND_FAILURE_DIL_CUP": {
+      "body": "El volumen de diluyente es insuficiente para la dilución automática. Para solucionarlo, repita el análisis con placas y diluyente nuevos."
+    },
+    "FLUID_FIND_FAILURE_MIX_CUP": {
+      "body": "El volumen de muestra diluida es insuficiente para la dilución automática. Para solucionarlo, repita el análisis con placas y diluyente nuevos."
+    },
+    "FOAM_DETECTED_IN_SAMPLE": {
+      "title": "Espuma detectada en la muestra",
+      "body": "Se ha detectado espuma en la muestra del paciente. Para solucionarlo, elimine toda la espuma o burbujas de la muestra y, a continuación, pulse el botón Inicio."
+    },
+    "FOAM_DETECTED_IN_SAMPLE_WARNING": {
+      "body": "Se ha producido un error durante el análisis debido a la detección de espuma. Para solucionarlo, compruebe el procedimiento de preparación de la muestra y repita el análisis utilizando nuevas muestras y placas. Si el problema persiste, llame al servicio técnico de IDEXX."
+    },
+    "HEIGHT_CORRECTION_SURFACE_FIND_FAILURE": {
+      "body": "Fallo en la detección de superficie para la corrección por altura"
+    },
+    "INCORRECTLY_SEATED_CAROUSEL": {
+      "title": "Bandeja no colocada correctamente",
+      "body": "La bandeja no se ha colocado correctamente. Para solucionarlo, abra la cubierta lateral, levante la cubierta de la bandeja y cerciórese de que queda correctamente ajustada. Cierre la cubierta de la bandeja y la cubierta lateral. El analizador vuelve automáticamente al estado “Listo” en cuanto cierra la cubierta."
+    },
+    "INCORRECT_SLIDE_OR_REAGENT": {
+      "title": "Placa o tipo de reactivo incorrectos",
+      "body": "No se ha detectado el tipo de placa correcto para el tipo de reactivo cargado. Para solucionarlo, espere a que el cajón de muestras se desbloquee, cargue la placa correcta o saque el reactivo y, a continuación, pulse el botón Inicio."
+    },
+    "INCORRECT_SLIDE_OR_REAGENT_IGNORABLE": {
+      "title": "Falta placa para análisis con reactivo. Otras placas a analizar.",
+      "body": "No se ha detectado el tipo de placa correcto para el tipo de reactivo cargado. Para solucionarlo, espere a que el cajón de muestras se desbloquee, cargue la placa correcta o saque el reactivo y, a continuación, pulse el botón Inicio.<shortlinebreak/>Si no se detectan los materiales adecuados, no se obtendrán los resultados para esa prueba."
+    },
+    "INSUFFICIENT_DILUENT_VOLUME": {
+      "title": "Volumen de diluyente insuficiente",
+      "body": "El volumen de diluyente es insuficiente para la dilución automática. Para solucionarlo, añada diluyente al recipiente de diluyente y, a continuación, pulse el botón Inicio."
+    },
+    "INSUFFICIENT_DILUENT_VOLUME_WARNING": {
+      "title": "Diluyente insuficiente",
+      "body": "El volumen de diluyente es insuficiente para la dilución automática. Consulte el manual del usuario de Catalyst One y vuelva a realizar el análisis con los materiales sugeridos. Si el problema persiste, llame al servicio técnico de IDEXX."
+    },
+    "INSUFFICIENT_PIPETTE_TIPS": {
+      "title": "Puntas de pipeta insuficientes para el análisis",
+      "body": "No hay suficientes puntas de pipeta para este análisis. Para solucionarlo, espere a que el cajón de muestras se desbloquee, llene la sección para puntas del cajón de muestras y, a continuación, pulse el botón Inicio. Si no añade puntas, el análisis se realizará pero no obtendrá todos los resultados."
+    },
+    "INSUFFICIENT_SAMPLE_FOR_DILUTION": {
+      "title": "Muestra insuficiente para la dilución",
+      "body": "El volumen de muestra es insuficiente para la dilución automática. Para solucionarlo, añada más muestra al recipiente de muestra y, a continuación, pulse el botón Inicio."
+    },
+    "INSUFFICIENT_SAMPLE_FOR_DILUTION_WARNING": {
+      "title": "Volumen de muestra insuficiente para la dilución",
+      "body": "El volumen de muestra es insuficiente para la dilución automática. Para solucionarlo, compruebe el procedimiento de preparación de la muestra y repita el análisis utilizando nuevas muestras y placas. Si el problema persiste, llame al servicio técnico de IDEXX."
+    },
+    "INSUFFICIENT_SAMPLE_VOLUME": {
+      "title": "Volumen de muestra insuficiente para todas las placas",
+      "body": "El volumen de muestra es insuficiente para el número de placas cargadas. Para solucionarlo, añada más muestra al recipiente de muestra y, a continuación, pulse el botón Inicio."
+    },
+    "INSUFFICIENT_SAMPLE_VOLUME_IGNORABLE": {
+      "title": "Volumen de muestra insuficiente para algunas placas",
+      "body": "El volumen de muestra es insuficiente para el número de placas cargadas. Para solucionarlo, añada más muestra al recipiente de muestra y, a continuación, pulse el botón Inicio.<shortlinebreak/>Si no se agrega más muestra, no se procesarán todas las placas."
+    },
+    "INSUFFICIENT_SAMPLE_VOLUME_IGNORABLE_WARNING": {
+      "body": "Muestra insuficiente en una o varias placas de este análisis, lo que dará lugar a una pérdida parcial del análisis. El análisis continua en curso. Cuando el análisis haya finalizado, compruebe el procedimiento de preparación de la muestra y repita el análisis utilizando nuevas muestras y placas."
+    },
+    "INSUFFICIENT_SAMPLE_VOLUME_WARNING": {
+      "body": "Muestra insuficiente en una o varias placas de este análisis. Para solucionarlo, compruebe el procedimiento de preparación de la muestra y repita el análisis utilizando nuevas muestras y placas. Si el problema persiste, llame al servicio técnico de IDEXX."
+    },
+    "INTERNAL_TIMING_ERROR": {
+      "body": "El equipo no ha podido completar una acción. Pulse el botón Inicio y espere mientras el equipo se recupera. Si el problema persiste, llame al servicio técnico de IDEXX."
+    },
+    "LVLASP_BUBBLE": {
+      "body": "Se ha producido un error durante la aspiración de la muestra. Para solucionarlo, compruebe el procedimiento de preparación de la muestra y repita el análisis con muestra y consumibles nuevos.<linebreak/>Si el problema persiste, llame al servicio técnico de IDEXX."
+    },
+    "LVLASP_CLOT": {
+      "body": "Se ha producido un error durante la aspiración de la muestra. Para solucionarlo, compruebe el procedimiento de preparación de la muestra y repita el análisis con muestra y consumibles nuevos.<linebreak/>Si el problema persiste, llame al servicio técnico de IDEXX."
+    },
+    "LVLASP_INSUFFICIENT_SAMPLE": {
+      "body": "Muestra insuficiente en una o varias placas de este análisis. Para solucionarlo, compruebe el procedimiento de preparación de la muestra y repita el análisis con muestra y consumibles nuevos.<linebreak/>Si el problema persiste, llame al servicio técnico de IDEXX."
+    },
+    "LVLASP_START_IN_AIR": {
+      "body": "Se ha producido un error durante la aspiración de la muestra. Para solucionarlo, compruebe el procedimiento de preparación de la muestra y repita el análisis con muestra y consumibles nuevos.<linebreak/>Si el problema persiste, llame al servicio técnico de IDEXX."
+    },
+    "LYTE_PROCESSING_ERROR": {
+      "body": "Se ha producido un error al procesar las placas de electrolitos. Para solucionarlo, repita el análisis con placas nuevas, asegurándose de que las placas se cargan inmediatamente después de abrir sus envases de aluminio. Si el problema persiste, póngase en contacto con el servicio técnico de IDEXX."
+    },
+    "MATERIALS_INCOMPATIBLE": {
+      "title": "Materiales no compatibles",
+      "body": "Los materiales cargados no son compatibles con el tipo de análisis solicitado. Consulte el manual del usuario de Catalyst One™ y repita el análisis utilizando materiales aprobados."
+    },
+    "MATERIALS_INCOMPATIBLE_FRIENDS": {
+      "body": "Algunos de los materiales cargados no son compatibles con el tipo de análisis solicitado. Para conseguir los resultados que no se han mostrado consulte el manual del usuario de Catalyst One y repita el análisis utilizando materiales aprobados."
+    },
+    "MISSING_DILUTION_MATERIALS": {
+      "title": "Faltan materiales para la dilución",
+      "body": "Faltan materiales de dilución o no se han cargado correctamente. Para solucionarlo, compruebe que los soportes circulares para recipientes frontales tienen un recipiente para muestras con 300 µl de diluyente en el lado derecho y un recipiente para muestras vacío en el izquierdo y, a continuación, pulse el botón Inicio."
+    },
+    "MISSING_EMPTY_CUP": {
+      "body": "El análisis se ha detenido debido a la detección de líquido en la ubicación de un pocillo para muestras vacío. Para solucionarlo, cargue un recipiente para muestras vacío en el soporte izquierdo más adelantado y vuelva a realizar el análisis con placas nuevas."
+    },
+    "MISSING_EMPTY_DILUTION_CUP": {
+      "title": "Falta recipiente vacío para la dilución",
+      "body": "No se ha cargado un recipiente para muestras vacío para la dilución. Para solucionarlo, cargue un recipiente para muestras vacío en el soporte circular para recipientes frontal de la izquierda y, a continuación, pulse el botón Inicio."
+    },
+    "MISSING_IA_FOR_REAGENT": {
+      "body": "No se pudo encontrar una placa concordante para el reactivo cargado. Para solucionarlo, espere a que finalice el análisis y repítalo con un reactivo nuevo y una(s) placa(s) nueva(s)."
+    },
+    "MISSING_REAGENT": {
+      "title": "No hay reactivo",
+      "body": "No se pudo encontrar un reactivo concordante para la placa de {{0}} cargada. Para solucionarlo, espere a que el cajón de muestras se desbloquee, añada el reactivo concordante, cierre el cajón de muestras y pulse el botón Inicio."
+    },
+    "MISSING_REAGENT_FOR_IA": {
+      "body": "No se pudo encontrar un reactivo concordante para la placa de {{0}} cargada. Para solucionarlo, espere a que finalice el análisis y repita el análisis con un reactivo nuevo y una placa nueva."
+    },
+    "MISSING_REAGENT_IGNORABLE": {
+      "title": "No hay reactivo. Otras placas a analizar.",
+      "body": "No se pudo encontrar un reactivo concordante para la placa de {{0}} cargada. Para solucionarlo, espere a que el cajón de muestras se desbloquee, añada el reactivo concordante, cierre el cajón de muestras y pulse el botón Inicio.<shortlinebreak/>Si no se carga el reactivo, no se obtendrán los resultados para ese análisis de bioquímica."
+    },
+    "MISSING_UPC_MATERIALS": {
+      "title": "Faltan materiales para UPC",
+      "body": "Faltan materiales para el análisis de UPC o no se han cargado correctamente. Para solucionarlo, compruebe que los soportes circulares para recipientes frontales tienen un recipiente para muestra con 300 µl de diluyente para UPC en el lado derecho y un recipiente para muestras vacío en el izquierdo y, a continuación, pulse el botón Inicio."
+    },
+    "MULTIPLE_SAMPLES_DETECTED": {
+      "title": "Múltiples muestras detectadas",
+      "body": "El analizador no puede procesar más de una muestra a la vez. Para solucionarlo, espere a que el cajón de muestras se desbloquee, extraiga la muestra sobrante y, a continuación, pulse el botón Inicio."
+    },
+    "NO_IDENTIFIABLE_SLIDES_FOUND": {
+      "body": "No ha sido posible identificar las placas cargadas. Para solucionarlo, pulse el botón Inicio para continuar y repita el análisis utilizando placas nuevas. Si el problema persiste, llame al servicio técnico de IDEXX."
+    },
+    "NO_SAMPLE_DETECTED": {
+      "title": "No se detecta ninguna muestra",
+      "body": "No se ha cargado la muestra del paciente. Para solucionarlo, espere a que el cajón de muestras se desbloquee, cargue la muestra en el cajón de muestras y, a continuación, pulse el botón Inicio."
+    },
+    "OFFSETS_CALIBRATION_ERROR": {
+      "body": "El analizador no ha conseguido calcular el ajuste de calcio y/o albúmina. Llame al servicio técnico de IDEXX para obtener asistencia."
+    },
+    "OFFSETS_CV_TOO_HIGH_ERROR": {
+      "body": "El analizador no ha conseguido calcular un ajuste válido de calcio y/o albúmina porque uno o más de los resultados se salen del intervalo aceptable. Para solucionarlo, compruebe el procedimiento de preparación de ajuste y repita el análisis con nuevo fluido de control y nuevas placas. Si el problema persiste, llame al servicio técnico de IDEXX."
+    },
+    "OFFSETS_INSUFFICIENT_SLIDES_ERROR": {
+      "body": "Se ha utilizado un número insuficiente de placas del mismo lote. Para solucionarlo, compruebe el procedimiento de preparación de ajuste y repita el análisis con nuevo fluido de control y nuevas placas."
+    },
+    "OFFSETS_OUT_OF_RANGE_ERROR": {
+      "body": "El analizador no ha conseguido calcular un ajuste válido de calcio y/o albúmina porque el ajuste calculado se sale del intervalo aceptable. Llame al servicio técnico de IDEXX para obtener asistencia."
+    },
+    "OPTICS_CALIBRATION_REQUIRED": {
+      "title": "Calibración necesaria",
+      "body": "Es necesario limpiar y calibrar el analizador de bioquímica Catalyst One. Si el error persiste después de la calibración, llame al servicio técnico de IDEXX."
+    },
+    "OPTICS_INITIALIZATION_FAILURE": {
+      "body": "El equipo no ha podido completar una acción. Intente reiniciar el equipo. Si el problema persiste, llame al servicio técnico de IDEXX."
+    },
+    "OPTICS_LED_FAILURE": {
+      "body": "Se ha producido un error durante la auto-comprobación del analizador o durante el análisis. Llame al servicio técnico de IDEXX."
+    },
+    "OPTICS_MODULE_CONFIGURATION_ERROR": {
+      "body": "Error de configuración del módulo óptico. El analizador no se calibró con éxito. Llame al servicio técnico de IDEXX para obtener asistencia."
+    },
+    "OPTICS_SENSOR_FAILURE": {
+      "body": "Se ha producido un error durante la auto-comprobación del analizador o durante el análisis. Llame al servicio técnico de IDEXX."
+    },
+    "OPTIMIZATION_AVAILABLE": {
+      "title": "Recordatorio de optimización",
+      "body": "Catalyst One debe ser optimizado. Este proceso tarda aproximadamente <strong>{{0}} minutos</strong> en completarse.<linebreak />El equipo lo iniciará automáticamente en {{1}} horas."
+    },
+    "OPTIMIZATION_AVAILABLE_ALIGNMENT": {
+      "title": "Recordatorio de optimización",
+      "body": "Catalyst One debe ser optimizado. Este proceso tarda aproximadamente <strong>{{0}} minutos</strong> en completarse.<linebreak />El equipo lo iniciará automáticamente en {{1}} horas.",
+      "instructions": {
+        "title": "Iniciar la optimización de Catalyst One",
+        "body": "<ol><li>Asegúrese de que la sección para puntas de pipetas del cajetín tiene un mínimo de cinco (5) puntas cargadas.</li><li>Extraiga todos los recipientes para muestras, separadores de sangre entera y recipientes de reactivo.</li><li>Cierre el cajetín y pulse el botón Inicio.</li></ol><linebreak/>Una vez finalizada la optimización del analizador, el icono de Catalyst One se pondrá en verde, indicando el estado Listo."
+      }
+    },
+    "PHBR_LOAD_ERROR": {
+      "title": "Error al cargar el reactivo para PHBR",
+      "body": "El reactivo para PHBR no se ha cargado correctamente. Para solucionarlo, traslade el reactivo a los soportes circulares para recipientes frontales y, a continuación, pulse el botón Inicio."
+    },
+    "PHBR_LOAD_ERROR_IGNORABLE": {
+      "title": "Error al cargar reactivo para PHBR. Otras placas a analizar.",
+      "body": "El reactivo para PHBR no se ha cargado correctamente. Para solucionarlo, traslade el reactivo a los soportes circulares para recipientes frontales y, a continuación, pulse el botón Inicio.<linebreak /> Si no reubica correctamente el reactivo, el análisis se llevará a cabo para las demás placas cargadas, pero no se obtendrán resultados para PHBR."
+    },
+    "PHBR_ORIENT_ERROR": {
+      "title": "Error de orientación del reactivo para PHBR",
+      "body": "El reactivo para PHBR no se ha cargado correctamente. Para solucionarlo, oriente el reactivo hacia la posición correcta y, a continuación, pulse el botón Inicio."
+    },
+    "PHBR_ORIENT_ERROR_IGNORABLE": {
+      "title": "Error de orientación del reactivo para PHBR. Otras placas a analizar.",
+      "body": "El reactivo para PHBR no se ha cargado correctamente. Para solucionarlo, oriente el reactivo hacia la posición correcta y, a continuación, pulse el botón Inicio. Si no orienta correctamente el reactivo, el análisis se llevará a cabo para las demás placas cargadas, pero no se obtendrán resultados para PHBR."
+    },
+    "PIPETTE_TIPS_LOW": {
+      "title": "Añada puntas de pipeta",
+      "body": "Se están agotando las puntas de pipeta en el cajón de muestras. Asegúrese de llenar la sección para puntas del cajón de muestras antes de analizar la muestra siguiente."
+    },
+    "PRESSURE_SENSOR_ERROR": {
+      "body": "Se ha producido un error durante la auto-comprobación del analizador o durante el análisis. Llame al servicio técnico de IDEXX."
+    },
+    "REAGENT_IDENTIFICATION_ERROR": {
+      "title": "Error de identificación del reactivo",
+      "body": "El analizador no ha podido identificar uno o más de los reactivos o las placas que se han cargado.<linebreak/>Para solucionarlo, vuelva a realizar el análisis con nuevas placas cuando se complete el análisis."
+    },
+    "RECOVERABLE_TIMEOUT": {
+      "title": "Tiempo agotado recuperable",
+      "body": "Se ha producido un error durante el análisis que ha provocado su pérdida total o parcial. Para verificar el error producido, consulte el registro de incidencias en la pestaña lateral Equipos de Catalyst One o póngase en contacto con el servicio técnico de IDEXX para obtener asistencia."
+    },
+    "RECOVERY_FAILURE": {
+      "body": "El equipo no ha podido recuperarse de un fallo anterior. Si el problema persiste, llame al servicio técnico de IDEXX."
+    },
+    "ROBOT_HOMING_FAILURE": {
+      "body": "El equipo no ha podido completar una acción. Pulse el botón Inicio y espere mientras el equipo se recupera. Si el problema persiste, llame al servicio técnico de IDEXX."
+    },
+    "ROBOT_MOTION_ERROR": {
+      "body": "El equipo no ha podido completar una acción. Pulse el botón Inicio y espere mientras el equipo se recupera. Si el problema persiste, llame al servicio técnico de IDEXX."
+    },
+    "RUN_COMPLETION_ERROR": {
+      "title": "Imposible completar el análisis",
+      "body": "Se ha producido un error durante el procesamiento de las placas y ha sido imposible completar el análisis. Para solucionarlo, vuelva a realizar el análisis con una muestra y placas nuevas.<shortlinebreak/>Si el problema persiste, llame al servicio técnico de IDEXX."
+    },
+    "SAMPLE_DRAWER_LOCK_ERROR": {
+      "title": "Error de cierre del cajón de muestras",
+      "body": "Hay un problema en el mecanismo de cierre del cajón de muestras.<shortlinebreak/>Llame al servicio técnico de IDEXX para obtener asistencia."
+    },
+    "SAMPLE_DRAWER_OPEN": {
+      "title": "Cajón de muestras abierto",
+      "body": "Cierre el cajón de muestras."
+    },
+    "SAMPLE_DRAWER_OPEN_RUN": {
+      "title": "Cajón de muestras abierto durante el análisis",
+      "body": "El cajón de muestras está abierto. Para que el análisis continúe, cierre el cajón de muestras y pulse el botón Inicio."
+    },
+    "SAMPLE_TOO_LOW": {
+      "body": "Muestra insuficiente en una o varias placas de este análisis. Para solucionarlo, compruebe el procedimiento de preparación de la muestra y repita el análisis con una nueva muestra, unas placas nuevas y un reactivo nuevo. Si el problema persiste, llame al servicio técnico de IDEXX."
+    },
+    "SHIPPING_CLIPS_DETECTED": {
+      "body": "Clips de envío detectados. Para solucionarlo:<ol><li>Abra la cubierta lateral.</li><li>Retire los clips de envío.</li><li>Cierre la cubierta lateral.</li><li>El equipo seguirá encendido.</li></ol>Si el problema persiste, llame al servicio de ayuda de IDEXX."
+    },
+    "SLIDE_CONTAMINATED": {
+      "body": "Placa {{0}} contaminada, se han suprimido los resultados."
+    },
+    "SIDE_DOOR_OPEN": {
+      "title": "Cubierta lateral abierta",
+      "body": "Se ha abierto la cubierta lateral durante el análisis. Para solucionarlo, cierre la cubierta lateral y repita el análisis con nuevas placas."
+    },
+    "SLIDE_DATE_SOFTWARE_VERSION_MISMATCH": {
+      "title": "La fecha de las placas no coincide con la versión del software",
+      "body": "Compruebe que el analizador utiliza la versión más reciente del software (en la pestaña lateral Equipos de Catalyst One), compruebe que las placas no han caducado y repita el análisis empleando placas nuevas."
+    },
+    "SLIDE_DETECTION_ERROR": {
+      "title": "Error en la detección de placas",
+      "body": "Faltan placas o no se han cargado correctamente. Para solucionarlo, espere a que el cajón de muestras se desbloquee, cargue las placas en el cajón de muestras y, a continuación, pulse el botón Inicio."
+    },
+    "SLIDE_EJECT_ERROR": {
+      "title": "Error en la expulsión de placas",
+      "body": "No ha sido posible expulsar correctamente una o varias placas. Para solucionarlo:<ol><li>Saque cualquier placa que quede en el cajón de muestras.</li><li>Abra la puerta lateral, levante la tapa de la bandeja y extraiga la bandeja.</li><li>Saque todas las placas de su carril y deséchelas.</li><li>Vuelva a colocar la bandeja y cierre la tapa de la bandeja.</li><li>Cierre la puerta lateral. El analizador vuelve automáticamente al estado “Listo”.</li><li>Vacíe el cajón de desechos.</li></ol>"
+    },
+    "SLIDE_LOADING_ERROR": {
+      "title": "Error en la carga de placas",
+      "body": "No ha sido posible cargar una o varias placas. Para solucionarlo:<ol><li>Espere a que el cajón de muestras se desbloquee.</li><li>Saque cualquier placa que quede en el cajón de muestras.</li><li>Abra la puerta lateral, levante la tapa de la bandeja y extraiga la bandeja.</li><li>Saque todas las placas de su carril y deséchelas.</li><li>Vuelva a colocar la bandeja y cierre la tapa de la bandeja.</li><li>Cierre la puerta lateral. El analizador vuelve automáticamente al estado “Listo”.</li><li>Repita el análisis con placas nuevas.</li></ol>"
+    },
+    "SLIDE_REAGENT_LOT_MISMATCH": {
+      "title": "Número de lote diferente en placa y reactivo",
+      "body": "El número de lote de la placa y del reactivo no coinciden. Para solucionarlo, cargue una placa y reactivo cuyo lote coincida en el cajón de muestras y, a continuación, pulse el botón Inicio."
+    },
+    "SLIDE_REAGENT_LOT_MISMATCH_IGNORABLE": {
+      "title": "Número de lote diferente en placa y reactivo. Otras placas a analizar.",
+      "body": "El número de lote de la placa y del reactivo no coinciden. Para solucionarlo, cargue una placa y reactivo cuyo lote coincida en el cajón de muestras y, a continuación, pulse el botón Inicio.<linebreak/>Si no se detectan números de lote coincidentes, no se obtendrá ningún resultado de ese análisis bioquímico."
+    },
+    "SLIDE_REAGENT_MISMATCH": {
+      "body": "No se pudo encontrar un reactivo concordante para la placa de {{0}} cargada. Para solucionarlo, espere a que el cajón de muestras se desbloquee, saque el reactivo, sustitúyalo por el reactivo concordante, cierre el cajón de muestras y pulse el botón Inicio."
+    },
+    "SLIDE_REAGENT_MISMATCH_IGNORABLE": {
+      "body": "No se pudo encontrar un reactivo concordante para la placa de {{0}} cargada. Para solucionarlo, espere a que el cajón de muestras se desbloquee, saque el reactivo, sustitúyalo por el reactivo concordante, cierre el cajón de muestras y pulse el botón Inicio. Si no se carga el reactivo concordante, no se obtendrán resultados para ese parámetro."
+    },
+    "SLIDE_TIMEOUT_ERROR": {
+      "title": "Tiempo de espera de placas agotado",
+      "body": "Las placas han pasado demasiado tiempo en el cajón de muestras antes de ser analizadas. Para solucionarlo, vuelva a analizar la muestra con placas nuevas."
+    },
+    "SPURIOUS_DEVICE_EVENT": {
+      "body": "El equipo no ha podido completar una acción. Pulse el botón Inicio y espere mientras el equipo se recupera. Si el problema persiste, llame al servicio técnico de IDEXX."
+    },
+    "SUSPECT_RESULT_COMPARISON": {
+      "body": "Se ha producido un error en el procesamiento de una de las placas. Para obtener el resultado que no se ha comunicado, repita el análisis con muestra y placas nuevas. Si el problema persiste, llame al servicio técnico de IDEXX."
+    },
+    "THERMAL_CONTROL_ERROR": {
+      "title": "Error en el control térmico",
+      "body": "Ha habido un problema de control térmico durante el análisis que ha impedido obtener resultados. Para solucionarlo, compruebe que la temperatura en el entorno del analizador está dentro de los límites de funcionamiento especificados y repita el análisis con nuevas placas."
+    },
+    "THERMAL_ERROR": {
+      "title": "Error térmico",
+      "body": "Se ha producido un error térmico durante el proceso de autocontrol del analizador. Para solucionarlo, abra la puerta lateral izquierda y compruebe que la cubierta está cerrada. El analizador se iniciará automáticamente una vez cerrada la cubierta lateral.<shortlinebreak />Si el problema persiste, llame al servicio técnico de IDEXX."
+    },
+    "UNSPECIFIED_ERROR": {
+      "body": "Ha ocurrido un error inesperado. Pulse el botón Inicio del equipo para que se recupere. Si el problema persiste, póngase en contacto con el servicio técnico de IDEXX."
+    },
+    "UNSUPPORTED_QC_RANGE": {
+      "body": "El resultado de {{0}} {{1}} se ha suprimido porque el tipo de fluido QC seleccionado no admite la placa elegida. Para solucionarlo, vuelva a realizar el análisis con placas nuevas, según las que sean apropiadas para el líquido de CC."
+    },
+    "UNSUPPORTED_SLIDE_LOT": {
+      "body": "Resultados {{0}} {{1}} suprimidos, lote de placas no compatible o placa caducada"
+    },
+    "UNSUPPORTED_WHITE_REF_SLIDE_LOT": {
+      "body": "Lote de placas de referencia blancas no compatible. Repita la calibración con una placa de referencia blanca compatible. Llame al servicio técnico de IDEXX para obtener asistencia."
+    },
+    "UPDATE_FAILED": {
+      "title": "La actualización de software no se completó con éxito.",
+      "body": "El analizador Catalyst One no se actualizó con éxito. Para solucionarlo, repita el procedimiento de actualización o utilice la opción Actualizar software en la pestaña lateral Equipos de Catalyst One.<linebreak/>Si el problema persiste, llame al servicio técnico de IDEXX."
+    },
+    "UPGRADE_FAILED_DOWNLOAD": {
+      "title": "Descarga de la actualización de software incorrecta"
+    },
+    "UPGRADE_FAILED_PREPARATION": {
+      "title": "Preparación de la actualización de software incorrecta"
+    },
+    "USED_REAGENT_DETECTED": {
+      "title": "Detectado reactivo utilizado",
+      "body": "El reactivo detectado ya se ha utilizado anteriormente. Para solucionarlo, sustituya el reactivo y, a continuación, pulse el botón Inicio."
+    },
+    "USED_REAGENT_DETECTED_IGNORABLE": {
+      "title": "Detectado reactivo utilizado. Otras placas a analizar.",
+      "body": "El reactivo detectado ya se ha utilizado anteriormente. Para solucionarlo, sustituya el reactivo y, a continuación, pulse el botón Inicio.<shortlinebreak />Si no se sustituye el reactivo, no se obtendrá ningún resultado de este análisis bioquímico."
+    },
+    "USED_REAGENT_DETECTED_IGNORABLE_WARNING": {
+      "body": "El reactivo detectado ya se ha utilizado anteriormente. Los resultados de ese parámetro no se mostrarán. Para solucionarlo, espere a que el equipo vuelva a estar listo y repita el análisis utilizando muestra, placas y reactivo nuevos."
+    },
+    "USED_REAGENT_DETECTED_WARNING": {
+      "body": "El reactivo detectado ya se ha utilizado anteriormente. Para solucionarlo, espere a que el equipo vuelva a estar listo y repita el análisis utilizando muestra, placas y reactivo nuevos."
+    },
+    "USER_CALIBRATION_UNSUCCESSFUL": {
+      "title": "Calibración del usuario incorrecta",
+      "body": "El analizador no se ha calibrado correctamente.<shortlinebreak/>Para obtener asistencia, llame al servicio técnico de IDEXX para obtener asistencia."
+    },
+    "WARMUP_THERMAL_ERROR": {
+      "title": "Error térmico durante el calentamiento",
+      "body": "Se ha producido un error térmico. Para solucionarlo, abra la puerta lateral izquierda y compruebe que la cubierta está cerrada. El analizador se iniciará automáticamente una vez cerrada la cubierta lateral.<shortlinebreak/>Si el problema persiste, llame al servicio técnico de IDEXX."
+    },
+    "WASTE_DRAWER_FULL": {
+      "title": "Cajón de desechos lleno",
+      "body": "Vacíe el cajón de desechos."
+    },
+    "WASTE_DRAWER_OPEN": {
+      "title": "Cajón de desechos abierto",
+      "body": "Cierre el cajón de desechos."
+    },
+    "WASTE_DRAWER_OPEN_RUN": {
+      "title": "Cajón de desechos abierto durante el análisis",
+      "body": "El cajón de desechos está abierto. Para que el análisis continúe, cierre el cajón de desechos y pulse el botón Inicio."
+    },
+    "WBS_SAMPLE_VOLUME_HIGH": {
+      "body": "Hay demasiada muestra en el separador de sangre completa. Para solucionarlo, repita el análisis utilizando un separador de sangre entera con 0,6-0,8 cc de muestra y placas nuevas.<shortlinebreak/>Si el problema persiste, llame al servicio técnico de IDEXX."
+    }
+  },
+  "CATALYST_DX": {
+    "CONNECTION_TIMEOUT": {
+      "body": "La IDEXX VetLab Station no puede comunicarse con el analizador Catalyst Dx. <linebreak /><strong>NOTA:</strong> Para hacer que desaparezca de forma permanente el icono del analizador de la pantalla de Inicio, proceda del siguiente modo: cierre el mensaje de alerta, pulse el icono Offline y pulse <strong>Quitar equipo</strong>. Siga estos pasos para restablecer la conexión: <ol><li>En el analizador Catalyst Dx, pulse <strong>Herramientas</strong> para comprobar que el analizador tiene una dirección IP.</li><li>Si el valor que figura en el cuadro de la dirección IP es <strong>Indeterminada</strong>, siga estos pasos:<ol type=\\\"a\\\"><li>En la pantalla Herramientas del analizador Catalyst Dx, pulse <strong>Apagado</strong>.</li><li>Cuando se le indique, utilice el interruptor para apagar el analizador.</li><li>Una vez apagado el analizador, pulse el interruptor para reiniciarlo.</li></ol></li></ol>Si hay una dirección IP presente y a pesar de ello el problema persiste, contacte con el servicio técnico de IDEXX."
+    }
+  },
+  "CRIMSON": {
+    "ASP_UNIT_FRONTBACK_MOTOR": {
+      "body": "Presione <strong>Reinicializar motor de aspirado</strong> para solucionar este error.<shortlinebreak/>Este procedimiento tardará unos segundos.",
+      "title": "Error en el motor de la Unidad de Aspirado Frontal y Posterior."
+    },
+    "ASP_UNIT_UPDOWN_MOTOR": {
+      "body": "Reiniciar ProCyte Dx puede solucionar este error. Si esta alerta continua, llame al servicio técnico de IDEXX.<shortlinebreak/><ol><li>Apagar ProCyte Dx.</li><li>Apagar IPU.</li><li>Encender IPU.</li><li>Encender ProCyte Dx.</li></ol>",
+      "title": "Error en Unidad superior e inferior del Motor de Aspirado"
+    },
+    "BACKGROUND": {
+      "body": "Esto puede ocasionar resultados no fiables. Pulse <strong>Iniciar enjuagado automático</strong> para limpiar el sistema y comprobar las mediciones de fondo. Este procedimiento puede durar aproximadamente <strong>8 minutos.</strong>",
+      "title": "La verificación de fondo midió los siguientes parámetros como altos.",
+      "table": {
+        "headers": {
+          "assay": "Ensayo",
+          "result": "Resultado",
+          "limit": "Límite",
+          "unit": "Unidad"
+        },
+        "assays": {
+          "PLT-O": "PLQ-O",
+          "HGB": "HGB",
+          "RBC": "Eritrocitos",
+          "WBC": "Leucocitos",
+          "PLT-I": "PLQ-I"
+        }
+      }
+    },
+    "BLOOD_ASP_SENSOR": {
+      "body": "Si esta alerta continua, llame al servicio técnico de IDEXX.",
+      "title": "No ha sido posible procesar la muestra del paciente."
+    },
+    "CHAMBER_EPK": {
+      "body": "El kit de reactivos parece estar desconectado. Asegúrese de que el kit de reactivos esté conectado correctamente y que los tubos no estén doblados o torcidos. A continuación, pulse <strong>Iniciar cebado.</strong><shortlinebreak/>Si este mensaje vuelve a aparecer después de pulsar el botón Iniciar cebado, póngase en contacto con el servicio técnico de IDEXX para obtener asistencia.",
+      "title": "El kit de reactivos parece estar desconectado."
+    },
+    "CLOSE_FCM_DETECT_COVER": {
+      "body": "Utilice el interruptor de alimentación de ProCyte Dx para apagar el analizador durante al menos 10 segundos. A continuación, encienda el analizador.<linebreak/>Si esta alerta continua, llame al servicio técnico de IDEXX.",
+      "title": "Cerrar detector de FCM"
+    },
+    "DIFF_CH": {
+      "body": "Si esta alerta continua, llame al servicio técnico de IDEXX.",
+      "title": "Error en canal de diferenciación"
+    },
+    "DIFF_SAMPLING": {
+      "body": "Obtenga una nueva muestra e inviértala10 veces inmediatamente después de la extracción y antes del análisis. Póngase en contacto con el servicio técnico de IDEXX si el mensaje persiste.",
+      "title": "Error en el muestreo diferenciación"
+    },
+    "ENV_TEMP_HIGH": {
+      "body": "La temperatura alrededor de ProCyte Dx es muy alta. Asegúrese de que haya una adecuada ventilación alrededor del analizador, verifique el filtro del ventilador, y baje la temperatura ambiente por debajo de los 38 °C (100 °F).<shortlinebreak/>Si esta alerta continua, llame al servicio técnico de IDEXX.",
+      "title": "Env Temperatura alta"
+    },
+    "ENV_TEMP_LOW": {
+      "body": "La temperatura alrededor de ProCyte Dx es muy baja. Suba la temperatura ambiente por encima de los 10 °C (50 °F).<linebreak/>Si esta alerta continua, llame al servicio técnico de IDEXX.",
+      "title": "Temperatura ambiente baja"
+    },
+    "ENV_THERM_SENS": {
+      "body": "Reiniciar ProCyte Dx puede solucionar este error. Si esta alerta continua, llame al servicio técnico de IDEXX.<shortlinebreak/><ol><li>Apagar ProCyte Dx.</li><li>Apagar IPU.</li><li>Encender IPU.</li><li>Encender ProCyte Dx.</li></ol>",
+      "title": "Error en sensor térmico temp ambiente"
+    },
+    "EXCHANGE_AIR_PUMP": {
+      "body": "Si esta alerta continua, llame al servicio técnico de IDEXX.",
+      "title": "Intercambiar la bomba de aire"
+    },
+    "EXCHANGE_WASTE_TANK": {
+      "body": "Pulse <strong>Vaciar cámara de desechos</strong> para resolver este error.<shortlinebreak/>Este procedimiento dura menos de 1 minuto.",
+      "title": "Intercambiar depósito de desechos"
+    },
+    "EXECUTE_MONTHLY_RINSE_IVLS": {
+      "body": "Ha pasado un mes desde el ultimo Enjuagado mensual.<shortlinebreak/>Este procedimiento de 25 minutos elimina contaminantes y asegura resultados fiables.",
+      "title": "Recordatorio de enjuagado mensual."
+    },
+    "EXECUTE_MONTHLY_RINSE_WARNING": {
+      "body": "Pulse <strong>Enjuagado mensual</strong> para continuar el enjuagado.<shortlinebreak/>Este procedimiento de 25 minutos elimina contaminantes y asegura resultados fiables.",
+      "title": "Debe efectuarse el enjuagado mensual."
+    },
+    "EXPIRED_EPK": {
+      "body": "Para asegurarse de que sus resultados son fiables, recomendamos encarecidamente el cambio del reactivo.",
+      "title": "Reactivo caducado."
+    },
+    "EXPIRED_FFD": {
+      "body": "Para asegurarse de que sus resultados son fiables, recomendamos encarecidamente el cambio del reactivo.",
+      "title": "Reactivo caducado."
+    },
+    "EXPIRED_FFS": {
+      "body": "Para asegurarse de que sus resultados son fiables, recomendamos cambiar el envase de colorantes.",
+      "title": "Envase de colorantes caducado."
+    },
+    "EXPIRED_RED": {
+      "body": "Para asegurarse de que sus resultados son fiables, recomendamos encarecidamente el cambio del reactivo.",
+      "title": "Reactivo caducado."
+    },
+    "EXPIRED_RES": {
+      "body": "Para asegurarse de que sus resultados son fiables, recomendamos cambiar el envase de colorantes.",
+      "title": "Envase de colorantes caducado."
+    },
+    "EXPIRED_SLS": {
+      "body": "Para asegurarse de que sus resultados son fiables, recomendamos encarecidamente el cambio del reactivo.",
+      "title": "Reactivo caducado."
+    },
+    "FCM_RU_TEMP_HIGH": {
+      "body": "La temperatura interna del ProCyte Dx es muy alta. Apague la unidad principal durante 30 minutos y, a continuación, vuelva a encenderla.<shortlinebreak/>Si esta alerta continua, llame al servicio técnico de IDEXX.",
+      "title": "FCM RU Temperatura Alta"
+    },
+    "FCM_RU_TEMP_LOW": {
+      "body": "ProCyte Dx se está calentando. Este procedimiento podría tardar hasta 30 minutos.<linebreak/>Si esta alerta continua, llame al servicio técnico de IDEXX.",
+      "title": "FCM RU Temperatura baja"
+    },
+    "FCM_RU_THERM_SENS": {
+      "body": "Reiniciar ProCyte Dx puede solucionar este error. Si esta alerta continua, llame al servicio técnico de IDEXX.<shortlinebreak/><ol><li>Apagar ProCyte Dx.</li><li>Apagar IPU.</li><li>Encender IPU.</li><li>Encender ProCyte Dx.</li></ol>",
+      "title": "Error en sensor térmico Unidad Reacción FCM"
+    },
+    "FCM_SHEATH_SENS": {
+      "body": "Reiniciar ProCyte Dx puede solucionar este error. Si esta alerta continua, llame al servicio técnico de IDEXX.<shortlinebreak/><ol><li>Apagar ProCyte Dx.</li><li>Apagar IPU.</li><li>Encender IPU.</li><li>Encender ProCyte Dx.</li></ol>",
+      "title": "Error en sensor de reactivo FCM"
+    },
+    "FFS_ASP_ERROR": {
+      "body": "El envase de colorantes parece estar desconectado. Asegúrese de que el envase de colorantes esté conectado correctamente y que los tubos no estén doblados o torcidos. A continuación, pulse <strong>Iniciar cebado.</strong><shortlinebreak/>Si este mensaje vuelve a aparecer después de pulsar el botón Iniciar cebado, póngase en contacto con el servicio técnico de IDEXX para obtener asistencia.",
+      "title": "El envase de colorantes parece estar desconectado."
+    },
+    "HGB": {
+      "body": "Si esta alerta continua, llame al servicio técnico de IDEXX.",
+      "title": "Error de Hemoglobina"
+    },
+    "IPU_COMMUNICATION_ERROR": {
+      "body": "Reiniciar ProCyte Dx puede solucionar este error. Si esta alerta continua, llame al servicio técnico de IDEXX.<shortlinebreak/><ol><li>Apagar ProCyte Dx.</li><li>Apagar IPU.</li><li>Encender IPU.</li><li>Encender ProCyte Dx.</li></ol>",
+      "title": "Ha ocurrido un error inesperado."
+    },
+    "LASER_DIODE_AGED": {
+      "body": "Si esta alerta continua, llame al servicio técnico de IDEXX.",
+      "title": "Diodo de Laser antiguo"
+    },
+    "LASER_POWER": {
+      "body": "Utilice el interruptor de alimentación de ProCyte Dx para apagar el analizador durante al menos 10 segundos. A continuación, encienda el analizador.<linebreak/>Si esta alerta continua, llame al servicio técnico de IDEXX.",
+      "title": "Corriente del Láser"
+    },
+    "MPA_06": {
+      "body": "Pulse <strong>Reinicializar bomba de aire</strong> para solucionar este error.<shortlinebreak/>Este procedimiento durará aproximadamente 2 minutos.",
+      "title": "Error 0.06MPa"
+    },
+    "MPA_NEG03": {
+      "body": "Pulse <strong>Reinicializar bomba de aire</strong> para solucionar este error.<shortlinebreak/>Este procedimiento durará aproximadamente 2 minutos.",
+      "title": "Error -0.03MPa"
+    },
+    "NEW_HARDWARE_DETECTED": {
+      "body": "Para configurar el nuevo equipo, debe cargar los archivos de configuración que concuerden con el número de serie de ProCyte Dx.<ol><li>Utilice el interruptor de alimentación para <strong>apagar el analizador.</strong><shortlinebreak/>Nota: No apague la IPU.</li><li>Pulse <strong>Configurar</strong> para continuar.</li></ol>",
+      "title": "Nuevo equipo detectado."
+    },
+    "PLT_CH": {
+      "body": "Si esta alerta continua, llame al servicio técnico de IDEXX.",
+      "title": "Error en el canal de plaquetas"
+    },
+    "PLT_SAMPLING": {
+      "body": "Pulse <strong>Eliminar coágulo</strong> para solucionar este error.<shortlinebreak/>Este procedimiento durará aproximadamente 1 minuto.",
+      "title": "Error en el procesamiento de la muestra de las plaquetas"
+    },
+    "PRESS_START_BUTTON": {
+      "body": "<strong>Para analizar la muestra</strong><ol><li>Invierta el tubo de muestra 10 veces para mezclar bien.</li><li>Pulse el botón <strong>Inicio</strong> en el analizador.</li></ol>",
+      "title": "No se ha iniciado el análisis de la muestra."
+    },
+    "PRESS_START_BUTTON_QC": {
+      "body": "<strong>$t({{ name }})<shortlinebreak/>Lote: {{ lot-number }}</strong><shortlinebreak/>$t({{ unit }})",
+      "title": "Pulse el botón Inicio del analizador para comenzar el análisis de:"
+    },
+    "PRESSURE_LOWER": {
+      "body": "Pulse <strong>Reinicializar bomba de aire</strong> para solucionar este error.<shortlinebreak/>Este procedimiento durará aproximadamente 2 minutos.",
+      "title": "Error presión baja"
+    },
+    "RBC_BUBBLE": {
+      "body": "Pulse <strong>Eliminar coágulo</strong> para solucionar este error.<shortlinebreak/>Este procedimiento durará aproximadamente 1 minuto.",
+      "title": "Error de burbuja en los eritrocitos"
+    },
+    "RBC_CH": {
+      "body": "Si esta alerta continua, llame al servicio técnico de IDEXX.",
+      "title": "Error en el canal de los eritrocitos"
+    },
+    "RBC_CLOG": {
+      "body": "Pulse <strong>Eliminar coágulo</strong> para solucionar este error.<shortlinebreak/>Este procedimiento durará aproximadamente 1 minuto.",
+      "title": "Error de coágulo en los eritrocitos"
+    },
+    "RBC_HGB_CHAMBER": {
+      "body": "Pulse <strong>Vaciar cámara de reacción</strong> para resolver este error.<shortlinebreak/>Este procedimiento dura menos de 1 minuto.",
+      "title": "Error en los Eritrocitos/Hemoglobina"
+    },
+    "RBC_SAMPLING": {
+      "body": "Pulse <strong>Eliminar coágulo</strong> para solucionar este error.<shortlinebreak/>Este procedimiento durará aproximadamente 1 minuto.",
+      "title": "Error en el procesamiento de muestra de los eritrocitos"
+    },
+    "REAGENT_KIT_LOW": {
+      "body": "Nivel de líquido del kit de reactivos bajo. Es posible seguir utilizando el analizador hasta que quede vacío.<linebreak/>Para garantizar el uso ininterrumpido del analizador, asegúrese de disponer de un kit de reactivos de sustitución.<linebreak/>Para desactivar este mensaje, modifique el ajuste de <strong>Recordatorio de nivel de reactivo bajo</strong> a «Off» (apagado) en la pantalla de ajustes de ProCyte Dx.",
+      "title": "Nivel de reactivo bajo."
+    },
+    "REPLACE_EPK": {
+      "body": "El kit de reactivos parece estar desconectado. Asegúrese de que el kit de reactivos esté conectado correctamente y que los tubos no estén doblados o torcidos. A continuación, pulse <strong>Iniciar cebado.</strong><shortlinebreak/>Si este mensaje vuelve a aparecer después de pulsar el botón Iniciar cebado, póngase en contacto con el servicio técnico de IDEXX para obtener asistencia.",
+      "title": "El kit de reactivos parece estar desconectado."
+    },
+    "REPLACE_FFD": {
+      "body": "El kit de reactivos parece estar desconectado. Asegúrese de que el kit de reactivos esté conectado correctamente y que los tubos no estén doblados o torcidos. A continuación, pulse <strong>Iniciar cebado.</strong><shortlinebreak/>Si este mensaje vuelve a aparecer después de pulsar el botón Iniciar cebado, póngase en contacto con el servicio técnico de IDEXX para obtener asistencia.",
+      "title": "El kit de reactivos parece estar desconectado."
+    },
+    "REPLACE_FFS": {
+      "body": "Pulse <strong>Cambiar envase de colorantes</strong> para continuar.",
+      "title": "Envase de colorantes vacío."
+    },
+    "REPLACE_PIERCER": {
+      "body": "Si esta alerta continua, llame al servicio técnico de IDEXX.",
+      "title": "Reemplazar perforador"
+    },
+    "REPLACE_REAGENT_PACKAGE": {
+      "body": "Pulse <strong>Cambiar reactivo</strong> para continuar.",
+      "title": "Reactivo vacío"
+    },
+    "REPLACE_RED": {
+      "body": "El kit de reactivos parece estar desconectado. Asegúrese de que el kit de reactivos esté conectado correctamente y que los tubos no estén doblados o torcidos. A continuación, pulse <strong>Iniciar cebado.</strong><shortlinebreak/>Si este mensaje vuelve a aparecer después de pulsar el botón Iniciar cebado, póngase en contacto con el servicio técnico de IDEXX para obtener asistencia.",
+      "title": "El kit de reactivos parece estar desconectado."
+    },
+    "REPLACE_RES": {
+      "body": "Pulse <strong>Cambiar envase de colorantes</strong> para continuar.",
+      "title": "Envase de colorantes vacío."
+    },
+    "REPLACE_SLS": {
+      "body": "El kit de reactivos parece estar desconectado. Asegúrese de que el kit de reactivos esté conectado correctamente y que los tubos no estén doblados o torcidos. A continuación, pulse <strong>Iniciar cebado.</strong><shortlinebreak/>Si este mensaje vuelve a aparecer después de pulsar el botón Iniciar cebado, póngase en contacto con el servicio técnico de IDEXX para obtener asistencia.",
+      "title": "El kit de reactivos parece estar desconectado."
+    },
+    "RET": {
+      "body": "Si esta alerta continua, llame al servicio técnico de IDEXX.",
+      "title": "Error en los reticulocitos"
+    },
+    "RET_CH": {
+      "body": "Si esta alerta continua, llame al servicio técnico de IDEXX.",
+      "title": "Error en el canal de los reticulocitos"
+    },
+    "RET_CHAMBER": {
+      "body": "Pulse <strong>Vaciar cámara de reacción</strong> para resolver este error.<shortlinebreak/>Este procedimiento dura menos de 1 minuto.",
+      "title": "Error en la cámara de reticulocitos"
+    },
+    "RET_SAMPLING": {
+      "body": "Se ha detectado una incidencia con el flujo de las células. Pulse <strong>Enjuagar flujo de células</strong> para continuar.<shortlinebreak/>Este procedimiento tarda aproximadamente 6 minutos.",
+      "title": "Error en el procesamiento de la muestras en los Reticulocitos"
+    },
+    "RH_TEMP_HIGH_DIFF": {
+      "body": "La temperatura interna del ProCyte Dx es muy alta. Apague la unidad principal durante 30 minutos y, a continuación, vuelva a encenderla.<linebreak/>Si esta alerta continua, llame al servicio técnico de IDEXX.",
+      "title": "RH Temperatura Alta (DIFF)"
+    },
+    "RH_TEMP_HIGH_RET": {
+      "body": "La temperatura interna del ProCyte Dx es muy alta. Apague la unidad principal durante 30 minutos y, a continuación, vuelva a encenderla.<shortlinebreak/>Si esta alerta continua, llame al servicio técnico de IDEXX.",
+      "title": "RH Temperatura Alta (RET)"
+    },
+    "RH_TEMP_LOW_DIFF": {
+      "body": "ProCyte Dx se está calentando. Este procedimiento podría tardar hasta 30 minutos.<shortlinebreak/>Si esta alerta continua, llame al servicio técnico de IDEXX.",
+      "title": "RH Temperatura baja (DIFF)"
+    },
+    "RH_TEMP_LOW_RET": {
+      "body": "ProCyte Dx se está calentando. Este procedimiento podría tardar hasta 30 minutos.<linebreak/>Si esta alerta continua, llame al servicio técnico de IDEXX.",
+      "title": "RH Temperatura baja (RET)"
+    },
+    "RH_THERM_SENS_ERR_DIFF": {
+      "body": "Reiniciar ProCyte Dx puede solucionar este error. Si esta alerta continua, llame al servicio técnico de IDEXX.<shortlinebreak/><ol><li>Apagar ProCyte Dx.</li><li>Apagar IPU.</li><li>Encender IPU.</li><li>Encender ProCyte Dx.</li></ol>",
+      "title": "Error en sensor térmico RH (DIFF)"
+    },
+    "RH_THERM_SENS_ERR_RET": {
+      "body": "Reiniciar ProCyte Dx puede solucionar este error. Si esta alerta continua, llame al servicio técnico de IDEXX.<shortlinebreak/><ol><li>Apagar ProCyte Dx.</li><li>Apagar IPU.</li><li>Encender IPU.</li><li>Encender ProCyte Dx.</li></ol>",
+      "title": "Error en sensor térmico RH (Reticulocitos)"
+    },
+    "RIGHT_COVER_HAS_OPENED": {
+      "body": "<ol><li>Cierre la cubierta lateral derecha.</li><li>Use el interruptor de ProCyte Dx para apagar y luego encender el analizador.</li></ol>",
+      "title": "La cubierta lateral derecha se ha abierto."
+    },
+    "RIGHT_COVER_IS_OPEN": {
+      "body": "Cierre la cubierta lateral derecha para continuar.",
+      "title": "La cubierta lateral derecha está abierta."
+    },
+    "RINSE_CUP_PINCH_VALVE": {
+      "body": "Pulse <strong>Liberar válvula de pinzado</strong> para solucionar este error.<shortlinebreak/>Este procedimiento durará menos de 1 minuto.",
+      "title": "Error de la válvula de pinzado de la copa de enjuagado"
+    },
+    "SAMPLE_NOT_ASP": {
+      "body": "El volumen de sangre de la muestra es insuficiente. Compruebe el volumen antes de volver a procesar la muestra del paciente. Para obtener más información sobre los requisitos de volumen de las muestras, consulte el manual de usuario del analizador ProCyte Dx.<shortlinebreak/>Si esta alerta continua, llame al servicio técnico de IDEXX.",
+      "title": "Error en la aspiración de la muestra"
+    },
+    "SFS_INTERRUPTED": {
+      "body": "<ol><li>Desconecte de la parte posterior del analizador los tubos del conector rápido.</li><li>Apague el analizador y la IPU.</li><li>Desconecte los cables de alimentación y comunicación del analizador.</li><li>Devuelva el analizador a IDEXX.</li></ol>",
+      "title": "Se ha producido un problema durante el apagado para transporte."
+    },
+    "SFS_REAGENTS_DRAINED": {
+      "body": "Se han extraído los reactivos del analizador.<shortlinebreak/><strong>Siguientes pasos:</strong><ol><li>Desconecte el tubo del puerto blanco en la parte posterior del analizador</li><li>Apague el analizador mediante el interruptor que se encuentra en el lateral derecho del instrumento</li><li>Pulse el botón de encendido de la IPU para apagarlo (no mantenga pulsado el botón)</li><li>Desconecte el cable de alimentación y el cable Ethernet de la parte posterior del analizador</li><li>Embale el analizador antiguo en la caja del analizador de repuesto y envíelo a IDEXX</li></ol><linebreak/><strong>Pulse Finalizar</strong>",
+      "title": "Pasos finales"
+    },
+    "SHEATH_MOTOR": {
+      "body": "Pulse <strong>Reinicializar motor de diluyente</strong> para solucionar este error.<shortlinebreak/>Este procedimiento durará menos de 1 minuto.",
+      "title": "Error en el Motor de Reactivo"
+    },
+    "SHORT_SAMPLE": {
+      "body": "El volumen de sangre de la muestra es insuficiente. Compruebe el volumen antes de volver a procesar la muestra del paciente. Para obtener más información sobre los requisitos de volumen de las muestras, consulte el manual de usuario del analizador ProCyte Dx.<shortlinebreak/>Si esta alerta continua, llame al servicio técnico de IDEXX.",
+      "title": "Poca muestra"
+    },
+    "SOFTWARE_UPGRADE_AVAILABLE": {
+      "body": "<ol><li>Utilice el interruptor de alimentación para <strong>apagar el analizador</strong>.<shortlinebreak/>Nota: No apague la IPU.</li><li>Pulse <strong>Actualizar ahora</ strong> para continuar.<shortlinebreak/>ADVERTENCIA: La IPU se apagará durante el proceso de actualización.</li></ol>",
+      "title": "La versión de actualización de software {{ software-version }} está lista para ser instalada."
+    },
+    "SOFTWARE_UPGRADE_FAILED": {
+      "body": "Vuelva a intentar la actualización o póngase en contacto con el servicio técnico de IDEXX para obtener asistencia.<shortlinebreak/><ol><li>Utilice el interruptor de alimentación para <strong>apagar el analizador</strong>.<shortlinebreak/>Nota: No apague la IPU.</li><li>Pulse <strong>Actualizar ahora</strong> para continuar.</li></ol>",
+      "title": "Actualización de software incorrecta."
+    },
+    "SOFTWARE_UPGRADE_TIMEOUT": {
+      "body": "Para solucionarlo, asegúrese de que el analizador ProCyte Dx está apagado y, a continuación, reinicie la IPU mediante el interruptor de alimentación.<shortlinebreak/>Si el problema persiste, llame al servicio técnico de IDEXX.",
+      "title": "Actualización de software incorrecta."
+    },
+    "STAIN_PACK_LOW": {
+      "body": "Nivel de líquido del envase de colorantes bajo. Es posible seguir utilizando el analizador hasta que quede vacío.<linebreak/>Para garantizar el uso ininterrumpido del analizador, asegúrese de disponer de un kit de reactivos de sustitución.<linebreak/>Para desactivar este mensaje, modifique el ajuste de <strong>Recordatorio de nivel de reactivo bajo</strong> a «Off» (apagado) en la pantalla de configuración de ProCyte Dx.",
+      "title": "Envase de colorantes bajo."
+    },
+    "STARTUP_PRIME_REQUIRED": {
+      "body": "Durante este procedimiento, de 45 minutos de duración, será necesario utilizar un kit de reactivos y un envase de colorantes nuevos. ¿Desea continuar?",
+      "title": "Debe realizarse el procedimiento de puesta en marcha."
+    },
+    "SYSTEM_CONFIGURATION": {
+      "body": "Reiniciar ProCyte Dx puede solucionar este error. Si esta alerta continua, llame al servicio técnico de IDEXX.<shortlinebreak/><ol><li>Apagar ProCyte Dx.</li><li>Apagar IPU.</li><li>Encender IPU.</li><li>Encender ProCyte Dx.</li></ol>",
+      "title": "Error en Configuración del Sistema"
+    },
+    "TUBE_HOLDER_HAS_OPENED": {
+      "body": "Reiniciar ProCyte Dx puede solucionar este error. Si esta alerta continua, llame al servicio técnico de IDEXX.<shortlinebreak/><ol><li>Si es posible, retire el tubo de muestra y cualquier obstrucción.</li><li>Apague el ProCyte Dx.</li><li>Apague la IPU.</li><li>Encienda la IPU.</li><li>Encienda ProCyte Dx.</li></ol>",
+      "title": "El cajetín de la muestra se ha abierto"
+    },
+    "TUBE_HOLDER_MOTOR": {
+      "body": "Hay una obstrucción en el cajón de muestras. Elimine la obstrucción y pulse <strong>Reinicializar motor de tubos</strong> para solucionar este error.<shortlinebreak/>Este procedimiento durará menos de 1 minuto.",
+      "title": "Error en el Motor de Soporte de los tubos"
+    },
+    "TURN_ON_MAIN_UNIT": {
+      "body": "Utilice el interruptor del ProCyte Dx para encender el analizador.",
+      "title": "No se ha detectado el analizador ProCyte Dx."
+    },
+    "UNINTENTIONAL_OFFLINE_TIMEOUT": {
+      "body": "Pulse el botón <strong>Encender ProCyte Dx</strong> para encender la IPU. Este procedimiento durará aproximadamente 1 minuto.<shortlinebreak/><strong>Nota:</strong> No pulse el botón de alimentación de la IPU después de usar el botón Encender ProCyte Dx. Encienda el analizador usando el interruptor situado en el lado derecho.",
+      "title": "No se ha detectado el ProCyte Dx"
+    },
+    "WAKE_ON_LAN_FAILURE_TIMEOUT": {
+      "body": "Apague la IPU si está encendida y asegúrese de que está conectada al router VetLab mediante un cable de red.<shortlinebreak/>A continuación, <strong>pulse el botón de alimentación</strong> de la IPU para encenderla.",
+      "title": "No se ha detectado el ProCyte Dx"
+    },
+    "WASTE_CHAMBER_1": {
+      "body": "Pulse <strong>Vaciar cámara de desechos</strong> para resolver este error.<shortlinebreak/>Este procedimiento dura menos de 1 minuto.",
+      "title": "Error en la cámara 1 de desechos"
+    },
+    "WASTE_CHAMBER_1_PINCH_VALVE": {
+      "body": "Pulse <strong>Liberar válvula de pinzado</strong> para solucionar este error.<shortlinebreak/>Este procedimiento durará menos de 1 minuto.",
+      "title": "Error en la válvula de pinzado de la cámara 1 de desechos"
+    },
+    "WASTE_CHAMBER_2": {
+      "body": "Pulse <strong>Vaciar cámara de desechos</strong> para resolver este error.<shortlinebreak/>Este procedimiento dura menos de 1 minuto.",
+      "title": "Error en la cámara 2 de desechos"
+    },
+    "WASTE_CHAMBER_2_PINCH_VALVE": {
+      "body": "Pulse <strong>Liberar válvula de pinzado</strong> para solucionar este error.<shortlinebreak/>Este procedimiento durará menos de 1 minuto.",
+      "title": "Error en la válvula de pinzado de la cámara 2 de desechos"
+    },
+    "WB_ASP_MOTOR": {
+      "body": "Pulse <strong>Reinicializar motor de WB</strong> para solucionar este error.<shortlinebreak/>Este procedimiento durará menos de 1 minuto.",
+      "title": "Error en el Motor de Aspirado WB"
+    },
+    "WBC_CH": {
+      "body": "Se ha detectado una incidencia con el flujo de las células. Pulse <strong>Enjuagar flujo de células</strong> para continuar.<shortlinebreak/>Este procedimiento tarda aproximadamente 6 minutos.",
+      "title": "Error en el canal de leucocitos"
+    },
+    "WBC_CHAMBER": {
+      "body": "Pulse <strong>Vaciar cámara de reacción</strong> para resolver este error.<shortlinebreak/>Este procedimiento dura menos de 1 minuto.",
+      "title": "Error en la cámara de leucocitos"
+    },
+    "WBC_SAMPLING": {
+      "body": "Se ha detectado una incidencia con el flujo de las células. Pulse <strong>Enjuagar flujo de células</strong> para continuar.<linebreak/>Este procedimiento tarda aproximadamente 6 minutos.",
+      "title": "Error en el procesamiento de la muestra en los leucocitos"
+    },
+    "unmapped": {
+      "body": "<strong>Póngase en contacto con el servicio técnico de IDEXX y proporcione la siguiente información:</strong> <shortlinebreak/>Error: {{ error }} <shortlinebreak/>Acción recomendada: {{ action }} <shortlinebreak/>Orden: {{ command }}",
+      "title": "Ha ocurrido un error inesperado."
+    }
+  },
+  "Crimson": {
+    "PressStartButton": {
+      "QC": {
+        "Line3": {
+          "EN": "<ol><li>Caliente los fluidos de control a temperatura ambiente (18 °C-25 °C) durante al menos 15 minutos.</li><li>Invierta con cuidado el vial de CC hasta que las células del fondo del vial estén completamente en suspensión.<shortlinebreak/><strong>Nota:</strong> No coloque los fluidos de control en una mezcladora mecánica o en un agitador.</li><li>Introduzca el tubo en el adaptador para tubos de control de calidad del cajón de muestras.</li><li>Pulse el botón <strong>Inicio</strong> en el analizador.</li></ol>",
+          "SI": "1. Caliente los fluidos de control a temperatura ambiente (18 °C-25 °C) durante al menos 15 minutos.<br /><br />2. Invierta con cuidado el vial de CC hasta que las células del fondo del vial estén completamente en suspensión.<br /><br />Nota: No coloque los fluidos de control en una mezcladora mecánica o en un agitador.<br /><br />3. Introduzca el tubo en el adaptador para tubos de control de calidad del cajón de muestras.<br /><br />4. Pulse el botón <b>Inicio</b> del analizador."
+        }
+      }
+    }
+  },
+  "URISED": {
+    "ARM_MOVEMENT": {
+      "body": "Se ha detectado un error en el brazo de movimiento de los cartuchos.<linebreak/>Este error se debería resolver al inicializar y limpiar el analizador. Pulse el botón <strong>Iniciar</strong> para empezar.<linebreak/>Si el error persiste, póngase en contacto con el servicio técnico de IDEXX.",
+      "title": "Error en el brazo de movimiento de los cartuchos"
+    },
+    "CAMERA_ERROR": {
+      "body": "Error de cámara. Llame al servicio técnico de IDEXX.",
+      "title": "Error de cámara"
+    },
+    "CENTRIFUGE_ARM_MISSING": {
+      "body": "Brazo de centrífuga no detectado. Llame al servicio técnico de IDEXX.",
+      "title": "Error de la centrífuga"
+    },
+    "CENTRIFUGE_ROTATION_ERROR": {
+      "body": "Error de rotación de la centrífuga. Llame al servicio técnico de IDEXX.",
+      "title": "Error de la centrífuga"
+    },
+    "CLEANING_RECOMMENDED": {
+      "body": "Recomendamos limpiar el analizador de sedimentos urinarios SediVue Dx una vez por mes.<linebreak/>Para limpiar el analizador ahora, pulse <strong>Limpiar</strong>.<linebreak/>Para recibir un recordatorio en 24 horas, pulse <strong>Recordarme luego</strong>.<linebreak/>Si su analizador ya está limpio, pulse <strong>Descartar</strong>.",
+      "title": "Limpieza recomendada"
+    },
+    "CUVETTE_COUNT_LOW": {
+      "body": "Cartuchos restantes: {{ 0 }}<linebreak/>Podrá continuar utilizando el analizador hasta que la funda esté vacía.<linebreak/>Para garantizar el uso ininterrumpido del analizador, asegúrese de contar con más cartuchos en existencias.",
+      "title": "La funda de cartuchos SediVue está casi vacía"
+    },
+    "CUVETTE_COUNT_ZERO": {
+      "body": "La funda de cartuchos SediVue está vacía.<linebreak/>Para poder utilizar el analizador, debe cargar una nueva funda de cartuchos.",
+      "title": "Reemplace la funda de cartuchos SediVue DX"
+    },
+    "CUVETTE_SENSOR_EMPTY": {
+      "body": "La funda de cartuchos SediVue está vacía o el cartucho no se cargó correctamente.<linebreak/>Abra la puerta de SediVue Dx para ver si hay cartuchos en la funda. Si hay cartuchos, dé un golpecito suave en la funda y vuelva a realizar el análisis. Si no hay cartuchos, debe cargar una nueva funda de cartuchos en el analizador.",
+      "title": "No se detectó un cartucho SediVue"
+    },
+    "DOOR_OPEN": {
+      "body": "La puerta debe estar cerrada antes de utilizar SediVue Dx.",
+      "title": "Puerta abierta"
+    },
+    "FEEDER_MOVEMENT": {
+      "body": "Se ha detectado un error en el brazo de movimiento de los cartuchos.<linebreak/>Este error se debería resolver al inicializar y limpiar el analizador. Pulse el botón <strong>Iniciar</strong> para empezar.<linebreak/>Si el error persiste, póngase en contacto con el servicio técnico de IDEXX.",
+      "title": "Error en el brazo de movimiento de los cartuchos"
+    },
+    "FOCUS_DLL_NOT_FOUND": {
+      "body": "Enfoque dll no encontrado. Póngase en contacto con el servicio técnico.",
+      "title": "Error de enfoque"
+    },
+    "FOCUS_FUNCTION_MISSING": {
+      "body": "Falta una de las funciones de enfoque. Llame al servicio técnico de IDEXX.",
+      "title": "Error de enfoque"
+    },
+    "FOCUS_HOME_POSITION_ERROR": {
+      "body": "Error de posición de inicio de enfoque. Llame al servicio técnico de IDEXX.",
+      "title": "Error de enfoque"
+    },
+    "GENERAL_COMMUNICATION_ERROR": {
+      "body": "Error de comunicación general. Póngase en contacto con el servicio técnico.",
+      "title": "Error de comunicación"
+    },
+    "HOUSE_OPEN": {
+      "body": "Se debe colocar de nuevo la cubierta de la centrífuga antes de utilizar el SediVue Dx.",
+      "title": "Cubierta de la centrífuga extraída"
+    },
+    "INSTRUMENT_PORT_OPEN_ERROR": {
+      "body": "Error de apertura de puerto de instrumento. Póngase en contacto con el servicio técnico.",
+      "title": "Error de puerto de instrumento"
+    },
+    "MEMORY_ALLOCATION_ERROR": {
+      "body": "Error de asignación de memoria en el módulo de mensajes. Póngase en contacto con el servicio técnico.",
+      "title": "Error de memoria"
+    },
+    "MICROSCOPE_CTS_TIMEOUT": {
+      "body": "Tiempo de espera de CTS de microscopio agotado. Póngase en contacto con el servicio técnico.",
+      "title": "Error de microscopio"
+    },
+    "MICROSCOPE_THREAD_CREATION_ERROR": {
+      "body": "Error de creación del subproceso del microscopio. Llame al servicio técnico de IDEXX.",
+      "title": "Error de creación del subproceso"
+    },
+    "MOTY_MOVEMENT": {
+      "body": "Se ha detectado un error en el brazo de movimiento de los cartuchos.<linebreak/>Este error se debería resolver al inicializar y limpiar el analizador. Pulse el botón <strong>Iniciar</strong> para empezar.<linebreak/>Si el error persiste, póngase en contacto con el servicio técnico de IDEXX.",
+      "title": "Error en el brazo de movimiento de los cartuchos"
+    },
+    "PLATE_MISSING": {
+      "body": "Se debe volver a colocar la bandeja de goteo antes de utilizar SediVue Dx.",
+      "title": "Bandeja de goteo extraída"
+    },
+    "PORT_THREAD_NOT_STARTED": {
+      "body": "El subproceso de puerto no puede empezar.",
+      "title": "Error de subproceso de puerto"
+    },
+    "PROTOCOL_CLASS_CREATION_ERROR": {
+      "body": "Error de creación de clase de protocolo. Póngase en contacto con el servicio técnico.",
+      "title": "Error de protocolo"
+    },
+    "PROTOCOL_USAGE_UNDEFINED": {
+      "body": "No se ha definido el uso del protocolo. Póngase en contacto con el servicio técnico.",
+      "title": "Error de protocolo"
+    },
+    "SERIAL_PORT_NOT_FOUND": {
+      "body": "No se ha encontrado el puerto serial. Póngase en contacto con el servicio técnico.",
+      "title": "Error de puerto serial"
+    },
+    "SERIAL_PORT_UNAVAILABLE": {
+      "body": "No hay puerto serial en el PC. Póngase en contacto con el servicio técnico.",
+      "title": "Error de puerto serial"
+    },
+    "SMART_SERVICE_DISCONNECTED": {
+      "body": "SmartService ha estado desconectado desde hace más de 5 días. Para garantizar una experiencia óptima con su SediVue Dx, vuelva a conectarse.",
+      "title": "SmartService desconectado"
+    },
+    "SYSTEM_REBOOT_RECOMMENDED": {
+      "body": "IDEXX recomienda reiniciar el analizador SediVue Dx una vez al mes para garantizar un funcionamiento óptimo.<linebreak/>¿Desea reiniciar el analizador ahora?\n",
+      "title": "Se recomienda reiniciar el equipo"
+    },
+    "TOO_MANY_SERIAL_PORTS_DEFINED": {
+      "body": "Demasiados puertos seriales definidos en ini. Póngase en contacto con el servicio técnico.",
+      "title": "Error de puerto serial"
+    },
+    "UPDATE_AVAILABLE": {
+      "body": "Puede actualizar el analizador en cualquier momento con la opción Actualizar software de la pantalla Equipos de Catalyst One.",
+      "noUpgradeWarning": "Si no actualiza el analizador antes del {{ dateFormat }}, la actualización se instalará automáticamente.",
+      "title": "La versión de actualización de software {{ version }} está lista para ser instalada."
+    },
+    "UPDATE_FAILED": {
+      "body": "El analizador SediVue Dx no se actualizó con éxito. Para solucionarlo, repita el procedimiento de actualización o utilice la opción Actualizar software en la pantalla Equipos de SediVue Dx.<linebreak/>Si el problema persiste, póngase en contacto con el servicio técnico de IDEXX.",
+      "title": "La actualización de software no se completó con éxito."
+    },
+    "UPDATE_FAILED_CATASTROPHIC": {
+      "body": "Si necesita asistencia, llame al servicio de ayuda de IDEXX.",
+      "title": "La actualización de software no se completó con éxito."
+    },
+    "WAKE_ON_LAN_FAILURE_TIMEOUT": {
+      "body": "Apague el analizador si ya está encendido. Asegúrese de que está conectado al router IDEXX VetLab.<linebreak/>A continuación, <strong>pulse el botón de alimentación</strong> del analizador para encenderlo.<linebreak/>Si el problema persiste, póngase en contacto con el servicio técnico de IDEXX.",
+      "title": "No se ha detectado el SediVue Dx"
+    }
+  },
+  "URISYS_DX": {
+    "E1_REFERENCE_PAD_ERROR_MIDDLE_ERROR": {
+      "body": "La bandeja de tiras está sucia o dañada.<shortlinebreak /><ol><li>Extraiga la bandeja de tiras del analizador.</li><li>Limpie la almohadilla blanca de referencia con alcohol y una toallita sin pelusa.</li><li>Vuelva a colocar la bandeja de tiras en el analizador y repita el análisis.</li></ol>Si el problema persiste, sustituya la bandeja de tiras o llame al servicio técnico de IDEXX.",
+      "title": "Error de almohadilla de referencia"
+    },
+    "E2_WRONG_STRIP_ERROR": {
+      "body": "En caso de calibración:<shortlinebreak /><ol><li>vuelva a realizar el análisis usando una tira de calibración IDEXX.</li><li>Asegúrese de que la tira está colocada correctamente en la bandeja de tiras.</li></ol>En caso de análisis de muestra:<shortlinebreak /><ol><li>vuelva a realizar el análisis usando una tira de prueba IDEXX.</li><li>Asegúrese de que se ha colocado una cantidad suficiente de muestra en la tira.</li><li>Asegúrese de que la tira está colocada correctamente en la bandeja de tiras.</li></ol>Si el problema persiste, póngase en contacto con el servicio técnico de IDEXX.",
+      "title": "Error de tira"
+    },
+    "E3_STRIP_MEASUREMENT_ERROR": {
+      "body": "<ol><li>vuelva a realizar el análisis usando una tira de prueba IDEXX.</li><li>Asegúrese de que se aplica una cantidad suficiente de muestra a la tira.</li><li>Asegúrese de que la tira está colocada correctamente en la bandeja.</li></ol><strong>Si la muestra es oscura:</strong><shortlinebreak />centrifugue la muestra y vuelva a realizar el análisis usando el sobrenadante y una nueva tira de análisis.<linebreak />Si el error persiste, póngase en contacto con el servicio técnico de IDEXX.",
+      "title": "Error de medición"
+    },
+    "E4_CALIBRATION_ERROR": {
+      "body": "El analizador no se calibró con éxito. Si necesita asistencia, llame al servicio de ayuda de IDEXX.",
+      "title": "Error de calibración"
+    },
+    "E5_CALIBRATION_INVALID_ERROR": {
+      "body": "El analizador no se calibró con éxito. Si necesita asistencia, llame al servicio de ayuda de IDEXX.",
+      "title": "Error de calibración"
+    },
+    "E7_MISSING_TRAY_ERROR": {
+      "body": "Falta la bandeja de tiras o no está bien colocada.<shortlinebreak /><ol><li>Recoloque la bandeja de tiras.</li><li>Pulse <strong>Iniciar</strong>.</li><li>Si el problema persiste, sustituya la bandeja de tiras por una nueva.</li></ol>Si el problema persiste, póngase en contacto con el servicio técnico de IDEXX.",
+      "title": "Bandeja de tiras no encontrada"
+    },
+    "E8_TRAY_POSITION_ERROR": {
+      "body": "La bandeja de tiras está dañada, sucia o no está bien colocada.<shortlinebreak /><ol><li>Extraiga la bandeja de tiras del analizador.</li><li>Limpie la bandeja con alcohol y una toallita sin pelusa.</li><li>Vuelva a colocar la bandeja de tiras en el analizador y luego pulse <strong>Iniciar</strong>.</li><li>Pulse el icono del paciente para repetir el análisis.</li></ol>Si el problema persiste, sustituya la bandeja de tiras por una nueva o póngase en contacto con el servicio técnico de IDEXX.",
+      "title": "Error en bandeja de tiras"
+    },
+    "E9_WRONG_TRAY_ERROR": {
+      "body": "<ol><li>Sustituya la bandeja de tiras por una nueva.</li><li>Pulse <strong>Iniciar</strong>.</li></ol>Si el problema persiste, póngase en contacto con el servicio técnico de IDEXX.",
+      "title": "Bandeja de tiras incorrecta"
+    },
+    "E10_LIGHT_BARRIER_ERROR": {
+      "body": "<ol><li>Extraiga la bandeja de tiras del analizador.</li><li>Limpie la bandeja con alcohol y una toallita sin pelusa.</li><li>Vuelva a colocar la bandeja de tiras en el analizador y luego pulse <strong>Iniciar</strong>.</li></ol>Si el problema persiste, sustituya la bandeja de tiras por una nueva o póngase en contacto con el servicio técnico de IDEXX.",
+      "title": "Error de barrera de luz"
+    },
+    "E11_MOTOR_STEP_ERROR": {
+      "body": "La bandeja de tiras no se mueve correctamente.<shortlinebreak /><ol><li>Extraiga la bandeja de tiras del analizador.</li><li>Limpie la bandeja con alcohol y una toallita sin pelusa.</li><li>Vuelva a colocar la bandeja de tiras en el analizador y luego pulse <strong>Iniciar</strong>.</li></ol>Si el problema persiste, sustituya la bandeja de tiras por una nueva o póngase en contacto con el servicio técnico de IDEXX.",
+      "title": "Error de paso de motor"
+    },
+    "E12_OPTICS_ERROR": {
+      "body": "<ol><li>Extraiga la bandeja de tiras del analizador e inserte una bandeja de tiras nueva.</li><li>Pulse <strong>Iniciar</strong>.</li></ol>Si el error persiste, póngase en contacto con el servicio técnico de IDEXX.",
+      "title": "Error de elementos ópticos"
+    },
+    "E15_REFERENCE_PAD_BOTTOM_ERROR": {
+      "body": "La bandeja de tiras está sucia o dañada.<shortlinebreak /><ol><li>Extraiga la bandeja de tiras del analizador.</li><li>Limpie la almohadilla blanca de referencia con alcohol y una toallita sin pelusa.</li><li>Vuelva a colocar la bandeja de tiras en el analizador y repita el análisis.</li></ol>Si el problema persiste, sustituya la bandeja de tiras o llame al servicio técnico de IDEXX.",
+      "title": "Error de almohadilla de referencia"
+    },
+    "E16_REFERENCE_PAD_TOP_ERROR": {
+      "body": "La bandeja de tiras está sucia o dañada.<shortlinebreak /><ol><li>Extraiga la bandeja de tiras del analizador.</li><li>Limpie la almohadilla blanca de referencia con alcohol y una toallita sin pelusa.</li><li>Vuelva a colocar la bandeja de tiras en el analizador y repita el análisis.</li></ol>Si el problema persiste, sustituya la bandeja de tiras o llame al servicio técnico de IDEXX.",
+      "title": "Error de almohadilla de referencia"
+    },
+    "E24_COMP_PAD_REMISSIONS_OUT_OF_RANGE_ERROR": {
+      "body": "Vuelva a realizar el análisis usando una tira de análisis nueva. Asegúrese de que la tira tenga suficiente muestra y esté colocada correctamente en la bandeja de tiras.<linebreak /><strong>Si la muestra es oscura</strong>:<shortlinebreak />centrifugue la muestra y vuelva a realizar el análisis usando el sobrenadante y una nueva tira de análisis.<linebreak />Si el error persiste, póngase en contacto con el servicio técnico de IDEXX.",
+      "title": "Resultado fuera de intervalo"
+    },
+    "E25_SYSTEM_EPROM_ERROR": {
+      "body": "Reinicie el analizador UA:<shortlinebreak /><ol><li>pulse <strong>Desconectar</strong> para apagar el analizador UA.</li><li>Espere 60 segundos y encienda el analizador UA pulsando el botón de encendido situado en la parte derecha del analizador.</li></ol>Si el problema persiste, póngase en contacto con el servicio técnico de IDEXX.",
+      "title": "Reinicio requerido"
+    },
+    "E27_USER_CALIBRATION_IS_REQUIRED_ERROR": {
+      "body": "El analizador UA debe calibrarse cada 7 días para mantener la exactitud de los resultados.<shortlinebreak />Pulse <strong>Calibrar</strong> para iniciar la calibración semanal.",
+      "title": "Calibración necesaria"
+    },
+    "E29_DATABASE_ERROR": {
+      "body": "Reinicie el UA Analyzer.<shortlinebreak /><ol><li> pulse <strong>Desconectar</strong> para apagar el analizador UA.</li><li>Espere 60 segundos y encienda el analizador UA pulsando el botón de encendido situado en la parte derecha del analizador.</li></ol>Si el problema persiste, póngase en contacto con el servicio técnico de IDEXX.",
+      "title": "Reinicio requerido"
+    },
+    "E30_SYSTEM_INITIALIZATION_ERROR": {
+      "body": "Reinicie el analizador UA:<shortlinebreak /><ol><li>pulse <strong>Desconectar</strong> para apagar el analizador UA.</li><li>Espere 60 segundos y encienda el analizador UA pulsando el botón de encendido situado en la parte derecha del analizador.</li></ol>Si el problema persiste, póngase en contacto con el servicio técnico de IDEXX.",
+      "title": "Reinicio requerido"
+    },
+    "E33_SYSTEM_ERROR": {
+      "body": "Reinicie el analizador UA:<shortlinebreak /><ol><li>pulse <strong>Desconectar</strong> para apagar el analizador UA.</li><li>Espere 60 segundos y encienda el analizador UA pulsando el botón de encendido situado en la parte derecha del analizador.</li></ol>Si el problema persiste, póngase en contacto con el servicio técnico de IDEXX.",
+      "title": "Reinicio requerido"
+    },
+    "E100_POWERSUPPLY_ERROR": {
+      "body": "<strong>Desconecte</strong> el analizador UA:<ol><li>pulse <strong>Desconectar</strong> para apagar el analizador UA.</li><li>Confirme la alimentación correcta en el puerto de alimentación de la parte trasera del analizador y en una toma de corriente.</li><li>Espere 60 segundos y encienda el analizador pulsando el botón de encendido situado en la parte derecha del analizador.</li></ol>Si el problema persiste, póngase en contacto con el servicio técnico de IDEXX.",
+      "title": "Reinicio e inspección de cable requeridos"
+    },
+    "UPDATE_AVAILABLE": {
+      "body": "Si decide aplazar la instalación, puede actualizar el analizador en cualquier momento desde la pantalla Equipo del UA Analyzer.",
+      "title": "La versión de actualización de software {{ version }} está lista para ser instalada."
+    },
+    "UPDATE_FAILED": {
+      "body": "El UA Analyzer no se actualizó con éxito. Para solucionarlo, repita el procedimiento de actualización ahora o actualícelo más tarde accediendo a la pantalla Equipo del analizador UA.<linebreak/>Si el problema persiste, póngase en contacto con el servicio técnico de IDEXX.",
+      "title": "La actualización de software no se completó con éxito."
+    },
+    "UPDATE_FAILED_CATASTROPHIC": {
+      "body": "Llame al servicio técnico de IDEXX para obtener asistencia.",
+      "title": "La actualización de software no se completó con éxito."
+    }
+  },
+  "THEIA": {
+    "INST_TEMP_LOW": {
+      "body": "La temperatura de operación del analizador es demasiado baja para iniciar un análisis de muestra. Espere que el analizador se caliente o compruebe la temperatura ambiente.<linebreak/>Si el problema persiste, póngase en contacto con el servicio técnico de IDEXX."
+    },
+    "INST_TEMP_HIGH": {
+      "body": "La temperatura de operación del analizador es demasiado alta para iniciar un análisis de muestra. Compruebe que haya un flujo de aire adecuado alrededor del analizador.<linebreak/>Si el problema persiste, póngase en contacto con el servicio técnico de IDEXX."
+    },
+    "INVALID_CONSUMABLES": {
+      "body": "Esto no parece ser un cartucho IDEXX inVue Dx. Vuelva a analizar la muestra con un cartucho IDEXX."
+    },
+    "EXPIRED_CONSUMABLES": {
+      "body": "El cartucho ha caducado. Vuelva a realizar el análisis de la muestra con un cartucho nuevo y que no esté caducado."
+    },
+    "BARCODE_READ_FAILURE": {
+      "body": "No se puede leer el código de barras. Revise el código de barras para detectar daños u obstrucciones, limpie el código de barras o introdúzcalo manualmente."
+    },
+    "INCORRECT_TEST_TYPE_MANUAL": {
+      "body": "El código de barras no coincide con el tipo de prueba seleccionado. Introduzca el código de barras correcto."
+    },
+    "INCORRECT_TEST_TYPE": {
+      "body": "Este cartucho no es correcto para el tipo de prueba seleccionado. Vuelva a analizar la muestra con el cartucho correcto."
+    },
+    "SAMPLE_OVER_TEMP": {
+      "body": "La temperatura del sistema es demasiado elevada durante el análisis de muestra. Compruebe la guía del usuario para establecer una temperatura en su entorno que permita realizar el análisis de la muestra con inVue."
+    },
+    "SAMPLE_UNDER_TEMP": {
+      "body": "La temperatura del sistema es demasiado baja durante el análisis de muestra. Compruebe la guía del usuario para establecer una temperatura en su entorno que permita realizar el análisis de la muestra con inVue."
+    },
+    "IMPROPER_SAMPLE_PREPARATION": {
+      "body": "Es posible que falte el reactivo en la muestra. Prepare una nueva muestra y vuelva a analizarla.<linebreak/>Si el problema persiste, póngase en contacto con el servicio técnico de IDEXX."
+    },
+    "SAMPLE_CELLULARITY_HIGH": {
+      "body": "La muestra no se puede analizar. Prepare una nueva muestra y vuelva a analizarla."
+    },
+    "MOTION_ERROR_CARTRIDGE": {
+      "body": "El cartucho no está bien colocado. Intente introducir el cartucho de nuevo.<linebreak/>Si el problema persiste, póngase en contacto con el servicio técnico de IDEXX."
+    },
+    "MOTION_ERROR_MICROSCOPE": {
+      "body": "El microscopio no está bien colocado. Intente introducir el cartucho de nuevo.<linebreak/>Si el problema persiste, póngase en contacto con el servicio técnico de IDEXX."
+    },
+    "UNKNOWN_ERROR": {
+      "body": "El análisis se canceló.<linebreak/>Si el problema persiste, póngase en contacto con el servicio técnico de IDEXX."
+    }
+  },
+  "default": {
+    "message": "El equipo ha notificado una alerta. Consulte el estado del equipo en cuestión para obtener más información."
+  },
+  "buttons": {
+    "start": "Inicio",
+    "powerOnProCyteDx": "Encender ProCyte Dx",
+    "performClean": "Realizar limpieza"
+  },
+  "defaultActionButtons": {
+    "ASPIRATION_UNIT_MOTOR": "Reinicializar motor de aspirado",
+    "CALIBRATE": "Calibrar",
+    "CANCEL": "Cancelar",
+    "CANCEL_RUN": "Cancelar análisis",
+    "CHANGE_REAGENT": "Cambie el reactivo",
+    "CHANGE_STAIN": "Cambiar envase de colorantes",
+    "CLEAN": "Limpiar",
+    "CLEAR_PINCH_VALUE": "Liberar válvula de pinzado",
+    "CLOSE": "Cerrar",
+    "CONFIGURE": "Configurar",
+    "CONNECT": "Conexión",
+    "CONTINUE": "Continuar",
+    "DISMISS": "Descartar",
+    "DRAIN_REACTION_CHAMBER": "Vaciar cámara de reacción",
+    "DRAIN_WASTE_CHAMBER": "Vaciar cámara de desechos",
+    "ENTER_REAGENT_BARCODE": "Introducir manualmente",
+    "ENTER_SHEATH_BARCODE": "Introducir manualmente",
+    "FILTER_INSTRUCTIONS": "Instrucciones del filtro",
+    "FINISH": "Finalizar",
+    "INITIALIZE": "Inicializar",
+    "OK": "OK",
+    "OK_REMOVE": "OK",
+    "OPTIMIZE_LATER": "Optimizar más tarde",
+    "OPTIMIZE_NOW": "Optimizar ahora",
+    "PINCH_VALVE": "Liberar válvula de pinzado",
+    "POWER_DOWN": "Desconectar",
+    "REBOOT_INSTRUMENT": "Reiniciar",
+    "REMIND_ME_LATER": "Recordarme luego",
+    "REMIND_ME_NEXT_RUN": "Recordarme esto en el próximo análisis",
+    "REMIND_ME_WHEN_EMPTY": "Recordarme cuando esté vacío",
+    "REMOVE_CLOGS": "Remover coágulo",
+    "REPLACE_CUVETTES": "Reemplace cartuchos",
+    "REPLACE_FILTER": "Sustituir filtro",
+    "REPLACE_REAGENT": "Sustituir reactivo",
+    "REPLACE_SHEATH": "Sustituir kit de diluyente",
+    "REPLACE_SMART_QC": "Sustituir SmartQC",
+    "RESET_AIR_PUMP": "Reinicializar bomba de aire",
+    "RESET_SHEATH_MOTOR": "Reinicializar motor de diluyente",
+    "RESET_WB_MOTOR": "Reinicializar motor WB",
+    "RINSE_FLOW_CELL": "Enjuagar Flujo de Células",
+    "AUTO_RINSE": "Iniciar enjuagado automático",
+    "RUN_BLEACH_CLEAN": "Limpiar con lejía",
+    "MONTHLY_RINSE": "Iniciar Enjuagado Mensual",
+    "START_PRIME": "Iniciar Cebado",
+    "TUBE_HOLDER_MOTOR": "Reinicializar motor de tubos",
+    "UPGRADE": "Actualizar",
+    "UPGRADE_LATER": "Actualizar después",
+    "UPGRADE_SOFTWARE": "Actualizar ahora",
+    "PRINT": "Imprimir",
+    "FORCE_RUN": "Ignorar",
+    "ENTER_THEIA_BARCODE": "Introducir el código de barras"
+  },
+  "QualityControl": {
+    "PatientName": {
+      "Level1": "Nivel 1 de control de calidad para ProCyte Dx",
+      "Level2": "Nivel 2 de control de calidad para ProCyte Dx"
+    }
+  }
+}

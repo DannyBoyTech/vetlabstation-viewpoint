@@ -1,0 +1,3573 @@
+{
+  "DeviceType": {
+    "Chemistry": "血液化学検査",
+    "Coagulation": "凝固",
+    "Hematology": "血液学",
+    "Immunoassay": "スナップ",
+    "Unknown": "不明",
+    "Urinalysis": "尿検査",
+    "Cytology": "細胞診",
+    "Pathology": "病理学検査"
+  },
+  "Species": {
+    "Alpaca": "アルパカ",
+    "Avian": "鳥",
+    "Bovine": "牛",
+    "Camel": "らくだ",
+    "Canine": "犬",
+    "Control": "コントロール",
+    "Dolphin": "イルカ",
+    "Equine": "馬",
+    "Feline": "猫",
+    "Ferret": "フェレット",
+    "Gerbil": "スナネズミ",
+    "Goat": "ヤギ",
+    "Guinea pig": "モルモット",
+    "Hamster": "ハムスター",
+    "LaserCyteControl": "LaserCyteコントロール",
+    "Lizard": "トカゲ",
+    "Llama": "ラマ",
+    "Mini Pig": "ミニブタ",
+    "Monkey": "猿",
+    "Mouse": "マウス",
+    "Other": "その他",
+    "Pig": "豚",
+    "Rabbit": "ウサギ",
+    "Rat": "ネズミ",
+    "Sea Turtle": "ウミガメ（研究用）",
+    "Sheep": "羊",
+    "Snake": "蛇",
+    "Tortoise": "カメ",
+    "Unknown": "不明"
+  },
+  "messagesScreen": {
+    "header": "メッセージセンター",
+    "title": "メッセージ",
+    "category": "カテゴリ",
+    "subject": "件名",
+    "received": "受信日時",
+    "markAsUnread": "未読にする",
+    "confirmDeleteMessage": {
+      "title": "メッセージの削除",
+      "areYouSure": "このメッセージを削除しますか。"
+    }
+  },
+  "searchPatient": {
+    "addNew": "新規追加",
+    "addNewClient": "患者登録",
+    "addPatient": "患者登録",
+    "back": "戻る",
+    "clientId": "オーナーID",
+    "edit": "編集",
+    "existingClients": "登録済み情報",
+    "header": "患者情報の検索",
+    "instructionsAddPatient": "既存患者を検索または新規患者を追加",
+    "lastName": "名字",
+    "lastSevenDays": "7日前まで",
+    "lastThirtyDays": "過去30日間",
+    "mostRecentResults": "最新の検査結果",
+    "next": "次へ",
+    "noResults": "検索した患者が見つかりません",
+    "patientName": "患者名",
+    "recordsSearch": "結果の検索",
+    "stat": "簡易入力",
+    "view": "表示"
+  },
+  "home": {
+    "labels": {
+      "pending": "検査待ち（{{ count }}）",
+      "census": "受付済みの患者（{{ count }}）",
+      "inProcess": "検査中（{{ count }}）",
+      "results": "結果（{{ count }}）"
+    },
+    "buttons": {
+      "analyzeSample": "検査",
+      "recordsSearch": "結果の検索"
+    },
+    "pendingList": {
+      "viewPending": "検査待ちを表示（{{ count }}）",
+      "viewCensus": "受付済みの患者を表示（{{ count }}）",
+      "delete": "削除",
+      "searchPlaceholder": "名前で検索"
+    },
+    "patientMatch": {
+      "title": "推奨される一致が見つかりました",
+      "instructions": "<strong>これらの記録が一致していることを確認するのに役立ちます。</strong><linebreak/>推奨される一致候補から選択するか、新規に記録を作成してください。",
+      "currentRecord": "現在の記録",
+      "suggestedMatch": "推奨される一致候補{{ matchNumber }}/{{ totalMatches }}",
+      "confirmation": {
+        "title": "記録の照合",
+        "body": "これらの記録を照合して、顧客情報管理ソフトウェアから得た情報と併せて、IDEXX ベットラボ ステーションの患者の詳細を上書きします。<linebreak/><strong>このアクションは簡単に元に戻すことはできません。</strong><linebreak/>同一患者の結果で間違いありませんか？"
+      },
+      "table": {
+        "patient": "患者",
+        "species": "動物種",
+        "breed": "品種",
+        "sex": "性別",
+        "age": "年齢",
+        "clientFirst": "オーナー名",
+        "clientLast": "オーナー姓"
+      },
+      "buttons": {
+        "createNew": "新規作成",
+        "match": "一致する"
+      }
+    }
+  },
+  "instrumentScreens": {
+    "general": {
+      "qcLots": "品質管理（QC）ロット",
+      "buttons": {
+        "addQCLot": "QCロット追加",
+        "maintenance": "メンテナンス",
+        "diagnostics": "機能チェック",
+        "eventLog": "イベントログ",
+        "idexxUseOnly": "アイデックス専用",
+        "removeInstrument": "アイコンの削除",
+        "settings": "設定",
+        "shutDown": "シャットダウン",
+        "runQC": "QC測定",
+        "changeQC": "QCの交換",
+        "viewLotResults": "ロットの結果を表示",
+        "viewAllQCResults": "すべてのQC結果表示",
+        "viewQCResults": "QC結果表示",
+        "viewQCLotInfo": "QCロット情報",
+        "viewResults": "結果を表示",
+        "qualityControl": "品質管理（QC）",
+        "clean": "クリーニング",
+        "calibrate": "較正",
+        "print": "印刷",
+        "printAll": "すべてを印刷",
+        "powerDown": "電源を切る",
+        "powerOn": "電源オン",
+        "restart": "再起動",
+        "smartQC": "SmartQC"
+      },
+      "labels": {
+        "lastConnected": "前回の接続",
+        "settings": "設定",
+        "system": "ｼｽﾃﾑ",
+        "softwareVersion": "ソフトウェア バージョン",
+        "vpSoftwareVersion": "オーナーバージョン",
+        "serialNumber": "シリアルナンバー",
+        "ipAddress": "IP Address",
+        "qcLot": "QCロット",
+        "qcType": "QCの種類",
+        "expirationDate": "使用期限",
+        "mostRecentResults": "最新の検査結果",
+        "maintenance": "メンテナンス"
+      }
+    },
+    "smartQc": {
+      "title": "{{ instrumentName }} SmartQC",
+      "button": {
+        "runSmartQc": "SmartQCの実行"
+      },
+      "label": {
+        "smartQc": "SmartQC",
+        "analyzerSerialNumber": "検査器：{{ serialNumber }}"
+      },
+      "table": {
+        "runTime": "測定時間",
+        "result": "結果"
+      },
+      "result": {
+        "PASS": "合格",
+        "OUT_OF_RANGE": "範囲外"
+      },
+      "chemistry": {
+        "reminder": {
+          "title": "クリーニングとSmartQCのリマインダー",
+          "body": "血液化学検査器{{ analyzerName }}のクリーニングをして、SmartQCを実行してください。",
+          "sendReminder": "リマインダーの送信間隔：",
+          "weeks": "週ごとの"
+        }
+      }
+    },
+    "maintenance": {
+      "title": "{{ instrumentName }}メンテナンス"
+    },
+    "diagnostics": {
+      "title": "{{ instrumentName }}診断"
+    },
+    "lotEntry": {
+      "title": "{{ instrumentName }}ロット入力",
+      "selectType": "消耗品のタイプを選択します",
+      "enter": "ロット番号またはバーコード番号を入力します",
+      "error": "入力された番号は無効です。再度、実施してください。"
+    },
+    "system": {
+      "title": "IDEXX ベットラボ ステーション",
+      "labels": {
+        "advanced": "アドバンス",
+        "backupData": "データバックアップ",
+        "restoreData": "データ復旧",
+        "upgradeSoftware": "ソフトウェア アップグレード",
+        "systemInfo": "システム情報",
+        "hardware": "ハードウェア",
+        "data": "データ印刷",
+        "software": "ソフトウェア"
+      },
+      "advanced": {
+        "applyChanges": "変更を適用",
+        "dnsServer": "DNSサーバ",
+        "gateway": "デフォルトゲートウェイ",
+        "localIpAddress": "ローカルIPアドレス",
+        "networkAccessTest": "ネットワークアクセステスト",
+        "networkIpAddress": "ネットワークIPアドレス",
+        "routerConfiguration": "ルーター設定",
+        "subnetMask": "サブネットマスク",
+        "wanIpConfig": "WAN IP",
+        "wanIpAddress": "IP Address",
+        "ping": "Ping",
+        "applyIDEXXDefaults": "アイデックスデフォルトの適用",
+        "pingModal": {
+          "title": "ネットワークアクセステスト",
+          "resultMessage": "Ping {{ip}} ... {{result}}",
+          "success": "成功。",
+          "failure": "失敗。"
+        },
+        "configStatusModal": {
+          "title": "ルーター設定",
+          "pleaseWait": "設定が適用されるまで、しばらくお待ちください。",
+          "successMessage": "成功",
+          "failureMessage": "構成失敗"
+        },
+        "rebootConfirmModal": {
+          "title": "警告",
+          "content": "「適用」をタップすると、検査器の接続が失われ、ルーターがリセットされます。ルーターのリセットには3分程度かかります。また、IDEXX ベットラボステーションも再起動されます。"
+        },
+        "wanIpChoice": {
+          "UNKNOWN": "不明",
+          "DYNAMIC": "IPアドレスの自動取得",
+          "STATIC": "固定IPアドレス"
+        },
+        "wirelessSettings": {
+          "title": "無線設定",
+          "enableWirelessAntenna": "無線接続を有効にする",
+          "generatePassword": "パスワードを生成",
+          "wirelessConfiguration": "無線設定",
+          "wirelessPassword": "SSIDパスワード"
+        }
+      },
+      "systemInformation": {
+        "title": "システム情報",
+        "softwareLicense": "ソフトウェアライセンス",
+        "openSourceBlurb": "IDEXX VetLab Station © 2003-2024 IDEXX Laboratories, Inc.無断転載を禁ず。<br/><br/>ProCyte Dx、ProCyte One、IDEXX inVue Dx、Catalyst Dx、Catalyst One、LaserCyte、LaserCyte Dx、SNAPshot Dx、SNAP Pro、SNAP Reader、VetLyte、VetStat、VetTest、VetAutoread、Coag Dx、VetLab UA、SediVue Dx、VetLab Stationおよびアプリケーションと構成部品（「IDEXX商品」）、ならびにこれらの使用は、https://www.idexx.com/corporate/about-idexx/one-idexx-master-terms.htmlに記載のIDEXX One Masterの利用規約により規制されています。<br/><br/>オープンソースコードまたは無料のソフトウェアを含む、IDEXX商品と共に提供される、またはIDEXX商品に付属の第三者の資料およびソフトウェアは現状のままで提供されており、IDEXXの保証対象外となります。<br/><br/>IDEXXは米国およびその他の地域において、IDEXX商品と関連した商標、サービスマーク、商号、設計、ロゴ、およびその他のトレードドレスに関する権利を有します。該当のIDEXX商品を特定すること以外には、書面によるIDEXXからの許可なく、IDEXXの商標、サービスマーク、商号、設計、ロゴ、およびその他のトレードドレスの使用を禁じます。<br/><br/>本書またはIDEXX商品に記載されたその他のすべての製品、企業名、およびロゴは、各々の所有者のマークです。<br/><br/>Acrobat Reader © 2013 Adobe Systems Incorporated.無断転載を禁ず。<br/><br/>Adobe® Flash® Player.Copyright © 1996 - 2013 Adobe Systems Incorporated.無断転載を禁ず。AdobeおよびFlashは米国および／またはその他の国における商標または登録商標のいずれかです。<br/><br/>Microsoft Windows XP © 1985-2001 Microsoft Corporation.無断転載を禁ず。<br/><br/>Microsoft Windows 7 Professional © 2009 Microsoft Corporation.無断転載を禁ず。<br/><br/>Microsoft Windows 10 © 2015 Microsoft Corporation.無断転載を禁ず。<br/><br/>Paul Bunyan Server & Message Viewer © 2000 - 2001 Diamond Sierra Corp.<br/><br/>JNIWrapper, licensed from TeamDev.",
+        "list": "この製品は下記のソフトウェアが含まれています。",
+        "license": {
+          "JETTY": "Apache Jetty",
+          "FELIX": "Apache Felix",
+          "SLING": "Apache Sling",
+          "COMMONS_LOGGING": "Apache Commons Logging",
+          "COMMONS_CODEC": "Apache Commons Codec",
+          "COMMONS_LANG": "Apache Commons Lang",
+          "IMGSCALR": "Imgscalr",
+          "JCONNECT": "Sybase JConnect",
+          "COMFYJ": "ComfyJ",
+          "JNIWRAP": "JNIWrap",
+          "WINPACK": "WinPack",
+          "PDFBOX": "Apache PDFBox",
+          "MIG_LAYOUT": "MigLayout",
+          "NETTY": "Netty",
+          "LIQUIBASE": "Liquibase",
+          "SMAKEYAML": "SnakeYAML",
+          "NETGEAR_R7000": "Netgear R7000",
+          "RABBIT_MQ_SERVER": "RabbitMQ Server",
+          "ERLANG_R16B03": "Erlang R16B03",
+          "ERLANG_OTP192": "Erlang OTP 19.2",
+          "JSERIALCOMM": "jSerialComm",
+          "SLF4J": "SLF4J",
+          "SPRING": "Spring",
+          "AOP_ALLIANCE": "AOP Alliance",
+          "JACKSON": "Jackson JSON-Processor",
+          "SQL_SERVER_2008": "SQL Server Express 2008",
+          "SQL_SERVER_2016": "SQL Server Express 2016",
+          "COMMONS_IO": "Apache Commons IO",
+          "LOGBACK": "Logback",
+          "AMQP": "RabbitMQ Java Client",
+          "RABBIT_MQ": "Spring RabbitMQ",
+          "ASPECTJ": "AspectJ",
+          "HIBERNATE": "Hibernate",
+          "JSOUP": "jsoup",
+          "JAVA": "Java SE",
+          "XSTREAM": "XStream",
+          "XPP3": "XPP3",
+          "ANTLR": "ANTLR",
+          "STRING_TEMPLATE": "String Template",
+          "BOUNCY_CASTLE_MAIL": "Bouncy Castle Mail",
+          "BOUNCY_CASTLE_PROV": "Bouncy Castle Provider",
+          "BOUNCY_CASTLE_TSP": "Bouncy Castle TSP",
+          "ITEXT": "iTextButton",
+          "BEAN_UTILS": "Apache Commons BeanUtils",
+          "COMMONS_COLLECTIONS": "Apache Commons Collections",
+          "COMMONS_DBCP": "Apache Commons DBCP",
+          "COMMONS_DIGESTER": "Apache Commons Digester",
+          "COMMONS_NET": "Apache Commons Net",
+          "COMMONS_POOL": "Apache Commons Pool",
+          "DOM4J": "dom4j",
+          "JDT_CORE": "JDT Core",
+          "JFREE": "JFreeChart",
+          "GERONIMO": "Apache Geronimo STAX API",
+          "JASPER": "JasperReports",
+          "POI": "Apache POI",
+          "TOMCAT": "Apache Tomcat",
+          "XML_BEANS": "XMLBeans",
+          "CASTOR": "Castor",
+          "JAVA_ASSIST": "Javassist",
+          "JBOSS_LOGGING": "JBoss Logging",
+          "JBOSS_TRANSACTION": "JBoss Transactions API",
+          "APACHE_STAX": "Apache StAX API",
+          "JCOMMON": "JCommon",
+          "MEDIA_BURNER": "MediaBurner",
+          "OBJENESIS": "Objenesis",
+          "XML_PULL": "XML Pull"
+        }
+      },
+      "powerDownModal": {
+        "title": "電源を切る",
+        "message": "今すぐIDEXX ベットラボ ステーションを終了しますか？"
+      },
+      "restartModal": {
+        "title": "再起動",
+        "message": "IDEXX ベットラボ ステーションを再起動しますか？"
+      }
+    },
+    "proCyteDx": {
+      "buttons": {
+        "enterStandby": "スタンバイモード",
+        "exitStandby": "スタンバイモードの解除",
+        "addQCLot": "QCロット追加",
+        "viewAll": "すべて閲覧"
+      },
+      "fluid": {
+        "labels": {
+          "REAGENT": "キット",
+          "STAIN": "染色液"
+        },
+        "changeButtons": {
+          "REAGENT": "試薬キット交換",
+          "STAIN": "染色パック交換"
+        },
+        "buttons": {
+          "viewLog": "ログの閲覧"
+        },
+        "log": {
+          "title": "ProCyte Dx試薬交換履歴",
+          "headers": {
+            "reagent": "試薬",
+            "lot": "ロット番号",
+            "changedDate": "交換日",
+            "daysInUse": "使用期間（日）"
+          },
+          "reagents": {
+            "DYE": "染色液",
+            "REA": "キット"
+          }
+        },
+        "entry": {
+          "title": {
+            "REAGENT": "ProCyte Dx試薬キット交換",
+            "STAIN": "ProCyte Dx染色パック交換"
+          },
+          "inputLabel": {
+            "REAGENT": "試薬キットのバーコードを読取ります。",
+            "STAIN": "染色パックのバーコードを読取ります。"
+          },
+          "results": {
+            "REAGENT": {
+              "valid": "試薬キットを接続後、<strong>「OK」</strong>を押してください。",
+              "sufficientVolume": "試薬残量は、十分です。<linebreak/><ul><li>試薬を交換する場合、「<strong>続行</strong>」を選択してください。</li><li>現在の試薬をそのまま使用する場合、<strong>キャンセル</strong>を選択してください。</li></ul",
+              "maxReplacement": "<strong>既に使用された試薬キットです。</strong><linebreak/>試薬キットのバーコードの入力可能な回数の上限を超えています。<linebreak/><linebreak/>解決するには、他の新しい試薬キットのバーコードを読み取るか、IDEXX テクニカルサポートまでご連絡ください。",
+              "expired": "<strong>試薬の使用期限が切れています。</strong><linebreak/>ProCyte Dxは使用期限切れの試薬を使用することができません。",
+              "barcodeError": "読み取った試薬キットのバーコードは有効でありませんでした。<linebreak/>「<strong>閉じる</strong>」をタップし、適切なバーコードを読み取ってください。"
+            },
+            "STAIN": {
+              "valid": "染色パックを接続後、<strong>「OK」</strong>を押してください。",
+              "sufficientVolume": "試薬残量は、十分です。<linebreak/><ul><li>試薬を交換する場合、「<strong>続行</strong>」を選択してください。</li><li>現在の試薬をそのまま使用する場合、<strong>キャンセル</strong>を選択してください。</li></ul",
+              "maxReplacement": "<strong>既に使用された染色パックです。</strong><linebreak/>染色パックのバーコードの入力可能な回数の上限を超えています。<linebreak/><linebreak/>解決するには、他の新しい染色パックのバーコードを読み取るか、IDEXX テクニカルサポートまでご連絡ください。",
+              "expired": "<strong>試薬の使用期限が切れています。</strong><linebreak/>ProCyte Dxは使用期限切れの試薬を使用することができません。",
+              "barcodeError": "読み取った染色パックのバーコードは有効でありませんでした。<linebreak/>「<strong>閉じる</strong>」をタップし、適切なバーコードを読み取ってください。"
+            }
+          }
+        }
+      },
+      "labels": {
+        "ipuSerialNumber": "IPUシリアル番号",
+        "level": "レベル",
+        "lotNumber": "ロット番号",
+        "procedures": "手順：",
+        "upToDate": "最新"
+      },
+      "enterStandbyModal": {
+        "title": "スタンバイモード",
+        "content": "ProCyte Dxは、少なくとも一日に一度、スタンバイモードにすることをお勧めしています。<linebreak/><strong>この手順には約3分かかります。</strong>"
+      },
+      "powerDownModal": {
+        "title": "ProCyte Dx本体右側面の電源を切る",
+        "toPowerDown": "ProCyte Dx本体右側面の電源スイッチを切るには：",
+        "step1": "1.「<strong>電源を切る</strong>」をタップすると、IPUは自動的に電源が切れます。",
+        "step2": "2.ProCyte Dx 本体からピーと音が聞こえたら、ProCyte Dx 本体の右側面にある電源スイッチを切ります。",
+        "durationMessage": "この操作は、３分で完了します。"
+      },
+      "powerOnModal": {
+        "title": "ProCyte Dx 本体右側面の電源を入れる",
+        "content": "IPUの起動に約<strong>１分</strong>かかります。この手順中はIPUの電源スイッチを押さないでください。<linebreak />本体右側面の電源を入れてください。"
+      },
+      "rinseModal": {
+        "insertBleach": "2 mLのIDEXXハイドロクリーン洗浄液を、チューブ内側に何も塗布されていない13 x 75 mmチューブに入れ、チューブをサンプルトレーにセットしてください。",
+        "pressStart": "検査器の「<strong>測定開始</strong>」ボタンを押してください。",
+        "cancelRinse": "洗浄中止"
+      },
+      "startupModal": {
+        "content": "この手順は新しく機器を設置する場合、もしくはIDEXX テクニカルサポートから勧められた場合のみ行ってください。<linebreak/><strong>この手順は、45分で完了します。また、新しい試薬キットと染色パックが必要です。</strong>操作を実行しますか。"
+      },
+      "startupConfirmModal": {
+        "youMustHave": "下記の備品が必要です。",
+        "aFullReagentKit": "新品試薬キット",
+        "aFullStainPack": "新品染色パック",
+        "aQuickConnector": "クイックコネクタ（本体付属）",
+        "followTheseSteps": "下記の手順に沿って行ってください。",
+        "attachQuickConnectorTop": "1.試薬キットにクイックコネクトトップを接続してください。",
+        "attachQuickConnectorLines": "2.本体背面にクイックコネクトトップを接続してください。",
+        "installStainPack": "3.染色パックをセットしてください。",
+        "tapInitiateStartup": "4.「<strong>スタートアップ開始</strong>」をタップしてください。",
+        "initiateStartup": "スタートアップ開始"
+      },
+      "maintenance": {
+        "diagnostics": "機能チェック",
+        "rinse": "の洗浄",
+        "autoRinse": "自動洗浄",
+        "monthlyRinse": "毎月の洗浄",
+        "wasteChamberRinse": "廃液チャンバーの洗浄",
+        "flowCellRinse": "フローセル洗浄",
+        "drain": "排水",
+        "drainReactionChamber": "反応チャンバーの排水",
+        "drainRBCIsolationChamber": "赤血球分離チャンバーの排水",
+        "drainWasteChamber": "廃液チャンバーの排水",
+        "removeClear": "除去/クリア",
+        "removeClog": "詰り除去",
+        "clearPinchValve": "ピンチバルブのクリア",
+        "reset": "リセット",
+        "resetAirPump": "エアーポンプのリセット",
+        "resetAspirationMotor": "吸引モーターのリセット",
+        "resetSheathMotor": "シースモーターのリセット",
+        "resetTubeMotor": "チューブモーターのリセット",
+        "resetWBMotor": "WBモーターのリセット",
+        "replenish": "補充",
+        "replenishStain": "染色液の補充",
+        "replenishLyticReagent": "溶血剤を交換する",
+        "replenishReticulocyteDiluent": "網赤血球用希釈液を交換する",
+        "replenishHGBReagent": "HGB試薬を交換する",
+        "replenishSystemDiluent": "希釈液を交換する",
+        "initialize": "初期化する",
+        "startup": "スタートアップ",
+        "ship": "輸送",
+        "shutdownForShipping": "輸送前のシャットダウン"
+      },
+      "qc": {
+        "level": "レベル",
+        "parameter": "項目",
+        "target": "ターゲット",
+        "unopenedExpiration": "未開封有効期限"
+      },
+      "settings": {
+        "standby": "スタンバイ",
+        "standbyDetails": "スタンバイモードの自動設定：",
+        "aspirationSensor": "吸引センサー",
+        "sampleInvertReminder": "サンプル転倒混和の通知",
+        "reagentLowReminder": "試薬残量低下の通知",
+        "synovialFluidReminder": "滑液通知機能",
+        "sampleDrawerPosition": "サンプルトレーのデフォルト設定",
+        "open": "開く",
+        "closed": "終了"
+      },
+      "qualityControl": {
+        "addQcLot": {
+          "header": "ProCyte Dx QCロット追加",
+          "instructions": "該当するすべてのバーコードを読取ります。注意：QCロットを追加するには、該当するレベルの3つすべてのバーコードが必要です。終了したら、「<strong>次へ</strong>」をタップします。",
+          "barcodesHeader": "品質管理（QC）バーコード",
+          "levelTwo": "レベル2（正常値）",
+          "levelOne": "レベル１（低値）",
+          "barCodePlaceholder": "バーコード{{ number }}",
+          "enterBarcode": "バーコードを入力してください。",
+          "barcodeAccepted": "バーコード承認",
+          "barcodesSaved": "品質管理（ＱＣ）ロットが正しく追加されました。",
+          "error": "入力したバーコードは無効です。",
+          "expiredWarning": "<strong>品質管理（ＱＣ）ロットの有効期限が切れています。</strong>",
+          "expiredResults": "有効期限切れのコントロール液を使用すると、検査結果の信頼性が損なわれる可能性があります。",
+          "expiredHeader": "ProCyte Dx品質管理（QC）"
+        },
+        "runQC": {
+          "header": "ProCyte Dx QC測定",
+          "labels": {
+            "lot": "ロット：",
+            "level": "レベル："
+          },
+          "expiredQc": {
+            "header": "ProCyte Dx品質管理（QC）",
+            "body": "品質管理（ＱＣ）ロットの有効期限が切れています。有効期限切れのコントロール液を使用すると、検査結果の信頼性が損なわれる可能性があります。"
+          },
+          "pageOne": {
+            "header": "QC検体を準備し、測定を開始します。",
+            "stepOne": "e-CHECKのバイアルを、15分間室温（18°C～25°C）に戻してください。<strong>バイアルは、測定前に1時間以上冷蔵庫から出したままにしないでください。</strong>",
+            "stepTwo": "キャップがしっかりと閉まっていることを確認し、e-CHECKのバイアルをゆっくり転倒混和してください。<strong>e-CHECKのバイアルを機械で混和しないでください。</strong>"
+          },
+          "pageTwo": {
+            "header": "測定：",
+            "stepOne": "サンプルトレーの所定の位置にQCアダプターがあることを確認します。",
+            "stepTwo": "e-CHECKのバイアルをゆっくり10回転倒混和した後、直ちにバイアルをアダプターにセットします。",
+            "stepThree": "「<strong>測定開始</strong>」ボタンを押してください。",
+            "imageLabel": "QCアダプター"
+          }
+        }
+      },
+      "changeReagentWizard": {
+        "kit": {
+          "header": "ProCyte Dx試薬キット交換",
+          "Open": {
+            "header": "新しいキットの開封",
+            "instructions": "<ol><li>新しい試薬キットの開封タブを引っ張って開封し、試薬シェルフを開け、検査器の横または下に置いてください。</li><li>希釈液のシールを剥がします。</li></ol>"
+          },
+          "Prep": {
+            "header": "キットの準備",
+            "instructions": "<ol><li>3本のボトル、システム希釈剤、廃液用コンテナのキャップを取り外し (必要に応じて純正アクセサリキットのキャップリムーバーを使用) 、脇に置いておきます。</li><li>ボトルラベルの色とシェルフの色を照合して、ボトルの順番が正しいことを確認してください。</li</ol>"
+          },
+          "Install": {
+            "header": "新しいキットの取り付け",
+            "instructions": "試薬キットにクイックコネクトトップを装着し、プローブが3本の試薬ボトルと希釈剤、廃液用バッグに挿入されていることを確認してください。",
+            "note": "<strong>注意：</strong>クイックコネクトトップは、管が液剤に確実に届くよう試薬ボトルと同じ高さにしてセットしてください。クイックコネクトトップと試薬ボトルとの間の隙間に気づいた場合は、箱の上端の周囲に段ボールが残っていないことを確認してください。（右の画像を参照してください）。"
+          },
+          "Dispose": {
+            "header": "古いキットの廃棄",
+            "instructions": "<ol><li>古い試薬キットから各試薬ボトルを慎重に取り出し、適用される地域の廃棄物関連法に従って各ボトルの内容物を廃棄します。</li><li>新しい試薬キットのボトルに付いていたキャップを、古い試薬キットのボトルに装着します。</li</ol>"
+          }
+        }
+      },
+      "shutDownForShippingWizard": {
+        "header": "輸送前のProCyte Dxシャットダウンガイド",
+        "Notes": {
+          "header": "重要な注意点",
+          "instructions": "この手順は、検査器をIDEXXに返送する場合にのみ行ってください。<br/><br/><strong>この操作にかかる時間は約40分です。すべての液体を検査器から排水します。</strong>"
+        },
+        "TubeAdapter": {
+          "header": "チューブアダプターの取り外し",
+          "instructions": "サンプルドロワを開いてチューブアダプターを取外し、交換用の検査器で使用できるようにします。<br/><br/><strong>チューブアダプターを取り外すには：</strong><ol><li>サンプルトレーが開いていない場合は、ProCyte Dxのサンプルトレーの開閉ボタンを押してサンプルトレーを開きます。</li><li>サンプルチューブアダプターの赤いマークとトレーの赤いマークが合うまで、アダプターを反時計回りに（45度）回します。</li><li>チューブアダプターを引き上げて取り外します。</li></ol>"
+        },
+        "KitTubing": {
+          "header": "試薬キットチューブ",
+          "instructions": "クイックコネクトトップが試薬キットの上にあることを確認してください。検査器の背面で白色のポートに接続されているチューブはそのままにし、チューブを検査器から引き離しながら黄色のワッシャを押し続けることで、黒色、緑色、青色および赤色のポートからチューブを取外します。"
+        },
+        "StainProbes": {
+          "header": "染料プローブ",
+          "instructions": "染料コンパートメントカバーを開いて染料パックを回してプローブから外します。染料がはね散らないようにプローブを紙タオルで包みます。"
+        },
+        "DrainReagents": {
+          "header": "試薬の排水",
+          "instructions": "<strong>このステップにかかる時間は、約30分間です</strong><br/><br/>試薬が検査器から排水されると、最終シャットダウンのステップがお知らせに表示されます。",
+          "button": "試薬の排水"
+        }
+      },
+      "newHardware": {
+        "title": "ProCyte Dx自動血球計算装置の設定",
+        "header": "製造番号の入力欄：",
+        "instructions": "以下の場所に製造番号が記載されています:<ul><li>ProCyte DxのCDカバー</li><li>本体のサイドパネルのドアの内側</li><li>本体のバックパネル</li></ul>",
+        "dialogHeader": "設定",
+        "selectUsb": {
+          "body": "ProCyte Dx較正ファイルの入ったUSBドライブを挿入し、<strong>次へ</strong>をタップして、続行します。<linebreak/><strong>注意：</strong>較正ファイルが見つからない場合は、IDEXX テクニカルサポートまでご連絡ください。",
+          "selectBody": "ProCyte Dx較正ファイルの入ったドライブを選択してください。指定のドライブが一覧に表示されない場合は、別のUSBポートでもう一度行います。"
+        },
+        "success": "設定完了。",
+        "filesFound": "設定ファイルが見つかりました。<shortlinebreak/><strong>完了</strong>をタップして、設定プロセスを完了してください。",
+        "filesNotFound": "IDEXX較正ファイルが入っているドライブを挿入します。",
+        "filesNotFound_header": "較正ファイルが見つからない",
+        "mainUnitOn": "<ol><li>電源スイッチをを使用して、<strong>本体の電源を切ってください</strong>。<shortlinebreak/><strong>注意：</strong>IPUの電源は切らないでください。</li><li> 「<strong>完了</strong>」を押して、設定を終了してください。</li></ol>",
+        "transmissionErrorSystemCal": "通信エラーが発生しました。<linebreak/><strong>終了</strong>をタップして、再度、実施するか、IDEXX テクニカルサポートまでご連絡ください。",
+        "transmissionErrorSerialNumber": "通信エラーが発生しました。<linebreak/><strong>終了</strong>をタップして、再度、実施するか、IDEXX テクニカルサポートまでご連絡ください。"
+      }
+    },
+    "tensei": {
+      "qualityControl": {
+        "addQcLot": {
+          "header": "ProCyte Dx QCロット追加",
+          "instructions": "該当するすべてのバーコードを読取ります。注意：QCロットを追加するには、該当するレベルの3つすべてのバーコードが必要です。終了したら、「<strong>次へ</strong>」をタップします。",
+          "barcodesHeader": "品質管理（QC）バーコード",
+          "levelTwo": "レベル2（正常値）",
+          "levelOne": "レベル１（低値）",
+          "barCodePlaceholder": "バーコード{{ number }}",
+          "enterBarcode": "バーコードを入力してください。",
+          "barcodeAccepted": "バーコード承認",
+          "barcodesSaved": "品質管理（ＱＣ）ロットが正しく追加されました。",
+          "error": "入力したバーコードは無効です。",
+          "expiredWarning": "<strong>品質管理（ＱＣ）ロットの有効期限が切れています。</strong>",
+          "expiredResults": "有効期限切れのコントロール液を使用すると、検査結果の信頼性が損なわれる可能性があります。",
+          "expiredHeader": "ProCyte Dx品質管理"
+        }
+      },
+      "maintenance": {
+        "diagnostics": "機能チェック",
+        "rinse": "の洗浄",
+        "autoRinse": "自動洗浄",
+        "monthlyRinse": "毎月の洗浄",
+        "wasteChamberRinse": "廃液チャンバーの洗浄",
+        "flowCellRinse": "フローセル洗浄",
+        "drain": "排水",
+        "drainReactionChamber": "反応チャンバーの排水",
+        "drainRBCIsolationChamber": "赤血球分離チャンバーの排水",
+        "drainWasteChamber": "廃液チャンバーの排水",
+        "removeClear": "除去/クリア",
+        "removeClog": "詰り除去",
+        "clearPinchValve": "ピンチバルブのクリア",
+        "reset": "リセット",
+        "resetAirPump": "エアーポンプのリセット",
+        "resetAspirationMotor": "吸引モーターのリセット",
+        "resetSheathMotor": "シースモーターのリセット",
+        "resetTubeMotor": "チューブモーターのリセット",
+        "resetWBMotor": "WBモーターのリセット",
+        "replenish": "補充",
+        "replenishStain": "染色液の補充",
+        "replenishLyticReagent": "溶血剤を交換する",
+        "replenishReticulocyteDiluent": "網赤血球用希釈液を交換する",
+        "replenishHGBReagent": "HGB試薬を交換する",
+        "replenishSystemDiluent": "希釈液を交換する",
+        "initialize": "初期化する",
+        "startup": "スタートアップ",
+        "ship": "輸送",
+        "shutdownForShipping": "輸送前のシャットダウン"
+      },
+      "labels": {
+        "lotNumber": "ロット番号",
+        "level": "レベル",
+        "results": "結果"
+      }
+    },
+    "proCyteOne": {
+      "labels": {
+        "smartQcVersion": "SQCターゲットファイルバージョン",
+        "lotNumber": "ロット番号",
+        "runTime": "測定時間",
+        "results": "結果"
+      },
+      "qualityControl": {
+        "OUT_OF_RANGE": "範囲外",
+        "PASS": "合格"
+      },
+      "maintenance": {
+        "diagnostics": "機能チェック",
+        "power": "電力",
+        "packProcedures": "試薬操作",
+        "fluidicProcedures": "循環操作",
+        "idexxDirectedProcedures": "IDEXXからの操作",
+        "powerDown": "電源を切る",
+        "shutDown": "輸送前のシャットダウン",
+        "primeReagent": "プライム試薬",
+        "primeSheath": "プライム・シース",
+        "lotEntry": "ロット入力",
+        "fullSystemPrime": "フル・システム・プライム",
+        "systemFlush": "システムの洗浄",
+        "replaceFilter": "フィルターの交換",
+        "bleachClean": "除蛋白洗浄",
+        "flowCellSoak": "フローセルの浸漬",
+        "drainMixChambers": "混合チャンバーの廃液",
+        "prime": "プライム",
+        "warningModal": {
+          "title": "ProCyte One機能チェック",
+          "content": "これらのオプションは、IDEXX テクニカルサポートのガイダンスの下でのみ使用できる高度な診断機能です。"
+        },
+        "powerDownModal": {
+          "title": "警告",
+          "content": "ProCyte Oneの電源を長期間オフにすると、検査器のパフォーマンスに影響を与える可能性があります。ProCyte Oneをシャットダウンしますか？"
+        },
+        "shutDownModal": {
+          "title": "警告",
+          "content": "<strong>重要：</strong>このプロセスを続行すると、輸送準備のため検査機器からすべての試薬が流出します。新たに試薬を加えるまで検査器は使用できません。<linebreak/>続行してもよろしいですか？"
+        },
+        "fullSystemPrimeModal": {
+          "title": "ProCyte Oneフルシステムプライム",
+          "content": "<strong>重要：この手順には8分ほどかかります。</strong><linebreak/>フルシステムプライムを実行してもよろしいですか？"
+        },
+        "replaceFilterModal": {
+          "title": "ProCyte One流体フィルターの交換",
+          "remove": {
+            "header": "使用済みフィルターの取り外し：",
+            "stepOne": "1.大きな試薬ドアを開き、フィルタードアの上部を手前に押し下げて開きます。",
+            "stepTwo": "2.緑のレバーを上に上げます",
+            "stepThree": "3.検査器からフィルターを取り外し、適切に廃棄します。"
+          },
+          "install": {
+            "header": "新しいフィルターを取り付ける：",
+            "stepOne": "1.「C」型のフィルターホルダー（白のキャップが上）にフィルターをカチッと音がするまで入れます。",
+            "stepTwo": "2.緑のレバーを完全に下げてフィルターを固定します。",
+            "stepThree": "3.フィルタードアを下部から上に押し込み完全に閉じます。",
+            "stepFour": "4.試薬のドアを閉じて、「<strong>完了</strong>」を押します。"
+          }
+        },
+        "bleachCleanModal": {
+          "title": "ProCyte One除蛋白洗浄",
+          "durationMessage": "この操作は約13分で完了します。",
+          "toBegin": "開始するには：",
+          "instructions": "<step>チューブ（未処理、キャップなし、13 mm x 75 mm）を、IDEXXハイドロクリーン（または調製済みの5%漂白液）で半分まで充填します。</step><step>キャップを閉めずに、チューブをサンプルトレーに挿入します。</step><step>サンプルトレーを閉めます。</step><step>検査器の<strong>スタート</strong>ボタンを押してください。</step>"
+        },
+        "replaceSheathModal": {
+          "title": "ProCyte Oneシースパックの交換",
+          "remove": {
+            "header": "古いシースパックを取り外す",
+            "stepOne": "1.検査器の前面にあるドアを開きます。",
+            "stepTwo": "2.大きいグレーのシースパックを手前に引っ張って、検査器内から取り外します。"
+          },
+          "install": {
+            "header": "新しいシースパックを取り付ける",
+            "stepOne": "1.新しいパックを挿入する時に、パックのキャップが検査器内のポートにカチッとはまるようにしてください。",
+            "stepTwo": "2.検査器のドアを閉じます。パックを正しく取り付けないと、ドアは閉まりません。"
+          }
+        },
+        "replaceReagentModal": {
+          "title": "ProCyte One試薬パックの交換",
+          "remove": {
+            "header": "古い試薬パックを取り外す",
+            "stepOne": "1.検査器の前面にあるドアを開きます。",
+            "stepTwo": "2.前方に引いて、検査器の中から小さいグレーの試薬パックを取り外します。"
+          },
+          "install": {
+            "header": "新しい試薬パックを取り付ける",
+            "stepOne": "1.新しいパックを挿入する時に、パックのキャップが検査器内のポートにカチッとはまるようにしてください。",
+            "stepTwo": "2.検査器のドアを閉じます。パックを正しく取り付けないと、ドアは閉まりません。"
+          }
+        }
+      },
+      "runQCModal": {
+        "title": "QC確認",
+        "content": "検査器に精度管理を実行しますか？所要時間は、およそ10分です。"
+      },
+      "replaceQcModal": {
+        "title": "ProCyte One SmartQCバイアルの交換",
+        "stepOne": "1.新しいSmartQCバイアルを10秒間激しく振り十分に混ぜます。",
+        "stepTwo": "2.同じサンプルトレーのSmartQCバイアルと、その新しい振とうしたバイアルを入れ替えて、",
+        "stepThree": "3.サンプルトレーを閉めます。"
+      },
+      "settings": {
+        "sampleInvertReminderToggle": "サンプル転倒混和の通知",
+        "smartQcInfo": "品質管理を自動的に実行する時間："
+      }
+    },
+    "catOne": {
+      "labels": {
+        "calDataVersion": "較正のバージョン情報"
+      },
+      "shutDownConfirm": "機器をシャットダウンしますか？（約2分必要です）",
+      "settings": {
+        "sound": "操作音設定：",
+        "standby": "スタンバイ：",
+        "exitStandby": "スタンバイ解除："
+      },
+      "cleaningWizard": {
+        "headers": {
+          "primary": "Catalyst Oneクリーニングガイド",
+          "Landing": "推奨される備品",
+          "Prepare": "本体を準備します",
+          "Clean": "本体のクリーニングを実行",
+          "Complete": "クリーニングを完了します"
+        },
+        "Landing": {
+          "recommends": "IDEXXは、下記の備品をご使用頂くことを推奨します。",
+          "list": "<ul><li>パウダーフリーのラテックスまたはニトリル手袋</li><li>IDEXX提供のアルコールプレップパッド</li><li>IDEXXのオプティカルティッシュキット</li></ul>",
+          "moreInfo": "詳細情報、または使用を避けるべき備品リストについては操作ガイドを参照いただくか、IDEXX テクニカルサポートまでご連絡ください。"
+        },
+        "Prepare": {
+          "steps": "サイドドアを開き、ローターを取り外します。"
+        },
+        "Clean": {
+          "steps": "<ul><li>アルコールプレップパッドを使用して、目に見える残留物がなくなるまでローターをセットしている部分と、光学系レンズを反時計回りに拭きます。一周拭くごとにアルコールプレップパッドの新しい面を使用します。</li><li>新しいアルコールプレップパッドを使用して、ローターの白いレファレンスタイルをクリーニングします。</li><li>オプティカルティッシュを使用して乾拭きします。</li></ul>"
+        },
+        "Complete": {
+          "steps": "<ul><li>ローター所定の位置にはまるまで回し、再セットします。カチッとなるまでローターのカバーを定位置まで下げて、サイドドアを閉じます。</li><li><strong>「完了」</strong>を押します。</li></ul>"
+        }
+      },
+      "calibrateWizard": {
+        "headers": {
+          "primary": "Catalyst One光学の較正",
+          "Clean": "本体のクリーニングを実行",
+          "LoadMaterials": "備品をセットします",
+          "success": "光学系の較正"
+        },
+        "Clean": {
+          "instructions": "較正を実行する前に、本体をしっかりとクリーニングする必要があります。",
+          "viewButton": "クリーニング手順説明の表示",
+          "pleaseWait": "検査器がクリーニングサイクルを終了するまで、しばらくお待ちください。"
+        },
+        "LoadMaterials": {
+          "list": "<ol><li>表示の通りにキャリブレーション（較正）用スライドをセットします。</li><li>サンプルトレーを閉じてから、<strong>測定開始</strong>ボタンを押します。</li></ol>"
+        }
+      },
+      "offsetsWizard": {
+        "title": "Catalyst Oneオフセット",
+        "preparation": {
+          "title": "準備",
+          "prepareVetTrolControlFluid": "VetTrolコントロール液を準備します",
+          "vetTrolInstructions": "ベットロールの手順説明",
+          "cleanYourCatOne": "Catalyst Oneをクリーニングします",
+          "cleaningInstructions": "クリーニングの手順説明"
+        },
+        "selectLot": {
+          "title": "ベットロールのロットの選択",
+          "prompt": "オフセットを設定するために使用するベットロールのコントロール溶液を選択します。"
+        },
+        "loadMaterials": {
+          "title": "備品をセットします",
+          "instructions": "<strong>表示の通りに備品をセットします。</strong><ol><li>ピペッター用チップ</li><li>300 µL VetTrolコントロール液</li><li>同一ロットのカルシウムおよび／またはアルブミンのシングルスライド4枚</li></ol><shortlinebreak />サンプルトレーを閉じてから、<strong>測定開始</strong>ボタンを押します。"
+        },
+        "success": {
+          "title": "Catalyst Oneのメンテナンス",
+          "content": "Catalyst Oneのオフセットが完了しました。"
+        },
+        "failure": {
+          "title": "Catalyst Oneのメンテナンス",
+          "content": "Catalyst Oneのオフセットに失敗しました。詳細についてはIDEXX テクニカルサポートまでご連絡ください。"
+        },
+        "confirmCancel": {
+          "title": "Catalyst Oneオフセット",
+          "content": "Catalyst Oneオフセットの設定をキャンセルしてもよろしいですか？"
+        }
+      },
+      "fluidPrepWizard": {
+        "stepHeader": {
+          "Prep": "準備",
+          "Load": "備品をセットします"
+        },
+        "instructionButton": {
+          "clean": "クリーニングの手順説明",
+          "vetTrol": "ベットロールの手順説明"
+        },
+        "vetTrol": {
+          "header": "Catalyst Oneの品質管理",
+          "prep1": "<ol><li>VetTrolコントロール液を準備します</li></ol>",
+          "prep2": "<ol start='2'><li>Catalyst Oneをクリーニングします</li></ol>",
+          "load": "<strong>表示の通りに備品をセットします。</strong><ol><li>ピペットチップを全てセット</li><li>300 µL VetTrolコントロール液</li><li>Catalyst Lyte 4 クリップ、QC CLIPまたは単項目スライドをセットします</li></ol>サンプルトレーを閉じてから、<strong>測定開始</strong>ボタンを押します。"
+        },
+        "upro": {
+          "header": "Catalyst One UPROコントロール",
+          "prep": "<ol><li>バイアルを10分間温めます。</li><li>バイアルを6～10回反転させて混和します。</li><li>Catalyst Oneをクリーニングします。</li></ol>",
+          "load": "<strong>表示の通りに備品をセットします。</strong><ol><li>ピペットチップを完全に補充します</li><li>300 µL UPROコントロール液</li><li>UPROスライド</li></ol>サンプルトレーを閉じてから、<strong>測定開始</strong>ボタンを押します。"
+        },
+        "phbr": {
+          "header": " ",
+          "prep": "<ol><li>バイアルを60分間温めます。</li><li>バイアルを6～10回反転させて混和します。</li><li>Catalyst Oneをクリーニングします。</li></ol>",
+          "load": "<strong>表示の通りに備品をセットします。</strong><ol><li>ピペットチップを完全に補充します</li><li> </li><li> </li><li> </li></ol>サンプルトレーを閉じてから、<strong>測定開始</strong>ボタンを押します。"
+        },
+        "advanced": {
+          "header": "Catalyst Oneアドバンスコントロール",
+          "prep": "<ol><li>バイアルを30分間温めます。</li><li>バイアルを6～10回反転させて混和します。</li><li>Catalyst Oneをクリーニングします。</li></ol>",
+          "load": "<strong>表示の通りに備品をセットします。</strong><ol><li>ピペットチップを完全に補充します</li><li>300 µLのCatalystアドバンスコントロール</li><li>スライドをセット</li><li>試薬をセット（該当する場合）</li></ol>サンプルトレーを閉じてから、<strong>測定開始</strong>ボタンを押します。"
+        }
+      },
+      "vetTrolInstructionsModal": {
+        "title": "VetTrolコントロール液を準備中",
+        "instructions": "<ol><li>希釈液バイアルとコントロール血清バイアルを1本ずつ冷凍庫から取り出します。約60～90分間かけてバイアルを室温に戻します。</li><li>希釈液バイアルをゆっくりと数回転倒混和するか、攪拌機に入れて、中身がすべて混ざるようにします。激しく振らないでください。</li><li>カウンターのコントロール血清バイアルを数回軽くたたいて、栓に付着している物質を取り除きます。</li><li>希釈液をコントロール血清に添加する直前に各バイアルの封と栓を外します。バイアルを開けたままにしないでください。</li><li>清潔で乾いたクラス容積測定用ピペッター、または同等の自動ピペッターを使用して、希釈剤3.0 mLを正確にコントロール血清バイアルに移します。残りの希釈剤は処分します。<shortlinebreak /><strong>重要：</strong>正確な測定を心掛けてください。結果が無効になる場合があります。<shortlinebreak /><strong>注意：</strong>シリンジを使用する場合は、必ず針を外してください。</li><li>コントロール血清バイアルの栓を元に戻し、しっかりと固定します。1時間にわたり、10分おきにバイアルをゆっくりと6～10回転倒混和します（撹拌機の使用を推奨）。激しく振らないでください。成分がよく混ざるのに約45～60分かかります。使用前に、すべての凍結乾燥成分が溶解していることを確認してください。</li></ol>"
+      },
+      "smartQcModal": {
+        "title": "SmartQCの手順説明",
+        "body": "<ol><li>下記の通りに備品をセットします：検体は必要ありません。</li><li>サンプルトレーを閉じて、検査器の<strong>測定開始</strong>ボタンを押してください。所要時間は、およそ<strong>11分</strong>です。</li></ol>",
+        "clean": "検査器をクリーニングしてからSmartQCを実行することを推奨します。",
+        "cleaningInstructions": "クリーニング手順説明の表示"
+      }
+    },
+    "common": {
+      "buttons": {
+        "transmitLogs": "エラーログの転送"
+      },
+      "exitStandbyModal": {
+        "title": "スタンバイモードの解除",
+        "content": {
+          "default": "{{ instrumentName }}は、スタンバイモードです。測定を開始するには、スタンバイモードを解除してください。",
+          "CRIMSON": "$t(instrumentScreens.common.exitStandbyModal.content.default)<linebreak/><strong>この手順には約8分かかります。</strong>"
+        }
+      },
+      "powerDownModal": {
+        "title": "{{ instrumentName }}の電源を切る",
+        "body": "{{ instrumentName }}の電源を切りますか？"
+      },
+      "eventLog": {
+        "title": "{{ instrumentName }}イベントログ",
+        "time": "検査日",
+        "event": "イベント",
+        "patient": "患者",
+        "eventLog": "イベントログ",
+        "analyzer": "検査器：{{ serialNumber }}"
+      },
+      "fluid": {
+        "labels": {
+          "expires": "{{ days }}日後に期限切れ",
+          "fluidLevels": "試薬残量",
+          "sheath": "シースパック",
+          "reagent": "試薬",
+          "sheathRemaining": "シース：{{ percent }}％",
+          "reagentRemaining": "試薬：{{ runs }}回"
+        },
+        "buttons": {
+          "replaceSheath": "シースを交換",
+          "replaceReagent": "試薬を交換"
+        }
+      },
+      "qc": {
+        "lotEntry": {
+          "barcodesHeader": "品質管理（QC）バーコード",
+          "expiredModal": {
+            "header": "{{instrumentName}}品質管理（QC）",
+            "expiredWarning": "<strong>品質管理（ＱＣ）ロットの有効期限が切れています。</strong>",
+            "expiredResults": "有効期限切れのコントロール液を使用すると、検査結果の信頼性が損なわれる可能性があります。"
+          }
+        }
+      },
+      "settings": {
+        "header": "{{ instrumentName }}設定"
+      },
+      "catalyst": {
+        "advancedSettings": {
+          "header": "{{ instrumentName }} アイデックス専用",
+          "label": "アイデックス専用",
+          "warning": "<strong>警告：</strong>これらのオプションは、IDEXX テクニカルサポートのガイダンスの下でのみ使用できる高度な診断機能です。",
+          "scalars": "スカラー",
+          "existing": "既存",
+          "proposed": "提案",
+          "status": "ステータス",
+          "lastCalibrated": "較正の最終実施日",
+          "offsets": "オフセット",
+          "retrieving": "取得中...",
+          "waiting": "待機中",
+          "SDMA": "SDMA",
+          "K_SCALAR": "K_ｽｶﾗｰ",
+          "CL_SCALAR": "Cl_ｽｶﾗｰ",
+          "NA_SCALAR": "Na_ｽｶﾗｰ",
+          "CA_OFFSET": "ｶﾙｼｳﾑ(Ca)のオフセット",
+          "ALB_OFFSET": "ｱﾙﾌﾞﾐﾝ(Alb)のオフセット",
+          "QSDMA_GAIN": "SDMAゲイン",
+          "QSDMA_OFFSET": "SDMAオフセット",
+          "modal": {
+            "header": "{{ instrumentType }}設定",
+            "body": "次の設定を{{ instrumentType }}に送信するには、「<strong>送信</strong>」を押し、前の画面に戻るには「<strong>キャンセル</strong>」を押します。",
+            "submittedBody": "設定は{{ instrumentType }}に送信されました。",
+            "send": "送信"
+          }
+        }
+      },
+      "offline": {
+        "offline": "{{ instrumentType }}はオフラインです",
+        "description": "IDEXX ベットラボ ステーションは、{{ instrumentType }}検査器と接続できません。この検査器を今後使用しない場合には、<strong>アイコンの削除</strong>のボタンをタップし、初期画面からアイコンを削除します。",
+        "reconnect": "再接続するには、{{ instrumentType }}検査器を再起動します。さらなるサポートについては、IDEXX テクニカルサポートまでご連絡ください。"
+      },
+      "usb": {
+        "driveSelectionModal": {
+          "title": "ドライブの選択"
+        },
+        "copyProgress": {
+          "title": "コピー"
+        }
+      }
+    },
+    "catDx": {
+      "buttons": {
+        "qualityControl": "品質管理（QC）"
+      },
+      "followSteps": "次の手順に従って再接続を行ってください。",
+      "followStepsDescription1": "Catalyst Dxの画面上で「<strong>ツール</strong>」を押し、検査器のIPアドレスを確認します。",
+      "followStepsDescription2": "IPアドレスが<strong>表示されていなければ</strong>、次の手順を行ってください。",
+      "followSteps1": "Catalyst Dxツール画面で、「<strong>シャットダウン</strong>」をタップします。",
+      "followSteps2": "画面の指示に従い、Catalyst Dxの電源スイッチを切ります。",
+      "followSteps3": "電源が切れたのを確認したら、再度Catalyst Dxの電源を入れてください。",
+      "followSteps4": "ベットラボ ステーションの「<strong>初期画面</strong>」を押してください。5分以内にCatalyst Dxの表示が「準備完了」に戻ります。",
+      "problemPersists": "IPアドレスが表示されているにも関わらず問題が解決されない場合、IDEXXテクニカルサポートまでご連絡ください。"
+    },
+    "sediVueDx": {
+      "cartridgeStatus": {
+        "title": "カートリッジのステータス",
+        "remaining": "残り：{{ remaining }}",
+        "replaceCartridges": "カートリッジの交換",
+        "lotNumber": "<strong>ロット番号：</strong>{{ lotNumber }}",
+        "expirationDate": "<strong>使用期限：</strong>{{ date }}",
+        "installed": "<strong>インストール：</strong>{{ date }}"
+      },
+      "replaceCartridges": {
+        "header": "SediVue Dxカートリッジスリーブの交換",
+        "prompt": "カートリッジスリーブのバーコードをスキャンするか入力してください：",
+        "modal": {
+          "title": "SediVue Dx - カートリッジの交換",
+          "content": {
+            "LOT_CONSUMED": "入力されたバーコードはすでに使用されています。該当するバーコードのカートリッジスリーブを廃棄してください。<linebreak />「<b>閉じる</b>」をタップし、新しいカートリッジスリーブのプラスチック製ラッピングからバーコードを読取るか、または入力します。問題が解決しない場合は、IDEXX テクニカルサポートにご連絡ください。",
+            "LOT_EXPIRED": "バーコードは期限切れです。<linebreak />「<b>閉じる</b>」をタップし、新しいバーコードを読み取るか、または入力してください。",
+            "VALID": "<b>新しいカートリッジスリーブの取り付け：</b><ol><li>図のように、古いカートリッジスリーブを取り外してください。</li><li>図のように、新しいカートリッジスリーブと交換してください</li><li>下記の「<b>OK</b>」を選択して、交換を完了します。</li></ol>",
+            "invalidBarcode": "バーコードが無効です。キーボードのCapsLock機能がオフになっていることを確認します。「<b>閉じる</b>」を<linebreak/>タップし、カートリッジスリーブのプラスチック製ラッピングにあるバーコードを読み取るか、または入力してください。",
+            "unknownError": "不明なエラーが発生しました。IDEXX テクニカルサポートまでご連絡ください。"
+          }
+        }
+      },
+      "settings": {
+        "uaHeader": "物理的性状",
+        "autoAddUaSetting": "SediVue Dx検査時に、尿検査アイコンを自動で追加する",
+        "printingHeader": "レポートの画像印刷設定",
+        "autoIncludeImages": "画像をレポートに含む",
+        "onlyIfSediment": "沈渣が存在する場合のみ画像をレポートに含む"
+      },
+      "powerDownModal": {
+        "title": "SediVue Dxの電源を切る",
+        "body": "SediVue Dxの電源を切りますか？"
+      },
+      "maintenance": {
+        "buttons": {
+          "initialize": "初期化する"
+        }
+      },
+      "cleaningWizard": {
+        "headers": {
+          "primary": "SediVue Dxのクリーニングガイド",
+          "Landing": "重要な注意点",
+          "PowerDown": "電源を切る",
+          "PipettingWindow": "ピペッティング・ウィンドウ",
+          "CartridgeHolder": "カートリッジホルダー",
+          "PusherArm": "プッシャーアーム",
+          "CartridgeTrack": "カートリッジトラック",
+          "OpticalWindow": "光学ウインドウ",
+          "ShieldAndWasteBin": "シールドと廃物容器",
+          "CentrifugeArm": "遠心分離アーム",
+          "MoveArm": "動作アーム",
+          "ReplaceComponents": "部品の交換",
+          "FanFilter": "ファンフィルターのクリーニング"
+        },
+        "Landing": {
+          "notes": "検査器のパフォーマンスを最適な状態にするために、毎月1回クリーニングを行うことが重要です。<linebreak/>測定中に検査器のドアを開けないでください。測定が中止され、検体とカートリッジを廃棄することになります。</li></ul>",
+          "recommends": "IDEXXは、クリーニングに以下の備品の使用を推奨します。",
+          "halfDoor": {
+            "list": "<ul><li>粉末のついていないゴム手袋またはニトリル手袋を1セット</li><li>オプティカルティッシュ6枚</li><li>湿らせたオプティカルティッシュ1枚（温水で濡らす）</li><li>アルコールプレップパッド4枚</li><li>ティッシュ</li></ul>"
+          },
+          "fullDoor": {
+            "list": "<ul><li>粉末のついていないゴム手袋またはニトリル手袋を1セット</li><li>オプティカルティッシュ9枚</li><li>湿らせたオプティカルティッシュ1枚（温水で濡らす）</li><li>湿らせたアルコールプレップパッド3枚（温水に浸し、絞って乾燥する）</li><li>アルコールプレップパッド3枚（すすいでいないもの）</li><li>ティッシュ</li></ul>"
+          }
+        },
+        "PowerDown": {
+          "turnOff": "クリーニングを続けるには、下記のボタンを押し、SediVue Dxをシャットダウンします。",
+          "button": "SediVue Dxの電源を切る"
+        },
+        "PipettingWindow": {
+          "instructions": "<ul><li>検査器の前面にあるドアを開きます。</li><li>水道水で湿らせたオプティカルティッシュを使用して、検体注入口の上部と下部を拭きます。</li><li>新しいオプティカルティッシュを使用して、検体注入口の上部と下部を乾拭きします。</li></ul>"
+        },
+        "CartridgeHolder": {
+          "instructions": "<ul><li>カートリッジホルダーを取り外します。</li><li>新しいアルコールプレップパッドを使用して、カートリッジホルダーを拭きます。次に、新しいオプティカルティッシュで乾拭きします。</li><li>カートリッジホルダーをそのままにしておきます。</li></ul>"
+        },
+        "CartridgeTrack": {
+          "instructions": "<ul><li>新しいアルコールプレップパッドを使用して、カートリッジトラックと白色の動作アームを十分にクリーニングします。</li><li>新しいオプティカルティッシュを使用して、カートリッジトラックと白色の動作アームを乾拭きします。</li></ul>"
+        },
+        "PusherArm": {
+          "instructions": "<ul><li>温水で2枚のアルコールプレップパッドをすすぎ、絞って乾かします。</li><li>すすいだパッド1枚を使用し、プッシャーアームの左側を5回拭いてから、新しいオプティカルティッシュで乾拭きします。</li><li>プッシャーアームを左側に押し、すすいだ残りのプレップパッドでプッシャーアームの右側を拭きます。オプティカルティッシュで乾拭きします。</li></ul>"
+        },
+        "OpticalWindow": {
+          "halfDoor": {
+            "instructions": "<ul><li>新しいアルコールプレップパッドを使用し、円を描くように（3～4回）光学ウインドウを拭き、同じく円を描くように新しいオプティカルティッシュで乾拭きします。</li><linebreak/><strong>重要：</strong><shortlinebreak/>光学ウインドウに過剰な圧力を加えないでください。</li></ul>"
+          },
+          "fullDoor": {
+            "instructions": "<ul><li>新しいすすいだアルコールプレップパッドを使用して、ガラス台とトラックを繰り返し拭き、すべての汚れを取り除きます。その後、レンズ用ティッシュで乾拭きします。</li><li>新しい（すすいでいない）アルコールプレップパッドを使用して、円を描くようにして（3～4回）光学ウインドウを拭いた後、円を描くようにして新しいオプティカルティッシュで乾拭きします。<linebreak/><strong>重要：</strong><shortlinebreak/>光学ウインドウに過剰な圧力を加えないでください。</li></ul>"
+          }
+        },
+        "ShieldAndWasteBin": {
+          "title": "遠心分離シールドと廃物容器を取り外します。",
+          "instructions": "<ul><li>それらを温水で洗ってください。</li><li>ペーパータオルで乾拭きします。</li></ul>",
+          "note": "<strong>重要：</strong><shortlinebreak/>ステップ{{ replaceStep }}まで部品を戻さないでください。"
+        },
+        "CentrifugeArm": {
+          "instructions": "<ul><li>遠心分離アームを左に静かに動かし、下の部分に埃がないか点検します。</li><li>埃があった場合、新しいアルコールプレップパッドで拭き取り、新しいオプティカルティッシュで乾拭きします。</li></ul>"
+        },
+        "MoveArm": {
+          "instructions": "<ul><li>新しい（すすいでいない）アルコールプレップパッドを使用して、動作アームを拭います。</li><li>次に、新しいオプティカルティッシュで動作アームを乾拭きします。</li></ul>"
+        },
+        "ReplaceComponents": {
+          "instructions": "カートリッジ排出トレー、遠心器のシールドとカートリッジホルダーを検査器の元の位置に戻します。"
+        },
+        "FanFilter": {
+          "instructions": "<ul><li>前面のドアを閉じます。本体裏側でファンフィルターの場所を確認します。</li><li>フィルターを取り外して、温水で念入りにすすぎます。</li><li>ペーパータオルで水気を拭き取り、フィルターを交換します。<linebreak/>「<strong>完了</strong>」をタップして、検査器の電源を入れて、初期画面に戻ります。</li></ul>"
+        }
+      },
+      "qc": {
+        "buttons": {
+          "addQCLot": "QCロット追加"
+        },
+        "labels": {
+          "level": "レベル",
+          "lotNumber": "ロット番号"
+        },
+        "runQc": {
+          "title": "SediVue DxのQCを実行します",
+          "prepare": {
+            "header": "QCサンプルの準備：",
+            "instructions": "<li>細胞が均一になるように、コントロール血液をゆっくり転倒混和してください。<linebreak/><strong>注意：</strong>QCバイアルを機械で混和しないでください。</li>"
+          },
+          "start": {
+            "header": "測定：",
+            "instructions": "<li>SediVue DxのQCサンプルを本体のキュベットにセットしてください。</li><li>「<strong>測定開始</strong>」ボタンを押してください。"
+          }
+        },
+        "viewQc": {
+          "title": "SediVue DX QCの結果"
+        },
+        "lotEntry": {
+          "complete": "完了",
+          "title": "SediVue DxのQCロットを追加",
+          "prompt": "該当するすべてのバーコードを読取ります。注意：QCロットを追加するためには、各レベルのバーコードが必要です。終了したら、「<strong>次へ</strong>」をタップします。",
+          "lotNumber": "ロット番号",
+          "expiry": "使用期限",
+          "rbcRange": "赤血球範囲",
+          "wbcRange": "総白血球範囲",
+          "qualityControlBarcodes": "品質管理（QC）バーコード",
+          "enterBarcode": "バーコードを入力してください：",
+          "barcode1": "バーコード1 -",
+          "barcode2": "バーコード2 -",
+          "level1Abnormal": "レベル1（異常値）",
+          "level2Normal": "レベル2（正常値）",
+          "barcodeInvalid": "バーコードが無効です。",
+          "lotExpired": "ロットの有効期限が切れています。"
+        }
+      }
+    },
+    "reports": {
+      "title": "{{ instrumentName }}検査結果"
+    },
+    "snap": {
+      "buttons": {
+        "printSnapReport": "SNAPレポートの作成"
+      },
+      "settings": {
+        "enableTimer": "SNAPタイマーの有効化",
+        "reminderDuration": "SNAPのアラーム通知",
+        "enableCompletionBeep": "SNAP終了時お知らせ音"
+      },
+      "reports": {
+        "customDateRange": "日付の範囲のカスタマイズ",
+        "lastMonth": "先月の記録",
+        "lastWeek": "先週の記録",
+        "printLog": "ログの印刷",
+        "printSummary": "サマリーの印刷",
+        "selectDateRangeForReport": "レポート範囲の指定：",
+        "selectDates": "日付の選択",
+        "selectedDates": "指定期間：",
+        "thisMonth": "今月の記録",
+        "thisWeek": "今週の記録",
+        "title": "SNAPレポートの作成",
+        "yearToDate": "今年の記録",
+        "reportModal": {
+          "logTitle": "SNAPレポートの作成",
+          "summaryTitle": "SNAPサマリーレポート",
+          "logReport": "ログレポート",
+          "summaryReport": "サマリーレポート",
+          "noDataAvailable": "利用可能なデータがありません。"
+        }
+      }
+    },
+    "uaAnalyzer": {
+      "offline": {
+        "description": "IDEXX ベットラボステーションUA Analyzerの接続ができません。この検査器を今後使用しない場合には、<strong>アイコンの削除</strong>のボタンをタップし、初期画面からアイコンを削除します。"
+      },
+      "settings": {
+        "section": {
+          "physicalRecordEntry": "物理的性状"
+        },
+        "autoAddManualUA": "IDEXX ベットラボ UA検査時に、物理的性状用に尿検査アイコンを自動で追加します",
+        "samplePreparationInstructions": "検体準備の手順説明",
+        "reportingUnits": "検査結果の単位",
+        "reportingUnitsOptions": {
+          "arbitrary": "任意単位：1+, 2+",
+          "arbitraryAndConventional": "従来単位および任意単位：mg/dL(1+)",
+          "arbitraryAndSi": "SI単位および任意単位：µmol/L(1+)",
+          "conventional": "従来単位：mg/dL",
+          "si": "SI単位：µmol/L"
+        }
+      }
+    },
+    "uriSysDx": {
+      "uaCalibration": "UA分析装置較正",
+      "analyzerSerialNumber": "検査器：{{serialNumber}}",
+      "calibration": "較正",
+      "calibrationModal": {
+        "title": "較正の手順説明",
+        "body": "<ol><li>IDEXX ベットラボ UAのトレーに、新しい較正用ストリップをセットします。</li><li>検査器の「<strong>スタート</strong>」ボタンを押してください。</li></ol>",
+        "bodyNote": "較正に失敗した場合は、新しい較正用ストリップを使用して、再度較正を行ってください。それでも解消しない場合、IDEXX テクニカルサポートまでご連絡ください。"
+      },
+      "calibrationResult": {
+        "FAIL": "失敗",
+        "PASS": "合格",
+        "success": "ベットラボ UAの較正に合格しました。",
+        "failureTitle": "較正に失敗しました。",
+        "failureBody": "較正に失敗しました。新しい較正用ストリップを使用して、再度較正を行ってください。それでも解消しない場合、IDEXX テクニカルサポートまでご連絡ください。"
+      },
+      "buttons": {
+        "calibration": "較正",
+        "runCalibration": "較正の実行",
+        "cancelProcess": "手順のキャンセル",
+        "initialize": "初期化する"
+      },
+      "labels": {
+        "results": "結果",
+        "time": "検査日"
+      },
+      "offline": {
+        "description": "IDEXX ベットラボステーションUA Analyzerの接続ができません。この検査器を今後使用しない場合には、<strong>アイコンの削除</strong>のボタンをタップし、初期画面からアイコンを削除します。"
+      },
+      "samplePreparationInstructions": {
+        "title": "検体の準備",
+        "body": "<strong>検体測定：</strong><ol><li>ピペットを使用して、IDEXX UA ストリップを尿検体で濡らしてください。<strong>ストリップは曲げないでください。</strong></li><li>ストリップの端や裏面に付いた検体は、ティッシュなどで手早く落としてください</li><li>ストリップの試験紙の面を上にして、トレーの上に置きます。</li><li>本体右側の黄色い「<strong>スタート</strong>」ボタンを押します。</li></ol>",
+        "disableInstruction": "このメッセージを無効にするには、UA検査器の設定画面で「<strong>検体準備の説明</strong>」設定を「<strong>オフ</strong>」にしてください。"
+      }
+    },
+    "inVue": {
+      "diagnostics": {
+        "ejectCartridge": "カートリッジを排出します",
+        "lotEntry": "ロット入力",
+        "lotEntrySuccess": "次の測定に向けて消耗品の準備が完了しています。"
+      }
+    }
+  },
+  "qc": {
+    "header": "{{ instrumentName }}品質管理（QC）ロット",
+    "analyzer": "本体：",
+    "control": "コントロール液：",
+    "level": "レベル",
+    "lot": "ロット：",
+    "records": {
+      "header": "品質管理（QC）の記録",
+      "dateTime": "日付と時間",
+      "viewResults": "結果を表示",
+      "noResults": "表示できる結果がありません",
+      "qcTrend": "すべてのQC結果のトレンド分析を作成",
+      "controlTrendReport": "{{ instrumentName }}のコントロールトレンドレポート",
+      "excludeFromQcTrend": "QCトレンドデータから除外",
+      "tapToEnterComments": "タップしてコメントを入力"
+    },
+    "results": {
+      "header": "{{ instrumentName }}のQC結果"
+    },
+    "lotInfo": {
+      "header": "{{instrumentName}}のQCロット情報",
+      "lot": "ロット番号",
+      "qcType": "QCの種類",
+      "expiration": "有効期限",
+      "calibrationVersion": "較正のバージョン",
+      "test": "検査項目",
+      "expectedRange": "基準範囲"
+    },
+    "smartQCResult": {
+      "title": "{{instrumentName}} SmartQC",
+      "outOfRangeContent": "SmartQCが範囲外となりました。IDEXX テクニカルサポートまでご連絡ください。",
+      "passContent": "SmartQCは合格です。",
+      "catalyst": {
+        "outOfRange": {
+          "title": "SmartQC測定範囲外",
+          "content": "SmartQCは測定範囲外です。新しいSmartQCクリップと試薬パックを使用して、再度測定を行ってください。問題が解決しない場合は、IDEXXサポートにご連絡ください。"
+        }
+      }
+    }
+  },
+  "header": {
+    "instruments": {
+      "detail": {
+        "title": "検査器",
+        "viewAll": "すべて閲覧"
+      },
+      "pills": {
+        "allReady": "すべての院内検査器の準備が完了しました",
+        "alert": "{{count}}台が警告済み",
+        "busy": "{{count}}台が使用中",
+        "offline": "{{count}}台がオフライン",
+        "alertShort": "{{count}}",
+        "busyShort": "{{count}}",
+        "offlineShort": "{{count}}"
+      }
+    },
+    "navigation": {
+      "instruments": "検査器",
+      "settings": "設定",
+      "help": "ヘルプ＆サポート",
+      "messages": "メッセージ",
+      "dropDown": "設定",
+      "powerDown": "電源を切る"
+    },
+    "powerDownModal": {
+      "title": "電源を切る",
+      "body": "IDEXX ベットラボ ステーションを終了しますか？",
+      "buttons": {
+        "powerDown": "電源を切る",
+        "restart": "再起動"
+      }
+    },
+    "tutorial": {
+      "label": "チュートリアル"
+    }
+  },
+  "pendingList": {
+    "labels": {
+      "received": "受信日時 {{receivedAt}}"
+    },
+    "cancelConfirm": {
+      "header": "検査待ちのリクエストを削除",
+      "body": "{{patientName}}の検査待ちのリクエストを削除しますか？"
+    }
+  },
+  "instruments": {
+    "cancelProcessModal": {
+      "title": "手順のキャンセル",
+      "body": "今行っている検査器の手順をキャンセルして、準備完了の状態に戻してよろしいですか？"
+    },
+    "categories": {
+      "hematology": "血液学",
+      "chemistry": "血液化学検査",
+      "urineSediment": "尿沈渣",
+      "immunoassay": "免疫測定法",
+      "urinalysis": "尿検査",
+      "pathology": "病理学検査"
+    },
+    "numberedName": "{{name}} {{number}}",
+    "names": {
+      "LASERCYTE": "LaserCyte",
+      "VETTEST": "VetTest",
+      "AUTOREADER": "VetAutoread",
+      "SNAPREADER": "SNAPリーダー",
+      "VETLYTE": "VetLyte",
+      "VETSTAT": "VetStat",
+      "UA_ANALYZER": "UA Analyzer",
+      "URISYS_DX": "UA Analyzer",
+      "SNAP": "スナップ",
+      "CATALYST_DX": "Catalyst Dx",
+      "SNAPSHOT_DX": "SNAPshot Dx",
+      "COAG_DX": "Coag Dx",
+      "CRIMSON": "ProCyte Dx",
+      "LASERCYTE_DX": "LaserCyte Dx",
+      "SNAPPRO": "SNAP Pro",
+      "CATONE": "Catalyst One",
+      "URISED": "SediVue Dx",
+      "MANUAL_UA": "手動UA",
+      "MANUAL_CRP": "mCRP",
+      "ACADIA_DX": "ProCyte One",
+      "SAAS_PIMS": "PIMS",
+      "INTERLINK_PIMS": "PIMS",
+      "SERIAL_PIMS": "PIMS",
+      "THEIA": "IDEXX inVue Dx",
+      "THEIA_short": "IDEXX inVue Dx",
+      "TENSEI": "ProCyte Dx",
+      "TENSEI_short": "Tensei",
+      "CATONE_extended": "Catalyst One血液化学検査器",
+      "CATALYST_DX_extended": "Catalyst Dx血液化学検査器",
+      "VETSTAT_extended": "IDEXX ベットスタット電解質/血液ガス検査器",
+      "ACADIA_DX_extended": "ProCyte One血液検査器",
+      "CRIMSON_extended": "ProCyte Dx自動血球計算装置",
+      "COAG_DX_extended": "血液凝固検査器コアグDx",
+      "SNAPPRO_extended": "SNAP自動判定装置\nSNAP Pro",
+      "URISED_extended": "SediVue Dx尿沈渣分析装置",
+      "URISYS_DX_extended": "IDEXX ベットラボ UA分析装置"
+    },
+    "status": {
+      "READY": "準備完了",
+      "BUSY": "使用中",
+      "OFFLINE": "オフライン",
+      "ENABLED": "有効",
+      "STANDBY": "スタンバイ",
+      "ALERT": "お知らせ",
+      "NOT_READY": "準備中",
+      "UNKNOWN": "不明",
+      "SLEEP": "スリープ",
+      "MANUAL_ENTRY": "手動による入力",
+      "MANUAL": "手動"
+    }
+  },
+  "patientEntry": {
+    "titles": {
+      "newPatient": "新規患者",
+      "editPatient": "患者情報の編集"
+    },
+    "labels": {
+      "patientName": "患者名",
+      "species": "動物種",
+      "breed": "品種",
+      "sex": "性別",
+      "lastKnownWeight": "重量",
+      "lifestage": "ライフステージ",
+      "type": "タイプ",
+      "age": "年齢",
+      "pimsPatientId": "PIMS患者ID",
+      "ageApproximate": "おおよその年齢となります。",
+      "ageCategories": {
+        "Years": "歳",
+        "Months": "ヶ月",
+        "Days": "日",
+        "Weeks": "週"
+      },
+      "client": {
+        "lastName": "名字",
+        "firstName": "名前",
+        "clientId": "オーナーID",
+        "pimsClientId": "PIMSクライアントID"
+      }
+    },
+    "validation": {
+      "years": "無効な年"
+    }
+  },
+  "orderFulfillment": {
+    "title": "検査器の選択",
+    "fulfillment": {
+      "requisitionId": "Req ID",
+      "confirmLifestage": "ライフステージの確認*",
+      "confirmType": "種類の確認*",
+      "selectLifestage": "ライフステージを選択してください",
+      "selectType": "種類を選択してください",
+      "reasonForTesting": "検査理由",
+      "selectDoctor": "担当医を選択してください",
+      "selectReason": "検査理由を選択してください",
+      "statPatient": "急患",
+      "testOrder": "検査順：{{services}}",
+      "testOrderLabel": "検査順",
+      "addRun": "測定追加",
+      "addRun_one": "2回目の測定追加",
+      "addRun_other": "測定追加",
+      "runTab": "測定{{ index }}"
+    },
+    "testingReasons": {
+      "WELLNESS_TESTING": "健康診断",
+      "SICK_TESTING": "受診時検査",
+      "MONITORING": "モニタリング",
+      "PREANESTHESIA": "麻酔前",
+      "NONE_GIVEN": "なし"
+    },
+    "guidance": {
+      "enterResults": "「測定」を選択してから、結果を入力してください"
+    },
+    "runConfig": {
+      "UPC": {
+        "toggle": "UPC 尿蛋白/ｸﾚｱﾁﾆﾝ比",
+        "header": "UPC - 1：{{totalParts}}",
+        "sampleTypeHeader": "{{ sampleType }}：UPC - 1：{{ totalParts }}"
+      },
+      "DILUTION": {
+        "toggle": "希釈",
+        "header": "希釈 - 1：{{totalParts}}",
+        "sampleTypeHeader": "{{ sampleType }}：希釈 - 1：{{ totalParts }}"
+      },
+      "BACTERIA_REFLEX": {
+        "toggle": "細菌を確認",
+        "header": "細菌確認キットに使用する検体を準備し、測定を開始します。",
+        "instructionsModalHeader": "細菌確認キットの手順説明",
+        "instructionsModalBody": "<ol><li>SediVue Dxに付属のピペットを使用して、検体容器から165 µLの尿を採取し、新しいチューブに分注します。以後、このチューブを引き続き使用します。</li><li>試薬1（赤）を1滴加え、チューブの蓋を締めて、5回転倒混和します。蓋を外します。</li><li>試薬2（青）を1滴加え、チューブに蓋をし、再度、5回転倒混和します。</li><li>SediVue Dxに付属のピペッターを使用し、165 µLの検体混合液を吸引します。</li><li> 下の<strong>「OK」</strong>をタップして測定を開始し、検体混合液をSediVue Dxカートリッジに分注します。</li><li>SediVue Dxの<strong>スタート</strong>ボタンを押します。</li></ol>"
+      },
+      "labels": {
+        "UPC": "UPC 尿蛋白/ｸﾚｱﾁﾆﾝ比",
+        "DILUTION": "希釈",
+        "BACTERIA_REFLEX": "細菌を確認",
+        "SAMPLE_TYPE": "検体タイプ"
+      },
+      "dilution": {
+        "partSample": "検体量",
+        "partDiluent": "希釈液の量",
+        "totalParts": "倍希釈",
+        "adjust": "希釈の調整",
+        "upcDilution": "UPC希釈"
+      },
+      "selectSampleType": "サンプルタイプの選択",
+      "fluidTypeNotValidated": "液体の種類は検証されていません。研究目的専用。",
+      "sediVueDx": {
+        "dilutionInstructions": {
+          "title": "希釈の手順説明",
+          "instructions": "<ol><li>尿検体を10回転倒混和した後、すぐに1検体量を吸引します。テストチューブに、検体と0.9%生理食塩水を入れて混ぜます。検体と生理食塩水の割合は、希釈倍率によって異なります。（例：1検体量 + 9生理食塩水 =10希釈倍率）</li><li>検体の希釈を調整して、必要な希釈倍率にします。<strong>「測定」</strong>または<strong>「追加検査」</strong>をタップして、測定を開始します。</li><li>希釈した検体を10回転倒混和します。すぐに165 ulを吸引して、カートリッジ注入口に分注します。</li><li>「<strong>測定開始</strong>」ボタンを押してください。希釈測定がされたことを表す記載が結果に追加されます。</li></ol><shortlinebreak/><strong>注記：</strong>尿サンプルを希釈すると、サンプルのpHと浸透圧に影響が及び、細胞の外見と結晶の存在が変化する可能性があります。"
+        }
+      },
+      "catOne": {
+        "automaticDilutionInstructions": {
+          "title": "自動希釈の手順説明",
+          "body": "表示の通りに備品をセットします：",
+          "instructions": "<ol><li>ピペッター用チップ</li><li>サンプル</li><li>スライド</li><li>空のサンプルカップ</li><li>サンプルカップに生理食塩水300 µL</li></ol><strong>重要：</strong>アンモニア、フルクトサミン、または電解質の検査が行われるサンプルは希釈しないでください。"
+        },
+        "manualDilutionInstructions": {
+          "title": "手動希釈の手順説明",
+          "body": "表示の通りに備品をセットします：",
+          "instructions": "<ol><li>ピペッター用チップ</li><li>希釈サンプル</li><li>スライド</li></ol><strong>重要：</strong>アンモニア、フルクトサミン、または電解質の検査が行われるサンプルは希釈しないでください。"
+        },
+        "upcInstructions": {
+          "title": "UPCの手順説明",
+          "instructions": "<ol><li>ピペットチップをセットします。</li><li>検体をセットします<shortlinebreak/><strong>注意：</strong>必ず尿検体を遠心分離し、上清を使用してください。</li><li>UPROスライドとUCREスライドを両方ともセットします。<shortlinebreak/><strong>注意：</strong>その他のスライドまたはクリップをUPCパネルと一緒に測定しないでください。</li><li>空のサンプルカップを左の希釈用カップホルダーにセットします。</li><li>サンプルカップにCatalyst UPC専用希釈液を300 µL入れ、右の希釈用カップホルダーにセットします。</li></ol>"
+        }
+      },
+      "proCyteDx": {
+        "synovialReminder": {
+          "title": "滑液サンプルの準備",
+          "body": "非常に粘性の高い滑液検体は、詰まりの原因となる場合があります。<linebreak/><strong>このような場合、IDEXXは以下の方法を推奨します。</strong><ul><li>1:2希釈検体を調製します（滑液1検体とヒアルロニダーゼ1を混合）。</li><li>結果を2倍にします。</li></ul>"
+        }
+      },
+      "inVueDx": {
+        "barcodePlaceholder": "スライドのバーコードをスキャンしてください",
+        "fna": {
+          "edit": "検体の詳細の編集",
+          "confirmCancel": {
+            "title": "検体の選択を取り消しますか？",
+            "body": "本当に検体の選択を取り消してもよろしいですか？"
+          },
+          "buttons": {
+            "finish": "完了と保存",
+            "optional": "任意の詳細の入力"
+          },
+          "titles": {
+            "required": "必須",
+            "optional": "オプション",
+            "sampleLocation": "検体の場所",
+            "lesionAppearance": "病変の外観",
+            "clinicalHistory": "既往歴"
+          },
+          "sampleLocation": {
+            "title": "<sup>*</sup>検体の場所",
+            "LEFT": "左側",
+            "RIGHT": "右側"
+          },
+          "lesionAppearance": {
+            "title": "<sup>*</sup>病変はどのような外観ですか？（当てはまるものを全て選択）",
+            "ALOPECIC": "脱毛",
+            "CRUSTED": "痂皮",
+            "FIRM": "堅い",
+            "FIXED": "可動しない/固定されている",
+            "FLAT": "平坦",
+            "FLUID_FILLED": "体液で満たされている",
+            "HAIRED": "毛がある",
+            "INVASIVE": "浸潤性",
+            "IRREGULAR": "不規則",
+            "MOVABLE": "可動",
+            "NODULAR": "結節性",
+            "NORMAL_SKIN_COLOR": "正常な皮膚の色",
+            "OOZING_WEEPING": "漏出/啼泣",
+            "PAINFUL": "有痛性",
+            "PART_HAIRED": "一部毛がある",
+            "PEDUNCULATED": "有茎性",
+            "PIGMENTED_BLACK": "色素性/黒",
+            "PINK": "ピンク色",
+            "POORLY_CIRCUMSCRIBED": "境界が不明瞭",
+            "PRURITIC_ITCHY": "そう痒性/痒い",
+            "RAISED": "上昇",
+            "RED": "赤色",
+            "SEMIFIRM": "半硬質",
+            "SMOOTH": "滑らか",
+            "SOFT": "小",
+            "ULCERATED": "潰瘍形成",
+            "UNKNOWN": "不明",
+            "WELL_CIRCUMSCRIBED": "境界が明瞭"
+          },
+          "sampleSite": {
+            "title": "<sup>*</sup>検体採取部位",
+            "HEAD": "頭部",
+            "SUBMANDIBULAR": "顎下",
+            "NECK": "頸部",
+            "CHEST_TRUNK": "胸部/躯幹",
+            "ABDOMEN": "腹部",
+            "FORELIMB": "前肢",
+            "HINDLIMB": "後肢",
+            "FOOT": "足",
+            "PERINEUM_PERIANAL": "会陰/肛門周囲",
+            "TAIL": "尾",
+            "EAR": "耳"
+          },
+          "subsite": {
+            "title": "<sup>*</sup>特定のサブサイト",
+            "ABDOMEN_INGUINAL": "鼠径部 - 皮膚または皮下",
+            "ABDOMEN_LATERAL": "外側",
+            "ABDOMEN_MAMMARY_GLAND": "乳腺",
+            "ABDOMEN_MIDLINE": "正中",
+            "ABDOMEN_OTHER_UNKNOWN": "その他/不明",
+            "ABDOMEN_PREPUTIAL_HAIRED_SKIN": "包皮の毛がある皮膚",
+            "ABDOMEN_VENTRAL": "腹",
+            "CHEST_TRUNK_DORSUM": "背側",
+            "CHEST_TRUNK_LATERAL": "外側",
+            "CHEST_TRUNK_MAMMARY_GLAND": "乳腺",
+            "CHEST_TRUNK_OTHER_UNKNOWN": "その他/不明",
+            "CHEST_TRUNK_VENTRAL": "腹",
+            "EAR": "耳",
+            "EMPTY": "空",
+            "FOOT_CARPUS_TARSUS": "手根/足根",
+            "FOOT_DIGIT": "指",
+            "FOOT_INTERDIGITAL": "指趾間部",
+            "FOOT_METACARPAL_METATARSAL": "中手骨/中足部",
+            "FOOT_NAILBED": "爪床",
+            "FOOT_OTHER_UNKNOWN": "その他/不明",
+            "FOOT_PAD": "肉球",
+            "FORELIMB_ANTEBRACHIUM": "前腕",
+            "FORELIMB_AXILLA": "腋窩",
+            "FORELIMB_BRACHIUM": "上腕/腕",
+            "FORELIMB_CARPUS": "手根",
+            "FORELIMB_ELBOW": "肘",
+            "FORELIMB_OTHER_UNKNOWN": "その他/不明",
+            "FORELIMB_SHOULDER": "肩",
+            "HEAD_CHEEK": "頬",
+            "HEAD_CHIN": "顎",
+            "HEAD_EYELID": "眼瞼",
+            "HEAD_LIP_HAIRED_SKIN": "唇 - 毛のある皮膚",
+            "HEAD_LIP_MUCU_JUNCTION": "唇 - 粘膜皮膚移行部",
+            "HEAD_MUZZLE": "鼻口部",
+            "HEAD_NASAL_DORSAL_BRIDGE": "外側鼻骨",
+            "HEAD_NASAL_PLANUM": "鼻平面",
+            "HEAD_OTHER_UNKNOWN": "その他/不明",
+            "HEAD_PERIOCULAR": "眼周囲",
+            "HEAD_PINNA": "耳介",
+            "HEAD_TOP_OF_HEAD": "頭頂",
+            "HINDLIMB_HIP": "臀部",
+            "HINDLIMB_OTHER_UNKNOWN": "その他/不明",
+            "HINDLIMB_STIFLE": "後膝関節",
+            "HINDLIMB_TARSUS": "足根",
+            "HINDLIMB_THIGH": "大腿",
+            "HINDLIMB_TIBIAL_REGION": "脛骨部",
+            "INDETERMINATE": "不確定",
+            "NECK_DORSAL": "背",
+            "NECK_LATERAL": "外側",
+            "NECK_OTHER_UNKNOWN": "その他/不明",
+            "NECK_THYROID": "甲状腺",
+            "NECK_VENTRAL": "腹",
+            "PERINEUM_PERIANAL_ANAL_GLAND_SAC": "肛門腺/嚢",
+            "PERINEUM_PERIANAL_OTHER_UNKNOWN": "その他/不明",
+            "PERINEUM_PERIANAL_PARANIAL_REGION": "肛門周囲部",
+            "PERINEUM_PERIANAL_PERIVULVAR": "陰唇周囲",
+            "PERINEUM_PERIANAL_SCROTUM": "陰嚢",
+            "SUBMANDIBULAR_OTHER_UNKNOWN": "その他/不明",
+            "SUBMANDIBULAR_SALIVARY_GLAND": "唾液腺",
+            "SUBMANDIBULAR_SKIN_SUBCUT_LESION": "皮膚または皮下病変",
+            "TAIL_OTHER_UNKNOWN": "その他/不明",
+            "TAIL_TAIL_BASE": "尾基底",
+            "TAIL_TAIL_DORSAL": "尾背側",
+            "TAIL_TAIL_VENTRAL": "尾腹側"
+          },
+          "clinicalHistory": {
+            "labels": {
+              "recentVaccination": "患者は過去3か月間にワクチン接種を受けましたか？",
+              "infection": "患者は感染症に罹患しましたか？",
+              "recentTravel": "患者は米国内を旅行しましたか？（当てはまるものを全て選択）",
+              "patientLivingLocation": "患者の居住地はどこですか？",
+              "recentTrauma": "患者に外傷歴はありますか？",
+              "recentNeoplasia": "患者に腫瘍が発生したことがありますか？",
+              "lesionDischarge": "分泌物はありますか？",
+              "antibioticsTreatment": "患者は抗生物質に反応したことがありますか？（最近または現在）",
+              "treatmentOtherResponsive": "患者はその他の治療で成功したことがありますか？（最近または現在）",
+              "symptoms": "患者に以下のいずれかの症状がありますか？（当てはまるものを全て選択）",
+              "lesionDuration": "病変の期間はどのくらいですか？",
+              "recentSurgery": "（その領域で）患者は最近または過去に手術を受けたことがありますか？",
+              "lesionRecurrent": "病変は再発ですか？",
+              "lesionSizeChanging": "病変のサイズに変化がありましたか？",
+              "lesionSimilarPresent": "他にも同様の病変はありますか？",
+              "lesionSwelling": "腫れはありますか？",
+              "lesionBothering": "病変によって支障がでることがありますか？（当てはまるものを全て選択）",
+              "lesionGrowthRate": "病変の進行速度はどうですか？",
+              "distribution": "病変はどのように分布していますか？",
+              "lesionAspirateAppearance": "吸引物はどのような外観ですか？（当てはまるものを全て選択）",
+              "lesionSize": "病変の直径はどのくらいですか？"
+            },
+            "area": {
+              "IN_THIS_AREA": "このエリアで",
+              "ELSEWHERE": "その他の場所"
+            },
+            "recentTravel": {
+              "US_WEST": "西",
+              "US_SOUTHWEST": "南西",
+              "US_SOUTHEAST": "南東",
+              "US_NORTHEAST": "北東",
+              "US_MIDWEST": "米国中西部",
+              "OUTSIDE_US": "米国以外"
+            },
+            "patientLivingLocation": {
+              "INDOOR": "屋内のみ",
+              "OUTDOOR": "屋外のみ",
+              "INDOOR_OUTDOOR": "屋内/屋外"
+            },
+            "binary": {
+              "YES": "はい",
+              "NO": "いいえ"
+            },
+            "responsive": {
+              "RESPONSIVE": "はい",
+              "NON_RESPONSIVE": "いいえ"
+            },
+            "symptoms": {
+              "FEVER": "発熱",
+              "LETHARGY": "無気力",
+              "WEIGHT_LOSS": "体重減少",
+              "INAPPETENCE_ANOREXIA": "食欲不振/食欲低下",
+              "GENERALIZED_LYMPHADENOPATHY": "全身性リンパ節腫脹",
+              "REGIONAL_LYMPHADENOPATHY": "局所リンパ節腫脹 "
+            },
+            "lesionDuration": {
+              "LESS_THAN_24HOURS": "< 24時間",
+              "DAYS": "日",
+              "WEEKS": "週",
+              "ONE_TO_SIX_MONTHS": "1～6か月",
+              "SIX_TO_TWELVE_MONTHS": "6～12か月",
+              "MORE_THAN_ONE_YEAR": "> 1年"
+            },
+            "lesionSizeChanging": {
+              "GROWING": "増殖",
+              "SHRINKING": "収縮",
+              "FLUCTUATING": "変動"
+            },
+            "lesionSwelling": {
+              "REGIONAL": "局所",
+              "DISTAL": "遠位",
+              "ASSOCIATED": "関連性あり"
+            },
+            "lesionBothering": {
+              "ITCHING": "そう痒",
+              "LICKING": "なめる",
+              "PAINFUL": "有痛性",
+              "LIMPING": "足を引きずる"
+            },
+            "lesionGrowthRate": {
+              "SLOW": "緩徐",
+              "MODERATE": "中程度",
+              "RAPID": "急速"
+            },
+            "distribution": {
+              "SINGLE_LESION": "単一病変（限局性）",
+              "MULTIPLE_LESIONS": "多病変（多巣性）",
+              "REGIONALLY_EXTENSIVE": "局所的に広範",
+              "DIFFUSE": "びまん性（全身）"
+            },
+            "lesionAspirateAppearance": {
+              "CLEAR_SEROUS": "透明/漿液性",
+              "SEROSANGUINOUS": "漿液性",
+              "BLOODY": "血性",
+              "PURULENT": "化膿性",
+              "WHITE": "白",
+              "BLACK": "黒",
+              "VISCOUS_MUCINOUS": "粘稠性/粘液性",
+              "CHUNKY": "塊",
+              "GREASY": "脂肪性"
+            }
+          }
+        }
+      },
+      "snap": {
+        "confirmLeishmania": {
+          "title": "注意 - 検査のバージョンを確認してください！",
+          "body_original": "2つのSNAP Leishmaniaのバージョン測定があります。誤った結果が出る可能性を避けるため、正しいSNAP Leishmaniaのバージョンが選択されているかを確認してください。<ul><li>反応膜には3つの青いスポットが出ます。かつ、</li><li>キットの箱に記載されているバーコードの近くにある製品番号は、99-06810、もしくは、99-07821のいずれかです。</li></ul></strong>",
+          "body_twoSpot": "2つのSNAP Leishmaniaのバージョン測定があります。誤った結果が出る可能性を避けるため、正しいSNAP Leishmaniaのバージョンが選択されているかを確認してください。<ul><li>反応膜には2つの青いスポットが出ます。かつ、</li><li>キットの箱に記載されているバーコードの近くにある製品番号は、99-0017586、もしくは、99-0019362のいずれかです。</li></ul></strong>"
+        }
+      }
+    },
+    "bloodMorphology": {
+      "optional": "オプション",
+      "addHematology": {
+        "button": "血液学的検査の追加",
+        "instruction": "IDEXX inVue Dx の結果の精度を上げるには、CBC を追加することを強くお勧めします。"
+      },
+      "confirmPanel": {
+        "cbc.results": "血液学検査の結果：",
+        "cbc.values": "RBC {{ rbcValue }} | WBC {{ wbcValue }} | HCT {{ hctValue }}"
+      },
+      "confirmModal": {
+        "header": "血液学的検査とIDEXX inVue Dx",
+        "secondaryHeader": "オプション",
+        "instructions": "結果の精度を高めるために、IDEXXはCBCを追加することを強く推奨します：IDEXX inVue Dx を単独で測定する場合は、以下の結果元を選択するか、スキップします（推奨されません）。"
+      },
+      "tableHeaders": {
+        "analyzer": "分析機器",
+        "runTime": "測定時間",
+        "doctor": "担当医"
+      },
+      "cbc.values": {
+        "placeholder": {
+          "rbc": "RBC入力",
+          "hct": "HCT入力",
+          "wbc": "WBC入力"
+        },
+        "enter": "CBC値の入力",
+        "title": "CBCの結果",
+        "rbc": "RBC（M/µLまたはx10^12/L）",
+        "hct": "ヘマトクリット（%）",
+        "wbc": "WBC（K/µLまたはx10^9/L）",
+        "instructions": "IDEXX inVue Dxに使用する血液検体は、CBCと同じ検体でなければならず、理想的には4時間以内のものでなければなりません。",
+        "header": "CBC値の入力",
+        "secondaryHeader": "IDEXX inVue Dx - 任意入力"
+      },
+      "historical.run": {
+        "import": "前回の検査結果のインポート",
+        "instructions": "<strong>{{ patientName }}</strong>の検査結果を選択します。IDEXX inVue Dxに使用する血液検体は、CBCと同じ検体でなければならず、理想的には4時間以内のものでなければなりません。",
+        "header": "前回の血液学的検査の結果をインポート",
+        "secondaryHeader": "IDEXX inVue Dx - 任意入力"
+      },
+      "hematology.run": {
+        "import": "IDEXX inVue DxとProCyteで測定する",
+        "instructions": "最良の結果を得るために、IDEXXは血液形態検査を実施する際に血液学的結果を含めることを推奨します。詳細については、以下の説明をご参照ください。",
+        "header": "ProCyteで実行",
+        "secondaryHeader": "IDEXX inVue Dx - 任意入力"
+      }
+    },
+    "earSwab": {
+      "header": {
+        "required": "必須",
+        "optional": "オプション",
+        "specimenDetails": "検体の詳細"
+      },
+      "buttons": {
+        "finishAndSave": "完了と保存",
+        "enterClinicalSigns": "臨床徴候を入力"
+      },
+      "chamber": {
+        "filled": "入力",
+        "empty": "空"
+      },
+      "selection": {
+        "separator": "、",
+        "left": "左側",
+        "right": "右側"
+      },
+      "selections": "{{selections}}"
+    }
+  },
+  "resultsEntry": {
+    "manualUA": {
+      "labels": {
+        "comments": "コメント",
+        "physical": "物理的性状",
+        "chemistries": "化学的性状",
+        "specificGravity": "比重",
+        "editResults": "結果の編集"
+      },
+      "buttons": {
+        "setAllNegativeNormal": "すべての項目を陰性/正常に設定"
+      },
+      "collectionMethod": {
+        "Cystocentesis": "膀胱穿刺",
+        "FreeCatch": "フリーキャッチ",
+        "TableTop": "診察台",
+        "Catheterization": "カテーテル",
+        "Other": "その他",
+        "NotSpecified": "指定なし"
+      },
+      "color": {
+        "Colorless": "無色",
+        "Straw": "淡黄色",
+        "PaleYellow": "檸檬色",
+        "DarkYellow": "濃黄色",
+        "Amber": "琥珀色",
+        "Orange": "オレンジ色",
+        "Pink": "ピンク色",
+        "Red": "赤色",
+        "Brown": "茶色",
+        "Green": "緑色",
+        "Other": "その他"
+      },
+      "clarity": {
+        "Clear": "透明",
+        "SlightlyCloudy": "軽度の混濁",
+        "Cloudy": "混濁",
+        "VeryCloudy": "重度の混濁",
+        "Opaque": "不透明"
+      },
+      "chemistryResults": {
+        "Negative": "陰性",
+        "Normal": "正常",
+        "Trace": "痕跡",
+        "1+": "1+",
+        "2+": "2+",
+        "3+": "3+",
+        "4+": "4+",
+        "short": {
+          "Negative": "陰性",
+          "Normal": "正常",
+          "Trace": "trc.",
+          "1+": "1+",
+          "2+": "2+",
+          "3+": "3+",
+          "4+": "4+"
+        }
+      }
+    },
+    "snap": {
+      "commentTab": {
+        "comment": "コメント",
+        "editDate": "日付の編集",
+        "editHistory": "履歴の編集",
+        "userId": "ID"
+      },
+      "timerToast": {
+        "complete": "{{snapName}}タイマー終了。",
+        "link": "結果を追加"
+      },
+      "buttons": {
+        "resetTimer": "タイマー・リセット"
+      },
+      "tabs": {
+        "results": "結果",
+        "comment": "コメント"
+      },
+      "resultsPage": {
+        "instructions_one": "サンプルスポットが発色した場合、陽性を示しています。<shortlinebreak/><strong>下記のスポットをタップして、陽性をマークしてください。</strong>",
+        "instructions_other": "サンプルスポットが発色した場合、陽性を示しています。<shortlinebreak/><strong>下記のスポットをタップして、陽性をマークしてください。</strong>",
+        "heartwormInstructions": "弱陽性サンプルスポットあるいは強陽性サンプルスポットが陽性コントロールより濃く発色した場合、陽性"
+      },
+      "results": {
+        "positive": "陽性",
+        "negative": "陰性",
+        "qualifiedLowAntigen": "（低抗原）",
+        "qualifiedHighAntigen": "（高抗原）",
+        "normal": "正常",
+        "abnormal": "高値",
+        "lt_400": "< 400 mg/dL",
+        "400-800": "400-800 mg/dL",
+        "gt_800": "> 800 mg/dL"
+      },
+      "labels": {
+        "control": "コントロール",
+        "positiveControl": "陽性コントロール",
+        "negativeControl": "陰性コントロール",
+        "select": "<strong>下記のオプションを選択してください</strong>",
+        "selectWithWarning": "<strong>下記のオプションを選択してください</strong><linebreak/>注意：サンプルスポットが無色の場合があります。",
+        "reference": "参照",
+        "sample": "検体",
+        "normalDefinition": "サンプルスポットが、リファレンススポットの発色より<strong>薄い</strong>。",
+        "abnormalDefinition": "サンプルスポットが、リファレンススポットの発色と比べて<strong>同等または濃い</strong>。",
+        "negativeDefinition": "陽性コントロールの場合のみ発色",
+        "positiveDefinition": "陽性コントロールより濃く発色した場合陽性",
+        "400Spot": "400 mg/dLキャリブレータスポット",
+        "800Spot": "800 mg/dLキャリブレータスポット",
+        "lt_400": "検体スポットの発色が、400 mg/dLキャリブレータスポットよりも薄い。",
+        "400-800": "検体スポットの発色が、400 mg/dLキャリブレータスポットよりも濃いが、800 mg/dLキャリブレータスポットよりは薄い。",
+        "gt_800": "検体スポットの発色が、800 mg/dLキャリブレータスポットよりも濃い。"
+      }
+    },
+    "snapPro": {
+      "selectSnapModal": {
+        "select": "SNAPの選択"
+      }
+    },
+    "manualCRP": {
+      "header": "mCRP"
+    }
+  },
+  "resultsPage": {
+    "title": "検査結果",
+    "buttons": {
+      "editResults": "結果の編集",
+      "editComment": "コメントの編集",
+      "addComment": "コメントの追加",
+      "manageResults": "検査結果の管理",
+      "addTest": "検査追加",
+      "resultDetails": "結果詳細"
+    },
+    "commsLog": {
+      "title": "通信ログ",
+      "viewLog": "通信ログを表示",
+      "resendToPims": "{{ pimsName }}に再送",
+      "instrument": "機器操作",
+      "runDate": "検査日",
+      "sentTo": "{{ targetName }}に送信",
+      "resentNotification": "結果は{{ pimsName }}に再送されます"
+    },
+    "manageResults": {
+      "title": "検査結果の管理（{{ timestamp }}）",
+      "instructions": "下のカードをタップして、次に進みます。",
+      "descriptions": {
+        "reassignResults": "<strong>検査結果の割り当て</strong><shortlinebreak/>選択した患者にすべての検査結果一式を割り当てます。",
+        "editResults": "<strong>手動による検査結果の編集</strong><shortlinebreak/>手入力した検査結果を編集します。",
+        "editResultsInstructions": "表から「測定」を選択し、「<strong>次へ</strong>」をタップして、次に進みます。",
+        "undoMerge": "<strong>検査結果の統合/置換のキャンセル</strong><shortlinebreak/>元の検査結果の記録に戻します。"
+      },
+      "undoMerge": {
+        "title": "検査結果の統合/置換の取り消し",
+        "warning": "「前回の検査結果の保存」を選択すると、検査結果の統合/置換を<strong>永久に削除</strong>します。",
+        "previousResults": "前回の検査結果：",
+        "mergeResults": "検査結果の統合/置換：",
+        "usePreviousResults": "前回の検査結果の保存",
+        "useMergeResults": "検査結果の統合/置換の保存",
+        "toast": "検査結果を正常に元の記録に戻しました"
+      }
+    },
+    "labels": {
+      "images": "画像"
+    },
+    "patientProfile": {
+      "labels": {
+        "header": "プロフィール",
+        "patient": "患者",
+        "patientId": "患者ID",
+        "species": "動物種",
+        "breed": "品種",
+        "sex": "性別",
+        "age": "年齢",
+        "clientFirst": "オーナー名",
+        "clientLast": "オーナー姓",
+        "clientId": "オーナーID",
+        "LifeStage": "ライフステージ",
+        "Type": "タイプ"
+      }
+    },
+    "resultDetails": {
+      "labels": {
+        "header": "検査の詳細",
+        "source": "情報",
+        "runDate": "検査日",
+        "veterinarian": "獣医",
+        "doctor": "担当医",
+        "requisition": "徴発",
+        "patientDetails": "患者詳細",
+        "lastKnownWeight": "重量",
+        "qcLotNumber": "QCロット番号",
+        "noSampleSubmittedMessage": "検体は提出されていません。",
+        "diagnosticConsiderations": "診断の考察"
+      }
+    },
+    "graphing": {
+      "title": "トレンドグラフ",
+      "inHouse": "院内検査",
+      "timeframe": {
+        "day": "1日",
+        "week": "1週間",
+        "month": "１か月",
+        "year": "１年",
+        "all": "全ての期間"
+      }
+    }
+  },
+  "transferResultsPage": {
+    "headerTitle": "結果の割り当て",
+    "title": "選択した結果を{{patientName}}{{clientFamilyName}}から次へ割り当て：",
+    "onlyPatientsOfSameSpeciesShown": "同一種の患者のみが表示されます。"
+  },
+  "transferResultsModal": {
+    "title": "結果の割り当て",
+    "prompt": "<strong>下記の結果を{{patientName}} {{clientFamilyName}}</strong>に割り当てますか？",
+    "heading": {
+      "instruments": "検査器",
+      "veterinarian": "獣医",
+      "requisitionNumber": "購入仕様書番号"
+    }
+  },
+  "dotPlots": {
+    "labels": {
+      "patientRun": "患者測定",
+      "normalRun": "正常{{ type }}測定",
+      "runType": {
+        "RBC": "赤血球/血小板",
+        "WBC": "白血球"
+      },
+      "axis": {
+        "COMPLEXITY": "複雑性",
+        "SIZE": "大きさ",
+        "FLUORESCENCE": "蛍光度",
+        "GRANULARITY": "複雑性",
+        "LIGHT_ABSORPTION": "吸光度"
+      },
+      "legend": "ドットプロットの凡例"
+    },
+    "cellEvents": {
+      "AGRANS": "無顆粒球",
+      "BASO": "BASO 好塩基球数",
+      "DOUBLET": "二重赤血球",
+      "EOS": "EOS 好酸球数",
+      "GRANS": "顆粒球",
+      "GST": "グルタチオンS-トランスフェラーゼ（GST）",
+      "HETER": "ﾍﾃﾛ",
+      "HFR": "高蛍光網赤血球比率（HFR）",
+      "LATEX": "ラテックス",
+      "LFR": "低蛍光網赤血球比率（LFR）",
+      "LYM": "LYM リンパ球数",
+      "MFR": "中蛍光網赤血球比率（MFR）",
+      "MONO": "MONO 単球数",
+      "NEU": "NEU 好中球数",
+      "NONREDCELL": "非赤血球",
+      "PLT": "PLT 血小板数",
+      "PLT_AGG": "血小板凝集の可能性",
+      "PLTO": "血小板ｵﾌﾟﾃｨｶﾙ法(PLT-O)",
+      "Qualibeads": "クオリビーズ",
+      "QUALIBEADS": "クオリビーズ",
+      "R7": "R7",
+      "R8": "R8",
+      "RBC": "RBC 赤血球数",
+      "RBC_FRAG": "赤血球破片",
+      "RBCO": "赤血球ｵﾌﾟﾃｨｶﾙ法(RBC-O)",
+      "RETICS": "網赤血球",
+      "UNK": "不明",
+      "UPP": "UPP",
+      "URBC": "非溶血赤血球",
+      "WBC": "WBC 総白血球数",
+      "WBC_FRAG": "白血球破片",
+      "WBCGST": "白血球"
+    }
+  },
+  "imageViewer": {
+    "labels": {
+      "paginator": "{{ currentPage }} / {{ totalPages }}ページ",
+      "previewInstructions": "タップし拡大する",
+      "previewInstructionsWithAddToRecord": "タップして拡大/選択して記録へ追加",
+      "recordImageCount": "{{ recordImageCount }}記録中の画像",
+      "maxImagesInRecord": "最大画像数が選択されました",
+      "addToRecord": "結果へ追加",
+      "partOfRecord": "記録の一部",
+      "magnification": "拡大率",
+      "imageInformation": "画像情報",
+      "imageNumber": "画像番号",
+      "imageId": "画像ID",
+      "dragInstructions": "関心領域にドラッグします"
+    },
+    "printResults": "結果印刷",
+    "resendModal": {
+      "title": "結果の再送",
+      "description": "結果は顧客情報管理システムへ再送信されます。",
+      "resend": "データ再送"
+    }
+  },
+  "assays": {
+    "mua": {
+      "short": {
+        "mPH": "pH",
+        "mLEU": "LEU 尿白血球",
+        "mPRO": "PRO 尿蛋白",
+        "mGLU": "GLU ｸﾞﾙｺｰｽ",
+        "mKET": "KET 尿ｹﾄﾝ体",
+        "mUBG": "UBG 尿ｳﾛﾋﾞﾘﾉｰｹﾞﾝ",
+        "mBIL": "BIL 尿ﾋﾞﾘﾙﾋﾞﾝ",
+        "mBLD": "BLD 尿潜血",
+        "mHGB": "HGB ﾍﾓｸﾞﾛﾋﾞﾝ濃度"
+      },
+      "mPH": "pH",
+      "mLEU": "白血球",
+      "mPRO": "蛋白",
+      "mGLU": "ｸﾞﾙｺｰｽ",
+      "mKET": "尿ｹﾄﾝ体",
+      "mUBG": "尿ｳﾛﾋﾞﾘﾉｰｹﾞﾝ",
+      "mBIL": "尿ﾋﾞﾘﾙﾋﾞﾝ",
+      "mBLD": "潜血",
+      "mHGB": "潜血",
+      "Color": "色",
+      "Clarity": "透明度",
+      "Collec": "採取方法"
+    },
+    "snap": {
+      "HW": "疾患情報",
+      "Lyme": "Lyme ライム",
+      "E. canis": "",
+      "EC-EE": "エーリキア",
+      "A. ph.": "",
+      "AP_spp": "アナプラズマ",
+      "FIV": "FIV",
+      "FeLV": "FeLV 猫白血病ウイルス",
+      "Parvo": "Parvo ﾊﾟﾙﾎﾞ",
+      "Giardia": "Giardia ｼﾞｱﾙｼﾞｱ",
+      "CanL": "Leishmania ﾘｰｼｭﾏﾆｱ",
+      "IgG": "",
+      "cPL": "",
+      "fPL": "",
+      "fBNP": "猫 proBNP",
+      "Lepto": "Leptospira spp",
+      "Hook": "",
+      "Round": "",
+      "Whip": "",
+      "A_VASO": "Angio Detect"
+    }
+  },
+  "inProcess": {
+    "cancelRunConfirm": {
+      "header": "{{analyzerName}}測定を中止しますか？",
+      "body": "現在の測定を中止しますか？"
+    },
+    "patientCard": {
+      "results": "結果",
+      "min": "分"
+    },
+    "analyzerRun": {
+      "buttons": {
+        "startRun": "測定",
+        "cancelRun": "検査中止",
+        "ejectCartridge": "カートリッジを排出します",
+        "startTimer": "タイマー・スタート",
+        "addResults": "結果を追加"
+      },
+      "runLabel": "測定{{ runQueueId }}",
+      "status": {
+        "ALERT": "お知らせ",
+        "AT_INSTRUMENT": "検査器で",
+        "AWAITING_MANUAL_ENTRY": "結果を追加",
+        "CANCELLED": "キャンセル済み",
+        "COMPLETE": "終了",
+        "PARTIAL": "部分的な結果",
+        "PENDING": "検査待ち",
+        "REQUIRES_USER_INPUT": "詳細を追加",
+        "RUNNING": "実行中",
+        "TIMER_COMPLETE": "タイマー終了",
+        "NO_STATUS": "不明",
+        "COMPLETE_ON_INSTRUMENT": "処理中"
+      },
+      "runInfo": {
+        "dilution": "希釈 - 1：{{ totalParts }}",
+        "dilution_UPC_AUTOMATIC": "UPC - 1：{{ totalParts}}",
+        "dilution_AUTOMATIC": "自動希釈 - 1：{{ totalParts }}",
+        "dilution_MANUAL": "手動希釈 - 1：{{ totalParts }}"
+      }
+    }
+  },
+  "general": {
+    "buttons": {
+      "add": "追加",
+      "addTest": "検査追加",
+      "addQCLot": "QCロット追加",
+      "apply": "適用",
+      "back": "戻る",
+      "cancel": "キャンセル",
+      "cancelProcess": "手順のキャンセル",
+      "clear": "透明",
+      "close": "閉じる",
+      "continue": "続行",
+      "confirm": "確認",
+      "daily": "毎日実施",
+      "delete": "削除",
+      "done": "終了",
+      "edit": "編集",
+      "finish": "完了",
+      "high": "高い（高値）",
+      "instructions": "手順説明",
+      "low": "低い（低値）",
+      "never": "実施しない",
+      "new": "新規",
+      "next": "次へ",
+      "no": "いいえ",
+      "now": "今すぐ",
+      "off": "Off",
+      "ok": "OK",
+      "print": "印刷",
+      "restart": "再起動",
+      "run": "測定",
+      "save": "保存",
+      "search": "検索",
+      "skip": "スキップ",
+      "reassign": "割り当て",
+      "update": "アップデート",
+      "upgradeNow": "今すぐ更新",
+      "view": "表示",
+      "viewDetails": "詳細を見る",
+      "yes": "はい",
+      "remindMeLater": "後で通知",
+      "learnMore": "詳細はこちら",
+      "addToRun": "測定に追加",
+      "startNow": "今すぐ開始"
+    },
+    "keys": {
+      "backspace": "backspace",
+      "capsLock": "caps",
+      "shift": "shift",
+      "space": "space",
+      "close": "閉じる"
+    },
+    "printJobs": {
+      "resultsReport": "結果レポート",
+      "testPage": "テストページ",
+      "unrecognizedAlert": "認識されないアラート",
+      "catOneUpcDoc": "CatOneUpcDoc",
+      "catOneDilutionDoc": "CatOneDilutionDoc",
+      "notification": "通知",
+      "calibrationParams": "CalParams",
+      "report": "印刷",
+      "smartServiceAgreement": "スマートサービス同意書"
+    },
+    "timeAndDate": {
+      "AM": "AM",
+      "PM": "PM",
+      "monday": "月曜",
+      "tuesday": "火曜",
+      "wednesday": "水曜",
+      "thursday": "木曜",
+      "friday": "金曜",
+      "saturday": "土曜",
+      "sunday": "日曜"
+    },
+    "messages": {
+      "transferResultsSuccess": "検査結果を正常に割り当てました。タップして結果を表示します。",
+      "somethingWentWrong": "問題が発生しました。再度、実施してください。問題が解決しない場合は、IDEXX テクニカルサポートにご連絡ください。",
+      "whoopsSomethingWentWrong": "エラー！問題が発生しました。<maybelinebreak />再度実施してください。または、IDEXX テクニカルサポートまでご連絡ください。",
+      "printPreviewFailed": "印刷プレビューを表示できませんでした。",
+      "actionWillTakeApproximatelyDuration": "{{action}}の所要時間はおよそ{{duration}}です。",
+      "actionWillTakeLessThanDuration": "{{action}}は{{duration}}以内で完了します。",
+      "emptyTable": "利用可能なデータがありません",
+      "error": "エラー",
+      "newMessage": "新しいメッセージがあります。",
+      "shuttingDown": "シャットダウン中"
+    },
+    "duration": {
+      "second_one": "{{count}}秒",
+      "second_other": "{{count}}秒",
+      "minute_one": "{{count}}分",
+      "minute_other": "{{count}}分"
+    },
+    "placeholder": {
+      "noValue": "--"
+    },
+    "ThisProcedure": "本手順",
+    "select": "選択",
+    "noResults": "結果なし",
+    "doctor": "担当医",
+    "lastKnownWeight": "重量",
+    "firstName": "名前",
+    "lastName": "名字",
+    "patientName": "患者名",
+    "numberSign": "#",
+    "personalName": "{{firstName}} {{middleName}} {{lastName}}",
+    "personalNameReversed": "{{lastName}}、{{firstName}} {{middleName}}",
+    "personalNameReversed_lastOnly": "{{lastName}}",
+    "personalNameReversed_firstOnly": "{{firstName}} {{middleName}}"
+  },
+  "sampleType": {
+    "WHOLEBLOOD": "全血",
+    "ABDOMINAL": "腹水",
+    "SYNOVIAL": "関節液",
+    "THORACIC": "胸水",
+    "SERUM": "血清",
+    "PLASMA": "血漿",
+    "OTHER": "その他",
+    "URINE": "尿",
+    "CSF": "CSF",
+    "EAR_SWAB": "耳から採取",
+    "FNA": "FNA（穿刺吸引）",
+    "BLOOD": "潜血",
+    "SERUMPLASMA": "血清／血漿",
+    "FECAL": "糞便",
+    "QUALITYCONTROL": "品質管理（QC）",
+    "CEREBROSPINAL": "脳脊髄液",
+    "UNKNOWN": "不明"
+  },
+  "dilutionType": {
+    "AUTOMATIC": "自動",
+    "MANUAL": "手動",
+    "UPC_AUTOMATIC": "UPC 尿蛋白/ｸﾚｱﾁﾆﾝ比",
+    "NOTDEFINED": "未定義"
+  },
+  "weightUnits": {
+    "POUNDS": "lbs",
+    "KILOGRAMS": "kg"
+  },
+  "unitSystem": {
+    "US": "慣用単位",
+    "SI": "国際(国際単位)",
+    "French": "French"
+  },
+  "gender": {
+    "Male": "オス",
+    "Neutered": "オス/去勢済み",
+    "Neutered_Equine": "去勢",
+    "Female": "メス",
+    "Spayed": "避妊",
+    "Gelding": "去勢"
+  },
+  "validation": {
+    "genericInput": "入力必須項目です。",
+    "genericSelect": "オプションを選択してください",
+    "genericInputInvalid": "入力無効"
+  },
+  "Instrument": {
+    "Snap": {
+      "Canine": {
+        "3Dx": " ",
+        "4Dx": " ",
+        "4DxPlus": " ",
+        "AngioDetect": "Angio Detect",
+        "cPL": "cPL",
+        "FecalDx": "Fecal Dx",
+        "Giardia": "Giardia ｼﾞｱﾙｼﾞｱ",
+        "Heartworm": "スナップ・ハートワームRT",
+        "Leish4Dx": "Leish 4Dx",
+        "Leishmania": "Leishmania ﾘｰｼｭﾏﾆｱ",
+        "Leishmania2Spot": "Leishmania (2 Spot)",
+        "Lepto": " ",
+        "Parvo": "Parvo ﾊﾟﾙﾎﾞ"
+      },
+      "Equine": {
+        "FoalIgG": " "
+      },
+      "Feline": {
+        "fBNP": "猫 proBNP",
+        "FecalDx": "Fecal Dx",
+        "FelineCombo": "スナップ・FeLV/FIV　コンボ",
+        "FelineComboPlus": " ",
+        "FelineHeartworm": " ",
+        "FelineTriple": "猫三種混合",
+        "FeLV": "FeLV 猫白血病ウイルス",
+        "fPL": "スナップ・ｆPL",
+        "Giardia": "Giardia ｼﾞｱﾙｼﾞｱ",
+        "HeartwormRT": "スナップ・ハートワームRT"
+      }
+    }
+  },
+  "assayTypeModal": {
+    "later": "後で入力",
+    "done": "終了",
+    "Assay.Category.BileAcids": "カタリスト TBA",
+    "selectOne": "1つ選択してください",
+    "resultsPendingUntilIdentified": "測定タイプが特定されるまで、結果は保留となります。",
+    "Assay.ListName.BA01": "食前",
+    "Assay.ListName.BA02": "食後",
+    "Assay.ListName.BA03": "その他"
+  },
+  "addTestModal": {
+    "title": "検査追加",
+    "selectHowToSaveResults": "結果の保存方法を選択してください。",
+    "appendResults": {
+      "button": "追加測定",
+      "description": "<strong>結果の追加：</strong>選択した検査器から患者の記録へ結果を追加します。元の検査結果はすべて保持します。"
+    },
+    "mergeResults": {
+      "button": "統合/置き換え",
+      "description": "<strong>検査結果の統合/置換</strong>：元の検査結果で重複する検査項目を新しく追加する結果で上書きします。その他の元の記録はすべてそのままになります。"
+    },
+    "newResults": {
+      "button": "新規",
+      "description": "<strong>新規測定</strong>：新しい検査結果として、選択した検査器の結果を患者の記録に追加します。"
+    },
+    "validationErrors": {
+      "MERGE_THEIA": "<strong>注意：</strong>この検査にはIDEXX inVue Dxが含まれるため、検査結果の統合/置換は選べません。検査結果の統合/置換を実行するには、IDEXX inVue Dxを選択から外してください。IDEXX inVue Dxを別に測定します。"
+    }
+  },
+  "printResultsModal": {
+    "title": "結果印刷",
+    "button": {
+      "print": "印刷"
+    }
+  },
+  "confirmBackActionModal": {
+    "title": "変更の破棄",
+    "body": "保存せずに終了しますか？",
+    "button": {
+      "discard": "破棄"
+    }
+  },
+  "reminders": {
+    "sampleInvertReminder": {
+      "title": "検体転倒混和の通知",
+      "instructions_CRIMSON": "<strong>検査するには：</strong><ol><li>サンプルチューブを10回転倒混和してください。</li><li>チューブを適切なチューブアダプターに挿入してください。</li><li>本体の<strong>測定開始</strong>ボタンを押してください。</li></ol>",
+      "instructions_ACADIA_DX": "<strong>検体測定：</strong><ol><li>サンプルチューブを10回転倒混和してください。マイクロチューブを使用している場合は、混和後にキャップを取り外します。</li><li>サンプルトレーの前方のスロットにサンプルチューブを入れます。</li><li>サンプルトレーを閉めて、ProCyte Oneの<strong>測定開始</strong>ボタンを押してください。</li></ol>",
+      "disable": "このメッセージを無効にする場合、{{ instrumentName }}の設定画面で<strong>「検体転倒混和の通知」</strong>の設定を<strong>「オフ」</strong>にします。"
+    },
+    "resultDelayedNotification": {
+      "title": "結果の遅延",
+      "body": "結果の処理に予定よりも時間がかかっています。スマートサービスの接続が有効になっているかどうかを確認してください。検査結果の処理をこのまま続けるか、検査器の測定をキャンセルすることができます。<br><br> 問題が解決しない場合は、IDEXXテクニカルサポートにご連絡ください。"
+    },
+    "resultFailedNotification": {
+      "title": "検査結果は表示できません",
+      "body": "検査結果のレポートエラーのため、IDEXX inVue Dxの血液検査結果を表示できません。解決するには、新しい検体を使用して再検査をしてください。問題が解決しない場合は、IDEXXテクニカルサポートにご連絡ください。"
+    }
+  },
+  "rebootNotification": {
+    "weeklyReminder": {
+      "title": "通知機能",
+      "body": "ベットラボ ステーションを最適な状態でお使いいただけるように、コンピューターを週に1回再起動するようお勧めしています。コンピューターを再起動してもよろしいでしょうか？"
+    },
+    "excessiveUptime": {
+      "title": "注意",
+      "body": "お使いのIDEXX ベットラボ ステーションは、21日間再起動していないため、再起動が必要です。7日ごとに再起動し、システムの健全性を最適に保つことをお勧めします。"
+    },
+    "dstTransition": {
+      "title": "注意",
+      "body": "IDEXXベットラボステーションが夏時間に設定されています。変更するには再起動する必要があります。"
+    },
+    "timeRemaining": "残り時間：<strong>{{ timeRemaining }}</strong>",
+    "pressRestart": "<strong>再起動</strong>を押して続行します。"
+  },
+  "ManualUA": {
+    "Results": {
+      "Cystocentesis": "膀胱穿刺",
+      "FreeCatch": "フリーキャッチ",
+      "TableTop": "診察台",
+      "Catheterization": "カテーテル",
+      "Other": "その他",
+      "NotSpecified": "指定なし",
+      "Colorless": "無色",
+      "Straw": "淡黄色",
+      "PaleYellow": "檸檬色",
+      "DarkYellow": "濃黄色",
+      "Amber": "琥珀色",
+      "Orange": "オレンジ色",
+      "Pink": "ピンク色",
+      "Red": "赤色",
+      "Brown": "茶色",
+      "Green": "緑色",
+      "Clear": "透明",
+      "SlightlyCloudy": "軽度の混濁",
+      "Cloudy": "混濁",
+      "VeryCloudy": "重度の混濁",
+      "Opaque": "不透明",
+      "Negative": "陰性",
+      "Normal": "正常",
+      "Trace": "痕跡",
+      "1+": "1+",
+      "2+": "2+",
+      "3+": "3+",
+      "4+": "4+"
+    }
+  },
+  "Results": {
+    "UA_ANALYZER": {
+      "neg": "陰性",
+      "norm": "正常",
+      "TR": "痕跡"
+    },
+    "URISED": {
+      "Marked": "マークされた",
+      "Moderate": "中程度",
+      "Nonedetected": "検出されない",
+      "NSOR": "全くない～ほとんどない",
+      "NSTF": "全くない～少しある",
+      "Present": "存在する",
+      "Rare": "珍しい",
+      "Suspect_Presence*": "細菌が存在する疑いあり"
+    },
+    "CRIMSON": {
+      "NRBCLikely": "多分有り",
+      "Suspected": "可能性"
+    },
+    "SNAP": {
+      "Negative": "陰性",
+      "WeakPositive": "陽性<br/>（低値）",
+      "StrongPositive": "陽性<br/>（高値）",
+      "Abnormal": "高値",
+      "GT800": ">800 mg/dl",
+      "LT400": "<400 mg/dl",
+      "400THRU800": "400-800 mg/dl",
+      "Normal": "正常",
+      "Positive": "陽性",
+      "NoResult": "結果なし"
+    },
+    "InProcess": "検査中",
+    "WaitingForUserInput": "検査待ち",
+    "resultsComplete": "結果の閲覧が可能です。ここをタップして表示してください。"
+  },
+  "Category": {
+    "Bacteria": "細菌",
+    "Casts": "円柱",
+    "Crystals": "結晶",
+    "EPI": "上皮細胞",
+    "Epithelial_Cells": "上皮細胞",
+    "Mucus": "粘液",
+    "Other": "その他",
+    "RBC": "RBC 赤血球数",
+    "WBC": "WBC 総白血球数"
+  },
+  "Assay": {
+    "extended": {
+      "BACc": "球菌",
+      "BACr": "桿菌",
+      "BILI": "尿ﾋﾞﾘﾙﾋﾞﾝ",
+      "BIURAT": "尿酸アンモニウム",
+      "CaCar": "炭酸カルシウム",
+      "CaOx": "シュウ酸カルシウム",
+      "CaOxDi": "シュウ酸 カルシウム 二水和物",
+      "CaOxMo": "CaOx Mo",
+      "Clar": "透明度",
+      "Collec": "採取方法",
+      "CRY": "分類不能（その他の結晶）",
+      "DEBRIS": "不定形破片",
+      "Hook": "鉤虫",
+      "HYA": "硝子円柱",
+      "LIP": "脂質",
+      "mSG": "比重",
+      "nhCST": "非硝子円柱",
+      "nsEPI": "非扁平上皮",
+      "PROG": "プロゲステロン",
+      "QPL": "膵特異的リパーゼ",
+      "Round": "回虫",
+      "SG": "比重",
+      "SPRM": "精子",
+      "sqEPI": "扁平上皮",
+      "STR": "ストルバイト",
+      "URIC01": "尿酸",
+      "Whip": "鞭虫",
+      "YEA": "酵母"
+    },
+    "A_VASO": "A. vasorum",
+    "A._ph.": "A. ph.",
+    "AaDO2": "AaDO2 肺胞気・動脈血酸素分圧較差",
+    "AGRANS": "無顆粒球",
+    "ALB": "ALB ｱﾙﾌﾞﾐﾝ",
+    "ALB_GLOB": "ALB/GLOB",
+    "ALKP": "ALKP ｱﾙｶﾘﾌｫｽﾌｧﾀｰｾﾞ",
+    "ALT": "ALT ｱﾗﾆﾝｱﾐﾉﾄﾗﾝｽﾌｪﾗｰｾﾞ",
+    "AMYL": "AMYL ｱﾐﾗｰｾﾞ",
+    "AnGap": "AnGap ｱﾆｵﾝｷﾞｬｯﾌﾟ",
+    "AP_spp": "AP_spp",
+    "aPTT": "aPTT",
+    "AST": "AST ｱｽﾊﾟﾗｷﾞﾝ酸ｱﾐﾉﾄﾗﾝｽﾌｪﾗｰｾﾞ",
+    "BA01": "総胆汁酸（食前）",
+    "BA02": "総胆汁酸（食後）",
+    "BA03": "総胆汁酸（その他）",
+    "BACc": "球菌",
+    "BACr": "桿菌",
+    "BAND": "BAND 桿状核好中球",
+    "Baro": "Baro 気圧",
+    "BASO": "BASO 好塩基球数",
+    "BB": "BB 緩衝塩基",
+    "BE": "BE 塩基余剰",
+    "BEact": "BEact 酸素飽和時塩基余剰",
+    "BEecf": "BEecf 細胞外液塩基余剰",
+    "BIL": "BIL 尿ﾋﾞﾘﾙﾋﾞﾝ",
+    "BIL01": "BIL 尿ﾋﾞﾘﾙﾋﾞﾝ",
+    "BIL02": "BIL 尿ﾋﾞﾘﾙﾋﾞﾝ",
+    "BIL03": "BIL 尿ﾋﾞﾘﾙﾋﾞﾝ",
+    "BILE01": "総胆汁酸（食前）",
+    "BILE02": "総胆汁酸（食後）",
+    "BILE03": "総胆汁酸（その他）",
+    "BILI": "ﾋﾞﾘﾙﾋﾞﾝ",
+    "BIURAT": "尿酸アンモニウム",
+    "BLD": "BLD 尿潜血",
+    "BLD01": "BLD 尿潜血",
+    "BLD02": "BLD 尿潜血",
+    "BUN": "BUN 尿素窒素",
+    "BUN_CREA": "BUN/CREA",
+    "CA": "CA ｶﾙｼｳﾑ",
+    "Ca++01": "Ca++ ｶﾙｼｳﾑｲｵﾝ",
+    "Ca++02": "Ca++ ｶﾙｼｳﾑｲｵﾝ",
+    "Ca++03": "Ca++ ｶﾙｼｳﾑｲｵﾝ",
+    "CaCar": "炭酸カルシウム",
+    "CanL": "Leishmania ﾘｰｼｭﾏﾆｱ",
+    "CaOx": "シュウ酸カルシウム",
+    "CaOxDi": "シュウ酸カルシウム二水和物",
+    "CaOxMo": "ｼｭｳ酸ｶﾙｼｳﾑMo",
+    "Category": {
+      "BileAcids": "総胆汁酸"
+    },
+    "cH+": "cH+ 血清中水素ｲｵﾝ濃度",
+    "CHOL": "CHOL ｺﾚｽﾃﾛｰﾙ",
+    "cit-aPTT": "cit-aPTT",
+    "cit-PT": "cit-PT",
+    "CK": "CK ｸﾚｱﾁﾝｷﾅｰｾﾞ",
+    "Cl": "Cl ｸﾛｰﾙ",
+    "Cl01": "Cl ｸﾛｰﾙ",
+    "Cl02": "Cl ｸﾛｰﾙ",
+    "Clar": "混濁度",
+    "Collec": "採取方法",
+    "Color": "色",
+    "CORT01": "コルチゾール<br/>  ベースライン",
+    "CORT02": "コルチゾール<br/>  低用量デキサメサゾン投与 4 時間後",
+    "CORT03": "コルチゾール<br/>  低用量デキサメサゾン投与 8 時間後",
+    "CORT04": "コルチゾール<br/>  高用量デキサメサゾン投与 4 時間後",
+    "CORT05": "コルチゾール<br/>  高用量デキサメサゾン投与 8 時間後",
+    "CORT06": "コルチゾール<br/>  クッシング症候群が疑われる症例",
+    "CORT07": "コルチゾール<br/>  アジソン病が疑われる症例",
+    "CORT08": "コルチゾール<br/>  モニタリング",
+    "CORT09": "コルチゾール<br/>  モニタリング＞ 10μg/dl",
+    "CORT10": "コルチゾール<br/>  単一検査",
+    "cPL": "cPL",
+    "CREA": "CREA ｸﾚｱﾁﾆﾝ",
+    "CRP": "CRP",
+    "CRY": "結晶",
+    "DEBRIS": "破片",
+    "E._canis": "E. canis ｴｰﾘｷｱ（E.Canis)",
+    "EC-EE": "EC-EE",
+    "EOS": "EOS 好酸球数",
+    "ETHG": "ETHG ｴﾁﾚﾝｸﾞﾘｺｰﾙ",
+    "fBNP": "fproBNP",
+    "FeLV": "FeLV 猫白血病ウイルス",
+    "FIBR": "FIBR ﾌｨﾌﾞﾘﾉｰｹﾞﾝ",
+    "FIV": "FIV",
+    "fPL": "スナップ・ｆPL",
+    "FRU": "フルクトサミン",
+    "GGT": "GGT ｶﾞﾝﾏｸﾞﾙﾀﾐﾙﾄﾗﾝｽﾌｪﾗｰｾﾞ",
+    "Giardia": "Giardia ｼﾞｱﾙｼﾞｱ",
+    "GLOB": "GLOB ｸﾞﾛﾌﾞﾘﾝ",
+    "GLU": "GLU ｸﾞﾙｺｰｽ",
+    "GLU01": "GLU ｸﾞﾙｺｰｽ",
+    "GLU02": "GLU ｸﾞﾙｺｰｽ",
+    "GLU03": "GLU ｸﾞﾙｺｰｽ",
+    "GLU04": "GLU ｸﾞﾙｺｰｽ",
+    "GLU05": "GLU ｸﾞﾙｺｰｽ",
+    "GLU06": "GLU ｸﾞﾙｺｰｽ",
+    "GLU07": "GLU ｸﾞﾙｺｰｽ",
+    "GRANS": "顆粒球",
+    "GRANS01": "顆粒球",
+    "HCO3": "HCO3 重炭酸ｲｵﾝ",
+    "HCO301art": "HCO3 重炭酸ｲｵﾝ(art)",
+    "HCO301cap": "HCO3 重炭酸ｲｵﾝ(cap)",
+    "HCO301ven": "HCO3 重炭酸ｲｵﾝ(ven)",
+    "HCO302": "HCO3 重炭酸ｲｵﾝ",
+    "HCT": "HCT ﾍﾏﾄｸﾘｯﾄ値",
+    "Hct(c)": "Hct(c) ﾍﾏﾄｸﾘｯﾄ値（計算値）",
+    "HETER": "ﾍﾃﾛ",
+    "HGB": "HGB ﾍﾓｸﾞﾛﾋﾞﾝ濃度",
+    "Hook": "鉤",
+    "HW": "HW ハートワーム",
+    "HYA": "硝子円柱",
+    "IgG": "免疫ｸﾞﾛﾌﾞﾘﾝG(IgG)",
+    "K": "K ｶﾘｳﾑ",
+    "K01": "K ｶﾘｳﾑ",
+    "K02": "K ｶﾘｳﾑ",
+    "KET": "KET 尿ｹﾄﾝ体",
+    "KET01": "KET 尿ｹﾄﾝ体",
+    "KET02": "KET 尿ｹﾄﾝ体",
+    "KET03": "KET 尿ｹﾄﾝ体",
+    "L_M": "L/M ﾘﾝﾊﾟ球/単球数",
+    "LAC": "LAC 乳酸",
+    "LDH": "LDH 乳酸脱水素酵素",
+    "Lepto": " ",
+    "LEU": "LEU 尿白血球",
+    "LEU01": "LEU 尿白血球",
+    "LEU02": "LEU 尿白血球",
+    "LIP": "脂質",
+    "LIPA": "LIPA ﾘﾊﾟｰｾﾞ",
+    "LYM": "LYM リンパ球数",
+    "Lyme": "Lyme ライム",
+    "mBIL": "BIL 尿ﾋﾞﾘﾙﾋﾞﾝ",
+    "mBLD": "BLD 尿潜血",
+    "MCH": "MCH 平均赤血球 ﾍﾓｸﾞﾛﾋﾞﾝ量",
+    "MCHC": "MCHC 平均赤血球 ﾍﾓｸﾞﾛﾋﾞﾝ濃度",
+    "mCRP": "CRP",
+    "MCV": "MCV 平均赤血球容積",
+    "MG": "MG ﾏｸﾞﾈｼｳﾑ",
+    "mGLU": "GLU ｸﾞﾙｺｰｽ",
+    "mHGB": "BLD 尿潜血",
+    "mKET": "KET 尿ｹﾄﾝ体",
+    "mLEU": "LEU 尿白血球",
+    "MONO": "MONO 単球数",
+    "mpH": "pH",
+    "mPRO": "PRO 尿蛋白",
+    "MPV": "MPV 平均血小板容積",
+    "mSG": "尿比重",
+    "mUBG": "UBG 尿ｳﾛﾋﾞﾘﾉｰｹﾞﾝ",
+    "Mucus": "粘液",
+    "Na": "Na ﾅﾄﾘｳﾑ",
+    "Na_K": "Na/K",
+    "Na01": "Na ﾅﾄﾘｳﾑ",
+    "Na02": "Na ﾅﾄﾘｳﾑ",
+    "nCa++01": "nCa++ 標準pH ｶﾙｼｳﾑｲｵﾝ",
+    "nCa++02": "nCa++ 標準pH ｶﾙｼｳﾑｲｵﾝ",
+    "nCa++03": "nCa++ 標準pH ｶﾙｼｳﾑｲｵﾝ",
+    "NEU": "NEU 好中球数",
+    "NH3": "NH3 ｱﾝﾓﾆｱ",
+    "nhCST": "非硝子円柱",
+    "NIT": "NIT 尿亜硝酸塩",
+    "NRBC": "NRBC 有核赤血球",
+    "NRBC01": "nRBC 有核赤血球",
+    "nsEPI": "非扁平上皮",
+    "O2Ct": "O2Ct 酸素含量",
+    "OSM_calc": "浸透圧",
+    "P-LCR": "大型血小板比率(P-LCR）",
+    "P50(c)": "P50(c) 50％飽和酸素分圧",
+    "Parvo": "Parvo ﾊﾟﾙﾎﾞ",
+    "PCO201art": "PCO2 二酸化炭素分圧(art)",
+    "PCO201cap": "PCO2 二酸化炭素分圧(cap)",
+    "PCO201ven": "PCO2 二酸化炭素分圧(ven)",
+    "PCO202art": "PCO2 二酸化炭素分圧(art)",
+    "PCO202cap": "PCO2 二酸化炭素分圧(cap)",
+    "PCO202ven": "PCO2 二酸化炭素分圧(ven)",
+    "PCT": "PCT 血小板ｸﾘｯﾄ値",
+    "pctAGRANS": "%無顆粒球",
+    "pctBASO": "%BASO %好塩基球",
+    "pctEOS": "%EOS %好酸球",
+    "pctGRANS": "%顆粒球",
+    "pctGRANS01": "%顆粒球",
+    "pctHETER": "%ﾍﾃﾛ",
+    "pctL_M": "%L/M ﾘﾝﾊﾟ球/単球%",
+    "pctLYM": "% LYM %リンパ球",
+    "pctMONO": "%MONO %単球",
+    "pctNEU": "%NEU %好中球",
+    "pctRETIC": "%RETIC %網赤血球",
+    "PDW": "PDW 血小板分布幅",
+    "PDW-SD": "PDW 血小板分布幅",
+    "PDW01": "PDW 血小板分布幅",
+    "pH01": "pH",
+    "pHart": "pH(art)",
+    "PHBR": "ﾌｪﾉﾊﾞﾙﾋﾞﾀｰﾙ(PHBR)",
+    "pHcap": "pH(cap)",
+    "PHENO": "ﾌｪﾅﾝﾄﾛﾘﾝ(PHEN)",
+    "PHOS": "PHOS 無機ﾘﾝ",
+    "pHven": "pH(ven)",
+    "PLT": "PLT 血小板数",
+    "PLT-I": "血小板ｲﾝﾋﾟｰﾀﾞﾝｽ法(PLT-I)",
+    "PLT-O": "血小板ｵﾌﾟﾃｨｶﾙ法(PLT-O)",
+    "PO201art": "PO2 酸素分圧(art)",
+    "PO201cap": "PO2 酸素分圧(cap)",
+    "PO201ven": "PO2 酸素分圧(ven)",
+    "PO202art": "PO2 酸素分圧(art)",
+    "PO202cap": "PO2 酸素分圧(cap)",
+    "PO202ven": "PO2 酸素分圧(ven)",
+    "PRO": "PRO 尿蛋白",
+    "PRO01": "PRO 尿蛋白",
+    "PRO02": "PRO 尿蛋白",
+    "PRO03": "PRO 尿蛋白",
+    "PRO04": "PRO 尿蛋白",
+    "PROG": "PROG ﾌﾟﾛｹﾞｽﾃﾛﾝ",
+    "PT": "PT 白金",
+    "RBC": "RBC 赤血球数",
+    "RBC-X": "赤血球-X",
+    "RBC-Y": "赤血球-Y",
+    "RBC-Z": "赤血球-Z",
+    "RBC01": "RBC 赤血球数",
+    "RBC02": "RBC 赤血球数",
+    "RDW": "RDW 赤血球分布幅",
+    "RDW-CV": "RDW 赤血球分布幅",
+    "RET-He": "RETIC-HGB",
+    "RETIC": "RETIC 網赤血球数",
+    "Round": "回",
+    "SDMA": "SDMA",
+    "SG": "尿比重",
+    "SO2": "SO2 酸素飽和度",
+    "SO2(c)": "SO2(c) 酸素飽和度（計算値）",
+    "SPRM": "精子",
+    "sqEPI": "扁平上皮",
+    "st.pH": "標準pH",
+    "stHCO3": "stHCO3 標準重炭酸塩",
+    "STR": "ストルバイト",
+    "T4": "T4",
+    "T4PLUS": "トータルT4",
+    "TBIL": "TBIL 総ﾋﾞﾘﾙﾋﾞﾝ",
+    "tCO201art": "tCO2(art)",
+    "tCO201cap": "tCO2(cap)",
+    "tCO201ven": "tCO2(ven)",
+    "tCO202": "tCO2",
+    "tHb01": "tHb 総ﾍﾓｸﾞﾛﾋﾞﾝ濃度",
+    "tHb02": "tHb 総ﾍﾓｸﾞﾛﾋﾞﾝ濃度",
+    "tHb03": "tHb 総ﾍﾓｸﾞﾛﾋﾞﾝ濃度",
+    "TNCC": "TNCC 総有核細胞数",
+    "TP": "TP 総蛋白",
+    "TRIG": "TRIG ﾄﾘｸﾞﾘｾﾗｲﾄﾞ",
+    "UBG": "UBG 尿ｳﾛﾋﾞﾘﾉｰｹﾞﾝ",
+    "UBG01": "UBG 尿ｳﾛﾋﾞﾘﾉｰｹﾞﾝ",
+    "UBG02": "UBG 尿ｳﾛﾋﾞﾘﾉｰｹﾞﾝ",
+    "UBG03": "UBG 尿ｳﾛﾋﾞﾘﾉｰｹﾞﾝ",
+    "UCRE": "UCRE 尿中ｸﾚｱﾁﾆﾝ",
+    "UNK": "不明",
+    "UPC": "UPC 尿蛋白/ｸﾚｱﾁﾆﾝ比",
+    "UPRO": "UPRO 尿中蛋白",
+    "UREA": "UREA 尿素窒素",
+    "URIC": "URIC 尿酸",
+    "URIC01": "URIC 尿酸",
+    "WBC": "WBC 総白血球数",
+    "WBC01": "WBC 総白血球数",
+    "WBC02": "WBC 総白血球数",
+    "Whip": "鞭",
+    "YEA": "酵母",
+    "SITE": "敷地",
+    "SITE2": "サイト2",
+    "BACc_CYT": "球菌",
+    "BACc_CYT2": "球菌",
+    "BACr_CYT": "桿菌",
+    "BACr_CYT2": "桿菌",
+    "MITE_CYT": "ダニ",
+    "MITE_CYT2": "ダニ",
+    "RBC_CYT": "RBC 赤血球数",
+    "RBC_CYT2": "RBC 赤血球数",
+    "WBC_CYT": "WBC 総白血球数",
+    "WBC_CYT2": "WBC 総白血球数",
+    "YEA_CYT": "酵母",
+    "YEA_CYT2": "酵母",
+    "INT_CYT": "診断の考察",
+    "INT_CYT2": "診断の考察",
+    "RBC_SPH": "球状赤血球",
+    "RBC_ECC": "偏奇性赤血球（エキセントロサイト）",
+    "RBC_HNZ": "ハインツ小体",
+    "RBC_HNZL": "ハインツ小体（大）",
+    "RBC_HNZS": "ハインツ小体（小）",
+    "RBC_ACNTH": "有棘赤血球",
+    "RBC_KER": "角膜実質細胞/ブリスターセル",
+    "RBC_BLI": "ブリスターセル",
+    "RBC_POIK": "その他異常な赤血球",
+    "RBC_SCH": "破砕赤血球",
+    "RBC_ECH": "ウニ状赤血球",
+    "RBC_ELL": "卵形赤血球（楕円赤血球）",
+    "RBC_HJBOD": "ハウエル・ジョリー小体",
+    "RBC_OTH": "その他蛍光を示す赤血球",
+    "RBC_AGGL": "赤血球凝集",
+    "RBC_BLD": "RBC 赤血球数",
+    "HCT_BLD": "ヘマトクリット値",
+    "RETIC_PCT": "%網赤血球",
+    "RETIC_BLD": "網赤血球",
+    "WBC_BLD": "WBC 総白血球数",
+    "LYMPCT_BLD": "% リンパ球",
+    "LYMABS_BLD": "リンパ球",
+    "MONOPCT_BLD": "% 単球",
+    "MONOABS_BLD": "単球",
+    "NEUPCT_BLD": "% 好中球",
+    "NEUABS_BLD": "好中球",
+    "EOSPCT_BLD": "% 好酸球",
+    "EOSABS_BLD": "好酸球",
+    "BASOPCT_BLD": "% 好塩基球",
+    "BASOABS_BLD": "好塩基球",
+    "BANDPCT_BLD": "% 未成熟な好中球",
+    "BANDABS_BLD": "未成熟な好中球",
+    "OTHNCPCT_BLD": "% その他有核細胞",
+    "OTHNCABS_BLD": "その他有核細胞",
+    "NEU_TOX": "毒性の変化",
+    "PLT_EST": "血小板数の算定",
+    "INT_BLD": "診断の考察"
+  },
+  "ServiceCategory": {
+    "Hematology": "血液学",
+    "Chemistry": "血液化学検査",
+    "Urinalysis": "尿検査",
+    "Endocrinology": "内分泌検査",
+    "Serology": "血清学検査",
+    "SNAP": "スナップ",
+    "TherapeuticsToxicology": "治療法/毒性",
+    "Microbiology": "微生物",
+    "Parasitology": "寄生虫学",
+    "MolecularDiagnostics": "分子診断",
+    "Pathology": "病理学検査",
+    "Radiology": "放射線学",
+    "Other": "その他",
+    "Cancelled": "キャンセル済み"
+  },
+  "barcodeType": {
+    "SHEATH": "シースパック",
+    "REAGENT": "試薬",
+    "SMART_QC": "SmartQC",
+    "CUVETTES": "キュベット",
+    "BLOOD": "潜血",
+    "EAR_SWAB": "耳から採取",
+    "FNA": "FNA（穿刺吸引）"
+  },
+  "instrumentMaintenanceResult": {
+    "ACADIA_DX": {
+      "REPLACE_OBC": {
+        "SUCCESS": "SmartQCバイアルが正常に交換されました。"
+      },
+      "REPLACE_REAGENT": {
+        "SUCCESS": "ProCyte One試薬パックが正常に交換されました。<br/><br/>これで、検査器の自動プライムプロセスが開始されます（約1分）。"
+      },
+      "REPLACE_SHEATH": {
+        "SUCCESS": "ProCyte Oneシースパックが正常に交換されました。<br/><br/>これで、検査器の自動プライムプロセスが開始されます（約1分）。"
+      }
+    },
+    "CATONE": {
+      "GENERAL_CLEAN": {
+        "SUCCESS": "Catalyst One本体のクリーニングが完了しました。"
+      },
+      "OPTICS_CALIBRATION": {
+        "SUCCESS": "Catalyst One本体の光学系の較正が完了しました。"
+      },
+      "OFFSETS": {
+        "SUCCESS": "Catalyst Oneのオフセットが完了しました。",
+        "FAILED": "Catalyst Oneのオフセットに失敗しました。詳細についてはIDEXX テクニカルサポートまでご連絡ください。"
+      },
+      "OPTIMIZE": {
+        "SUCCESS": "Catalyst Oneの最適化処理が正常に実行されました。"
+      }
+    },
+    "default": "完了した手順{{ maintenanceType }}の結果は{{ maintenanceResult }}です",
+    "rejected": "他の動作を行っているため、測定を開始することができません。<linebreak/>このメッセージが続く場合は、IDEXX テクニカルサポートまでご連絡ください。",
+    "rejectedTitle": "検査を実行できません。"
+  },
+  "eula": {
+    "pdx": {
+      "bodyTitle": "IPUが検出されました。下記ライセンスを確認し、ご承認ください。",
+      "body": "最終更新日　2016年7月<br/>マイクロソフト ソフトウェア ライセンス条項<br/>Windowsオペ―レーティングシステム<br/>米国にお住まい（または主たるビジネスの場所が米国内）の場合は、第10条に記載されている拘束力のある仲裁条項および集団訴訟の権利放棄をお読みください。これは、紛争の解決方法に影響を及ぼします。<br/>Microsoft製品のご購入をありがとうございます！<br/>お客様のWindowsソフトウェアの入手方法によって、本契約は (i) お客様とデバイスの製造会社またはデバイスに付属するソフトウェアの配布を行うソフトウェアのインストール業者、または (ii) ソフトウェアを小売業者より入手した場合は、お客様とMicrosoft社（またはお客様の居住地に基づく、あるいは主たるビジネスの場所である場合は、そのいずれかの関連会社）との間のライセンス契約です。Microsoftまたはその関連会社が製造したデバイスに関しては、Microsoftがデバイスの製造会社となります。Microsoftからソフトウェアを直接入手した場合は、Microsoftが小売業者となります。<br/>本契約は、お使いになるWindowsソフトウェアにかかるお客様の権利とご使用の条件が記載されています。ソフトウェアに付属のライセンス補足条項およびリンク先の条項を含むすべての契約書をお読みください。すべての項目が重要であり、これらの項目をまとめたものが本契約となり、適用されます。ブラウザに（aka.ms/）のリンクを貼り付けてリンク先の条項を確認することができます。<br/>本契約に同意またはソフトウェアを使用することによって、お客様がすべての条項に同意したものとみなすとともに、第3条に記載の個人情報保護方針に従い、ソフトウェアの起動中および使用中に特定の情報が送信されることについて、お客様が同意したものとみなします。お客様がこれらの条項に同意しない場合および従わない場合は、当該ソフトウェアまたはその機能を利用することはできません。デバイスの製造会社またはインストール業者、デバイスを直接購入した場合は小売業者に連絡をして、返却方針を決定してください。決定した返却方針に基づいて、ソフトウェアまたはデバイスを返品し、返金またはクレジットを受け取ってください。返却方針を順守してください。該当する場合、返金やクレジットを受け取るには、ソフトウェアをインストールしたデバイスとともにソフトウェアを返品する必要がある場合もあります。<br/>1.概要。<br/>a.適用性。本契約は、デバイスにプレインストールされている、または小売業者から入手した、およびお客様がインストールしたWindowsソフトウェアに適用されます。また、本契約は、別途条項が記載されていない限り、受け取ったソフトウェアが入ったメディア（該当する場合）、ソフトウェアに含まれるフォント、アイコン、画像またはサウンドファイル、およびソフトウェアのMicrosoftに関する更新、アップグレード、補足プログラムまたはサービスについても適用されます。また、Windowsに含まれるまたはWindowsの一部であるメール、連絡先、ミュージック、フォトなどの提供される機能で、Microsoftが開発したWindowsのアプリケーションにも適用されます。本契約書において、お使いのデバイスで利用できない機能またはサービスに関する条項が含まれている場合、該当の条項は適用されません。<br/>b.追加条件。お客様のデバイスの性能、設定、利用方法に応じて、特定の機能、サービス、アプリケーションの利用に関して、Microsoftおよび第三者による追加条件が適用される場合があります。それらを必ずお読みください。<br/>(i) Windowsのアプリケーションには、オンラインサービスへのアクセスポイントを提供またはオンラインサービスに依存するものもあります。これらのサービスの利用は、Microsoftサービス規約（aka.ms/msa）など別途条件および個人情報保護方針が適用される場合があります。該当する場合、これらの条項および方針は、サービス利用規約またはアプリケーションの設定で確認できます。サービスが提供されていない地域もあります。<br/>(ii) Microsoft、製造会社またはインストール業者が追加のアプリケーションを入れる場合、別のライセンス条項および個人情報保護方針が適用されます。<br/>(iii) ソフトウェアは、Adobe Systems Incorporated（aka.ms/adobeflash）の条件に基づいてライセンスが付与されているAdobe Flash Playerを含みます。AdobeおよびFlashは、米国および/またはその他の国においてAdobe Systems Incorporatedの登録商標または商標です。<br/>(iv) ソフトウェアには、本契約または別途条件に基づいてお客様に付与される第三者のプログラムが含まれる場合があります。該当する場合、第三者のプログラムのライセンス条項、通知および確認事項は（aka.ms/thirdpartynotices）で確認できます。<br/>(v) お客様が別の契約に基づいて商用利用の権利を有している場合は除き、Windowsに含まれるWord、Excel、PowerPoint、OneNoteは、個人利用、非営利使用を目的としてライセンスを付与されます。<br/>2.インストールおよび使用の権利。<br/>a.ライセンス。ソフトウェアは販売ではなく、ライセンスを付与されます。本契約のすべての条件に同意する場合、1回につき1人の使用を目的として、本契約に基づき、デバイス（ライセンスを付与されたデバイス）に１つのソフトウェアインスタンスをインストールおよび実行できる権利が付与されます。Microsoftまたは権限を与えられた販売業者から入手したソフトウェアを、純正品ではないソフトウェアにより更新またはアップグレードした場合、元のバージョンまたは更新/アップグレードしたバージョンは正規品と認められません。また、この場合、ソフトウェア使用のライセンスは付与されません。<br/>b.デバイス。本契約における「デバイス」とは、ソフトウェアを実行する性能をもつ内部ストレージデバイスがあるハードウェアシステム（物理的または仮想的に関わりなく）です。ハードウェアのパーティションまたはブレードはデバイスとみなされます。<br/>c.制約条件。製造会社またはインストール業者およびMicrosoftは、本契約書において明確に付与されていないすべての権利（知的財産法など）を保有します。例えば、本ライセンスは、お客様にいかなる権利を付与するためのものではありません。また、以下のことを行うこはできません。<br/>(i) 別途ソフトウェアの機能を使用または仮想化すること。<br/>(ii) ソフトウェアの発行、複製（許可されているバックアップ用の複製は除きます）、貸借、リースまたは貸与。<br/>(iii) ソフトウェアの転送（本契約で許可されている場合を除きます）。<br/>(iv) ソフトウェアの技術的な制限または制約の回避。<br/>(v) ソフトウェアを、サーバーソフトウェアとして使用、商用ホストとして使用、ネットワーク経由で複数のユーザーが同時にソフトウェアを使用、ソフトウェアをサーバーにインストールしてリモートで複数のユーザーがアクセスできるように使用、リモートユーザーのみが利用できるようにデバイスにソフトウェアをインストールして使用すること。<br/>(vi) ソフトウェアのリバースエンジニアリング、逆コンパイル、逆アセンブル、またはそのような行為の試みを行うこと。ただし、前述の制限が以下の範囲内である場合は除きます。(a) 適用法により許可されている、(b) ソフトウェアに含まれるオープンソースのコンポーネントの使用に関するライセンス条項により許可されている、(c) ソフトウェアに含まれるまたはリンク先のGNU Lesser General Public Licenseによりラインセンスを付与されたライブラリの変更によるデバッグに必要とされる<br/>(vii) インターネット経由の機能を使用する場合、他のユーザーによる機能の使用を妨げるような方法で機能を使用することはできません。または不正な方法でサービス、データ、アカウント、ネットワークへアクセスまたはその使用を試みてはなりません。<br/>d.マルチユースシナリオ。<br/>(i) 複数のバージョン。複数のバージョン（32-ビットと64-ビットのバージョン）のソフトウェアが提供された場合、一度にインストールおよび起動できるのは、いずれか一方のバージョンです。<br/>(ii) 複数またはプールされた接続。接続を多重化またはプールするために使用するハードウェアまたはソフトウェア、あるいはデバイスの数やアクセスするユーザー数または使用するソフトウェアの数を減らすために使用するハードウェアまたはソフトウェアであれば、必要なライセンスの数が少なくなるということではありません。お客様が使用するソフトウェアの各インスタンスにつきラインセンスを有している場合のみ、ハードウェアまたはソフトウェアを使用できます。<br/>(iii) デバイスの接続。最大20台まで他のデバイスが、ライセンスを付与されたデバイスにインストールされているソフトウェアにアクセスし、以下のソフトウェアの機能を使用できます：ライセンスを付与されたデバイスのファイルサービス、印刷サービス、インターネット情報サービス、インターネット接続共有および電話サービスデバイスの台数に制限なく、ライセンスを付与されたデバイスでソフトウェアにアクセスし、デバイス間のデータを同期できます。ただし、本条の意図は、他のデバイスにおいて、お客様がソフトウェアをインストールする権利またはソフトウェアの（本条に記載する機能以外の）主たる機能を使用する権利を有するということではありません。<br/>(iv) 仮想化環境での使用。本ラインセンスは、デバイスが物理的または仮想的にかかわらず、デバイス1台での使用につきソフトウェアのインスタンス１つのみをインストールすることを許可します。ソフトウェアの使用を1つ以上の仮想デバイスで行う場合、各インスタンスにつき別途ライセンスの取得が必要です。<br/>(v) リモートアクセス。90日毎に１回、ライセンスユーザーとしてライセンスを付与されたデバイスを物理的に使用するユーザー１名を指定できます。ライセンスユーザーは、リモートアクセス技術を用いて、別のデバイスからライセンスを付与されたデバイスにアクセスできます。他のユーザーは、さまざまな時間に、リモートアクセス技術を用いて、別のデバイスからライセンスを付与されたデバイスにアクセスできますが、本ソフトウェアと同じまたはより高位のエディションを実行するように別途ライセンスを付与されたデバイスに限ります。<br/>(vi) リモートアシスタンス。本ソフトウェアの追加ライセンスを取得しなくても、リモートアシスタンス技術を用いて、アクティブセッションを共有できます。リモートアシスタンスは、1名のユーザーが直接別のユーザーのコンピューターに接続することが可能なため、問題の解決に使用されることが多くあります。<br/>e.バックアップコピー。バックアップ目的で、ソフトウェアをシングルコピーできます。また、下記第４条に記載のとおり、入手したソフトウェアがスタンドアロンである場合、ソフトウェアの転送にバックアップのコピーを利用することもできます。<br/>3.プライバシー；データ使用についての同意。お客様のプライバシーを尊重します。ソフトウェアの機能を使用する際に、情報を送信または受信するソフトウェアの機能も一部含まれています。これらの機能のほとんどは、ユーザーインターフェースで無効にするか、使用しないように選択することもできます。Microsoftプライバシーステートメント（aka.ms/privacy）に記載のとおり（ソフトウェアの機能に関連するユーザーインターフェースに記載されている場合もあります）、本契約に同意およびソフトウェアを使用することにより、お客様はMicrosoftが情報を収集、利用、開示することに同意したものとみなされます。<br/>4.譲渡。本条の条件は、ドイツまたは本サイト（aka.ms/transfer）に記載されているいずれかの国の消費者としてソフトウェアを入手した場合は適用されません。このような場合、ソフトウェアの第三者への譲渡およびソフトウェアを使用する権利は、適用法に従うものとします。<br/>a.デバイスにプレインストールされているソフトウェア。デバイスにプレインストールされたソフトウェアを入手した場合（およびデバイスにプレインストールされたソフトウェアからお客様がアップグレードした場合）、ライセンスを付与されたデバイスでのみ、ソフトウェアを使用するためのライセンスを別のユーザーへ直接譲渡できます。譲渡する際には、ソフトウェアを含めてデバイスで提供される場合は、プロダクトキーを含む正規のWindowsラベルを含めなければなりません。許可された譲渡をする前に、譲受人は本契約が譲渡とソフトウェアの使用に適用されることに同意しなければなりません。<br/>b.スタンドアロンソフトウェア。スタンドアロンソフトウェアであるソフトウェアを入手した場合、（また、スタンドアロンソフトウェアとして入手したソフトウェアをアップグレードした場合）、所有する別のデバイスにソフトウェアを転送できます。(i) お客様が最初にソフトウェアのライセンスを付与されたユーザーである、および (ii) 新規のユーザーが本契約に同意する場合、お客様は他のユーザーが所有するデバイスにソフトウェアを転送することもできます。作成を許可されているバックアップコピー、またはソフトウェアが入っていたメディアを使用して、ソフトウェアを転送できます。ソフトウェアを新しいデバイスに転送するたびに、前のデバイスからはソフトウェアを削除しなければなりません。ソフトウェアを転送して、デバイス間でライセンスを共有することはできません。<br/>5.正規のソフトウェアおよびアクティベーション。適切にライセンスを付与されており、正規のプロダクトキーまたはその他の正規の方法でソフトウェアを適切にアクティベートした場合に限り、ソフトウェアを使用できます。ソフトウェア使用中にインターネットに接続すると、ソフトウェアはMicrosoftまたはその関連会社に自動的に接続され、アクティベーションを実施し、特定のデバイスとソフトウェアを紐づけます。インターネットまたは電話を使用してソフトウェアを手動でアクティベートすることもできます。いずれの場合においても、特定の情報送信が行われるため、インターネット、電話、SMSサービスの使用料が発生することがあります。アクティベーション中（または、デバイスのコンポーネントへの変更によって引き起こされる再アクティベーション中）、インストールされているソフトウェアのインスタンスが偽造品であるか、不適切にライセンスされているか、または不正な変更が含まれていると判断する場合がありますアクティベーションに失敗した場合、ソフトウェアは、改ざんされたMicrosoftソフトウェアを正規のMicrosoftソフトウェアに置き換えることによって自動修正を試みます。お客様は、ソフトウェアの適切なライセンスを取得するようにリマインダーを受け取ることもあります。アクティベーションに成功した場合でも、ソフトウェアが正規品であるか適切なライセンスであるかについて確認はされていません。アクティベーションをバイパスまたは回避してはなりません。所有するソフトウェアが正規品であるか適切なライセンスが付与されているかどうかを確認するには、（aka.ms/genuine）をご参照ください。特定の更新、サポート、その他のサービスは、正式なMicrosoftのユーザーのみが対象となる場合があります。<br/>6.更新。ソフトウェアが定期的にシステムとアプリケーションの更新を確認して、ダウンロードおよびインストールを実施します。更新はMicrosoftまたは権限を与えられたソースからのみ取得できます。Microsoftはシステムの更新を実施して、更新を行う必要がある場合があります。本契約に同意することにより、お客様が追加の通知なく、このような自動更新の実施に同意したものとみなされます。<br/>7.ダウングレードの権利。Windowsのプロフェッショナルバージョンがプレインストールされたデバイスを製造会社またはインストール業者から入手した場合、Windows 8.1 ProまたはWindows 7 Professionalバージョンのいずれかを使用できます。ただし、（aka.ms/windowslifecycle）に記載のとおり、Microsoftが旧バージョンのサポートを提供している場合に限ります。本契約は、旧バージョンの使用に適用されます。旧バージョンに異なるコンポーネントが含まれている場合は、旧バージョンの契約でそれらのコンポーネントにかかる条項が、該当するコンポーネントの使用に適用されます。製造会社もしくはインストール業者、またはMicrosoftのいずれも旧バージョンをお客様に提供する義務を負うものではありません。旧バージョンは別途取得が必要になり、取得には手数料が発生することもあります。いつでも、旧バージョンをお客様が最初に入手したバージョンに変更することができます。<br/>8.地理的および輸出に関する制限。所有するソフトウェアが特定の地理的地域での使用に制限されている場合、該当する地域でのみソフトウェアをアクティベートできます。ソフトウェアに適用されるすべての国内および国際輸出に関する法令および規制を順守しなければなりません。これには、目的地、エンドユーザー、エンドユースに関する制限を含みます。地理的および輸出に関する制限の詳細については、（aka.ms/georestrict）および（aka.ms/exporting）をご参照ください。<br/>9.サポートと返金の手順。<br/>a.デバイスにプレインストールされているソフトウェアの場合。ソフトウェア全般のサポートのオプションについて、デバイスの製造会社またはインストール業者にお問い合わせください。ソフトウェアとともに提供されているサポート番号をご参照ください。Microsoftから直接取得した更新および補足プログラムに関して、（aka.ms/mssupport）に記載のとおり、適切なライセンスが付与されたソフトウェアに対してMicrosoftによる限定サポートサービスが提供される場合があります。返金を希望される場合、製造会社またはインストール業者に連絡をして返金方針を決めてください。お客様はそれらの方針に従ってください。返金には、ソフトウェアがインストールされているデバイスごとソフトウェアを返品する必要がある場合もあります。<br/>b.小売業者から入手したソフトウェア。Microsoftは、（aka.ms/mssupport）に記載のとおり、適切なライセンスを付与されたソフトウェアに対して、限定サポートサービスを提供します。小売業者からソフトウェアを購入し、返金を希望しており、かつソフトウェアを入手した小売業者から返金を得ることができない場合、Microsoftの返金方針に関する情報についてMicrosoftにお問い合わせください。（aka.ms/msoffices）をご参照ください。または、北米に居住の場合は (800) MICROSOFTにお電話をいただくか、（aka.ms/nareturns）をご参照ください。<br/>10.米国にお住まい（または会社であればビジネスの主たる場所が米国内）の場合、拘束力のある仲裁および集団訴訟の権利放棄。<br/>当社は紛争はないことを願っていますが、もし紛争が生じた場合、当社は紛争を非公式に解決するために60日間に渡り試みることに同意します。解決に至らない場合、お客様と当社は連邦仲裁法（「FAA」）に基づく米国仲裁協会（「AAA」）の面前で拘束力のある個別の仲裁を行い、判事または陪審員がいる法廷に提訴しないことに同意します。その代わりに、中立な仲裁人が決定を下し、FAAに基づく限定された上訴権は除き、仲裁人の決定が最終的なものとなります。集団訴訟、集団仲裁、私的司法長官による訴訟、および代理権を行使したその他の訴訟は認められません。また、全当事者の同意を得ることなく、個別の訴訟を集約することはできません。「当社」、「我々の」および「我々」はMicrosoft、デバイスの製造会社、およびソフトウェアのインストール業者を含みます。<br/>a.対象となる紛争-IP以外のすべて。用語「紛争」は、あり得る限り広義に解釈されます。これには、契約、保証、不法行為、法律、または規制を含むあらゆる法的理論に基づいて、ソフトウェア、その価格、本契約に関するお客様と製造会社またはインストール業者、またはお客様とMicrosoftとの間の一切の請求または論争を含みます。ただし、お客様のラインセンサー、当社または当社のライセンサーの知的財産権の実施または効力に関連した紛争は除きます。<br/>b.まず紛争通知を郵送してください。お客様と論争が生じており、当社の顧客サービス担当者が解決できなかった場合、米国郵便で紛争通知を送付してください。製造会社またはインストール業者への郵送宛先：法務部お客様の紛争がMicrosoftに対してである場合、Microsoft社への郵送宛先：LCA ARBITRATION, One Microsoft Way, Redmond, WA 98052-6399.お客様の名前、住所、連絡方法、問題の内容、お客様のご希望をお知らせください。（aka.ms/disputeform）よりフォームを入手できます。当社の紛争がお客様に対してである場合、同様に行います。60日経過後に紛争が解決に至らなかった場合、お客様または弊社は仲裁を開始できます。<br/>c.少額請求に関する裁判所の選択。お客様が裁判所の要件を満たしている場合、紛争通知を郵送する代わりに、お客様が居住している（または会社であればビジネスの主たる場所である）国、またはお客様の紛争がMicrosoftに対してである場合、当社の主たるビジネスの場所、King County, Washington USAの少額請求裁判所（small claims court）で当社を提訴できます。お客様より紛争通知を郵送いただいて、当社が解決に向けて尽力するために60日間の猶予をいただくことを希望しますが、お客様が少額請求裁判所に提訴する前に、紛争通知を郵送する必要はありません。<br/>d.仲裁の手続き。AAAは、すべての仲裁を商事仲裁規則（または、お客様が個人であり、ソフトウェアを個人または家庭で使用する場合、または75,000米ドル以下の紛争は、お客様が個人であるか本ソフトウェアをどのように使用されるかにかかわらず、消費者仲裁規則に基づいて実施します。詳細については、（aka.ms/adr）を参照いただくか、1-800-778-7879まで電話でお問い合わせください。仲裁を開始するには、（aka.ms/arbitration）に掲載されているフォームをAAAに提出してください。また、その写しを製造会社またはインストール業者（または、Microsoftとの紛争である場合はMicrosoft）へ郵送してください。25,000米ドル以下の紛争は、仲裁人が対面での聴取を実施する正当な理由がない限り、聴取は電話で実施されます。対面聴取はお客様が居住する（または、お客様のビジネスを行う主たる場所である）国で実施されるか、お客様の紛争がMicrosoftに対してである場合、当社の主たるビジネスの場所（King County, Washington）で実施されます。お客様が選択できます。仲裁人は、裁判所と同じ賠償をお客様個人に対して裁定できます。仲裁人は、宣言的または差し止めによる救済をお客様の個別請求に応じるためにお客様個人に対してのみ裁定できます。<br/>e.仲裁手数料および支払い。<br/>(i) 75,000米ドル以下の紛争。製造会社またはインストール業者（またはお客様の紛争がMicrosoftに対してである場合はMicrosoft）は、速やかにお客様の申し立て手数料を賠償し、AAAおよび仲裁人の手数料と費用を支払います。仲裁人が任命される前に、当社から提示する書面による最終和解案をお客様が拒否された場合、お客様の紛争は仲裁人の決定（「仲裁判断」と呼ばれます）に至ることになります。お客様に対する仲裁人の裁定が書面による最終和解案を上回る場合、製造会社およびインストール業者（またはお客様の紛争がMicrosoftに対してである場合はMicrosoft）の対応は以下のとおりです：(1) 裁定額または1,000米ドルのいずれか高い方の額を支払います (2) （該当する場合）お客様の合理的な弁護士手数料を支払います (3) 仲裁において、お客様の弁護士がお客様の請求を調査、準備、追及する過程で生じた合理的な費用（鑑定人の手数料および費用を含む）をすべて払い戻します。お客様と当社が金額について合意していない場合は、仲裁人が金額を決定するものとします。<br/>(ii) 75,000米ドル以上の紛争。申し立て手数料、AAAおよび仲裁人の手数料および費用には、AAAの規則が適用されます。<br/>(iii) 任意の金額の紛争。お客様が仲裁を開始した場合、仲裁人が仲裁の根拠がないまたは不適切な目的による申し立てであると判断した場合を除き、当社が払い戻したAAAまたは仲裁人の手数料および費用、またはお客様の申し立て手数料を請求しないものとします。当社が仲裁を開始した場合、当社は手数料、AAAおよび仲裁人の手数料および費用をすべて支払います。当社は、いかなる仲裁においても、当社の弁護士の手数料または費用をお客様に請求することはありません。手数料および費用は、紛争にかかる費用の算定に含めないものとします。<br/>f.1年以内に申し立てること。お客様および当社は、あらゆる請求または紛争（知的財産に関する紛争は除く — 第10条a項をご参照ください）について最初に申し立てが可能になった時点から1年以内に、少額請求裁判所（small claims court）に申し立てるか仲裁を申し立てなければなりません。1年以内に申し立てなかった場合、1年経過以降に申し立てることはできません。<br/>g.可分性。集団訴訟の権利放棄が、紛争全体または一部において違法または執行不能であると判断された場合、該当する条項は仲裁ではなく裁判所で手続きを進め、残りの条項は仲裁で手続きを進めるものとします。第10条のその他の条項で、違法または執行不能と判断された場合、該当の条項は分離されますが、第10条の残りの条項は引き続き適用されます。<br/>h.AAAの規則との不一致AAAの商事仲裁規則または消費者仲裁規則と不一致がある場合、本契約が適用されます。<br/>i.当事者または第三者受益者としてのMicrosoftMicrosoftがデバイスの製造会社である、またはお客様が小売業者からソフトウェアを入手した場合、Microsoftは本契約の当事者となります。その他の場合は、Microsoftは当事者ではありませんが、非公式な交渉および仲裁を通して紛争を解決するためのお客様と製造会社またはインストール業者との契約の第三者受益者です。<br/>11.準拠法契約違反請求および消費者保護法に基づく請求、不正競争防止法、黙示の保証に関する法令に基づく請求、不当利得返還請求および不法行為に基づく請求を含む、本ソフトウェア、本ソフトウェアの価格、本契約に関するすべての請求および紛争には、抵触法の原則にかかわらず、お客様が居住する州または国（または会社であればビジネスの主たる場所がある国）の法令が適用されます。米国では、仲裁に関するすべての規定はFAAに準拠するものとします。<br/>12.消費者の権利、地域での差。本契約は、一定の法的権利について記載しています。お客様がお住まいの州または国の法令に基づて、お客様は本契約とは異なる権利（消費者の権利を含む）を有している場合があります。お客様は、ソフトウェアを提供した当事者に関しての権利を有している場合もあります。お客様の州または国の法令で権利の変更が許可されていない場合、本契約によってその他の権利を変更しないものとします。例えば、お客様が以下のいずれかの地域でソフトウェアを入手した場合、または当該国の強行法が適用される場合、以下の条項がお客様に適用されます：<br/>a.オーストラリア。「限定的保証」に関する参照は、Microsoftまたは製造会社もしくはインストール業者によって提供される明示の保証に関する参照です。この保証は、オーストラリア消費者法に基づく法廷保証に従ったお客様の権利および救済を含めて、法に基づいてお客様が有するその他の権利または救済に加えて提供されます。<br/>本項では、「商品」とはMicrosoftまたは製造会社もしくはインストール業者が明示の保証を提供するソフトウェアを意味します。当社の商品は、オーストラリア消費者法に基づいて除外できない保証が付随します。お客様は、重大な欠陥に対して交換または返金、および合理的に予測可能な損失または損害に対する補償を受ける権利を有しています。また、商品が許容できる品質ではない場合およびその欠陥が重大な欠陥とはみなされない場合、お客様は商品の修理または交換を受ける権利を有します。<br/>b.カナダ。お客様はインターネットアクセスを無効にすることで、所有するデバイスの更新を停止できます。お客様がインターネットに再接続すると、ソフトウェアが更新を確認してインストールを再開します。<br/>c.欧州連合。以下の第13条d(i) 項に記載のアカデミック使用における制限は、本サイト（aka.ms/academicuse）に掲載されている地域には適用されません。<br/>d.ドイツおよびオーストリア。<br/>(i) 保証。適切にライセンスを付与されたソフトウェアは、ソフトウェアに付属するMicrosoftの文書に記載されているとおり実質的に動作します。ただし、製造会社またはインストール業者、およびMicrosoftは、ライセンスを付与されたソフトウェアに関して契約上の保証は提供しません。<br/>(ii) 責任の制限。故意による行為、重大な過失、製造物責任法に基づく請求、ならびに死亡または人身傷害および物理的障害が発生した場合、製造会社およびインストール業者、またはMicrosoftは、制定法に従って責任を負います。<br/>前述に従って、製造会社もしくはインストール業者、またはMicrosoftが重大な契約上の義務に違反し、その履行が本契約の正当な履行を促進し、その違反が本契約の目的および当事者が常に信頼できるコンプライアンス（いわゆる「基本的な義務」）を危うくする場合、製造会社もしくはインストール業者、またはMicrosoftは軽過失に限り責任を負います。その他の軽過失の場合、製造会社またはインストール業者またはMicrosoftは、軽過失に対して責任を負いません。<br/>e.その他の地域地域による違いに関する最新のリストについては、（aka.ms/variations）をご参照ください。<br/>13.追加の注意事項。<br/>a.ネットワーク、データおよびインターネットの使用。ソフトウェアおよびソフトウェアを介してアクセスしたサービスの機能には、お客様所有のデバイスがインターネットにアクセスする必要がある場合もあります。お客様のアクセスおよび使用（使用料を含む）は、お客様の携帯電話またはインターネットのプロバイダーの契約の条項が適用される場合があります。ソフトウェアの一定の機能によって、お客様はインターネットにより効率よくアクセスできるようになりますが、ソフトウェアの使用量の計算は、お客様のサービスプロバイダーの計算結果と異なる場合があります。お客様は、(i) お客様ご自身のプランおよび契約の条項を理解して遵守する、および(ii) パブリックネットワークやオープンネットワークを含むネットワークを使用またはネットワークにアクセスすることによって生じる問題に常に責任を負うものとします。お客様が許可されている場合に限り、お客様はソフトウェアを使用してネットワークに接続し、ネットワークのアクセス情報を共有することができます。<br/>b.H.264/AVCおよびMPEG-4ビジュアル規格およびVC-1ビデオ規格。ソフトウェアには、H.264/MPEG-4 AVCおよび/またはVC-1デコーディング技術が含まれていることがあります。MPEG LA, L.L.C.により以下の注意書きが必要です。<br/>本製品は、消費者の個人使用および非商用利用として、「AVC」、「VC-1」、および「MPEG-4 PART 2 VISUAL PATENT PORTFOLIO LICENSES」に基づいて、以下のライセンスを付与されています。(i) 上記の規格（「ビデオ規格」）に従ってビデオをエンコードすること、および/または (ii) 個人的および非商業的な活動に従事する消費者がエンコードした、および/またはビデオを提供するライセンスを有するビデオプロバイダーから取得した「AVC」、「VC-1」、および「MPEG-4 PART 2ビデオ」をデコードすること。他の用途に対してライセンスは付与されない、またはライセンスを黙示されることもありません。追加情報をMPEG LA, L.L.C.から入手できます。（AKA.MS/MPEGLA）をご参照ください。<br/>c.マルウェア対策。Microsoftは、お客様のデバイスをマルウェアから保護するように注意を払っています。本ソフトウェアは、他の対策がインストールされていない場合または有効期限が切れている場合、マルウェア対策保護の機能が有効になります。この機能を有効にするには、他のマルウェア対策ソフトウェアを無効にするか、削除しなければならない場合もあります。<br/>d.権利が限定されたバージョン。お客様が入手したソフトウェアのバージョンについて、特定または限定用途のマークがある、または特定または限定用途を意図している場合、お客様は指定された用途でのみご使用いただけます。お客様は、該当するバージョンのソフトウェアを商用、非営利または収益が発生する活動に使用することはできません。<br/>(i) アカデミック版。アカデミック版を使用するには、お客様がご購入される時点で、教育機関の学生、教員またはスタッフでなければなりません。<br/>(ii) 評価版。評価版（またはテストもしくはデモンストレーション）を使用する場合、ソフトウェアを販売、実際の運用環境でのソフトウェアの使用、または評価期間終了後のソフトウェアの使用はできません。本契約に一致しない規定がある場合でも、評価版ソフトウェアは、「現状有姿」の状態で提供されます。<br/>(iii) NFR。「NFR」または「Not for Resale」のマークがあるソフトウェアを販売することはできません。<br/>14.完全な契約。本契約（紙媒体のライセンス条項または製造会社もしくはインストール業者、またはMicrosoftによって提供され、お客様が使用されるソフトウェアの補足プログラム、更新、およびサービスに不随するその他の条項をすべて含む）および本契約に記載されたWebリンク先に含まれる条項は、本ソフトウェアおよび本ソフトウェアにかかる補足プログラム、更新、およびサービスに関する完全な契約です。（ただし、製造会社もしくはインストール業者、またはMicrosoftが補足プログラム、更新、またはサービスについてその他の条項を提供する場合はこの限りではありません）。本契約は、本ソフトウェアを実行して（aka.ms/useterm）にアクセスするか、「設定（Settings）」-「システム（System）」-「本ソフトウェアについて（About within the software）」から確認できます。また、ブラウザのアドレスバーにURLを入力して本契約のリンク先に記載されている条項を確認することもできます。また、お客様はそうすることに同意するものとします。お客様は、リンク先の条項を含めた条項を読んでから、ソフトウェアまたはサービスを使用することに同意されるものとします。お客様がソフトウェアおよびサービスを使用されることによって、お客様は本契約およびリンク先の条項を承認したとみなされることを理解しているものとします。本契約には情報リンクも含まれています。注意事項および拘束力のある条項を含むリンクは以下のとおりです。<br/>・ Microsoftプライバシーステートメント（aka.ms/privacy）<br/>・ Microsoftサービス規約（aka.ms/msa）<br/>・ Adobe Flash Playerライセンス条項（aka.ms/adobeflash）<br/>\f<br/>****************************************************************<br/><br/>限定的保証<br/>デバイスの製造会社またはインストール業者は、適切にライセンスを付与されたソフトウェアが、ソフトウェアに付属するMicrosoftの文書に記載されているとおり実質的に動作することを保証します。限定的保証の90日間にお客様がMicrosoftから直接更新または補足プログラムを取得する場合、Microsoftはユーザーに限定的保証を提供します。この限定的保証は、お客様によって生じた問題、お客様が指示に従わなかった場合の問題、または製造会社もしくはインストール業者、またはMicrosoftの合理的な管理が及ばないイベントによって生じた問題は対象としておりません。限定的保証は、最初のユーザーがソフトウェアを取得した時点から起算して90日間有効です。この90日期間中に、製造会社もしくはインストール業者、またはMicrosoftからお客様が入手可能な補足プログラム、更新、またはソフトウェア交換も対象となります。ただし、90日間の残りの期間または30日間のいずれか長い方が対象となります。ソフトウェア譲渡による限定的保証の延長はありません。<br/>製造会社もしくはインストール業者、またはMicrosoftが提供するその他の明示の担保、保証、または条件はありません。製造会社もしくはインストール業者、およびMicrosoftは、商品の適格性、特定目的への適合性、および非侵害であるものを含むすべての黙示の保証および条件を除外します。お客様の地域の法令で黙示の保証の除外が禁止がされている場合、黙示の担保、保証、または条件は、限定的保証期間中に限り有効であり、お客様の地域の法令で認められているのと同程度に限定されます。お客様の地域の法令において、より長い限定的保証期間が必要となる場合、本契約にかかわらず、より長い期間が適用されます。ただし、お客様は本契約に定められた救済策のみを受けることができます。<br/>製造会社もしくはインストール業者、またはMicrosoftが限定的保証に違反した場合、以下のいずれかを選択します。(i) 無償でソフトウェアを修理または交換する、または(ii) 該当する場合、ソフトウェア（または、選択した時点でソフトウェアがプレインストールされていたデバイス）を返品し、支払った額の返金を受ける該当する場合、製造会社もしくはインストール業者（またはお客様がMicrosoftから直接入手した場合はMicrosoft）は、補足プログラムを修理または交換、更新、およびソフトウェアの交換またはお客様が支払った額を返金します。保証違反の場合、これらの救済策のみをお客様は受けることができます。この限定的保証により、お客様は明確に限定された法的な権利を得ることができます。また、お客様は州または国によって様々に異なるその他の権利を有する場合があります。<br/>製造会社もしくはインストール業者、またはMicrosoftが提供する修理、交換、または返金を除き、お客様は、この限定的保証に基づいて、本契約のその他の条項に基づいて、またはいかなる理論に基づいて、利益の損失または直接的、結果的、特別な、間接的、または不随的損害を含む損害の補償またはその他の救済策を受けることはできません。本契約の損害の除外および救済制限は、損傷に対する修理、交換または返金がお客様の損失を完全に補償しない場合でも、製造会社もしくはインストール業者、またはMicrosoftが損害の可能性を認識していたまたは認識しているべきであった場合でも、または本質的目的の救済に失敗した場合でも適用されます。不随的、結果的、またはその他の損害の除外または制限を認めない州または国もあるため、該当する制限または除外がお客様に適用されない場合もあります。お客様の地域の法令で、製造会社もしくはインストール業者、またはMicrosoftによる損害をお客様に補償することが認められている場合、本契約では認めていない場合であっても、お客様がソフトウェアに支払った（または、お客様がソフトウェアを無償で入手した場合は最大50米ドル）以上の額を補償することはできません。<br/>保証の手続き<br/>サービスまたは返金について、お客様は購入の証明書を提示し、製造会社またはインストール業者の返却方針に従う必要があります。これには、ソフトウェアがインストールされたデバイスごと返却しなければならない場合もあります。プロダクトキー（お客様のデバイスに付与されている場合）を含む正規のラベルの証明書は貼り付けたままにしておく必要があります。<br/>お客様のデバイスとともに提供されたアドレスまたフリーダイヤルの電話番号から製造会社またはインストール業者に連絡し、ソフトウェアの保証サービスの取得方法についてお問い合わせください。Microsoftがお客様のデバイスの製造会社である場合、またはお客様が小売業者からソフトウェアを入手した場合は、Microsoftにお問い合わせください。<br/>1.米国およびカナダ。米国またはカナダで入手したソフトウェアの保証サービスまたは返金の取得方法に関する情報は、お電話（(800) MICROSOFT）にてMicrosoftにお問い合わせいただくか、Microsoftカスタマーサービスおよびサポート（One Microsoft Way, Redmond, WA 98052-6399）まで郵送にてお問い合わせいただくか、（aka.ms/nareturns）をご参照ください。<br/>2.ヨーロッパ、中東、およびアフリカ。お客様がソフトウェアをヨーロッパ、中東、またはアフリカで入手された場合は、Microsoft Ireland Operations Limited（Customer Care Centre, Atrium Building Block B, Carmanhall Road, Sandyford Industrial Estate, Dublin 18, Ireland）、またはお客様の国のMicrosoft関連会社（aka.ms/msoffices）のいずれかにお問い合わせください。<br/>3.オーストラリア。お客様がソフトウェアをオーストラリアで入手された場合、以下の方法でMicrosoftにお問い合わせて請求をしてください。13 20 58に電話するか、Microsoft Pty Ltd, 1 Epping Road, North Ryde NSW 2113 Australiaに郵送してください。<br/>4.その他の国お客様がソフトウェアを別の国で入手された場合は、お客様の国（aka.ms/msoffices）のMicrosoft関連会社にお問い合わせください。<br/><br/>EULAID:RSC_R1_2_ED_PS_O_en-us<br/>"
+    },
+    "common": {
+      "buttons": {
+        "agree": "同意します。",
+        "disagree": "同意しません。"
+      },
+      "header": {
+        "microsoft": "マイクロソフトユーザーライセンス契約"
+      },
+      "instructions": "下記ライセンスを確認し、ご承認ください。"
+    }
+  },
+  "Crimson": {
+    "Procedures": {
+      "BadBackgroundCheck": "検査項目高値。自動洗浄の実行。",
+      "ShuttingDown": "シャットダウン"
+    },
+    "BoldProcedures": {
+      "BadBackgroundCheck": "<strong>検査項目高値。自動洗浄の実行。</strong>"
+    },
+    "Reminders": {
+      "RunMonthlyRinse": "毎月の洗浄のお知らせ。",
+      "ReagentExpiring": "試薬キットの有効期限が少なくなりました。",
+      "StainExpiring": "染色パックの有効期限が少なくなりました。",
+      "ReagentLow": "試薬キットの残量が低下しています。",
+      "StainLow": "染色パックの残量が低下しています。"
+    },
+    "BoldReminders": {
+      "RunMonthlyRinse": "<strong>毎月の洗浄のお知らせ。</strong>",
+      "ReagentExpiring": "<strong>試薬キットの有効期限が少なくなりました。</strong>",
+      "StainExpiring": "<strong>染色パックの有効期限が少なくなりました。</strong>",
+      "ReagentLow": "<strong>試薬キットの残量が低下しています。</strong>",
+      "StainLow": "<strong>染色パックの残量が低下しています。</strong>"
+    },
+    "ReagentKit": {
+      "Expired": "試薬キットの有効期限が切れています。"
+    },
+    "BoldReagentKit": {
+      "Expired": "<strong>試薬キットの有効期限が切れています。</strong>"
+    },
+    "StainPack": {
+      "Expired": "染色パックの有効期限が切れています。"
+    },
+    "BoldStainPack": {
+      "Expired": "<strong>染色パックの有効期限が切れています。</strong>"
+    }
+  },
+  "usb": {
+    "copyError": {
+      "title": "ファイルのコピーにエラーが発生しました。",
+      "body": "ファイルのコピーに問題が発生しました。プロセスは完了していません。<linebreak/>正しいドライブが選択されていることを確認し、もう一度行ってください。問題が解決しない場合は、IDEXXサポートにご連絡ください。"
+    }
+  },
+  "restore": {
+    "buttons": {
+      "restoreData": "データ復旧"
+    },
+    "restoreInterstitial": {
+      "title": "データ復旧",
+      "body": "どのデータを復旧しますか？"
+    },
+    "selectData": {
+      "allAvailableData": "全データ",
+      "patientData": "患者データのみ",
+      "hematologyCalibrationData": "較正データのみ",
+      "userSettingsData": "ユーザー設定データのみ"
+    },
+    "insertDrive": {
+      "title": "データ復旧",
+      "body": "USBバックアップドライブを挿入します。再起動とバックアップデータの復旧を行います。測定中の場合、測定終了後に「次へ」をタップしてください。",
+      "firstBootInsertUsb": "USBバックアップドライブを挿入して、<strong>「次へ」</strong>をタップします。"
+    },
+    "selectDrive": {
+      "title": "USBドライブを選択してください",
+      "body": "復元するデータが保存されているドライブを選択してください。指定のドライブが一覧に表示されない場合は、別のUSBポートでもう一度行います。"
+    },
+    "selectDriveData": {
+      "title": "データ復旧",
+      "body": "復旧したい保存データを選択してください。",
+      "titleNoBackup": "バックアップが見つかりませんでした",
+      "bodyNoBackup": "以前のバックアップは、選択したドライブ上で見つかりませんでした。以前のバックアップを含むドライブを挿入してください。"
+    },
+    "copyRestore": {
+      "title": "データ復旧",
+      "body": "復旧するファイルを準備しています。お待ちください。"
+    },
+    "restoreReady": {
+      "title": "復元の準備",
+      "body": "処理を続行する前にUSBドライブを取り外します。ドライブを取り外して、<strong>「OK」</strong>を選択します。",
+      "firstBootBody": "IDEXX ベットラボ ステーションは、再起動して変更を適用します。"
+    },
+    "restoreRebootModal": {
+      "title": "データ復旧",
+      "restoreCompleted": "復旧が完了しました",
+      "hematologySuccess": "較正のデータは保存されました。",
+      "patientDataSuccess": "患者データは保存されました。",
+      "settingsDataSuccess": "ユーザー設定を復旧しました",
+      "hematologyFailure": "較正データの復旧エラー",
+      "patientDataFailure": "患者データ復旧エラー",
+      "settingsDataFailure": "ユーザー設定復旧エラー",
+      "contentDataFailure": "画像データの復旧エラー",
+      "failure": "完全復旧が必要な場合はやり直してください。"
+    },
+    "notEnoughSpace": {
+      "title": "不十分な容量",
+      "body": "システムにデータ復旧するための十分な容量がありません。容量を空けて、再度実施してください。"
+    },
+    "unknownError": {
+      "title": "不明なエラー",
+      "body": "復旧プロセス中に不明なエラーが発生しました。再度、実施してください。"
+    },
+    "ssRestoreModal": {
+      "header": "スマートサービスのバックアップを見つける",
+      "body": "スマートサービスのバックアップが見つかりました。復元すると、現在の患者のデータと設定が上書きされることがあります。再起動が必要な場合があります。"
+    },
+    "futureSoftware": {
+      "title": "データベースの復旧エラー",
+      "body": "このデータベースを復旧するためには、IDEXX ベットラボ ステーションのソフトウェアアップグレードが必要です。<linebreak/>IDEXX ベットラボ ステーションのソフトウェアをアップグレードするか、IDEXX テクニカルサポートに連絡してアップグレードをリクエストしてください。"
+    }
+  },
+  "backups": {
+    "backupError": {
+      "title": "バックアップ エラー",
+      "body": "バックアップを作成しようとしてエラーが発生しました。再度、実施してください。バックアップが完了しない場合は、IDEXX テクニカルサポートまでご連絡ください。"
+    },
+    "insertDrive": {
+      "title": "データバックアップ",
+      "body": "USBドライブを挿入し、「<strong>次へ</strong>」をタップして、続行します。"
+    },
+    "selectDrive": {
+      "body": "バックアップに使用するドライブを選択してください。指定のドライブが一覧に表示されない場合は、別のUSBポートでもう一度行います。"
+    },
+    "performBackup": {
+      "title": "データバックアップ",
+      "preparingBackup": "ファイルの準備ができると、すぐにバックアップが開始されます。",
+      "copyingBackup": "患者のデータをコピーしています。しばらくお待ちください。",
+      "copyingComplete": "バックアップが完了しました。USBドライブを取り外して、安全な場所に保管してください。"
+    },
+    "notEnoughCapacity": {
+      "title": "不十分な容量",
+      "body": "選択したドライブには、十分な空き容量がありません。<linebreak/>ファイルを削除するか、容量の大きいドライブで再度行ってください。"
+    },
+    "notEnoughSpace": {
+      "title": "ファイルを削除しますか？",
+      "body": "バックアップ先の空き容量が不足しているため、ファイルを削除する必要があります。これらのファイルを削除して続行する場合は、「<strong>OK</strong>」を選択します。"
+    }
+  },
+  "upgrades": {
+    "upgradeAvailable": {
+      "title": "ソフトウェアの更新準備ができました。",
+      "instructions": {
+        "SMART_SERVICE": "ダウンロード済みの更新プログラムをインストールする場合は、「<strong>スマートサービス</strong>」をタップします。",
+        "USB": "USBドライブから更新を実行する場合は「<strong>USB</strong>」をタップします。"
+      },
+      "buttons": {
+        "SMART_SERVICE": "スマートサービス",
+        "USB": "USB"
+      }
+    },
+    "ssUpgradeAvailable": {
+      "instructions": "IDEXX ベットラボ ステーションのアップグレードバージョン{{ version }}は、スマートサービス経由でダウンロードされました。<linebreak/>アップグレードプロセスを開始するには、「<strong>今すぐアップグレード</strong>」をタップしてください。<br/>後で更新する場合は、「<strong>後で更新</strong>」をタップしてください。<linebreak/>",
+      "shutDownWarning": "注意：アップグレード中に、ベットラボ ステーションの電源が切れます。",
+      "buttons": {
+        "upgradeNow": "今すぐ更新",
+        "remindMeLater": "後で通知"
+      }
+    },
+    "driveSelection": {
+      "body": "ソフトウェア更新の保存場所を選択してください。指定のドライブが一覧に表示されない場合は、別のUSBポートでもう一度行ってください。"
+    },
+    "noUpgrades": {
+      "title": "更新ファイルが見つかりません",
+      "body": "IDEXX更新ファイルが入っているドライブを挿入します。"
+    },
+    "copying": {
+      "title": "アップグレード",
+      "body": "更新の準備が完了するまでUSBドライブを取り外さないでください。"
+    },
+    "readyToUpgrade": {
+      "title": "更新の準備が完了しました。",
+      "body": "処理を続行する前にUSBドライブを取り外します。ドライブを取り外し、「<strong>OK</strong>」を<linebreak/>選択してください。"
+    },
+    "upgradeLetter": {
+      "title": "アップブレードレター",
+      "modalBody": "「<strong>表示</strong>」を選択して、リリースの特徴を説明するアップグレードレターを確認してください。<linebreak/>「<strong>アップグレード</strong>」を選択して次に進みます。",
+      "readButton": "読み込み",
+      "upgradeButton": "アップグレード"
+    },
+    "drivesFound": {
+      "title": "更新する場合は、USBを取り外します。",
+      "firstWarning": "処理を続行する前にUSBドライブを取り外す<strong>必要</strong>があります。ドライブを取り外し、「<strong>OK</strong>」を<linebreak/>選択してください。",
+      "secondWarning": "処理を続行する前にUSBドライブを取り外す<strong>必要</strong>があります。<linebreak/>更新を進める場合は、「<strong>OK</strong>」を選択してください。システムが再起動します。"
+    },
+    "success": {
+      "title": "ソフトウェアの更新成功",
+      "body": "アップグレードが完了しました。"
+    },
+    "failure": {
+      "title": "アップグレード失敗",
+      "body": "アップグレードが行えませんでした。IDEXXサポートまでご連絡ください。"
+    },
+    "instrumentUpgradeComplete": {
+      "title": "{{instrumentName}}：ソフトウェアの更新成功",
+      "body": "{{instrumentName}}検査器は正常にアップグレードされました。",
+      "procyteDxBody": "ProCyte Dxは正常にアップグレードされました。<linebreak />ProCyte Dxの電源スイッチを使用して、検査器の電源を入れてください。",
+      "upgradeLetterTransferSuccess": "アップグレードに含まれる機能の詳細については、メッセージセンターで関連通知をチェックしてください。",
+      "upgradeLetterTransferFail": "アップグレード通知の送信に失敗しました。アップグレードに含まれる機能の詳細については、IDEXXサポートまでご連絡ください。",
+      "uriSysDxBody": "{{instrumentName}}は正常にアップグレードされました。"
+    },
+    "instrumentUpgradeModal": {
+      "title": "ソフトウェアの更新",
+      "body": "{{ currentVersion }}から{{ newVersion }}に更新してください。更新が完了するまで、{{ instrumentName }}を使用して検体処理をすることはできません。"
+    }
+  },
+  "settings": {
+    "categories": {
+      "SMART_SERVICE": "スマートサービス",
+      "VET_CONNECT_PLUS": "ベットコネクト プラス",
+      "PRACTICE_MANAGEMENT": "顧客情報管理システム",
+      "ALERTS_NOTIFICATIONS": "アラートおよび通知",
+      "DISPLAY": "ディスプレー（表示）",
+      "LANGUAGE": "言語",
+      "PRACTICE_INFO": "病院情報",
+      "PRINTING": "印刷",
+      "REPORTS": "検査結果",
+      "TIME_DATE": "日付と時間",
+      "UNITS": "単位"
+    },
+    "display": {
+      "title": "ディスプレー（表示）",
+      "includeOnHomeScreen": "ホーム画面を含む",
+      "includeInPatientAndOrderDetails": "患者および注文詳細を含む",
+      "pendingList": "検査待ちリスト",
+      "censusList": "受付済み患者のリスト",
+      "doctor": "担当医",
+      "breed": "品種",
+      "sex": "性別",
+      "weight": "重量",
+      "reasonForTesting": "検査理由"
+    },
+    "language": {
+      "labels": {
+        "title": "言語",
+        "location": "地域"
+      }
+    },
+    "printing": {
+      "title": "印刷",
+      "autoPrintSettings": "自動印刷設定",
+      "autoPrintWhenComplete": "自動印刷機能",
+      "doNotAutoPrintManualSNAP": "SNAPの結果を自動印刷しないでください",
+      "doNotAutoPrintSNAPPro": "SNAP Proの結果を自動印刷しないでください",
+      "numberOfCopies": "印刷部数",
+      "defaultPrinter": "通常使うプリンター",
+      "paperFormat": "用紙サイズ",
+      "paperSize": {
+        "A4": "A4",
+        "LEGAL": "法定サイズ",
+        "LETTER": "レターサイズ"
+      },
+      "pageBreakOptions": "改ページのオプション",
+      "naturalPageBreaks": "自動改ページを行わない",
+      "clearAllPrintJobs": {
+        "button": "印刷中止",
+        "confirmModal": {
+          "title": "印刷中止してもよろしいですか？",
+          "body": "<strong>{{printer}}</strong>のキューを印刷中止にしてもよろしいですか？"
+        },
+        "sucessToast": "「{{printer}}」のすべての印刷中止"
+      }
+    },
+    "units": {
+      "labels": {
+        "title": "単位",
+        "weight": "重量",
+        "Pounds": "ポンド（lbs）",
+        "Kilograms": "キログラム（kg）",
+        "millimeters": "ミリメートル（mm）",
+        "millimeters_short": "月",
+        "centimeters": "センチメートル（cm）",
+        "centimeters_short": "cm",
+        "inches": "インチ（in）",
+        "inches_short": "インチ"
+      }
+    },
+    "alertsAndNotifications": {
+      "labels": {
+        "title": "アラートおよび通知",
+        "newResults": "検査結果",
+        "showNewResultsToggleLabel": "新しい結果の通知を表示",
+        "beepToggleLabel": "新しい結果が利用可能になるとビープ音にて通知",
+        "timeIntervalSingleMinute": "1分",
+        "timeIntervalMinutes": "{{minutes}}分",
+        "timeIntervalSingleSecond": "1秒",
+        "timeIntervalSeconds": "{{seconds}}秒",
+        "timeIntervalNoTimeout": "却下しない"
+      }
+    },
+    "timeAndDate": {
+      "labels": {
+        "timeAndDate": "日付と時間",
+        "dst": "夏時間",
+        "automaticallyAdjust": "自動調整",
+        "changeTimeZone": "タイムゾーンの変更",
+        "locationDefault": "場所を選択して、タイムゾーンのフィルタを適用してください",
+        "tzDefault": "タイムゾーンを選択してください",
+        "tzDisplay": "({{ shortName }}) {{ longName }} {{ city }} ({{ currentTime }})",
+        "tzDisplayNoTime": "({{ shortName }}) {{ longName }} {{ city }}",
+        "currentTime": "現在の日付/時刻"
+      }
+    },
+    "confirmRestart": {
+      "title": "設定",
+      "body": "変更を保存するため、IDEXX ベットラボ ステーションのコンピューターを再起動してださい。<linebreak/>ベットラボ ステーションに接続している検査器が測定中の場合、コンピューターを再起動しないでください。<linebreak/>変更を保存して再起動を行いますか？",
+      "restartNow": "今すぐ再起動"
+    },
+    "practiceInfo": {
+      "headers": {
+        "doctorsName": "担当医の名前",
+        "idexxAccountNumber": "IDEXX アカウント番号"
+      },
+      "labels": {
+        "practiceInfo": "病院情報",
+        "idexxAccountNumber": "IDEXX アカウント番号",
+        "doctor": "担当医",
+        "enterAccountNumber": "IDEXXアカウント番号を入力してください。",
+        "enterDoctorName": "担当医の名前を入力してください。",
+        "firstName": "名前",
+        "lastName": "名字"
+      },
+      "confirmDeleteDoctor": {
+        "header": "担当医を削除",
+        "body": "この担当医をリストから削除しますか？"
+      }
+    },
+    "practiceManagement": {
+      "labels": {
+        "display": "ディスプレー（表示）",
+        "practiceManagement": "顧客情報管理システム",
+        "requisitionId": "購入仕様書番号（Requisition ID:）",
+        "results": "結果",
+        "required": "必須",
+        "transmitResults": "検査結果転送（データ）",
+        "transmitResultsAndReports": "検査結果およびレポート転送（データおよびPDF）"
+      },
+      "buttons": {
+        "configure": "設定",
+        "removePims": "PIMSを削除"
+      },
+      "status": {
+        "disabled": "無効",
+        "notReady": "準備中",
+        "offline": "オフライン",
+        "ready": "準備完了"
+      },
+      "pimsRemoved": "PIMSが正常に削除されました。",
+      "donNotTransmitRecords": "選択日より前のデータを転送しない",
+      "pimsOfflineHeader": "PIMSはオフライン",
+      "pimsOfflineBody1": "IDEXX ベットラボ ステーションは、PIMSに接続できません。このPIMSを今後使用しない場合には、<strong>「PIMSを削除」</strong>ボタンをタップし、初期画面からアイコンを削除します。",
+      "pimsOfflineBody2": "詳細についてはIDEXX テクニカルサポートまでご連絡ください。",
+      "requisitionIdContent": "購入仕様書番号は顧客情報管理システムが検査結果を患者のカルテに自動的に取り込む際に使用されます。",
+      "resultsNotTransmitted": "この日以降、{{count}}件のデータが作成されましたが、転送されていません。",
+      "configure": {
+        "title": "顧客情報管理システム",
+        "serialConnection": "シリアル接続",
+        "networkConnection": "ネットワーク接続",
+        "none": "なし",
+        "autoConnect": "自動接続",
+        "directConnect": "直接接続",
+        "ipAddress": "IPアドレス:",
+        "integrationName": "統合名："
+      },
+      "eula": {
+        "title": "IDEXX Connection Agreement",
+        "body": "<b>ユーザーへの注意：本契約書をよく読んだ上で同意いただき、IDEXXへの接続を行ってください。</b>IDEXX INTEGRATIONを使用することによって、お客様およびお客様が代表する組織は、本契約書のすべての条項と条件に合意したものとみなされます。お客様は、本契約が交渉による書面の契約書にお客様が署名したものと同様に強制力を有することに同意するものとします。同意されない場合は、IDEXX INTEGRATIONをお使い頂くことはできません。<br/><br/>本契約は、貴院の顧客情報管理システムソフトウェア（「<u>PIMS</u>」）とアイデックス ラボラトリーズ株式会社、その関係会社、またはIDEXXの正規販売代理店が提供する機器（診断機器、検査情報および顧客情報管理システム、レントゲン用商品、および関連するコンピュータなど）（「<u>IDEXX機器</u>」）との間の情報転送に関連して当社が提供するサービスの利用条件（「<u>サービス</u>」）を定めるものです。<b>我々は、我々に</b>および<b>我々の</b>は、IDEXX、IDEXXの関係会社および正規販売代理店に言及するものとします。<br/><br/><u>1.サービスの範囲：</u>お客様が本契約に同意した時点で、IDEXX機器にインストールされているソフトウェアが起動し、PIMSによってインストール済みのソフトウェアとの通信が許可されます。この通信によって、PIMSがリスエストと患者の予約状況をIDEXX機器に送信できるようになります。必要な識別情報と併せてリクエストと患者の利用可能な結果をPIMSに返信することもできます。これにより、PIMSは受信する結果を固有に識別し、管理することができます。サービスを提供するために、IDEXX機器はPIMSの特定のデータをリクエストし、受信します。これは、各リクエストに応じた要求を満たすことに役立ちます。お客様が所有またはご使用のIDEXX商品において、本サービスをご利用いただけない場合もあります。<br/><br/>2.<u>技術的な環境：</u>本サービスをご使用いただくには、当社規定の通り、お客様のPIMSとIDEXX機器との接続にイーサネットが必要です。IDEXX機器とイーサネット接続はお客様で準備いただき、その費用をご負担頂くことになります。適切に動作するように、お客様でサービスに適したネットワーク接続を用意いただきます。<br/><br/>3.<u>限定的保証</u>当社は、IDEXX機器の購入時に付与された限定的保証に含まれているサービスを保証します。限定的保証の詳細については、IDEXX機器のご購入時に提供された販売条件を参照いただくか、当社ウェブサイト<u>www.idexx.com</u>をご確認ください。お客様のPIMSのパフォーマンスまたはIDEXX機器が提供するデータの解釈について、当社は事実の表明や保証をしないものとします。<br/><br/>4.<u>責任の制限。</u>当社は、合理的に支配できない状況による本契約の不履行について責任を負わないものとします。どのような場合でも、当社または当社のライセンサーは、お客様のサービス利用による利益または利用の損失、営業権の損失またはその他特別な、付随的または結果的、間接的、懲罰的または重畳的損害賠償（営業権、データまたは機器の損失またはビジネスの中断を含むが、それらに限られない）について、保証、契約、不法行為にせよそうでないにせよ、当社がそのような損害の可能性について知らされていた場合でも、お客様または他の者または組織に対して責任を負わないものとします。本サービスに関する当社の全責任は、保証、契約、不法行為、その他に基づくかを問わず、500ドルを超えないものとします。一部の管轄区域では、特別、付随的、結果的、間接的、懲罰的または重畳的損害賠償の除外または制限、あるいは商品またはサービスに対して支払われた実際の価格に対する責任の制限が認められていないため、上記の制限がお客様に適用されない場合があります。当社の限定的保証により、お客様は明確に限定された法的な権利を得ることができます。また、お客様は管轄区域ごとに異なるその他の権利を有する場合があります。<br/><br/>5.<u>IDEXX データの使用：</u>お客様は、貴院のデータに含まれるオーナーのデータを含む貴院のデータにアクセスする権限、および以下の目的において使用を許可されている貴院のその他のデータと当該データを組み合わせるまたは関連付ける権限を当社に与えるものとします。（a）単独またはその他匿名化された病院との比較のいずれかで、パフォーマンスと利用率の解析を貴院に提供する、（b）モニタリング、トラブルシューティング、診断、およびIDEXX機器のサービス、（c）IDEXX機器ソフトウェアのアップグレード、（d）データのバックアップおよび保管、（e）リサーチおよび解析目的で、貴院のデータを他のデータ（他の病院のデータを含む）と集約する、（f）その他の場合、貴院にサービスを提供する、（g）当社の法的権利を提示および擁護する。通常、当社は匿名化された形式を除き、貴院のデータを第三者と共有しません。ただし、お客様へのサービスの提供、本契約の管理、支払の手配、回収、処理、法令順守、または当社の法的権利の擁護に必要とされる場合を除きます。当社は、お客様から書面による特別な許可を得ている場合を除き、お客様および/またはオーナーに連絡をとるために当該データを使用しようとするリストブローカーまたはその他関係者へお客様のデータを開示することはありません。この権限付与は、スマートサービス™インテリジェントデバイス管理サービスを介して、あるいは修理または改修のためにデバイスを当社へ返送、あるいはCDまたはその他のストレージデバイスを当社へ送付するなど、別の形式でアクセスを提供することによって、お客様が利用可能とするデータに適用されます。当社に提供されるまたは当社が収集するお客様が保有する個人情報は、主としてアイデックス ラボラトリーズ株式会社（One IDEXX Drive, Westbrook, Maine 04092, USA）によって管理されます。また、米国の法律および本契約に従って米国で格納されます。当社は、お客様のデータを偶発的または違法な破壊、または不慮の紛失、改ざん、不正な開示または不正アクセスから保護するように設計された技術的および組織的な対策を導入しています。これにより、保護すべきデータの処理と性質が示すリスクに応じた適切なセキュリティレベルを提供します。お客様は、オーナーの個人情報を当社へ提供することについてオーナーから事前に同意を得ることを含むがこれに限定せず、自己の責任においてオーナーの個人情報を適切に管理することに同意したものとします。オーナーの個人情報の管理に関して、オーナーが当社またはお客様に対して苦情を申し立てた場合、またはオーナーとお客様または当社の間で紛争が生じた場合、お客様は、苦情または紛争を自己の責任において解決することに同意するものとします。また、そのような苦情または紛争について、お客様が当社の責任を合理的に立証する場合を除き、損害、責任、損失について当社は責任を負わないものとします。当社は、2001年12月27日付けの欧州委員会決定（Commission Decision）の付録に含まれる指令95/46/ECに基づき、第三国に設立された処理者への個人データの転送に関する標準契約条項（Standard Contractual Clauses）（処理者）に定められた条件に従って、欧州経済地域（「EEA」）に所在する病院から得た個人データを処理します。この条件は、本契約において参照の一部となります。<br/><br/>6.<u>準拠法、裁判地。陪審裁判の放棄。</u>本契約および本契約で企図されている取引き、および本契約に基づくまたは関連する当事者間の関連するすべての紛争は、契約、不法行為またはその他を問わず、法の抵触の原則に関係なく、米国メイン州法に準拠するものとします。紛争が本サービスまたは本契約に関連して生じた場合、当事者らは誠意をもって友好的な解決を図るため、通知から60日以内に協議を行うことに同意するものとします。友好的な解決に至らない場合、本契約、または本契約に対するその他契約、または本契約の違反、終了または無効に関連して生じた紛争は、国際商業会議所の仲裁ルールに従って、現在効力があり、当該規則によって任命される1人の仲裁人によって、最終的に解決するものとします。仲介の手続きは、英語で行うものとし、仲裁人に提出するまたは仲裁人によって提出されるすべての文書は英語を使用するものとします。<br/><br/><u>特に指定のない限り、仲裁の場所は米国、メイン州とします。</u><br/><br/><u>カナダの病院の場合、仲裁の場所はカナダ、オンタリオ州とします。</u><br/><br/><u>欧州経済地域の病院の場合、仲裁の場所は、オランダ、アムステルダムとします。</u><br/><br/>両当事者は、本契約に関連する法的措置において、重畳的、懲罰的損害賠償を双方に対して請求することを放棄するものとします。どのような場合においても、損害裁定またはその他の方法を許可する法律に基づくかどうかを問わず、仲裁人に重畳的、懲罰的損害を裁定する権限を与えないものとします。また、そのような損害賠償の裁定の表明は、仲裁人の権限を超えており、無効で法的強制力はないものとします。仲裁人の裁定は、当事者の唯一かつ排他的な救済であり、管轄裁判所で強制執行可能であるとします。取り消しは、仲裁人の不正行為または明確に不公平な行為に基づく場合のみとします。訴訟の勝訴当事者は、合理的な訴訟費用および経費の裁定を受ける権利があります。第6条に相反する内容が含まれていることにかかわらず、契約の変更、特定の履行、差し止め命令または衡平法上の救済を通して、本契約に基づいて手続きを始める当事者の権利を行使するために、他の当事者または他の当事者を介して行動する者に対して、各当事者は法廷（仲裁ではない）で手続きを始める権利を有します。各当事者は、現在または今後、手続きの裁判地または手続きが不便な法廷地に提出されることについて、いかなる異議も放棄するものとします。<br/><br/>7.<u>可分性。</u>本契約書のいずれかの条項が管轄裁判所によって何らかの点で無効または法的強制力がないと判断された場合、これによって、その他の条項の有効性および法的強制力が損なわれることはないものとします。また、お客様および当社は、そのような無効または法的強制力がない条項を、経済的効果において、無効または法的強制力のない条項に出来る限り近い法的強制力のある有効な取決めに置き換えることに合意するものとします。<br/><br/>8.<u>その他。</u>お客様は、当社の事前の書面による許可なしに、本契約またはIDEXX機器またはサービス（株購入、合併、事業の譲渡、法律の運用またはその他によるかを問わない）を他者に譲渡しないこと、またそのような譲渡の試みは無効であることに同意するものとします。本契約は、対象事項に関する当事者間の完全合意を構成し、本対象事項に関する当事者の口頭または書面による従前の合意は効力を失うものとします。本契約は、IDEXXによる修正版がお客様に提供される場合のみ変更できます。当社が変更を行う場合、事前にお客様に通知し、お客様がサービスの利用を続けることによって、お客様が変更に同意されたものとみなされます。本契約に基づき、他方の当事者による履行の要求、または当社の権利の行使において、当事者のいずれかによる遅延または不作為も、当事者の権利の放棄またはそのような権利のさらなる行使を妨げるものではないとします。<br/><br/>9.<u>契約書の写し。</u>本契約書の紙の写しを入手するには、IDEXX機器と共にお受け取りになった書類に記載されているIDEXX テクニカルサポートまでご連絡ください。<br/><br/>10.<u>対応言語。</u>本契約の翻訳版は、現地の要件に応じる場合のみ作成されます。英語版と英語以外の版で紛争が生じた場合、本契約に関する解釈のすべての疑問は、本契約の元の英語版が優先されます。本契約に従って交付または提供されるその他文書は、通知も含め、英語で作成される場合があります。"
+      }
+    },
+    "vcp": {
+      "buttons": {
+        "connect": "今すぐ接続",
+        "disconnect": "切断",
+        "testConnection": "接続テスト"
+      },
+      "labels": {
+        "vcp": "IDEXX VetConnect PLUS",
+        "howHelp": "IDEXX ベットコネクト プラスはどのようにお役に立てるのでしょうか？",
+        "info": "アカウントをお持ちではありませんか？IDEXX テクニカルサポートに連絡して有効化してください。"
+      },
+      "testConnection": {
+        "title": "接続テスト",
+        "success": "接続テストに成功しました",
+        "failure": "接続テストに失敗しました"
+      },
+      "disconnect": {
+        "title": "IDEXX ベットコネクト プラスの接続を無効にする",
+        "body": "IDEXX ベットラボ ステーションからIDEXX ベットコネクト プラスのアカウントの接続を無効にしますか？",
+        "disconnect": "切断",
+        "stayConnected": "いつでも接続"
+      },
+      "activate": {
+        "directions": "接続するには、IDEXX ベットコネクト プラスのユーザー名とパスワードを以下に入力してください。",
+        "activationError": "有効化エラー",
+        "success": "アカウントが有効になりました。",
+        "NOT_REACHABLE": "Webページにアクセスできないため、IDEXX ベットコネクト プラスのアクティベーションが行えません。<linebreak />インターネットに正しく接続していることを確認してください。<linebreak />また、IDEXX ベットラボ ステーションのルーターへの接続、ルーターのインターネットへの接続を確認してください。<linebreak />問題が解決できない場合、IDEXX テクニカルサポートまでご連絡ください。",
+        "INVALID_USER_PASSWORD": "ユーザー名またはパスワード、あるいはその両方が無効なため、IDEXX ベットコネクト プラスのアクティベーションが行えません。<linebreak />アカウントユーザー名とパスワードが正しいことを確認し、もう一度実行してください。<linebreak />問題が解決できない場合、IDEXX テクニカルサポートまでご連絡ください。"
+      },
+      "cards": {
+        "advancedDiagnostics": {
+          "title": "アドバンス診断",
+          "body": "全ての患者において、IDEXX診断の全体像が把握できます。"
+        },
+        "clinicalInsights": {
+          "title": "臨床的洞察",
+          "body": "IDEXX DecisionIQ™で次のステップを素早く調査してください。"
+        },
+        "saveTime": {
+          "title": "時間の節約",
+          "body": "飼い主に分かりやすい概要で飼い主とのコミュニケーションを標準化します。"
+        }
+      }
+    },
+    "smartService": {
+      "status": {
+        "NOT_ACTIVATED": "利用開始設定が完了していません",
+        "DISABLED": "無効",
+        "OFFLINE": "オフライン",
+        "CONNECTED": "有効",
+        "CONNECTING": "接続中"
+      },
+      "deactivateModal": {
+        "title": "スマートサービスの切断",
+        "body": "スマートサービスを切断してもよろしいですか？"
+      },
+      "buttons": {
+        "activate": "設定",
+        "deactivate": "無効化",
+        "terms": "サービス利用規約"
+      },
+      "blurb": {
+        "offlineBlurb": "スマートサービスへの再接続<br/><br/>1.インターネット接続に問題がないか、確認してください。<br/>2.IDEXX ベットラボ ステーションがIDEXXが提供したルーターに正しく接続されており、ルーターが貴院のネットワークに接続されていることを確認してください。下記に従って、両方の接続を確認します。<br/> <ul><li>a.貴院のネットワークからイーサネットケーブルが、IDEXXが提供したルーターに接続されていることを確認します。</li><li>b.イーサネットケーブルが、IDEXX ベットラボ ステーションの背面からIDEXXが提供したルーターへ接続されていることを確認します。</li></ul>3.以下のボタンを使用して、IDEXX ベットラボ ステーションを<strong>再起動</strong>します。<br/><br/>接続がオフラインのままの場合は、IDEXX テクニカルサポートにご連絡ください。<br/>"
+      },
+      "labels": {
+        "smartService": "IDEXX スマートサービス",
+        "howHelp": "IDEXX スマートサービスはどのようにお役に立てるのでしょうか？"
+      },
+      "activate": {
+        "activationError": "有効化エラー",
+        "success": "スマートサービスに接続しました！"
+      },
+      "cards": {
+        "Support": {
+          "title": "プロアクティブサポート",
+          "body": "遠隔操作のトラブルシューティングで、電話応対にかかる時間を減らし、患者様との時間を増やすことができます。"
+        },
+        "Backup": {
+          "title": "データバックアップの確保",
+          "body": "エンドツーエンド暗号化により、患者様の検査結果の安全性を確保します。"
+        },
+        "UpToDate": {
+          "title": "常に最新の状態にする",
+          "body": "検査器の稼働率を高め、ソフトウェアの自動更新を有効にします。"
+        }
+      },
+      "termsModal": {
+        "title": "サービス利用規約",
+        "titleActivate": "IDEXX スマートサービスに接続する",
+        "instructions": "該当のQRコードをスキャンして、IDEXX スマートサービスの利用規約を確認してください。",
+        "uslabel": "米国およびカナダ",
+        "otherLocations": "その他の国",
+        "smartServiceTerms": "IDEXX One Masterの利用規約のスマートサービスの条項をご参照ください。"
+      }
+    },
+    "reports": {
+      "title": "検査結果",
+      "editReportHeader": "レポートのヘッダーを編集",
+      "labels": {
+        "testResultsOrder": "検査項目の順序",
+        "testResultsFormat": "検査結果フォーマット",
+        "englishAssayNames": "測定項目に日本語を表示しない",
+        "outOfRange": "基準値範囲外の色の選択",
+        "highResults": "高値",
+        "lowResults": "低値",
+        "messageCodes": "メッセージコード",
+        "resultsBasedComments": "結果ベースのコメントを有効にする",
+        "printDotPlots": "結果によるドットプロット印刷",
+        "abnormalResults": "異常値"
+      },
+      "editHeader": {
+        "title": "ヘッダーを編集"
+      },
+      "colors": {
+        "Black": "黒",
+        "Blue": "青",
+        "Red": "赤色",
+        "Green": "緑色"
+      },
+      "resultsOrder": {
+        "OrganCellType": "臓器別/血球系",
+        "Standard": "標準"
+      },
+      "reportFormat": {
+        "Enhanced": "前回の検査結果表示",
+        "Standard": "標準"
+      },
+      "hematologyCodes": {
+        "FullText": "全文",
+        "Short": "簡易"
+      },
+      "header": {
+        "printHeader": "ヘッダ－ 印字設定",
+        "blankLines": "レターヘッド用の空行",
+        "dontPrint": "ヘッダーなし",
+        "lineOne": "1行目",
+        "lineTwo": "2行目",
+        "lineThree": "3行目"
+      }
+    }
+  },
+  "theia": {
+    "sampleSource": {
+      "LEFT_EAR": "左耳",
+      "RIGHT_EAR": "右耳"
+    },
+    "clinicalSigns": {
+      "label": "臨床徴候",
+      "ITCHINESS": "そう痒",
+      "ODOR": "匂い",
+      "REDNESS": "発赤",
+      "DISCHARGE": "退院"
+    },
+    "optionalClinicalSigns": {
+      "label": "耳炎の徴候",
+      "subLabel": "（例：不快感、臭い、発赤、分泌物）"
+    }
+  },
+  "boot": {
+    "language": {
+      "selectLanguage": "言語選択",
+      "selectLocation": "地域を選択"
+    },
+    "timeZone": {
+      "header": "地域とタイムゾーンを選択する",
+      "instructions": "タイムゾーンを正しく選択してください。選択を誤った場合、過去および将来の記録で不正確な時間が表示される可能性があります。"
+    },
+    "smartService": {
+      "header": "スマートサービスに接続する",
+      "whyActivate": "プロアクティブカスタマーサポート、データバックアップの確保、ソフトウェアの自動更新のためにIDEXX スマートサービスに接続します。"
+    },
+    "restore": {
+      "header": "データ復旧をしますか？"
+    },
+    "restart": {
+      "header": "再起動して設定を保存",
+      "body": "<strong>今すぐ再起動</strong>をタップするか、そのまま30秒待ってIDEXX ベットラボ ステーションを自動的に再起動します。",
+      "restarting": "再起動中"
+    },
+    "welcome": {
+      "title": "IDEXX ベットラボ ステーションへようこそ！"
+    },
+    "ssEula": {
+      "title": "合意通知",
+      "body": "IDEXX スマートサービス™の利用規約は変更されました。ご確認いただき、選択をしてください。<linebreak/>これらの変更に同意いただけない場合は、以下のサービスが中断または無効になります。<shortlinebreak/><ul><li>リアルタイムでのトラブルシューティングまたはソフトウェア導入</li><li>積極的な取り組み</li><li>ポイントプログラム補償</li><li>SediVue DxおよびProcyte Oneの消耗品の自動出荷</li></ul>"
+    }
+  },
+  "referenceClass": {
+    "Adult Canine": "成犬",
+    "Adult Equine": "成馬",
+    "Adult Feline": "成猫",
+    "African Gray": "アフリカングレー",
+    "Amazon Blue-Feather": "アオボウシインコ",
+    "Amazon Yellow": "キボウシインコ",
+    "Beef Cattle": "肉牛",
+    "Budgerigar": "セキセイインコ",
+    "Canary": "カナリア",
+    "Cockatiel": "オカメインコ",
+    "Cockatoo Molu": "オオバタン",
+    "Cockatoo Umber": "タイハクオウム",
+    "Conure": "メキシコインコ",
+    "Dairy Cow": "乳牛",
+    "Ferret": "フェレット",
+    "Foal": "子馬",
+    "Geriatric Canine": "シニア犬",
+    "Geriatric Equine": "シニア馬",
+    "Geriatric Feline": "シニア猫",
+    "Goat": "ヤギ",
+    "Gray Cheek": "ボタンインコ",
+    "Kitten": "子猫",
+    "Lizard": "トカゲ",
+    "Llama": "ラマ",
+    "Macaw Blue and Gold": "ルリコンゴウインコ",
+    "Macaw Hyacinth": "スミレコンゴウインコ",
+    "Macaw Scarlet": "コンゴウインコ",
+    "Mare at Stud": "雌馬",
+    "Monkey": "猿",
+    "Mouse": "マウス",
+    "No Control": "いいえコントロールはありません",
+    "Other": "その他",
+    "Parrot Eclect": "エクレクタス",
+    "Pig": "豚",
+    "Puppy": "子犬",
+    "Rabbit": "ウサギ",
+    "Rat": "ネズミ",
+    "Sea Turtle": "ウミガメ（研究用）",
+    "Sheep": "羊",
+    "Snake": "蛇",
+    "Tortoise": "カメ",
+    "Unknown": "不明",
+    "Yearling": "1歳馬"
+  },
+  "smartService": {
+    "offlineNotificationModal": {
+      "secondaryHeader": "スマートサービス",
+      "header": "接続してください",
+      "offlineForDays": "スマートサービスがオフラインになってから{{ daysOffline }}日間経過しています。"
+    },
+    "reconnectionInstructions": "スマートサービスへの再接続：<shortlinebreak /><ol><li>貴院のインターネットに接続されていて、正しく機能していることを確認してください。</li><li>イーサネットケーブルが、貴院のネットワークからIDEXXが提供したルーターへ正しく接続されていることを確認します。</li><li>イーサネットケーブルが、IDEXX ベットラボ ステーションの背面からIDEXXが提供したルーターへ正しく接続されていることを確認します。</li><li>検査中の状態で接続されている検査器がないことを確認します。IDEXXが提供したルーターからプラグを抜いて15秒～30秒たってから、ルーターを再起動します。所要時間はおよそ<strong>5分</strong>です。</li><li>ルーターの再起動プロセスが完了したら、下にあるボタンを使ってIDEXX ベットラボステーションを<strong>再起動</strong>します。</li></ol>接続が回復されない場合は、IDEXXサポートまでご連絡ください。"
+  },
+  "helpScreen": {
+    "sideBarTitle": "ヘルプとリソース",
+    "instrumentModal": {
+      "title": "マニュアルとリソース",
+      "instructions": "{{ instrumentName }}のマニュアル、クイックリファレンスガイド、検体の準備のポスターなどにアクセスします。"
+    }
+  }
+}

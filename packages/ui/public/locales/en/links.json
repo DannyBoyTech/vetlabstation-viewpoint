@@ -1,0 +1,15 @@
+{
+  "help": {
+    "instruments": {
+      "CATALYST_DX": "https://www.idexx.com/geolocate/catalyst-dx/",
+      "CATONE": "https://www.idexx.com/geolocate/catalyst-one/",
+      "COAG_DX": "https://www.idexx.com/geolocate/coag-dx/",
+      "CRIMSON": "https://www.idexx.com/geolocate/procyte-dx/",
+      "ACADIA_DX": "https://www.idexx.com/geolocate/procyte-one/",
+      "URISED": "https://www.idexx.com/geolocate/sedivue-dx/",
+      "SNAPPRO": "https://www.idexx.com/geolocate/snappro/",
+      "URISYS_DX": "https://www.idexx.com/geolocate/vetlab-ua/",
+      "VETSTAT": "https://www.idexx.com/geolocate/vetstat/"
+    }
+  }
+}

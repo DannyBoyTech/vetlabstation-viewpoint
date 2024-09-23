@@ -1,0 +1,1557 @@
+{
+  "ACADIA_DX": {
+    "ALG_RUN_FLAG_FAULT": {
+      "body": "Er is een onverwachte fout opgetreden, waardoor de run werd onderbroken. Meng het monster en voer de run opnieuw uit. Als het probleem aanhoudt, neem dan contact op met IDEXX-ondersteuning.",
+      "title": "Onverwachte fout"
+    },
+    "ASP_CLOT": {
+      "body": "De run werd geannuleerd vanwege onvoldoende volume van en/of klonten in het monster. Verzeker u ervan dat het monster voldoende volume heeft en controleer het op klonten. Meng dan het monster en voer de run opnieuw uit. Als het probleem aanhoudt, neem dan contact op met IDEXX-ondersteuning.",
+      "title": "Probleem met monster"
+    },
+    "ASP_ERROR": {
+      "body": "De run werd geannuleerd vanwege onvoldoende volume van en/of klonten in het monster. Verzeker u ervan dat het monster voldoende volume heeft en controleer het op klonten. Meng dan het monster en voer de run opnieuw uit. Als het probleem aanhoudt, neem dan contact op met IDEXX-ondersteuning.",
+      "title": "Probleem met monster"
+    },
+    "ASP_NO_FLUID": {
+      "body": "De run werd geannuleerd vanwege onvoldoende volume van en/of klonten in het monster. Verzeker u ervan dat het monster voldoende volume heeft en controleer het op klonten. Meng dan het monster en voer de run opnieuw uit. Als het probleem aanhoudt, neem dan contact op met IDEXX-ondersteuning.",
+      "title": "Probleem met monster"
+    },
+    "ASP_PARTIAL": {
+      "body": "De run werd geannuleerd vanwege onvoldoende volume van en/of klonten in het monster. Verzeker u ervan dat het monster voldoende volume heeft en controleer het op klonten. Meng dan het monster en voer de run opnieuw uit. Als het probleem aanhoudt, neem dan contact op met IDEXX-ondersteuning.",
+      "title": "Probleem met monster"
+    },
+    "ASP_START_IN_AIR": {
+      "body": "De run werd geannuleerd vanwege onvoldoende volume van en/of klonten in het monster. Verzeker u ervan dat het monster voldoende volume heeft en controleer het op klonten. Meng dan het monster en voer de run opnieuw uit. Als het probleem aanhoudt, neem dan contact op met IDEXX-ondersteuning.",
+      "title": "Probleem met monster"
+    },
+    "BARCODE_READ_FAILURE_QC": {
+      "body": "De barcode van de SmartQC kan niet worden gelezen. Controleer of de barcode op het label niet beschadigd of afgedekt is.",
+      "title": "De SmartQC-streepjescode kan niet worden gelezen"
+    },
+    "BARCODE_READ_FAILURE_REAGENT": {
+      "body": "Het ProCyte One-reagenspak kan niet worden geïdentificeerd, controleer de streepjescode. Indien deze beschadigd is, moet u contact opnemen met de ondersteuning van IDEXX.",
+      "title": "Reagenspak ongeldig"
+    },
+    "BARCODE_READ_FAILURE_SHEATH": {
+      "body": "Het ProCyte One-systeemreagenspak kan niet worden geïdentificeerd, controleer de streepjescode. Indien deze code beschadigd is, moet u contact opnemen met de ondersteuning van IDEXX.",
+      "title": "Systeemreagenspak ongeldig"
+    },
+    "BLEACH_CLEAN_RECOMMENDED": {
+      "body": "De laatste reiniging met bleekmiddel was 90 dagen geleden.<linebreak/>Dit proces duurt ongeveer 15 minuten en zorgt ervoor dat verontreinigingen worden verwijderd en dat de resultaten nauwkeurig zijn.",
+      "title": "90-dagen-herinnering: tijd om te reinigen met bleek."
+    },
+    "BLEACH_CLEAN_REQUIRED": {
+      "body": "Tik op de knop <strong>Reiniging met bleekmiddel uitvoeren</strong> om deze onderhoudstaak uit te voeren.<linebreak/>Dit proces duurt ongeveer 15 minuten en zorgt ervoor dat verontreinigingen worden verwijderd en dat de resultaten nauwkeurig zijn.",
+      "title": "Het is noodzakelijk elke 90 dagen met bleekmiddel te reinigen."
+    },
+    "CAMERA_INITIALIZATION_FAILURE": {
+      "body": "Er is een onverwachte fout opgetreden. Wacht terwijl de analysator zich herstelt. Als het probleem aanhoudt, neem dan contact op met IDEXX-ondersteuning.",
+      "title": "Onverwachte fout"
+    },
+    "DATA_PROCESSING_ERROR": {
+      "body": "Er is een onverwachte fout opgetreden, waardoor de run werd onderbroken. Meng het monster en voer de run opnieuw uit. Als het probleem aanhoudt, neem dan contact op met IDEXX-ondersteuning.",
+      "title": "Onverwachte fout"
+    },
+    "EXPIRED_REAGENT": {
+      "body": "Het reagens is verlopen.<linebreak/>Als u de analyzer wilt blijven gebruiken, moet u het reagens vervangen door een verpakking die nog geldig is. Tik op <strong>Reagens vervangen</strong> voor instructies.",
+      "title": "WAARSCHUWING: Reagens is verlopen."
+    },
+    "EXPIRED_SHEATH": {
+      "body": "Het systeemreagens is verlopen.<linebreak/>Als u de analyzer wilt blijven gebruiken, moet u het systeemreagens vervangen door een verpakking die nog geldig is. Tik op <strong>Systeemreagens vervangen</strong> voor instructies.",
+      "title": "WAARSCHUWING: Systeemreagens is verlopen."
+    },
+    "FILTER_LEAK": {
+      "body": "Er is een onverwachte filterfout opgetreden. Plaats het filter weer in de analyzer voordat u verder gaat.<linebreak/>Neem contact op met IDEXX-ondersteuning als het probleem aanhoudt.",
+      "title": "Filterfout"
+    },
+    "FILTER_REPLACE": {
+      "body": "Het vloeistoffilter moet worden vervangen. Dit proces duurt 3 à 4 minuten Plaats een nieuw filter in de analyzer of druk op <strong>Filter vervangen</strong> voor instructies.",
+      "title": "Vloeistoffilter vervangen"
+    },
+    "INSUFFICIENT_EVENTS": {
+      "body": "Er is een onverwachte fout opgetreden, waardoor de run werd onderbroken. Meng het monster en voer de run opnieuw uit. Als het probleem aanhoudt, neem dan contact op met IDEXX-ondersteuning.",
+      "title": "Onverwachte fout"
+    },
+    "JUNK_OVERLOAD": {
+      "body": "Een grote hoeveelheid niet-gelyseerde RBC's heeft de WBC-telling verstoord. Bevestig opnieuw met een bloeduitstrijkje. Neem contact op met IDEXX-ondersteuning voor verdere hulp.",
+      "title": "WBC-resultaten tegengehouden"
+    },
+    "MAINTENANCE_TUBE_ERROR": {
+      "body": "Er is een probleem met de buis voor het bleekproces. Bevestig dat het een buis is van 13 mm x 75 mm met de dop verwijderd en druk vervolgens op de <strong>Start</strong>-knop op de analyzer om door te gaan.<linebreak/>Druk op <strong>Annuleren</strong> om dit proces te beëindigen.",
+      "title": ""
+    },
+    "MICROCODE_WATCHDOG": {
+      "body": "Er is een onverwachte fout opgetreden. Wacht terwijl de analysator zich herstelt. Als het probleem aanhoudt, neem dan contact op met IDEXX-ondersteuning.",
+      "title": "Onverwachte fout"
+    },
+    "MISSING_CONTROL": {
+      "body": "Laad een SmartQC-flacon om automatische kwaliteitscontrole mogelijk te maken.",
+      "title": "Laad SmartQC-flacon"
+    },
+    "MISSING_REAGENT": {
+      "body": "Laad een reagenspakket om de monsterverwerking te hervatten.",
+      "title": "Reagenspakket ontbreekt"
+    },
+    "MISSING_SAMPLE": {
+      "body": "Bevestig dat de monsterbuis een ondersteunde met EDTA behandelde buis is, meng het monster, verwijder de stop of dop en voer de run op het monster opnieuw uit.",
+      "title": "Probleem met monsterbuis"
+    },
+    "MISSING_SHEATH": {
+      "body": "Laad een systeemreagenspak om de monsterverwerking te hervatten.",
+      "title": "Systeemreagenspak ontbreekt"
+    },
+    "OBC_EMPTY": {
+      "body": "De SmartQC-flacon is leeg en moet worden vervangen om verder te gaan met automatische kwaliteitscontrole.",
+      "title": "SmartQC is leeg"
+    },
+    "OBC_LOW": {
+      "body": "De SmartQC-flacon is bijna leeg en dient spoedig te worden vervangen. Zorg ervoor dat u een vervangende flacon op voorraad hebt.",
+      "title": "SmartQC bijna leeg"
+    },
+    "OVER_PRESSURE": {
+      "body": "Het systeem heeft een verstopping vastgesteld in een van de vloeistofleidingen. Wacht terwijl het systeem de verstopping automatisch probeert op te lossen.",
+      "title": "Er is sprake van verstopping"
+    },
+    "OVER_PRESSURE_UNRECOVERABLE": {
+      "body": "Er is een onverwachte fout opgetreden, waardoor de run werd onderbroken. Neem contact op met IDEXX-ondersteuning voor hulp.",
+      "title": "Onverwachte fout"
+    },
+    "OVER_TEMP": {
+      "body": "De bedrijfstemperatuur van de analysator is te hoog om run op het monster uit te voeren. Zorg ervoor dat er voldoende luchtstroom rond de analysator is.",
+      "title": "Temperatuurprobleem"
+    },
+    "PACK_ACCESS_OPEN": {
+      "body": "Sluit de deur van de analysator om verder te gaan.",
+      "title": "Deur analysator open"
+    },
+    "PACK_ACCESS_OPEN_RUN": {
+      "body": "De deur van de analysator werd geopend waarmee de run werd onderbroken. Sluit de deur van de analysator opdat de analysator automatisch kan resetten. Als de analysator de status <strong>Gereed</strong> aangeeft, meng dan het monster en voer de run opnieuw uit.",
+      "title": "Deur analysator open"
+    },
+    "QC_REMINDER": {
+      "body": "De SmartQC-flacon verloopt vóór uw volgende geplande automatische QC-run. Vervang deze door een niet-verlopen flacon.",
+      "title": "Uw SmartQC verloopt binnenkort"
+    },
+    "REAGENT_EMPTY": {
+      "body": "Uw reagenspak is leeg.<linebreak/>Om door te gaan met het gebruik van uw analyzer, tikt u op <strong>Reagens vervangen</strong> en volgt u de aanwijzingen op het scherm.",
+      "title": "WAARSCHUWING: Reagens is leeg"
+    },
+    "REAGENT_LOW": {
+      "body": "Het reagenspak is bijna leeg en moet binnenkort worden vervangen. Verzeker u ervan dat u een vervangend pak op voorraad hebt.",
+      "title": "Uw reagenspak is bijna leeg"
+    },
+    "REAGENT_PACK_LEAK": {
+      "body": "Het reagenspak trok onverwacht lucht aan. Controleer het vulvolume van het reagens en breng het pak weer aan. Vervang indien nodig het reagenspak."
+    },
+    "REAGENT_PACK_LEAK_RUN": {
+      "body": "Het reagenspak trok onverwacht lucht aan. Controleer het vulvolume van het reagens en breng het pak weer aan. Vervang indien nodig het reagenspak. Voer dit monster opnieuw uit nadat u de monsterbuis grondig gemengd heeft."
+    },
+    "SAMPLE_DRAWER_OPEN_QC": {
+      "body": "De monsterlade is geopend, wat de automatische kwaliteitscontroleprocedure onderbreekt. SmartQC gaat weer verder bij de volgende geplande interval.",
+      "title": "Monsterlade open"
+    },
+    "SAMPLE_DRAWER_OPEN_RUN": {
+      "body": "Sluit, om verder te gaan, de monsterlade en druk vervolgens op de knop <strong>Start</strong> aan de voorkant van de analysator.",
+      "title": "Monsterlade open"
+    },
+    "SAMPLE_TUBE_RUN_END": {
+      "body": "De run is geannuleerd vanwege het gebruik van een niet-ondersteunde monsterbuis of een buis met een niet-doorprikbare stop. Neem contact op met IDEXX-ondersteuning voor hulp.",
+      "title": "Probleem met monsterbuis"
+    },
+    "SHEATH_EMPTY": {
+      "body": "Uw systeemreagenspak is leeg.<linebreak/><linebreak>Om door te gaan met het gebruik van uw analyzer, tikt u op <strong>Systeemreagens vervangen</strong> en volgt u de instructies op het scherm.",
+      "title": "WAARSCHUWING: Systeemreagens is leeg"
+    },
+    "SHEATH_LOW": {
+      "body": "Het systeemreagenspak is bijna leeg en moet binnenkort worden vervangen. Verzeker u ervan dat u een vervangend pak op voorraad hebt.",
+      "title": "Uw systeemreagenspak is bijna leeg"
+    },
+    "SHUTDOWN_SHIPPING_CLEANUP": {
+      "body": "Verwijder reagens, systeemreagenspak en filter uit de analyzer om dit proces te voltooien. Verwijder alles uit de monsterlade (SmartQC, monsterbuizen) en ontkoppel voedings- en ethernetkabels achter de analyzer.",
+      "title": "Rond de uitschakelprocedure af"
+    },
+    "STOPPER_PRESENT": {
+      "body": "Bevestig dat de monsterbuis een ondersteunde met EDTA behandelde buis is, meng het monster, verwijder de stop of dop en voer de run op het monster opnieuw uit.",
+      "title": "Probleem met monsterbuis"
+    },
+    "SYR_RBC_HOME_ERROR": {
+      "body": "Er is een onverwachte fout opgetreden, waardoor de run werd onderbroken. Meng het monster en voer de run opnieuw uit. Als het probleem aanhoudt, neem dan contact op met IDEXX-ondersteuning.",
+      "title": "Onverwachte fout"
+    },
+    "SYR_RBC_MOTION_ERROR": {
+      "body": "Er is een onverwachte fout opgetreden, waardoor de run werd onderbroken. Meng het monster en voer de run opnieuw uit. Als het probleem aanhoudt, neem dan contact op met IDEXX-ondersteuning.",
+      "title": "Onverwachte fout"
+    },
+    "SYR_RBC_PRESSURE_ERROR": {
+      "body": "Er is een onverwachte fout opgetreden, waardoor de run werd onderbroken. Meng het monster en voer de run opnieuw uit. Als het probleem aanhoudt, neem dan contact op met IDEXX-ondersteuning.",
+      "title": "Onverwachte fout"
+    },
+    "SYR_SAMPLE_HOME_ERROR": {
+      "body": "Er is een onverwachte fout opgetreden, waardoor de run werd onderbroken. Meng het monster en voer de run opnieuw uit. Als het probleem aanhoudt, neem dan contact op met IDEXX-ondersteuning.",
+      "title": "Onverwachte fout"
+    },
+    "SYR_SAMPLE_MOTION_ERROR": {
+      "body": "Er is een onverwachte fout opgetreden, waardoor de run werd onderbroken. Meng het monster en voer de run opnieuw uit. Als het probleem aanhoudt, neem dan contact op met IDEXX-ondersteuning.",
+      "title": "Onverwachte fout"
+    },
+    "SYR_SAMPLE_PRESSURE_ERROR": {
+      "body": "Er is een onverwachte fout opgetreden, waardoor de run werd onderbroken. Meng het monster en voer de run opnieuw uit. Als het probleem aanhoudt, neem dan contact op met IDEXX-ondersteuning.",
+      "title": "Onverwachte fout"
+    },
+    "SYR_SHEATH_HOME_ERROR": {
+      "body": "Er is een onverwachte fout opgetreden, waardoor de run werd onderbroken. Meng het monster en voer de run opnieuw uit. Als het probleem aanhoudt, neem dan contact op met IDEXX-ondersteuning.",
+      "title": "Onverwachte fout"
+    },
+    "SYR_SHEATH_MOTION_ERROR": {
+      "body": "Er is een onverwachte fout opgetreden, waardoor de run werd onderbroken. Meng het monster en voer de run opnieuw uit. Als het probleem aanhoudt, neem dan contact op met IDEXX-ondersteuning.",
+      "title": "Onverwachte fout"
+    },
+    "SYR_SHEATH_PRESSURE_ERROR": {
+      "body": "Er is een onverwachte fout opgetreden, waardoor de run werd onderbroken. Meng het monster en voer de run opnieuw uit. Als het probleem aanhoudt, neem dan contact op met IDEXX-ondersteuning.",
+      "title": "Onverwachte fout"
+    },
+    "SYR_WBC_HOME_ERROR": {
+      "body": "Er is een onverwachte fout opgetreden, waardoor de run werd onderbroken. Meng het monster en voer de run opnieuw uit. Als het probleem aanhoudt, neem dan contact op met IDEXX-ondersteuning.",
+      "title": "Onverwachte fout"
+    },
+    "SYR_WBC_MOTION_ERROR": {
+      "body": "Er is een onverwachte fout opgetreden, waardoor de run werd onderbroken. Meng het monster en voer de run opnieuw uit. Als het probleem aanhoudt, neem dan contact op met IDEXX-ondersteuning.",
+      "title": "Onverwachte fout"
+    },
+    "SYR_WBC_PRESSURE_ERROR": {
+      "body": "Er is een onverwachte fout opgetreden, waardoor de run werd onderbroken. Meng het monster en voer de run opnieuw uit. Als het probleem aanhoudt, neem dan contact op met IDEXX-ondersteuning.",
+      "title": "Onverwachte fout"
+    },
+    "TUBE_EMPTY": {
+      "body": "De run werd geannuleerd vanwege onvoldoende volume van en/of klonten in het monster. Verzeker u ervan dat het monster voldoende volume heeft en controleer het op klonten. Meng dan het monster en voer de run opnieuw uit. Als het probleem aanhoudt, neem dan contact op met IDEXX-ondersteuning.",
+      "title": "Probleem met monster"
+    },
+    "UNEXPECTED_ERROR": {
+      "body": "Er is een onverwachte fout opgetreden, waardoor de run werd onderbroken. Meng het monster en voer de run opnieuw uit. Als het probleem aanhoudt, neem dan contact op met IDEXX-ondersteuning.",
+      "title": "Onverwachte fout"
+    },
+    "UNEXPECTED_ERROR_MAINTENANCE": {
+      "body": "Onverwachte fout opgetreden. Als het probleem aanhoudt, neem dan contact op met IDEXX-ondersteuning.",
+      "title": "Onverwachte fout"
+    },
+    "UNKNOWN_TUBE": {
+      "body": "Bevestig dat de monsterbuis een ondersteunde met EDTA behandelde buis is, meng het monster, verwijder de stop of dop en voer de run op het monster opnieuw uit.",
+      "title": "Probleem met monsterbuis"
+    },
+    "UNSTABLE_REAGENT": {
+      "body": "Het reagens is verlopen.<linebreak/>Als u de analyzer wilt blijven gebruiken, moet u het reagens vervangen door een verpakking die nog geldig is. Tik op <strong>Reagens vervangen</strong> voor instructies.",
+      "title": "WAARSCHUWING: Reagens is verlopen."
+    },
+    "UNSTABLE_SHEATH": {
+      "body": "Het systeemreagens is verlopen.<linebreak/>Als u de analyzer wilt blijven gebruiken, moet u het systeemreagens vervangen door een verpakking die nog geldig is. Tik op <strong>Systeemreagens vervangen</strong> voor instructies.",
+      "title": "WAARSCHUWING: Systeemreagens is verlopen."
+    },
+    "UNSUPPORTED_QC_LOT": {
+      "body": "De SmartQC-flacon is verlopen. Vervang deze door een niet-verlopen flacon.",
+      "title": "SmartQC is verlopen"
+    },
+    "UPDATE_PENDING": {
+      "body": "Wacht ongeveer 2 minuten totdat de ProCyte One-analyzer automatisch is geüpgraded en opnieuw is gestart.<linebreak/>Het proces is voltooid als de ProCyte One weer de status <strong>Gereed</strong> heeft.",
+      "title": "Software-upgradeversie {{ 0 }} gereed voor installatie."
+    },
+    "USED_REAGENT": {
+      "body": "Het ProCyte One-reagenspak is al gebruikt. Probeer een ander pak of neem contact op met de IDEXX-ondersteuning.",
+      "title": "Reagenspak ongeldig"
+    },
+    "XAXIS_MOTION_ERROR": {
+      "body": "Er is een onverwachte fout opgetreden, waardoor de run werd onderbroken. Meng het monster en voer de run opnieuw uit. Als het probleem aanhoudt, neem dan contact op met IDEXX-ondersteuning.",
+      "title": "Onverwachte fout"
+    },
+    "ZAXIS_MOTION_ERROR": {
+      "body": "Er is een onverwachte fout opgetreden, waardoor de run werd onderbroken. Meng het monster en voer de run opnieuw uit. Als het probleem aanhoudt, neem dan contact op met IDEXX-ondersteuning.",
+      "title": "Onverwachte fout"
+    }
+  },
+  "alertModal": {
+    "secondaryHeader": "Melding | {{ instrumentName }}",
+    "secondaryHeaderNoInstrument": "Melding"
+  },
+  "CATONE": {
+    "ADD_PIPETTE_TIPS": {
+      "title": "Pipetpunten toevoegen",
+      "body": "Onvoldoende pipetpunten in monsterlade geplaatst. Wacht tot monsterlade is ontgrendeld en vul daarna het gedeelte voor pipetpunten in monsterlade. Druk daarna op Start."
+    },
+    "AIR_DETECTED_IN_SAMPLE": {
+      "title": "Lucht gedetecteerd in monster",
+      "body": "Luchtbellen gedetecteerd in patiëntmonster. Verwijder luchtbellen uit monster en druk daarna op Start."
+    },
+    "AIR_DETECTED_IN_SAMPLE_WARNING": {
+      "body": "Fout opgetreden tijdens analyse wegens gedetecteerde lucht. Neem voorbereidingsprocedure voor monsters door en herhaal met nieuw monster en nieuwe slides. Bel IDEXX-ondersteuning als het probleem aanhoudt."
+    },
+    "ALG_ANOM_INIT_SLOPE_VS_SUB_READ": {
+      "body": "Fout opgetreden bij verwerking van een van de slides. Herhaal met nieuw monster en nieuwe consumables om de niet-gerapporteerde resultaten te verkrijgen.<linebreak/>Neem contact op met IDEXX-ondersteuning als het probleem aanhoudt."
+    },
+    "ALG_ANOM_PROG_CURVE_DEVELOPMENT": {
+      "body": "Fout opgetreden bij verwerking van een van de slides. Herhaal met nieuw monster en nieuwe consumables om de niet-gerapporteerde resultaten te verkrijgen.<linebreak />Neem contact op met IDEXX-ondersteuning als het probleem aanhoudt."
+    },
+    "ALG_BAD_DRY_READ": {
+      "body": "Fout opgetreden bij verwerking van een van de slides. Herhaal met nieuw monster en nieuwe consumables om de niet-gerapporteerde resultaten te verkrijgen.<linebreak />Neem contact op met IDEXX-ondersteuning als het probleem aanhoudt."
+    },
+    "ALG_BAD_LATE_SLOPE": {
+      "body": "Fout opgetreden bij verwerking van een van de slides. Herhaal met nieuw monster en nieuwe consumables om de niet-gerapporteerde resultaten te verkrijgen.<linebreak />Neem contact op met IDEXX-ondersteuning als het probleem aanhoudt."
+    },
+    "ALG_BAD_RESPONSE_RANGE": {
+      "body": "Fout opgetreden bij verwerking van een van de slides. Herhaal met nieuw monster en nieuwe consumables om de niet-gerapporteerde resultaten te verkrijgen.<linebreak />Neem contact op met IDEXX-ondersteuning als het probleem aanhoudt."
+    },
+    "ALG_BAD_SC_MINUS_DRY_DIFF": {
+      "body": "Fout opgetreden bij verwerking van een van de slides. Herhaal met nieuw monster en nieuwe consumables om de niet-gerapporteerde resultaten te verkrijgen.<linebreak />Neem contact op met IDEXX-ondersteuning als het probleem aanhoudt."
+    },
+    "ALG_BAD_SUB_MINUS_WASH_DIFF": {
+      "body": "Fout opgetreden bij verwerking van een van de slides. Herhaal met nieuw monster en nieuwe consumables om de niet-gerapporteerde resultaten te verkrijgen.<linebreak />Neem contact op met IDEXX-ondersteuning als het probleem aanhoudt."
+    },
+    "ALG_BAD_WASH_MINUS_SC_DIFF": {
+      "body": "Fout opgetreden bij verwerking van een van de slides. Herhaal met nieuw monster en nieuwe consumables om de niet-gerapporteerde resultaten te verkrijgen.<linebreak />Neem contact op met IDEXX-ondersteuning als het probleem aanhoudt."
+    },
+    "ALG_ELLIPSE_INTERSECTION_FAIL": {
+      "body": "Fout opgetreden bij verwerking van een van de slides. Herhaal met nieuw monster en nieuwe consumables om de niet-gerapporteerde resultaten te verkrijgen.<linebreak />Neem contact op met IDEXX-ondersteuning als het probleem aanhoudt."
+    },
+    "ALG_GREATER_THAN_EXTREME_HIGH_CONC_LIMIT": {
+      "body": "Fout opgetreden bij verwerking van een van de slides. Herhaal met nieuw monster en nieuwe consumables om de niet-gerapporteerde resultaten te verkrijgen.<linebreak />Neem contact op met IDEXX-ondersteuning als het probleem aanhoudt."
+    },
+    "ALG_GREATER_THAN_EXTREME_LOW_CONC_LIMIT": {
+      "body": "Fout opgetreden bij verwerking van een van de slides. Herhaal met nieuw monster en nieuwe consumables om de niet-gerapporteerde resultaten te verkrijgen.<linebreak />Neem contact op met IDEXX-ondersteuning als het probleem aanhoudt."
+    },
+    "ALG_INTERFERING_SUBSTANCE": {
+      "body": "Geen {{0}}-resultaten mogelijk wegens storende stoffen of substraatdepletie. Voer verdunning van 1:4 (handmatig of automatisch) op monster uit en herhaal met nieuwe slide om een resultaat te verkrijgen."
+    },
+    "ALG_ION_CALIBRATION_DRIFT": {
+      "body": "Fout opgetreden bij verwerking van elektrolytenslides. Herhaal met nieuw monster en nieuwe slides en zorg dat slides meteen na openen van de folieverpakking worden geplaatst.<linebreak />Neem contact op met IDEXX-ondersteuning als het probleem aanhoudt."
+    },
+    "ALG_ION_IMPULSE_DETECTED": {
+      "body": "Fout opgetreden bij elektrolytenanalyse. Reinig interne onderdelen van analyzer en herhaal met nieuw monster en nieuwe slides.<linebreak />Neem contact op met IDEXX-ondersteuning als het probleem aanhoudt."
+    },
+    "ALG_ION_SAMPLE_DRIFT": {
+      "body": "Fout opgetreden bij verwerking van een of meer elektrolytenslides. Herhaal met nieuwe slides om de niet-gerapporteerde resultaten te verkrijgen."
+    },
+    "ALG_ION_SAMPLE_ERROR": {
+      "body": "Fout opgetreden bij verwerking van een of meer elektrolytenslides. Herhaal met nieuwe slides om de niet-gerapporteerde resultaten te verkrijgen."
+    },
+    "ALG_ION_SAMPLE_NOT_DETECTED": {
+      "body": "Fout opgetreden bij de verwerking van {{0}}. Neem voorbereidingsprocedure voor monsters door en herhaal met nieuw monster en nieuwe slide(s) om het niet-gerapporteerde resultaat te verkrijgen."
+    },
+    "ALG_ION_SHIFT_DETECTED": {
+      "body": "Fout opgetreden bij elektrolytenanalyse. Reinig interne onderdelen van analyzer en herhaal met nieuw monster en nieuwe slides.<linebreak />Neem contact op met IDEXX-ondersteuning als het probleem aanhoudt."
+    },
+    "ALG_NO_SAMPLE_DISPENSE": {
+      "body": "Fout opgetreden bij verwerking van {{0}}-slide. Neem voorbereidingsprocedure voor monsters door en herhaal met nieuw monster, nieuwe slide en nieuwe slidereiniging om het resultaat te verkrijgen."
+    },
+    "ALG_NO_WASH_1_DISPENSE": {
+      "body": "Fout opgetreden bij verwerking van {{0}}-slide. Neem voorbereidingsprocedure voor monsters door en herhaal met nieuw monster, nieuwe slide en nieuwe slidereiniging om het resultaat te verkrijgen."
+    },
+    "ALG_NO_WASH_2_DISPENSE": {
+      "body": "Fout opgetreden bij verwerking van {{0}}-slide. Neem voorbereidingsprocedure voor monsters door en herhaal met nieuw monster, nieuwe slide en nieuwe slidereiniging om het resultaat te verkrijgen."
+    },
+    "ALG_PHBR_BIASED_RESULT": {
+      "body": "Fout opgetreden bij verwerking van {{0}}. Bel IDEXX-ondersteuning voor hulp."
+    },
+    "ALG_SLIDE_NOT_SPOTTED": {
+      "title": "Slide niet gedetecteerd",
+      "body": "Fout opgetreden bij de verwerking van {{0}}. Neem voorbereidingsprocedure voor monsters door en herhaal met nieuw monster en slides om de niet-gerapporteerde resultaten te verkrijgen."
+    },
+    "ALG_SLOPE_NOT_CORRECTABLE_GEN": {
+      "body": "Bij de verwerking van de galzuren-slide is er een fout opgetreden. Herhaal met nieuwe slide. Bel IDEXX-ondersteuning als het probleem aanhoudt."
+    },
+    "ALG_SLOPE_NOT_CORRECTABLE": {
+      "body": "Fout opgetreden bij de verwerking van de fructosaminetest. Herhaal met nieuwe slide. Bel IDEXX-ondersteuning als het probleem aanhoudt."
+    },
+    "UPDATE_AVAILABLE": {
+      "title": "Software-upgradeversie {{version}} gereed voor installatie.",
+      "body": "U kunt de analyzer op elk moment upgraden op het scherm Instrumenten van Catalyst One.",
+      "autoUpdateWarning": "<shortlinebreak />Als u niet voor {{dateTime}} een upgrade uitvoert voor de analyzer, wordt de upgrade automatisch geïnstalleerd."
+    },
+    "UPDATE_FAILED_CATASTROPHIC": {
+      "title": "Softwareupgrade niet geslaagd",
+      "body": "Bel IDEXX-ondersteuning voor hulp."
+    },
+    "ERR_ALG_ALGORITHM_INTERFERING_SUBSTANCE": {
+      "title": "Verdunning nodig voor CREA",
+      "body": "Geen CREA-resultaten mogelijk wegens storende stoffen of substraatdepletie. Voer verdunning van 1:4 (handmatig of automatisch) op monster uit en herhaal met nieuwe slide om een resultaat te verkrijgen."
+    },
+    "ALG_SUBSTRATE_DEPLETION": {
+      "title": "Substraatdepletie",
+      "body": "Geen {{0}}-resultaten mogelijk wegens storende stoffen of substraatdepletie. Voer verdunning van 1:2 (handmatig of automatisch) op monster uit en herhaal met nieuwe slide om een resultaat te verkrijgen."
+    },
+    "ALG_TT4_ANOM_INIT_SLOPE_VS_SUB_READ": {
+      "body": "Fout opgetreden bij verwerking van een van de slides. Herhaal met nieuw monster en nieuwe consumables om de niet-gerapporteerde resultaten te verkrijgen.<linebreak />Neem contact op met IDEXX-ondersteuning als het probleem aanhoudt."
+    },
+    "ALG_TT4_ANOM_PROG_CURVE_DEVELOPMENT": {
+      "body": "Fout opgetreden bij verwerking van een van de slides. Herhaal met nieuw monster en nieuwe consumables om de niet-gerapporteerde resultaten te verkrijgen.<linebreak/>Neem contact op met IDEXX-ondersteuning als het probleem aanhoudt."
+    },
+    "ALG_TT4_BAD_SUB_MINUS_WASH_DIFF": {
+      "body": "Fout opgetreden bij verwerking van een van de slides. Herhaal met nieuw monster en nieuwe consumables om de niet-gerapporteerde resultaten te verkrijgen.<linebreak />Neem contact op met IDEXX-ondersteuning als het probleem aanhoudt."
+    },
+    "ALG_TT4_ELLIPSE_INTERSECTION_FAIL": {
+      "body": "Fout opgetreden bij verwerking van een van de slides. Herhaal met nieuw monster en nieuwe consumables om de niet-gerapporteerde resultaten te verkrijgen.<linebreak />Neem contact op met IDEXX-ondersteuning als het probleem aanhoudt."
+    },
+    "ASPIRATION_FAILURE": {
+      "body": "Instrument heeft handeling niet kunnen uitvoeren. Een ogenblik geduld. Het instrument wordt hersteld. Bel IDEXX-ondersteuning als het probleem aanhoudt."
+    },
+    "ASPIRATION_START_IN_AIR": {
+      "body": "Instrument heeft handeling niet kunnen uitvoeren. Een ogenblik geduld. Het instrument wordt hersteld. Bel IDEXX-ondersteuning als het probleem aanhoudt."
+    },
+    "ASPIRATION_START_IN_AIR_WARNING": {
+      "body": "Fout opgetreden tijdens monsteraspiratie. Neem voorbereidingsprocedure voor monsters door en herhaal met nieuw monster en nieuwe slides. Bel IDEXX-ondersteuning als het probleem aanhoudt."
+    },
+    "ASSAY_NORMALIZATION_MISSING": {
+      "body": "{{0}} resultaat onderdrukt.<linebreak/>Neem contact op met IDEXX-ondersteuning."
+    },
+    "BAD_OR_MISSING_CALCURVE_DATA": {
+      "body": "Foute of ontbrekende gegevens kalibratiecurve. Kalibratie van analyzer is niet geslaagd. Bel IDEXX-ondersteuning voor hulp."
+    },
+    "BARCODE_READ_ERROR": {
+      "title": "Leesfout streepjescode",
+      "body": "Kan geplaatste slides niet identificeren. Herhaal de analyse met nieuwe slides om het probleem te verhelpen.<linebreak />Bel IDEXX-ondersteuning als het probleem aanhoudt."
+    },
+    "BARCODE_READ_FAILURE": {
+      "body": "Onbekende slide(s)"
+    },
+    "CALIBRATION_SOFTWARE_ERROR": {
+      "body": "Fout in kalibratiesoftware. Kalibratie van analyzer is niet geslaagd. Bel IDEXX-ondersteuning voor hulp."
+    },
+    "CAMERA_COM_ERROR": {
+      "body": "Fout opgetreden bij het communiceren met de camera tijdens de initialisatie. Koppel de stroomvoorziening los van het stopcontact en sluit deze vervolgens opnieuw aan. Bel IDEXX-ondersteuning voor hulp als het probleem aanhoudt."
+    },
+    "CAMERA_CONNECTION_ERROR": {
+      "body": "Fout opgetreden met uw cameraverbinding tijdens analyse. Voor het verhelpen van de fout koppelt u de stroomvoorziening los van het stopcontact, sluit u deze opnieuw aan en herhaalt u de procedure met nieuw monster en nieuwe consumables. Als het probleem aanhoudt, neemt u contact op met de ondersteuning van IDEXX."
+    },
+    "CAMERA_INITIALIZATION_FAILURE": {
+      "body": "Instrument heeft handeling niet kunnen uitvoeren. Een ogenblik geduld. Druk op Start en wacht tot instrument is hersteld. Bel IDEXX-ondersteuning als het probleem aanhoudt."
+    },
+    "CANNOT_LOCK_SAMPLE_DRAWER": {
+      "title": "Monsterlade kan niet vergrendeld worden",
+      "body": "Obstructie in monsterlade. Controleer of alle materialen in monsterlade goed op hun plek zitten en druk op Start."
+    },
+    "CANNOT_UNLOCK_SAMPLE_DRAWER": {
+      "title": "Monsterlade kan niet ontgrendeld worden",
+      "body": "Monsterlade kan niet worden ontgrendeld.<linebreak/>Bel IDEXX-ondersteuning voor hulp."
+    },
+    "CAP_DETECTED": {
+      "title": "Dop gedetecteerd",
+      "body": "Dop voor volbloedseparator moet verwijderd worden voordat analyse verwerkt kan worden. Wacht tot monsterlade is ontgrendeld. Verwijder groene dop van volbloedseparator en druk op Start."
+    },
+    "CAROUSEL_ALIGNMENT_FAILED": {
+      "title": "Uitlijning carrousel mislukt",
+      "body": "Carrousel kan niet uitgelijnd worden. Open zijdeur, til klep van carrousel op en controleer of carrousel goed op zijn plek zit. Sluit klep van carrousel en zijdeur. Analyzer keert automatisch terug naar status gereed als zijdeur is gesloten. Bel IDEXX-ondersteuning voor hulp als het probleem aanhoudt."
+    },
+    "CAROUSEL_COVER_OPEN": {
+      "title": "Klep van carrousel staat open",
+      "body": "Klep van carrousel staat open. Open zijdeur en controleer of klep is gesloten. Analyzer keert automatisch terug naar status gereed als zijdeur is gesloten."
+    },
+    "CAROUSEL_ROTATION_ERROR": {
+      "body": "De carrousel roteert niet zoals verwacht. Om op te lossen:<ol><li>Verwijder resterende slides uit monsterlade.</li><li>Open zijdeur, til klep van carrousel op en verwijder de carrousel.</li><li>Verwijder alle slides uit de incubator-ring en gooi weg.</li><li>Plaats carrousel terug en sluit klep van carrousel.</li><li>Sluit zijdeur. De analyzer keert automatisch terug naar de status gereed.</li><li>Herhaal de analyse met nieuwe slides.</li></ol>Bel IDEXX-ondersteuning voor hulp als het probleem aanhoudt."
+    },
+    "CENTRIFUGE_ERROR": {
+      "title": "Fout in centrifuge",
+      "body": "Centrifuge heeft monster niet kunnen verwerken. Herhaal met nieuw monster en nieuwe slides.<linebreak/>Bel IDEXX-ondersteuning als het probleem aanhoudt."
+    },
+    "CHECK_EVAP_CAP": {
+      "body": "Een of meer slides worden niet herkend.<ol><li>Open de zijdeur en verwijder losse objecten van de carrouselklep.</li><li>Controleer of verdampingsdeksel op carrousel beweegt en reinig met alcolholdoekje als er vuil wordt gevonden</li><li>Plaats carrousel terug en sluit klep van carrousel.</li><li>Sluit zijdeur. De analyzer keert automatisch terug naar de status gereed.</li><li>Herhaal de analyse met nieuwe slides.</li></ol>Neem contact op met IDEXX-ondersteuning als het probleem aanhoudt."
+    },
+    "ALG_DRY_READ_VARIANCE": {
+      "title": "Verwerkingsfout",
+      "body": "Fout opgetreden bij de verwerking van de pancreaslipasetest. Herhaal met nieuwe slide. Bel IDEXX-ondersteuning als het probleem aanhoudt."
+    },
+    "CLEANING_REQUIRED": {
+      "title": "Reiniging vereist",
+      "body": "Catalyst One Chemie Analyzer moet gereinigd worden. Volg scherminstructies op tabblad Instrumenten van Catalyst One. Bel IDEXX-ondersteuning als de fout na het reinigen blijft bestaan."
+    },
+    "CLOT_DETECTED_IN_SAMPLE": {
+      "title": "Stolsel gedetecteerd in monster",
+      "body": "Stolsel gedetecteerd in patiëntmonster. Verwijder stolsels uit monster en druk op Start."
+    },
+    "CLOT_DETECTED_IN_SAMPLE_WARNING": {
+      "body": "Fout opgetreden tijdens analyse vanwege gedetecteerd stolsel. Neem voorbereidingsprocedure voor monsters door en herhaal met nieuw monster en nieuwe slides. Bel IDEXX-ondersteuning als het probleem aanhoudt."
+    },
+    "DILUTION_SLIDE_COUNT_EXCEEDED": {
+      "title": "Aantal slides overschreden voor verdunning",
+      "body": "U kunt maximaal 5 slides plaatsen bij uitvoeren van 1:2 verdunning en maximaal 10 slides voor alle andere verdunningsratio's.<ul><li>Herstellen: Druk op Start op het instrument.</li><li>Oplossen: Herhaal met nieuwe slides en zorg dat u niet meer dan het maximale aantal slides plaatst.</li></ul>"
+    },
+    "DUPLICATE_REAGENT_TYPE_DETECTED": {
+      "title": "Dubbel reagenstype gedetecteerd",
+      "body": "Dubbel reagenstype gedetecteerd. Verwijder een slide nadat monsterlade is ontgrendeld. Sluit monsterlade en druk op Start om door te gaan."
+    },
+    "FLUID_FIND_FAILURE": {
+      "body": "Instrument kan monster niet vinden. Neem voorbereidingsprocedure voor monsters door en herhaal met nieuw monster en nieuwe slides. Bel IDEXX-ondersteuning als het probleem aanhoudt."
+    },
+    "FLUID_FIND_FAILURE_DIL_CUP": {
+      "body": "Onvoldoende verdunningsvolume voor automatisch verdunning. Herhaal met nieuwe slides en verdunner."
+    },
+    "FLUID_FIND_FAILURE_MIX_CUP": {
+      "body": "Onvoldoende verdund monstervolume voor automatische verdunning. Herhaal met nieuwe slides en verdunner."
+    },
+    "FOAM_DETECTED_IN_SAMPLE": {
+      "title": "Schuim gedetecteerd in monster",
+      "body": "Schuim gedetecteerd in patiëntmonster. Verwijder schuim of luchtbellen uit monster en druk op Start."
+    },
+    "FOAM_DETECTED_IN_SAMPLE_WARNING": {
+      "body": "Fout opgetreden tijdens analyse wegens gedetecteerd schuim. Neem voorbereidingsprocedure voor monsters door en herhaal met nieuw monster en nieuwe slides. Bel IDEXX-ondersteuning als het probleem aanhoudt."
+    },
+    "HEIGHT_CORRECTION_SURFACE_FIND_FAILURE": {
+      "body": "Zoekfout oppervlak hoogtecorrectie"
+    },
+    "INCORRECTLY_SEATED_CAROUSEL": {
+      "title": "Carrousel zit niet goed op zijn plek",
+      "body": "Carrousel zit niet goed op zijn plek. Open zijdeur, til klep van carrousel op en controleer of carrousel goed op zijn plek zit. Sluit klep van carrousel en zijdeur. Analyzer keert automatisch terug naar status gereed als zijdeur is gesloten."
+    },
+    "INCORRECT_SLIDE_OR_REAGENT": {
+      "title": "Ontbrekende slide voor reagensverwerking",
+      "body": "Onjuiste soort slide gedetecteerd voor geplaatst reagenstype. Wacht tot monsterlade is ontgrendeld, plaats juiste slide of verwijder de reagens en druk op Start."
+    },
+    "INCORRECT_SLIDE_OR_REAGENT_IGNORABLE": {
+      "title": "Ontbrekende slide voor reagensverwerking. Andere slides in verwerking.",
+      "body": "Onjuiste soort slide gedetecteerd voor geplaatst reagenstype. Om dit op te lossen, wacht u tot de monsterlade ontgrendeld is, voegt u het bijpassende reagens toe, sluit u de monsterlade en drukt u op Start<shortlinebreak/>Als geen geschikte materialen worden gedetecteerd, worden geen resultaten voor de test gerapporteerd."
+    },
+    "INSUFFICIENT_DILUENT_VOLUME": {
+      "title": "Onvoldoende verdunningsvolume",
+      "body": "Onvoldoende verdunningsvolume voor automatisch verdunning. Voeg verdunner toe aan verdunningscup en druk op Start."
+    },
+    "INSUFFICIENT_DILUENT_VOLUME_WARNING": {
+      "title": "Onvoldoende verdunner",
+      "body": "Onvoldoende verdunningsvolume voor automatisch verdunning. Raadpleeg de gebruikershandleiding van uw Catalyst One en voer de test opnieuw uit met de voorgestelde materialen. Bel IDEXX-ondersteuning als het probleem aanhoudt."
+    },
+    "INSUFFICIENT_PIPETTE_TIPS": {
+      "title": "Onvoldoende pipetpunten voor verwerking",
+      "body": "Onvoldoende pipetpunten voor deze verwerking. Druk daarna op Start. Als u geen punten toevoegt, wordt de verwerking uitgevoerd maar worden niet alle resultaten gerapporteerd."
+    },
+    "INSUFFICIENT_SAMPLE_FOR_DILUTION": {
+      "title": "Onvoldoende monster voor verdunning",
+      "body": "Onvoldoende monstervolume voor automatische verdunning. Voeg monster toe aan monstercontainer en druk op Start."
+    },
+    "INSUFFICIENT_SAMPLE_FOR_DILUTION_WARNING": {
+      "title": "Onvoldoende monstervolume voor verdunning",
+      "body": "Onvoldoende monstervolume voor automatische verdunning. Neem voorbereidingsprocedure voor monsters door en herhaal met nieuw monster en nieuwe slides. Bel IDEXX-ondersteuning als het probleem aanhoudt."
+    },
+    "INSUFFICIENT_SAMPLE_VOLUME": {
+      "title": "Onvoldoende monstervolume voor alle slides",
+      "body": "Onvoldoende monstervolume voor aantal geplaatste slides. Voeg monster toe aan monstercontainer en druk op Start."
+    },
+    "INSUFFICIENT_SAMPLE_VOLUME_IGNORABLE": {
+      "title": "Onvoldoende monstervolume voor sommige slides",
+      "body": "Onvoldoende monstervolume voor aantal geplaatste slides. Voeg monster toe aan monstercontainer en druk op Start.<shortlinebreak/>Als er geen extra monster wordt toegevoegd, worden niet alle slides verwerkt."
+    },
+    "INSUFFICIENT_SAMPLE_VOLUME_IGNORABLE_WARNING": {
+      "body": "Onvoldoende monstervolume voor een of meer slides in deze analyse, waardoor analyse gedeeltelijk verloren gaat. Analyse is nog bezig. Als analyse gereed is, neemt u voorbereidingsprocedure voor monsters door en herhaalt u met nieuw monster en nieuwe slides."
+    },
+    "INSUFFICIENT_SAMPLE_VOLUME_WARNING": {
+      "body": "Onvoldoende monsters voor alle slides in deze analyse. Neem voorbereidingsprocedure voor monsters door en herhaal met nieuw monster en nieuwe slides. Bel IDEXX-ondersteuning als het probleem aanhoudt."
+    },
+    "INTERNAL_TIMING_ERROR": {
+      "body": "Instrument heeft handeling niet kunnen uitvoeren. Een ogenblik geduld. Druk op Start en wacht tot instrument is hersteld. Bel IDEXX-ondersteuning als het probleem aanhoudt."
+    },
+    "LVLASP_BUBBLE": {
+      "body": "Fout opgetreden tijdens monsteraspiratie. Controleer de procedure voor monsterbereiding en herhaal met nieuw monster en nieuwe consumables.<linebreak/>Neem contact op met IDEXX-ondersteuning als het probleem aanhoudt."
+    },
+    "LVLASP_CLOT": {
+      "body": "Fout opgetreden tijdens monsteraspiratie. Controleer de procedure voor monsterbereiding en herhaal met nieuw monster en nieuwe consumables.<linebreak/>Neem contact op met IDEXX-ondersteuning als het probleem aanhoudt."
+    },
+    "LVLASP_INSUFFICIENT_SAMPLE": {
+      "body": "Onvoldoende monsters voor alle slides in deze analyse. Controleer de procedure voor monsterbereiding en herhaal met nieuw monster en nieuwe consumables.<linebreak/>Neem contact op met IDEXX-ondersteuning als het probleem aanhoudt."
+    },
+    "LVLASP_START_IN_AIR": {
+      "body": "Fout opgetreden tijdens monsteraspiratie. Controleer de procedure voor monsterbereiding en herhaal met nieuw monster en nieuwe consumables.<linebreak/>Neem contact op met IDEXX-ondersteuning als het probleem aanhoudt."
+    },
+    "LYTE_PROCESSING_ERROR": {
+      "body": "Fout opgetreden bij verwerking van elektrolytenslides. Herhaal met nieuwe slides en zorg ervoor dat deze meteen na het openen van de verpakking in de analyzer worden geplaatst. Als het probleem aanhoudt, neemt u contact op met de ondersteuning van IDEXX."
+    },
+    "MATERIALS_INCOMPATIBLE": {
+      "title": "Incompatibele materialen",
+      "body": "Geplaatste materialen niet compatibel met aangevraagde soort analyse. Raadpleeg de bedieningshandleiding van Catalyst One™ en herhaal met goedgekeurde materialen."
+    },
+    "MATERIALS_INCOMPATIBLE_FRIENDS": {
+      "body": "Een aantal van de geplaatste materialen zijn niet compatibel met de aangevraagde analyse. Raadpleeg de handleiding van de Catalyst One en herhaal de test met goedgekeurde materialen om de niet-gerapporteerde resultaten te verkrijgen."
+    },
+    "MISSING_DILUTION_MATERIALS": {
+      "title": "Verdunningsmaterialen ontbreken",
+      "body": "Verdunningmaterialen onjuist geplaatst of ontbreken. Om dit op te lossen, controleert u of in de voorste cuphouders rechts een monstercup met 300 µl verdunningsmiddel staat en links een lege monstercup, controleert u of het patiëntenmonster in de monstercuphouder geladen is, en drukt u vervolgens op de Start-toets."
+    },
+    "MISSING_EMPTY_CUP": {
+      "body": "Verwerking is gestopt omdat vloeistof is gedetecteerd op locatie van lege cup. Plaats lege monstercup in cuphouder links vooraan en herhaal met nieuwe slides."
+    },
+    "MISSING_EMPTY_DILUTION_CUP": {
+      "title": "Lege verdunningscup ontbreekt",
+      "body": "Geen lege monstercup geplaatst voor verdunning. Plaats lege monstercup in voorste cuphouder links en druk op Start."
+    },
+    "MISSING_IA_FOR_REAGENT": {
+      "body": "Voor de geplaatste reagens kan geen overeenkomende slide worden gevonden. Wacht tot de huidige analyse is afgerond en herhaal met nieuwe reagens en slide(s)."
+    },
+    "MISSING_REAGENT": {
+      "title": "Reagens ontbreekt",
+      "body": "Voor de geplaatste {{0}} slide kan geen overeenkomende reagens worden gevonden. Om dit op te lossen, wacht u tot de monsterlade ontgrendeld is, voegt u het bijpassende reagens toe, sluit u de monsterlade en drukt u op de Start-toets."
+    },
+    "MISSING_REAGENT_FOR_IA": {
+      "body": "Voor de geplaatste {{0}} slide kan geen overeenkomende reagens worden gevonden. Wacht tot de huidige analyse is afgerond en herhaal met nieuwe reagens en slide."
+    },
+    "MISSING_REAGENT_IGNORABLE": {
+      "title": "Reagens ontbreekt. Andere slides in verwerking.",
+      "body": "Voor de geplaatste {{0}} slide kan geen overeenkomende reagens worden gevonden. Om dit op te lossen, wacht u tot de monsterlade ontgrendeld is, voegt u het bijpassende reagens toe, sluit u de monsterlade en drukt u op Start.<shortlinebreak/>Als reagens niet is geplaatst, worden geen resultaten voor die chemie gerapporteerd."
+    },
+    "MISSING_UPC_MATERIALS": {
+      "title": "UPC-materialen ontbreken",
+      "body": "UPC-materialen onjuist geplaatst of ontbreken. Controleer of voorste cuphouders een monstercup bevatten met 300 µL UPC-verdunner rechts en lege monstercup links. Om dit op te lossen, controleert u of in de voorste cuphouders rechts een monstercup met 300 µl verdunningsmiddel UPC staat en links een lege monstercup, controleert u of het patiëntenmonster in de monstercuphouder geladen is, en drukt u vervolgens op de Start-toets."
+    },
+    "MULTIPLE_SAMPLES_DETECTED": {
+      "title": "Meerdere monsters gedetecteerd",
+      "body": "Analyzer kan slechts een monster tegelijk verwerken. Wacht tot monsterlade is ontgrendeld. Om dit op te lossen, wacht u tot de monsterlade ontgrendeld is, verwijdert u het extra monster en drukt u vervolgens op de Start-toets."
+    },
+    "NO_IDENTIFIABLE_SLIDES_FOUND": {
+      "body": "Kan geplaatste slides niet identificeren. Druk op Start om door te gaan en herhaal monster met nieuwe slides. Bel IDEXX-ondersteuning voor hulp als het probleem aanhoudt."
+    },
+    "NO_SAMPLE_DETECTED": {
+      "title": "Geen monster gedetecteerd",
+      "body": "Patiëntmonster niet geplaatst. Wacht tot monsterlade is ontgrendeld. Om dit op te lossen, wacht u tot de monsterlade ontgrendeld is, dan laadt u het monster in de monsterlade en drukt u vervolgens op de Start-toets."
+    },
+    "OFFSETS_CALIBRATION_ERROR": {
+      "body": "Het is de analyzer niet gelukt de calcium- en/of albumine-offset te berekenen. Bel IDEXX-ondersteuning voor hulp."
+    },
+    "OFFSETS_CV_TOO_HIGH_ERROR": {
+      "body": "Het is de analyzer niet gelukt een geldige calcium- en/of albumine-offset te berekenen, omdat één of meer van de resultaten buiten een acceptabel bereik valt. Neem voorbereidingsprocedure voor offsets door en herhaal met nieuwe controlevloeistof en nieuwe slides. Bel IDEXX-ondersteuning voor hulp als het probleem aanhoudt."
+    },
+    "OFFSETS_INSUFFICIENT_SLIDES_ERROR": {
+      "body": "Er is een ontoereikend aantal slides van hetzelfde lotnummer gebruikt. Neem voorbereidingsprocedure voor offsets door en herhaal met nieuwe controlevloeistof en nieuwe slides."
+    },
+    "OFFSETS_OUT_OF_RANGE_ERROR": {
+      "body": "Het is de analyzer niet gelukt een geldige calcium- en/of albumine-offset te berekenen, omdat de berekende offset buiten een acceptabel bereik valt. Bel IDEXX-ondersteuning voor hulp."
+    },
+    "OPTICS_CALIBRATION_REQUIRED": {
+      "title": "Kalibratie vereist",
+      "body": "Catalyst One Chemie Analyzer moet gereinigd en gekalibreerd worden. Bel IDEXX-ondersteuning als de fout aanhoudt na kalibratie."
+    },
+    "OPTICS_INITIALIZATION_FAILURE": {
+      "body": "Instrument heeft handeling niet kunnen uitvoeren. Een ogenblik geduld. Start instrument opnieuw. Bel IDEXX-ondersteuning voor hulp als het probleem aanhoudt."
+    },
+    "OPTICS_LED_FAILURE": {
+      "body": "Fout opgetreden tijdens zelfcontrole of analyse. Bel IDEXX-ondersteuning."
+    },
+    "OPTICS_MODULE_CONFIGURATION_ERROR": {
+      "body": "Configuratiefout optische module. Kalibratie van analyzer is niet geslaagd. Bel IDEXX-ondersteuning voor hulp."
+    },
+    "OPTICS_SENSOR_FAILURE": {
+      "body": "Fout opgetreden tijdens zelfcontrole of analyse. Bel IDEXX-ondersteuning."
+    },
+    "OPTIMIZATION_AVAILABLE": {
+      "title": "Optimalisatieherinnering",
+      "body": "De Catalyst One moet worden geoptimaliseerd. Dit proces duurt ongeveer <strong>{{0}} minuten</strong>.<linebreak />Het start automatisch binnen {{1}} uur."
+    },
+    "OPTIMIZATION_AVAILABLE_ALIGNMENT": {
+      "title": "Optimalisatieherinnering",
+      "body": "De Catalyst One moet worden geoptimaliseerd. Dit proces duurt ongeveer <strong>{{0}} minuten</strong>.<linebreak />Het start automatisch binnen {{1}} uur.",
+      "instructions": {
+        "title": "Catalyst One-optimalisatie uitvoeren",
+        "body": "<ol><li>Zorg dat er in het gedeelte van de lade voor pipetpunten ten minste vijf (5) pipetpunten zijn geladen.</li><li>Haal eventuele monstercups, volbloedseparatoren of reagenscups eruit.</li><li>Sluit de lade en druk op Starten.</li></ol><linebreak/>Zodra de optimalisatie is voltooid, wordt het Catalyst One-pictogram weer groen en krijgt het de status gereed."
+      }
+    },
+    "PHBR_LOAD_ERROR": {
+      "title": "Foute plaatsing PHBR-reagens",
+      "body": "PHBR-reagens is onjuist geplaatst. Om op te lossen, verplaatst u de reagens naar de voorste cuphouders en drukt u vervolgens op de Start-toets."
+    },
+    "PHBR_LOAD_ERROR_IGNORABLE": {
+      "title": "Foute plaatsing PHBR-reagens. Andere slides in verwerking.",
+      "body": "PHBR-reagens is onjuist geplaatst. Verplaats reagens naar voorste cuphouders en druk op Start.<linebreak />Als u de reagens niet verplaatst, worden de overige geplaatste slides geanalyseerd en worden geen PHBR-resultaten gerapporteerd."
+    },
+    "PHBR_ORIENT_ERROR": {
+      "title": "Foute richting PHBR-reagens",
+      "body": "PHBR-reagens is onjuist geplaatst. Om op te lossen, draait u het reagens in de juiste richting en drukt u vervolgens op de Start-toets."
+    },
+    "PHBR_ORIENT_ERROR_IGNORABLE": {
+      "title": "Foute richting PHBR-reagens. Andere slides in verwerking.",
+      "body": "PHBR-reagens is onjuist geplaatst. Om op te lossen, draait u het reagens in de juiste richting en drukt u vervolgens op de Start-toets. Als u reagens niet in juiste richting draait, worden de overige geplaatste slides geanalyseerd en worden geen PHBR-resultaten gerapporteerd."
+    },
+    "PIPETTE_TIPS_LOW": {
+      "title": "Pipetpunten toevoegen",
+      "body": "Pipetpunten zijn in monsterlade zijn bijna op. Vul gedeelte voor punten in monsterlade voordat u het volgende monster verwerkt."
+    },
+    "PRESSURE_SENSOR_ERROR": {
+      "body": "Fout opgetreden tijdens zelfcontrole of analyse. Bel IDEXX-ondersteuning."
+    },
+    "REAGENT_IDENTIFICATION_ERROR": {
+      "title": "Identificatiefout reagens",
+      "body": "Analyzer kan een of meer van geplaatste reagens en/of slide(s) niet identificeren.<linebreak/>Herhaal met nieuwe slides als verwerking is voltooid om het probleem op te lossen."
+    },
+    "RECOVERABLE_TIMEOUT": {
+      "title": "Herstelbare time-out",
+      "body": "Fout opgetreden bij verwerking, waardoor deze slechts gedeeltelijk of niet is uitgevoerd. Bekijk het gebeurtenislogboek op het zijtabblad Instrumenten van Catalyst One om te zien welke fout is opgetreden of bel IDEXX-ondersteuning voor hulp."
+    },
+    "RECOVERY_FAILURE": {
+      "body": "Instrument is niet hersteld van eerdere storing. Bel IDEXX-ondersteuning als het probleem aanhoudt."
+    },
+    "ROBOT_HOMING_FAILURE": {
+      "body": "Instrument heeft handeling niet kunnen uitvoeren. Een ogenblik geduld. Druk op Start en wacht tot instrument is hersteld. Bel IDEXX-ondersteuning als het probleem aanhoudt."
+    },
+    "ROBOT_MOTION_ERROR": {
+      "body": "Instrument heeft handeling niet kunnen uitvoeren. Een ogenblik geduld. Druk op Start en wacht tot instrument is hersteld. Bel IDEXX-ondersteuning als het probleem aanhoudt."
+    },
+    "RUN_COMPLETION_ERROR": {
+      "title": "Verwerking kan niet worden voltooid",
+      "body": "Fout opgetreden bij verwerking van slide. Verwerking is niet voltooid. Herhaal met nieuw monster en nieuwe slides.<shortlinebreak/>Bel IDEXX-ondersteuning als het probleem aanhoudt."
+    },
+    "SAMPLE_DRAWER_LOCK_ERROR": {
+      "title": "Vergrendelingsfout monsterlade",
+      "body": "Er is een probleem met het vergrendelingsmechanisme van de monsterlade.<shortlinebreak/>Bel IDEXX-ondersteuning voor hulp."
+    },
+    "SAMPLE_DRAWER_OPEN": {
+      "title": "Monsterlade open",
+      "body": "Sluit de monsterlade."
+    },
+    "SAMPLE_DRAWER_OPEN_RUN": {
+      "title": "Monsterlade staat open tijdens verwerking",
+      "body": "Monsterlade staat open. Sluit monsterlade en druk op Start om door te gaan met verwerking."
+    },
+    "SAMPLE_TOO_LOW": {
+      "body": "Onvoldoende monsters voor alle slides in deze analyse. Neem voorbereidingsprocedure voor monsters door en herhaal met nieuw monster, nieuwe slides en nieuwe reagens. Bel IDEXX-ondersteuning als het probleem aanhoudt."
+    },
+    "SHIPPING_CLIPS_DETECTED": {
+      "body": "Verzendingsclips gedetecteerd. Om op te lossen:<ol><li>Open zijdeur.</li><li>Verwijder verzendingsclips.</li><li>Sluit zijdeur.</li><li>Instrument wordt ingeschakeld.</li></ol>Als het probleem aanhoudt, neem dan contact op met IDEXX-ondersteuning."
+    },
+    "SLIDE_CONTAMINATED": {
+      "body": "{{0}}-slide is verontreinigd, resultaten zijn onderdrukt."
+    },
+    "SIDE_DOOR_OPEN": {
+      "title": "Zijdeur staat open",
+      "body": "Zijdeur is geopend tijdens verwerking. Sluit zijdeur en herhaal monster met nieuwe slides om dit op te lossen."
+    },
+    "SLIDE_DATE_SOFTWARE_VERSION_MISMATCH": {
+      "title": "Datum op slides komt niet overeen met datum van softwareversie",
+      "body": "Controleer of nieuwste softwareversie van analyzer wordt gebruikt (op tabblad Instrumenten van Catalyst One), controleer of slides niet zijn verlopen en herhaal met nieuwe slides."
+    },
+    "SLIDE_DETECTION_ERROR": {
+      "title": "Fout bij detectie van slide",
+      "body": "Slides zijn onjuist geplaatst of ontbreken. Om dit op te lossen, wacht u tot de monsterslidelade ontgrendeld is, dan laadt u de slides in de monsterslidelade en drukt u op de Start-toets."
+    },
+    "SLIDE_EJECT_ERROR": {
+      "title": "Fout bij uitwerpen van slide",
+      "body": "Een of meer slides kunnen niet uitgeworpen worden. Om op te lossen:<ol><li>Verwijder resterende slides uit monsterlade.</li><li>Open zijdeur, til klep van carrousel op en verwijder de carrousel.</li><li>Verwijder alle slides uit de incubator-ring en gooi weg.</li><li>Plaats carrousel terug en sluit klep van carrousel.</li><li>Sluit zijdeur. De analyzer keert automatisch terug naar de status gereed.</li><li>Maak de afvallade leeg.</li></ol>"
+    },
+    "SLIDE_LOADING_ERROR": {
+      "title": "Fout bij plaatsen van slide",
+      "body": "Een of meer slides kunnen niet worden geplaatst. Om op te lossen:<ol><li>Wacht tot de monsterlade ontgrendeld is.</li><li>Verwijder resterende slides uit monsterlade.</li><li>Open zijdeur, til klep van carrousel op en verwijder de carrousel.</li><li>Verwijder alle slides uit de incubator-ring en gooi weg.</li><li>Plaats carrousel terug en sluit klep van carrousel.</li><li>Sluit zijdeur. De analyzer keert automatisch terug naar de status gereed.</li><li>Herhaal de analyse met nieuwe slides.</li></ol>"
+    },
+    "SLIDE_REAGENT_LOT_MISMATCH": {
+      "title": "Lotnummers van slide en reagens komen niet overeen",
+      "body": "Lotnummer op slide en reagens komen niet overeen. Plaats slide en reagens met overeenkomende lotnummers in monsterlade en druk op Start."
+    },
+    "SLIDE_REAGENT_LOT_MISMATCH_IGNORABLE": {
+      "title": "Lotnummers van slide en reagens komen niet overeen. Andere slides in verwerking.",
+      "body": "Lotnummer op slide en reagens komen niet overeen. Plaats slide en reagens met overeenkomende lotnummers in monsterlade en druk op Start.<linebreak/>Als geen overeenkomende lotnummers worden gedetecteerd, worden geen resultaten voor die chemie gerapporteerd."
+    },
+    "SLIDE_REAGENT_MISMATCH": {
+      "body": "Voor de geplaatste {{0}} slide kan geen overeenkomende reagens worden gevonden. Om dit op te lossen, wacht u tot de monsterlade ontgrendeld is, verwijdert u het reagens, vervangt u het door het bijpassende reagens, sluit u de monsterlade en drukt u op de Start-toets."
+    },
+    "SLIDE_REAGENT_MISMATCH_IGNORABLE": {
+      "body": "Voor de geplaatste {{0}} slide kan geen overeenkomende reagens worden gevonden. Om dit op te lossen, wacht u tot de monsterlade ontgrendeld is, verwijdert u het reagens, vervangt u het door het bijpassende reagens, sluit u de monsterlade en drukt u op de Start-toets. Als de overeenkomende reagens niet is geplaatst, worden er geen resultaten voor die chemie gerapporteerd."
+    },
+    "SLIDE_TIMEOUT_ERROR": {
+      "title": "Time-outfout slide",
+      "body": "Slides zijn te lang in lade geweest voorafgaand aan verwerking. Herhaal monster met nieuwe slides."
+    },
+    "SPURIOUS_DEVICE_EVENT": {
+      "body": "Instrument heeft handeling niet kunnen uitvoeren. Een ogenblik geduld. Druk op Start en wacht tot instrument is hersteld. Bel IDEXX-ondersteuning als het probleem aanhoudt."
+    },
+    "SUSPECT_RESULT_COMPARISON": {
+      "body": "Fout opgetreden bij verwerking van een van de slides. Herhaal met nieuw monster en nieuwe slides om de niet-gerapporteerde resultaten te verkrijgen. Bel IDEXX-ondersteuning als het probleem aanhoudt."
+    },
+    "THERMAL_CONTROL_ERROR": {
+      "title": "Fout warmteregeling",
+      "body": "Probleem met warmteregeling tijdens verwerking, waardoor resultaten zijn onderdrukt. Controleer of temperatuur rondom analyzer binnen aangegeven grenzen ligt en herhaal monster met nieuwe slides."
+    },
+    "THERMAL_ERROR": {
+      "title": "Warmtefout",
+      "body": "Warmtefout opgetreden tijdens zelfcontrole van analyzer. Open zijdeur en controleer of klep van carrousel is gesloten. Analyzer wordt automatisch geïnitialiseerd als zijdeur is gesloten.<shortlinebreak /> Bel IDEXX-ondersteuning als het probleem aanhoudt."
+    },
+    "UNSPECIFIED_ERROR": {
+      "body": "Onverwachte fout opgetreden. Druk op Start op het instrument om te herstellen. Neem contact op met IDEXX-ondersteuning als het probleem aanhoudt."
+    },
+    "UNSUPPORTED_QC_RANGE": {
+      "body": "{{0}} {{1}}-resultaat onderdrukt omdat slide niet wordt ondersteund voor geselecteerde soort QC-vloeistof. Herhaal met nieuwe slides en selecteer de juiste QC-vloeistof."
+    },
+    "UNSUPPORTED_SLIDE_LOT": {
+      "body": "{{0}} {{1}}-resultaat onderdrukt. Niet-ondersteund slidelot of verlopen slide"
+    },
+    "UNSUPPORTED_WHITE_REF_SLIDE_LOT": {
+      "body": "Niet-ondersteund wit referentie-slidelot. Voer kalibratie opnieuw uit met ondersteunde witte referentieslide. Bel IDEXX-ondersteuning voor hulp."
+    },
+    "UPDATE_FAILED": {
+      "title": "Softwareupgrade niet geslaagd",
+      "body": "Upgrade van Catalyst One Analyzer is niet geslaagd. Herhaal de upgradeprocedure nu, of gebruik optie Software upgraden op zijtabblad Instrumenten van Catalyst One.<linebreak/>Bel IDEXX-ondersteuning als het probleem aanhoudt."
+    },
+    "UPGRADE_FAILED_DOWNLOAD": {
+      "title": "Downloaden van software-upgrade niet geslaagd"
+    },
+    "UPGRADE_FAILED_PREPARATION": {
+      "title": "Voorbereiding van software-upgrade niet geslaagd"
+    },
+    "USED_REAGENT_DETECTED": {
+      "title": "Gebruikte reagens gedetecteerd",
+      "body": "Gedetecteerde reagens is eerder gebruikt. Vervang door nieuwe reagens en druk op Start."
+    },
+    "USED_REAGENT_DETECTED_IGNORABLE": {
+      "title": "Gebruikte reagens gedetecteerd. Andere slides in verwerking.",
+      "body": "Gedetecteerde reagens is eerder gebruikt. Vervang door nieuwe reagens en druk op Start.<shortlinebreak />Als reagens niet wordt vervangen, worden geen resultaten voor die chemie gerapporteerd."
+    },
+    "USED_REAGENT_DETECTED_IGNORABLE_WARNING": {
+      "body": "Gedetecteerde reagens is eerder gebruikt. Voor die chemie worden geen resultaten gerapporteerd. Wacht tot het instrument naar de status gereed terugkeert en herhaal met een nieuw monster, nieuwe slides en een nieuwe reagens."
+    },
+    "USED_REAGENT_DETECTED_WARNING": {
+      "body": "Gedetecteerde reagens is eerder gebruikt. Wacht tot het instrument naar de status gereed terugkeert en herhaal met een nieuw monster, nieuwe slides en een nieuwe reagens."
+    },
+    "USER_CALIBRATION_UNSUCCESSFUL": {
+      "title": "Gebruikerskalibratie is niet geslaagd",
+      "body": "Kalibratie van analyzer is niet geslaagd.<shortlinebreak/>Bel IDEXX-ondersteuning voor hulp."
+    },
+    "WARMUP_THERMAL_ERROR": {
+      "title": "Warmtefout bij opwarmen",
+      "body": "Warmtefout opgetreden. Open zijdeur en controleer of klep van carrousel is gesloten. Analyzer wordt automatisch geïnitialiseerd als zijdeur is gesloten.<shortlinebreak/>Bel IDEXX-ondersteuning als het probleem aanhoudt."
+    },
+    "WASTE_DRAWER_FULL": {
+      "title": "Afvallade is vol",
+      "body": "Maak de afvallade leeg."
+    },
+    "WASTE_DRAWER_OPEN": {
+      "title": "Afvallade staat open",
+      "body": "Sluit afvallade."
+    },
+    "WASTE_DRAWER_OPEN_RUN": {
+      "title": "Afvallade staat open tijdens verwerking",
+      "body": "Afvallade staat open. Sluit afvallade en druk op Start om door te gaan met verwerking."
+    },
+    "WBS_SAMPLE_VOLUME_HIGH": {
+      "body": "Er bevindt zich teveel monster in de volbloedseparator. Herhaal met een volbloedseparator met 0,6 - 0,8 cc monster en nieuwe slides.<shortlinebreak/>Bel IDEXX-ondersteuning als het probleem aanhoudt."
+    }
+  },
+  "CATALYST_DX": {
+    "CONNECTION_TIMEOUT": {
+      "body": "IDEXX VetLab Station kan niet communiceren met Catalyst Dx analyzer. <linebreak /><strong>OPMERKING:</strong> Als u het pictogram van de analyzer permanent van het beginscherm wilt verwijderen, sluit u de melding, tikt u op het pictogram Offline en tikt u op <strong>Instrument verwijderen</strong>. Volg deze stappen om de verbinding te herstellen: <ol><li>Tik op <strong>Hulpprogramma's</strong> op de Catalyst Dx analyzer om te controleren of de analyzer een IP-adres heeft.</li><li>Als het IP-adres <strong>Onbepaald</strong> is, volgt u deze stappen:<ol type=\\\"a\\\"><li>Op het scherm Hulpprogramma's van de Catalyst Dx analyzer tikt u op <strong>Uitschakelen</strong>.</li><li>Als u hierom wordt gevraagd, zet u de analyzer uit met behulp van de aan/uit-schakelaar.</li><li>Als de analyzer is uitgeschakeld, zet u de analyzer weer aan met behulp van de aan/uit-schakelaar.</li></ol></li></ol>Als er een IP-adres aanwezig is maar het probleem aanhoudt, neemt u contact op met IDEXX-ondersteuning."
+    }
+  },
+  "CRIMSON": {
+    "ASP_UNIT_FRONTBACK_MOTOR": {
+      "body": "Tik op <strong>Aspiratiemotor opnieuw instellen</strong> om deze fout op te lossen.<shortlinebreak/>Deze procedure duurt enkele seconden.",
+      "title": "Motor vooruit/achteruit aspiratie-eenheid fout"
+    },
+    "ASP_UNIT_UPDOWN_MOTOR": {
+      "body": "Schakel ProCyte Dx opnieuw in om fout op te lossen. Bel IDEXX-ondersteuning als deze melding aanhoudt.<shortlinebreak/><ol><li>Schakel ProCyte Dx uit.</li><li>Schakel IPU uit.</li><li>Schakel IPU in.</li><li>Schakel ProCyte Dx in.</li></ol>",
+      "title": "Motor omhoog/omlaag aspiratie-eenheid fout"
+    },
+    "BACKGROUND": {
+      "body": "Dit kan leiden tot onnauwkeurige resultaten. Tik op <strong>Autom. spoeling uitvoeren</strong> om systeem te reinigen en controleer achtergrondmetingen opnieuw. Deze procedure duurt ongeveer <strong>8 minuten.</strong>",
+      "title": "Achtergrondcontrole heeft de volgende parameters als hoog gemeten.",
+      "table": {
+        "headers": {
+          "assay": "Assay",
+          "result": "Resultaat",
+          "limit": "Limiet",
+          "unit": "Eenheid"
+        },
+        "assays": {
+          "PLT-O": "PLT-O",
+          "HGB": "HGB",
+          "RBC": "RBC",
+          "WBC": "WBC",
+          "PLT-I": "PLT-I"
+        }
+      }
+    },
+    "BLOOD_ASP_SENSOR": {
+      "body": "Bel IDEXX-ondersteuning als deze melding aanhoudt.",
+      "title": "Kan patiënt niet analyseren."
+    },
+    "CHAMBER_EPK": {
+      "body": "Reagenskit lijkt ontkoppeld te zijn. Controleer of reagenskit goed is aangesloten en of de slangen niet verbogen of geknikt zijn. Tik vervolgens op <strong>Doorspoelen starten.</strong><shortlinebreak/>Neem contact op met IDEXX-ondersteuning als u dit bericht nogmaals ontvangt nadat u op Doorspoelen starten hebt getikt.",
+      "title": "Reagenskit lijkt ontkoppeld te zijn"
+    },
+    "CLOSE_FCM_DETECT_COVER": {
+      "body": "Schakel analyzer minstens 10 seconden uit met aan/uit-schakelaar van ProCyte Dx. Schakel analyzer daarna in.<linebreak/>Bel IDEXX-ondersteuning als deze melding aanhoudt.",
+      "title": "FCM-detectieklep sluiten"
+    },
+    "DIFF_CH": {
+      "body": "Bel IDEXX-ondersteuning als deze melding aanhoudt.",
+      "title": "DIFF-CH fout"
+    },
+    "DIFF_SAMPLING": {
+      "body": "Neem monster opnieuw af, keer direct na afname en voor analyse 10 keer om. Neem contact op met IDEXX-ondersteuning als het bericht aanhoudt.",
+      "title": "Diff-monsterfout"
+    },
+    "ENV_TEMP_HIGH": {
+      "body": "Temperatuur rondom ProCyte Dx is te hoog. Zorg voor afdoende ventilatie rondom analyzer, controleer ventilatorfilter en breng kamertemperatuur omlaag tot < 38° C (100° F).<shortlinebreak/>Bel IDEXX-ondersteuning als deze melding aanhoudt.",
+      "title": "Hoge omgevingstemp."
+    },
+    "ENV_TEMP_LOW": {
+      "body": "Temperatuur rondom ProCyte Dx is te laag. Breng kamertemperatuur omhoog tot > 10° C (50° F).<linebreak/>Bel IDEXX-ondersteuning als deze melding aanhoudt.",
+      "title": "Lage omgevingstemp."
+    },
+    "ENV_THERM_SENS": {
+      "body": "Schakel ProCyte Dx opnieuw in om fout op te lossen. Bel IDEXX-ondersteuning als deze melding aanhoudt.<shortlinebreak/><ol><li>Schakel ProCyte Dx uit.</li><li>Schakel IPU uit.</li><li>Schakel IPU in.</li><li>Schakel ProCyte Dx in.</li></ol>",
+      "title": "Sensor omgevingstemp. FOUT"
+    },
+    "EXCHANGE_AIR_PUMP": {
+      "body": "Bel IDEXX-ondersteuning als deze melding aanhoudt.",
+      "title": "Luchtpomp verwisselen"
+    },
+    "EXCHANGE_WASTE_TANK": {
+      "body": "Tik op <strong>Afvalkamer legen</strong> om deze fout op te lossen.<shortlinebreak/>Deze procedure duurt minder dan 1 minuut.",
+      "title": "Afvaltank verwisselen"
+    },
+    "EXECUTE_MONTHLY_RINSE_IVLS": {
+      "body": "Maandelijkse spoeling is een maand geleden voor het laatst uitgevoerd.<shortlinebreak/>Deze procedure van 25 minuten verwijdert verontreinigingen en zorgt voor nauwkeurige resultaten.",
+      "title": "Herinn. maandelijkse spoeling."
+    },
+    "EXECUTE_MONTHLY_RINSE_WARNING": {
+      "body": "Tik op <strong>Maand. spoeling</strong> om te gaan spoelen.<shortlinebreak/>Deze procedure van 25 minuten verwijdert verontreinigingen en zorgt voor nauwkeurige resultaten.",
+      "title": "Voer maandelijkse spoeling uit."
+    },
+    "EXPIRED_EPK": {
+      "body": "Voor nauwkeurige resultaten raden we ten zeerste aan om de reagenskit te vervangen.",
+      "title": "Reagenskit is verlopen."
+    },
+    "EXPIRED_FFD": {
+      "body": "Voor nauwkeurige resultaten raden we ten zeerste aan om de reagenskit te vervangen.",
+      "title": "Reagenskit is verlopen."
+    },
+    "EXPIRED_FFS": {
+      "body": "Voor nauwkeurige resultaten raden we ten zeerste aan om het kleuringspakket te vervangen.",
+      "title": "Kleuringspakket is verlopen."
+    },
+    "EXPIRED_RED": {
+      "body": "Voor nauwkeurige resultaten raden we ten zeerste aan om de reagenskit te vervangen.",
+      "title": "Reagenskit is verlopen."
+    },
+    "EXPIRED_RES": {
+      "body": "Voor nauwkeurige resultaten raden we ten zeerste aan om het kleuringspakket te vervangen.",
+      "title": "Kleuringspakket is verlopen."
+    },
+    "EXPIRED_SLS": {
+      "body": "Voor nauwkeurige resultaten raden we ten zeerste aan om de reagenskit te vervangen.",
+      "title": "Reagenskit is verlopen."
+    },
+    "FCM_RU_TEMP_HIGH": {
+      "body": "Interne temperatuur van ProCyte Dx is te hoog. Schakel hoofdeenheid 30 minuten uit en daarna weer in.<shortlinebreak/>Bel IDEXX-ondersteuning als deze melding aanhoudt.",
+      "title": "FCM RU hoge temp."
+    },
+    "FCM_RU_TEMP_LOW": {
+      "body": "ProCyte Dx is bezig met opwarmen. Deze procedure duurt max. 30 minuten.<linebreak/>Bel IDEXX-ondersteuning als deze melding aanhoudt.",
+      "title": "FCM RU lage temp."
+    },
+    "FCM_RU_THERM_SENS": {
+      "body": "Schakel ProCyte Dx opnieuw in om fout op te lossen. Bel IDEXX-ondersteuning als deze melding aanhoudt.<shortlinebreak/><ol><li>Schakel ProCyte Dx uit.</li><li>Schakel IPU uit.</li><li>Schakel IPU in.</li><li>Schakel ProCyte Dx in.</li></ol>",
+      "title": "FCM RU temp. sensor FOUT"
+    },
+    "FCM_SHEATH_SENS": {
+      "body": "Schakel ProCyte Dx opnieuw in om fout op te lossen. Bel IDEXX-ondersteuning als deze melding aanhoudt.<shortlinebreak/><ol><li>Schakel ProCyte Dx uit.</li><li>Schakel IPU uit.</li><li>Schakel IPU in.</li><li>Schakel ProCyte Dx in.</li></ol>",
+      "title": "FCM reagenssensor FOUT"
+    },
+    "FFS_ASP_ERROR": {
+      "body": "Kleuringspakket lijkt ontkoppeld te zijn. Controleer of kleuringspakket goed is aangesloten en of de slangen niet verbogen of geknikt zijn. Tik vervolgens op <strong>Doorspoelen starten.</strong><shortlinebreak/>Neem contact op met IDEXX-ondersteuning als u dit bericht nogmaals ontvangt nadat u op Doorspoelen starten hebt getikt.",
+      "title": "Kleuringspakket lijkt ontkoppeld te zijn"
+    },
+    "HGB": {
+      "body": "Bel IDEXX-ondersteuning als deze melding aanhoudt.",
+      "title": "HGB-fout"
+    },
+    "IPU_COMMUNICATION_ERROR": {
+      "body": "Schakel ProCyte Dx opnieuw in om fout op te lossen. Bel IDEXX-ondersteuning als deze melding aanhoudt.<shortlinebreak/><ol><li>Schakel ProCyte Dx uit.</li><li>Schakel IPU uit.</li><li>Schakel IPU in.</li><li>Schakel ProCyte Dx in.</li></ol>",
+      "title": "Onverwachte fout opgetreden."
+    },
+    "LASER_DIODE_AGED": {
+      "body": "Bel IDEXX-ondersteuning als deze melding aanhoudt.",
+      "title": "Laserdiode verouderd"
+    },
+    "LASER_POWER": {
+      "body": "Schakel analyzer minstens 10 seconden uit met aan/uit-schakelaar van ProCyte Dx. Schakel analyzer daarna in.<linebreak/>Bel IDEXX-ondersteuning als deze melding aanhoudt.",
+      "title": "Laser in werking fout"
+    },
+    "MPA_06": {
+      "body": "Tik op <strong>Luchtpomp opnw. instellen</strong> om deze fout op te lossen.<shortlinebreak/>Deze procedure duurt ongeveer 2 minuten.",
+      "title": "0,06MPa: fout"
+    },
+    "MPA_NEG03": {
+      "body": "Tik op <strong>Luchtpomp opnw. instellen</strong> om deze fout op te lossen.<shortlinebreak/>Deze procedure duurt ongeveer 2 minuten.",
+      "title": "-0,03MPa: fout"
+    },
+    "NEW_HARDWARE_DETECTED": {
+      "body": "Om nieuwe hardware te configureren, moet u configuratiebestanden laden die overeenkomen met het serienummer van uw ProCyte Dx.<ol><li>Schakel analyzer uit met <strong>aan/uit-schakelaar.</strong><shortlinebreak/>Opmerking: Schakel IPU niet uit.</li><li>Tik op <strong>Configureren</strong> om door te gaan.</li></ol>",
+      "title": "Nieuwe hardware gedetecteerd."
+    },
+    "PLT_CH": {
+      "body": "Bel IDEXX-ondersteuning als deze melding aanhoudt.",
+      "title": "PLT-CH fout"
+    },
+    "PLT_SAMPLING": {
+      "body": "Tik op <strong>Verstopping verwijderen</strong> om deze fout op te lossen.<shortlinebreak/>Deze procedure duurt ongeveer 1 minuut.",
+      "title": "PLT-monsterfout"
+    },
+    "PRESS_START_BUTTON": {
+      "body": "<strong>Monster</strong><ol><li>Monsterbuisje 10 maal omkeren om goed te mengen.</li><li>Druk op <strong>Start</strong> op de analyzer.</li></ol>",
+      "title": "Monsteranalyse niet gestart."
+    },
+    "PRESS_START_BUTTON_QC": {
+      "body": "<strong>$t({{ name }})<shortlinebreak/>Lot: {{ lot-number }}</strong><shortlinebreak/>$t({{ unit }})",
+      "title": "Druk op startknop op analyzer om analyse te starten voor:"
+    },
+    "PRESSURE_LOWER": {
+      "body": "Tik op <strong>Luchtpomp opnw. instellen</strong> om deze fout op te lossen.<shortlinebreak/>Deze procedure duurt ongeveer 2 minuten.",
+      "title": "Lage druk fout"
+    },
+    "RBC_BUBBLE": {
+      "body": "Tik op <strong>Verstopping verwijderen</strong> om deze fout op te lossen.<shortlinebreak/>Deze procedure duurt ongeveer 1 minuut.",
+      "title": "RBC-luchtbel: fout"
+    },
+    "RBC_CH": {
+      "body": "Bel IDEXX-ondersteuning als deze melding aanhoudt.",
+      "title": "RBC-CH: fout"
+    },
+    "RBC_CLOG": {
+      "body": "Tik op <strong>Verstopping verwijderen</strong> om deze fout op te lossen.<shortlinebreak/>Deze procedure duurt ongeveer 1 minuut.",
+      "title": "RBC-verstopping: fout"
+    },
+    "RBC_HGB_CHAMBER": {
+      "body": "Tik op <strong>Reactiekamer legen</strong> om deze fout op te lossen.<shortlinebreak/>Deze procedure duurt minder dan 1 minuut.",
+      "title": "RBC/HGB-kamer: fout"
+    },
+    "RBC_SAMPLING": {
+      "body": "Tik op <strong>Verstopping verwijderen</strong> om deze fout op te lossen.<shortlinebreak/>Deze procedure duurt ongeveer 1 minuut.",
+      "title": "RBC-monsterfout"
+    },
+    "REAGENT_KIT_LOW": {
+      "body": "Vloeistofniveau van reagenskit is laag. U kunt doorgaan totdat deze leeg is.<linebreak/>Voor ononderbroken gebruik van uw analyzer controleert u of u een vervangingskit op voorraad hebt.<linebreak/>Als u dit bericht niet meer wilt zien, kunt u in het instellingenscherm van de ProCyte Dx de instelling <strong>Herinnering reagens bijna leeg</strong> op \"Uit\" zetten.",
+      "title": "Reagenskit bijna leeg."
+    },
+    "REPLACE_EPK": {
+      "body": "Reagenskit lijkt ontkoppeld te zijn. Controleer of reagenskit goed is aangesloten en of de slangen niet verbogen of geknikt zijn. Tik vervolgens op <strong>Doorspoelen starten.</strong><shortlinebreak/>Neem contact op met IDEXX-ondersteuning als u dit bericht nogmaals ontvangt nadat u op Doorspoelen starten hebt getikt.",
+      "title": "Reagenskit lijkt ontkoppeld te zijn"
+    },
+    "REPLACE_FFD": {
+      "body": "Reagenskit lijkt ontkoppeld te zijn. Controleer of reagenskit goed is aangesloten en of de slangen niet verbogen of geknikt zijn. Tik vervolgens op <strong>Doorspoelen starten.</strong><shortlinebreak/>Neem contact op met IDEXX-ondersteuning als u dit bericht nogmaals ontvangt nadat u op Doorspoelen starten hebt getikt.",
+      "title": "Reagenskit lijkt ontkoppeld te zijn"
+    },
+    "REPLACE_FFS": {
+      "body": "Tik op <strong>Kleuring wisselen</strong> om door te gaan.",
+      "title": "Kleuringspakket is leeg."
+    },
+    "REPLACE_PIERCER": {
+      "body": "Bel IDEXX-ondersteuning als deze melding aanhoudt.",
+      "title": "Zuignaald vervangen"
+    },
+    "REPLACE_REAGENT_PACKAGE": {
+      "body": "Tik op <strong>Reagens wisselen</strong> om door te gaan.",
+      "title": "Reagenskit is leeg."
+    },
+    "REPLACE_RED": {
+      "body": "Reagenskit lijkt ontkoppeld te zijn. Controleer of reagenskit goed is aangesloten en of de slangen niet verbogen of geknikt zijn. Tik vervolgens op <strong>Doorspoelen starten.</strong><shortlinebreak/>Neem contact op met IDEXX-ondersteuning als u dit bericht nogmaals ontvangt nadat u op Doorspoelen starten hebt getikt.",
+      "title": "Reagenskit lijkt ontkoppeld te zijn"
+    },
+    "REPLACE_RES": {
+      "body": "Tik op <strong>Kleuring wisselen</strong> om door te gaan.",
+      "title": "Kleuringspakket is leeg."
+    },
+    "REPLACE_SLS": {
+      "body": "Reagenskit lijkt ontkoppeld te zijn. Controleer of reagenskit goed is aangesloten en of de slangen niet verbogen of geknikt zijn. Tik vervolgens op <strong>Doorspoelen starten.</strong><shortlinebreak/>Neem contact op met IDEXX-ondersteuning als u dit bericht nogmaals ontvangt nadat u op Doorspoelen starten hebt getikt.",
+      "title": "Reagenskit lijkt ontkoppeld te zijn"
+    },
+    "RET": {
+      "body": "Bel IDEXX-ondersteuning als deze melding aanhoudt.",
+      "title": "RET: fout"
+    },
+    "RET_CH": {
+      "body": "Bel IDEXX-ondersteuning als deze melding aanhoudt.",
+      "title": "RET-CH: fout"
+    },
+    "RET_CHAMBER": {
+      "body": "Tik op <strong>Reactiekamer legen</strong> om deze fout op te lossen.<shortlinebreak/>Deze procedure duurt minder dan 1 minuut.",
+      "title": "RET-kamer: fout"
+    },
+    "RET_SAMPLING": {
+      "body": "Probleem met stroomcel gedetecteerd. Tik op <strong>Stroomcel spoelen</strong> om door te gaan.<shortlinebreak/> Deze procedure duurt ongeveer 6 minuten.",
+      "title": "RET-monsterfout"
+    },
+    "RH_TEMP_HIGH_DIFF": {
+      "body": "Interne temperatuur van ProCyte Dx is te hoog. Schakel hoofdeenheid 30 minuten uit en daarna weer in.<linebreak/>Bel IDEXX-ondersteuning als deze melding aanhoudt.",
+      "title": "RH hoge temp. (DIFF)"
+    },
+    "RH_TEMP_HIGH_RET": {
+      "body": "Interne temperatuur van ProCyte Dx is te hoog. Schakel hoofdeenheid 30 minuten uit en daarna weer in.<shortlinebreak/>Bel IDEXX-ondersteuning als deze melding aanhoudt.",
+      "title": "RH hoge temp. (RET)"
+    },
+    "RH_TEMP_LOW_DIFF": {
+      "body": "ProCyte Dx is bezig met opwarmen. Deze procedure duurt maximaal 30 minuten.<shortlinebreak/>Bel IDEXX-ondersteuning als deze melding aanhoudt.",
+      "title": "RH lage temp. (DIFF)"
+    },
+    "RH_TEMP_LOW_RET": {
+      "body": "ProCyte Dx is bezig met opwarmen. Deze procedure duurt max. 30 minuten.<linebreak/>Bel IDEXX-ondersteuning als deze melding aanhoudt.",
+      "title": "RH lage temp. (RET)"
+    },
+    "RH_THERM_SENS_ERR_DIFF": {
+      "body": "Schakel ProCyte Dx opnieuw in om fout op te lossen. Bel IDEXX-ondersteuning als deze melding aanhoudt.<shortlinebreak/><ol><li>Schakel ProCyte Dx uit.</li><li>Schakel IPU uit.</li><li>Schakel IPU in.</li><li>Schakel ProCyte Dx in.</li></ol>",
+      "title": "FOUT RH warmtesens. (DIFF)"
+    },
+    "RH_THERM_SENS_ERR_RET": {
+      "body": "Schakel ProCyte Dx opnieuw in om fout op te lossen. Bel IDEXX-ondersteuning als deze melding aanhoudt.<shortlinebreak/><ol><li>Schakel ProCyte Dx uit.</li><li>Schakel IPU uit.</li><li>Schakel IPU in.</li><li>Schakel ProCyte Dx in.</li></ol>",
+      "title": "FOUT RH warmtesens. (RET)"
+    },
+    "RIGHT_COVER_HAS_OPENED": {
+      "body": "<ol><li>Sluit de rechterzijklep.</li><li>Schakel analyzer uit en weer in met aan/uit-schakelaar van ProCyte Dx.</li></ol>",
+      "title": "Rechterzijklep is geopend."
+    },
+    "RIGHT_COVER_IS_OPEN": {
+      "body": "Sluit rechterzijklep van ProCyte Dx om fout op te lossen.",
+      "title": "Rechterzijklep staat open."
+    },
+    "RINSE_CUP_PINCH_VALVE": {
+      "body": "Tik op <strong>Knijpventiel reinigen</strong> om fout op te lossen.<shortlinebreak/>Deze procedure duurt minder dan 1 minuut.",
+      "title": "Knijpventiel spoelcup: fout"
+    },
+    "SAMPLE_NOT_ASP": {
+      "body": "Monster lijkt onvoldoende bloedvolume te hebben. Controleer volume voordat u patiënt opnieuw verwerkt. Voor vereiste monstervolumes raadpleegt u de bedieningshandleiding van ProCyte Dx Analyzer.<shortlinebreak/>Bel IDEXX-ondersteuning als deze melding aanhoudt.",
+      "title": "Monster niet geaspir.: fout"
+    },
+    "SFS_INTERRUPTED": {
+      "body": "<ol><li>Ontkoppel slangen van achterzijde van analyzer vanaf snelaansluiting.</li><li>Schakel analyzer en IPU uit.</li><li>Ontkoppel netsnoer en communicatiekabel van analyzer.</li><li>Stuur de analyzer terug naar IDEXX.</li></ol>",
+      "title": "Probleem bij uitschakelen voor verzending."
+    },
+    "SFS_REAGENTS_DRAINED": {
+      "body": "De reagentia zijn afgevoerd uit de analyzer.<shortlinebreak/><strong>Volgende stappen:</strong><ol><li>Ontkoppel de slang van de witte poort aan de achterzijde van de analyzer.</li><li>Schakel de analyzer uit door middel van de schakelaar aan de rechterzijde van het apparaat.</li><li>Druk op de aan/uit-knop op de IPU om hem uit te schakelen (houd de knop niet ingedrukt).</li><li>Ontkoppel het netsnoer en de Ethernet-kabels van de achterzijde van de analyzer.</li><li>Doe de oude analyzer in de doos van de vervangende analyzer en stuur hem terug naar IDEXX.</li></ol><linebreak/><strong>Tik op Voltooien</strong>",
+      "title": "Laatste stappen"
+    },
+    "SHEATH_MOTOR": {
+      "body": "Tik op <strong>Reagensmotor opnieuw instellen</strong> om deze fout op te lossen.<shortlinebreak/>Deze procedure duurt minder dan 1 minuut.",
+      "title": "Reagensmotorfout"
+    },
+    "SHORT_SAMPLE": {
+      "body": "Monster lijkt onvoldoende bloedvolume te hebben. Controleer volume voordat u patiënt opnieuw verwerkt. Voor vereiste monstervolumes raadpleegt u de bedieningshandleiding van ProCyte Dx Analyzer.<shortlinebreak/>Bel IDEXX-ondersteuning als deze melding aanhoudt.",
+      "title": "Kort monster"
+    },
+    "SOFTWARE_UPGRADE_AVAILABLE": {
+      "body": "<ol><li>Schakel analyzer uit met <strong>aan/uit-schakelaar</strong>.<shortlinebreak/>Opmerking: Schakel IPU niet uit.</li><li>Tik op <strong>Nu upgraden om door te gaan.<shortlinebreak/>WAARSCHUWING: IPU wordt uitgeschakeld tijdens het upgraden.</li></ol>",
+      "title": "Software-upgradeversie {{ software-version }} gereed voor installatie."
+    },
+    "SOFTWARE_UPGRADE_FAILED": {
+      "body": "Probeer nogmaals te upgraden of neem contact op met IDEXX-ondersteuning voor hulp.<shortlinebreak/><ol><li>Schakel analyzer uit met <strong>aan/uit-schakelaar</strong>.<shortlinebreak/>Opmerking: Schakel IPU niet uit.</li><li>Tik op <strong>Nu upgraden</strong> om door te gaan.</li></ol>",
+      "title": "Softwareupgrade niet geslaagd."
+    },
+    "SOFTWARE_UPGRADE_TIMEOUT": {
+      "body": "Zorg dat ProCyte Dx analyzer is uitgeschakeld. Schakel IPU uit en weer in met aan/uit-knop op IPU.<shortlinebreak/>Bel IDEXX-ondersteuning als het probleem aanhoudt.",
+      "title": "Softwareupgrade niet geslaagd."
+    },
+    "STAIN_PACK_LOW": {
+      "body": "Vloeistofniveau van kleuringspakket is laag. U kunt doorgaan totdat deze leeg is.<linebreak/>Voor ononderbroken gebruik van uw analyzer controleert u of u een vervangingspakket op voorraad hebt.<linebreak/>Als u dit bericht niet meer wilt zien, kunt u in het instellingenscherm van de ProCyte Dx de instelling <strong>Herinnering reagens bijna leeg</strong> op \"Uit\" zetten.",
+      "title": "Kleuringspakket bijna leeg."
+    },
+    "STARTUP_PRIME_REQUIRED": {
+      "body": "Voor deze procedure van 45 minuten zijn een volle reagenskit en kleuringspakket nodig. Wilt u doorgaan?",
+      "title": "Inschakelingsprocedure vereist."
+    },
+    "SYSTEM_CONFIGURATION": {
+      "body": "Schakel ProCyte Dx opnieuw in om fout op te lossen. Bel IDEXX-ondersteuning als deze melding aanhoudt.<shortlinebreak/><ol><li>Schakel ProCyte Dx uit.</li><li>Schakel IPU uit.</li><li>Schakel IPU in.</li><li>Schakel ProCyte Dx in.</li></ol>",
+      "title": "Systeemconfiguratiefout."
+    },
+    "TUBE_HOLDER_HAS_OPENED": {
+      "body": "Schakel ProCyte Dx opnieuw in om fout op te lossen. Bel IDEXX-ondersteuning als deze melding aanhoudt.<shortlinebreak/><ol><li>Verwijder zo mogelijk monsterbuisje en obstakel.</li><li>Schakel ProCyte Dx uit.</li><li>Schakel IPU uit.</li><li>Schakel IPU in.</li><li>Schakel ProCyte Dx in.</li></ol>",
+      "title": "Monsterlade is geopend."
+    },
+    "TUBE_HOLDER_MOTOR": {
+      "body": "Obstructie in monsterlade. Verwijder obstakel en tik op <strong>Buisjesmotor opnw. instellen</strong> om fout op te lossen.<shortlinebreak/>Deze procedure duurt minder dan 1 minuut.",
+      "title": "Motor buisjeshouder: fout"
+    },
+    "TURN_ON_MAIN_UNIT": {
+      "body": "Schakel analyzer in met aan/uit-schakelaar van ProCyte Dx.",
+      "title": "ProCyte Dx analyzer niet gedetecteerd."
+    },
+    "UNINTENTIONAL_OFFLINE_TIMEOUT": {
+      "body": "Tik op knop <strong>ProCyte Dx inschakelen</strong> om IPU in te schakelen. Dit duurt ongeveer 1 minuut.<shortlinebreak/><strong>Opmerking:</strong> Nadat op de knop ProCyte Dx inschakelen is gedrukt, mag u niet op de aan/uit-knop op de IPU drukken. Schakel analyzer in met schakelaar aan rechterzijde van analyzer.",
+      "title": "ProCyte Dx niet gedetecteerd"
+    },
+    "WAKE_ON_LAN_FAILURE_TIMEOUT": {
+      "body": "Als IPU al is ingeschakeld, schakelt u deze uit. Controleer of IPU is aangesloten op VetLab-router via netwerkkabel.<shortlinebreak/>Schakel vervolgens IPU in <strong>door op de aan/uit-knop</strong> op IPU te drukken.",
+      "title": "ProCyte Dx niet gedetecteerd"
+    },
+    "WASTE_CHAMBER_1": {
+      "body": "Tik op <strong>Afvalkamer legen</strong> om deze fout op te lossen.<shortlinebreak/>Deze procedure duurt minder dan 1 minuut.",
+      "title": "Afvalkamer 1: fout"
+    },
+    "WASTE_CHAMBER_1_PINCH_VALVE": {
+      "body": "Tik op <strong>Knijpventiel reinigen</strong> om fout op te lossen.<shortlinebreak/>Deze procedure duurt minder dan 1 minuut.",
+      "title": "Knijpventiel afvalkamer 1: fout"
+    },
+    "WASTE_CHAMBER_2": {
+      "body": "Tik op <strong>Afvalkamer legen</strong> om deze fout op te lossen.<shortlinebreak/>Deze procedure duurt minder dan 1 minuut.",
+      "title": "Afvalkamer 2: fout"
+    },
+    "WASTE_CHAMBER_2_PINCH_VALVE": {
+      "body": "Tik op <strong>Knijpventiel reinigen</strong> om fout op te lossen.<shortlinebreak/>Deze procedure duurt minder dan 1 minuut.",
+      "title": "Knijpventiel afvalkamer 2: fout"
+    },
+    "WB_ASP_MOTOR": {
+      "body": "Tik op <strong>WB-motor opnieuw instellen</strong> om deze fout op te lossen.<shortlinebreak/>Deze procedure duurt minder dan 1 minuut.",
+      "title": "WB-asp. motor: fout"
+    },
+    "WBC_CH": {
+      "body": "Probleem met stroomcel gedetecteerd. Tik op <strong>Stroomcel spoelen</strong> om door te gaan.<shortlinebreak/> Deze procedure duurt ongeveer 6 minuten.",
+      "title": "WBC-CH fout"
+    },
+    "WBC_CHAMBER": {
+      "body": "Tik op <strong>Reactiekamer legen</strong> om deze fout op te lossen.<shortlinebreak/>Deze procedure duurt minder dan 1 minuut.",
+      "title": "WBC-kamer: fout"
+    },
+    "WBC_SAMPLING": {
+      "body": "Probleem met stroomcel gedetecteerd. Tik op <strong>Stroomcel spoelen</strong> om door te gaan.<linebreak/>Deze procedure duurt minder dan 6 minuten.",
+      "title": "WBC-monsterfout"
+    },
+    "unmapped": {
+      "body": "<strong>Neem contact op met IDEXX-ondersteuning en geef de volgende informatie door:</strong> <shortlinebreak/>Fout: {{ error }} <shortlinebreak/>Aanbevolen actie: {{ action }} <shortlinebreak/>Opdracht: {{ command }}",
+      "title": "Onverwachte fout opgetreden."
+    }
+  },
+  "Crimson": {
+    "PressStartButton": {
+      "QC": {
+        "Line3": {
+          "EN": "<ol><li>Verwarm controlevloeistoffen minstens 15 minuten tot kamertemperatuur (18°-25°C).</li><li>Keer het QC-flesje rustig om totdat de cellen die op de bodem van het flesje zijn neergedaald, volledig zweven.<shortlinebreak/><strong>Opmerking:</strong> Plaats geen controlevloeistoffen op een mechanisch meng- of schudapparaat.</li><li>Plaats het buisje in de QC-buisadapter in de monsterlade.</li><li>Druk op <strong>Start</strong> op de analyzer.</li></ol>",
+          "SI": "1. Verwarm controlevloeistoffen minstens 15 minuten tot kamertemperatuur (18°-25°C).<br /><br />2. Keer het QC-flesje rustig om totdat de cellen die op de bodem van het flesje zijn neergedaald, volledig zweven.<br /><br />Opmerking: Plaats geen controlevloeistoffen op een mechanisch meng- of schudapparaat.<br /><br />3. Plaats het buisje in de QC-buisadapter in de monsterlade.<br /><br />4. Druk de <b>Start</b>-knop op de analysator."
+        }
+      }
+    }
+  },
+  "URISED": {
+    "ARM_MOVEMENT": {
+      "body": "Fout bij cassette-invoerhendel gedetecteerd.<linebreak/>Initialiseren en reinigen zou de fout op moeten lossen. Tik op te beginnen op <strong>Initialiseren</strong>.<linebreak/>Neem contact op met IDEXX-ondersteuning als de fout aanhoudt.",
+      "title": "Fout bij cassette-invoerhendel"
+    },
+    "CAMERA_ERROR": {
+      "body": "Camerafout. Neem contact op met IDEXX-ondersteuning.",
+      "title": "Camerafout"
+    },
+    "CENTRIFUGE_ARM_MISSING": {
+      "body": "Geen centrifugeerarm. Neem contact op met IDEXX-ondersteuning.",
+      "title": "Fout in centrifuge"
+    },
+    "CENTRIFUGE_ROTATION_ERROR": {
+      "body": "Rotatiefout centrifuge. Neem contact op met IDEXX-ondersteuning.",
+      "title": "Fout in centrifuge"
+    },
+    "CLEANING_RECOMMENDED": {
+      "body": "We adviseren om uw SediVue Dx Urine Sediment Analyzer eens per maand te reinigen.<linebreak/>Tik op <strong>Reinigen</strong> als u de analyzer nu wilt reinigen.<linebreak/>Tik op <strong>Mij later herinneren</strong> als u de herinnering 24 uur wilt uitstellen.<linebreak/>Tik op <strong>Afwijzen</strong> als de analyzer al schoon is.",
+      "title": "Reinigen aanbevolen"
+    },
+    "CUVETTE_COUNT_LOW": {
+      "body": "Resterende cassette(s): {{ 0 }}<linebreak/>U kunt de analyzer blijven gebruiken tot de huls leeg is.<linebreak/>Voor ononderbroken gebruik van uw analyzer controleert u of u extra cassettes op voorraad hebt.",
+      "title": "De SediVue-cassettehuls is bijna leeg"
+    },
+    "CUVETTE_COUNT_ZERO": {
+      "body": "De SediVue-cassettehuls is leeg.<linebreak/>Om de analyzer te gebruiken, moet u een nieuwe cassettehuls in de analyzer plaatsen.",
+      "title": "SediVue Dx-cassettehuls vervangen"
+    },
+    "CUVETTE_SENSOR_EMPTY": {
+      "body": "De SediVue-cassettehuls is leeg of de cassette is niet correct geladen.<linebreak/>Open de deur van de SediVue Dx en controleer of zich cassettes in de huls bevinden. Als er cassettes aanwezig zijn, tikt u voorzichtig tegen de huls en probeert u het opnieuw. Als er geen cassettes aanwezig zijn, moet u een nieuwe cassettehuls in de analyzer plaatsen.",
+      "title": "SediVue-cassette niet gedetecteerd"
+    },
+    "DOOR_OPEN": {
+      "body": "Deur moet gesloten zijn voordat u SediVue Dx gebruikt.",
+      "title": "Deur staat open"
+    },
+    "FEEDER_MOVEMENT": {
+      "body": "Fout bij cassette-invoerhendel gedetecteerd.<linebreak/>Initialiseren en reinigen zou de fout op moeten lossen. Tik op te beginnen op <strong>Initialiseren</strong>.<linebreak/>Neem contact op met IDEXX-ondersteuning als de fout aanhoudt.",
+      "title": "Fout bij cassette-invoerhendel"
+    },
+    "FOCUS_DLL_NOT_FOUND": {
+      "body": "Focus dll niet gevonden. Neem contact op met klantenondersteuning.",
+      "title": "Focusfout"
+    },
+    "FOCUS_FUNCTION_MISSING": {
+      "body": "Een van de focusfuncties ontbreekt. Neem contact op met IDEXX-ondersteuning.",
+      "title": "Focusfout"
+    },
+    "FOCUS_HOME_POSITION_ERROR": {
+      "body": "Fout in beginstand focus. Neem contact op met IDEXX-ondersteuning.",
+      "title": "Focusfout"
+    },
+    "GENERAL_COMMUNICATION_ERROR": {
+      "body": "Algemene communicatiefout. Neem contact op met klantenondersteuning.",
+      "title": "Communicatiefout"
+    },
+    "HOUSE_OPEN": {
+      "body": "Centrifugedeksel moet vervangen worden voordat u SediVue Dx gebruikt.",
+      "title": "Centrifugedeksel verwijderd"
+    },
+    "INSTRUMENT_PORT_OPEN_ERROR": {
+      "body": "Fout instrumentpoort open. Neem contact op met klantenondersteuning.",
+      "title": "Fout instrumentpoort"
+    },
+    "MEMORY_ALLOCATION_ERROR": {
+      "body": "Fout in geheugentoewijzing in berichtenmodule. Neem contact op met klantenondersteuning.",
+      "title": "Geheugenfout"
+    },
+    "MICROSCOPE_CTS_TIMEOUT": {
+      "body": "Time-out microscoop CTS. Neem contact op met klantenondersteuning.",
+      "title": "Microscoopfout"
+    },
+    "MICROSCOPE_THREAD_CREATION_ERROR": {
+      "body": "Fout bij aanmaak microscoopdraden. Neem contact op met IDEXX-ondersteuning.",
+      "title": "Fout bij aanmaak van draden"
+    },
+    "MOTY_MOVEMENT": {
+      "body": "Fout bij cassette-invoerhendel gedetecteerd.<linebreak/>Initialiseren en reinigen zou de fout op moeten lossen. Tik op te beginnen op <strong>Initialiseren</strong>.<linebreak/>Neem contact op met IDEXX-ondersteuning als de fout aanhoudt.",
+      "title": "Fout bij cassette-invoerhendel"
+    },
+    "PLATE_MISSING": {
+      "body": "De lekbak moet vervangen worden voordat u SediVue Dx gebruikt.",
+      "title": "Lekbak verwijderd"
+    },
+    "PORT_THREAD_NOT_STARTED": {
+      "body": "Poortdraad kan niet starten.",
+      "title": "Fout in poortdraad"
+    },
+    "PROTOCOL_CLASS_CREATION_ERROR": {
+      "body": "Fout bij aanmaak protocolklasse. Neem contact op met klantenondersteuning.",
+      "title": "Protocolfout"
+    },
+    "PROTOCOL_USAGE_UNDEFINED": {
+      "body": "Protocolgebruik niet gedefinieerd. Neem contact op met klantenondersteuning.",
+      "title": "Protocolfout"
+    },
+    "SERIAL_PORT_NOT_FOUND": {
+      "body": "Seriële poort niet gevonden. Neem contact op met klantenondersteuning.",
+      "title": "Seriële poort: fout"
+    },
+    "SERIAL_PORT_UNAVAILABLE": {
+      "body": "Geen seriële poort op PC. Neem contact op met klantenondersteuning.",
+      "title": "Seriële poort: fout"
+    },
+    "SMART_SERVICE_DISCONNECTED": {
+      "body": "SmartService is al meer dan 5 dagen niet verbonden. Verbind SmartService opnieuw om een optimale ervaring met uw SediVue Dx te verzekeren.",
+      "title": "SmartService niet verbonden"
+    },
+    "SYSTEM_REBOOT_RECOMMENDED": {
+      "body": "IDEXX adviseert om uw SediVue Dx analyzer maandelijks opnieuw te starten voor optimale prestaties.<linebreak/>Wilt u de analyzer nu opnieuw starten?\n",
+      "title": "Herstarten aanbevolen"
+    },
+    "TOO_MANY_SERIAL_PORTS_DEFINED": {
+      "body": "Te veel seriële poorten gedefinieerd in ini. Neem contact op met klantenondersteuning.",
+      "title": "Seriële poort: fout"
+    },
+    "UPDATE_AVAILABLE": {
+      "body": "U kunt de analyzer op elk moment upgraden via de optie Software upgraden op het scherm Instrumenten van SediVue Dx.",
+      "noUpgradeWarning": "Als u niet voor {{ dateFormat }} een upgrade uitvoert voor de analyzer, wordt de upgrade automatisch geïnstalleerd.",
+      "title": "Software-upgradeversie {{ version }} gereed voor installatie."
+    },
+    "UPDATE_FAILED": {
+      "body": "Upgrade van SediVue Dx Analyzer is niet geslaagd. Herhaal de upgradeprocedure nu of gebruik optie Software upgraden op zijtabblad Instrumenten van SediVue Dx.<linebreak/>Neem contact op met IDEXX-ondersteuning als het probleem aanhoudt.",
+      "title": "Softwareupgrade niet geslaagd"
+    },
+    "UPDATE_FAILED_CATASTROPHIC": {
+      "body": "Neem contact op met IDEXX-ondersteuning voor hulp.",
+      "title": "Softwareupgrade niet geslaagd"
+    },
+    "WAKE_ON_LAN_FAILURE_TIMEOUT": {
+      "body": "Schakel de analyzer uit als deze al aan staat. Controleer of de analyzer is aangesloten op de IDEXX VetLab-router.<linebreak/>Druk vervolgens <strong>op de aan/uit-knop</strong> op de analyzer om de analyzer in te schakelen.<linebreak/>Neem contact op met IDEXX-ondersteuning als het probleem aanhoudt.",
+      "title": "SediVue Dx niet gedetecteerd"
+    }
+  },
+  "URISYS_DX": {
+    "E1_REFERENCE_PAD_ERROR_MIDDLE_ERROR": {
+      "body": "De striplade is vuil of beschadigd.<shortlinebreak /><ol><li>Haal de striplade uit de analyzer.</li><li>Reinig het witte referentieblok met alcohol en een pluisvrij doekje.</li><li>Plaats de striplade weer in de analyzer en voer de analyse opnieuw uit.</li></ol>Vervang de striplade of neem contact op met IDEXX-ondersteuning als het probleem aanhoudt.",
+      "title": "Fout met referentieblok"
+    },
+    "E2_WRONG_STRIP_ERROR": {
+      "body": "Bij kalibreren:<shortlinebreak /><ol><li>Voer opnieuw uit met een IDEXX-kalibratiestrip.</li><li>Zorg dat de strip correct in de striplade is geplaatst.</li></ol>Bij uitvoeren van analyse:<shortlinebreak /><ol><li>Voer opnieuw uit met een IDEXX-teststrip.</li><li>Zorg dat voldoende van het monster is aangebracht op de strip.</li><li>Zorg dat de strip correct in de striplade is geplaatst.</li></ol>Neem contact op met de ondersteuning van IDEXX als het probleem aanhoudt.",
+      "title": "Fout met strip"
+    },
+    "E3_STRIP_MEASUREMENT_ERROR": {
+      "body": "<ol><li>Voer opnieuw uit met een IDEXX-teststrip.</li><li>Zorg dat voldoende van het monster is aangebracht op de strip.</li><li>Zorg dat de strip correct in de lade is geplaatst.</li></ol><strong>Bij een monster dat donker is van kleur:</strong><shortlinebreak />Centrifugeer het monster en voer de analyse opnieuw uit met het supernatant en een nieuwe teststrip.<linebreak />Neem contact op met IDEXX-ondersteuning als de fout aanhoudt.",
+      "title": "Meetfout"
+    },
+    "E4_CALIBRATION_ERROR": {
+      "body": "Kalibratie van analyzer is niet geslaagd. Neem contact op met IDEXX-ondersteuning voor hulp.",
+      "title": "Kalibratiefout"
+    },
+    "E5_CALIBRATION_INVALID_ERROR": {
+      "body": "Kalibratie van analyzer is niet geslaagd. Neem contact op met IDEXX-ondersteuning voor hulp.",
+      "title": "Kalibratiefout"
+    },
+    "E7_MISSING_TRAY_ERROR": {
+      "body": "De striplade is niet of niet goed geplaatst.<shortlinebreak /><ol><li>Plaats de striplade opnieuw.</li><li>Tik op <strong>Initialiseren</strong>.</li><li>Vervang de striplade door een nieuwe lade als het probleem aanhoudt.</li></ol>Neem contact op met de ondersteuning van IDEXX als het probleem aanhoudt.",
+      "title": "Striplade ontbreekt"
+    },
+    "E8_TRAY_POSITION_ERROR": {
+      "body": "De striplade is beschadigd, vuil of niet goed geplaatst.<shortlinebreak /><ol><li>Haal de striplade uit de analyzer.</li><li>Reinig de lade met alcohol en een pluisvrij doekje.</li><li>Plaats de striplade weer in de analyzer en tik op <strong>Initialiseren</strong>.</li><li>Tik op het patiëntpictogram om de analyse opnieuw uit te voeren.</li></ol>Vervang de striplade door een nieuwe lade of neem contact op met IDEXX-ondersteuning als het probleem aanhoudt.",
+      "title": "Fout met striplade"
+    },
+    "E9_WRONG_TRAY_ERROR": {
+      "body": "<ol><li>Vervang de striplade door een nieuwe lade.</li><li>Tik op <strong>Initialiseren</strong>.</li></ol>Neem contact op met de ondersteuning van IDEXX als het probleem aanhoudt.",
+      "title": "Striplade onjuist"
+    },
+    "E10_LIGHT_BARRIER_ERROR": {
+      "body": "<ol><li>Haal de striplade uit de analyzer.</li><li>Reinig de lade met alcohol en een pluisvrij doekje.</li><li>Plaats de striplade weer in de analyzer en tik op <strong>Initialiseren</strong>.</li></ol>Vervang de striplade door een nieuwe lade of neem contact op met IDEXX-ondersteuning als het probleem aanhoudt.",
+      "title": "Fout met lichtbarrière"
+    },
+    "E11_MOTOR_STEP_ERROR": {
+      "body": "De striplade beweegt niet goed.<shortlinebreak /><ol><li>Haal de striplade uit de analyzer.</li><li>Reinig de lade met alcohol en een pluisvrij doekje.</li><li>Plaats de striplade weer in de analyzer en tik op <strong>Initialiseren</strong>.</li></ol>Vervang de striplade door een nieuwe lade of neem contact op met IDEXX-ondersteuning als het probleem aanhoudt.",
+      "title": "Fout met motorstap"
+    },
+    "E12_OPTICS_ERROR": {
+      "body": "<ol><li>Haal de striplade uit de analyzer en plaats een nieuwe striplade.</li><li>Tik op <strong>Initialiseren</strong>.</li></ol>Neem contact op met IDEXX-ondersteuning als de fout aanhoudt.",
+      "title": "Optische fout"
+    },
+    "E15_REFERENCE_PAD_BOTTOM_ERROR": {
+      "body": "De striplade is vuil of beschadigd.<shortlinebreak /><ol><li>Haal de striplade uit de analyzer.</li><li>Reinig het witte referentieblok met alcohol en een pluisvrij doekje.</li><li>Plaats de striplade weer in de analyzer en voer de analyse opnieuw uit.</li></ol>Vervang de striplade of neem contact op met IDEXX-ondersteuning als het probleem aanhoudt.",
+      "title": "Fout met referentieblok"
+    },
+    "E16_REFERENCE_PAD_TOP_ERROR": {
+      "body": "De striplade is vuil of beschadigd.<shortlinebreak /><ol><li>Haal de striplade uit de analyzer.</li><li>Reinig het witte referentieblok met alcohol en een pluisvrij doekje.</li><li>Plaats de striplade weer in de analyzer en voer de analyse opnieuw uit.</li></ol>Vervang de striplade of neem contact op met IDEXX-ondersteuning als het probleem aanhoudt.",
+      "title": "Fout met referentieblok"
+    },
+    "E24_COMP_PAD_REMISSIONS_OUT_OF_RANGE_ERROR": {
+      "body": "Voer opnieuw uit met een nieuwe teststrip en zorg er daarbij voor dat de strip voldoende monster bevat en correct in de striplade is geplaatst.<linebreak /><strong>Bij een monster dat donker is van kleur</strong>:<shortlinebreak />Centrifugeer het monster en voer de analyse opnieuw uit met het supernatant en een nieuwe teststrip.<linebreak />Neem contact op met IDEXX-ondersteuning als de fout aanhoudt.",
+      "title": "Resultaat buiten bereik"
+    },
+    "E25_SYSTEM_EPROM_ERROR": {
+      "body": "Start de UA-analyzer opnieuw op:<shortlinebreak /><ol><li>Tik op <strong>Afsluiten</strong> om de UA-analyzer uit te schakelen.</li><li>Wacht 60 seconden en schakel de UA-analyzer in via de aan/uit-knop rechts op de analyzer.</li></ol>Neem contact op met IDEXX-ondersteuning als het probleem aanhoudt.",
+      "title": "Opnieuw opstarten vereist"
+    },
+    "E27_USER_CALIBRATION_IS_REQUIRED_ERROR": {
+      "body": "Voor blijvend correcte resultaten moet de UA-analyzer elke 7 dagen worden gekalibreerd.<shortlinebreak />Tik op <strong>Kalibreren</strong> om met de wekelijkse kalibratie te beginnen.",
+      "title": "Kalibratie vereist"
+    },
+    "E29_DATABASE_ERROR": {
+      "body": "Start de UA-analyzer opnieuw op:<shortlinebreak /><ol><li> Tik op <strong>Afsluiten</strong> om de UA-analyzer uit te schakelen.</li><li>Wacht 60 seconden en schakel de UA-analyzer in via de aan/uit-knop rechts op de analyzer.</li></ol>Neem contact op met IDEXX-ondersteuning als het probleem aanhoudt.",
+      "title": "Opnieuw opstarten vereist"
+    },
+    "E30_SYSTEM_INITIALIZATION_ERROR": {
+      "body": "Start de UA-analyzer opnieuw op:<shortlinebreak /><ol><li>Tik op <strong>Afsluiten</strong> om de UA-analyzer uit te schakelen.</li><li>Wacht 60 seconden en schakel de UA-analyzer in via de aan/uit-knop rechts op de analyzer.</li></ol>Neem contact op met IDEXX-ondersteuning als het probleem aanhoudt.",
+      "title": "Opnieuw opstarten vereist"
+    },
+    "E33_SYSTEM_ERROR": {
+      "body": "Start de UA-analyzer opnieuw op:<shortlinebreak /><ol><li>Tik op <strong>Afsluiten</strong> om de UA-analyzer uit te schakelen.</li><li>Wacht 60 seconden en schakel de UA-analyzer in via de aan/uit-knop rechts op de analyzer.</li></ol>Neem contact op met IDEXX-ondersteuning als het probleem aanhoudt.",
+      "title": "Opnieuw opstarten vereist"
+    },
+    "E100_POWERSUPPLY_ERROR": {
+      "body": "De UA-analyzer <strong>afsluiten</strong>:<ol><li>Tik op <strong>Afsluiten</strong> om de UA-analyzer uit te schakelen.</li><li>Controleer of de juiste netvoeding is aangesloten en of de aansluiting stevig vastzit in zowel de voedingspoort op de achterzijde van de analyzer als het stopcontact.</li><li>Wacht 60 seconden en schakel de UA-analyzer in via de aan/uit-knop rechts op de analyzer.</li></ol>Neem contact op met IDEXX-ondersteuning als het probleem aanhoudt.",
+      "title": "Opnieuw opstarten en inspectie van kabels vereist"
+    },
+    "UPDATE_AVAILABLE": {
+      "body": "Als u ervoor kiest de installatie later uit te voeren, kunt u de analyzer op elk moment upgraden op het Instrumenten-scherm van de UA Analyzer.",
+      "title": "Software-upgradeversie {{ version }} gereed voor installatie."
+    },
+    "UPDATE_FAILED": {
+      "body": "Upgrade van UA Analyzer is niet geslaagd. Herhaal de upgradeprocedure nu of ga naar het Instrumenten-scherm van de UA Analyzer.<linebreak/>Neem contact op met IDEXX-ondersteuning als het probleem aanhoudt.",
+      "title": "Softwareupgrade niet geslaagd"
+    },
+    "UPDATE_FAILED_CATASTROPHIC": {
+      "body": "Bel IDEXX-ondersteuning voor hulp.",
+      "title": "Softwareupgrade niet geslaagd"
+    }
+  },
+  "THEIA": {
+    "INST_TEMP_LOW": {
+      "body": "De temperatuur van de analyzer is te laag om een run op het monster uit te voeren. Wacht tot de analyzer is opgewarmd of controleer de kamertemperatuur.<linebreak/>Neem contact op met IDEXX-ondersteuning als het probleem aanhoudt."
+    },
+    "INST_TEMP_HIGH": {
+      "body": "De temperatuur van de analyzer is te hoog om een run op het monster uit te voeren. Zorg dat de luchtdoorstroming rondom de analyzer toereikend is.<linebreak/>Neem contact op met IDEXX-ondersteuning als het probleem aanhoudt."
+    },
+    "INVALID_CONSUMABLES": {
+      "body": "Dit lijkt niet een IDEXX InVue Dx-cassette te zijn. Analyseer het monster opnieuw met een IDEXX-cassette."
+    },
+    "EXPIRED_CONSUMABLES": {
+      "body": "De uiterste gebruiksdatum van de cassette is verstreken. Analyseer het monster opnieuw met een verse cassette waarvan de uiterste gebruiksdatum niet is verstreken."
+    },
+    "BARCODE_READ_FAILURE": {
+      "body": "De barcode kan niet worden gelezen. Controleer of de barcode niet is beschadigd of wordt geblokkeerd, maak de barcode schoon of voer de barcode handmatig in."
+    },
+    "INCORRECT_TEST_TYPE_MANUAL": {
+      "body": "De barcode komt niet overeen met het geselecteerde testtype. Voer de juiste barcode in."
+    },
+    "INCORRECT_TEST_TYPE": {
+      "body": "Dit is niet de juiste cassette voor het geselecteerde type test. Analyseer het monster opnieuw met de juiste cassette."
+    },
+    "SAMPLE_OVER_TEMP": {
+      "body": "De temperatuur van het systeem is te hoog tijdens het analyseren van het monster. Raadpleeg de bedieningshandleiding om de omgeving op de juiste temperatuur te brengen voor de analyse van het monster met inVue."
+    },
+    "SAMPLE_UNDER_TEMP": {
+      "body": "De temperatuur van het systeem is te laag tijdens het analyseren van het monster. Raadpleeg de bedieningshandleiding om de omgeving op de juiste temperatuur te brengen voor de analyse van het monster met inVue."
+    },
+    "IMPROPER_SAMPLE_PREPARATION": {
+      "body": "Mogelijk bevat het monster geen reagens. Bereid een nieuw monster en voer de analyse opnieuw uit.<linebreak/>Neem contact op met IDEXX-ondersteuning als het probleem aanhoudt."
+    },
+    "SAMPLE_CELLULARITY_HIGH": {
+      "body": "Het monster kan niet worden geanalyseerd. Bereid een nieuw monster en voer de analyse opnieuw uit."
+    },
+    "MOTION_ERROR_CARTRIDGE": {
+      "body": "De cassette is niet correct geplaatst. Plaats de cassette opnieuw.<linebreak/>Neem contact op met IDEXX-ondersteuning als het probleem aanhoudt."
+    },
+    "MOTION_ERROR_MICROSCOPE": {
+      "body": "De microscoop is niet correct geplaatst. Plaats de cassette opnieuw.<linebreak/>Neem contact op met IDEXX-ondersteuning als het probleem aanhoudt."
+    },
+    "UNKNOWN_ERROR": {
+      "body": "De analyse is afgebroken.<linebreak/>Neem contact op met IDEXX-ondersteuning als het probleem aanhoudt."
+    }
+  },
+  "default": {
+    "message": "Instrument heeft melding aangegeven. Zie instrument voor meer informatie."
+  },
+  "buttons": {
+    "start": "Starten",
+    "powerOnProCyteDx": "ProCyte Dx inschakelen",
+    "performClean": "Reiniging uitv."
+  },
+  "defaultActionButtons": {
+    "ASPIRATION_UNIT_MOTOR": "Aspiratiemotor opnw. instellen",
+    "CALIBRATE": "Kalibreren",
+    "CANCEL": "Annuleren",
+    "CANCEL_RUN": "Analyse annuleren",
+    "CHANGE_REAGENT": "Reagens wijz.",
+    "CHANGE_STAIN": "Kleuring wijz.",
+    "CLEAN": "Reinigen",
+    "CLEAR_PINCH_VALUE": "Knijpventiel reinigen",
+    "CLOSE": "Sluiten",
+    "CONFIGURE": "Configureren",
+    "CONNECT": "Verbinden",
+    "CONTINUE": "Doorgaan",
+    "DISMISS": "Afwijzen",
+    "DRAIN_REACTION_CHAMBER": "Reactiekamer legen",
+    "DRAIN_WASTE_CHAMBER": "Afvalkamer legen",
+    "ENTER_REAGENT_BARCODE": "Handmatig invoeren",
+    "ENTER_SHEATH_BARCODE": "Handmatig invoeren",
+    "FILTER_INSTRUCTIONS": "Filterinstructies",
+    "FINISH": "Voltooien",
+    "INITIALIZE": "Initialiseren",
+    "OK": "OK",
+    "OK_REMOVE": "OK",
+    "OPTIMIZE_LATER": "Later optimaliseren",
+    "OPTIMIZE_NOW": "Nu optimaliseren",
+    "PINCH_VALVE": "Knijpventiel reinigen",
+    "POWER_DOWN": "Afsluiten",
+    "REBOOT_INSTRUMENT": "Herstarten",
+    "REMIND_ME_LATER": "Mij later herinneren",
+    "REMIND_ME_NEXT_RUN": "Herinn. volg. verwerking",
+    "REMIND_ME_WHEN_EMPTY": "Herinn. als leeg",
+    "REMOVE_CLOGS": "Verstopping verwijderen",
+    "REPLACE_CUVETTES": "Cassettes verv.",
+    "REPLACE_FILTER": "Filter vervangen",
+    "REPLACE_REAGENT": "Reagens vervangen",
+    "REPLACE_SHEATH": "Systeemreagens vervangen",
+    "REPLACE_SMART_QC": "SmartQC vervangen",
+    "RESET_AIR_PUMP": "Luchtpomp opnw. instellen",
+    "RESET_SHEATH_MOTOR": "Reagensmotor opnw. instellen",
+    "RESET_WB_MOTOR": "WB-motor opnw. instellen",
+    "RINSE_FLOW_CELL": "Stroomcel spoelen",
+    "AUTO_RINSE": "Autom. spoeling uitvoeren",
+    "RUN_BLEACH_CLEAN": "Reiniging met bleekmiddel uitvoeren",
+    "MONTHLY_RINSE": "Maand. spoeling uitvoeren",
+    "START_PRIME": "Doorspoelen starten",
+    "TUBE_HOLDER_MOTOR": "Buisjesmotor opnw. instellen",
+    "UPGRADE": "Upgraden",
+    "UPGRADE_LATER": "Later upgraden",
+    "UPGRADE_SOFTWARE": "Nu upgraden",
+    "PRINT": "Printen",
+    "FORCE_RUN": "Negeren",
+    "ENTER_THEIA_BARCODE": "Streepjescode invoeren"
+  },
+  "QualityControl": {
+    "PatientName": {
+      "Level1": "ProCyte Dx QC-niveau 1",
+      "Level2": "ProCyte Dx QC-niveau 2"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "@viewpoint/spot-icons",
+  "version": "1.0.2",
+  "description": "",
+  "main": "src/index.js",
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "4.8.2"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IDEXX/viewpoint.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IDEXX/viewpoint/issues"
+  },
+  "homepage": "https://github.com/IDEXX/viewpoint#readme",
+  "dependencies": {
+    "@idexx/spot": "2.1.0"
+  }
+}

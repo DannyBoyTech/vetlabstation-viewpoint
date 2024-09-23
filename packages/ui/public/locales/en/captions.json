@@ -1,0 +1,30 @@
+{
+  "welcomeVideo": {
+    "welcome": "Welcome to your new IDEXX VetLab Station",
+    "becoming_familiar": "Becoming familiar with the home screen",
+    "analyzer_icons": "Analyzer icons indicate the status of your in-house diagnostic analyzers",
+    "home_button": "In the top left corner the Home button will always return you to the Home screen",
+    "gear_icon": "In the top right corner the Gear icon provides access to",
+    "gear_icon_list": "Instrument screens, Settings, Message Center, Help, and the ability to Power Down or Restart",
+    "pending_list": "If you have a pending PIMS request, tap the Pending request in the list",
+    "search_pending_list": "or tap the magnifying lens to search through the Pending List.",
+    "analyze_sample": "You could also tap the “+” icon to Analyze Sample directly from the IDEXX VetLab Station",
+    "running_sample": "Running a sample",
+    "patient_info": "Patient information and lab request details are shown along the left",
+    "select_analyzers": "Select the desired analyzers to be run",
+    "tap_run": "Tap Run",
+    "in_process_display": "In-Process column on the Home screen now displays analyzer progress indicators",
+    "results_column": "Results populate in the Results column as they complete",
+    "new_results_popup": "New Results pop up will appear in the lower left corner",
+    "tap_new_results_popup": "Tap the pop up or the desired results in the Results list to view your diagnostic results",
+    "results_patient_signalment": "On the Results screen, the patient signalment information will be outlined at the top of the screen",
+    "diagnostic_results": "Diagnostic Results are laid out below",
+    "service_category_icons": "Tap service category icons to jump directly to viewing a specific service category",
+    "historical_results": "Historical results for the patient can be accessed along the top by tapping the various dates available",
+    "differentials": "Differentials containing diagnostic information can be accessed by clicking the ‘book’ icons",
+    "add_test": "To add further diagnostics for the patient, Tap Add Test",
+    "print": "Tap the Print icon to print results",
+    "tap_to_go_home": "Tap the upper left logo to return to the Home screen",
+    "creating_clarity": "Creating Clarity"
+  }
+}

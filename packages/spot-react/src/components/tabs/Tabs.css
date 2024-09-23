@@ -1,0 +1,9 @@
+.spot-tabs--scrollable-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.spot-tabs--scrollable-content .spot-tabs__content {
+  overflow-y: auto;
+}

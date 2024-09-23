@@ -1,0 +1,19 @@
+@import "@idexx/spot/dist/spot_library.min.css";
+@import "./style/sora.css";
+@import "./style/roboto.css";
+@import "./style/global-spot-overrides.css";
+
+/* The following CSS is applied to prevent user selection most of the app.
+ * technically, chrome (incorrectly) allows user-select to be inherited, so
+ * you might be tempted to use `body` as a selector and be done with it. 
+ * That didn't work consistently in practice, so we apply to everything 
+ * except the things we want to be editable.
+ */
+*:not(input, textarea, [contenteditable="true"]) {
+  user-select: none;
+}
+
+/* Remove the default 8px margin applied to body elements */
+body {
+  margin: 0;
+}
